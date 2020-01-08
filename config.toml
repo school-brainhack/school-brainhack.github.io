@@ -1,11 +1,11 @@
 baseurl = "https://unruffled-lumiere-31160d.netlify.com/"
-title = "Universal"
+title = "BrainHack School"
 theme = "hugo-universal-theme"
 languageCode = "en-us"
 # Site language. Available translations in the theme's `/i18n` directory.
 defaultContentLanguage = "en"
 # Enable comments by entering your Disqus shortname
-disqusShortname = "devcows"
+disqusShortname = ""
 # Enable Google Analytics by entering your tracking code
 googleAnalytics = ""
 
@@ -23,8 +23,8 @@ paginate = 10
     weight = 1
 
 [[menu.main]]
-    identifier="blog"
-    name = "Blog"
+    identifier="Schedule"
+    name = "Schedule"
     url  = "/blog/"
     weight = 2
 
@@ -35,47 +35,54 @@ paginate = 10
     weight = 3
 
 [[menu.main]]
+    identifier = "Tutorials"
+    name = "Tutorials"
+    url  = "/tutorials/"
+    weight = 3
+
+[[menu.main]]
     identifier = "contact"
     name = "Contact"
     url  = "/contact/"
     weight = 4
+
+[[menu.main]]
+    identifier = "coc"
+    name = "Code of Conduct"
+    url  = "/coc/"
+    weight = 5
+
 
 # Top bar social links menu
 
 [[menu.topbar]]
     weight = 1
     name = "GitHub"
-    url = "https://github.com/devcows/hugo-universal-theme"
+    url = "https://github.com/brainhackMTL/school/"
     pre = "<i class='fab fa-2x fa-github'></i>"
-
-[[menu.topbar]]
-    weight = 2
-    name = "Facebook"
-    url = "http://facebook.com"
-    pre = "<i class='fab fa-2x fa-facebook'></i>"
 
 [[menu.topbar]]
     weight = 3
     name = "Twitter"
-    url = "http://twitter.com"
+    url = "http://twitter.com/brainhackMTL"
     pre = "<i class='fab fa-2x fa-twitter'></i>"
 
 [[menu.topbar]]
     weight = 4
     name = "Email"
-    url = "mailto:your@email.com"
+    url = "mailto:info@bhs.com"
     pre = "<i class='fas fa-2x fa-envelope'></i>"
 
 [params]
     viewMorePostLink = "/blog/"
-    author = "DevCows"
-    defaultKeywords = ["devows", "hugo", "go"]
+    author = "BHS"
+    defaultKeywords = ["BrainHack", "Neuroscience"]
     mainSections = ["blog"]
     defaultDescription = "Site template made by devcows using hugo"
 
     # Social media
     facebook_site = "" # the Facebook handle of your site ('https://www.facebook.com/HANDLE')
-    twitter_site = "GoHugoIO" # the Twitter handle of your site (without the '@')
+    twitter_site = "BrainhackMTL" # the Twitter handle of your site (without the '@')
     default_sharing_image = "img/sharing-default.png"
 
     # Google Maps API key (if not set will default to not passing a key.)
@@ -101,24 +108,22 @@ paginate = 10
     contact_form_ajax = false
 
     about_us = "<p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p>"
-    copyright = "Copyright (c) 2015 - 2016, YourCompany; all rights reserved."
+    copyright = "Copyright (c) 2020, BrainHack School; all rights reserved."
 
     # Format dates with Go's time formatting
     date_format = "January 2, 2006"
 
     logo = "img/logo.png"
     logo_small = "img/logo-small.png"
-    address = """<p class="text-uppercase"><strong>Universal Ltd.</strong>
-        <br>13/25 New Avenue
-        <br>Newtown upon River
-        <br>45Y 73J
-        <br>England
+    address = """<p class="text-uppercase"><strong>BrainHack School</strong>
         <br>
-        <strong>Great Britain</strong>
+        <br>Montreal
+        <br>
+        <strong>Canada</strong>
       </p>
       """
-    latitude = "-12.043333"
-    longitude = "-77.028333"
+    latitude = "45.50884"
+    longitude = "-73.58781"
 
 [Permalinks]
     blog = "/blog/:year/:month/:day/:filename/"
@@ -126,8 +131,7 @@ paginate = 10
 # Enable or disable top bar with social icons
 [params.topbar]
     enable = true
-    text = """<p class="hidden-sm hidden-xs">Contact us on +420 777 555 333 or hello@universal.com.</p>
-      <p class="hidden-md hidden-lg"><a href="#" data-animate-hover="pulse"><i class="fas fa-phone"></i></a>
+    text = """<p class="hidden-md hidden-lg"><a href="#" data-animate-hover="pulse"><i class="fas fa-phone"></i></a>
       <a href="#" data-animate-hover="pulse"><i class="fas fa-envelope"></i></a>
       </p>
       """
@@ -171,7 +175,7 @@ paginate = 10
     # All clients are defined in their own files. You can find example items
     # at 'exampleSite/data/clients'.
     # For more informtion take a look at the README.
-    title = "Our Clients"
+    title = "Our Students"
     subtitle = ""
 
 [params.recent_posts]
