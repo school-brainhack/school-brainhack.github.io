@@ -148,8 +148,14 @@ paginate = 10
     # at 'exampleSite/data/carousel'.
     # For more informtion take a look at the README.
 
-[params.features]
+[params.instructors]
     enable = true
+    # All features are defined in their own files. You can find example items
+    # at 'exampleSite/data/features'.
+    # For more informtion take a look at the README.
+
+[params.features]
+    enable = false
     # All features are defined in their own files. You can find example items
     # at 'exampleSite/data/features'.
     # For more informtion take a look at the README.
@@ -165,8 +171,8 @@ paginate = 10
 [params.see_more]
     enable = true
     icon = "far fa-file-alt"
-    title = "Cognitive Neuroscience, machine learning and informatics"
-    subtitle = ""
+    title = "Project-based, transdisciplinary training"
+    subtitle = "Neuroscience, Statistical Modelling and Computer Science"
     link_url = "/register"
     link_text = "Register Now"
 

@@ -12,6 +12,12 @@
 .navbar-header:after {
   clear: both;
 }
+.instructor-img {
+  float: center;
+  width: 130px;
+  border-radius: 65px;
+  margin-left: 10px;
+}
 .center-block {
   display: block;
   margin-left: auto;
