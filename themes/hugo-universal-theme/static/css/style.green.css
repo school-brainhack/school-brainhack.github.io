@@ -1152,7 +1152,7 @@ fieldset[disabled] .btn-template-primary.active {
 }
 .home-carousel {
   position: relative;
-  background: url('../img/photogrid.jpg') center center repeat;
+  background: url('../img/brainhackSchool.jpg') center center repeat;
   background-size: cover;
   -webkit-transition: all 0.2s ease-out;
   -moz-transition: all 0.2s ease-out;
@@ -1164,8 +1164,8 @@ fieldset[disabled] .btn-template-primary.active {
   left: 0;
   width: 100%;
   height: 100%;
-  background: #6aae7a;
-  opacity: 0.9;
+  background: #000000;
+  opacity: 0.6;
   filter: alpha(opacity=90);
 }
 .home-carousel .owl-carousel {
@@ -1764,7 +1764,7 @@ fieldset[disabled] .btn-template-primary.active {
   padding: 60px 0;
 }
 .bar.background-pentagon {
-  background: url('../img/texture-green.png') center center repeat;
+  background: #ffffff;
   border-top: solid 1px #999999;
   border-bottom: solid 1px #999999;
 }
@@ -1787,6 +1787,12 @@ fieldset[disabled] .btn-template-primary.active {
   background-attachment: fixed;
   background-size: cover;
 }
+.bar.background-image-BHS {
+  background: url('../img/brain.jpg') center top no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
 .bar.color-white h1,
 .bar.color-white h2,
 .bar.color-white h3,

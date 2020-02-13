@@ -1,4 +1,6 @@
-text: "One morning, when Gregor Samsa woke from troubled dreams, he found himself transformed in his bed into a horrible vermin. He lay on his armour-like back, and if he lifted his head a little he could see his brown belly, slightly domed and divided by arches into stiff sections."
-name: "John McIntyre"
-position: "CEO, TransTech"
-avatar: "img/testimonials/person-1.jpg"
+text: "My advice on learning python:
+
+  Don't set out to \"learn python\". Choose a problem you're interested in and learn to solve it with Python."
+name: "Jake VanderPlas"
+link: "https://twitter.com/jakevdp"
+avatar: "img/testimonials/jakevdp.jpg"

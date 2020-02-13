@@ -1,0 +1,9 @@
+weight: 0
+title: "Neural Data science"
+description: >
+  <ul class="list-style-none">
+    <li>Cognitive neuroscience</li>
+    <li>Statistical modeling</li>
+    <li>Computer science</li>
+  </ul>
+image: "img/carousel/fig_data_science.png"
