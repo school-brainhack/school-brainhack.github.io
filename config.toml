@@ -29,21 +29,15 @@ paginate = 10
     weight = 2
 
 [[menu.main]]
-    identifier = "faq"
-    name = "FAQ"
-    url  = "/faq/"
+    identifier = "Locations"
+    name = "Locations"
+    url  = "/locations/"
     weight = 3
 
 [[menu.main]]
-    identifier = "Tutorials"
-    name = "Tutorials"
-    url  = "/tutorials/"
-    weight = 3
-
-[[menu.main]]
-    identifier = "contact"
-    name = "Contact"
-    url  = "/contact/"
+    identifier = "Register"
+    name = "Register"
+    url  = "/register/"
     weight = 4
 
 [[menu.main]]
