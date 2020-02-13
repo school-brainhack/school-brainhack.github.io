@@ -165,8 +165,8 @@ paginate = 10
 [params.see_more]
     enable = true
     icon = "far fa-file-alt"
-    title = "Brainhack School"
-    subtitle = "Montreal, May 11th - June 5th"
+    title = "Cognitive Neuroscience, machine learning and informatics"
+    subtitle = ""
     link_url = "/register"
     link_text = "Register Now"
 
