@@ -12,6 +12,15 @@
 .navbar-header:after {
   clear: both;
 }
+#content img {
+  display: block;
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
 .instructor-img {
   float: center;
   width: 130px;
@@ -314,7 +323,6 @@ ul.list-style-none {
 }
 .navbar ul.nav > li > a {
   text-transform: uppercase;
-  text-decoration: underline;
   font-weight: bold;
   letter-spacing: 0.08em;
   border-top: solid 5px transparent;

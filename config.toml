@@ -25,7 +25,7 @@ paginate = 10
 [[menu.main]]
     identifier="Schedule"
     name = "Schedule"
-    url  = "/blog/"
+    url  = "/schedule/"
     weight = 2
 
 [[menu.main]]
