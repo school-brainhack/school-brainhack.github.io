@@ -4,7 +4,6 @@ description = ""
 keywords = ["coc", "conduct"]
 +++
 
-# CODE OF CONDUCT
 Brainhack is dedicated to providing  an environment where people are kind and respectful to each other, a harassment-free Brainhack experience for everyone, regardless of gender, gender identity and expression, sexual orientation, disability, physical appearance, body size, race, age or religion. We do not tolerate harassment of event participants in any form. Sexual language and imagery is not appropriate for any event venue, including talks. Brainhack participants violating these rules may be sanctioned or expelled from the event without a refund at the discretion of the event organizers.
 
 This could really be the end of that code of conduct, but some forms of harassment and negative behavior are fairly hard to identify at first. Please read carefully through the rest of the document to make sure you avoid them. There is also a section to know what to do and expect if you experience behavior that deviates from this code of conduct. 
@@ -46,8 +45,3 @@ If someone makes you or anyone else feel unsafe or unwelcome, please report it a
 brainhackorg@gmail.com
 Harassment and other code of conduct violations reduce the value of our event for everyone. We want you to be happy at our event. People like you make our event a better place.
 You can make a report either with your personal email or using an anonymous email.
-
-
----
-
-> In case you haven't found the answer for your question please feel free to contact us, our customer support will be happy to help you.
