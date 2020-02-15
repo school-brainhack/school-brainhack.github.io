@@ -1,4 +1,5 @@
-{{ if isset .Site.Params "instructors" }}
+
+{ if isset .Site.Params "instructors" }}
 {{ if .Site.Params.instructors.enable }}
 {{ if gt (len .Site.Data.instructors) 0 }}
 <section class="bar background-white">
