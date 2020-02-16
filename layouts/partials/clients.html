@@ -1,7 +1,9 @@
 {{ if isset .Site.Params "clients" }}
 {{ if .Site.Params.clients.enable }}
-{{ if gt (len .Site.Data.clients) 0 }}
-<section class="bar background-gray no-mb">
+{{ $myData := (index .Site.Data .Lang) }}
+{{ if $myData }}
+{{ if (isset $myData "carousel" ) }}
+{{ if gt (len $myData.carousel) 0 }}<section class="bar background-gray no-mb">
     <div class="container">
         <div class="row">
             <div class="col-md-12">
@@ -14,14 +16,14 @@
                 </p>
 
                 <ul class="owl-carousel customers">
-                    {{ range .Site.Data.clients }}
+                    {{ range $myData.clients }}
                     <li class="item" title="{{ .name }}">
                         {{ if .url }}
                           <a href="{{ .url }}" target="_blank">
-                            <img src="{{ .image }}" alt="{{ .name }}" class="img-responsive" />
+                            <img src="{{ .image | absURL }}" alt="{{ .name }}" class="img-responsive" />
                           </a>
                         {{ else }}
-                          <img src="{{ .image }}" alt="{{ .name }}" class="img-responsive" />
+                          <img src="{{ .image | absURL }}" alt="{{ .name }}" class="img-responsive" />
                         {{ end }}
                     </li>
                     {{ end }}
@@ -34,3 +36,5 @@
 {{ end }}
 {{ end }}
 {{ end }}
+{{end}}
+{{end}}

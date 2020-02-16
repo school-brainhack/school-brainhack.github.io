@@ -1,21 +1,30 @@
+
 <div class="navbar-affixed-top" data-spy="affix" data-offset-top="200">
 
     <div class="navbar navbar-default yamm" role="navigation" id="navbar">
 
         <div class="container">
             <div class="navbar-header">
-                <a class="navbar-brand home" href="{{ "/" | relURL }}">
-                    <span class="sr-only">{{ .Title }} - {{ i18n "navHome" }}</span>
+                <!-- <a class="navbar-brand" href="{{ "/" | relLangURL }}">
+                  {{- if site.Params.logo -}}
+                    <img src="{{ printf "/img/%s" site.Params.logo | relURL }}" alt="{{ .Title }}">
+                  {{- else -}}
+                    {{- site.Title -}}
+                  {{- end -}}
+                </a>   -->
+              <a class="navbar-brand home" href="{{ "/" | relLangURL }}">
+                    <span class="sr-only">{{ site.Title }} - {{ i18n "navHome" }}</span>
+                    <img src="{{ .Site.Params.logo_small | absURL }}" alt="{{ site.Title }} logo" class="navbar-left"> <p>{{- upper site.Title -}}</p>
                 </a>
                 <div class="navbar-buttons">
-                    <button type="button" class="navbar-toggle btn-template-main" data-toggle="collapse" data-target="#navigation">
-                      <span class="sr-only">{{ i18n "navToggle" }}</span>
+                  <button type="button" class="navbar-toggle btn-template-main" data-toggle="collapse" data-target="#navigation">
+                    <span class="sr-only">{{ i18n "navToggle" }}</span>
                         <i class="fas fa-align-justify"></i>
                     </button>
                 </div>
             </div>
-            <!--/.navbar-header -->
-
+            <!--/.navbar-header -->     
+            
             <div class="navbar-collapse collapse" id="navigation">
                 <ul class="nav navbar-nav navbar-right">
                   {{ $current := . }}
@@ -26,14 +35,21 @@
                       <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">{{ .Name }} <span class="caret"></span></a>
                     <ul class="dropdown-menu">
                       {{ range .Children }}
-                        <li><a href="{{ .URL }}">{{ .Name }}</a></li>
+                        <li><a href="{{ .URL | absLangURL }}">{{ .Name }}</a></li>
                       {{ end }}
                     </ul>
                     {{ else }}
-                    <a href="{{ .URL }}">{{ .Name }}</a>
+                    <a href="{{ .URL | absLangURL }}">{{ .Name }}</a>
                     {{ end  }}
                   </li>
                   {{ end }}
+                  {{ range .Translations }}
+      <li class="nav-item">
+        <a href="{{ .RelPermalink }}" class="nav-link" data-target="{{ .RelPermalink }}">
+          <i class="fas fa-globe mr-1" aria-hidden="true"></i><span class="d-none d-lg-inline">{{ .Language.LanguageName }}</span>
+        </a>
+      </li>
+      {{end}}
                 </ul>
             </div>
             <!--/.nav-collapse -->

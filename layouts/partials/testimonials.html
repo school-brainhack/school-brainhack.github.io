@@ -1,6 +1,9 @@
 {{ if isset .Site.Params "testimonials" }}
 {{ if .Site.Params.testimonials.enable }}
-{{ if gt (len .Site.Data.testimonials) 0 }}
+{{ $myData := (index .Site.Data .Lang) }}
+{{ if $myData }}
+{{ if (isset $myData "carousel" ) }}
+{{ if gt (len $myData.carousel) 0 }}
 <section class="bar background-pentagon no-mb">
     <div class="container">
         <div class="row">
@@ -16,7 +19,7 @@
                 <!-- *** TESTIMONIALS CAROUSEL *** -->
 
                 <ul class="owl-carousel testimonials same-height-row">
-                    {{ range .Site.Data.testimonials }}
+                    {{ range $myData.testimonials }}
                     <li class="item">
                         <div class="testimonial same-height-always">
                             <div class="text">
@@ -27,7 +30,8 @@
                                 </div>
                                 <div class="name-picture">
                                     <img class="" alt="" src="{{ .avatar | absURL }}">
-                                    <h6>{{ .name }}</h6>
+                                    <h5>{{ .name }}</h5>
+                                    <p>{{ .position }}</p>
                                 </div>
                             </div>
                         </div>
@@ -46,3 +50,6 @@
 {{ end }}
 {{ end }}
 {{ end }}
+{{end}}
+{{end}}
+
