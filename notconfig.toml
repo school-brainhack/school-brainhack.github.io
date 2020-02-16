@@ -1,9 +1,25 @@
 baseurl = "https://unruffled-lumiere-31160d.netlify.com/"
-title = "BrainHack School"
+title = ""
 theme = "hugo-universal-theme"
-languageCode = "en-us"
 # Site language. Available translations in the theme's `/i18n` directory.
 defaultContentLanguage = "en"
+defaultContentLanguageInSubdir = true
+
+[languages]
+  [languages.en]
+    languageCode = "en-us"
+    languageName = "English"
+    contentDir = "content/en"
+    weight = 1
+  [languages.fr]
+    languageCode = "fr"
+    languageName = "Français"
+    contentDir = "content/fr"
+    title = " École BrainHack"
+    weight = 2
+    #  [fr.params]
+    #    description = "Site description in Chinese..."
+
 # Enable comments by entering your Disqus shortname
 disqusShortname = ""
 # Enable Google Analytics by entering your tracking code
@@ -14,7 +30,7 @@ paginate = 10
 
 [menu]
 
-# Main menu
+# Main menu - ENGLISH
 
 [[menu.main]]
     identifier="home"
@@ -46,6 +62,38 @@ paginate = 10
     url  = "/coc/"
     weight = 5
 
+# Main menu - ENGLISH
+
+[[menu.main.fr]]
+    identifier="home"
+    name = "Accueil"
+    url  = "/"
+    weight = 1
+
+[[menu.main.fr]]
+    identifier="Schedule"
+    name = "Horaire"
+    url  = "/schedule/"
+    weight = 2
+
+[[menu.main.fr]]
+    identifier = "Locations"
+    name = "Endroits"
+    url  = "/locations/"
+    weight = 3
+
+[[menu.main.fr]]
+    identifier = "Register"
+    name = "S'inscrire"
+    url  = "/register/"
+    weight = 4
+
+[[menu.main.fr]]
+    identifier = "coc"
+    name = "Code de conduite"
+    url  = "/coc/"
+    weight = 5
+
 
 # Top bar social links menu
 
@@ -72,7 +120,7 @@ paginate = 10
     author = "BHS"
     defaultKeywords = ["BrainHack", "Neuroscience"]
     mainSections = ["blog"]
-    defaultDescription = "Site template made by devcows using hugo"
+    defaultDescription = "description 'a changer"
 
     # Social media
     facebook_site = "" # the Facebook handle of your site ('https://www.facebook.com/HANDLE')
@@ -182,3 +230,14 @@ paginate = 10
     enable = false
     title = "Project gallery"
     subtitle = "A selection of projects from our students"
+
+[markup]
+  defaultMarkdownHandler = "goldmark"
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true  # Enable user to embed HTML snippets in Markdown content.
+  [markup.highlight]
+    codeFences = false  # Disable Hugo's code highlighter as it conflicts with Academic's highligher.
+  [markup.tableOfContents]
+    startLevel = 2
+    endLevel = 3

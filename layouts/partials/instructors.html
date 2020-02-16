@@ -1,36 +1,58 @@
 
-{ if isset .Site.Params "instructors" }}
+{{ if isset .Site.Params "instructors" }}
 {{ if .Site.Params.instructors.enable }}
-{{ if gt (len .Site.Data.instructors) 0 }}
+{{ $myData := (index .Site.Data .Lang) }}
+{{ if $myData }}
+{{ if (isset $myData "carousel" ) }}
+{{ if gt (len $myData.instructors) 0 }}
 <section class="bar background-white">
     <div class="container">
-        {{ range $index, $element := sort .Site.Data.instructors "weight" }}
-        {{ if eq (mod $index 3) 0 }}
-        <div class="col-md-12">
-            <div class="row">
-        {{ end }}
-                <div class="col-md-4">
-                    <div class="box-simple">
-                        {{ with $element.url }}
-                        <a href="{{ $element.url }}">
-                        {{ end }}
-                            <div class="instructor">
-                                <img class="instructor-img" src="{{ $element.img | absURL }}" alt="{{ $element.name }}"></img>
-                            </div>
-                        {{ with $element.url }}
-                        </a>
-                        {{ end }}
-                        <h3>{{ $element.name | markdownify }}</h3>
-                        <p>{{ $element.affiliation | markdownify }}</p>
-                    </div>
+        <div class="row">
+            <div class="col">
+                <div class="heading text-center">
+                    <h2>{{ $myData.instructors.title }} </h2>
                 </div>
-        {{ if or (eq (mod $index 3) 2) (eq $index (sub (len $.Site.Data.features) 1 )) }}
             </div>
         </div>
-        {{ end }}
-        {{ end }}
+        <div class="row">     
+            <div class="col">
+            
+                {{ $element := $myData.instructors.instructors }} {{ "" | safeHTML }}
+                
+                <div class="row">
+            
+                    {{ $.Scratch.Set "counter" 0 }}
+                    {{ range $element }}
+            
+                    <div class="col-md-4">
+                
+                        {{$.Scratch.Set "counter" (add ($.Scratch.Get "counter") 1) }}
+                        
+                        <div class="box-simple">
+                            <a href="{{ .website }}">
+                                <div class="instructor">
+                                    {{/* Conditional to take picture from static/instructors/pic.jpg if .img is specified in data/instructors.yml else grabs the picture directly from GH profile. */}}
+                                <img class="instructor-img" src="{{ if .img }}{{ .img | absURL }}{{ else }}https://avatars.githubusercontent.com/{{ .gh }} {{end }} " alt="{{ .name }}"></img>
+                                </div>
+                            </a>
+                        <h3>{{ .name | markdownify }}</h3>
+                        <a href={{.urlaff}}><p>{{ .affiliation | markdownify }}</p></a>
+                        <ul class="social list-inline">
+                            <li class="list-inline-item"><a href="https://github.com/{{.gh}}" class="external"><i class="fa fa-github"></i></a></li>
+                            <li class="list-inline-item"><a href="https://twitter.com/{{.twitter}}" class="external"><i class="fa fa-twitter"></i></a></li>
+                            <li class="list-inline-item"><a href="{{.website}}" class="external"><i class="fas fa-globe"></i></a></li>
+                            <li class="list-inline-item"><a href="mailto:{{.email}}" class="email"><i class="fa fa-envelope"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+                {{ end }}
+            </div>
+        </div>
     </div>
-</section>
-{{ end }}
-{{ end }}
-{{ end }}
+    </section>
+    {{ end }}
+    {{ end }}
+    {{ end }}
+    {{ end }}
+    {{ end }}
+

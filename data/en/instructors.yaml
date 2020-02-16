@@ -1,0 +1,86 @@
+# List of instructors for BHS 2020 (alphabetical order)
+#
+# valid tags: name, gh(github), email, website, affiliation, urlaff (affiliation's url), twitter, week, weight (if you want to sort them in some order)
+#
+# collection names should be equal to github username, if not, add github: false tag
+# img should be taken directly from GitHub, if no username, simply add it into img/instructors
+# content can be added as markdown. 
+title: Community - instructors and residents
+
+
+instructors:
+  - name: Tristan Glatard
+    gh: glatard   
+    email: 
+    website: https://users.encs.concordia.ca/~tglatard/
+    affiliation: Concordia University, Montreal, Canada.
+    urlaff: https://concordia.ca
+    twitter: TristanGlatard
+    week: 3
+
+  - name: Valerie Hayot-Sasson
+    gh: valhayot
+    email: 
+    website: 
+    affiliation: Concordia Univerity  
+    urlaff:
+    twitter: 
+
+  - name: Elizabeth DuPre 
+    gh: emdupre  
+    email: 
+    website: 
+    affiliation: McGill University
+    urlaff:
+    twitter: a
+
+  - name: Samuel Guay
+    gh: SamGuay   
+    email: 
+    website: 
+    affiliation: Université de Montréal, Canada.
+    urlaff: https://umontreal.ca
+    twitter: SamGuay_
+
+  - name: Pierre Bellec
+    gh: pbellec    
+    email: pierre-louis.bellec@umontreal.ca
+    website: 
+    affiliation: Université de Montréal
+    urlaff: https://umontreal.ca
+    twitter: pierre_bellec
+
+  - name: Agâh Karakuzu
+    gh: agahkarakuzu
+    email: agahkarakuzu@gmail.com
+    website: https://agahkarakuzu.github.io
+    affiliation: École Polytechnique
+    urlaff: https://polymtl.ca
+    twitter: agahkarakuzu
+    week: 4
+
+  - name: Greg Kiar 
+    gh: gkiar  
+    email: 
+    website: 
+    affiliation: McGill University
+    urlaff:
+    twitter:
+    week: 
+
+  - name: Jean-Baptiste Poline
+    gh: jbpoline  
+    email: 
+    website: 
+    affiliation: McGill University
+    urlaff:
+    twitter:
+    img: img/instructors/jb.png 
+
+  - name: Jake Vogel
+    gh: illdopejake   
+    email: 
+    website: 
+    affiliation: McGill University
+    urlaff:
+    twitter: 
