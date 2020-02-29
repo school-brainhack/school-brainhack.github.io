@@ -12,14 +12,15 @@
 .navbar-header:after {
   clear: both;
 }
-#content img {
+
+/* #content img {
   display: block;
   width: 50%;
   margin-left: auto;
   margin-right: auto;
   margin-top: 20px;
   margin-bottom: 20px;
-}
+} */
 
 .instructor-img {
   float: center;
@@ -1749,7 +1750,7 @@ fieldset[disabled] .btn-template-primary.active {
   border: none;
 }
 #heading-breadcrumbs {
-  background: url('../img/texture-green.png') center center repeat;
+  background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../img/banners/bannerwide.jpg') center center repeat;
   padding: 20px 0;
   margin-bottom: 40px;
 }
@@ -1757,11 +1758,12 @@ fieldset[disabled] .btn-template-primary.active {
   margin-bottom: 0;
 }
 #heading-breadcrumbs h1 {
-  color: #333333;
+  color: #FFF;
   text-transform: uppercase;
   font-size: 30px;
   font-weight: 700;
   letter-spacing: 0.08em;
+  text-align: center;
 }
 @media (max-width: 991px) {
   #heading-breadcrumbs h1 {
@@ -3181,7 +3183,7 @@ fieldset[disabled] .navbar-default .btn-link:focus {
 /* scaffolding */
 body {
   font-family: "Roboto", Helvetica, Arial, sans-serif;
-  font-size: 14px;
+  font-size: 16px;
   line-height: 1.42857143;
   color: #555555;
 }

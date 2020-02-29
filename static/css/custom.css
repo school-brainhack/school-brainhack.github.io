@@ -1,1 +1,51 @@
 /* Add custom css here */
+
+.center-col {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    float: none;
+  }
+
+.pt-60 {
+  padding-top: 60px;
+}
+
+/* Added for the title in Schedule (CSS taken from BHS2019 site) */
+.classic-title {
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  margin-bottom: 30px;
+  position: relative;
+}
+
+.stiker {
+    display: inline-block;
+  }
+  
+.outer-stiker {
+      display: inline-block;
+      color: #474747;
+    }
+.outer-stiker, .inner-stiker {
+    font-weight: 300;
+    z-index: 2;
+    position: relative;
+  }
+
+
+.incline-div {
+    position: absolute;
+    top: 3px;
+    left: 0;
+    border-top: 60px solid #6aae7a;
+    border-right: 60px solid transparent;
+    margin-left: -15px;
+    width: 100%;
+    z-index: 1;
+}
+
+.text-light {
+  color: 
+  #fff;
+}
