@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="{{ .Site.LanguageCode }}">
+
+  {{ partial "head.html" . }}
+
+  <body>
+ 
+    <div id="all">
+
+        <header>
+
+          {{ partial "top.html" . }}
+
+          {{ partial "nav.html" . }}
+
+        </header>
+
+        {{ partial "breadcrumbs.html" . }}
+
+        <div id="content">
+            <div class="container">
+          
+              {{/* Button at the top */}}
+              {{range .Params.button}}
+              <div class="container text-center section-bg">
+                  <div class="row boxed">
+                      <div class="col-sm-12">
+                          <a href="{{ .url | absLangURL }}" class="btn btn-default btn-robot">{{ .text }}</a>
+                      </div>
+                  </div>
+              </div>
+              {{end}}
+              {{/* End of top button */}}              
+              
+              <div class="row py-3">
+                <div class="col-md-12">
+                  {{ .Content }}
+                </div>
+                </div>
+
+                <div class="row py-3">
+                {{ $.Scratch.Set "counter" 1}}
+                {{ $count := .Params.locations | len }}
+                {{ range .Params.locations }}
+                {{ $counter := $.Scratch.Get "counter" }}
+                {{ $.Scratch.Add "counter" 1 }}
+                {{ if eq $count $counter }}
+                <div class="col-md-6 center-col">
+                  {{else}}
+                  <div class="col-md-6">
+                    {{end}}
+                    <div class="thumbnail">
+                      <img src="{{ (printf "img/%s" .img) | absURL }}" alt="{{ .imgalttext }}">
+                      <div class="caption">
+                        <h3>{{ .name | markdownify | emojify }}</h3>
+                        {{ with .description }}<p>{{ . | markdownify | emojify }}</p>{{ end }}
+                      </div>
+                    </div>
+                  </div>
+                    {{ if eq (mod $counter 2) 0 }}  
+                  </div>
+                  <div class="row py-3">
+                    {{else}}
+                  {{end}}              
+                  {{ end }}
+                  </div>  
+                              
+                       
+                </div>
+    {{ partial "footer.html" . }}
+    <!-- /#all -->
+    {{ partial "scripts.html" . }}
+
+  </body>
+</html>
