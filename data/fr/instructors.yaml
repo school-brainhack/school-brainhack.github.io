@@ -5,7 +5,7 @@
 # collection names should be equal to github username, if not, add github: false tag
 # img should be taken directly from GitHub, if no username, simply add it into img/instructors
 # content can be added as markdown. 
-title: Community - instructors and residents
+title: Communauté - instructeurs et résidents
 
 
 instructors:
@@ -13,32 +13,31 @@ instructors:
     gh: glatard   
     email: 
     website: https://users.encs.concordia.ca/~tglatard/
-    affiliation: Concordia University, Montreal, Canada.
+    affiliation: Université Concordia 
     urlaff: https://concordia.ca
     twitter: TristanGlatard
-    week: 3
-
+    
   - name: Valerie Hayot-Sasson
     gh: valhayot
     email: 
     website: 
-    affiliation: Concordia Univerity  
-    urlaff:
+    affiliation: Université Concordia 
+    urlaff: https://concordia.ca
     twitter: 
 
   - name: Elizabeth DuPre 
     gh: emdupre  
     email: 
     website: 
-    affiliation: McGill University
-    urlaff:
-    twitter: a
+    affiliation: Université McGill 
+    urlaff: https://www.mcgill.ca/
+    twitter: emdupre_
 
   - name: Samuel Guay
     gh: SamGuay   
     email: 
     website: 
-    affiliation: Université de Montréal, Canada.
+    affiliation: Université de Montréal
     urlaff: https://umontreal.ca
     twitter: SamGuay_
 
@@ -54,33 +53,81 @@ instructors:
     gh: agahkarakuzu
     email: agahkarakuzu@gmail.com
     website: https://agahkarakuzu.github.io
-    affiliation: École Polytechnique
+    affiliation: Polytechnique Montréal
     urlaff: https://polymtl.ca
     twitter: agahkarakuzu
-    week: 4
 
   - name: Greg Kiar 
     gh: gkiar  
     email: 
     website: 
-    affiliation: McGill University
-    urlaff:
-    twitter:
-    week: 
+    affiliation: Université McGill 
+    urlaff: https://www.mcgill.ca/
+    twitter: g_kiar
 
   - name: Jean-Baptiste Poline
     gh: jbpoline  
     email: 
     website: 
-    affiliation: McGill University
-    urlaff:
-    twitter:
+    affiliation: Université McGill 
+    urlaff: https://www.mcgill.ca/
+    twitter: jbpoline
     img: img/instructors/jb.png 
 
-  - name: Jake Vogel
-    gh: illdopejake   
+  - name: Karim Jerbi
+    gh:  
+    email: karim.jerbi@umontreal.ca
+    website: http://www.karimjerbi.com/
+    affiliation: Université de Montréal
+    urlaff: https://umontreal.ca
+    twitter: karimjerbineuro
+    
+  - name: Ross Makello
+    gh:  
     email: 
     website: 
-    affiliation: McGill University
-    urlaff:
+    affiliation: Université McGill 
+    urlaff: https://www.mcgill.ca/
+    twitter: rossdavism
+    
+  - name: Peer Herholz
+    gh: PeerHerholz 
+    email: 
+    website: https://peerherholz.github.io/
+    affiliation: Université McGill 
+    urlaff: https://www.mcgill.ca/
+    twitter: peerherholz
+     
+  - name: Alexandre Hutton
+    gh: 
+    email: 
+    website: 
+    affiliation: Université McGill 
+    urlaff: https://www.mcgill.ca/
+    twitter: alexhutton
+     
+  - name: Désirée Lussier-Lévesque
+    gh: 
+    email: 
+    website: 
+    affiliation: Centre de recherche de l'IUGM
+    urlaff: http://www.criugm.qc.ca/fr.html
     twitter: 
+     
+  - name: Benjamin De Leener
+    gh: 
+    email: 
+    website: 
+    affiliation: Polytechnique Montréal
+    urlaff: https://www.polymtl.ca/
+    twitter: BenDeLeener
+     
+  - name: Hannah Akbarzadeh
+    gh: 
+    email: 
+    website: 
+    affiliation: Polytechnique Montréal
+    urlaff: https://www.polymtl.ca/
+    twitter: 
+     
+  
