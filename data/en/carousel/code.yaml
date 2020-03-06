@@ -4,7 +4,7 @@ description: >
   <ul class="list-style-none">
     <li>Basics of python</li>
     <li>Version control</li>
-    <li>Contenairs</li>
+    <li>Containers</li>
     <li>Notebooks</li>
   </ul>
 image: "img/carousel/fig_code.png"
