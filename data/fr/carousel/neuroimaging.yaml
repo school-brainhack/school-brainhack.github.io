@@ -1,9 +1,9 @@
 weight: 5
-title: "Neuroimaging"
+title: "Neuroimagerie"
 description: >
   <ul class="list-style-none">
-    <li>structural MRI</li>
-    <li>functional MRI</li>
+    <li>IRM structurelle</li>
+    <li>IRM fonctionnelle</li>
     <li>MEG</li>
     <li>EEG</li>
   </ul>
