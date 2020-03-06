@@ -1,9 +1,9 @@
 weight: 4
-title: "Machine learning"
+title: "Apprentisssage machine"
 description: >
   <ul class="list-style-none">
-    <li>Data mining</li>
+    <li>Fouille de données</li>
     <li>Classification</li>
-    <li>Prediction</li>
+    <li>Prédiction</li>
   </ul>
 image: "img/carousel/ml.png"
