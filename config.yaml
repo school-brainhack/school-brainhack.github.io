@@ -222,20 +222,20 @@ languages:
         enable: true
         title: Pourquoi Brainhack School?
         subtitle: >-
-          Coding and other data science skills are much better acquired and
-          solidified through practice. After a one week bootcamp, most of the
-          brainhack training consists of open and collaborative work on a project of
-          your choice.
+          Le codage est autres compétences de sciences des données sont bien mieux
+          acquises et solidifiées par la pratique. Après une semaine de bootcamp,
+          la majorité de la formation Brainhack consiste en un travail ouvert et 
+          collaboratif sur un projet de votre choix.         
       see_more:
         enable: true
         icon: far fa-file-alt
         title: 'Project-based, transdisciplinary training'
-        subtitle: 'Neuroscience, Statistical Modelling and Computer Science'
+        subtitle: 'Neurosciences, Modélisation statistique et Sciences informatiques'
         link_url: /register
         link_text: Register Now
       clients:
         enable: true
-        title: Partner institutions
+        title: Institutions partenaires
         subtitle: ''
       recent_posts:
         enable: false
