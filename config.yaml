@@ -229,10 +229,10 @@ languages:
       see_more:
         enable: true
         icon: far fa-file-alt
-        title: 'Project-based, transdisciplinary training'
+        title: 'Formation transdisciplinaire axée sur les projets'
         subtitle: 'Neurosciences, Modélisation statistique et Sciences informatiques'
         link_url: /register
-        link_text: Register Now
+        link_text: Inscrivez-vous maintenant
       clients:
         enable: true
         title: Institutions partenaires
