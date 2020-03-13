@@ -5,9 +5,9 @@ type = "schedule"
 
 [[week]]
   week = "**Semaine 1**"
-  name = "[Neuro-Data Science Bootcamp](https://neurodatascience.github.io/course-2019/docs/schedule/) at McGill"
+  name = "[Neuro-Data Science Bootcamp](https://neurodatascience.github.io/course-2019/docs/schedule/) à l'Université McGill"
   img = "locations/mcgill.jpg"
-  imgalttext = "McGill building" 
+  imgalttext = "McGill building"
   imgside = "right"
   buttonurl = "https://neurodatascience.github.io/course-2019/docs/schedule/"
   buttondescr = "View the preliminary schedule for that week"
@@ -19,14 +19,14 @@ As a participant, at the end of Week 1 you should be able to answer questions su
  * Which data standards can be used to organize neuroimaging data, and why should I adopt them?
  * How should I visualize and define features for machine learning in neuroimaging?
  * What are the basic principles underlying deep learning, and how do they differ from classical machine learning?
-  
-A short quizz will be organized at the end of week 1, to check that participants have integrated the key points of the week. This quizz will count for 10% of the final note.""" 
+
+A short quiz will be organized at the end of week 1, to check that participants have integrated the key points of the week. This quiz will count for 10% of the final note."""
 
 [[week]]
   week = "**Semaine 2**"
   name = "Project definition at CRIUGM - Université de Montréal"
   img = "locations/criugm.png"
-  imgalttext = "CRIUGM building" 
+  imgalttext = "CRIUGM building"
   imgside = "left"
   buttonurl = ""
   buttondescr = ""
@@ -39,13 +39,13 @@ A short quizz will be organized at the end of week 1, to check that participants
  * What objectives do you want to achieve with the project? e.g. find differences in connectivity between two groups, replicate a multimodal brain parcellation, etc.
  * What will be the outcome(s) of your project? a short proceedings paper, a new public dataset, a new feature in a toolbox, etc.
 
- Each project will go through one round of written submission and feedback, and revised by the end of week 2. This project description will count for 10% of the final note.""" 
+ Each project will go through one round of written submission and feedback, and revised by the end of week 2. This project description will count for 10% of the final note."""
 
 [[week]]
   week = "**Semaine 3**"
-  name = "Project implementation at Concordia University"
+  name = "Project implementation à l'Université Concordia"
   img = "locations/concordia.jpg"
-  imgalttext = "Concordia building" 
+  imgalttext = "Concordia building"
   imgside = "right"
   buttonurl = ""
   buttondescr = ""
@@ -57,13 +57,13 @@ A short quizz will be organized at the end of week 1, to check that participants
   * Tutorials. Tutorials will be organized on demand.
   * Collaborate. Take time each day to help someone else with their project.
 
-By the end of week 3, participants will prepare a short summary of their project, and identify their objectives for the final week. This presentation will count for 10% of the final note.""" 
+By the end of week 3, participants will prepare a short summary of their project, and identify their objectives for the final week. This presentation will count for 10% of the final note."""
 
 [[week]]
   week = "**Semaine 4**"
-  name = "Project wrap-up and communication at Polytechnique"
+  name = "Project wrap-up and communication à Polytechnique Montréal"
   img = "locations/polytechnique.jpg"
-  imgalttext = "Polytechnique building" 
+  imgalttext = "Polytechnique building"
   imgside = "left"
   buttonurl = ""
   buttondescr = ""
@@ -75,10 +75,10 @@ By the end of week 3, participants will prepare a short summary of their project
  * Tutorials. Tutorials will be organized on demand.
  * Collaborate. Take time each day to help someone else with their project.
 
- By the end of week 3, participants will prepare a short summary of their project, and identify their objectives for the final week. This presentation will count for 10% of the final note. Finally, there will be a participation grade for the full 4 weeks, which will count for 12% of the final grade.""" 
+Enfin, il y aura une note de participation pour les quatre semaines complètes, qui comptera pour 12 % de la note finale."""
 +++
 
-The course will start on May 11th at 9 am, and will run from Monday to Friday until June 5th, 2020. The school will be open each day from 9 a.m. to 5 p.m., with a lunch break from 12 am to 1 pm.
+Le cours débutera le 11 mai à 9 h et se déroulera du lundi au vendredi jusqu’au 5 juin 2020. L’école sera ouverte tous les jours de 9 h à 17 h. Le dîner sera de 12 h à 13 h.
 
 # Week 1: Neuro-data science bootcamp at McGill
 
@@ -87,10 +87,3 @@ A short quizz will be organized at the end of week 1, to check that participants
 # Week 2: Project definition at Université de Montréal
 
 <img src="criugm.png"></img>
-
-
-
-
-
-
-
