@@ -2,28 +2,9 @@
 title = "Horaire"
 type = "schedule"
 
+
 [[week]]
   week = "**Semaine 1**"
-  name = "Neuro-intensive Week at Université de Montréal"
-  img = "locations/udem.jpg"
-  imgalttext = "Campus MIL building" 
-  imgside = "left"
-  buttonurl = ""
-  buttondescr = ""
-  description = """
-  Week 1 will introduce participants to a computational reproducibility toolkit, as well as a basic grounding in supervised and unsupervised machine learning methods.
-Short lectures and hands-on tutorials throughout the five days will provide participants with familiarity applying these methods to real data.  Dr Félix Antoine-Fortin (Calcul Québec) and Dr Manjari Narayan (Stanford University) will be residents during week 1.
-As a participant, at the end of Week 1 you should be able to answer questions such as:
- * What is version control, and how can I use it to improve my workflow?
- * Which data standards can be used to organize neuroimaging data, and why should I adopt them?
- * How should I visualize and define features for machine learning in neuroimaging?
- * What are the basic principles underlying deep learning, and how do they differ from classical machine learning?
-  
-A short quizz will be organized at the end of week 1, to check that participants have integrated the key points of the week. This quizz will count for 10% of the final note.""" 
-
-
-[[week]]
-  week = "**Semaine 2**"
   name = "[Neuro-Data Science Bootcamp](https://neurodatascience.github.io/course-2019/docs/schedule/) at McGill"
   img = "locations/mcgill.jpg"
   imgalttext = "McGill building" 
@@ -42,7 +23,7 @@ As a participant, at the end of Week 1 you should be able to answer questions su
 A short quizz will be organized at the end of week 1, to check that participants have integrated the key points of the week. This quizz will count for 10% of the final note.""" 
 
 [[week]]
-  week = "**Semaine 3**"
+  week = "**Semaine 2**"
   name = "Project definition at CRIUGM - Université de Montréal"
   img = "locations/criugm.png"
   imgalttext = "CRIUGM building" 
@@ -61,7 +42,7 @@ A short quizz will be organized at the end of week 1, to check that participants
  Each project will go through one round of written submission and feedback, and revised by the end of week 2. This project description will count for 10% of the final note.""" 
 
 [[week]]
-  week = "**Semaine 4**"
+  week = "**Semaine 3**"
   name = "Project implementation at Concordia University"
   img = "locations/concordia.jpg"
   imgalttext = "Concordia building" 
@@ -79,7 +60,7 @@ A short quizz will be organized at the end of week 1, to check that participants
 By the end of week 3, participants will prepare a short summary of their project, and identify their objectives for the final week. This presentation will count for 10% of the final note.""" 
 
 [[week]]
-  week = "**Semaine 5**"
+  week = "**Semaine 4**"
   name = "Project wrap-up and communication at Polytechnique"
   img = "locations/polytechnique.jpg"
   imgalttext = "Polytechnique building" 
