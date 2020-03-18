@@ -114,18 +114,18 @@ instructors:
     urlaff: https://www.mcgill.ca/
     twitter: alexa_pichetb
 
-    - name: Karim Jerbi
-      gh: k-jerbi
-      email:
-      website:
-      affiliation: Université de Montréal
-      urlaff: https://umontreal.ca
-      twitter: karimjerbineuro
+  - name: Karim Jerbi
+    gh: k-jerbi
+    email:
+    website:
+    affiliation: Université de Montréal
+    urlaff: https://umontreal.ca
+    twitter: karimjerbineuro
 
-    - name: Samuel Guay
-      gh: SamGuay
-      email:
-      website:
-      affiliation: Université de Montréal
-      urlaff: https://umontreal.ca
-      twitter: SamGuay_
+  - name: Samuel Guay
+    gh: SamGuay
+    email:
+    website:
+    affiliation: Université de Montréal
+    urlaff: https://umontreal.ca
+    twitter: SamGuay_
