@@ -1,6 +1,6 @@
 # Brainhack School
-This is the website of the brainhack school.
-
+[![Netlify Status](https://api.netlify.com/api/v1/badges/0cd08655-9ad0-49be-ae4f-7e1cd78ebe33/deploy-status)](https://app.netlify.com/sites/pedantic-perlman-78c464/deploys)
+This is the website of the brainhack school, built with [hugo](https://gohugo.io/), and deployed with [netlify](https://www.netlify.com/). 
 
 To test it locally, you will need to:
 1. Clone/fork this GitHub repo: `git clone https://github.com/BrainhackMTL/school.git`
