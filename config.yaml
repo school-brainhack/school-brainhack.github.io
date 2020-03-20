@@ -77,7 +77,7 @@ languages:
                 <br>
                 <strong>Canada</strong>
               </p>
-              
+
       latitude: '45.50884'
       longitude: '-73.58781'
       topbar:
@@ -87,7 +87,7 @@ languages:
           class="fas fa-phone"></i></a>
                 <a href="#" data-animate-hover="pulse"><i class="fas fa-envelope"></i></a>
                 </p>
-                
+
       widgets:
         categories: true
         tags: true
@@ -152,7 +152,7 @@ languages:
           weight: 5
 
 
-          
+
     topbar:
       - weight: 1
         name: GitHub
@@ -197,7 +197,7 @@ languages:
                 <br>
                 <strong>Canada</strong>
               </p>
-              
+
       latitude: '45.50884'
       longitude: '-73.58781'
       topbar:
@@ -207,7 +207,7 @@ languages:
           class="fas fa-phone"></i></a>
                 <a href="#" data-animate-hover="pulse"><i class="fas fa-envelope"></i></a>
                 </p>
-                
+
       widgets:
         categories: true
         tags: true
@@ -222,10 +222,8 @@ languages:
         enable: true
         title: Pourquoi Brainhack School?
         subtitle: >-
-          Le codage est autres compétences de sciences des données sont bien mieux
-          acquises et solidifiées par la pratique. Après une semaine de bootcamp,
-          la majorité de la formation Brainhack consiste en un travail ouvert et 
-          collaboratif sur un projet de votre choix.         
+          L'apprentissage par la pratique est très bien adapté pour la programmation et les autres compétences utiles en sciences des données. Après une semaine intensive de présentations,
+          la majorité de la formation Brainhack consiste en un projet de votre choix, réalisé de votre de manière ouverte et collaborative.
       see_more:
         enable: true
         icon: far fa-file-alt
@@ -244,7 +242,7 @@ languages:
 
 Permalinks:
   blog: '/blog/:year/:month/:day/:filename/'
-      
+
 markup:
   defaultMarkdownHandler: goldmark
   goldmark:
@@ -260,7 +258,3 @@ markup:
 disqusShortname: ''
 googleAnalytics: ''
 paginate: 10
-
-      
-
-
