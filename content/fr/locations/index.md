@@ -1,33 +1,33 @@
 +++
-title = "Endroits"
+title = "Sites"
 type = "locations"
 
 [[button]]
     text = "S'inscrire à l'événement"
     url = "/register"
-  
+
 [[locations]]
   img = "locations/mcgill.jpg"
-  imgalttext = "A graduation hat next to a diploma on top of a thesis book. Illustration." 
+  imgalttext = "A graduation hat next to a diploma on top of a thesis book. Illustration."
   name = "Université McGill"
   description = """La semaine 1 aura lieu à l'[Université McGill](https://mcgill.ca), exact location TBD."""  
 
 [[locations]]
   img = "locations/criugm.png"
-  imgalttext = "Concordia building" 
+  imgalttext = "Concordia building"
   name = "CRIUGM"
   description = """La semaine 2 aura lieu au [Centre de recherche de l'institut de gériatrie universitaire de Montréal (CRIUGM)](https://www.criugm.qc.ca/fr/contact.html), affilié à l'Université de Montréal. Le Centre de recherche est situé au 4545, Chemin Queen-Mary, Montréal, H3W 1W5.
 """
 
 [[locations]]
   img = "locations/concordia.jpg"
-  imgalttext = "Concordia building" 
+  imgalttext = "Concordia building"
   name = "Concordia"
   description = """La semaine 3 aura lieu à l'<a href="https://www.concordia.ca/"> Concordia University</a>, bâtiment John Molson, 1600 Boulevard de Maisonneuve Ouest, Montréal, QC."""
 
 [[locations]]
   img = "locations/polytechnique.jpg"
-  imgalttext = "Polytechnique building" 
+  imgalttext = "Polytechnique building"
   name = "Polytechnique Montréal"
   description = """La semaine 4 aura lieu à l'<a href="https://www.polymtl.ca/"> École Polytechnique</a> situé au 2900 Edouard Montpetit Blvd, Montréal, QC H3T 1J4.
 """

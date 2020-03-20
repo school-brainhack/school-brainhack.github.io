@@ -139,7 +139,7 @@ languages:
           url: /schedule/
           weight: 2
         - identifier: Locations
-          name: Endroits
+          name: Sites
           url: /locations/
           weight: 3
         - identifier: Register

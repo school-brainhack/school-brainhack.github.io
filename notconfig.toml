@@ -78,7 +78,7 @@ paginate = 10
 
 [[menu.main.fr]]
     identifier = "Locations"
-    name = "Endroits"
+    name = "Sites"
     url  = "/locations/"
     weight = 3
 
