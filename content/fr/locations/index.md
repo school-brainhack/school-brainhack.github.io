@@ -23,14 +23,19 @@ type = "locations"
   img = "locations/concordia.jpg"
   imgalttext = "Concordia building"
   name = "Concordia"
-  description = """La semaine 3 aura lieu à l'<a href="https://www.concordia.ca/"> Concordia University</a>, bâtiment John Molson, 1600 Boulevard de Maisonneuve Ouest, Montréal, QC."""
+  description = """La semaine 3 aura lieu à l'[Université Concordia](https://www.concordia.ca/), bâtiment John Molson, 1600 Boulevard de Maisonneuve Ouest, Montréal, QC."""
 
 [[locations]]
   img = "locations/polytechnique.jpg"
   imgalttext = "Polytechnique building"
   name = "Polytechnique Montréal"
-  description = """La semaine 4 aura lieu à l'<a href="https://www.polymtl.ca/"> École Polytechnique</a> situé au 2900 Edouard Montpetit Blvd, Montréal, QC H3T 1J4.
-"""
+  description = """La semaine 4 aura lieu à l'[École Polytechnique](https://www.polymtl.ca/) situé au 2900 Edouard Montpetit Blvd, Montréal, QC H3T 1J4."""
+
+[[locations]]
+  img = "locations/virtual.png"
+  imgalttext = "Logos of Zoom, Visual Studio Code and Slack."
+  name = "Virtual tools"
+  description = """Afin de faciliter les rencontres virtuelles, nous utiliserons une variété d'outils. Il ne s'agit pas d'une liste exhaustive des logiciels qui seront utilisés, mais les principaux logiciels utilisés seront: [Zoom](https://zoom.us), [Slack](https://slack.com) and [Visual Studio Code](https://code.visualstudio.com/)."""
 +++
 
 ### BrainHack school réunit le meilleur de la neuroimagerie à Montréal.

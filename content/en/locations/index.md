@@ -19,14 +19,19 @@ type = "locations"
   img = "locations/concordia.jpg"
   imgalttext = "Concordia building"
   name = "Concordia"
-  description = """Week 3 will be organized at <a href="https://www.concordia.ca/"> Concordia University</a>, John Molson Building, 1600 Boulevard de Maisonneuve Ouest, Montréal, QC."""
+  description = """Week 3 will be organized at [Concordia University](https://www.concordia.ca/), John Molson Building, 1600 Boulevard de Maisonneuve Ouest, Montréal, QC."""
 
 [[locations]]
   img = "locations/polytechnique.jpg"
   imgalttext = "Polytechnique building"
   name = "Polytechnique"
-  description = """Week 4 will be organized at the <a href="https://www.polymtl.ca/"> Montreal Polytechnique</a> located at 2900 Edouard Montpetit Blvd, Montreal, QC H3T 1J4.
-"""
+  description = """Week 4 will be organized at the [Montreal Polytechnique](https://www.polymtl.ca/) located at 2900 Edouard Montpetit Blvd, Montreal, QC H3T 1J4."""
+
+[[locations]]
+  img = "locations/virtual.png"
+  imgalttext = "Logos of Zoom, Visual Studio Code and Slack."
+  name = "Virtual tools"
+  description = """To facilitate the virtual sessions, we will use a bunch of different tools. This is not an extensive list of software that will be used, but [Zoom](https://zoom.us), [Slack](https://slack.com) and [Visual Studio Code](https://code.visualstudio.com/) will be the main ones."""
 +++
 
 ### BrainHack school brings together the Montreal data science community ... online!

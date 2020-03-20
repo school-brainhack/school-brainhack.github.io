@@ -81,7 +81,7 @@ languages:
       latitude: '45.50884'
       longitude: '-73.58781'
       topbar:
-        enable: true
+        enable: false
         text: >-
           <p class="hidden-md hidden-lg"><a href="#" data-animate-hover="pulse"><i
           class="fas fa-phone"></i></a>
@@ -201,7 +201,7 @@ languages:
       latitude: '45.50884'
       longitude: '-73.58781'
       topbar:
-        enable: true
+        enable: false
         text: >-
           <p class="hidden-md hidden-lg"><a href="#" data-animate-hover="pulse"><i
           class="fas fa-phone"></i></a>
