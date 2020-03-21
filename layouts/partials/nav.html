@@ -6,11 +6,7 @@
         <div class="container">
             <div class="navbar-header">
                 <a class="navbar-brand logo" href="{{ "/" | relLangURL }}">
-                  {{- if site.Params.logo -}}
-                    <img src="{{ printf "/img/%s" site.Params.logo | relURL }}" alt="{{ .Title }}">
-                  {{- else -}}
                   {{- site.Title -}} 
-                  {{- end -}}
                 </a>
                 <div class="navbar-buttons">
                   <button type="button" class="navbar-toggle btn-template-main" data-toggle="collapse" data-target="#navigation">

@@ -32,20 +32,19 @@ languages:
           name: Code of Conduct
           url: /coc/
           weight: 5
-
-    topbar:
-      - weight: 1
-        name: GitHub
-        url: 'https://github.com/brainhackMTL/school/'
-        pre: <i class='fab fa-2x fa-github'></i>
-      - weight: 3
-        name: Twitter
-        url: 'http://twitter.com/brainhackMTL'
-        pre: <i class='fab fa-2x fa-twitter'></i>
-      - weight: 4
-        name: Email
-        url: 'mailto:info@bhs.com'
-        pre: <i class='fas fa-2x fa-envelope'></i>
+      topbar:  
+        - weight: 1
+          name: GitHub
+          url: 'https://github.com/brainhackMTL/school/'
+          pre: <i class='fab fa-2x fa-github'></i>
+        - weight: 3
+          name: Twitter
+          url: 'http://twitter.com/brainhackMTL'
+          pre: <i class='fab fa-2x fa-twitter'></i>
+        - weight: 4
+          name: Email
+          url: 'mailto:info@bhs.com'
+          pre: <i class='fas fa-2x fa-envelope'></i>
 
     params:
       viewMorePostLink: /blog/
@@ -68,8 +67,8 @@ languages:
         fames ac turpis egestas.</p>
       copyright: 'Copyright (c) 2020, BrainHack School; all rights reserved.'
       date_format: 'January 2, 2006'
-      logo: 
-      logo_small: 
+      logo: img/logo_brainhack.png
+      logo_small: img/logo-small.png
       address: |-
         <p class="text-uppercase"><strong>BrainHack School</strong>
                 <br>
@@ -80,13 +79,6 @@ languages:
 
       latitude: '45.50884'
       longitude: '-73.58781'
-      topbar:
-        enable: false
-        text: >-
-          <p class="hidden-md hidden-lg"><a href="#" data-animate-hover="pulse"><i
-          class="fas fa-phone"></i></a>
-                <a href="#" data-animate-hover="pulse"><i class="fas fa-envelope"></i></a>
-                </p>
 
       widgets:
         categories: true
@@ -121,6 +113,9 @@ languages:
         enable: false
         title: Project gallery
         subtitle: A selection of projects from our students
+      topbar:
+        enable: true
+        text: "**:computer: :brain: [Registrations](/register) are now open!! :brain: :computer:** :house: Due to the [COVID-19](https://www.quebec.ca/en/health/health-issues/a-z/2019-coronavirus/situation-coronavirus-in-quebec/) pandemic, this year will be entirely virtual! :film_projector: "
 
   fr:
     languageCode: fr
@@ -150,22 +145,19 @@ languages:
           name: Code de conduite
           url: /coc/
           weight: 5
-
-
-
-    topbar:
-      - weight: 1
-        name: GitHub
-        url: 'https://github.com/brainhackMTL/school/'
-        pre: <i class='fab fa-2x fa-github'></i>
-      - weight: 3
-        name: Twitter
-        url: 'http://twitter.com/brainhackMTL'
-        pre: <i class='fab fa-2x fa-twitter'></i>
-      - weight: 4
-        name: Email
-        url: 'mailto:info@bhs.com'
-        pre: <i class='fas fa-2x fa-envelope'></i>
+      topbar:  
+        - weight: 1
+          name: GitHub
+          url: 'https://github.com/brainhackMTL/school/'
+          pre: <i class='fab fa-2x fa-github'></i>
+        - weight: 3
+          name: Twitter
+          url: 'http://twitter.com/brainhackMTL'
+          pre: <i class='fab fa-2x fa-twitter'></i>
+        - weight: 4
+          name: Email
+          url: 'mailto:info@bhs.com'
+          pre: <i class='fas fa-2x fa-envelope'></i>
 
     params:
       viewMorePostLink: /blog/
@@ -188,8 +180,8 @@ languages:
         fames ac turpis egestas.</p>
       copyright: 'Copyright (c) 2020, BrainHack School; all rights reserved.'
       date_format: 'January 2, 2006'
-      logo: 
-      logo_small: 
+      logo: img/logo_brainhack.png
+      logo_small: img/logo-small.png
       address: |-
         <p class="text-uppercase"><strong>BrainHack School</strong>
                 <br>
@@ -200,13 +192,6 @@ languages:
 
       latitude: '45.50884'
       longitude: '-73.58781'
-      topbar:
-        enable: false
-        text: >-
-          <p class="hidden-md hidden-lg"><a href="#" data-animate-hover="pulse"><i
-          class="fas fa-phone"></i></a>
-                <a href="#" data-animate-hover="pulse"><i class="fas fa-envelope"></i></a>
-                </p>
 
       widgets:
         categories: true
@@ -239,6 +224,9 @@ languages:
         enable: false
         title: Project gallery
         subtitle: A selection of projects from our students
+      topbar:
+        enable: true
+        text: "**:computer: :brain: Les [inscriptions](/register) sont maintenant ouvertes!! :brain: :computer:** :house: Face à la pandémie de [COVID-19](https://www.quebec.ca/sante/problemes-de-sante/a-z/coronavirus-2019/situation-coronavirus-quebec/), l'école sera virtuelle cette année! :film_projector: "
 
 Permalinks:
   blog: '/blog/:year/:month/:day/:filename/'
@@ -258,3 +246,5 @@ markup:
 disqusShortname: ''
 googleAnalytics: ''
 paginate: 10
+
+
