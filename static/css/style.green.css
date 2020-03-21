@@ -2943,10 +2943,15 @@ fieldset[disabled] .btn-template-primary.active {
 }
 .navbar-brand {
   float: left;
-  padding: 10px 15px;
   font-size: 18px;
   line-height: 20px;
   height: 62px;
+  text-transform: uppercase;
+  font-weight: bold;
+  letter-spacing: 0.08em;
+  padding-top: 21px;
+  padding-bottom: 21px;
+  border-top: solid 5px transparent;
 }
 .navbar-brand:hover,
 .navbar-brand:focus {
