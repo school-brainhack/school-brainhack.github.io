@@ -5,22 +5,20 @@ type = "schedule"
 
 [[week]]
   week = "**Semaine 1**"
-  name = "[Neuro-Data Science Bootcamp](https://neurodatascience.github.io/course-2019/docs/schedule/) à l'Université McGill"
+  name = "[Fondamentaux en science des données neurales](https://neurodatascience.github.io/course-2019/) à l'Université McGill"
   img = "locations/mcgill.jpg"
-  imgalttext = "McGill building"
+  imgalttext = "McGill"
   imgside = "right"
   buttonurl = "https://neurodatascience.github.io/course-2019/docs/schedule/"
-  buttondescr = "View the preliminary schedule for that week"
+  buttondescr = "Voir le programme préliminaire de la semaine 1"
   description = """
-  Week 1 will introduce participants to a computational reproducibility toolkit, as well as a basic grounding in supervised and unsupervised machine learning methods.
-Short lectures and hands-on tutorials throughout the five days will provide participants with familiarity applying these methods to real data.  Dr Félix Antoine-Fortin (Calcul Québec) and Dr Manjari Narayan (Stanford University) will be residents during week 1.
-As a participant, at the end of Week 1 you should be able to answer questions such as:
- * What is version control, and how can I use it to improve my workflow?
- * Which data standards can be used to organize neuroimaging data, and why should I adopt them?
- * How should I visualize and define features for machine learning in neuroimaging?
- * What are the basic principles underlying deep learning, and how do they differ from classical machine learning?
+  La semaine 1 va introduire les participants à une boîte à outils computationnelle reproductible pour la science des données neuronales, ainsi que des notions de base en apprentissage automatique supervisé et non-supervisé. Des présentations brèves et des séances pratiques seront organisés durant les 5 jours, et permettront aux participants d'appliquer les méthodes présentées sur des données réelles. À la fin de la semaine 1, les participants devraient être capables de répondre à des questions telles que:
+   * Qu'est ce que le contrôle de version, et comment puis-je l'utiliser pour améliorer ma manière de travailler?
+   * Quels sont les standards de données qui peuvent être utilisés avec les données de neuroimagerie, et pourquoi devrais-je les adopter?
+   * Comment puis je visualiser et définir des caractéristiques des données de neuroimagerie pour l'apprentissage automatique?
+   * Quels sont les principes de base du l'apprentissage profond, et en quoi cette approche diffère-t-elle des techniques classiques d'apprentissage machine?
 
-A short quiz will be organized at the end of week 1, to check that participants have integrated the key points of the week. This quiz will count for 10% of the final note."""
+Un questionnaire court sera organisé à la fin de la semaine 1, pour vérifier que les participants ont intégré les points clés de cette semaine. Ce questionnaire comptera pour 100% de la note finale pour le cours QLSC612 et 10% de la note finale pour les cours basés projet (PSY6983 ou bien COMP490/COMP6971)."""
 
 [[week]]
   week = "**Semaine 2**"

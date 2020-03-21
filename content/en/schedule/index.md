@@ -5,22 +5,21 @@ type = "schedule"
 
 [[week]]
   week = "**Week 1**"
-  name = "[Neuro-Data Science Bootcamp](https://neurodatascience.github.io/course-2019/docs/schedule/) at McGill University"
+  name = "[Neuro-Data Science Bootcamp](https://neurodatascience.github.io/course-2019/docs/) at McGill University"
   img = "locations/mcgill.jpg"
   imgalttext = "McGill building"
   imgside = "right"
   buttonurl = "https://neurodatascience.github.io/course-2019/docs/schedule/"
   buttondescr = "View the preliminary schedule for that week"
   description = """
-  Week 1 will introduce participants to a computational reproducibility toolkit, as well as a basic grounding in supervised and unsupervised machine learning methods.
-Short lectures and hands-on tutorials throughout the five days will provide participants with familiarity applying these methods to real data.  Dr Félix Antoine-Fortin (Calcul Québec) and Dr Manjari Narayan (Stanford University) will be residents during week 1.
-As a participant, at the end of Week 1 you should be able to answer questions such as:
+  Week 1 will introduce participants to a reproducible computational toolkit for neural data science, as well as a basic grounding in supervised and unsupervised machine learning methods.
+Short lectures and hands-on tutorials throughout the five days will provide participants with familiarity applying these methods to real data. As a participant, at the end of Week 1 you should be able to answer questions such as:
  * What is version control, and how can I use it to improve my workflow?
  * Which data standards can be used to organize neuroimaging data, and why should I adopt them?
  * How should I visualize and define features for machine learning in neuroimaging?
  * What are the basic principles underlying deep learning, and how do they differ from classical machine learning?
 
-A short quizz will be organized at the end of week 1, to check that participants have integrated the key points of the week. This quizz will count for 10% of the final note."""
+A short quizz will be organized at the end of week 1, to check that participants have integrated the key points of the week. This quizz will count for 100% of the final grade for the course QLSC612, and 10% of the final note for the project-based courses (PSY6983 or COMP490/COMP6971)."""
 
 [[week]]
   week = "**Week 2**"
