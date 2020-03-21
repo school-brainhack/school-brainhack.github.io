@@ -5,16 +5,12 @@
 
         <div class="container">
             <div class="navbar-header">
-                <!-- <a class="navbar-brand" href="{{ "/" | relLangURL }}">
+                <a class="navbar-brand logo" href="{{ "/" | relLangURL }}">
                   {{- if site.Params.logo -}}
                     <img src="{{ printf "/img/%s" site.Params.logo | relURL }}" alt="{{ .Title }}">
                   {{- else -}}
-                    {{- site.Title -}}
+                  {{- site.Title -}} 
                   {{- end -}}
-                </a>   -->
-              <a class="navbar-brand home" href="{{ "/" | relLangURL }}">
-                    <span class="sr-only">{{ site.Title }} - {{ i18n "navHome" }}</span>
-                    <img src="{{ .Site.Params.logo_small | absURL }}" alt="{{ site.Title }} logo" class="navbar-left"> <p>{{- upper site.Title -}}</p>
                 </a>
                 <div class="navbar-buttons">
                   <button type="button" class="navbar-toggle btn-template-main" data-toggle="collapse" data-target="#navigation">
