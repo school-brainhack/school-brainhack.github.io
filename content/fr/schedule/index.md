@@ -22,66 +22,48 @@ Un questionnaire court sera organisé à la fin de la semaine 1, pour vérifier 
 
 [[week]]
   week = "**Semaine 2**"
-  name = "Project definition at CRIUGM - Université de Montréal"
+  name = "Définition de projet au CRIUGM - Université de Montréal"
   img = "locations/criugm.png"
-  imgalttext = "CRIUGM building"
+  imgalttext = "CRIUGM"
   imgside = "left"
   buttonurl = ""
   buttondescr = ""
   description = """
-   Week 2 will be mostly focused on defining and piloting the project. As a participant, you will need to decide:
+   La semaine 2 sera essentiellement consacrée à la définition et au pilotage du projet. En tant que participant, vous devrez décider:
 
- * What general topic do you want to work on? e.g. group comparison using fMRI, software for analysis of MEG data
- * What skills do you want to learn, working on this project? e.g. preprocess fMRI data and run a classifier with sklearn, how to use git, etc.
- * What resources do you want to work on? e.g. the CORR dataset, the nipype library, the Glasser parcellation paper, etc.
- * What objectives do you want to achieve with the project? e.g. find differences in connectivity between two groups, replicate a multimodal brain parcellation, etc.
- * What will be the outcome(s) of your project? a short proceedings paper, a new public dataset, a new feature in a toolbox, etc.
+ * Sur quel sujet général souhaitez-vous travailler? par exemple une comparaison de groupes en IRMf, ou bien un logiciel d'analyse de données MEG.
+ * Quelles compétences souhaitez vous apprendre en travaillant sur ce projet? par exemple prétraiter des données IRMf, comment utiliser git, etc...
+ * Sur quelles ressources souhaitez vous travailler? par exemple le jeu de données CORR, la librairie nipyye, la parcellisation de Glasser, etc...
+ * Quels objectifs souhaitez vous atteindre avec le projet? Par exemple trouver des différences de connectivité entre deux groupes, reproduire une parcellisation cérébrale multimodale, etc.
+ * Quels seront les livrables du projet? par exemple un nouveau jeu de données publique, une nouvelle feature dans une librairie, etc.
 
- Each project will go through one round of written submission and feedback, and revised by the end of week 2. This project description will count for 10% of the final note."""
+ Chaque projet devra être présenté de manière écrite et orale, avec rétroaction, et sera révisé pour la fin de la semaine 2. Ce résumé de projet comptera pour 10% de la note finale pour les cours basés projet (PSY6983 ou bien COMP490/COMP6971)."""
 
 [[week]]
   week = "**Semaine 3**"
-  name = "Project implementation à l'Université Concordia"
+  name = "Implémentation du projet à l'Université Concordia"
   img = "locations/concordia.jpg"
-  imgalttext = "Concordia building"
+  imgalttext = "Concordia"
   imgside = "right"
   buttonurl = ""
   buttondescr = ""
   description = """
-  During week 3, participants will work on their project. The content of a typical day will include:
+  Durant la troisième semaine, les participants travailleront sur leur projet. Une journée type ressemblera à:
+  * Travail sur le projet. L'essentiel du temps est réservé pour travailler.
+  * Clinique projets. Suivi et retour quotidien de la part de l'équipe d'instructeurs.
+  * Tutoriels, organisés à la demande.
+  * Collaboration. Une partie du temps est consacrée à s'entre-aider chaque jour.
 
-  * Work on projects. Most of the time will be reserved to actually doing the work.
-  * Project clinics. Get daily feedback and support from instructors and residents.
-  * Tutorials. Tutorials will be organized on demand.
-  * Collaborate. Take time each day to help someone else with their project.
-
-By the end of week 3, participants will prepare a short summary of their project, and identify their objectives for the final week. This presentation will count for 10% of the final note."""
+À la fin de la semaine 3, les participants feront une présentation orale sur une visualisation de données associée à leur projet, et identifieront leurs objectifs pour la semaine 4. Cette présentation comptera pour 10% de la note finale (PSY6983 ou bien COMP490/COMP6971)."""
 
 [[week]]
   week = "**Semaine 4**"
-  name = "Project wrap-up and communication à Polytechnique Montréal"
+  name = "Finalisation du projet et communication à Polytechnique Montréal"
   img = "locations/polytechnique.jpg"
   imgalttext = "Polytechnique building"
   imgside = "left"
   buttonurl = ""
   buttondescr = ""
   description = """
-  During week 4, participants will concentrate on finalizing project results and producing deliverables. Participants will have to produce a written deliverable for their project, in the form of a blog post to be published on this website. These deliverables will have to be submitted by September 12th (one week after the end of the school), and will count for 30% of the final grade. At the end of week 4, participants will also prepare a video and make a short oral presentation on their project, which will count for 28% of the final grade.  
-
- * Work on projects. Most of the time will be reserved to actually doing the work.
- * Project clinics. Get daily feedback and support from instructors and residents.
- * Tutorials. Tutorials will be organized on demand.
- * Collaborate. Take time each day to help someone else with their project.
-
-Enfin, il y aura une note de participation pour les quatre semaines complètes, qui comptera pour 12 % de la note finale."""
+  Durant la semaine 4, les participants boucleront leur projets, et produiront les livrables. La structure de la semaine sera similaire à la semaine 3. Les participants devront écrire un résumé écrit, comportant des liens vers l'ensemble des livrables, qui seront inclus dans le site internet de l'école. Les livrables et le résumé écrit devront être soumis pour le 12 Juin (une semaine après la fin de l'école), et compteront pour 30% de la note finale (PSY6983 ou bien COMP490/COMP6971). À la fin de la semaine 4, les participants feront une présentation orale de leur projet, qui comptera pour 28% de la note finale (PSY6983 ou bien COMP490/COMP6971). Enfin, il y aura une note de participation pour les quatre semaines complètes, qui comptera pour 12 % de la note finale."""
 +++
-
-Le cours débutera le 11 mai à 9 h et se déroulera du lundi au vendredi jusqu’au 5 juin 2020. L’école sera ouverte tous les jours de 9 h à 17 h. Le dîner sera de 12 h à 13 h.
-
-# Week 1: Neuro-data science bootcamp at McGill
-
-A short quizz will be organized at the end of week 1, to check that participants have integrated the key points of the week. This quizz will count for 10% of the final note.
-
-# Week 2: Project definition at Université de Montréal
-
-<img src="criugm.png"></img>
