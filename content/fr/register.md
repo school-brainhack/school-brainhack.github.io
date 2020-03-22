@@ -1,5 +1,5 @@
 +++
-title = "register"
+title = "inscription"
 description = ""
 keywords = ["brainhack", "registration"]
 +++
