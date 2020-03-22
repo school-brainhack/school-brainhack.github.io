@@ -32,7 +32,7 @@ languages:
           name: Code of Conduct
           url: /coc/
           weight: 5
-      topbar:  
+      topbar:
         - weight: 1
           name: GitHub
           url: 'https://github.com/brainhackMTL/school/'
@@ -43,7 +43,7 @@ languages:
           pre: <i class='fab fa-2x fa-twitter'></i>
         - weight: 4
           name: Email
-          url: 'mailto:info@bhs.com'
+          url: 'mailto:emilie.dessureault@criugm.qc.ca'
           pre: <i class='fas fa-2x fa-envelope'></i>
 
     params:
@@ -145,7 +145,7 @@ languages:
           name: Code de conduite
           url: /coc/
           weight: 5
-      topbar:  
+      topbar:
         - weight: 1
           name: GitHub
           url: 'https://github.com/brainhackMTL/school/'
@@ -246,5 +246,3 @@ markup:
 disqusShortname: ''
 googleAnalytics: ''
 paginate: 10
-
-
