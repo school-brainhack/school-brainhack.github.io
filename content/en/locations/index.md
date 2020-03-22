@@ -6,7 +6,7 @@ type = "locations"
   img = "locations/mcgill.jpg"
   imgalttext = "McGill building"
   name = "Quantitative Life Sciences, McGill University"
-  description = """Week 1 wis organized by the team at the Quantitative Life Sciences program, at [McGill University](https://mcgill.ca), lead by Pr Jean-Baptiste Poline."""  
+  description = """Week 1 is organized by the team at the Quantitative Life Sciences program, at [McGill University](https://mcgill.ca), lead by Pr Jean-Baptiste Poline."""  
 
 [[locations]]
   img = "locations/criugm.png"
