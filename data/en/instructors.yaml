@@ -45,7 +45,7 @@ instructors:
     gh: agahkarakuzu
     email: agahkarakuzu@gmail.com
     website: https://agahkarakuzu.github.io
-    affiliation: Montreal Polytechnique
+    affiliation: Polytechnique Montreal
     urlaff: https://polymtl.ca
     twitter: agahkarakuzu
 
@@ -93,9 +93,9 @@ instructors:
 
   - name: Benjamin De Leener
     gh: benjamindeleener
-    email:
-    website:
-    affiliation: Montreal Polytechnique
+    email: benjamin.de-leener@polymtl.ca
+    website: https://www.polymtl.ca/expertises/en/de-leener-benjamin
+    affiliation: Polytechnique Montreal
     urlaff: https://www.polymtl.ca/
     twitter: BenDeLeener
 
@@ -103,7 +103,7 @@ instructors:
     gh: HannahAkbarzadeh
     email:
     website:
-    affiliation: Montreal Polytechnique
+    affiliation: Polytechnique Montreal
     urlaff: https://www.polymtl.ca/
     twitter:
 
