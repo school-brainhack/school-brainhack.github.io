@@ -38,7 +38,7 @@ A short quizz will be organized at the end of week 1, to check that participants
  * What objectives do you want to achieve with the project? e.g. find differences in connectivity between two groups, replicate a multimodal brain parcellation, etc.
  * What will be the outcome(s) of your project? a short proceedings paper, a new public dataset, a new feature in a toolbox, etc.
 
- Each project will be presented orally and in writing, with rounds of feedback, and revised by the end of week 2. This project description will count for 10% of the final note."""
+ Each project will be presented orally and in writing, with rounds of feedback, and revised by the end of week 2. This project description will count for 10% of the final grade (PSY6983 or COMP490/COMP6971)."""
 
 [[week]]
   week = "**Week 3**"
@@ -56,7 +56,7 @@ A short quizz will be organized at the end of week 1, to check that participants
   * Tutorials. Tutorials will be organized on demand.
   * Collaborate. Take time each day to help someone else with their project.
 
-By the end of week 3, participants will make an oral presentation on a data visualization related to their project, and identify their objectives for the final week. This presentation will count for 10% of the final note."""
+By the end of week 3, participants will make an oral presentation on a data visualization related to their project, and identify their objectives for the final week. This presentation will count for 10% of the final grade (PSY6983 or COMP490/COMP6971)."""
 
 [[week]]
   week = "**Week 4**"
