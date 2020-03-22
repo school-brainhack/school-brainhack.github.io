@@ -12,14 +12,14 @@ type = "locations"
   img = "locations/criugm.png"
   imgalttext = "CRIUGM"
   name = "Psychology, UdeM / CRIUGM"
-  description = """Week 2 will be organized by the team at the Psychology department of Montreal University, as well as the Functional Neuroimaging Unit, [Centre de recherche de l'institut de gériatrie universitaire de Montréal (CRIUGM)](https://www.criugm.qc.ca/fr/contact.html), lead by Pr Pierre Bellec.
+  description = """Week 2 is organized by the team at the Psychology department of Montreal University, as well as the Functional Neuroimaging Unit, [Centre de recherche de l'institut de gériatrie universitaire de Montréal (CRIUGM)](https://www.criugm.qc.ca/fr/contact.html), lead by Pr Pierre Bellec.
 """
 
 [[locations]]
   img = "locations/concordia.jpg"
   imgalttext = "Concordia building"
   name = "Computer Science Engineering, Concordia"
-  description = """Week 3 will be organized by the team at the computer science engineering department of [Concordia University](https://www.concordia.ca/), lead by Pr Tristan Glatard."""
+  description = """Week 3 is organized by the team at the computer science engineering department of [Concordia University](https://www.concordia.ca/), lead by Pr Tristan Glatard."""
 
 [[locations]]
   img = "locations/polytechnique.jpg"
