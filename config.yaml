@@ -54,17 +54,16 @@ languages:
         - Neuroscience
       mainSections:
         - blog
-      defaultDescription: description 'a changer
+      defaultDescription: Brainhack School
       facebook_site: ''
       twitter_site: BrainhackMTL
-      default_sharing_image: img/sharing-default.png
+      default_sharing_image: img/brainhackSchool.jpg
       googleMapsApiKey: AIzaSyCFhtWLJcE30xOAjcbSFi-0fnoVmQZPb1Y
       style: green
-      email: your@email.com
+      email:
       contact_form_ajax: false
       about_us: >-
-        <p>Pellentesque habitant morbi tristique senectus et netus et malesuada
-        fames ac turpis egestas.</p>
+        <p>Fundamentals and project in neural data science.</p>
       copyright: 'Copyright (c) 2020, BrainHack School; all rights reserved.'
       date_format: 'January 2, 2006'
       logo: img/logo_brainhack.png
