@@ -16,7 +16,7 @@ L'école BrainHack est ouverte en priorité aux étudiants des institutions part
 
 **SVP effectuer une demande de participation via le formulaire ci dessous, et attendez la confirmation de votre participation avant de vous inscrire au cours via votre portail universitaire.**. Le nombre de places est limité, et priorité sera donnée aux étudiants qui complète le cours pour des crédits universitaires.
 
- * La semaine 1 est une introduction à une panoplie d’outils computationnels, et peut être validé à l’université McGill (QLSC 612, fondamentaux en science des données neuronales, 3 crédits).
+ * La semaine 1 est une introduction à une panoplie d’outils computationnels, et peut être validé à l’université McGill (["QLSC 612 - Fondamentaux en science des données neuronales"](https://www.mcgill.ca/study/2019-2020/courses/qlsc-612), 3 crédits).
  * Les semaines 2-4 consistent en la réalisation d’un projet. Les étudiants gradués (Maîtrise et doctorat) peuvent valider la partie projet soit au département de Psychologie de l'Université de Montréal ([PSY 6983 - Projet en sciences des données neuronales](https://admission.umontreal.ca/cours-et-horaires/cours/psy-6983/), 3 crédits), soit au département de génie informatique de l’Université Concordia ([COMP 490](http://www.concordia.ca/academics/undergraduate/calendar/current/sec71/71-70.html) ou COMP 6971, projets, 3 crédits).
  * En s’inscrivant via le [Bureau de coopération inter-universitaire](http://www.bci-qc.ca), il est possible de valider les deux parties du cours, pour un total de 6 crédits. L’école BrainHack accepte également des participants venant d’autres institutions, y compris en dehors du Québec et du Canada.
 
