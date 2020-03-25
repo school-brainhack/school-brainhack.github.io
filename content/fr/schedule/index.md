@@ -5,11 +5,11 @@ type = "schedule"
 
 [[week]]
   week = "**Semaine 1**"
-  name = "[Fondamentaux en science des données neurales](https://neurodatascience.github.io/course-2019/) à l'Université McGill"
+  name = "[Fondamentaux en science des données neurales](https://neurodatasci-course-2020.netlify.com/) à l'Université McGill"
   img = "locations/mcgill.jpg"
   imgalttext = "McGill"
   imgside = "right"
-  buttonurl = "https://neurodatascience.github.io/course-2019/docs/schedule/"
+  buttonurl = "https://neurodatasci-course-2020.netlify.com/"
   buttondescr = "Voir le programme préliminaire de la semaine 1"
   description = """
   La semaine 1 va introduire les participants à une boîte à outils computationnelle reproductible pour la science des données neuronales, ainsi que des notions de base en apprentissage automatique supervisé et non-supervisé. Des présentations brèves et des séances pratiques seront organisés durant les 5 jours, et permettront aux participants d'appliquer les méthodes présentées sur des données réelles. À la fin de la semaine 1, les participants devraient être capables de répondre à des questions telles que:

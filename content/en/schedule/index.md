@@ -5,11 +5,11 @@ type = "schedule"
 
 [[week]]
   week = "**Week 1**"
-  name = "[Neuro-Data Science Bootcamp](https://neurodatascience.github.io/course-2019/docs/) at McGill University"
+  name = "[Neuro-Data Science Bootcamp](https://neurodatasci-course-2020.netlify.com/) at McGill University"
   img = "locations/mcgill.jpg"
   imgalttext = "McGill building"
   imgside = "right"
-  buttonurl = "https://neurodatascience.github.io/course-2019/docs/schedule/"
+  buttonurl = "https://neurodatasci-course-2020.netlify.com/"
   buttondescr = "View the preliminary schedule for that week"
   description = """
   Week 1 will introduce participants to a reproducible computational toolkit for neural data science, as well as a basic grounding in supervised and unsupervised machine learning methods.
