@@ -9,8 +9,8 @@ type = "schedule"
   img = "locations/mcgill.jpg"
   imgalttext = "McGill building"
   imgside = "right"
-  buttonurl = "https://neurodatasci-course-2020.netlify.com/"
-  buttondescr = "View the preliminary schedule for that week"
+  buttonurl = "https://neurodatasci-course-2020.netlify.com/schedule"
+  buttondescr = "View the schedule for that week"
   description = """
   Week 1 will introduce participants to a reproducible computational toolkit for neural data science, as well as a basic grounding in supervised and unsupervised machine learning methods.
 Short lectures and hands-on tutorials throughout the five days will provide participants with familiarity applying these methods to real data. As a participant, at the end of Week 1 you should be able to answer questions such as:
