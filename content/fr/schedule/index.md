@@ -9,8 +9,8 @@ type = "schedule"
   img = "locations/mcgill.jpg"
   imgalttext = "McGill"
   imgside = "right"
-  buttonurl = "https://neurodatasci-course-2020.netlify.com/"
-  buttondescr = "Voir le programme préliminaire de la semaine 1"
+  buttonurl = "https://neurodatasci-course-2020.netlify.com/schedule"
+  buttondescr = "Voir le programme de la semaine 1"
   description = """
   La semaine 1 va introduire les participants à une boîte à outils computationnelle reproductible pour la science des données neuronales, ainsi que des notions de base en apprentissage automatique supervisé et non-supervisé. Des présentations brèves et des séances pratiques seront organisés durant les 5 jours, et permettront aux participants d'appliquer les méthodes présentées sur des données réelles. À la fin de la semaine 1, les participants devraient être capables de répondre à des questions telles que:
    * Qu'est ce que le contrôle de version, et comment puis-je l'utiliser pour améliorer ma manière de travailler?
