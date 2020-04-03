@@ -6,7 +6,7 @@ keywords = ["brainhack", "registration"]
 
 Registration is free for participants enrolled in one of the four partner institutions (McGill, UdeM, Poly, Concordia), and **50$ CAD** otherwise. The link for paying the registration fees will be forwarded after acceptance of your application. Please contact [Emilie Dessureault](mailto:emilie.dessureault@criugm.qc.ca) for any question. To apply, fill out the form below or access directly the [google form](https://forms.gle/adrzs9ztZA69c4rg7).
 
-<div class="alert alert-success text-center" role="alert">The deadline for applications is <b>April 5th, 2020</b>. Notifications of acceptance will be sent out by April 11th, 2020.</div>
+<div class="alert alert-success text-center" role="alert"><b>Updated</b> deadline for applications is now <b>April 12th, 2020</b>. Notifications of acceptance will be sent out by April 19th, 2020.</div>
 
 The BrainHack School is open in priority to students registered at one of the four partner institutions. However, **a quota of participants will be selected from outside of these universities, and possibly from outside of Canada**. The selection of students is based on the following criteria:
 
