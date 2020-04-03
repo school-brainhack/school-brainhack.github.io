@@ -6,7 +6,7 @@ keywords = ["brainhack", "registration"]
 
 L'inscription est gratuite pour les participants qui ont un statut d'étudiant dans l'une de nos quatre institutions partenaires (McGill, UdeM, Poly, Concordia), et coûte **50 CAD** autrement. Le lien pour effectuer le paiement vous sera communiqué une fois votre demande de participation aura été acceptée. S'il vous plait contactez [Émilie Dessureault](mailto:emilie.dessureault@criugm.qc.ca) pour pour toute question. Pour effectuer une demande de participation, remplissez le formulaire ci-dessous (en anglais), ou remplissez directement le [formulaire google](https://forms.gle/adrzs9ztZA69c4rg7).
 
-<div class="alert alert-success text-center" role="alert">L'échéance pour s'inscrire au BrainHack School est le <b>5 avril 2020</b>. Les résultats du processus de sélection seront partagés le 11 avril 2020.</div>
+<div class="alert alert-success text-center" role="alert"><b>Nouvelle</b> échéance pour s'inscrire au BrainHack School est le <b>12 avril 2020</b>. Les résultats du processus de sélection seront partagés le 19 avril 2020.</div>
 
 L'école BrainHack est ouverte en priorité aux étudiants des institutions partenaires. **Un quota de participants sera sélectionné en dehors de ces universités, y compris à l'extérieur du Canada**. La sélection des étudiants est basée sur les critères suivants:
 
