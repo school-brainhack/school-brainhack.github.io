@@ -114,7 +114,7 @@ languages:
         subtitle: A selection of projects from our students
       topbar:
         enable: true
-        text: "**:computer: :brain: [Registrations](/register) are now open!! :brain: :computer:** :house: Due to the [COVID-19](https://www.quebec.ca/en/health/health-issues/a-z/2019-coronavirus/situation-coronavirus-in-quebec/) pandemic, this year will be entirely virtual! :film_projector: "
+        text: "**:computer: :brain: [Registrations](/register) are now closed. :brain: :computer:** :house: Due to the [COVID-19](https://www.quebec.ca/en/health/health-issues/a-z/2019-coronavirus/situation-coronavirus-in-quebec/) pandemic, this year will be entirely virtual! :film_projector: "
 
   fr:
     languageCode: fr
