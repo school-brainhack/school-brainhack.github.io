@@ -2,6 +2,10 @@
 title = "Schedule"
 type = "schedule"
 
+outputs = [
+  "HTML",
+  "Calendar"
+]
 
 [[week]]
   week = "**Week 1**"

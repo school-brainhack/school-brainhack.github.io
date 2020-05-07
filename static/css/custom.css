@@ -49,3 +49,39 @@
   color: 
   #fff;
 }
+
+.agenda {  }
+
+/* Dates */
+.agenda .agenda-date { width: 170px; }
+.agenda .agenda-date .dayofmonth {
+  width: 40px;
+  font-size: 36px;
+  line-height: 36px;
+  float: left;
+  text-align: right;
+  margin-right: 10px; 
+}
+.agenda .agenda-date .shortdate {
+  font-size: 0.75em; 
+}
+
+
+/* Times */
+.agenda .agenda-time { width: 140px;
+text-align: center;
+ } 
+
+
+/* Events */
+.agenda .agenda-events .event-title { 
+  font-size: 2rem
+} 
+
+.agenda .agenda-events .agenda-event {
+  
+  } 
+
+@media (max-width: 767px) {
+    
+}
