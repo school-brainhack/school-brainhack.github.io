@@ -5,6 +5,22 @@ CALSCALE:GREGORIAN
 METHOD:PUBLISH
 X-WR-CALNAME:BrainHack School Calendar
 X-WR-TIMEZONE:America/Toronto
+BEGIN:VTIMEZONE
+TZID:America/New_York
+LAST-MODIFIED:20050809T050000Z
+BEGIN:STANDARD
+DTSTART:20071104T020000
+TZOFFSETFROM:-0400
+TZOFFSETTO:-0500
+TZNAME:EST
+END:STANDARD
+BEGIN:DAYLIGHT
+DTSTART:20070311T020000
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0400
+TZNAME:EDT
+END:DAYLIGHT
+END:VTIMEZONE
 {{- range .Site.Data.en.schedule.schedule -}}
 {{- range .days -}}
 {{- range .sessions }}
@@ -13,8 +29,8 @@ ORGANIZER;CN="BrainHack School"
 DESCRIPTION:More details @ school.brainhack.org/schedule
 UID:{{dateFormat "20060102T150405" .dateStart}}@school
 DTSTAMP:{{dateFormat "20060102T150405Z" .dateStart}}
-DTSTART;TZID=US-Eastern:{{dateFormat "20060102T150405" .dateStart}}
-DTEND;TZID=US-Eastern:{{dateFormat "20060102T150405" .dateEnd}}
+DTSTART:{{dateFormat "20060102T150405Z" .dateStart}}
+DTEND:{{dateFormat "20060102T150405Z" .dateEnd}}
 STATUS:CONFIRMED
 SUMMARY:{{ .title | truncate 66}}
 LOCATION:{{ $.Site.Data.en.schedule.linktoschedule }}
