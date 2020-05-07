@@ -4,6 +4,18 @@ theme: hugo-universal-theme
 defaultContentLanguage: en
 defaultContentLanguageInSubdir: FALSE
 
+outputs:
+  home:
+    - HTML
+  section:
+    - HTML
+  page:
+    - HTML
+
+outputFormats:
+  Calendar:
+    mediaType: text/calendar
+        
 languages:
   en:
     languageCode: en-us
@@ -19,6 +31,10 @@ languages:
         - identifier: Schedule
           name: Schedule
           url: /schedule/
+          weight: 2
+        - identifier: Weeks
+          name: Weeks
+          url: /weeks/
           weight: 2
         - identifier: Locations
           name: Locations
@@ -132,6 +148,10 @@ languages:
           name: Horaire
           url: /schedule/
           weight: 2
+        - identifier: Weeks
+          name: Semaines
+          url: /weeks/
+          weight: 2
         - identifier: Locations
           name: Sites
           url: /locations/
@@ -225,7 +245,7 @@ languages:
         subtitle: A selection of projects from our students
       topbar:
         enable: true
-        text: "**:computer: :brain: Les [inscriptions](/register) sont maintenant ouvertes!! :brain: :computer:** :house: Face à la pandémie de [COVID-19](https://www.quebec.ca/sante/problemes-de-sante/a-z/coronavirus-2019/situation-coronavirus-quebec/), l'école sera virtuelle cette année! :film_projector: "
+        text: "**:computer: :brain: Les [inscriptions](/register) sont maintenant fermées. :brain: :computer:** :house: Face à la pandémie de [COVID-19](https://www.quebec.ca/sante/problemes-de-sante/a-z/coronavirus-2019/situation-coronavirus-quebec/), l'école sera virtuelle cette année! :film_projector: "
 
 Permalinks:
   blog: '/blog/:year/:month/:day/:filename/'

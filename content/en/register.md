@@ -20,4 +20,4 @@ The BrainHack School is open in priority to students registered at one of the fo
   * Weeks 2-4 consist of designing and implementing a project. Graduate students can get credit for the project either at the Psychology department of Montreal University ([PSY 6983 - Project in neural data science](https://admission.umontreal.ca/cours-et-horaires/cours/psy-6983/), Pr P Bellec, 3 credits), or at the computer science engineering department of Concordia University ([COMP 490](http://www.concordia.ca/academics/undergraduate/calendar/current/sec71/71-70.html) or COMP 6971, projects, Pr T Glatard, 3 credits).
  * By registering through the [office of inter-university cooperation](http://www.bci-qc.ca/en/), it is possible to get credit for both parts of the course, for a total of 6 credits. Brainhack schools also welcome participants from outside the four partner institutions, including from outside Québec and Canada.
 
-{{< gform src="1FAIpQLSdI3g1ZZfLS-tycesGcxc2VjOJuqLRvwHrH4SnEZaivWBU7Yw" width="100%" height="1000px" alt="Loading..." >}}
+<br>
