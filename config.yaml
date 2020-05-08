@@ -4,18 +4,8 @@ theme: hugo-universal-theme
 defaultContentLanguage: en
 defaultContentLanguageInSubdir: FALSE
 
-outputs:
-  home:
-    - HTML
-  section:
-    - HTML
-  page:
-    - HTML
 
-outputFormats:
-  Calendar:
-    mediaType: text/calendar
-        
+
 languages:
   en:
     languageCode: en-us
@@ -44,10 +34,22 @@ languages:
           name: Register
           url: /register/
           weight: 4
-        - identifier: coc
+
+        - identifier: documents
+          name: Documents
+          weight: 6 
+          url: /guide/
+          
+        - parent: documents
+          name: Getting started Guide
+          url: /guide/
+          weight: 7
+
+        - parent: documents
           name: Code of Conduct
           url: /coc/
-          weight: 5
+          weight: 8
+
       topbar:
         - weight: 1
           name: GitHub
@@ -63,6 +65,10 @@ languages:
           pre: <i class='fas fa-2x fa-envelope'></i>
 
     params:
+      outputFormats:
+        Calendar:
+          mediaType: text/calendar
+          protocol: "https://"
       viewMorePostLink: /blog/
       author: BHS
       defaultKeywords:
@@ -74,7 +80,7 @@ languages:
       facebook_site: ''
       twitter_site: BrainhackMTL
       default_sharing_image: img/brainhackSchool.jpg
-      googleMapsApiKey: AIzaSyCFhtWLJcE30xOAjcbSFi-0fnoVmQZPb1Y
+      googleMapsApiKey:
       style: green
       email:
       contact_form_ajax: false
@@ -160,10 +166,20 @@ languages:
           name: S'inscrire
           url: /register/
           weight: 4
-        - identifier: coc
+        - identifier: documents
+          name: Documents
+          weight: 6 
+          url: /guide/
+          
+        - parent: documents
+          name: Getting started Guide
+          url: /fr/guide/
+          weight: 7
+
+        - parent: documents
           name: Code de conduite
           url: /coc/
-          weight: 5
+          weight: 8
       topbar:
         - weight: 1
           name: GitHub
@@ -186,11 +202,11 @@ languages:
         - Neuroscience
       mainSections:
         - blog
-      defaultDescription: description 'a changer
+      defaultDescription:
       facebook_site: ''
       twitter_site: BrainhackMTL
       default_sharing_image: img/sharing-default.png
-      googleMapsApiKey: AIzaSyCFhtWLJcE30xOAjcbSFi-0fnoVmQZPb1Y
+      googleMapsApiKey: 
       style: green
       email: your@email.com
       contact_form_ajax: false

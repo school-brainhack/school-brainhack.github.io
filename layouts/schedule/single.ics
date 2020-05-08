@@ -1,40 +1,28 @@
 BEGIN:VCALENDAR
-VERSION:2.0
 PRODID:-//school.brainhackmtl.org//schedule//EN
+VERSION:2.0
 CALSCALE:GREGORIAN
 METHOD:PUBLISH
-X-WR-CALNAME:BrainHack School Calendar
+X-WR-CALNAME:BrainHack School Schedule
 X-WR-TIMEZONE:America/Toronto
-BEGIN:VTIMEZONE
-TZID:America/New_York
-LAST-MODIFIED:20050809T050000Z
-BEGIN:STANDARD
-DTSTART:20071104T020000
-TZOFFSETFROM:-0400
-TZOFFSETTO:-0500
-TZNAME:EST
-END:STANDARD
-BEGIN:DAYLIGHT
-DTSTART:20070311T020000
-TZOFFSETFROM:-0500
-TZOFFSETTO:-0400
-TZNAME:EDT
-END:DAYLIGHT
-END:VTIMEZONE
+X-WR-CALDESC:Simple schedule for BrainHack Schoolers
 {{- range .Site.Data.en.schedule.schedule -}}
 {{- range .days -}}
 {{- range .sessions }}
 BEGIN:VEVENT
-ORGANIZER;CN="BrainHack School"
-DESCRIPTION:More details @ school.brainhack.org/schedule
-UID:{{dateFormat "20060102T150405" .dateStart}}@school
+DTSTART;TZID=America/Toronto:{{dateFormat "20060102T150405" .dateStart}}
+DTEND;TZID=America/Toronto:{{dateFormat "20060102T150405" .dateEnd}}
 DTSTAMP:{{dateFormat "20060102T150405Z" .dateStart}}
-DTSTART:{{dateFormat "20060102T150405Z" .dateStart}}
-DTEND:{{dateFormat "20060102T150405Z" .dateEnd}}
+UID:{{dateFormat "20060102T150405" .dateStart}}@school.brainhack.com
+CREATED:{{dateFormat "20060102T150405Z" now }}
+DESCRIPTION:Details @ <a href="https://school.brainhackmtl.org/schedule">BHS Schedule</a>. Password provided in #schedule(Slack).
+LAST-MODIFIED:{{dateFormat "20060102T150405Z" now }}
+LOCATION:{{ if .linktosession }}{{.linktosession}}{{else}}{{ $.Site.Data.en.schedule.linktosession }}{{end}}
+SEQUENCE:0
 STATUS:CONFIRMED
-SUMMARY:{{ .title | truncate 66}}
-LOCATION:{{ $.Site.Data.en.schedule.linktoschedule }}
-URL:{{ $.Site.Data.en.schedule.linktoschedule }}
+SUMMARY:{{ .title | truncate 75}}
+TRANSP:OPAQUE
+URL:{{ $.Site.Data.en.schedule.linktosession }}
 END:VEVENT
 {{- end -}}{{- end -}}{{- end }}
 END:VCALENDAR
