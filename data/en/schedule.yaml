@@ -1,5 +1,5 @@
 agenda_title: Detailed Agenda
-agenda_subtitle: > 
+agenda_subtitle: >
   The schedule will be updated here, posted on Slack, and you can [add our calendar to your schedule](webcal://school.brainhackmtl.org/schedule/index.ics) for the most up-to-date information.
   Ping us in the #schedule channel on Slack if you have any questions.
 linktosession: umontreal.zoom.us/blabla
@@ -18,13 +18,13 @@ schedule:
       description: >
         During office hours the listed instructor will be active and on-line in the Slack #help-installation channel.
 
-        
+
         If you experience any issues or have any questions while following the **[installation instructions](https://neurodatasci-course-2020.netlify.app/setup/)**
-        you can ping them in the [#help-installation channel](https://brainhack-school2020.slack.com/archives/C0121EXGHP1) and they will follow up with you. 
+        you can ping them in the [#help-installation channel](https://brainhack-school2020.slack.com/archives/C0121EXGHP1) and they will follow up with you.
         If needed, they will also be available to jump on a Zoom call to debug any issues you may be experiencing (this will potentially require you
         to permit them remote access to your computer).
-        
-        
+
+
         Note you are more than welcome to post questions to the #help-installation channel during times when no instructor
         is listed as being available, but it may take more time to receive a response!"
       instructors:
@@ -54,7 +54,7 @@ schedule:
         - John Doe
 
   - date: 2020-05-07 # thursday:
-    sessions: 
+    sessions:
     - title: Installation party 💻
       dateStart: 2020-05-07T08:00:00-04:00
       dateEnd:   2020-05-07T17:00:00-04:00
@@ -65,7 +65,7 @@ schedule:
         - John Doe
 
   - date: 2020-05-08 #friday
-    sessions: 
+    sessions:
     - title: Installation party 💻
       dateStart: 2020-05-08T08:00:00-04:00
       dateEnd:   2020-05-08T17:00:00-04:00
@@ -76,13 +76,14 @@ schedule:
         - John Doe
 
 - week: Week 1
-  title: "Neuro-Data Science Bootcamp"
+  title: "Fundamentals of Neuro Data Science"
   days:
   - date: 2020-05-11 #monday
     sessions:
     - title: Course introduction
       dateStart: 2020-05-11T09:00:00-04:00
       dateEnd:   2020-05-11T10:00:00-04:00
+      linktosession: https://zoom.us/j/92317091379
       # date: 2019-12-28T19:22:48+0000
       topic: 3 # 1 = computer science, 2 = neuroscience, 3 - both
       description: Neuroscientists increasingly rely on openly-accessible data and on advanced methodological procedures for their investigations.
@@ -93,39 +94,43 @@ schedule:
     - title: Modern reproducibility problems in the life sciences
       dateStart:  2020-05-11T10:00:00-04:00
       dateEnd:    2020-05-11T11:00:00-04:00
+      linktosession: https://zoom.us/j/92317091379
       # date: 2019-12-28T19:22:48+0000
       topic: 2 # 1 = computer science, 2 = neuroscience, 3 - both, 4 = random
       description: Concurrently, there is a growing concern in the life sciences that many results produced are difficult or even impossible to reproduce, commonly referred to as the “reproducibility crisis.”
       instructors:
         - Jane Doe
-        - John Doe 
+        - John Doe
 
     - title: Set-up and installation
       dateStart:  2020-05-11T11:00:00-04:00
       dateEnd:    2020-05-11T12:00:00-04:00
+      linktosession: https://zoom.us/j/92317091379
       # date: 2019-12-28T19:22:48+0000
       topic: 1 # 1 = computer science, 2 = neuroscience, 3 - both, 4 = random
-      description: 
-      instructors: 
+      description:
+      instructors:
         - Jane Doe
         - John Doe
 
     - title: Lunch
       dateStart: 2020-05-11T12:00:00-04:00
       dateEnd:   2020-05-11T13:00:00-04:00
+      linktosession: https://zoom.us/j/92317091379
       # date: 2019-12-28T19:22:48+0000
       topic: 4 # 1 = computer science, 2 = neuroscience, 3 - both, 4 = random
       description: Eat together, on your own or don't, but make sure to take a break.
       instructors:
         - Jane Doe
-        - John Doe 
+        - John Doe
 
     - title: Introduction to the terminal
       dateStart:  2020-05-11T13:00:00-04:00
       dateEnd:    2020-05-11T14:00:00-04:00
+      linktosession: https://zoom.us/j/92317091379
       # date: 2019-12-28T19:22:48+0000
       topic: 1 # 1 = computer science, 2 = neuroscience, 3 - both, 4 = random
-      description: Your terminal will become your best fridate by the end of the school!
+      description: Your terminal will become your best friend by the end of the school!
       instructors:
         - Jane Doe
         - John Doe
@@ -133,18 +138,20 @@ schedule:
     - title: Introduction to git and GitHub
       dateStart:  2020-05-11T14:00:00-04:00
       dateEnd:    2020-05-11T15:00:00-04:00
+      linktosession: https://zoom.us/j/92317091379
       # date: 2019-12-28T19:22:48+0000
       topic: 1 # 1 = computer science, 2 = neuroscience, 3 - both, 4 = random
       description: Git and Github will become you second best friends!
       instructors:
         - Jane Doe
-        - John Doe    
-  
+        - John Doe
+
   - date: 2020-05-12 #tuesday
     sessions:
     - title: Python for data analysis
       dateStart:  2020-05-12T09:00:00-04:00
       dateEnd:    2020-05-12T12:00:00-04:00
+      linktosession: https://zoom.us/j/92317091379
       # date: 2019-12-28T19:22:48+0000
       topic: 3 # 1 = computer science, 2 = neuroscience, 3 - both, 4 = random
       description: Data science offers a key set of tools and methods to efficiently analyse, visualize, and interpret neuroscience data
@@ -155,15 +162,17 @@ schedule:
     - title: "Lunch"
       dateStart:  2020-05-12T12:00:00-04:00
       dateEnd:    2020-05-12T13:00:00-04:00
+      linktosession: https://zoom.us/j/92317091379
       # date: 2019-12-28T19:22:48+0000
       topic: 4 # 1 = computer science, 2 = neuroscience, 3 - both, 4 = random
       instructors:
         - Jane Doe
-        - John Doe 
+        - John Doe
 
     - title: Containerization with Docker
       dateStart:  2020-05-12T13:00:00-04:00
       dateEnd:    2020-05-12T16:30:00-04:00
+      linktosession: https://zoom.us/j/92317091379
       # date: 2019-12-28T19:22:48+0000
       topic: 1 # 1 = computer science, 2 = neuroscience, 3 - both, 4 = random
       instructors:
@@ -173,17 +182,19 @@ schedule:
     - title: Assessment 1
       dateStart:  2020-05-12T16:30:00-04:00
       dateEnd:    2020-05-12T17:30:00-04:00
+      linktosession: https://zoom.us/j/92317091379
       # date: 2019-12-28T19:22:48+0000
       topic: 3 # 1 = computer science, 2 = neuroscience, 3 - both, 4 = random
       instructors:
         - Jane Doe
-        - John Doe 
+        - John Doe
 
   - date: 2020-05-13 #wednesday
     sessions:
     - title: Standards for project management and organization
       dateStart: 2020-05-13T09:00:00-04:00
       dateEnd:    2020-05-13T10:30:00-04:00
+      linktosession: https://zoom.us/j/92317091379
       topic: 3 # 1 = computer science, 2 = neuroscience, 3 - both, 4 = random
       description:
       instructors:
@@ -193,25 +204,28 @@ schedule:
     - title: Tools for project management and organization
       dateStart:  2020-05-13T10:30:00-04:00
       dateEnd:    2020-05-13T12:00:00-04:00
+      linktosession: https://zoom.us/j/92317091379
       topic: 3 # 1 = computer science, 2 = neuroscience, 3 - both, 4 = random
       description:
       instructors:
         - Jane Doe
-        - John Doe 
+        - John Doe
 
     - title: "Lunch"
       dateStart:  2020-05-13T12:00:00-04:00
       dateEnd:    2020-05-13T13:00:00-04:00
+      linktosession: https://zoom.us/j/92317091379
       # date: 2019-12-28T19:22:48+0000
       topic: 4 # 1 = computer science, 2 = neuroscience, 3 - both, 4 = random
       description:
       instructors:
         - Jane Doe
-        - John Doe 
+        - John Doe
 
     - title: High-performance computing
       dateStart:  2020-05-13T13:00:00-04:00
       dateEnd:    2020-05-13T16:30:00-04:00
+      linktosession: https://zoom.us/j/92317091379
       # date: 2019-13-28T19:22:48+0000
       topic: 1 # 1 = computer science, 2 = neuroscience, 3 - both, 4 = random
       description:
@@ -224,6 +238,7 @@ schedule:
     - title: Data visualization
       dateStart: 2020-05-14T09:00:00-04:00
       dateEnd:   2020-05-14T10:30:00-04:00
+      linktosession: https://zoom.us/j/92317091379
       topic: 3 # 1 = computer science, 2 = neuroscience, 3 - both, 4 = random
       description:
       instructors:
@@ -233,25 +248,28 @@ schedule:
     - title: Introduction to classical statistics
       dateStart:  2020-05-14T10:30:00-04:00
       dateEnd:    2020-05-14T12:00:00-04:00
+      linktosession: https://zoom.us/j/92317091379
       topic: 3 # 1 = computer science, 2 = neuroscience, 3 - both, 4 = random
       description:
       instructors:
         - Jane Doe
-        - John Doe 
+        - John Doe
 
     - title: "Lunch"
       dateStart:  2020-05-14T12:00:00-04:00
       dateEnd:    2020-05-14T13:00:00-04:00
+      linktosession: https://zoom.us/j/92317091379
       # date: 2019-12-28T19:22:48+0000
       topic: 4 # 1 = computer science, 2 = neuroscience, 3 - both, 4 = random
       description:
       instructors:
         - Jane Doe
-        - John Doe 
+        - John Doe
 
     - title: Introduction to machine learning
       dateStart:  2020-05-14T13:00:00-04:00
       dateEnd:    2020-05-14T16:30:00-04:00
+      linktosession: https://zoom.us/j/92317091379
       topic: 1 # 1 = computer science, 2 = neuroscience, 3 - both, 4 = random
       description:
       instructors:
@@ -261,6 +279,7 @@ schedule:
     - title: Feedback for review sessions on Friday
       dateStart:  2020-05-14T16:30:00-04:00
       dateEnd:    2020-05-14T17:00:00-04:00
+      linktosession: https://zoom.us/j/92317091379
       topic: 1 # 1 = computer science, 2 = neuroscience, 3 - both, 4 = random
       description:
       instructors:
@@ -272,6 +291,7 @@ schedule:
     - title: Fundamentals of deep learning in neuroscience
       dateStart: 2020-05-15T09:00:00-04:00
       dateEnd:   2020-05-15T10:30:00-04:00
+      linktosession: https://zoom.us/j/92317091379
       topic: 3 # 1 = computer science, 2 = neuroscience, 3 - both, 4 = random
       description:
       instructors:
@@ -281,25 +301,28 @@ schedule:
     - title: Applications of deep learning in neuroscience
       dateStart:  2020-05-15T10:30:00-04:00
       dateEnd:    2020-05-15T12:00:00-04:00
+      linktosession: https://zoom.us/j/92317091379
       topic: 3 # 1 = computer science, 2 = neuroscience, 3 - both, 4 = random
       description:
       instructors:
         - Jane Doe
-        - John Doe 
+        - John Doe
 
     - title: "Lunch"
       dateStart:  2020-05-15T12:00:00-04:00
       dateEnd:    2020-05-15T13:00:00-04:00
+      linktosession: https://zoom.us/j/92317091379
       # date: 2019-12-28T19:22:48+0000
       topic: 4 # 1 = computer science, 2 = neuroscience, 3 - both, 4 = random
       description:
       instructors:
         - Jane Doe
-        - John Doe 
+        - John Doe
 
     - title: Epistemology and lessons from the past
       dateStart:  2020-05-15T13:00:00-04:00
       dateEnd:    2020-05-15T14:00:00-04:00
+      linktosession: https://zoom.us/j/92317091379
       topic: 1 # 1 = computer science, 2 = neuroscience, 3 - both, 4 = random
       description:
       instructors:
@@ -309,6 +332,7 @@ schedule:
     - title: Review session 1
       dateStart:  2020-05-15T14:00:00-04:00
       dateEnd:    2020-05-15T15:00:00-04:00
+      linktosession: https://zoom.us/j/92317091379
       topic: 1 # 1 = computer science, 2 = neuroscience, 3 - both, 4 = random
       description:
       instructors:
@@ -318,6 +342,7 @@ schedule:
     - title: Review session 2
       dateStart:  2020-05-15T15:00:00-04:00
       dateEnd:    2020-05-15T16:00:00-04:00
+      linktosession: https://zoom.us/j/92317091379
       topic: 1 # 1 = computer science, 2 = neuroscience, 3 - both, 4 = random
       description:
       instructors:
@@ -327,6 +352,7 @@ schedule:
     - title: Assessment 2
       dateStart:  2020-05-15T16:00:00-04:00
       dateEnd:    2020-05-15T17:00:00-04:00
+      linktosession: https://zoom.us/j/92317091379
       topic: 1 # 1 = computer science, 2 = neuroscience, 3 - both, 4 = random
       description:
       instructors:
