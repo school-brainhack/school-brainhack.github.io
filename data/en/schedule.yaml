@@ -1,8 +1,9 @@
 agenda_title: Detailed Agenda
 agenda_subtitle: >
-  The schedule will be updated here, posted on Slack, and you can [add our calendar to your schedule](webcal://school.brainhackmtl.org/schedule/index.ics) for the most up-to-date information.
-  Ping us in the #schedule channel on Slack if you have any questions.
-linktosession: umontreal.zoom.us/blabla
+  The schedule will be updated here, reminders will be posted in **[#schedule on Slack](https://brainhack-school2020.slack.com/archives/C0127A3QJTX)**, including the Zoom links and password. You can even
+  **[import the schedule in your favorite calendar app](https://school.brainhackmtl.org/schedule/index.ics)** for the most up-to-date information.
+  Ping us in the #schedule channel on Slack if you have any question regarding the schedule.
+linktosession: https://zoom.us/j/92317091379
 linktoschedule: https://brainhack-school2020.slack.com/archives/C0127A3QJTX
 
 schedule:
@@ -119,7 +120,7 @@ schedule:
       linktosession: https://zoom.us/j/92317091379
       # date: 2019-12-28T19:22:48+0000
       topic: 4 # 1 = computer science, 2 = neuroscience, 3 - both, 4 = random
-      description: Eat together, on your own or don't, but make sure to take a break.
+      description: Eat together, on your own or don't, but make sure to take a break. Don't forget the #snack-club!
       instructors:
         - Jane Doe
         - John Doe
@@ -164,6 +165,7 @@ schedule:
       dateEnd:    2020-05-12T13:00:00-04:00
       linktosession: https://zoom.us/j/92317091379
       # date: 2019-12-28T19:22:48+0000
+      description: Don't forget the #snack-club!
       topic: 4 # 1 = computer science, 2 = neuroscience, 3 - both, 4 = random
       instructors:
         - Jane Doe
@@ -217,7 +219,7 @@ schedule:
       linktosession: https://zoom.us/j/92317091379
       # date: 2019-12-28T19:22:48+0000
       topic: 4 # 1 = computer science, 2 = neuroscience, 3 - both, 4 = random
-      description:
+      description: Don't forget the #snack-club!
       instructors:
         - Jane Doe
         - John Doe
@@ -261,7 +263,7 @@ schedule:
       linktosession: https://zoom.us/j/92317091379
       # date: 2019-12-28T19:22:48+0000
       topic: 4 # 1 = computer science, 2 = neuroscience, 3 - both, 4 = random
-      description:
+      description: Don't forget the #snack-club!
       instructors:
         - Jane Doe
         - John Doe
@@ -314,7 +316,7 @@ schedule:
       linktosession: https://zoom.us/j/92317091379
       # date: 2019-12-28T19:22:48+0000
       topic: 4 # 1 = computer science, 2 = neuroscience, 3 - both, 4 = random
-      description:
+      description: Don't forget the #snack-club!
       instructors:
         - Jane Doe
         - John Doe
