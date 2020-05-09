@@ -68,7 +68,6 @@ languages:
       outputFormats:
         Calendar:
           mediaType: text/calendar
-          protocol: "https://"
       viewMorePostLink: /blog/
       author: BHS
       defaultKeywords:
