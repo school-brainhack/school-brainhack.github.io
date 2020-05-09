@@ -85,11 +85,11 @@ instructors:
 
   - name: Désirée Lussier-Lévesque
     gh: dllussier
-    email:
+    email: desiree.lussier.levesque@criugm.qc.ca
     website:
     affiliation: Research center of IUGM
     urlaff: http://www.criugm.qc.ca/fr.html
-    twitter:
+    twitter: desiree_lussier
 
   - name: Benjamin De Leener
     gh: benjamindeleener
