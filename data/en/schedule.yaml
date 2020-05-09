@@ -85,7 +85,7 @@ schedule:
       dateStart: 2020-05-11T09:00:00-04:00
       dateEnd:   2020-05-11T10:00:00-04:00
       linktosession: https://zoom.us/j/92317091379
-      # date: 2019-12-28T19:22:48+0000
+      
       topic: 3 # 1 = computer science, 2 = neuroscience, 3 - both
       description: Neuroscientists increasingly rely on openly-accessible data and on advanced methodological procedures for their investigations.
       instructors:
@@ -96,7 +96,7 @@ schedule:
       dateStart:  2020-05-11T10:00:00-04:00
       dateEnd:    2020-05-11T11:00:00-04:00
       linktosession: https://zoom.us/j/92317091379
-      # date: 2019-12-28T19:22:48+0000
+      
       topic: 2 # 1 = computer science, 2 = neuroscience, 3 - both, 4 = random
       description: Concurrently, there is a growing concern in the life sciences that many results produced are difficult or even impossible to reproduce, commonly referred to as the “reproducibility crisis.”
       instructors:
@@ -107,7 +107,7 @@ schedule:
       dateStart:  2020-05-11T11:00:00-04:00
       dateEnd:    2020-05-11T12:00:00-04:00
       linktosession: https://zoom.us/j/92317091379
-      # date: 2019-12-28T19:22:48+0000
+      
       topic: 1 # 1 = computer science, 2 = neuroscience, 3 - both, 4 = random
       description:
       instructors:
@@ -118,7 +118,7 @@ schedule:
       dateStart: 2020-05-11T12:00:00-04:00
       dateEnd:   2020-05-11T13:00:00-04:00
       linktosession: https://zoom.us/j/92317091379
-      # date: 2019-12-28T19:22:48+0000
+      
       topic: 4 # 1 = computer science, 2 = neuroscience, 3 - both, 4 = random
       description: Eat together, on your own or don't, but make sure to take a break. Don't forget the #snack-club!
       instructors:
@@ -129,7 +129,7 @@ schedule:
       dateStart:  2020-05-11T13:00:00-04:00
       dateEnd:    2020-05-11T14:00:00-04:00
       linktosession: https://zoom.us/j/92317091379
-      # date: 2019-12-28T19:22:48+0000
+      
       topic: 1 # 1 = computer science, 2 = neuroscience, 3 - both, 4 = random
       description: Your terminal will become your best friend by the end of the school!
       instructors:
@@ -140,7 +140,7 @@ schedule:
       dateStart:  2020-05-11T14:00:00-04:00
       dateEnd:    2020-05-11T15:00:00-04:00
       linktosession: https://zoom.us/j/92317091379
-      # date: 2019-12-28T19:22:48+0000
+      
       topic: 1 # 1 = computer science, 2 = neuroscience, 3 - both, 4 = random
       description: Git and Github will become you second best friends!
       instructors:
@@ -153,7 +153,7 @@ schedule:
       dateStart:  2020-05-12T09:00:00-04:00
       dateEnd:    2020-05-12T12:00:00-04:00
       linktosession: https://zoom.us/j/92317091379
-      # date: 2019-12-28T19:22:48+0000
+      
       topic: 3 # 1 = computer science, 2 = neuroscience, 3 - both, 4 = random
       description: Data science offers a key set of tools and methods to efficiently analyse, visualize, and interpret neuroscience data
       instructors:
@@ -164,7 +164,7 @@ schedule:
       dateStart:  2020-05-12T12:00:00-04:00
       dateEnd:    2020-05-12T13:00:00-04:00
       linktosession: https://zoom.us/j/92317091379
-      # date: 2019-12-28T19:22:48+0000
+      
       description: "Don't forget the #snack-club!"
       topic: 4 # 1 = computer science, 2 = neuroscience, 3 - both, 4 = random
       instructors:
@@ -175,7 +175,7 @@ schedule:
       dateStart:  2020-05-12T13:00:00-04:00
       dateEnd:    2020-05-12T16:30:00-04:00
       linktosession: https://zoom.us/j/92317091379
-      # date: 2019-12-28T19:22:48+0000
+      
       topic: 1 # 1 = computer science, 2 = neuroscience, 3 - both, 4 = random
       instructors:
         - Jane Doe
@@ -185,7 +185,7 @@ schedule:
       dateStart:  2020-05-12T16:30:00-04:00
       dateEnd:    2020-05-12T17:30:00-04:00
       linktosession: https://zoom.us/j/92317091379
-      # date: 2019-12-28T19:22:48+0000
+      
       topic: 3 # 1 = computer science, 2 = neuroscience, 3 - both, 4 = random
       instructors:
         - Jane Doe
@@ -217,7 +217,7 @@ schedule:
       dateStart:  2020-05-13T12:00:00-04:00
       dateEnd:    2020-05-13T13:00:00-04:00
       linktosession: https://zoom.us/j/92317091379
-      # date: 2019-12-28T19:22:48+0000
+      
       topic: 4 # 1 = computer science, 2 = neuroscience, 3 - both, 4 = random
       description: "Don't forget the #snack-club!"
       instructors:
@@ -261,7 +261,7 @@ schedule:
       dateStart:  2020-05-14T12:00:00-04:00
       dateEnd:    2020-05-14T13:00:00-04:00
       linktosession: https://zoom.us/j/92317091379
-      # date: 2019-12-28T19:22:48+0000
+      
       topic: 4 # 1 = computer science, 2 = neuroscience, 3 - both, 4 = random
       description: "Don't forget the #snack-club!"
       instructors:
@@ -314,7 +314,7 @@ schedule:
       dateStart:  2020-05-15T12:00:00-04:00
       dateEnd:    2020-05-15T13:00:00-04:00
       linktosession: https://zoom.us/j/92317091379
-      # date: 2019-12-28T19:22:48+0000
+      
       topic: 4 # 1 = computer science, 2 = neuroscience, 3 - both, 4 = random
       description: "Don't forget the #snack-club!"
       instructors:
@@ -366,12 +366,12 @@ schedule:
   days:
   - date: 2020-05-18 #monday
     sessions:
-    - title: "Quebec's Public Holiday"
+    - title: "Quebec Public Holiday"
       dateStart: 2020-05-18T08:00:00-04:00
       dateEnd:   2020-05-18T17:00:00-04:00
       topic: 1 # 1 = computer science, 2 = neuroscience, 3 - both
       description: >
-        Sorry, there won't be any teaching happening. Happy free hacking time !?
+        Enjoy the holiday! There won't be any teaching happening. Happy free hacking time !?
       instructors:
         - Jane Doe
         - John Doe
@@ -382,7 +382,6 @@ schedule:
       dateStart:  2020-05-19T09:00:00-04:00
       dateEnd:    2020-05-19T10:00:00-04:00
       linktosession: 
-      # date: 2019-12-28T19:22:48+0000
       topic: 3 # 1 = computer science, 2 = neuroscience, 3 - both, 4 = random
       description: 
       instructors:
@@ -393,7 +392,6 @@ schedule:
       dateStart:  2020-05-19T10:00:00-04:00
       dateEnd:    2020-05-19T10:15:00-04:00
       linktosession: 
-      # date: 2019-12-28T19:22:48+0000
       topic: 3 # 1 = computer science, 2 = neuroscience, 3 - both, 4 = random
       description: 
       instructors:
@@ -404,7 +402,6 @@ schedule:
       dateStart:  2020-05-19T10:00:00-04:00
       dateEnd:    2020-05-19T12:00:00-04:00
       linktosession: 
-      # date: 2019-12-28T19:22:48+0000
       topic: 3 # 1 = computer science, 2 = neuroscience, 3 - both, 4 = random
       description: 
       instructors:
@@ -412,10 +409,9 @@ schedule:
         - John Doe
 
     - title: "Lunch"
-      dateStart:  2020-05-12T12:00:00-04:00
-      dateEnd:    2020-05-12T13:00:00-04:00
+      dateStart:  2020-05-19T12:00:00-04:00
+      dateEnd:    2020-05-19T13:00:00-04:00
       linktosession: 
-      # date: 2019-12-28T19:22:48+0000
       description: "Don't forget the #snack-club!"
       topic: 4 # 1 = computer science, 2 = neuroscience, 3 - both, 4 = random
       instructors:
@@ -423,52 +419,47 @@ schedule:
         - John Doe
 
     - title: Student-Mentor Sessions / Free hacking
-      dateStart:  2020-05-12T13:00:00-04:00
-      dateEnd:    2020-05-12T15:00:00-04:00
+      dateStart:  2020-05-19T13:00:00-04:00
+      dateEnd:    2020-05-19T15:00:00-04:00
       linktosession: 
-      # date: 2019-12-28T19:22:48+0000
       topic: 1 # 1 = computer science, 2 = neuroscience, 3 - both, 4 = random
       instructors:
         - Jane Doe
         - John Doe
 
     - title: Virtual coffee break
-      dateStart:  2020-05-12T15:00:00-04:00
-      dateEnd:    2020-05-12T15:15:00-04:00
+      dateStart:  2020-05-19T15:00:00-04:00
+      dateEnd:    2020-05-19T15:15:00-04:00
       linktosession: 
-      # date: 2019-12-28T19:22:48+0000
       topic: 1 # 1 = computer science, 2 = neuroscience, 3 - both, 4 = random
       instructors:
         - Jane Doe
         - John Doe
 
     - title: Virtual yoga
-      dateStart:  2020-05-12T15:15:00-04:00
-      dateEnd:    2020-05-12T15:45:00-04:00
+      dateStart:  2020-05-19T15:15:00-04:00
+      dateEnd:    2020-05-19T15:45:00-04:00
       linktosession: 
-      # date: 2019-12-28T19:22:48+0000
       topic: 1 # 1 = computer science, 2 = neuroscience, 3 - both, 4 = random
       instructors:
         - Jane Doe
         - John Doe
 
     - title: Free hacking
-      dateStart:  2020-05-12T15:00:00-04:00
-      dateEnd:    2020-05-12T17:00:00-04:00
+      dateStart:  2020-05-19T15:00:00-04:00
+      dateEnd:    2020-05-19T17:00:00-04:00
       linktosession: 
-      # date: 2019-12-28T19:22:48+0000
       topic: 3 # 1 = computer science, 2 = neuroscience, 3 - both, 4 = random
       instructors:
         - Jane Doe
         - John Doe
 
-  - date: 2020-05-13 #wednesday
+  - date: 2020-05-20 #wednesday
     sessions:
     - title: Tutorial
-      dateStart:  2020-05-19T09:00:00-04:00
-      dateEnd:    2020-05-19T10:00:00-04:00
+      dateStart:  2020-05-20T09:00:00-04:00
+      dateEnd:    2020-05-20T10:00:00-04:00
       linktosession: 
-      # date: 2019-12-28T19:22:48+0000
       topic: 3 # 1 = computer science, 2 = neuroscience, 3 - both, 4 = random
       description: TBA
       instructors:
@@ -476,10 +467,9 @@ schedule:
         - John Doe
 
     - title: Virtual coffee break
-      dateStart:  2020-05-19T10:00:00-04:00
-      dateEnd:    2020-05-19T10:15:00-04:00
+      dateStart:  2020-05-20T10:00:00-04:00
+      dateEnd:    2020-05-20T10:15:00-04:00
       linktosession: 
-      # date: 2019-12-28T19:22:48+0000
       topic: 3 # 1 = computer science, 2 = neuroscience, 3 - both, 4 = random
       description: 
       instructors:
@@ -487,10 +477,9 @@ schedule:
         - John Doe
 
     - title: Free hacking
-      dateStart:  2020-05-19T10:00:00-04:00
-      dateEnd:    2020-05-19T12:00:00-04:00
+      dateStart:  2020-05-20T10:00:00-04:00
+      dateEnd:    2020-05-20T12:00:00-04:00
       linktosession: 
-      # date: 2019-12-28T19:22:48+0000
       topic: 3 # 1 = computer science, 2 = neuroscience, 3 - both, 4 = random
       description: 
       instructors:
@@ -498,10 +487,9 @@ schedule:
         - John Doe
 
     - title: "Lunch"
-      dateStart:  2020-05-12T12:00:00-04:00
-      dateEnd:    2020-05-12T13:00:00-04:00
+      dateStart:  2020-05-20T12:00:00-04:00
+      dateEnd:    2020-05-20T13:00:00-04:00
       linktosession: 
-      # date: 2019-12-28T19:22:48+0000
       description: "Don't forget the #snack-club!"
       topic: 4 # 1 = computer science, 2 = neuroscience, 3 - both, 4 = random
       instructors:
@@ -509,42 +497,39 @@ schedule:
         - John Doe
 
     - title: Student-Mentor Sessions / Free hacking
-      dateStart:  2020-05-12T13:00:00-04:00
-      dateEnd:    2020-05-12T15:00:00-04:00
+      dateStart:  2020-05-20T13:00:00-04:00
+      dateEnd:    2020-05-20T15:00:00-04:00
       linktosession: 
-      # date: 2019-12-28T19:22:48+0000
       topic: 1 # 1 = computer science, 2 = neuroscience, 3 - both, 4 = random
       instructors:
         - Jane Doe
         - John Doe
 
     - title: Virtual coffee break
-      dateStart:  2020-05-12T15:00:00-04:00
-      dateEnd:    2020-05-12T15:15:00-04:00
+      dateStart:  2020-05-20T15:00:00-04:00
+      dateEnd:    2020-05-20T15:15:00-04:00
       linktosession: 
-      # date: 2019-12-28T19:22:48+0000
       topic: 1 # 1 = computer science, 2 = neuroscience, 3 - both, 4 = random
       instructors:
         - Jane Doe
         - John Doe
 
     - title: Free hacking
-      dateStart:  2020-05-12T15:00:00-04:00
-      dateEnd:    2020-05-12T17:00:00-04:00
+      dateStart:  2020-05-20T15:00:00-04:00
+      dateEnd:    2020-05-20T17:00:00-04:00
       linktosession: 
-      # date: 2019-12-28T19:22:48+0000
+      
       topic: 3 # 1 = computer science, 2 = neuroscience, 3 - both, 4 = random
       instructors:
         - Jane Doe
         - John Doe
 
-  - date: 2020-05-14 #thursday
+  - date: 2020-05-21 #thursday
     sessions:
     - title: Tutorial / Presentation uploads
-      dateStart:  2020-05-19T09:00:00-04:00
-      dateEnd:    2020-05-19T10:00:00-04:00
+      dateStart:  2020-05-21T09:00:00-04:00
+      dateEnd:    2020-05-21T10:00:00-04:00
       linktosession: 
-      # date: 2019-12-28T19:22:48+0000
       topic: 3 # 1 = computer science, 2 = neuroscience, 3 - both, 4 = random
       description: 
       instructors:
@@ -552,10 +537,9 @@ schedule:
         - John Doe
 
     - title: Virtual coffee break
-      dateStart:  2020-05-19T10:00:00-04:00
-      dateEnd:    2020-05-19T10:15:00-04:00
+      dateStart:  2020-05-21T10:00:00-04:00
+      dateEnd:    2020-05-21T10:15:00-04:00
       linktosession: 
-      # date: 2019-12-28T19:22:48+0000
       topic: 3 # 1 = computer science, 2 = neuroscience, 3 - both, 4 = random
       description: 
       instructors:
@@ -563,10 +547,9 @@ schedule:
         - John Doe
 
     - title: Free hacking
-      dateStart:  2020-05-19T10:00:00-04:00
-      dateEnd:    2020-05-19T12:00:00-04:00
+      dateStart:  2020-05-21T10:00:00-04:00
+      dateEnd:    2020-05-21T12:00:00-04:00
       linktosession: 
-      # date: 2019-12-28T19:22:48+0000
       topic: 3 # 1 = computer science, 2 = neuroscience, 3 - both, 4 = random
       description: 
       instructors:
@@ -574,10 +557,9 @@ schedule:
         - John Doe
 
     - title: "Lunch"
-      dateStart:  2020-05-12T12:00:00-04:00
-      dateEnd:    2020-05-12T13:00:00-04:00
+      dateStart:  2020-05-21T12:00:00-04:00
+      dateEnd:    2020-05-21T13:00:00-04:00
       linktosession: 
-      # date: 2019-12-28T19:22:48+0000
       description: "Don't forget the #snack-club!"
       topic: 4 # 1 = computer science, 2 = neuroscience, 3 - both, 4 = random
       instructors:
@@ -585,62 +567,56 @@ schedule:
         - John Doe
 
     - title: Project presentations 
-      dateStart:  2020-05-12T13:00:00-04:00
-      dateEnd:    2020-05-12T15:00:00-04:00
+      dateStart:  2020-05-21T13:00:00-04:00
+      dateEnd:    2020-05-21T15:00:00-04:00
       linktosession: 
-      # date: 2019-12-28T19:22:48+0000
       topic: 1 # 1 = computer science, 2 = neuroscience, 3 - both, 4 = random
       instructors:
         - Jane Doe
         - John Doe
 
     - title: Virtual coffee break
-      dateStart:  2020-05-12T15:00:00-04:00
-      dateEnd:    2020-05-12T15:15:00-04:00
+      dateStart:  2020-05-21T15:00:00-04:00
+      dateEnd:    2020-05-21T15:15:00-04:00
       linktosession: 
-      # date: 2019-12-28T19:22:48+0000
       topic: 1 # 1 = computer science, 2 = neuroscience, 3 - both, 4 = random
       instructors:
         - Jane Doe
         - John Doe
 
     - title: Virtual yoga
-      dateStart:  2020-05-12T15:15:00-04:00
-      dateEnd:    2020-05-12T15:45:00-04:00
+      dateStart:  2020-05-21T15:15:00-04:00
+      dateEnd:    2020-05-21T15:45:00-04:00
       linktosession: 
-      # date: 2019-12-28T19:22:48+0000
       topic: 1 # 1 = computer science, 2 = neuroscience, 3 - both, 4 = random
       instructors:
         - Jane Doe
         - John Doe
 
     - title: Free hacking
-      dateStart:  2020-05-12T15:00:00-04:00
-      dateEnd:    2020-05-12T17:00:00-04:00
+      dateStart:  2020-05-21T15:00:00-04:00
+      dateEnd:    2020-05-21T17:00:00-04:00
       linktosession: 
-      # date: 2019-12-28T19:22:48+0000
       topic: 3 # 1 = computer science, 2 = neuroscience, 3 - both, 4 = random
       instructors:
         - Jane Doe
         - John Doe
 
     - title: "Virtual social (optional)"
-      dateStart:  2020-05-12T18:00:00-04:00
-      dateEnd:    2020-05-12T20:00:00-04:00
+      dateStart:  2020-05-21T18:00:00-04:00
+      dateEnd:    2020-05-21T20:00:00-04:00
       linktosession: 
-      # date: 2019-12-28T19:22:48+0000
       topic: 3 # 1 = computer science, 2 = neuroscience, 3 - both, 4 = random
       instructors:
         - Jane Doe
         - John Doe
 
-  - date: 2020-05-15 #friday
+  - date: 2020-05-22 #friday
     sessions:
     - title: Tutorial
-      dateStart:  2020-05-19T09:00:00-04:00
-      dateEnd:    2020-05-19T10:00:00-04:00
+      dateStart:  2020-05-22T09:00:00-04:00
+      dateEnd:    2020-05-22T10:00:00-04:00
       linktosession: 
-      # date: 2019-12-28T19:22:48+0000
       topic: 3 # 1 = computer science, 2 = neuroscience, 3 - both, 4 = random
       description: TBA
       instructors:
@@ -648,10 +624,9 @@ schedule:
         - John Doe
 
     - title: Virtual coffee break
-      dateStart:  2020-05-19T10:00:00-04:00
-      dateEnd:    2020-05-19T10:15:00-04:00
+      dateStart:  2020-05-22T10:00:00-04:00
+      dateEnd:    2020-05-22T10:15:00-04:00
       linktosession: 
-      # date: 2019-12-28T19:22:48+0000
       topic: 3 # 1 = computer science, 2 = neuroscience, 3 - both, 4 = random
       description: 
       instructors:
@@ -659,10 +634,9 @@ schedule:
         - John Doe
 
     - title: Free hacking
-      dateStart:  2020-05-19T10:00:00-04:00
-      dateEnd:    2020-05-19T12:00:00-04:00
+      dateStart:  2020-05-22T10:00:00-04:00
+      dateEnd:    2020-05-22T12:00:00-04:00
       linktosession: 
-      # date: 2019-12-28T19:22:48+0000
       topic: 3 # 1 = computer science, 2 = neuroscience, 3 - both, 4 = random
       description: 
       instructors:
@@ -670,10 +644,9 @@ schedule:
         - John Doe
 
     - title: "Lunch"
-      dateStart:  2020-05-12T12:00:00-04:00
-      dateEnd:    2020-05-12T13:00:00-04:00
+      dateStart:  2020-05-22T12:00:00-04:00
+      dateEnd:    2020-05-22T13:00:00-04:00
       linktosession: 
-      # date: 2019-12-28T19:22:48+0000
       description: "Don't forget the #snack-club!"
       topic: 4 # 1 = computer science, 2 = neuroscience, 3 - both, 4 = random
       instructors:
@@ -681,30 +654,27 @@ schedule:
         - John Doe
 
     - title: Team-building sessions 
-      dateStart:  2020-05-12T13:00:00-04:00
-      dateEnd:    2020-05-12T15:00:00-04:00
+      dateStart:  2020-05-22T13:00:00-04:00
+      dateEnd:    2020-05-22T15:00:00-04:00
       linktosession: 
-      # date: 2019-12-28T19:22:48+0000
       topic: 1 # 1 = computer science, 2 = neuroscience, 3 - both, 4 = random
       instructors:
         - Jane Doe
         - John Doe
 
     - title: Virtual coffee break
-      dateStart:  2020-05-12T15:00:00-04:00
-      dateEnd:    2020-05-12T15:15:00-04:00
+      dateStart:  2020-05-22T15:00:00-04:00
+      dateEnd:    2020-05-22T15:15:00-04:00
       linktosession: 
-      # date: 2019-12-28T19:22:48+0000
       topic: 1 # 1 = computer science, 2 = neuroscience, 3 - both, 4 = random
       instructors:
         - Jane Doe
         - John Doe
 
     - title: Free hacking
-      dateStart:  2020-05-12T15:00:00-04:00
-      dateEnd:    2020-05-12T17:00:00-04:00
+      dateStart:  2020-05-22T15:00:00-04:00
+      dateEnd:    2020-05-22T17:00:00-04:00
       linktosession: 
-      # date: 2019-12-28T19:22:48+0000
       topic: 3 # 1 = computer science, 2 = neuroscience, 3 - both, 4 = random
       instructors:
         - Jane Doe
@@ -718,6 +688,7 @@ schedule:
     - title: "Detailed schedule will be posted soon"
       dateStart: 2020-05-25T08:00:00-04:00
       dateEnd:   2020-05-25T17:00:00-04:00
+      linktosession: 
       topic: 1 # 1 = computer science, 2 = neuroscience, 3 - both
       description: >
         By yourself or in a team, you will work on a project until the end of the school.
@@ -733,9 +704,10 @@ schedule:
     - title: "Detailed schedule will be posted soon"
       dateStart: 2020-06-01T08:00:00-04:00
       dateEnd:   2020-06-01T17:00:00-04:00
+      linktosession: 
       topic: 1 # 1 = computer science, 2 = neuroscience, 3 - both
       description: >
-        By yourself or in a team, you will work on a project until the end of the school.
+        By yourself or in a team, you will present the project you will have worked on.
       instructors:
         - Jane Doe
         - John Doe
