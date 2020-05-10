@@ -88,7 +88,7 @@ schedule:
       linktosession: https://zoom.us/j/92317091379
       
       topic: 3 # 1 = computer science, 2 = neuroscience, 3 - both
-      description: Introduction to brainhack school. [slides](https://docs.google.com/presentation/d/1x-M_vhJR-YAK09wH-KssldwdC4WFnpVhiRElvL29ItQ/edit?usp=sharing) and the 'introduction to neuro data science' week.
+      description: Introduction to brainhack school ([slides](https://docs.google.com/presentation/d/1x-M_vhJR-YAK09wH-KssldwdC4WFnpVhiRElvL29ItQ/edit?usp=sharing)) and the 'introduction to neuro data science' week.
       instructors:
         - Pierre Bellec
         - JB Poline
