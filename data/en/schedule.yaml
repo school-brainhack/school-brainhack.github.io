@@ -88,10 +88,10 @@ schedule:
       linktosession: https://zoom.us/j/92317091379
       
       topic: 3 # 1 = computer science, 2 = neuroscience, 3 - both
-      description: Neuroscientists increasingly rely on openly-accessible data and on advanced methodological procedures for their investigations.
+      description: Introduction to brainhack school. [slides](https://docs.google.com/presentation/d/1x-M_vhJR-YAK09wH-KssldwdC4WFnpVhiRElvL29ItQ/edit?usp=sharing) and the 'introduction to neuro data science' week.
       instructors:
-        - Jane Doe
-        - John Doe
+        - Pierre Bellec
+        - JB Poline
 
     - title: Modern reproducibility problems in the life sciences
       dateStart:  2020-05-11T10:00:00-04:00
@@ -99,10 +99,9 @@ schedule:
       linktosession: https://zoom.us/j/92317091379
       
       topic: 2 # 1 = computer science, 2 = neuroscience, 3 - both, 4 = random
-      description: Concurrently, there is a growing concern in the life sciences that many results produced are difficult or even impossible to reproduce, commonly referred to as the “reproducibility crisis.”
+      description: Neuroscientists increasingly rely on openly-accessible data and on advanced methodological procedures for their investigations. Concurrently, there is a growing concern in the life sciences that many results produced are difficult or even impossible to reproduce, commonly referred to as the “reproducibility crisis.”
       instructors:
-        - Jane Doe
-        - John Doe
+        - JB Poline
 
     - title: Set-up and installation
       dateStart:  2020-05-11T11:00:00-04:00
