@@ -4,7 +4,9 @@ theme: hugo-universal-theme
 defaultContentLanguage: en
 defaultContentLanguageInSubdir: FALSE
 
-
+outputFormats:
+  Calendar:
+    mediaType: text/calendar
 
 languages:
   en:
@@ -34,21 +36,22 @@ languages:
           name: Register
           url: /register/
           weight: 4
-
         - identifier: documents
           name: Documents
-          weight: 6 
+          weight: 6
           url: /guide/
-          
         - parent: documents
-          name: Getting started Guide
-          url: /guide/
+          name: Installation Guide
+          url: /setup/
           weight: 7
-
+        - parent: documents
+          name: BHS Getting started Guide
+          url: /guide/
+          weight: 8
         - parent: documents
           name: Code of Conduct
           url: /coc/
-          weight: 8
+          weight: 9
 
       topbar:
         - weight: 1
@@ -167,9 +170,9 @@ languages:
           weight: 4
         - identifier: documents
           name: Documents
-          weight: 6 
+          weight: 6
           url: /guide/
-          
+
         - parent: documents
           name: Getting started Guide
           url: /fr/guide/
@@ -205,7 +208,7 @@ languages:
       facebook_site: ''
       twitter_site: BrainhackMTL
       default_sharing_image: img/sharing-default.png
-      googleMapsApiKey: 
+      googleMapsApiKey:
       style: green
       email: your@email.com
       contact_form_ajax: false
