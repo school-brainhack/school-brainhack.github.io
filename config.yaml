@@ -41,11 +41,11 @@ languages:
           weight: 6
           url: /guide/
         - parent: documents
-          name: Setup
+          name: Installation Guide
           url: /setup/
           weight: 7
         - parent: documents
-          name: Getting started Guide
+          name: BHS Getting started Guide
           url: /guide/
           weight: 8
         - parent: documents
