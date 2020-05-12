@@ -1,3 +1,9 @@
+####################################################
+####### To add materials, add materials: key #######
+####### To add video URLs, add video: key    #######
+####################################################
+
+
 agenda_title: Detailed Agenda
 agenda_subtitle: >
   The schedule will be updated here, reminders will be posted in **[#schedule on Slack](https://brainhack-school2020.slack.com/archives/C0127A3QJTX)**, including the Zoom links and password. You can even
@@ -88,7 +94,8 @@ schedule:
       linktosession: https://zoom.us/j/92317091379
       
       topic: 3 # 1 = computer science, 2 = neuroscience, 3 - both
-      description: Introduction to brainhack school ([slides](https://docs.google.com/presentation/d/1x-M_vhJR-YAK09wH-KssldwdC4WFnpVhiRElvL29ItQ/edit?usp=sharing)) and the 'introduction to neuro data science' week.
+      description: 1-Introduction to brainhack school and 2-Introduction to neuro data science week.
+      materials: "[Slides 1](https://github.com/neurodatascience/course-materials-2020/blob/master/lectures/11-may/01-course-introduction/course-introduction.pdf) - [Slides 2](https://github.com/neurodatascience/course-materials-2020/blob/master/lectures/11-may/01-course-introduction/brainhack-school2020.pdf)"
       instructors:
         - Pierre Bellec
         - JB Poline
@@ -228,9 +235,18 @@ schedule:
       dateStart:  2020-05-13T13:00:00-04:00
       dateEnd:    2020-05-13T16:30:00-04:00
       linktosession: https://zoom.us/j/92317091379
-      # date: 2019-13-28T19:22:48+0000
       topic: 1 # 1 = computer science, 2 = neuroscience, 3 - both, 4 = random
       description:
+      instructors:
+        - Jane Doe
+        - John Doe
+
+    - title: 30-min Yoga session
+      dateStart:  2020-05-13T17:25:00-04:00
+      dateEnd:    2020-05-13T18:00:00-04:00
+      linktosession: https://zoom.us/j/98179037949
+      topic: 4 # 1 = computer science, 2 = neuroscience, 3 - both, 4 = random
+      description: 
       instructors:
         - Jane Doe
         - John Doe
@@ -284,6 +300,16 @@ schedule:
       linktosession: https://zoom.us/j/92317091379
       topic: 1 # 1 = computer science, 2 = neuroscience, 3 - both, 4 = random
       description:
+      instructors:
+        - Jane Doe
+        - John Doe
+
+    - title: 30-min Yoga session
+      dateStart:  2020-05-14T17:25:00-04:00
+      dateEnd:    2020-05-14T18:00:00-04:00
+      linktosession: https://zoom.us/j/98694580297
+      topic: 4 # 1 = computer science, 2 = neuroscience, 3 - both, 4 = random
+      description: 
       instructors:
         - Jane Doe
         - John Doe
@@ -436,11 +462,12 @@ schedule:
         - Jane Doe
         - John Doe
 
-    - title: Virtual yoga
-      dateStart:  2020-05-19T15:15:00-04:00
+    - title: 30-min Yoga session
+      dateStart:  2020-05-19T15:10:00-04:00
       dateEnd:    2020-05-19T15:45:00-04:00
-      linktosession: 
-      topic: 1 # 1 = computer science, 2 = neuroscience, 3 - both, 4 = random
+      linktosession: https://zoom.us/j/92083982192
+      topic: 4 # 1 = computer science, 2 = neuroscience, 3 - both, 4 = random
+      description: 
       instructors:
         - Jane Doe
         - John Doe
@@ -584,10 +611,10 @@ schedule:
         - Jane Doe
         - John Doe
 
-    - title: Virtual yoga
-      dateStart:  2020-05-21T15:15:00-04:00
+    - title: 30-min Yoga session
+      dateStart:  2020-05-21T15:10:00-04:00
       dateEnd:    2020-05-21T15:45:00-04:00
-      linktosession: 
+      linktosession: https://zoom.us/j/97324829890
       topic: 1 # 1 = computer science, 2 = neuroscience, 3 - both, 4 = random
       instructors:
         - Jane Doe

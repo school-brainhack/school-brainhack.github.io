@@ -85,3 +85,7 @@ text-align: center;
 @media (max-width: 767px) {
     
 }
+
+.pt-1 {
+  padding-top: 1rem;
+}

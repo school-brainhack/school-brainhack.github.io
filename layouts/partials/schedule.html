@@ -65,6 +65,7 @@
                                 {{ .title}}</p>
                             </div>
                             <div class="text-muted"> {{ .description | markdownify | emojify }}</div>
+                            <div class="pt-1">{{ with .materials }} Materials: {{ . | markdownify | emojify }} {{end}} {{with .video }} — Video: {{ . | markdownify | emojify }}{{ end }} </div>
 
                         </td>
                     </tr>  
@@ -78,8 +79,8 @@
                             <p class="event-title"></i> 
                             {{ .title}}</p>
                         </div>
-                        <div class="text-muted"> {{ .description | markdownify | emojify }}</div>
-
+                        <div class="text-muted pb-1"> {{ .description | markdownify | emojify }}</div>
+                        <div class="">{{ with .materials }} Materials: {{ . | markdownify | emojify }} {{end}} {{with .video }} — Video: {{ . | markdownify | emojify }}{{ end }} </div>
                     </td>
                     </tr>
  
