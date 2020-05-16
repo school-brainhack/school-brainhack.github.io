@@ -92,10 +92,10 @@ schedule:
       dateStart: 2020-05-11T09:00:00-04:00
       dateEnd:   2020-05-11T10:00:00-04:00
       linktosession: https://zoom.us/j/92317091379
-      
       topic: 3 # 1 = computer science, 2 = neuroscience, 3 - both
-      description: 1-Introduction to brainhack school and 2-Introduction to neuro data science week.
+      description: 1-Introduction to neuro data science week and 2-Introduction to brainhack school 
       materials: "[Slides 1](https://github.com/neurodatascience/course-materials-2020/blob/master/lectures/11-may/01-course-introduction/course-introduction.pdf) - [Slides 2](https://github.com/neurodatascience/course-materials-2020/blob/master/lectures/11-may/01-course-introduction/brainhack-school2020.pdf)"
+      video: "[Video 1](https://www.youtube.com/watch?v=z10TgOf08s0&list=PLfqBzCl5BL3-m9BH5qi4u4QzoJBC8Ze72&index=2&t=0s) - [Video 2](https://www.youtube.com/watch?v=PTYs_JFKsHI&list=PLfqBzCl5BL3-m9BH5qi4u4QzoJBC8Ze72&index=3&t=0s)"
       instructors:
         - Pierre Bellec
         - JB Poline
@@ -104,17 +104,17 @@ schedule:
       dateStart:  2020-05-11T10:00:00-04:00
       dateEnd:    2020-05-11T11:00:00-04:00
       linktosession: https://zoom.us/j/92317091379
-      
+      materials: "[Slides](https://github.com/neurodatascience/course-materials-2020/blob/master/lectures/11-may/02-modern-reproducibility-problems/modern-reproducibility-problems.pdf)"
       topic: 2 # 1 = computer science, 2 = neuroscience, 3 - both, 4 = random
       description: Neuroscientists increasingly rely on openly-accessible data and on advanced methodological procedures for their investigations. Concurrently, there is a growing concern in the life sciences that many results produced are difficult or even impossible to reproduce, commonly referred to as the “reproducibility crisis.”
       instructors:
         - JB Poline
-
+      video: "[Video](https://www.youtube.com/watch?v=WphUnnbpIsw&list=PLfqBzCl5BL3-m9BH5qi4u4QzoJBC8Ze72&index=4&t=0s)"
+      
     - title: Set-up and installation
       dateStart:  2020-05-11T11:00:00-04:00
       dateEnd:    2020-05-11T12:00:00-04:00
       linktosession: https://zoom.us/j/92317091379
-      
       topic: 1 # 1 = computer science, 2 = neuroscience, 3 - both, 4 = random
       description:
       instructors:
@@ -136,9 +136,10 @@ schedule:
       dateStart:  2020-05-11T13:00:00-04:00
       dateEnd:    2020-05-11T14:00:00-04:00
       linktosession: https://zoom.us/j/92317091379
-      
+      materials: "[Presentation is a Jupyter Notebook](https://github.com/neurodatascience/course-materials-2020/blob/master/lectures/11-may/03-intro-to-shell/introduction-to-shell.ipynb)"
       topic: 1 # 1 = computer science, 2 = neuroscience, 3 - both, 4 = random
       description: Your terminal will become your best friend by the end of the school!
+      video: "[Video](https://www.youtube.com/watch?v=N6soV0dlB-k&list=PLfqBzCl5BL3-m9BH5qi4u4QzoJBC8Ze72&index=5&t=0s)"
       instructors:
         - Jane Doe
         - John Doe
@@ -147,9 +148,10 @@ schedule:
       dateStart:  2020-05-11T14:00:00-04:00
       dateEnd:    2020-05-11T15:00:00-04:00
       linktosession: https://zoom.us/j/92317091379
-      
+      materials: "[Slides](http://emdupre.github.io/git-course/)"
       topic: 1 # 1 = computer science, 2 = neuroscience, 3 - both, 4 = random
       description: Git and Github will become you second best friends!
+      video: "[video](https://www.youtube.com/watch?v=fBgxmpk9C4I&list=PLfqBzCl5BL3-m9BH5qi4u4QzoJBC8Ze72&index=6&t=0s)"
       instructors:
         - Jane Doe
         - John Doe
@@ -160,9 +162,10 @@ schedule:
       dateStart:  2020-05-12T09:00:00-04:00
       dateEnd:    2020-05-12T12:00:00-04:00
       linktosession: https://zoom.us/j/92317091379
-      
+      materials: "[Presentation is a Jupyter Notebook](https://github.com/neurodatascience/course-materials-2020/tree/master/lectures/12-may/01-python-for-data-analysis)"
       topic: 3 # 1 = computer science, 2 = neuroscience, 3 - both, 4 = random
       description: Data science offers a key set of tools and methods to efficiently analyse, visualize, and interpret neuroscience data
+      video: "[Video](https://www.youtube.com/watch?v=NcDcoiNMauc&list=PLfqBzCl5BL3-m9BH5qi4u4QzoJBC8Ze72&index=7&t=0s)"
       instructors:
         - Jane Doe
         - John Doe
@@ -182,8 +185,9 @@ schedule:
       dateStart:  2020-05-12T13:00:00-04:00
       dateEnd:    2020-05-12T16:30:00-04:00
       linktosession: https://zoom.us/j/92317091379
-      
+      materials: "[Slides](https://github.com/neurodatascience/course-materials-2020/blob/master/lectures/12-may/02-intro-to-containerization/neurodatascience_virtualization_2020.pdf)"
       topic: 1 # 1 = computer science, 2 = neuroscience, 3 - both, 4 = random
+      video: "[Video](https://www.youtube.com/watch?v=7BJqzpE76g0&list=PLfqBzCl5BL3-m9BH5qi4u4QzoJBC8Ze72&index=8&t=0s)"
       instructors:
         - Jane Doe
         - John Doe
@@ -205,9 +209,11 @@ schedule:
       dateEnd:    2020-05-13T10:30:00-04:00
       linktosession: https://zoom.us/j/92317091379
       topic: 3 # 1 = computer science, 2 = neuroscience, 3 - both, 4 = random
+      materials: "[Slides](https://github.com/neurodatascience/course-materials-2020/blob/master/lectures/13-may/01-standards-for-project-management/NDS2020_ShareableScience.pdf)"
+      video: "[Video](https://www.youtube.com/watch?v=aBMc8bgSK6o&list=PLfqBzCl5BL3-m9BH5qi4u4QzoJBC8Ze72&index=9&t=0s)"
       description:
       instructors:
-        - Jane Doe
+        - Elizabeth Dupre
         - John Doe
 
     - title: Tools for project management and organization
@@ -215,10 +221,10 @@ schedule:
       dateEnd:    2020-05-13T12:00:00-04:00
       linktosession: https://zoom.us/j/92317091379
       topic: 3 # 1 = computer science, 2 = neuroscience, 3 - both, 4 = random
+      materials: "[Slides](https://effigies.github.io/bids-ecosystem/)"
+      video: "[Video coming soon!](https://www.youtube.com/playlist?list=PLfqBzCl5BL3-m9BH5qi4u4QzoJBC8Ze72)"
       description:
-      instructors:
-        - Jane Doe
-        - John Doe
+      instructors: Chris Markiewicz
 
     - title: "Lunch"
       dateStart:  2020-05-13T12:00:00-04:00
@@ -235,7 +241,9 @@ schedule:
       dateStart:  2020-05-13T13:00:00-04:00
       dateEnd:    2020-05-13T16:30:00-04:00
       linktosession: https://zoom.us/j/92317091379
+      materials: "[Slides](https://docs.google.com/presentation/d/1toGlTfi4zqavPGHZ9NV3Va7MuT-rmXdv3NHAyQGINdk/edit#slide=id.g3461d16a8f_0_8)"
       topic: 1 # 1 = computer science, 2 = neuroscience, 3 - both, 4 = random
+      video: "[Video](https://www.youtube.com/watch?v=J9VCHe1ovBg&list=PLfqBzCl5BL3-m9BH5qi4u4QzoJBC8Ze72&index=11&t=0s)"
       description:
       instructors:
         - Jane Doe
@@ -257,6 +265,8 @@ schedule:
       dateStart: 2020-05-14T09:00:00-04:00
       dateEnd:   2020-05-14T10:30:00-04:00
       linktosession: https://zoom.us/j/92317091379
+      materials: "[Slides](https://github.com/neurodatascience/course-materials-2020/tree/master/lectures)"
+      video: "[Video coming soon!](https://www.youtube.com/playlist?list=PLfqBzCl5BL3-m9BH5qi4u4QzoJBC8Ze72)"
       topic: 3 # 1 = computer science, 2 = neuroscience, 3 - both, 4 = random
       description:
       instructors:
@@ -267,7 +277,9 @@ schedule:
       dateStart:  2020-05-14T10:30:00-04:00
       dateEnd:    2020-05-14T12:00:00-04:00
       linktosession: https://zoom.us/j/92317091379
+      materials: "[Slides](https://github.com/neurodatascience/course-materials-2020/tree/master/lectures)"
       topic: 3 # 1 = computer science, 2 = neuroscience, 3 - both, 4 = random
+      video: "[Video coming soon!](https://www.youtube.com/playlist?list=PLfqBzCl5BL3-m9BH5qi4u4QzoJBC8Ze72)"
       description:
       instructors:
         - Jane Doe
@@ -277,7 +289,7 @@ schedule:
       dateStart:  2020-05-14T12:00:00-04:00
       dateEnd:    2020-05-14T13:00:00-04:00
       linktosession: https://zoom.us/j/92317091379
-      
+      materials: "[Slides](https://github.com/neurodatascience/course-materials-2020/tree/master/lectures)"
       topic: 4 # 1 = computer science, 2 = neuroscience, 3 - both, 4 = random
       description: "Don't forget the #snack-club!"
       instructors:
@@ -289,6 +301,9 @@ schedule:
       dateEnd:    2020-05-14T16:30:00-04:00
       linktosession: https://zoom.us/j/92317091379
       topic: 1 # 1 = computer science, 2 = neuroscience, 3 - both, 4 = random
+      materials: "[Slides](https://github.com/neurodatascience/course-materials-2020/tree/master/lectures)"
+      video: "[Video coming soon!](https://www.youtube.com/playlist?list=PLfqBzCl5BL3-m9BH5qi4u4QzoJBC8Ze72)"
+
       description:
       instructors:
         - Jane Doe
@@ -321,6 +336,8 @@ schedule:
       dateEnd:   2020-05-15T10:30:00-04:00
       linktosession: https://zoom.us/j/92317091379
       topic: 3 # 1 = computer science, 2 = neuroscience, 3 - both, 4 = random
+      materials: "[Slides](https://github.com/neurodatascience/course-materials-2020/tree/master/lectures)"
+      video: "[Video coming soon!](https://www.youtube.com/playlist?list=PLfqBzCl5BL3-m9BH5qi4u4QzoJBC8Ze72)"
       description:
       instructors:
         - Jane Doe
@@ -331,6 +348,8 @@ schedule:
       dateEnd:    2020-05-15T12:00:00-04:00
       linktosession: https://zoom.us/j/92317091379
       topic: 3 # 1 = computer science, 2 = neuroscience, 3 - both, 4 = random
+      materials: "[Slides](https://github.com/neurodatascience/course-materials-2020/tree/master/lectures)"
+      video: "[Video coming soon!](https://www.youtube.com/playlist?list=PLfqBzCl5BL3-m9BH5qi4u4QzoJBC8Ze72)"
       description:
       instructors:
         - Jane Doe
