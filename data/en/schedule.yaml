@@ -222,7 +222,7 @@ schedule:
       linktosession: https://zoom.us/j/92317091379
       topic: 3 # 1 = computer science, 2 = neuroscience, 3 - both, 4 = random
       materials: "[Slides](https://effigies.github.io/bids-ecosystem/)"
-      video: "[Video coming soon!](https://www.youtube.com/playlist?list=PLfqBzCl5BL3-m9BH5qi4u4QzoJBC8Ze72)"
+      video: "[Video](https://www.youtube.com/watch?v=ceB3Nne-MDo&list=PLfqBzCl5BL3-m9BH5qi4u4QzoJBC8Ze72&index=10&t=0s)"
       description:
       instructors: Chris Markiewicz
 
@@ -261,12 +261,12 @@ schedule:
 
   - date: 2020-05-14 #thursday
     sessions:
-    - title: Data visualization
+    - title: Introduction to data visualization in Python
       dateStart: 2020-05-14T09:00:00-04:00
       dateEnd:   2020-05-14T10:30:00-04:00
       linktosession: https://zoom.us/j/92317091379
       materials: "[Slides](https://github.com/neurodatascience/course-materials-2020/tree/master/lectures)"
-      video: "[Video coming soon!](https://www.youtube.com/playlist?list=PLfqBzCl5BL3-m9BH5qi4u4QzoJBC8Ze72)"
+      video: "[Video](https://www.youtube.com/watch?v=lJyFWTT7sCY&list=PLfqBzCl5BL3-m9BH5qi4u4QzoJBC8Ze72&index=12&t=0s)"
       topic: 3 # 1 = computer science, 2 = neuroscience, 3 - both, 4 = random
       description:
       instructors:
@@ -277,9 +277,9 @@ schedule:
       dateStart:  2020-05-14T10:30:00-04:00
       dateEnd:    2020-05-14T12:00:00-04:00
       linktosession: https://zoom.us/j/92317091379
-      materials: "[Slides](https://github.com/neurodatascience/course-materials-2020/tree/master/lectures)"
+      materials: "[Presentation is a Jupyter Notebook](https://github.com/neurodatascience/course-materials-2020/tree/master/lectures/14-may/02-intro-to-stats)"
       topic: 3 # 1 = computer science, 2 = neuroscience, 3 - both, 4 = random
-      video: "[Video coming soon!](https://www.youtube.com/playlist?list=PLfqBzCl5BL3-m9BH5qi4u4QzoJBC8Ze72)"
+      video: "[Video](https://www.youtube.com/watch?v=EYVV-9NjdSA&list=PLfqBzCl5BL3-m9BH5qi4u4QzoJBC8Ze72&index=13&t=0s)"
       description:
       instructors:
         - Jane Doe
@@ -289,7 +289,6 @@ schedule:
       dateStart:  2020-05-14T12:00:00-04:00
       dateEnd:    2020-05-14T13:00:00-04:00
       linktosession: https://zoom.us/j/92317091379
-      materials: "[Slides](https://github.com/neurodatascience/course-materials-2020/tree/master/lectures)"
       topic: 4 # 1 = computer science, 2 = neuroscience, 3 - both, 4 = random
       description: "Don't forget the #snack-club!"
       instructors:
@@ -301,10 +300,9 @@ schedule:
       dateEnd:    2020-05-14T16:30:00-04:00
       linktosession: https://zoom.us/j/92317091379
       topic: 1 # 1 = computer science, 2 = neuroscience, 3 - both, 4 = random
-      materials: "[Slides](https://github.com/neurodatascience/course-materials-2020/tree/master/lectures)"
-      video: "[Video coming soon!](https://www.youtube.com/playlist?list=PLfqBzCl5BL3-m9BH5qi4u4QzoJBC8Ze72)"
-
-      description:
+      materials: "[1- Slides](https://github.com/neurodatascience/course-materials-2020/blob/master/lectures/14-may/03-intro-to-machine-learning/IntroML_BrainHackSchool.pdf) & [2- Jupyter Notebook](https://github.com/neurodatascience/course-materials-2020/tree/master/lectures/14-may/03-intro-to-machine-learning)"
+      video: "[Video 1](https://www.youtube.com/watch?v=thLHAg8oOLw&list=PLfqBzCl5BL3-m9BH5qi4u4QzoJBC8Ze72&index=14&t=0s) - [Video 2](https://www.youtube.com/watch?v=2wj9OJjEDy0&list=PLfqBzCl5BL3-m9BH5qi4u4QzoJBC8Ze72&index=15&t=0s)"
+      description: 1- Introduction to machine learning and 2- Hands-on machine learning tutorial
       instructors:
         - Jane Doe
         - John Doe
@@ -416,7 +414,7 @@ schedule:
       dateEnd:   2020-05-18T17:00:00-04:00
       topic: 1 # 1 = computer science, 2 = neuroscience, 3 - both
       description: >
-        Enjoy the holiday! There won't be any teaching happening. Happy free hacking time !?
+        Enjoy the holiday! There won't be any teaching happening today. Happy free hacking time !?
       instructors:
         - Jane Doe
         - John Doe
