@@ -127,7 +127,8 @@ languages:
         title: 'Project-based, transdisciplinary training'
         subtitle: 'Neuroscience, Statistical Modelling and Computer Science'
         link_url: /register
-        link_text: Register Now
+        link_text: "Registration may be closed for this year, but you can watch the lectures"
+        video: https://www.youtube.com/embed/PTYs_JFKsHI?list=PLfqBzCl5BL3-m9BH5qi4u4QzoJBC8Ze72
       clients:
         enable: true
         title: Partner institutions
@@ -139,6 +140,7 @@ languages:
       topbar:
         enable: true
         text: "**:computer: :brain: [Registrations](/register) are now closed. :brain: :computer:** :house: Due to the [COVID-19](https://www.quebec.ca/en/health/health-issues/a-z/2019-coronavirus/situation-coronavirus-in-quebec/) pandemic, this year will be entirely virtual! :film_projector: "
+
 
   fr:
     languageCode: fr
