@@ -72,7 +72,7 @@ languages:
         Calendar:
           mediaType: text/calendar
       viewMorePostLink: /blog/
-      author: BHS
+      author: 
       defaultKeywords:
         - BrainHack
         - Neuroscience
@@ -200,7 +200,7 @@ languages:
 
     params:
       viewMorePostLink: /blog/
-      author: BHS
+      author: 
       defaultKeywords:
         - BrainHack
         - Neuroscience
@@ -285,3 +285,4 @@ markup:
 disqusShortname: ''
 googleAnalytics: ''
 paginate: 10
+

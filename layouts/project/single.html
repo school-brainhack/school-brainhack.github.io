@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="{{ .Site.LanguageCode }}">
+
+  {{ partial "head.html" . }}
+
+  <body>
+ 
+    <div id="all">
+
+        <header>
+
+          {{ partial "top.html" . }}
+
+          {{ partial "nav.html" . }}
+
+        </header>
+
+        {{ partial "breadcrumbs.html" . }}
+        {{$relurl := .Permalink}}
+        <div id="content">
+            <div class="container">
+              <div class="row">
+                <div class="col-md-6 post-title">
+                    <h1>{{.Title}}</h1>
+                    <p class="author">
+                      {{ if or .Params.author .Params.date }}
+                      <p class="text-muted text-uppercase mb-small text-left">
+                        {{ if .Params.author }}{{ i18n "authorBy" }} <a href="#">{{ delimit .Params.author ", " ", & " }}</a>{{ end }}
+                        {{ if and .Params.author .Params.date }} | {{ end }}
+                        {{ if .Params.date }}{{ .Date.Format .Site.Params.date_format }}{{ end }}
+                      </p>
+                    {{ end }}<span class="text-muted text-italic">"{{ .Summary | markdownify | emojify }}"</span></p>
+                    <div class="panel sidebar-menu">
+                      <div class="panel-body">
+                          <ul class="tag-cloud">
+                              {{ $current := . }}
+                              {{ range $name, $items := .Site.Taxonomies.tags }}
+                              <li{{ if eq $current.RelPermalink ($name | urlize | lower | printf "/tags/%s/") }} class="active"{{ end }}>
+                                  <a href="{{ "tags/" | relURL }}{{ $name | urlize | lower }}"><i class="fas fa-tags"></i> {{ $name }}</a>
+                              </li>
+                              {{ end }}
+                          </ul>
+                          {{/*  <p class="read-more pull-left"><a href="{{ .Permalink }}" class="btn btn-template-main">{{ i18n "continueReading" }}</a></p>  */}}
+                        </div>
+                    </div>
+
+                  </div>
+                <div class="col-md-6 col-md-offset-0 post-body">
+                    <figure>
+                      <img class="img-responsive" src="{{ (printf "%s/%s" $relurl .Params.image) | relURL }}" />
+                    </figure>
+                </div>
+            </div>
+                <div class="row ">
+
+                    <!-- *** LEFT COLUMN *** -->
+
+                    <div class="col-md-10 col-md-offset-1" id="blog-post">
+
+                       <div id="post-content">
+                        {{ .Content }}
+                      </div>
+                      <!-- /#post-content -->
+
+                  </div>
+                  <!-- /#blog-post -->
+
+                </div>
+                <!-- /.row -->
+
+                
+                
+                {{ if eq .Type "project" }}
+                <ul class="pager blog-pager">
+                  {{ if .PrevInSection }}
+                  <li class="previous">
+                    <a href="{{ .PrevInSection.Permalink }}" data-toggle="tooltip" data-placement="top" title="{{ .PrevInSection.Title }}">&larr; {{ i18n "previous" }}</a>
+                  </li>
+                  {{ end }}
+                  {{ if .NextInSection }}
+                  <li class="next">
+                    <a href="{{ .NextInSection.Permalink }}" data-toggle="tooltip" data-placement="top" title="{{ .NextInSection.Title }}">{{ i18n "next" }} &rarr;</a>
+                  </li>
+                  {{ end }}
+                </ul>
+            {{ end }}
+            
+            
+
+          </article>
+          
+        </div>
+        <!-- /.container -->
+      </div>
+      <!-- /#content -->
+      
+      </div>
+          
+      {{ range first 1 (where (where .Site.Pages ".Params.tags" "intersect" .Params.tags) "Permalink" "!=" .Permalink) }}
+      {{ $.Scratch.Set "has_related" true }}
+      {{ end }}
+      
+      {{ if $.Scratch.Get "has_related" }}
+        <div class="article-list">
+          <div class="container">
+            <div class="intro">
+              <h2 class="text-center see-also">{{ T "seeAlso" }}</h2>
+              <p class="text-center"></p>
+            </div>
+            <div class="row articles text-center">
+              {{ $num_to_show := .Site.Params.related_content_limit | default 3 }}
+              {{ range first $num_to_show (where (where .Site.Pages ".Params.tags" "intersect" .Params.tags) "Permalink" "!=" .Permalink) }}
+              {{$relurl := .Permalink}}
+                <div class="col-md-4 col-sm-6 item"><a href="{{ .RelPermalink }}"><img class="img-responsive" src="{{ (printf "%s/%s" $relurl .Params.image) | relURL }}" /></a>
+                    <h3 class="name">{{ .Title }}</h3>
+                    <p class="description">{{.Summary | truncate 150 }}</p><a class="action" href="#">
+                    <p class="read-more"><a href="{{ .Permalink }}" class="btn btn-template-main">{{ i18n "readMore" }}</a></p>
+                </div>
+              {{ end }}
+      
+            
+            {{ end }}      
+            </div>
+        </div>
+    </div>   
+    
+    {{ partial "footer.html" . }}
+    
+    <!-- /#all -->
+    
+    {{ partial "scripts.html" . }}
+
+  </body>
+</html>
