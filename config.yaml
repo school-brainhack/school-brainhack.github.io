@@ -4,8 +4,6 @@ theme: hugo-universal-theme
 defaultContentLanguage: en
 defaultContentLanguageInSubdir: FALSE
 
-
-
 outputFormats:
   Calendar:
     mediaType: text/calendar
@@ -20,6 +18,7 @@ languages:
       tag: tags
       category: categories
       name: names
+    enableGitInfo: TRUE
     menu:
       main:
         - identifier: home
@@ -30,6 +29,10 @@ languages:
           name: Schedule
           url: /schedule/
           weight: 2
+        - identifier: Projects
+          name: Projects
+          url: /project/
+          weight: 4
         - identifier: Weeks
           name: Weeks
           url: /weeks/

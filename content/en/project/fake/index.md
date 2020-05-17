@@ -1,27 +1,27 @@
 ---
 type: "project" # DON'T TOUCH THIS ! :)
-date: "2020-05-16" # Date you first upload your project.
+date: "2020-05-16" # Date when you first upload your project.
 # Title of your project (we like creative title)
-title: "This is an example project page which serves as a template"
+title: "Fake project"
 
 # List the names of the collaborators within the [ ]. If alone, simple put your name within []
-names: [Samuel Guay, Pierre Bellec]
+names: [Jane Doe, John Deer]
 
 # Your project GitHub repository URL
 github_repo: https://github.com/brainhackmtl2020/example 
 
-# If you are working on a project that has website, indicate the full url including "https://" below or leave it empty.
-website:
+# If you are working on a project that has website, indicate the full url including https:// below or leave it empty.
+website: 
 
 # List +- 4 keywords that best describe your project within []
 tags: [EEG, fMRI, Python, Docker]
 
 # Summarize your project in < ~75 words. This description will appear at the top of your page and on the list page with other projects.
-summary: "This tutorial will show you how to create your project page. At the end of the tutorial, you will have used mainly GitHub, Markdown formatting, and probably your terminal. You don't have to install the software (HUGO) to generate the website locally, but if you are curious to render the site and play with it to see how your page would look like, we also included the instruction."
+summary: "Cillum non ullamco deserunt cillum consequat. Adipisicing Lorem anim elit aliquip veniam fugiat Lorem. Ea exercitation do ea id in ea culpa sit sint eu duis. Nisi non mollit laborum excepteur labore nisi."
 
 # If you want to add a cover image (listpage and image in the right), add it to your directory and indicate the name
 # below with the extension.
-image: "bhs2020.png"
+image: "dontpanic.jpg"
 ---
 <!-- This is an html comment and this won't appear in the rendered page. You are now editing the "content" area, the core of your description. Everything that you can do in markdown is allowed below. We added a couple of comments to guide your through documenting your progress. -->
 
@@ -65,5 +65,6 @@ We listed a variety of projects from last year to inspire you. You can find the 
 # Basic markdown stuff.
 <!-- If you want to add pictures/gifs with a specific width, use the shortcode below. You an upload images in your directory or use a URL from the web -->
 {{< figure src="https://media.giphy.com/media/12NUbkX6p4xOO4/giphy.gif" width="50%">}}
-or
-{{< figure src="dontpanic.jpg" width="75%">}}
+
+
+

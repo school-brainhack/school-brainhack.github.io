@@ -15,8 +15,15 @@
 
         </header>
 
-        {{ partial "breadcrumbs.html" . }}
-
+        <div id="heading-breadcrumbs">
+          <div class="container">
+              <div class="row">
+                  <div class="col-md-12">
+                      <h1>{{ .Title }}</h1>
+                  </div>
+              </div>
+          </div>
+      </div>
         <div id="content">
           <div class="container">
             <div class="row">
@@ -49,7 +56,7 @@
                                   <div class="clearfix">
                                     <p class="author-category">
                                       {{ if isset .Params "author" }}
-                                      {{ i18n "authorBy" }} <a href="{{.Permalink}}">{{ delimit .Params.author ", " ", & " }}</a>
+                                      {{ i18n "authorBy" }} <a href="{{.Permalink}}">{{ delimit .Params.names ", " ", & " }}</a>
                                       {{ end }}
                                       {{ if isset .Params "categories" }}
                                       {{ if gt (len .Params.categories) 0 }}
@@ -91,7 +98,7 @@
                                 <div class="clearfix">
                                       <p class="author-category">
                                         {{ if isset .Params "author" }}
-                                        {{ i18n "authorBy" }} <a href="{{.Permalink}}">{{ delimit .Params.author ", " ", & " }}</a>
+                                        {{ i18n "authorBy" }} <a href="{{.Permalink}}">{{ delimit .Params.names ", " ", & " }}</a>
                                         {{ end }}
                                         {{ if isset .Params "categories" }}
                                         {{ if gt (len .Params.categories) 0 }}
