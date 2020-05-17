@@ -4,6 +4,8 @@ theme: hugo-universal-theme
 defaultContentLanguage: en
 defaultContentLanguageInSubdir: FALSE
 
+
+
 outputFormats:
   Calendar:
     mediaType: text/calendar
@@ -14,6 +16,10 @@ languages:
     languageName: English
     contentDir: content/en
     weight: 1
+    taxonomies:
+      tag: tags
+      category: categories
+      name: names
     menu:
       main:
         - identifier: home
@@ -148,6 +154,10 @@ languages:
     contentDir: content/fr
     title: 'École BrainHack'
     weight: 2
+    taxonomies:
+      tag: tags
+      category: categories
+      name: names
     menu:
       main:
         - identifier: home

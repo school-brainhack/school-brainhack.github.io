@@ -28,6 +28,13 @@
                         {{ if .Params.author }}{{ i18n "authorBy" }} <a href="#">{{ delimit .Params.author ", " ", & " }}</a>{{ end }}
                         {{ if and .Params.author .Params.date }} | {{ end }}
                         {{ if .Params.date }}{{ .Date.Format .Site.Params.date_format }}{{ end }}
+                        <span class="article-date">
+                          {{ $date := .Lastmod.Format site.Params.date_format }}
+                            {{ if ne .Params.Lastmod .Params.Date }}
+                                {{ i18n "last_updated" }}
+                            {{ end }}
+                          {{ $date }}
+                        </span>
                       </p>
                     {{ end }}<span class="text-muted text-italic">"{{ .Summary | markdownify | emojify }}"</span></p>
                     <div class="panel sidebar-menu">
@@ -58,7 +65,7 @@
                     <div class="col-md-10 col-md-offset-1" id="blog-post">
 
                        <div id="post-content">
-                        {{ .Content }}
+                        {{ .Content | emojify }}
                       </div>
                       <!-- /#post-content -->
 

@@ -85,3 +85,6 @@
 
 - id: 404NavHome
   translation: "Go to homepage"
+
+- id: last_updated
+  translation: Last updated on
