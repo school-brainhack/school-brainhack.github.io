@@ -47,7 +47,7 @@
   translation: "Filter by keywords"
 
 - id: SidebarSub
-  translation: "Find out how to create your project page using the [example template.](/en/project/template)"
+  translation: "Find out how to create your project page using the [example template.](/en/project/template). All project repositories are part of the BHS2020 [github organization](https://github.com/brainhack-school2020)."
 
 - id: continueReading
   translation: "Continue reading"
