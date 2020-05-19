@@ -15,8 +15,15 @@
 
         </header>
 
-        {{ partial "breadcrumbs.html" . }}
-
+        <div id="heading-breadcrumbs">
+          <div class="container">
+              <div class="row">
+                  <div class="col-md-12">
+                      <h1>{{ .Title }}</h1>
+                  </div>
+              </div>
+          </div>
+      </div>
         <div id="content">
           <div class="container">
             <div class="row">
@@ -42,14 +49,16 @@
                                           <img src="{{ "img/placeholder.png" | relURL }}" class="img-responsive" alt="">
                                           {{ end }}
                                         </a>
-                                  </div>
+                                        
+                                      </div>
+                                      <p class="text-center pt-1"><a href="{{ .Permalink }}" class="btn btn-template-main">{{ i18n "discover" }}</a></p>
                                 </div>
                                 <div class="col-md-8">
                                   <h2><a href="{{ .Permalink }}">{{ .Title }}</a></h2>
                                   <div class="clearfix">
                                     <p class="author-category">
-                                      {{ if isset .Params "author" }}
-                                      {{ i18n "authorBy" }} <a href="{{.Permalink}}">{{ delimit .Params.author ", " ", & " }}</a>
+                                      {{ if isset .Params "names" }}
+                                      {{ i18n "authorBy" }} <a href="{{.Permalink}}">{{ delimit .Params.names ", " ", & " }}</a>
                                       {{ end }}
                                       {{ if isset .Params "categories" }}
                                       {{ if gt (len .Params.categories) 0 }}
@@ -69,29 +78,28 @@
                                       <div class="panel-body">
                                           <ul class="tag-cloud">
                                               {{ $current := . }}
-                                              {{ range $name, $items := .Site.Taxonomies.tags }}
+                                              {{ range $name := .Params.tags }}
                                               <li{{ if eq $current.RelPermalink ($name | urlize | lower | printf "/tags/%s/") }} class="active"{{ end }}>
                                                   <a href="{{ "tags/" | relURL }}{{ $name | urlize | lower }}"><i class="fas fa-tags"></i> {{ $name }}</a>
                                               </li>
                                               {{ end }}
                                           </ul>
                                           
-                                          {{/*  <p class="read-more"><a href="{{ .Permalink }}" class="btn btn-template-main">{{ i18n "continueReading" }}</a></p>  */}}
                                         </div>
+                                      </div>
                                     </div>
-                                </div>
-                            </div>
-                          </section>
-
-                            {{else}}
-                            <section class="post">
-                            <div class="row">
-                              <div class="col-md-8">
-                                <h2><a href="{{ .Permalink }}">{{ .Title }}</a></h2>
+                                  </div>
+                                </section>
+                                
+                                {{else}}
+                                <section class="post">
+                                  <div class="row">
+                                    <div class="col-md-8">
+                                      <h2><a href="{{ .Permalink }}">{{ .Title }}</a></h2>
                                 <div class="clearfix">
                                       <p class="author-category">
-                                        {{ if isset .Params "author" }}
-                                        {{ i18n "authorBy" }} <a href="{{.Permalink}}">{{ delimit .Params.author ", " ", & " }}</a>
+                                        {{ if isset .Params "names" }}
+                                        {{ i18n "authorBy" }} <a href="{{.Permalink}}">{{ delimit .Params.names ", " ", & " }}</a>
                                         {{ end }}
                                         {{ if isset .Params "categories" }}
                                         {{ if gt (len .Params.categories) 0 }}
@@ -111,13 +119,12 @@
                                       <div class="panel-body">
                                           <ul class="tag-cloud">
                                               {{ $current := . }}
-                                              {{ range $name, $items := .Site.Taxonomies.tags }}
+                                              {{ range $name := .Params.tags }}
                                               <li{{ if eq $current.RelPermalink ($name | urlize | lower | printf "/tags/%s/") }} class="active"{{ end }}>
                                                   <a href="{{ "tags/" | relURL }}{{ $name | urlize | lower }}"><i class="fas fa-tags"></i> {{ $name }}</a>
                                               </li>
                                               {{ end }}
                                           </ul>
-                                          {{/*  <p class="read-more pull-left"><a href="{{ .Permalink }}" class="btn btn-template-main">{{ i18n "continueReading" }}</a></p>  */}}
                                         </div>
                                     </div>
 
@@ -131,7 +138,9 @@
                                         <img src="{{ "img/placeholder.png" | relURL }}" class="img-responsive" alt="">
                                         {{ end }}
                                       </a>
+                                      
                                     </div>
+                                    <p class="text-center pt-1"><a href="{{ .Permalink }}" class="btn btn-template-main">{{ i18n "discover" }}</a></p>
                                   </div>
                                 </div>
                           </section>
