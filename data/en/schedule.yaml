@@ -7,7 +7,7 @@
 agenda_title: Detailed Agenda
 agenda_subtitle: >
   The schedule will be updated here, reminders will be posted in **[#schedule on Slack](https://brainhack-school2020.slack.com/archives/C0127A3QJTX)**, including the Zoom links and password. You can even
-  **[import the schedule in your favorite calendar app](webcal://school.brainhackmtl.org/schedule/index.ics)** for the most up-to-date information.  
+  **[import the schedule in your favorite calendar app](webcal://school.brainhackmtl.org/schedule/index.ics)** for the most up-to-date information.
   To import the calendar, *import* this url `webcal://school.brainhackmtl.org/schedule/index.ics` in your calendar.
   Ping us in the #schedule channel on Slack if you have any question regarding the schedule.
   The website will always be updated first. Synchronization may take some time in other calendars to happen.
@@ -467,7 +467,7 @@ schedule:
     - title: Parallel sessions - Instructor clinic (group A) and Peer clinic (group B)
       dateStart:  2020-05-19T13:00:00-04:00
       dateEnd:    2020-05-19T14:00:00-04:00
-      linktosession: 
+      linktosession:
       description: One-on-one meeting with your assigned instructor (group A) and clinic with fellow participants (group B)
       topic: 1 # 1 = computer science, 2 = neuroscience, 3 - both, 4 = random
       instructors:
@@ -514,20 +514,10 @@ schedule:
 
   - date: 2020-05-20 #wednesday
     sessions:
-    - title: Parallel tutorial 1 - Introduction to computational morphometry with structural imaging by Pierre Bellec
+    - title: Open data resources by Sebastian Urchs
       dateStart:  2020-05-20T09:00:00-04:00
       dateEnd:    2020-05-20T10:00:00-04:00
       linktosession: https://zoom.us/j/96692571531
-      topic: 3 # 1 = computer science, 2 = neuroscience, 3 - both, 4 = random
-      description: See also the lecture by [Dr Mallar Chakravarty](https://www.youtube.com/watch?v=6no42ADiVi8) for more advanced topics on structural imaging
-      instructors:
-        - Jane Doe
-        - John Doe
-
-    - title: Parallel tutorial 2 - Open data resources by Sebastian Urchs
-      dateStart:  2020-05-20T09:00:00-04:00
-      dateEnd:    2020-05-20T10:00:00-04:00
-      linktosession: Coming soon!
       topic: 3 # 1 = computer science, 2 = neuroscience, 3 - both, 4 = random
       description:
       instructors:
@@ -567,7 +557,7 @@ schedule:
     - title: Parallel sessions - Instructor clinic (group A) and Peer clinic (group B)
       dateStart:  2020-05-20T13:00:00-04:00
       dateEnd:    2020-05-20T14:00:00-04:00
-      linktosession: 
+      linktosession:
       description: One-on-one meeting with your assigned instructor (group A) and clinic with fellow participants (group B)
       topic: 1 # 1 = computer science, 2 = neuroscience, 3 - both, 4 = random
       instructors:
@@ -604,17 +594,7 @@ schedule:
 
   - date: 2020-05-21 #thursday
     sessions:
-    - title: Parallel tutorial 1 - Introduction to functional MRI connectivity by Pierre Bellec
-      dateStart:  2020-05-21T09:00:00-04:00
-      dateEnd:    2020-05-21T10:00:00-04:00
-      linktosession: https://zoom.us/j/96692571531
-      topic: 3 # 1 = computer science, 2 = neuroscience, 3 - both, 4 = random
-      description:
-      instructors:
-        - Jane Doe
-        - John Doe
-
-    - title: Parallel tutorial 2 - Introduction to magneto and electro encephalography by Karim Jerbi
+    - title: Introduction to magneto and electro encephalography by Karim Jerbi
       dateStart:  2020-05-21T09:00:00-04:00
       dateEnd:    2020-05-21T10:00:00-04:00
       linktosession: https://zoom.us/j/96692571531
@@ -702,22 +682,12 @@ schedule:
 
   - date: 2020-05-22 #friday
     sessions:
-    - title: Parallel tutorial 1 - Introduction to diffusion-weighted MRI and connectivity
+    - title:  Introduction to functional MRI connectivity by Pierre Bellec
       dateStart:  2020-05-22T09:00:00-04:00
       dateEnd:    2020-05-22T10:00:00-04:00
       linktosession: https://zoom.us/j/96692571531
-      topic: 2 # 1 = computer science, 2 = neuroscience, 3 - both, 4 = random
-      description: 
-      instructors:
-        - Jane Doe
-        - John Doe
-
-    - title: Parallel tutorial 2 - fMRIprep BIDS app - Q&A with Basile Pinsard
-      dateStart:  2020-05-22T09:00:00-04:00
-      dateEnd:    2020-05-22T10:00:00-04:00
-      linktosession:
       topic: 1 # 1 = computer science, 2 = neuroscience, 3 - both, 4 = random
-      description: To attend the fMRI prep Q&A, participants are expected to have watched this [video](https://www.youtube.com/watch?v=WTcucXAAVBU)
+      description: Participants interested in fMRIprep can watch this [video](https://www.youtube.com/watch?v=WTcucXAAVBU) and get in touch with Basile Pinsard on slack if they have questions.
       instructors:
         - Jane Doe
         - John Doe
