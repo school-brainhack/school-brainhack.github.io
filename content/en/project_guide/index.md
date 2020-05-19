@@ -1,6 +1,8 @@
 +++
 title = "Project guide"
-type = "project"
+type = "page"
+
+github_repo = "https://github.com/brainhack2020/template"
 +++
 
 # Project template
