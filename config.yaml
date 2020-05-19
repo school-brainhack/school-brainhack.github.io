@@ -41,16 +41,20 @@ languages:
           weight: 6
           url: /guide/
         - parent: documents
-          name: Installation Guide
+          name: Installation
           url: /setup/
           weight: 7
         - parent: documents
-          name: BHS Getting started Guide
+          name: Getting started
           url: /guide/
           weight: 8
         - parent: documents
           name: Code of Conduct
           url: /coc/
+          weight: 9
+        - parent: documents
+          name: Projects
+          url: /project_guide
           weight: 9
 
       topbar:
