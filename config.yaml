@@ -32,39 +32,39 @@ languages:
         - identifier: Projects
           name: Projects
           url: /project/
-          weight: 4
+          weight: 3
         - identifier: Weeks
           name: Weeks
           url: /weeks/
-          weight: 2
+          weight: 4
         - identifier: Locations
           name: Locations
           url: /locations/
-          weight: 3
+          weight: 5
         - identifier: Register
           name: Register
           url: /register/
-          weight: 4
+          weight: 6
         - identifier: documents
           name: Documents
-          weight: 6
+          weight: 7
           url: /guide/
         - parent: documents
           name: Installation
           url: /setup/
-          weight: 7
+          weight: 8
         - parent: documents
           name: Getting started
           url: /guide/
-          weight: 8
+          weight: 9
         - parent: documents
           name: Code of Conduct
           url: /coc/
-          weight: 9
+          weight: 10
         - parent: documents
-          name: Projects
+          name: Project Guide
           url: /project_guide
-          weight: 9
+          weight: 11
 
       topbar:
         - weight: 1
