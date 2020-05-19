@@ -335,8 +335,8 @@ schedule:
       dateEnd:   2020-05-15T10:30:00-04:00
       linktosession: https://zoom.us/j/92317091379
       topic: 3 # 1 = computer science, 2 = neuroscience, 3 - both, 4 = random
-      materials: "[Slides](https://github.com/neurodatascience/course-materials-2020/tree/master/lectures)"
-      video: "[Video coming soon!](https://www.youtube.com/playlist?list=PLfqBzCl5BL3-m9BH5qi4u4QzoJBC8Ze72)"
+      materials: "[Slides](https://www.youtube.com/redirect?v=kpNI6or-qJs&event=video_description&redir_token=nnmLK6cxQAM_livxRxKlpcKWC6l8MTU4OTk1MjY4NkAxNTg5ODY2Mjg2&q=https%3A%2F%2Fgithub.com%2Fneurodatascience%2Fcourse-materials-2020%2Fblob%2Fmaster%2Flectures%2F15-may%2F01-fundamentals-of-deep-learning%2Fdeep-learning-and-inductive-biases.pdf)"
+      video: "[Video](https://youtu.be/kpNI6or-qJs?list=PLfqBzCl5BL3-m9BH5qi4u4QzoJBC8Ze72)"
       description:
       instructors:
         - Jane Doe
@@ -347,8 +347,8 @@ schedule:
       dateEnd:    2020-05-15T12:00:00-04:00
       linktosession: https://zoom.us/j/92317091379
       topic: 3 # 1 = computer science, 2 = neuroscience, 3 - both, 4 = random
-      materials: "[Slides](https://github.com/neurodatascience/course-materials-2020/tree/master/lectures)"
-      video: "[Video coming soon!](https://www.youtube.com/playlist?list=PLfqBzCl5BL3-m9BH5qi4u4QzoJBC8Ze72)"
+      materials: "[Slides](https://www.youtube.com/redirect?q=https%3A%2F%2Fgithub.com%2Fneurodatascience%2Fcourse-materials-2020%2Ftree%2Fmaster%2Flectures%2F15-may%2F02-applications-of-deep-learning&redir_token=XzRwa2qEuYbHXdX0wVI9Sljf0q18MTU4OTk1Mjc2NUAxNTg5ODY2MzY1&event=video_description&v=XM1FT_oVDP0)"
+      video: "[Video](https://youtu.be/XM1FT_oVDP0?list=PLfqBzCl5BL3-m9BH5qi4u4QzoJBC8Ze72)"
       description:
       instructors:
         - Jane Doe
@@ -365,11 +365,13 @@ schedule:
         - Jane Doe
         - John Doe
 
-    - title: Epistemology and lessons from the past
+    - title: Advanced machine learning for neuroimaging
       dateStart:  2020-05-15T13:00:00-04:00
       dateEnd:    2020-05-15T14:00:00-04:00
       linktosession: https://zoom.us/j/92317091379
       topic: 1 # 1 = computer science, 2 = neuroscience, 3 - both, 4 = random
+      materials: "[Slides](https://www.youtube.com/redirect?v=wIMJVgkQjNY&event=video_description&redir_token=EZsqKBN9NGgACJYjwek17Mb0LgZ8MTU4OTk1MjgyOEAxNTg5ODY2NDI4&q=https%3A%2F%2Fgithub.com%2Fneurodatascience%2Fcourse-materials-2020%2Fblob%2Fmaster%2Flectures%2F15-may%2F03-advanced-machine-learning%2Fslides.pdf)"
+      video: "[Video](https://youtu.be/wIMJVgkQjNY?list=PLfqBzCl5BL3-m9BH5qi4u4QzoJBC8Ze72)"
       description:
       instructors:
         - Jane Doe
@@ -700,7 +702,7 @@ schedule:
 
   - date: 2020-05-22 #friday
     sessions:
-    - title: Parallel tutorial 1 - Introduction to diffusion-weighted MRI and connectivity by Samuel Guay
+    - title: Parallel tutorial 1 - Introduction to diffusion-weighted MRI and connectivity
       dateStart:  2020-05-22T09:00:00-04:00
       dateEnd:    2020-05-22T10:00:00-04:00
       linktosession: https://zoom.us/j/96692571531
