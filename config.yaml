@@ -14,6 +14,11 @@ languages:
     languageName: English
     contentDir: content/en
     weight: 1
+    taxonomies:
+      tag: tags
+      category: categories
+      name: names
+    enableGitInfo: TRUE
     menu:
       main:
         - identifier: home
@@ -24,6 +29,10 @@ languages:
           name: Schedule
           url: /schedule/
           weight: 2
+        - identifier: Projects
+          name: Projects
+          url: /project/
+          weight: 4
         - identifier: Weeks
           name: Weeks
           url: /weeks/
@@ -76,7 +85,7 @@ languages:
         Calendar:
           mediaType: text/calendar
       viewMorePostLink: /blog/
-      author: BHS
+      author: 
       defaultKeywords:
         - BrainHack
         - Neuroscience
@@ -152,6 +161,10 @@ languages:
     contentDir: content/fr
     title: 'École BrainHack'
     weight: 2
+    taxonomies:
+      tag: tags
+      category: categories
+      name: names
     menu:
       main:
         - identifier: home
@@ -204,7 +217,7 @@ languages:
 
     params:
       viewMorePostLink: /blog/
-      author: BHS
+      author: 
       defaultKeywords:
         - BrainHack
         - Neuroscience
@@ -289,3 +302,4 @@ markup:
 disqusShortname: ''
 googleAnalytics: ''
 paginate: 10
+

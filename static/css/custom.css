@@ -89,3 +89,53 @@ text-align: center;
 .pt-1 {
   padding-top: 1rem;
 }
+
+
+/* CSS added for the project sections */
+.img-responsive, .thumbnail > img, .thumbnail a > img, .carousel-inner > .item > img, .carousel-inner > .item > a > img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+
+.projects-horizontal .projects {
+  padding-bottom: 40px;
+}
+
+.projects-horizontal .intro {
+  font-size: 18px;
+  max-width: 750px;
+  margin: 0 auto 10px auto;
+}
+
+.vcenter {
+  display: flex;
+  align-items: center;
+}
+
+img {
+  max-width: 100%;
+}
+
+.pager {
+  border-top-color: rgb(54, 54, 54);
+  border-bottom-color: rgb(54, 54, 54);
+}
+.pager {
+  margin: 20px 0;
+  border-top: solid 1px #eeeeee;
+      border-top-color: rgb(238, 238, 238);
+  padding: 20px 0;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  font-family: "Roboto", Helvetica, Arial, sans-serif;
+  border-bottom: solid 1px #eeeeee;
+      border-bottom-color: rgb(238, 238, 238);
+
+.article-list .item {
+  padding-top: 50px;
+  min-height: 425px;
+  text-align: center;
+}
+
