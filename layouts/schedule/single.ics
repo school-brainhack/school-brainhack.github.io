@@ -13,7 +13,7 @@ BEGIN:VEVENT
 DTSTART;TZID=America/Toronto:{{dateFormat "20060102T150405" .dateStart}}
 DTEND;TZID=America/Toronto:{{dateFormat "20060102T150405" .dateEnd}}
 DTSTAMP:{{dateFormat "20060102T150405Z" .dateStart}}
-UID:{{ printf "%s%s%s" (dateFormat "20060102T150405" .dateStart) (dateFormat "20060102T150405" .dateEnd) (seq 1000 | shuffle | first 1) }}@school.brainhack.com
+UID:{{ printf "%s%s" (dateFormat "20060102T150405" .dateStart) (dateFormat "20060102T150405" .dateEnd) }}{{ now.Unix }}@school.brainhack.com
 CREATED:{{dateFormat "20060102T150405Z" now }}
 DESCRIPTION:Details @ <a href="https://school.brainhackmtl.org/schedule">BHS Schedule</a>. Password provided in #schedule(Slack).
 LAST-MODIFIED:{{dateFormat "20060102T150405Z" now }}
