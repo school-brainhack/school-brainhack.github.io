@@ -1,6 +1,6 @@
 ---
 type: "project" # DON'T TOUCH THIS ! :)
-date: "2020-05-16" # Date when you first upload your project.
+date: "2020-05-15" # Date when you first upload your project.
 # Title of your project (we like creative title)
 title: "Fake project"
 
@@ -14,7 +14,7 @@ github_repo: https://github.com/brainhackmtl2020/example
 website: 
 
 # List +- 4 keywords that best describe your project within []
-tags: [EEG, fMRI, Python, Docker]
+tags: [Keyword 1, Keyword 2, Keyword3, github]
 
 # Summarize your project in < ~75 words. This description will appear at the top of your page and on the list page with other projects.
 summary: "Cillum non ullamco deserunt cillum consequat. Adipisicing Lorem anim elit aliquip veniam fugiat Lorem. Ea exercitation do ea id in ea culpa sit sint eu duis. Nisi non mollit laborum excepteur labore nisi."

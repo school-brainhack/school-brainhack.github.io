@@ -51,7 +51,7 @@
                               </li>
                             {{end}}
                             {{ $current := . }}
-                            {{ range $name, $items := .Site.Taxonomies.tags }}
+                            {{ range $name := .Params.tags }}
                               <li{{ if eq $current.RelPermalink ($name | urlize | lower | printf "/tags/%s/") }} class="active"{{ end }}>
                                   <a href="{{ "tags/" | relURL }}{{ $name | urlize | lower }}"><i class="fas fa-tags"></i> {{ $name }}</a>
                               </li>
@@ -98,7 +98,7 @@
                               </li>
                             {{end}}
                             {{ $current := . }}
-                            {{ range $name, $items := .Site.Taxonomies.tags }}
+                            {{ range $name := .Params.tags }}
                               <li{{ if eq $current.RelPermalink ($name | urlize | lower | printf "/tags/%s/") }} class="active"{{ end }}>
                                   <a href="{{ "tags/" | relURL }}{{ $name | urlize | lower }}"><i class="fas fa-tags"></i> {{ $name }}</a>
                               </li>
@@ -178,7 +178,7 @@
               {{ end }}
               <h3 class="name">{{ .Title }}</h3>
               <p class="description">{{.Summary | truncate 150 }}</p><a class="action" href="#">
-                <p class="read-more"><a href="{{ .Permalink }}" class="btn btn-template-main">{{ i18n "readMore" }}</a></p>
+                <p class="read-more"><a href="{{ .Permalink }}" class="btn btn-template-main">{{ i18n "discover" }}</a></p>
               </div>
               {{ end }}
               
