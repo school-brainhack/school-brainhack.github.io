@@ -7,10 +7,11 @@
 agenda_title: Detailed Agenda
 agenda_subtitle: >
   The schedule will be updated here, reminders will be posted in **[#schedule on Slack](https://brainhack-school2020.slack.com/archives/C0127A3QJTX)**, including the Zoom links and password. You can even
-  **[import the schedule in your favorite calendar app](webcal://school.brainhackmtl.org/schedule/index.ics)** for the most up-to-date information.
+  **[import the schedule in your favorite calendar app](webcal://school.brainhackmtl.org/schedule/index.ics)** for the most up-to-date information.  
+  To import the calendar, *import* this url `webcal://school.brainhackmtl.org/schedule/index.ics` in your calendar.
   Ping us in the #schedule channel on Slack if you have any question regarding the schedule.
   The website will always be updated first. Synchronization may take some time in other calendars to happen.
-linktosession: https://zoom.us/j/92317091379
+linktosession:  https://zoom.us/j/96692571531
 linktoschedule: https://brainhack-school2020.slack.com/archives/C0127A3QJTX
 
 schedule:
@@ -424,7 +425,7 @@ schedule:
     - title: Introduction to Week 2
       dateStart:  2020-05-19T09:00:00-04:00
       dateEnd:    2020-05-19T10:00:00-04:00
-      linktosession: Coming soon!
+      linktosession: https://zoom.us/j/96692571531
       topic: 3 # 1 = computer science, 2 = neuroscience, 3 - both, 4 = random
       description:
       instructors:
@@ -444,7 +445,7 @@ schedule:
     - title: Free hacking
       dateStart:  2020-05-19T10:00:00-04:00
       dateEnd:    2020-05-19T12:00:00-04:00
-      linktosession:
+      linktosession: https://zoom.us/j/96692571531
       topic: 3 # 1 = computer science, 2 = neuroscience, 3 - both, 4 = random
       description:
       instructors:
@@ -464,7 +465,7 @@ schedule:
     - title: Parallel sessions - Instructor clinic (group A) and Peer clinic (group B)
       dateStart:  2020-05-19T13:00:00-04:00
       dateEnd:    2020-05-19T14:00:00-04:00
-      linktosession:
+      linktosession: 
       description: One-on-one meeting with your assigned instructor (group A) and clinic with fellow participants (group B)
       topic: 1 # 1 = computer science, 2 = neuroscience, 3 - both, 4 = random
       instructors:
@@ -503,7 +504,7 @@ schedule:
     - title: Free hacking
       dateStart:  2020-05-19T15:45:00-04:00
       dateEnd:    2020-05-19T17:00:00-04:00
-      linktosession:
+      linktosession:  https://zoom.us/j/96692571531
       topic: 3 # 1 = computer science, 2 = neuroscience, 3 - both, 4 = random
       instructors:
         - Jane Doe
@@ -514,7 +515,7 @@ schedule:
     - title: Parallel tutorial 1 - Introduction to computational morphometry with structural imaging by Pierre Bellec
       dateStart:  2020-05-20T09:00:00-04:00
       dateEnd:    2020-05-20T10:00:00-04:00
-      linktosession: Coming soon!
+      linktosession: https://zoom.us/j/96692571531
       topic: 3 # 1 = computer science, 2 = neuroscience, 3 - both, 4 = random
       description: See also the lecture by [Dr Mallar Chakravarty](https://www.youtube.com/watch?v=6no42ADiVi8) for more advanced topics on structural imaging
       instructors:
@@ -564,7 +565,7 @@ schedule:
     - title: Parallel sessions - Instructor clinic (group A) and Peer clinic (group B)
       dateStart:  2020-05-20T13:00:00-04:00
       dateEnd:    2020-05-20T14:00:00-04:00
-      linktosession:
+      linktosession: 
       description: One-on-one meeting with your assigned instructor (group A) and clinic with fellow participants (group B)
       topic: 1 # 1 = computer science, 2 = neuroscience, 3 - both, 4 = random
       instructors:
@@ -593,7 +594,7 @@ schedule:
     - title: Free hacking
       dateStart:  2020-05-20T15:00:00-04:00
       dateEnd:    2020-05-20T17:00:00-04:00
-      linktosession:
+      linktosession: https://zoom.us/j/96692571531
       topic: 3 # 1 = computer science, 2 = neuroscience, 3 - both, 4 = random
       instructors:
         - Jane Doe
@@ -604,7 +605,7 @@ schedule:
     - title: Parallel tutorial 1 - Introduction to functional MRI connectivity by Pierre Bellec
       dateStart:  2020-05-21T09:00:00-04:00
       dateEnd:    2020-05-21T10:00:00-04:00
-      linktosession: Coming soon!
+      linktosession: https://zoom.us/j/96692571531
       topic: 3 # 1 = computer science, 2 = neuroscience, 3 - both, 4 = random
       description:
       instructors:
@@ -614,7 +615,7 @@ schedule:
     - title: Parallel tutorial 2 - Introduction to magneto and electro encephalography by Karim Jerbi
       dateStart:  2020-05-21T09:00:00-04:00
       dateEnd:    2020-05-21T10:00:00-04:00
-      linktosession: Coming soon!
+      linktosession: https://zoom.us/j/96692571531
       topic: 3 # 1 = computer science, 2 = neuroscience, 3 - both, 4 = random
       description:
       instructors:
@@ -654,7 +655,7 @@ schedule:
     - title: Project presentations - Parallel sessions Group A and B
       dateStart:  2020-05-21T13:00:00-04:00
       dateEnd:    2020-05-21T15:00:00-04:00
-      linktosession:
+      linktosession: https://zoom.us/j/96692571531
       description: Two
       topic: 3 # 1 = computer science, 2 = neuroscience, 3 - both, 4 = random
       instructors:
@@ -682,7 +683,7 @@ schedule:
     - title: Free hacking
       dateStart:  2020-05-21T15:00:00-04:00
       dateEnd:    2020-05-21T17:00:00-04:00
-      linktosession:
+      linktosession: https://zoom.us/j/96692571531
       topic: 3 # 1 = computer science, 2 = neuroscience, 3 - both, 4 = random
       instructors:
         - Jane Doe
@@ -691,7 +692,7 @@ schedule:
     - title: "Virtual social (optional)"
       dateStart:  2020-05-21T18:00:00-04:00
       dateEnd:    2020-05-21T20:00:00-04:00
-      linktosession:
+      linktosession: https://zoom.us/j/96692571531
       topic: 3 # 1 = computer science, 2 = neuroscience, 3 - both, 4 = random
       instructors:
         - Jane Doe
@@ -702,9 +703,9 @@ schedule:
     - title: Parallel tutorial 1 - Introduction to diffusion-weighted MRI and connectivity by Samuel Guay
       dateStart:  2020-05-22T09:00:00-04:00
       dateEnd:    2020-05-22T10:00:00-04:00
-      linktosession:
+      linktosession: https://zoom.us/j/96692571531
       topic: 2 # 1 = computer science, 2 = neuroscience, 3 - both, 4 = random
-      description: To attend the fMRI prep Q&A, participants are expected to have watched this [video](https://www.youtube.com/watch?v=WTcucXAAVBU)
+      description: 
       instructors:
         - Jane Doe
         - John Doe
@@ -732,7 +733,7 @@ schedule:
     - title: Free hacking
       dateStart:  2020-05-22T10:00:00-04:00
       dateEnd:    2020-05-22T12:00:00-04:00
-      linktosession:
+      linktosession: https://zoom.us/j/96692571531
       topic: 3 # 1 = computer science, 2 = neuroscience, 3 - both, 4 = random
       description:
       instructors:
@@ -752,7 +753,7 @@ schedule:
     - title: Team-building sessions
       dateStart:  2020-05-22T13:00:00-04:00
       dateEnd:    2020-05-22T15:00:00-04:00
-      linktosession:
+      linktosession: https://zoom.us/j/96692571531
       topic: 1 # 1 = computer science, 2 = neuroscience, 3 - both, 4 = random
       instructors:
         - Jane Doe
@@ -770,7 +771,7 @@ schedule:
     - title: Free hacking
       dateStart:  2020-05-22T15:00:00-04:00
       dateEnd:    2020-05-22T17:00:00-04:00
-      linktosession:
+      linktosession: https://zoom.us/j/96692571531
       topic: 3 # 1 = computer science, 2 = neuroscience, 3 - both, 4 = random
       instructors:
         - Jane Doe
