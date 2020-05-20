@@ -913,7 +913,7 @@ schedule:
   ################################
   ###########  WEDNESDAY ############
   ################################
-  - date: 2020-05-26
+  - date: 2020-05-27
     sessions:
     - title: "Morning talk: Software Testing and Continuous Integration"
       dateStart: 2020-05-25T09:00:00-04:00
@@ -976,7 +976,7 @@ schedule:
   ################################
   ###########  THURSDAY ############
   ################################
-  - date: 2020-05-26
+  - date: 2020-05-28
     sessions:
     - title: "Morning talk: Software Packaging"
       dateStart: 2020-05-25T09:00:00-04:00
@@ -1037,7 +1037,7 @@ schedule:
   ################################
   ###########  FRIDAY ############
   ################################
-  - date: 2020-05-26
+  - date: 2020-05-29
     sessions:
     - title: "Virtual coffee break"
       dateStart: 2020-05-25T10:00:00-04:00
