@@ -430,9 +430,11 @@ schedule:
       linktosession: https://zoom.us/j/96692571531
       topic: 3 # 1 = computer science, 2 = neuroscience, 3 - both, 4 = random
       description:
+      materials: "[Slides](https://docs.google.com/presentation/d/1JveXaq9rbCGvZerChVUdnKrbnezfX2p4_NVsSaAMLdg/edit#slide=id.g805a22c898_0_236)"
+      video: "[Video](https://www.youtube.com/watch?v=-g_I8OFKtrI&list=PLfqBzCl5BL3-m9BH5qi4u4QzoJBC8Ze72&index=19&t=0s)"    
       instructors:
-        - Jane Doe
-        - John Doe
+        - Pierre Bellec
+
 
     - title: Virtual coffee break
       dateStart:  2020-05-19T10:00:00-04:00
