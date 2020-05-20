@@ -1060,7 +1060,9 @@ schedule:
       topic: 3 # 1 = computer science, 2 = neuroscience, 3 - both
       description: > 
         Time to get it done!
-  - week: Week 4
+
+
+- week: Week 4
   title: "Project wrap-up and communication"
   days:
   - date: 2020-06-01 #monday
