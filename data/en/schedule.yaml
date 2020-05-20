@@ -1046,8 +1046,15 @@ schedule:
       topic: 3 # 1 = computer science, 2 = neuroscience, 3 - both
       description: > 
         Informal chit chat
+      - title: "Yoga"
+        dateStart: 2020-05-25T10:30:00-04:00
+        dateEnd:   2020-05-25T11:00:00-04:00
+        linktosession:
+        topic: 3 # 1 = computer science, 2 = neuroscience, 3 - both
+        description: > 
+          Online yoga class.
     - title: "Free hacking"
-        dateStart: 2020-05-25T10:15:00-04:00
+        dateStart: 2020-05-25T11:00:00-04:00
         dateEnd:   2020-05-25T12:00:00-04:00
         linktosession:
         topic: 3 # 1 = computer science, 2 = neuroscience, 3 - both
@@ -1066,23 +1073,16 @@ schedule:
       linktosession:
       description: One-on-one meeting with your assigned instructor (group B) and clinic with fellow participants (group A)
       topic: 3 # 1 = computer science, 2 = neuroscience, 3 - both, 4 = random
-      - title: "Yoga"
-      dateStart: 2020-05-25T15:00:00-04:00
-      dateEnd:   2020-05-25T15:30:00-04:00
-      linktosession:
-      topic: 3 # 1 = computer science, 2 = neuroscience, 3 - both
-      description: > 
-        Online yoga class.
  
     - title: "Virtual coffee break"
-      dateStart: 2020-05-25T15:30:00-04:00
-      dateEnd:   2020-05-25T15:45:00-04:00
+      dateStart: 2020-05-25T15:00:00-04:00
+      dateEnd:   2020-05-25T15:15:00-04:00
       linktosession:
       topic: 3 # 1 = computer science, 2 = neuroscience, 3 - both
       description: > 
         Informal chit chat
     - title: "Free hacking"
-        dateStart: 2020-05-25T15:45:00-04:00
+        dateStart: 2020-05-25T15:15:00-04:00
         dateEnd:   2020-05-25T17:00:00-04:00
         linktosession:
         topic: 3 # 1 = computer science, 2 = neuroscience, 3 - both
