@@ -431,7 +431,7 @@ schedule:
       topic: 3 # 1 = computer science, 2 = neuroscience, 3 - both, 4 = random
       description:
       materials: "[Slides](https://docs.google.com/presentation/d/1JveXaq9rbCGvZerChVUdnKrbnezfX2p4_NVsSaAMLdg/edit#slide=id.g805a22c898_0_236)"
-      video: "[Video](https://www.youtube.com/watch?v=-g_I8OFKtrI&list=PLfqBzCl5BL3-m9BH5qi4u4QzoJBC8Ze72&index=19&t=0s)"    
+      video: "[Video](https://youtu.be/-g_I8OFKtrI?list=PLfqBzCl5BL3-m9BH5qi4u4QzoJBC8Ze72)"    
       instructors:
         - Pierre Bellec
 
@@ -521,6 +521,8 @@ schedule:
       dateEnd:    2020-05-20T10:00:00-04:00
       linktosession: https://zoom.us/j/96692571531
       topic: 3 # 1 = computer science, 2 = neuroscience, 3 - both, 4 = random
+      Material: "[Slides](https://youtu.be/OEhgEo5IAmk?list=PLfqBzCl5BL3-m9BH5qi4u4QzoJBC8Ze72)"
+      video: "[Video]"
       description:
       instructors:
         - Jane Doe
@@ -559,7 +561,7 @@ schedule:
     - title: Parallel sessions - Instructor clinic (group A) and Peer clinic (group B)
       dateStart:  2020-05-20T13:00:00-04:00
       dateEnd:    2020-05-20T14:00:00-04:00
-      linktosession:
+      linktosession: 
       description: One-on-one meeting with your assigned instructor (group A) and clinic with fellow participants (group B)
       topic: 1 # 1 = computer science, 2 = neuroscience, 3 - both, 4 = random
       instructors:
@@ -606,16 +608,6 @@ schedule:
         - Jane Doe
         - John Doe
 
-    - title: Virtual coffee break
-      dateStart:  2020-05-21T10:00:00-04:00
-      dateEnd:    2020-05-21T10:15:00-04:00
-      linktosession:
-      topic: 3 # 1 = computer science, 2 = neuroscience, 3 - both, 4 = random
-      description:
-      instructors:
-        - Jane Doe
-        - John Doe
-
     - title: Free hacking
       dateStart:  2020-05-21T10:00:00-04:00
       dateEnd:    2020-05-21T12:00:00-04:00
@@ -636,27 +628,28 @@ schedule:
         - Jane Doe
         - John Doe
 
-    - title: Project presentations - Parallel sessions Group A and B
+    - title: Project presentations - Group A Parallel sessions
       dateStart:  2020-05-21T13:00:00-04:00
       dateEnd:    2020-05-21T15:00:00-04:00
-      linktosession: https://zoom.us/j/96692571531
+      linktosession: https://docs.google.com/document/d/15ZVSCmZhxnzrW7lwgyUSf3Uf_lLOgpI5sCRCjIZkSbI/edit#
+      description:
+      topic: 3 # 1 = computer science, 2 = neuroscience, 3 - both, 4 = random
+      instructors:
+        - Jane Doe
+        - John Doe
+
+    - title: Project presentations - Group B Parallel sessions 
+      dateStart:  2020-05-21T13:00:00-04:00
+      dateEnd:    2020-05-21T15:00:00-04:00
+      linktosession: https://docs.google.com/document/d/1y3fPwKEDwVnOCunyxTnDpp2zVdO1GMw-Sp6Rx2mwhoY/edit#
       description: Two
       topic: 3 # 1 = computer science, 2 = neuroscience, 3 - both, 4 = random
       instructors:
         - Jane Doe
         - John Doe
 
-    - title: Virtual coffee break
-      dateStart:  2020-05-21T15:00:00-04:00
-      dateEnd:    2020-05-21T15:15:00-04:00
-      linktosession:
-      topic: 1 # 1 = computer science, 2 = neuroscience, 3 - both, 4 = random
-      instructors:
-        - Jane Doe
-        - John Doe
-
     - title: 30-min yoga class
-      dateStart:  2020-05-21T15:10:00-04:00
+      dateStart:  2020-05-21T15:15:00-04:00
       dateEnd:    2020-05-21T15:45:00-04:00
       linktosession: https://zoom.us/j/97324829890
       topic: 1 # 1 = computer science, 2 = neuroscience, 3 - both, 4 = random
@@ -676,7 +669,7 @@ schedule:
     - title: "Virtual social (optional)"
       dateStart:  2020-05-21T18:00:00-04:00
       dateEnd:    2020-05-21T20:00:00-04:00
-      linktosession: https://zoom.us/j/96692571531
+      linktosession: TBA! Wait for it..
       topic: 3 # 1 = computer science, 2 = neuroscience, 3 - both, 4 = random
       instructors:
         - Jane Doe
@@ -717,7 +710,7 @@ schedule:
     - title: "Lunch"
       dateStart:  2020-05-22T12:00:00-04:00
       dateEnd:    2020-05-22T13:00:00-04:00
-      linktosession:
+      linktosession: 
       description: "Don't forget the #snack-club!"
       topic: 4 # 1 = computer science, 2 = neuroscience, 3 - both, 4 = random
       instructors:
@@ -800,14 +793,14 @@ schedule:
         Time to get it done!
      ############## LUNCH ################
     - title: "Lunch"
-      dateStart:  2020-05-22T12:00:00-04:00
-      dateEnd:    2020-05-22T13:00:00-04:00
+      dateStart:  2020-05-25T12:00:00-04:00
+      dateEnd:    2020-05-25T13:00:00-04:00
       linktosession:
       description: "Don't forget the #snack-club!"
       topic: 4 # 1 = computer science, 2 = neuroscience, 3 - both, 4 = random
     - title: Project clinics
-      dateStart:  2020-05-20T13:00:00-04:00
-      dateEnd:    2020-05-20T15:00:00-04:00
+      dateStart:  2020-05-25T13:00:00-04:00
+      dateEnd:    2020-05-25T15:00:00-04:00
       linktosession:
       description: One-on-one meeting with your assigned instructor (group B) and clinic with fellow participants (group A)
       topic: 3 # 1 = computer science, 2 = neuroscience, 3 - both, 4 = random
@@ -832,8 +825,8 @@ schedule:
   - date: 2020-05-26
     sessions:
     - title: "Morning talk: Containers"
-      dateStart: 2020-05-25T09:00:00-04:00
-      dateEnd:   2020-05-25T10:00:00-04:00
+      dateStart: 2020-05-26T09:00:00-04:00
+      dateEnd:   2020-05-26T10:00:00-04:00
       linktosession:
       topic: 3 # 1 = computer science, 2 = neuroscience, 3 - both
       description: > 
@@ -841,42 +834,42 @@ schedule:
       instructors:
         - Tristan Glatard
     - title: "Virtual coffee break"
-      dateStart: 2020-05-25T10:00:00-04:00
-      dateEnd:   2020-05-25T10:15:00-04:00
+      dateStart: 2020-05-26T10:00:00-04:00
+      dateEnd:   2020-05-26T10:15:00-04:00
       linktosession:
       topic: 1 # 1 = computer science, 2 = neuroscience, 3 - both
       description: > 
         Informal chit chat
     - title: "Free hacking"
-      dateStart: 2020-05-25T10:15:00-04:00
-      dateEnd:   2020-05-25T12:00:00-04:00
+      dateStart: 2020-05-26T10:15:00-04:00
+      dateEnd:   2020-05-26T12:00:00-04:00
       linktosession:
       topic: 3 # 1 = computer science, 2 = neuroscience, 3 - both
       description: > 
         Time to get it done!
      ############## LUNCH ################
     - title: "Lunch"
-      dateStart:  2020-05-22T12:00:00-04:00
-      dateEnd:    2020-05-22T13:00:00-04:00
+      dateStart:  2020-05-26T12:00:00-04:00
+      dateEnd:    2020-05-26T13:00:00-04:00
       linktosession:
       description: "Don't forget the #snack-club!"
       topic: 4 # 1 = computer science, 2 = neuroscience, 3 - both, 4 = random
     - title: Project clinics
-      dateStart:  2020-05-20T13:00:00-04:00
-      dateEnd:    2020-05-20T15:00:00-04:00
+      dateStart:  2020-05-26T13:00:00-04:00
+      dateEnd:    2020-05-26T15:00:00-04:00
       linktosession:
       description: One-on-one meeting with your assigned instructor (group B) and clinic with fellow participants (group A)
       topic: 3 # 1 = computer science, 2 = neuroscience, 3 - both, 4 = random
     - title: "Virtual coffee break"
-      dateStart: 2020-05-25T15:00:00-04:00
-      dateEnd:   2020-05-25T15:15:00-04:00
+      dateStart: 2020-05-26T15:00:00-04:00
+      dateEnd:   2020-05-26T15:15:00-04:00
       linktosession:
       topic: 3 # 1 = computer science, 2 = neuroscience, 3 - both
       description: > 
         Informal chit chat
     - title: "Free hacking"
-      dateStart: 2020-05-25T15:15:00-04:00
-      dateEnd:   2020-05-25T17:00:00-04:00
+      dateStart: 2020-05-26T15:15:00-04:00
+      dateEnd:   2020-05-26T17:00:00-04:00
       linktosession:
       topic: 3 # 1 = computer science, 2 = neuroscience, 3 - both
       description: > 
@@ -888,8 +881,8 @@ schedule:
   - date: 2020-05-27
     sessions:
     - title: "Morning talk: Software Testing and Continuous Integration"
-      dateStart: 2020-05-25T09:00:00-04:00
-      dateEnd:   2020-05-25T10:00:00-04:00
+      dateStart: 2020-05-27T09:00:00-04:00
+      dateEnd:   2020-05-27T10:00:00-04:00
       linktosession:
       topic: 1 # 1 = computer science, 2 = neuroscience, 3 - both
       description: > 
@@ -897,49 +890,49 @@ schedule:
       instructors:
         - Greg Kiar
     - title: "Virtual coffee break"
-      dateStart: 2020-05-25T10:00:00-04:00
-      dateEnd:   2020-05-25T10:15:00-04:00
+      dateStart: 2020-05-27T10:00:00-04:00
+      dateEnd:   2020-05-27T10:15:00-04:00
       linktosession:
       topic: 3 # 1 = computer science, 2 = neuroscience, 3 - both
       description: > 
         Informal chit chat
     - title: "Free hacking"
-      dateStart: 2020-05-25T10:15:00-04:00
-      dateEnd:   2020-05-25T12:00:00-04:00
+      dateStart: 2020-05-27T10:15:00-04:00
+      dateEnd:   2020-05-27T12:00:00-04:00
       linktosession:
       topic: 3 # 1 = computer science, 2 = neuroscience, 3 - both
       description: > 
         Time to get it done!
      ############## LUNCH ################
     - title: "Lunch"
-      dateStart:  2020-05-22T12:00:00-04:00
-      dateEnd:    2020-05-22T13:00:00-04:00
+      dateStart:  2020-05-27T12:00:00-04:00
+      dateEnd:    2020-05-27T13:00:00-04:00
       linktosession:
       description: "Don't forget the #snack-club!"
       topic: 4 # 1 = computer science, 2 = neuroscience, 3 - both, 4 = random
     - title: Project clinics
-      dateStart:  2020-05-20T13:00:00-04:00
-      dateEnd:    2020-05-20T15:00:00-04:00
+      dateStart:  2020-05-27T13:00:00-04:00
+      dateEnd:    2020-05-27T15:00:00-04:00
       linktosession:
       description: One-on-one meeting with your assigned instructor (group B) and clinic with fellow participants (group A)
       topic: 3 # 1 = computer science, 2 = neuroscience, 3 - both, 4 = random
     - title: "Yoga"
-      dateStart: 2020-05-25T15:00:00-04:00
-      dateEnd:   2020-05-25T15:30:00-04:00
+      dateStart: 2020-05-27T15:00:00-04:00
+      dateEnd:   2020-05-27T15:30:00-04:00
       linktosession:
       topic: 3 # 1 = computer science, 2 = neuroscience, 3 - both
       description: > 
         Online yoga class.
     - title: "Virtual coffee break"
-      dateStart: 2020-05-25T15:30:00-04:00
-      dateEnd:   2020-05-25T15:45:00-04:00
+      dateStart: 2020-05-27T15:30:00-04:00
+      dateEnd:   2020-05-27T15:45:00-04:00
       linktosession:
       topic: 3 # 1 = computer science, 2 = neuroscience, 3 - both
       description: > 
         Informal chit chat
     - title: "Free hacking"
-      dateStart: 2020-05-25T15:45:00-04:00
-      dateEnd:   2020-05-25T17:00:00-04:00
+      dateStart: 2020-05-27T15:45:00-04:00
+      dateEnd:   2020-05-27T17:00:00-04:00
       linktosession:
       topic: 3 # 1 = computer science, 2 = neuroscience, 3 - both
       description: > 
@@ -951,8 +944,8 @@ schedule:
   - date: 2020-05-28
     sessions:
     - title: "Morning talk: Software Packaging"
-      dateStart: 2020-05-25T09:00:00-04:00
-      dateEnd:   2020-05-25T10:00:00-04:00
+      dateStart: 2020-05-28T09:00:00-04:00
+      dateEnd:   2020-05-28T10:00:00-04:00
       linktosession:
       topic: 1 # 1 = computer science, 2 = neuroscience, 3 - both
       description: > 
@@ -960,49 +953,49 @@ schedule:
       instructors:
         - Valerie Hayot-Sasson
     - title: "Virtual coffee break"
-      dateStart: 2020-05-25T10:00:00-04:00
-      dateEnd:   2020-05-25T10:15:00-04:00
+      dateStart: 2020-05-28T10:00:00-04:00
+      dateEnd:   2020-05-28T10:15:00-04:00
       linktosession:
       topic: 3 # 1 = computer science, 2 = neuroscience, 3 - both
       description: > 
         Informal chit chat
     - title: "Free hacking"
-      dateStart: 2020-05-25T10:15:00-04:00
-      dateEnd:   2020-05-25T12:00:00-04:00
+      dateStart: 2020-05-28T10:15:00-04:00
+      dateEnd:   2020-05-28T12:00:00-04:00
       linktosession:
       topic: 3 # 1 = computer science, 2 = neuroscience, 3 - both
       description: > 
         Time to get it done!
      ############## LUNCH ################
     - title: "Lunch"
-      dateStart:  2020-05-22T12:00:00-04:00
-      dateEnd:    2020-05-22T13:00:00-04:00
+      dateStart:  2020-05-28T12:00:00-04:00
+      dateEnd:    2020-05-28T13:00:00-04:00
       linktosession:
       description: "Don't forget the #snack-club!"
       topic: 4 # 1 = computer science, 2 = neuroscience, 3 - both, 4 = random
     - title: Project clinics
-      dateStart:  2020-05-20T13:00:00-04:00
-      dateEnd:    2020-05-20T15:00:00-04:00
+      dateStart:  2020-05-28T13:00:00-04:00
+      dateEnd:    2020-05-28T15:00:00-04:00
       linktosession:
       description: One-on-one meeting with your assigned instructor (group B) and clinic with fellow participants (group A)
       topic: 3 # 1 = computer science, 2 = neuroscience, 3 - both, 4 = random
     - title: "Virtual coffee break"
-      dateStart: 2020-05-25T15:00:00-04:00
-      dateEnd:   2020-05-25T15:15:00-04:00
+      dateStart: 2020-05-28T15:00:00-04:00
+      dateEnd:   2020-05-28T15:15:00-04:00
       linktosession:
       topic: 3 # 1 = computer science, 2 = neuroscience, 3 - both
       description: > 
         Informal chit chat
     - title: "Free hacking"
-      dateStart: 2020-05-25T15:15:00-04:00
-      dateEnd:   2020-05-25T18:00:00-04:00
+      dateStart: 2020-05-28T15:15:00-04:00
+      dateEnd:   2020-05-28T18:00:00-04:00
       linktosession:
       topic: 3 # 1 = computer science, 2 = neuroscience, 3 - both
       description: > 
         Time to get it done!
     - title: "Virtual social (optional)"
-      dateStart: 2020-05-25T18:00:00-04:00
-      dateEnd:   2020-05-25T21:00:00-04:00
+      dateStart: 2020-05-28T18:00:00-04:00
+      dateEnd:   2020-05-28T21:00:00-04:00
       linktosession:
       topic: 3 # 1 = computer science, 2 = neuroscience, 3 - both
   
@@ -1012,50 +1005,50 @@ schedule:
   - date: 2020-05-29
     sessions:
     - title: "Virtual coffee break"
-      dateStart: 2020-05-25T10:00:00-04:00
-      dateEnd:   2020-05-25T10:15:00-04:00
+      dateStart: 2020-05-29T10:00:00-04:00
+      dateEnd:   2020-05-29T10:15:00-04:00
       linktosession:
       topic: 3 # 1 = computer science, 2 = neuroscience, 3 - both
       description: > 
         Informal chit chat
     - title: "Yoga"
-      dateStart: 2020-05-25T10:30:00-04:00
-      dateEnd:   2020-05-25T11:00:00-04:00
+      dateStart: 2020-05-29T10:30:00-04:00
+      dateEnd:   2020-05-29T11:00:00-04:00
       linktosession:
       topic: 3 # 1 = computer science, 2 = neuroscience, 3 - both
       description: > 
         Online yoga class.
     - title: "Free hacking"
-      dateStart: 2020-05-25T11:00:00-04:00
-      dateEnd:   2020-05-25T12:00:00-04:00
+      dateStart: 2020-05-29T11:00:00-04:00
+      dateEnd:   2020-05-29T12:00:00-04:00
       linktosession:
       topic: 3 # 1 = computer science, 2 = neuroscience, 3 - both
       description: > 
         Time to get it done!
      ############## LUNCH ################
     - title: "Lunch"
-      dateStart:  2020-05-22T12:00:00-04:00
-      dateEnd:    2020-05-22T13:00:00-04:00
+      dateStart:  2020-05-29T12:00:00-04:00
+      dateEnd:    2020-05-29T13:00:00-04:00
       linktosession:
       description: "Don't forget the #snack-club!"
       topic: 4 # 1 = computer science, 2 = neuroscience, 3 - both, 4 = random
     - title: Project clinics
-      dateStart:  2020-05-20T13:00:00-04:00
-      dateEnd:    2020-05-20T15:00:00-04:00
+      dateStart:  2020-05-29T13:00:00-04:00
+      dateEnd:    2020-05-29T15:00:00-04:00
       linktosession:
       description: One-on-one meeting with your assigned instructor (group B) and clinic with fellow participants (group A)
       topic: 3 # 1 = computer science, 2 = neuroscience, 3 - both, 4 = random
  
     - title: "Virtual coffee break"
-      dateStart: 2020-05-25T15:00:00-04:00
-      dateEnd:   2020-05-25T15:15:00-04:00
+      dateStart: 2020-05-29T15:00:00-04:00
+      dateEnd:   2020-05-29T15:15:00-04:00
       linktosession:
       topic: 3 # 1 = computer science, 2 = neuroscience, 3 - both
       description: > 
         Informal chit chat
     - title: "Free hacking"
-      dateStart: 2020-05-25T15:15:00-04:00
-      dateEnd:   2020-05-25T17:00:00-04:00
+      dateStart: 2020-05-29T15:15:00-04:00
+      dateEnd:   2020-05-29T17:00:00-04:00
       linktosession:
       topic: 3 # 1 = computer science, 2 = neuroscience, 3 - both
       description: > 
