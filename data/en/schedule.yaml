@@ -521,8 +521,8 @@ schedule:
       dateEnd:    2020-05-20T10:00:00-04:00
       linktosession: https://zoom.us/j/96692571531
       topic: 3 # 1 = computer science, 2 = neuroscience, 3 - both, 4 = random
-      Material: "[Slides](https://youtu.be/OEhgEo5IAmk?list=PLfqBzCl5BL3-m9BH5qi4u4QzoJBC8Ze72)"
-      video: "[Video]"
+      Material: "[Slides](https://docs.google.com/presentation/d/19pp-SwWI-Fi72BCsht_7SAj-uFp0-ijBqRc31sy2-Ag/edit?usp=sharing)"
+      video: "[Full presentation](https://youtu.be/OEhgEo5IAmk?list=PLfqBzCl5BL3-m9BH5qi4u4QzoJBC8Ze72)"
       description:
       instructors:
         - Jane Doe
