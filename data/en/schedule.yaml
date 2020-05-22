@@ -696,7 +696,16 @@ schedule:
       topic: 1 # 1 = computer science, 2 = neuroscience, 3 - both, 4 = random
       description: Participants interested in fMRIprep can watch this [video](https://www.youtube.com/watch?v=WTcucXAAVBU) and get in touch with Basile Pinsard on slack if they have questions.
       materials: "[Slides](https://docs.google.com/presentation/d/1mTJoOSRKtGzhWeNLa9PXyKUYA0p9733UHVWrmIyi4zs/edit?usp=sharing)"
-
+      video: "[Video](https://youtu.be/RoKt_c08wxQ?list=PLfqBzCl5BL3-m9BH5qi4u4QzoJBC8Ze72)"
+    - title:  Introduction to Brain Parcellations by Pierre Bellec
+      dateStart:  2020-05-22T10:00:00-04:00
+      dateEnd:    2020-05-22T11:00:00-04:00
+      linktosession: https://zoom.us/j/96692571531
+      topic: 1 # 1 = computer science, 2 = neuroscience, 3 - both, 4 = random
+      description: Participants interested in fMRIprep can watch this [video](https://www.youtube.com/watch?v=WTcucXAAVBU) and get in touch with Basile Pinsard on slack if they have questions.
+      materials: "[Slides](https://docs.google.com/presentation/d/1mTJoOSRKtGzhWeNLa9PXyKUYA0p9733UHVWrmIyi4zs/edit?usp=sharing)"
+      video: "[Video](https://youtu.be/7uMVRebuDZo?list=PLfqBzCl5BL3-m9BH5qi4u4QzoJBC8Ze72)"
+   
     - title: Free hacking
       dateStart:  2020-05-22T10:00:00-04:00
       dateEnd:    2020-05-22T12:00:00-04:00
