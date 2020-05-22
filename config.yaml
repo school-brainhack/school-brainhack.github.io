@@ -41,10 +41,10 @@ languages:
           name: Locations
           url: /locations/
           weight: 5
-        - identifier: Register
-          name: Register
-          url: /register/
-          weight: 6
+        # - identifier: Register
+        #   name: Register
+        #   url: /register/
+        #   weight: 6
         - identifier: documents
           name: Documents
           weight: 7

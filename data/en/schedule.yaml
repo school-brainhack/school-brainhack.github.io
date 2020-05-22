@@ -603,6 +603,18 @@ schedule:
       dateEnd:    2020-05-21T10:00:00-04:00
       linktosession: https://zoom.us/j/96692571531
       topic: 3 # 1 = computer science, 2 = neuroscience, 3 - both, 4 = random
+      video: "[Video](https://youtu.be/ANZLL3Vmgsk?list=PLfqBzCl5BL3-m9BH5qi4u4QzoJBC8Ze72)"
+      description:
+      instructors:
+        - Jane Doe
+        - John Doe
+
+    - title: Measuring cortical interactions in EEG, MEG and intracranial EEG by Karim Jerbi
+      dateStart:  2020-05-21T10:15:00-04:00
+      dateEnd:    2020-05-21T11:15:00-04:00
+      linktosession: https://zoom.us/j/96692571531
+      topic: 3 # 1 = computer science, 2 = neuroscience, 3 - both, 4 = random
+      video: "[Video](https://youtu.be/LlqhLuYsn0w?list=PLfqBzCl5BL3-m9BH5qi4u4QzoJBC8Ze72)"
       description:
       instructors:
         - Jane Doe
@@ -683,19 +695,7 @@ schedule:
       linktosession: https://zoom.us/j/96692571531
       topic: 1 # 1 = computer science, 2 = neuroscience, 3 - both, 4 = random
       description: Participants interested in fMRIprep can watch this [video](https://www.youtube.com/watch?v=WTcucXAAVBU) and get in touch with Basile Pinsard on slack if they have questions.
-      instructors:
-        - Jane Doe
-        - John Doe
-
-    - title: Virtual coffee break
-      dateStart:  2020-05-22T10:00:00-04:00
-      dateEnd:    2020-05-22T10:15:00-04:00
-      linktosession:
-      topic: 3 # 1 = computer science, 2 = neuroscience, 3 - both, 4 = random
-      description:
-      instructors:
-        - Jane Doe
-        - John Doe
+      materials: "[Slides](https://docs.google.com/presentation/d/1mTJoOSRKtGzhWeNLa9PXyKUYA0p9733UHVWrmIyi4zs/edit?usp=sharing)"
 
     - title: Free hacking
       dateStart:  2020-05-22T10:00:00-04:00
@@ -721,15 +721,6 @@ schedule:
       dateStart:  2020-05-22T13:00:00-04:00
       dateEnd:    2020-05-22T15:00:00-04:00
       linktosession: https://zoom.us/j/96692571531
-      topic: 1 # 1 = computer science, 2 = neuroscience, 3 - both, 4 = random
-      instructors:
-        - Jane Doe
-        - John Doe
-
-    - title: Virtual coffee break
-      dateStart:  2020-05-22T15:00:00-04:00
-      dateEnd:    2020-05-22T15:15:00-04:00
-      linktosession:
       topic: 1 # 1 = computer science, 2 = neuroscience, 3 - both, 4 = random
       instructors:
         - Jane Doe
