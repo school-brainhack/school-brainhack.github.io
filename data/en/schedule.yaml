@@ -770,17 +770,17 @@ schedule:
         How to create awesome data visualizations and videos
       instructors:
         - Agah Karakuzu
-    - title: "Virtual coffee break"
-      dateStart: 2020-05-25T10:15:00-04:00
-      dateEnd:   2020-05-25T10:30:00-04:00
-      linktosession:
-      topic: 3 # 1 = computer science, 2 = neuroscience, 3 - both
-      description: > 
-        Informal chit chat
+    # - title: "Virtual coffee break"
+    #   dateStart: 2020-05-25T10:15:00-04:00
+    #   dateEnd:   2020-05-25T10:30:00-04:00
+    #   linktosession:
+    #   topic: 3 # 1 = computer science, 2 = neuroscience, 3 - both
+    #   description: > 
+    #     Informal chit chat
     - title: "Yoga"
       dateStart: 2020-05-25T10:30:00-04:00
       dateEnd:   2020-05-25T11:00:00-04:00
-      linktosession:
+      linktosession: https://zoom.us/j/98404139023
       topic: 3 # 1 = computer science, 2 = neuroscience, 3 - both
       description: > 
         Online yoga class.
@@ -804,13 +804,13 @@ schedule:
       linktosession:
       description: One-on-one meeting with your assigned instructor (group B) and clinic with fellow participants (group A)
       topic: 3 # 1 = computer science, 2 = neuroscience, 3 - both, 4 = random
-    - title: "Virtual coffee break"
-      dateStart: 2020-05-25T15:00:00-04:00
-      dateEnd:   2020-05-25T15:15:00-04:00
-      linktosession:
-      topic: 3 # 1 = computer science, 2 = neuroscience, 3 - both
-      description: > 
-        Informal chit chat
+    # - title: "Virtual coffee break"
+    #   dateStart: 2020-05-25T15:00:00-04:00
+    #   dateEnd:   2020-05-25T15:15:00-04:00
+    #   linktosession:
+    #   topic: 3 # 1 = computer science, 2 = neuroscience, 3 - both
+    #   description: > 
+    #     Informal chit chat
     - title: "Free hacking"
       dateStart: 2020-05-25T15:15:00-04:00
       dateEnd:   2020-05-25T17:00:00-04:00
@@ -833,13 +833,13 @@ schedule:
         Understanding containers and how to use them
       instructors:
         - Tristan Glatard
-    - title: "Virtual coffee break"
-      dateStart: 2020-05-26T10:00:00-04:00
-      dateEnd:   2020-05-26T10:15:00-04:00
-      linktosession:
-      topic: 1 # 1 = computer science, 2 = neuroscience, 3 - both
-      description: > 
-        Informal chit chat
+    # - title: "Virtual coffee break"
+    #   dateStart: 2020-05-26T10:00:00-04:00
+    #   dateEnd:   2020-05-26T10:15:00-04:00
+    #   linktosession:
+    #   topic: 1 # 1 = computer science, 2 = neuroscience, 3 - both
+    #   description: > 
+    #     Informal chit chat
     - title: "Free hacking"
       dateStart: 2020-05-26T10:15:00-04:00
       dateEnd:   2020-05-26T12:00:00-04:00
@@ -860,13 +860,13 @@ schedule:
       linktosession:
       description: One-on-one meeting with your assigned instructor (group B) and clinic with fellow participants (group A)
       topic: 3 # 1 = computer science, 2 = neuroscience, 3 - both, 4 = random
-    - title: "Virtual coffee break"
-      dateStart: 2020-05-26T15:00:00-04:00
-      dateEnd:   2020-05-26T15:15:00-04:00
-      linktosession:
-      topic: 3 # 1 = computer science, 2 = neuroscience, 3 - both
-      description: > 
-        Informal chit chat
+    # - title: "Virtual coffee break"
+    #   dateStart: 2020-05-26T15:00:00-04:00
+    #   dateEnd:   2020-05-26T15:15:00-04:00
+    #   linktosession:
+    #   topic: 3 # 1 = computer science, 2 = neuroscience, 3 - both
+    #   description: > 
+    #     Informal chit chat
     - title: "Free hacking"
       dateStart: 2020-05-26T15:15:00-04:00
       dateEnd:   2020-05-26T17:00:00-04:00
@@ -889,13 +889,13 @@ schedule:
         Why and how to test your software
       instructors:
         - Greg Kiar
-    - title: "Virtual coffee break"
-      dateStart: 2020-05-27T10:00:00-04:00
-      dateEnd:   2020-05-27T10:15:00-04:00
-      linktosession:
-      topic: 3 # 1 = computer science, 2 = neuroscience, 3 - both
-      description: > 
-        Informal chit chat
+    # - title: "Virtual coffee break"
+    #   dateStart: 2020-05-27T10:00:00-04:00
+    #   dateEnd:   2020-05-27T10:15:00-04:00
+    #   linktosession:
+    #   topic: 3 # 1 = computer science, 2 = neuroscience, 3 - both
+    #   description: > 
+    #     Informal chit chat
     - title: "Free hacking"
       dateStart: 2020-05-27T10:15:00-04:00
       dateEnd:   2020-05-27T12:00:00-04:00
@@ -919,17 +919,17 @@ schedule:
     - title: "Yoga"
       dateStart: 2020-05-27T15:00:00-04:00
       dateEnd:   2020-05-27T15:30:00-04:00
-      linktosession:
+      linktosession: https://zoom.us/j/97532541804
       topic: 3 # 1 = computer science, 2 = neuroscience, 3 - both
       description: > 
         Online yoga class.
-    - title: "Virtual coffee break"
-      dateStart: 2020-05-27T15:30:00-04:00
-      dateEnd:   2020-05-27T15:45:00-04:00
-      linktosession:
-      topic: 3 # 1 = computer science, 2 = neuroscience, 3 - both
-      description: > 
-        Informal chit chat
+    # - title: "Virtual coffee break"
+    #   dateStart: 2020-05-27T15:30:00-04:00
+    #   dateEnd:   2020-05-27T15:45:00-04:00
+    #   linktosession:
+    #   topic: 3 # 1 = computer science, 2 = neuroscience, 3 - both
+    #   description: > 
+    #     Informal chit chat
     - title: "Free hacking"
       dateStart: 2020-05-27T15:45:00-04:00
       dateEnd:   2020-05-27T17:00:00-04:00
@@ -952,13 +952,13 @@ schedule:
         How to package your code
       instructors:
         - Valerie Hayot-Sasson
-    - title: "Virtual coffee break"
-      dateStart: 2020-05-28T10:00:00-04:00
-      dateEnd:   2020-05-28T10:15:00-04:00
-      linktosession:
-      topic: 3 # 1 = computer science, 2 = neuroscience, 3 - both
-      description: > 
-        Informal chit chat
+    # - title: "Virtual coffee break"
+    #   dateStart: 2020-05-28T10:00:00-04:00
+    #   dateEnd:   2020-05-28T10:15:00-04:00
+    #   linktosession:
+    #   topic: 3 # 1 = computer science, 2 = neuroscience, 3 - both
+    #   description: > 
+    #     Informal chit chat
     - title: "Free hacking"
       dateStart: 2020-05-28T10:15:00-04:00
       dateEnd:   2020-05-28T12:00:00-04:00
@@ -979,13 +979,13 @@ schedule:
       linktosession:
       description: One-on-one meeting with your assigned instructor (group B) and clinic with fellow participants (group A)
       topic: 3 # 1 = computer science, 2 = neuroscience, 3 - both, 4 = random
-    - title: "Virtual coffee break"
-      dateStart: 2020-05-28T15:00:00-04:00
-      dateEnd:   2020-05-28T15:15:00-04:00
-      linktosession:
-      topic: 3 # 1 = computer science, 2 = neuroscience, 3 - both
-      description: > 
-        Informal chit chat
+    # - title: "Virtual coffee break"
+    #   dateStart: 2020-05-28T15:00:00-04:00
+    #   dateEnd:   2020-05-28T15:15:00-04:00
+    #   linktosession:
+    #   topic: 3 # 1 = computer science, 2 = neuroscience, 3 - both
+    #   description: > 
+    #     Informal chit chat
     - title: "Free hacking"
       dateStart: 2020-05-28T15:15:00-04:00
       dateEnd:   2020-05-28T18:00:00-04:00
@@ -1004,17 +1004,17 @@ schedule:
   ################################
   - date: 2020-05-29
     sessions:
-    - title: "Virtual coffee break"
-      dateStart: 2020-05-29T10:00:00-04:00
-      dateEnd:   2020-05-29T10:15:00-04:00
-      linktosession:
-      topic: 3 # 1 = computer science, 2 = neuroscience, 3 - both
-      description: > 
-        Informal chit chat
+    # - title: "Virtual coffee break"
+    #   dateStart: 2020-05-29T10:00:00-04:00
+    #   dateEnd:   2020-05-29T10:15:00-04:00
+    #   linktosession:
+    #   topic: 3 # 1 = computer science, 2 = neuroscience, 3 - both
+    #   description: > 
+    #     Informal chit chat
     - title: "Yoga"
       dateStart: 2020-05-29T10:30:00-04:00
       dateEnd:   2020-05-29T11:00:00-04:00
-      linktosession:
+      linktosession: https://zoom.us/j/93696320633
       topic: 3 # 1 = computer science, 2 = neuroscience, 3 - both
       description: > 
         Online yoga class.
@@ -1039,13 +1039,13 @@ schedule:
       description: One-on-one meeting with your assigned instructor (group B) and clinic with fellow participants (group A)
       topic: 3 # 1 = computer science, 2 = neuroscience, 3 - both, 4 = random
  
-    - title: "Virtual coffee break"
-      dateStart: 2020-05-29T15:00:00-04:00
-      dateEnd:   2020-05-29T15:15:00-04:00
-      linktosession:
-      topic: 3 # 1 = computer science, 2 = neuroscience, 3 - both
-      description: > 
-        Informal chit chat
+    # - title: "Virtual coffee break"
+    #   dateStart: 2020-05-29T15:00:00-04:00
+    #   dateEnd:   2020-05-29T15:15:00-04:00
+    #   linktosession:
+    #   topic: 3 # 1 = computer science, 2 = neuroscience, 3 - both
+    #   description: > 
+    #     Informal chit chat
     - title: "Free hacking"
       dateStart: 2020-05-29T15:15:00-04:00
       dateEnd:   2020-05-29T17:00:00-04:00
@@ -1070,3 +1070,26 @@ schedule:
       instructors:
         - Jane Doe
         - John Doe
+  ################################
+  ########### Tuesday ############
+  ################################      
+  - date: 2020-06-02 
+    - title: "Yoga"
+      dateStart: 2020-06-02T10:30:00-04:00
+      dateEnd:   2020-06-02T11:00:00-04:00
+      linktosession: https://zoom.us/j/97555940104
+      topic: 3 # 1 = computer science, 2 = neuroscience, 3 - both
+      description: > 
+        Online yoga class.
+
+  ################################
+  ########### Thursday ###########
+  ################################      
+  - date: 2020-06-04 
+    - title: "Yoga"
+      dateStart: 2020-06-04T15:00:00-04:00
+      dateEnd:   2020-06-04T15:30:00-04:00
+      linktosession: https://zoom.us/j/97965153977
+      topic: 3 # 1 = computer science, 2 = neuroscience, 3 - both
+      description: > 
+        Online yoga class.
