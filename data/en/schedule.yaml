@@ -1009,13 +1009,22 @@ schedule:
   ################################
   - date: 2020-05-29
     sessions:
-    # - title: "Virtual coffee break"
-    #   dateStart: 2020-05-29T10:00:00-04:00
-    #   dateEnd:   2020-05-29T10:15:00-04:00
-    #   linktosession:
-    #   topic: 3 # 1 = computer science, 2 = neuroscience, 3 - both
-    #   description: > 
-    #     Informal chit chat
+    - title: "Morning talk: Writing Scripts"
+      dateStart: 2020-05-29T09:00:00-04:00
+      dateEnd:   2020-05-29T10:00:00-04:00
+      linktosession:
+      topic: 1 # 1 = computer science, 2 = neuroscience, 3 - both
+      description: > 
+        How to write scripts
+      instructors:
+        - Greg Kiar
+    - title: "Virtual coffee break"
+      dateStart: 2020-05-29T10:00:00-04:00
+      dateEnd:   2020-05-29T10:15:00-04:00
+      linktosession:
+      topic: 3 # 1 = computer science, 2 = neuroscience, 3 - both
+      description: > 
+        Informal chit chat
     - title: "Yoga"
       dateStart: 2020-05-29T10:30:00-04:00
       dateEnd:   2020-05-29T11:00:00-04:00
