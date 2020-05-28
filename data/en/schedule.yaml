@@ -828,11 +828,14 @@ schedule:
       dateStart: 2020-05-26T09:00:00-04:00
       dateEnd:   2020-05-26T10:00:00-04:00
       linktosession:
+      materials: "[Jupyter Notebook](https://github.com/glatard/containers/blob/master/Containers%20are%20not%20magic.ipynb)"
+      video: "[Video](https://youtu.be/UFE1D8PBK1A?list=PLfqBzCl5BL3-m9BH5qi4u4QzoJBC8Ze72)"
       topic: 3 # 1 = computer science, 2 = neuroscience, 3 - both
       description: > 
         Understanding containers and how to use them
       instructors:
         - Tristan Glatard
+      
     # - title: "Virtual coffee break"
     #   dateStart: 2020-05-26T10:00:00-04:00
     #   dateEnd:   2020-05-26T10:15:00-04:00
@@ -884,6 +887,8 @@ schedule:
       dateStart: 2020-05-27T09:00:00-04:00
       dateEnd:   2020-05-27T10:00:00-04:00
       linktosession:
+      materials: "[Slides](https://docs.google.com/presentation/d/1J0x3ahRCOx7cnyUq_EfueIaFM8-tze0V9rX-ECKJ65k/edit?usp=sharing) & [GitHub repository for the hands-on part](https://github.com/gkiar/intro2testing)"
+      video: "[Video](https://youtu.be/VibDC49ZAJE?list=PLfqBzCl5BL3-m9BH5qi4u4QzoJBC8Ze72)"
       topic: 1 # 1 = computer science, 2 = neuroscience, 3 - both
       description: > 
         Why and how to test your software
