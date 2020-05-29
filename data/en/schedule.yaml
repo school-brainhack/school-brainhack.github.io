@@ -1253,13 +1253,13 @@ schedule:
       linktosession:
       description: One-on-one meeting with your assigned instructor and clinic with fellow participants
       topic: 3 # 1 = computer science, 2 = neuroscience, 3 - both, 4 = random
-    - title: "Free hacking"
+    - title: "Final presentations"
       dateStart: 2020-06-04T15:00:00-04:00
-      dateEnd:   2020-06-04T18:00:00-04:00
+      dateEnd:   2020-06-04T17:00:00-04:00
       linktosession:
       topic: 3 # 1 = computer science, 2 = neuroscience, 3 - both
       description: > 
-        Time to get it done!
+        First session to present your project.
     - title: "Yoga"
       dateStart: 2020-06-04T15:00:00-04:00
       dateEnd:   2020-06-04T15:30:00-04:00
@@ -1272,14 +1272,32 @@ schedule:
   ########### Friday ############
   ################################   
   - date: 2020-06-05
-    sessions:
-    - title: "Detailed schedule will be posted soon"
-      dateStart: 2020-06-05T08:00:00-04:00
-      dateEnd:   2020-06-05T17:00:00-04:00
+      sessions:
+    - title: "Final presentations"
+      dateStart: 2020-06-05T09:00:00-04:00
+      dateEnd:   2020-06-05T10:00:00-04:00
       linktosession:
       topic: 1 # 1 = computer science, 2 = neuroscience, 3 - both
       description: >
         By yourself or in a team, you will present the project you will have worked on.
-      instructors:
-        - Jane Doe
-        - John Doe
+    - title: "Final presentations"
+      dateStart: 2020-06-05T13:00:00-04:00
+      dateEnd:   2020-06-05T14:30:00-04:00
+      linktosession:
+      topic: 1 # 1 = computer science, 2 = neuroscience, 3 - both
+      description: >
+        By yourself or in a team, you will present the project you will have worked on.
+    - title: "Final presentations"
+      dateStart: 2020-06-05T15:00:00-04:00
+      dateEnd:   2020-06-05T16:30:00-04:00
+      linktosession:
+      topic: 1 # 1 = computer science, 2 = neuroscience, 3 - both
+      description: >
+        By yourself or in a team, you will present the project you will have worked on.
+    - title: "Closing ceremony"
+      dateStart: 2020-06-05T16:30:00-04:00
+      dateEnd:   2020-06-05T17:00:00-04:00
+      linktosession:
+      topic: 1 # 1 = computer science, 2 = neuroscience, 3 - both
+      description: >
+        BYOB. And bring your best hat for the group picture!
