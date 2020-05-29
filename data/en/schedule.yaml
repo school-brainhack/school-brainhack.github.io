@@ -1088,8 +1088,8 @@ schedule:
       instructors:
         - Benjamin De Leener
     - title: "Morning talk: TBA"
-      dateStart: 2020-06-02T09:15:00-04:00
-      dateEnd:   2020-06-02T10:00:00-04:00
+      dateStart: 2020-06-01T09:15:00-04:00
+      dateEnd:   2020-06-01T10:00:00-04:00
       linktosession:
       topic: 3 # 1 = computer science, 2 = neuroscience, 3 - both
       description: > 
