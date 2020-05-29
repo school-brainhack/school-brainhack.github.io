@@ -1272,7 +1272,7 @@ schedule:
   ########### Friday ############
   ################################   
   - date: 2020-06-05
-      sessions:
+    sessions:
     - title: "Final presentations"
       dateStart: 2020-06-05T09:00:00-04:00
       dateEnd:   2020-06-05T10:00:00-04:00
