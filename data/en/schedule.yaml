@@ -1081,7 +1081,7 @@ schedule:
     - title: "Introduction to week 4"
       dateStart: 2020-06-01T09:00:00-04:00
       dateEnd:   2020-06-01T09:15:00-04:00
-      linktosession:
+      linktosession: https://zoom.us/j/96692571531
       topic: 3 # 1 = computer science, 2 = neuroscience, 3 - both
       description: > 
         A review of goals, delivrables and schedule for the week
@@ -1090,7 +1090,7 @@ schedule:
     - title: "Morning talk: TBA"
       dateStart: 2020-06-01T09:15:00-04:00
       dateEnd:   2020-06-01T10:00:00-04:00
-      linktosession:
+      linktosession: https://zoom.us/j/96692571531
       topic: 3 # 1 = computer science, 2 = neuroscience, 3 - both
       description: > 
         by Liza Levitis
@@ -1133,7 +1133,7 @@ schedule:
     - title: "Morning talk: Increasing SNR in science communication"
       dateStart: 2020-06-02T09:00:00-04:00
       dateEnd:   2020-06-02T10:00:00-04:00
-      linktosession:
+      linktosession: https://zoom.us/j/96692571531
       topic: 3 # 1 = computer science, 2 = neuroscience, 3 - both
       description: > 
         by Nikola Stikov
@@ -1186,7 +1186,7 @@ schedule:
     - title: "Morning talk: How open source software shaped my academic path"
       dateStart: 2020-06-03T09:00:00-04:00
       dateEnd:   2020-06-03T10:00:00-04:00
-      linktosession:
+      linktosession: https://zoom.us/j/96692571531
       topic: 3 # 1 = computer science, 2 = neuroscience, 3 - both
       description: > 
         by Julia Hunterberg
@@ -1227,7 +1227,7 @@ schedule:
     - title: "Morning talk: Life post-BrainHack"
       dateStart: 2020-06-04T09:00:00-04:00
       dateEnd:   2020-06-04T10:00:00-04:00
-      linktosession:
+      linktosession: https://zoom.us/j/96692571531
       topic: 3 # 1 = computer science, 2 = neuroscience, 3 - both
       description: > 
         by Isabelle Simard
@@ -1240,6 +1240,13 @@ schedule:
       topic: 3 # 1 = computer science, 2 = neuroscience, 3 - both
       description: > 
         Time to get it done!
+    - title: "Yoga"
+      dateStart: 2020-06-04T10:30:00-04:00
+      dateEnd:   2020-06-04T11:00:00-04:00
+      linktosession: https://zoom.us/j/97965153977
+      topic: 3 # 1 = computer science, 2 = neuroscience, 3 - both
+      description: > 
+        Online yoga class.
      ############## LUNCH ################
     - title: "Lunch"
       dateStart:  2020-06-04T12:00:00-04:00
@@ -1260,13 +1267,7 @@ schedule:
       topic: 3 # 1 = computer science, 2 = neuroscience, 3 - both
       description: > 
         First session to present your project.
-    - title: "Yoga"
-      dateStart: 2020-06-04T15:00:00-04:00
-      dateEnd:   2020-06-04T15:30:00-04:00
-      linktosession: https://zoom.us/j/97965153977
-      topic: 3 # 1 = computer science, 2 = neuroscience, 3 - both
-      description: > 
-        Online yoga class.
+
       
   ################################
   ########### Friday ############
