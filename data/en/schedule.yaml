@@ -951,7 +951,8 @@ schedule:
     - title: "Morning talk: Software Packaging"
       dateStart: 2020-05-28T09:00:00-04:00
       dateEnd:   2020-05-28T10:00:00-04:00
-      linktosession:
+      materials: "[Slides](https://docs.google.com/presentation/d/18aMOZBbKEKTHtiZZA5bRPOBwxOVoPLRT1c5FaQZYLQI/edit#slide=id.p)"
+      video: "[Video](https://youtu.be/f2quLtfcQoQ?list=PLfqBzCl5BL3-m9BH5qi4u4QzoJBC8Ze72)"
       topic: 1 # 1 = computer science, 2 = neuroscience, 3 - both
       description: > 
         How to package your code
@@ -1009,10 +1010,11 @@ schedule:
   ################################
   - date: 2020-05-29
     sessions:
-    - title: "Morning talk: Writing Scripts"
+    - title: "Morning talk: Writing Scripts in Python"
       dateStart: 2020-05-29T09:00:00-04:00
       dateEnd:   2020-05-29T10:00:00-04:00
-      linktosession:
+      materials: "[Slides by Joel Grus](https://docs.google.com/presentation/d/1n2RlMdmv1p25Xy5thJUhkKGvjtV-dkAIsUXP-AL4ffI/edit#slide=id.g362da58057_0_1) / [Jupyter Notebook](https://github.com/gkiar/Biosignal-Emotions-BHS-2020/blob/master/Greg_demo.ipynb)"
+      video: "[Video](https://youtu.be/zpOQENxs1G4?list=PLfqBzCl5BL3-m9BH5qi4u4QzoJBC8Ze72)"
       topic: 1 # 1 = computer science, 2 = neuroscience, 3 - both
       description: > 
         How to write scripts
