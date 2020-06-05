@@ -28,7 +28,7 @@ This document will guide you through the whole Git/Github workflow that you are 
   - [ ] The frontmatter section (header) contains specific parameters and it is really important to follow the format described in the instructions above each line. The frontmatter section is delimited by a `---` at the top and another one at the end of it. 
   - [ ] When you edit the `content` section (below the second `---`), you can edit the markdown as you wish. Feel free to embed video, GIF, images, plots, etc. 
 - [ ] When you are pleased with your report, you can staged your changes after having saved them, commit them, then push them.
-- [ ] You will have to go back on forked github repo to make the pull request. You should see a gree button on the right `Make a pull request`.
+- [ ] You will have to go back on forked github repo to make the pull request. You should see a gree button on the right `Create pull request`. The [documentation provided by GitHub](https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/creating-a-pull-request) is really exhaustive if you have more question.
 - [ ] If you everything was done properly, an instructor will merge your pull request and inform you that you are finally done. If some changes need to be made, the instructor will ask you what should be change on you branch. If that happens, you can commit more changes and it will be automatically linked. Simply tag the instructor who reviewed your pull request and you should be finally done :tada:.
 
 Congrats!!
