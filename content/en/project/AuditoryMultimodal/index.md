@@ -1,31 +1,32 @@
 ---
 type: "project" # DON'T TOUCH THIS ! :)
-date: "2020-05-16" # Date you first upload your project.
+date: "2020-06-11" # Date you first upload your project.
 # Title of your project (we like creative title)
-title: "This is an example project page which serves as a template"
+title: "Combine EEG/MRI/Behavioral data-sets to learn more about Music/Auditory system"
 
 # List the names of the collaborators within the [ ]. If alone, simple put your name within []
-names: [Samuel Guay, Pierre Bellec]
+names: [Marcel Farres Franch]
 
 # Your project GitHub repository URL
-github_repo: https://github.com/brainhack-school2020/project_template
+github_repo: https://github.com/brainhack-school2020/BHS-AuditoryMultimodal
 
 # If you are working on a project that has website, indicate the full url including "https://" below or leave it empty.
 website:
 
 # List +- 4 keywords that best describe your project within []. Note that the project summary also involves a number of key words. Those are listed on top of the [github repository](https://github.com/brainhack-school2020/project_template), click `manage topics`.
 # Please only lowercase letters
-tags: [project, github, markdown, brainhack]
+tags: [EEG, fMRI, music, auditory-perception, preprocessing, fmriprep]
 
 # Summarize your project in < ~75 words. This description will appear at the top of your page and on the list page with other projects..
 
-summary: "Each project repository should have a markdown file explaining the background and objectives of the project, as well as a summary of the results, and links to the different deliverables of the project. Project reports are incorporated in the BHS [website](https://school.brainhackmtl.org/project)."
+summary: "In this project I aim to combine data from different modalities (fMRI, EEG, and behavioral) to understand more about sound and music processing. My main focus in this project was to try to reproduce some of the results from a published paper starting form raw data."
 
 # If you want to add a cover image (listpage and image in the right), add it to your directory and indicate the name
 # below with the extension.
-image: "bhs2020.png"
+image: "https://imgs.xkcd.com/comics/data_pipeline.png"
 ---
 <!-- This is an html comment and this won't appear in the rendered page. You are now editing the "content" area, the core of your description. Everything that you can do in markdown is allowed below. We added a couple of comments to guide your through documenting your progress. -->
+
 # Combine EEG/MRI/Behavioral data-sets to learn more about Music/Auditory system
 
 ![SEff](https://imgs.xkcd.com/comics/selection_effect.png)
@@ -68,6 +69,7 @@ I have good experience analyzing highly process data... but how you get there?
 * Implement other people analysis and reproduce results
 
 (but it is a 2 and a half week project...)
+
 ![Estimating Time](https://imgs.xkcd.com/comics/estimating_time.png)
 
 ### Tools
@@ -355,9 +357,9 @@ I was a little frustrated with the process, making me realize how important is r
 
 At the end of this project, we have:
 
-* Scripts to download the dataset ([HERE](https://github.com/brainhack-school2020/BHS-AuditoryMultimodal/blob/master//scripts/download-for-test.sh) and [HERE](https://github.com/brainhack-school2020/BHS-AuditoryMultimodal/blob/master//scripts/download-for-all.sh)).
+* Scripts to download the dataset ([HERE](https://github.com/brainhack-school2020/BHS-AuditoryMultimodal/blob/master/scripts/download-for-test.sh) and [HERE](https://github.com/brainhack-school2020/BHS-AuditoryMultimodal/blob/master/scripts/download-for-all.sh)).
 
-* Scrips to pre-process the data using fmriprep in a cluster ([HERE](https://github.com/brainhack-school2020/BHS-AuditoryMultimodal/blob/master//scripts/run-fmriprep-test.sh) and [HERE](https://github.com/brainhack-school2020/BHS-AuditoryMultimodal/blob/master//scripts/run-fmriprep-all.sh)).
+* Scrips to pre-process the data using fmriprep in a cluster ([HERE](https://github.com/brainhack-school2020/BHS-AuditoryMultimodal/blob/master/scripts/run-fmriprep-test.sh) and [HERE](https://github.com/brainhack-school2020/BHS-AuditoryMultimodal/blob/master/scripts/run-fmriprep-all.sh)).
 
 * fmriprep report on the pre-processing ([HERE](http://htmlpreview.github.io/?https://github.com/brainhack-school2020/BHS-AuditoryMultimodal/blob/master/fmri-prep-results/sub-control01.html)).
 
@@ -405,7 +407,26 @@ At the end of this project, we have:
 
 * [x] Create and share conda env.
 
-## Conclusion and acknowledgement
+### Installation instructions
+
+1. Clone the repo to your computer:
+
+    `git clone https://github.com/brainhack-school2020/BHS-AuditoryMultimodal.git`
+
+2. Install fMRI prep using [this instructions](https://fmriprep.readthedocs.io/en/stable/installation.html)
+
+3. Download and preprocess the data using [these scripts](https://github.com/brainhack-school2020/BHS-AuditoryMultimodal/blob/master/scripts/) (you can grab a coffee or two... these may take a while).
+
+4. Create a virtual-env
+    `python3 -m venv bhs-auditory`
+
+5. Install requirements
+    `pip install -r requirements.txt`
+
+6. Open the notebook
+    `jupyter lab BHS_AuditoryMultimodal-ds000171.ipynb`
+
+## Conclusion
 
 After the multiple problems I found trying to process the data, reproduce the analyses, and limitations imposed by the missing of information form the dataset I am more aware of what I will need to do to efficiency share my data/analyses in the near future.
 
