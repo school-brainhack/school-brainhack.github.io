@@ -23,7 +23,7 @@ summary: "In this project I aim to combine data from different modalities (fMRI,
 
 # If you want to add a cover image (listpage and image in the right), add it to your directory and indicate the name
 # below with the extension.
-image: "https://imgs.xkcd.com/comics/data_pipeline.png"
+image: "data_pipeline.png"
 ---
 <!-- This is an html comment and this won't appear in the rendered page. You are now editing the "content" area, the core of your description. Everything that you can do in markdown is allowed below. We added a couple of comments to guide your through documenting your progress. -->
 
@@ -109,7 +109,7 @@ Next there is a list of interesting datasets I found, which I choose 2 to work d
   I was particularly interested in the first 20 subjects that perform a music task (Listening to music (7T fMRI, cardiac & respiratory trace).
 
   I wanted to replicate the analyisis and findings of [this paper](https://f1000research.com/articles/4-174/v1).
-  
+
   | N      | Type      | Tasks    | Comments |
   |--------|-----------|----------|----------|
   | 37     |     bold, T1w, T2w, angio, dwi, fieldmap      |   Forrest Gump, objectcategories, movielocalizer, retmapccw, retmapcon, retmapexp, movie, retmapclw, coverage, orientation, auditory perception        |    Maybe the most promising example     |
@@ -151,7 +151,7 @@ Next there is a list of interesting datasets I found, which I choose 2 to work d
   | N      | Type      | Tasks | Comments |
   |--------|-----------|----------|----------|
   |  66   |    T1w, T2w, dwi, bold, fieldmap       |    Rest     |   Interesting to study resting state, good number of subjects     |
-  
+
   <https://openneuro.org/datasets/ds002330/versions/1.1.0>
 
 * Functional Connectivity of Music-Induced Analgesia in Fibromyalgia
@@ -233,7 +233,7 @@ Next there is a list of interesting datasets I found, which I choose 2 to work d
   <https://openneuro.org/datasets/ds002721/versions/1.0.1>
 
   Possible article:
-  
+
   * <https://www.sciencedirect.com/science/article/abs/pii/S030439401400367X>
 
 * Sherlock_Merlin waiting bids validator
@@ -346,11 +346,11 @@ I also find some very interesting datsets that I was not able to access directly
 I was a little frustrated with the process, making me realize how important is real Open Data.
 
 * DEAP: A Database for Emotion Analysis Using Physiological Signals:
-  
+
   website: [https://www.eecs.qmul.ac.uk/mmv/datasets/deap/]
 
   paper: [https://www.eecs.qmul.ac.uk/mmv/datasets/deap/doc/tac_special_issue_2011.pdf]
-  
+
   (Not Accessible without explicit permission, which we are missing for no)
 
 ### Deliverables
