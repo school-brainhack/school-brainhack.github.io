@@ -36,7 +36,7 @@ JR Bee Illustration
 I am a currently doing my master's in computer science at UdeM in the bioinformatics stream. I haven't locked down my thesis project yet but it will involve the impact of rare genetic variants on functional connectivity. I did my undergrad in math and have a pretty good basis in coding in python and machine learning, but I am totally new to neuroscience and very excited about brainhack school.
 
 #### Project
-I worked on this project with Liz Izakson. We're interested in variation in human brains and am curious about neuropsychiatric disorders as extremes of characterestics that are found in the overall population. To explore this idea, we want to look at the human connectome project dataset of 1200 healthy young adults that includes resting state fMRI and personality/behaviour data. Specifically, I want to try and predict neuroticism, one of the big five personality traits that is associated with [psychosis](https://www.frontiersin.org/articles/10.3389/fpsyt.2018.00648/full) and [mental disorders](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4382368/), from fMRI to see if:
+I worked on this project with Liz Izakson. We're interested in variation in human brains and am curious about neuropsychiatric disorders as extremes of characterestics that are found in the overall population. To explore this idea, we want to look at the human connectome project dataset of 1200 healthy young adults that includes resting state fMRI and personality/behaviour data. Specifically, we want to try and predict neuroticism, one of the big five personality traits that is associated with [psychosis](https://www.frontiersin.org/articles/10.3389/fpsyt.2018.00648/full) and [mental disorders](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4382368/), from fMRI to see if:
 1. If there are significant/consistent connnectivity patterns for neuroticism in fMRI data.
 2. If so, how do they compare to findings about schizophrenia/anxiety/depression/ADHD in the literature.
 
@@ -49,7 +49,7 @@ We plan on using the following tools:
  * Data visualization
  
 ## Learning Goals
-Annabelle - I especially want to use brainhack school to learn to work with fMRI data, explore different parcellation methods and ways to produce features from connectivity matrices. I also want to learn to use compute canada servers, and to improve and explore my coding skills and to learn tools for open science and reproducibility.
+I especially want to use brainhack school to learn to work with fMRI data, explore different parcellation methods and ways to produce features from connectivity matrices. I also want to learn to use compute canada servers, and to improve and explore my coding skills and to learn tools for open science and reproducibility.
 
 ### Data
 We will use the HCP 1200 healthy young adult dataset.
