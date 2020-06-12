@@ -49,10 +49,10 @@ Psychological stress has been found to be associated with changes in certain bio
 
 Tools and techniques we used:
  1.	Bash and Python <img src="bash.png" alt="Bash" width="40"/> <img src="python.png" alt="Python" width="40"/> 
- 2. 	Git and GitHub <img src="git.png" alt="GitHub" width="50"/>
+ 2. Git and GitHub <img src="git.png" alt="GitHub" width="50"/>
  3.	Preprocessing and feature extraction with Scipy and Neurokit <img src="scipy.png" alt="Scipy" width="40"/> <img src="neurokit.png" alt="NeuroKit" width="40"/>
  4.	Data visualization with Plotly <img src="plotly.png" alt="Plotly" width="50"/>
- 5. 	Machine learning with Scikit-learn <img src="scikitlearn.png" alt="Scikit-learn" width="50"/>
+ 5. Machine learning with Scikit-learn <img src="scikitlearn.png" alt="Scikit-learn" width="50"/>
 
 ### Data 
 
@@ -75,7 +75,9 @@ Ultimately, we decided to use the [DREAMER](https://ieeexplore.ieee.org/document
 
 The dataset contains EEG and ECG data from 23 participants were shown 18 videos intended to elicit 9 different emotions - as well as "neutral videos" thought to have no valence for "baseline" data. Biosignal data was collected using the Emotiv EPOC wireless EEG headset and the Shimmer2 ECG sensor. We were especially interested in how accurately we could classify emotions using biosignal data collected by portable, inexpensive devices due to the potential of automatic emotion recognition incorporated into wearables. An image of the equipment is shown below [(from Katsigiannis & Ramzan, 2018)](https://ieeexplore.ieee.org/document/7887697).
 
-<img src="hardware.png" alt="DREAMER_hardware" width="100"/>
+<p align="center">
+ <img src="hardware.png" alt="DREAMER_hardware" width="500"/></center>
+</p>
 
 More information on how the data were collected can be found in the PDF [DREAMER_info](https://github.com/brainhack-school2020/Biosignal-Emotions-BHS-2020/blob/master/docs/DREAMER_info.pdf)  (downloaded from [Zenodo](https://zenodo.org/record/546113)) or in the paper by [Katsigiannis and Ramzan (2018)](https://ieeexplore.ieee.org/document/7887697).
 
@@ -146,15 +148,21 @@ I selected a number of classifiers [based on a script from the sci-kit learn doc
 * Interactive Figure: ["Participant Ratings of Film Clips in Valence-Arousal Space](https://brainhack-school2020.github.io/Biosignal-Emotions-BHS-2020/)
   * Bonus: [a jupyter notebook generating this figure...](https://github.com/brainhack-school2020/Biosignal-Emotions-BHS-2020/blob/master/Deliverables/Week3_Emot_Plot_Danielle.ipynb) written while using a [linter](https://pypi.org/project/pycodestyle/), which I know about thanks to [Greg's talk on scripting](https://www.youtube.com/watch?v=zpOQENxs1G4)! [![Binder](https://mybinder.org/badge_logo.svg)](https://gesis.mybinder.org/binder/v2/gh/brainhack-school2020/Biosignal-Emotions-BHS-2020/85279820daf948d114d780e39d609c4f704f8cb1?filepath=Deliverables%2FWeek3_Emot_Plot_Danielle.ipynb)
 
-<iframe src="https://brainhack-school2020.github.io/Biosignal-Emotions-BHS-2020/" width="100%" height="500px"></iframe>
+<p align="center">
+ <iframe src="https://brainhack-school2020.github.io/Biosignal-Emotions-BHS-2020/" width="100%" height="500px"></iframe>
+</p>
 
 * Interactive Figure: ["Group 10-Fold Cross Validation with DREAMER data"](https://brainhack-school2020.github.io/Biosignal-Emotions-BHS-2020/DREAMER_group_cross_validation.html)
 
-<iframe src="https://brainhack-school2020.github.io/Biosignal-Emotions-BHS-2020/DREAMER_group_cross_validation.html" width="100%" height="500px"></iframe>
+<p align="center">
+ <iframe src="https://brainhack-school2020.github.io/Biosignal-Emotions-BHS-2020/DREAMER_group_cross_validation.html" width="100%" height="500px"></iframe>
+</p>
 
 * Interactive Figure: ["Score vs. Prediction Runtime for all CV Iterations and Classifiers"](https://brainhack-school2020.github.io/Biosignal-Emotions-BHS-2020/classifier_comparison.html)
 
-<iframe src="https://brainhack-school2020.github.io/Biosignal-Emotions-BHS-2020/classifier_comparison.html" width="100%" height="500px"></iframe>
+<p align="center">
+ <iframe src="https://brainhack-school2020.github.io/Biosignal-Emotions-BHS-2020/classifier_comparison.html" width="100%" height="500px"></iframe>
+</p>
 
 ##### Achraf's Week 3 deliverables
 * [A Jupyter Notebook generating static and interactive visuals (ipynb)](https://github.com/brainhack-school2020/Biosignal-Emotions-BHS-2020/blob/master/Deliverables/DREAMER_Achraf.ipynb) and the corresponding [HTML version](https://github.com/brainhack-school2020/Biosignal-Emotions-BHS-2020/blob/master/Deliverables/DREAMER_Achraf.html)
