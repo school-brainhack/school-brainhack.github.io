@@ -28,17 +28,22 @@ image: "Brain_decoding.jpg"
 ---
 <!-- This is an html comment and this won't appear in the rendered page. You are now editing the "content" area, the core of your description. Everything that you can do in markdown is allowed below. We added a couple of comments to guide your through documenting your progress. -->
 
+# Intro to brain decoding, artificial neural network, and classification of Haxby dataset using six different common approaches
+<div align="center">
+<img src="Brain_decoding.jpg" width="825" height="452" allowfullscreen> 
+</div>
+
 ## Project definition
 
 ### Background
+I have B.S in computer software engineering and currently I am a Master’s student in computer science at Université de Montréal (Jan. 2020). Since I am still in the early steps of my master’s project, my main goal was to learn as much as possible and making use of several tools that we have learned during BHS training courses.
 
-I am currently a Master’s student in computer science at Université de Montréal. Since I am still in the early steps of my master’s project, my main goal was to learn as much as possible and making use of several tools that we have learned during BHS training courses. For this purpose, I ran and compare the results of the six common classifiers on the Haxby dataset. During the classification stage, I was trying to find the best results for each approach by examining different parameters. As an example, for Neural Networks classifier, my accuracy result increased significantly when I changed some parameters (it is indicated in the Classifiers.ipynb). 
-This change of accuracy made me curious about training ANN on
-the Haxby dataset to examine its performance and learn better about this method, that wasn't my plan at the beginning. Moreover, to make the notebook reproducible and easy to follow for those who don't have a background of machine learning (similar to me before Brainhack school!), I have added a full description of each cell and a quick overview of each classifier's theory.
+### Brain_decoding overview
+Brain decoding or mind-reading using neuroimaging data has been an active topic for years. It is a neuroscience field that concerned about different types of stimuli from information that has already been encoded and represented in the brain by networks of neurons. In the human brain, the functional architecture of the object vision pathway can be investigated using fMRI. It can be done by considering the patterns of response in the ventral temporal cortex while subjects are looking at the different objects. Several studies indicate that the brain responses to the vision of each category of objects are widely distributed and overlapping. Therefore, a distinct pattern of response exists for each stimulus category in the ventral temporal cortex.
 
-<div align="center">
-<img src="Brain_decoding.jpg" width="687" height="376" allowfullscreen> 
-</div>
+### Project
+For BHS project, I ran and compared the results of the six common classifiers ("Naive Bayes", "Nearest Neighbours", "Neural Networks", "Logistic Regression", "Support vector machine" and "Decision trees" classifiers) on the Haxby dataset. During the classification stage, I was trying to find the best results for each approach by examining different parameters. As an example, for Neural Networks classifier, my accuracy result increased significantly when I changed some parameters (it is indicated in the Classifiers.ipynb). 
+This change of accuracy made me curious about training ANN on Haxby dataset to examine its performance and learn better about this method, that wasn't my plan at the beginning. Moreover, to make the notebook reproducible and easy to follow for those who don't have a background of machine learning (similar to me before Brainhack school!), I have added a full description of each cell and a quick overview of each classifier's theory.
 
 
 ### Tools
@@ -51,35 +56,42 @@ the Haxby dataset to examine its performance and learn better about this method,
 ### Data
 For BHS project I used Haxby dataset which is a high-quality block-design fMRI dataset from a study on face & object representation in the human ventral temporal cortex (This cortex is involved in the high-level visual processing of complex stimuli). It consists of 6 subjects with 12 runs per subject. In this experiment during each run, the subjects passively viewed greyscale images of 8 object categories, grouped in 24s blocks separated by rest periods. Each image was shown for 500ms and was followed by a 1500ms inter-stimulus interval.
 
+### Progress overview
+
+Week 1: During BHS training week I was trying to use the tools that we learned by practicing and following different tutorials. I started using my local environments and Github by examining different files an notebooks.
+
+Week 2: The second week I started to run some brain decoding scripts and pushed them on my repository, mostly by following Nilearn and sklearn tutorials. I tried to explore how they work by experimenting and personalizing them.
+
+Week 3: From the third week I started to write my own codes for several classification methods on the Haxby dataset. For me, this approach was challenging not only for writing the scripts but also for understanding the classifiers algorithms and work follows. Since I am new in this field and have never had a machine learning course before. I had to read several references to figure out these approaches also their strengths and weaknesses to understand why some classifiers return better results on certain datasets compared to the rest. Moreover, I uploaded and ran one of my scripts on Compute Canada.
+
+Week 4: During the fourth week I executed some performance metrics such as "Classification Accuracy”, "Cross-Validation" and “Confusion Matrix” in order to check my different ML models results. I also added documentation to make my notebook reproducible and easy to follow for those who are new in this field and plotted the results interactively. 
+After doing all the above tasks, I tried my first model training experiment and as I mentioned above I chose ANN. (I still need to improve this notebook)
+
+I have wrote down all my goals divided per week in my repository README file under "TO-DO LIST " title.
+
 ## Results
+The following figure demonstrates the confusion matrix of all the six classifiers
 <div align="center">
 <img src="Confusion_matrices.jpg" width="687" height="376"> 
 </div>
 
+As depicted in the following image the support vector machine classification has the best performance while the decision tree returned the worst accuracy, which is understandable considering the classifiers algorithms and the nature of the data.
 <div align="center">
 <img src="clfs.jpg" width="584" height="362"> 
 </div>
 
-### Progress overview
-When I started this course I had almost no background of machine learning and deep learning also no personal experience about using Git/Github and compute Canada. During the first two weeks, I was trying to digest the information that I was given during BHS training week also practicing and learning by following different tutorials.
-From third week I started to run the codes and push them on my repository, mostly by following Nilearn and sklearn tutorials, also I experimented and personalized them.
-During the last two weeks, I tried to write my own codes by doing several classification approaches on the Haxby dataset. This goals for me needed a lot of reading to learn about classifiers algorithms and the way they work also their strengths and weaknesses to figure out why some classifiers perform better compared to the rest. In addition, I used some performance metrics in order to check my ML models such as "Classification Accuracy”, "Cross-Validation" and “Confusion Matrix”. In the end,  I added documentation to make my notebook easy to follow for those who are new in this field and plotted the results interactively. 
-After doing all the mentioned tasks, I tried my first model training experiment and as I mentioned above I chose ANN. (I still need to work on this notebook since it dosen't return the good result)
-
-Besides, I have wrote down all my goals divided per week in my repository README file under "TO-DO LIST " title.
 
 ### Tools I learned during this project
 
  * **Git/Github** 
- * **Terminal and Shell commands:** I feel more comfortable using commands.
- * **Compute Canada/Calcul Quebec** I learned how to upload files and run scripts on compute Canada.
- * **TensorFlow** I got exposed to TensorFlow but still need to learn more.
+ * **Terminal and Shell commands** 
+ * **Compute Canada/Calcul Quebec** 
+ * **TensorFlow** 
  * **New python libraries**
  * **Binder**
+ * **Nilearn**
  
 In general, this course taught me how to make a deliverable project based on open-science.
-
-### Results
 
 ### Deliverables
 
@@ -93,7 +105,7 @@ In general, this course taught me how to make a deliverable project based on ope
 * Final report summarizing the entire project
 
 
-##### Future plan
+### Future plan
 My future goal post brain hack school would be increasing my knowledge of machine learning and deeplearning and training and learning about different models including GCN!
 
 ## Special thanks to:
