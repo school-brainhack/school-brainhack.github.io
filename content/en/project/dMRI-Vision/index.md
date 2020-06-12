@@ -36,8 +36,6 @@ image: "connectome_glassbrain.png"
 
 <img src="bhs2020.png" width="70%">
 
-[![](https://img.shields.io/badge/Visit-our%20project%20page-ff69b4)](https://school.brainhackmtl.org/project/template)
-
 ## Summary 
 
 Hello! I'm currently a PhD student in Cognitive Neuroscience at l'Université de Montréal. My main focus is to study cortical visual impairment using MRI techniques. Damage to the primary visual areas can result in clinical blindness and prompt a cascade of dynamical structural and functional alterations of the neural networks at both the cortical and subcortical level. Following this damage, individuals can sometimes preserve the ability to non-consciously process visual information in their blind field, a striking phenomenon know as blindsight. My fascination resides in understanding how the brain can process visual information without conscious awareness.
@@ -142,7 +140,7 @@ For the course:
 This project was initiated by Michèle MacLean May 19th 2020 as part of the BrainHack Summer School 2020. 
 Organization of MRI data into BIDS format, preprocessing and basic tracking of the data is complete as well as data visualization for the deliverable for week 3. See the methods section for a detailed description. This will be an ongoing project that I will continue to work on after BrainHack Summer School. Feedback is welcome!
 
-#### Tools I learned during this project
+#### Tools and skills I learned during this project
 * **Bash terminal**
 * **GitHub**
 * **Markdown**
@@ -153,6 +151,11 @@ Organization of MRI data into BIDS format, preprocessing and basic tracking of t
 * **DIPY** for preprocessing and basic tracking of diffusion MRI
 * **Jupyter Notebook** 
 * Interactive figures in Jupyter Notebook using **data visualization libraries**: Nilearn, plotly & matplotlib, etc.
+* **Preprocessing diffusion MRI data**
+* **Tracking diffusion MRI data**
+* **Mapping connectomes**
+
+
 ![](tools.png)
 
 
