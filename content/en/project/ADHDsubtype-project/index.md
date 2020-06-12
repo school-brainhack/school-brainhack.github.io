@@ -32,8 +32,6 @@ image: "eeg_generaltopo.PNG"
 
 Attention deficit/hyperactivity disorder (ADHD) is one of the most common neurodevelopmental disorders among children and adolescents ([Volkow, 2016](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4827421/)). It manifests itself through a variety of cognitive and behavioral symptoms, such as (but not limited to) hyperactivity, lack attention, impulsivity, lack of inhibition and diminished working memory ([Wilens, 2010](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3724232/)). Long-term follow-up studies revealed that in 40 to 60% of children with ADHD, the disorder persists into adulthood ([American Psychiatric Association, 2012](https://psycnet.apa.org/fulltext/2011-28648-001.html); [Hechtman, L., 1999](https://onlinelibrary.wiley.com/doi/10.1002/(SICI)1098-2779(1999)5:3%3C243::AID-MRDD11%3E3.0.CO;2-D); [Klein, RG et al. 2012](https://pubmed.ncbi.nlm.nih.gov/23070149/)). Subtype classification of ADHD has not reach consensus whithin the litterature and research on the correlates of ADHD subtypes show incoherent findings. The most common grouping of adhd subtypes (which is also the DSM categorization) are (1) inattentive, (2) impulsive/Hyperactive and (3) mixed. Those subtypes are for the majority based on criteria derived from behavioral and-self-report data and lack of neurophysiological assessment is prominent([Hegerl et al. 2016](https://pubmed.ncbi.nlm.nih.gov/27178310/); [Olbrich, Dinteren & Arns, 2015](https://pubmed.ncbi.nlm.nih.gov/26901357/)).
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/PTYs_JFKsHI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
 ### Project definition
 
 This project will aim to investigate the prediction potential of subtypes of ADHD between different types of measurements, those being behavioral measures, self-reporting measures and electrophysiological (EEG) data. More specifically, Principal components analysis (PCA) will be applied in order to achieve dimension reduction and k-nearest neighbor clustering will be used to predict the DSM ADHD subtypes according to each data type. An investigation of the predictive capacity of our 3 data types will be made, as well as observations about the potential prediction of gender using our dataset. For eeg data, an supplementary investigation will be conducted to compare prediction potential of ADHD subtypes according to electrode pools (paired according to brain regions) for brain oscillations of interest (measuring sepctral power). 
@@ -75,6 +73,14 @@ At the end of this project, we will have:
  - Complete published repository access to all commits and changes of our projects
  - An interactive platform to present the different data and analysis
 
+### Progress overview
+
+* As of may 26 2020; the data has been preprocessed and organized into pandas dataframes. 
+* As of may 29 2020; the jupyter notebook for data visualization is well advanced; and we are working on our SNF.
+* As of june 1st; we decided to let go of our SNF analysis and concentrate our efforts on clustering, PCA and visualization,    as it seems far more appropriate to our data.
+* As of june 8th; we have completed our data analysis and data visualization, what is left to do before final submission is some reorganisation of our repository and simplification of our code.
+
+
 ## Results
 
 We were interested in sex differences and ADHD subtype differences, so we started by plotting their scalp distribution. White electrodes indicate the significant differences (computed via Mann-Whitney non parametric test and corrected with Bonferroni).
@@ -104,16 +110,10 @@ Finally, we also tried predicting sex according to Eeg distribution. This classi
 
 ![KNN results for the prediction of sex based on eeg data ](sex_classif.PNG)
 
-Here is the confusion matrix for the classification of sex (using PCA):
+Here's an example of a confusion matrix output, in this case for the classification of sex (using PCA):
 
 ![Confusion matrice](confusion_matrix_example.PNG)
 
-### Progress overview
-
-* As of may 26 2020; the data has been preprocessed and organized into pandas dataframes. 
-* As of may 29 2020; the jupyter notebook for data visualization is well advanced; and we are working on our SNF.
-* As of june 1st; we decided to let go of our SNF analysis and concentrate our efforts on clustering, PCA and visualization,    as it seems far more appropriate to our data.
-* As of june 8th; we have completed our data analysis and data visualization, what is left to do before final submission is some reorganisation of our repository and simplification of our code.
 
 ### Tools used during this project
 
@@ -133,7 +133,7 @@ This [deliverable](https://github.com/brainhack-school2020/SNF_ADHDsubtypes_proj
 
 Please make sure to see the [requirements_week3deliverable.txt](https://github.com/brainhack-school2020/SNF_ADHDsubtypes_project/blob/master/requirements_week3deliverable.txt), to pull [Data](https://github.com/brainhack-school2020/SNF_ADHDsubtypes_project/tree/master/Data) file (with all the necessary files) and follow instruction in the notebook (linked). The excel_files folder has to be moved from the Data folder to the same directory as the notebook, in order for the path to stay the same. 
 
-#### Final deliverables
+### Final deliverables
 
 * [main_analyses.ipynb](https://github.com/brainhack-school2020/ADHDsubtypes_project/blob/master/main_analyses.ipynb): jupyter notebook of all data wrangling, some interactive data visualization, and complete PCAs, KNN analyses (with comparisons of KNN without PCAs) on all 3 types of data
 * [Viz.ipynb](https://github.com/brainhack-school2020/ADHDsubtypes_project/blob/master/Viz.ipynb) : jupyter notebook of all the visualisation and descriptive stats made for all 3 datasets  
@@ -142,11 +142,11 @@ Please make sure to see the [requirements_week3deliverable.txt](https://github.c
 * [requirement.txt](https://github.com/brainhack-school2020/ADHDsubtypes_project/blob/master/requirement.txt) : libraries required for this project
 
 
-## Conclusion and acknowledgement
+### Conclusion and acknowledgement
 
 We would like to thank greatly the entire Brainhack school team for the initiative and amazing learning experience ! Another big thanks to the intructors for their patience and wise suggestions!
 
-## References
+### References
 
 1. [Galarnyk, M. (2017, December 4th). PCA using Python (scikit-learn). Retrieved from https://towardsdatascience.com/pca-using-python-scikit-learn-e653f8989e60](https://towardsdatascience.com/pca-using-python-scikit-learn-e653f8989e60)
 2. [Harel, Y. (2020, May 25). hytools. Retrieved from  https://github.com/hyruuk/hytools/tree/master/hytools](https://github.com/hyruuk/hytools/tree/master/hytools)
