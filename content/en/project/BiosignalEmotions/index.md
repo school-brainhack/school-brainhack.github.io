@@ -27,7 +27,7 @@ image: "bhs2020.png"
 ---
 <!-- This is an html comment and this won't appear in the rendered page. You are now editing the "content" area, the core of your description. Everything that you can do in markdown is allowed below. We added a couple of comments to guide your through documenting your progress. -->
 
-![width=75px](brain_emotions.jpg)
+<img src="free_brain_emotions.png" alt="Brain_emojis" width="100"/> 
 
 ## Project definition 
 
