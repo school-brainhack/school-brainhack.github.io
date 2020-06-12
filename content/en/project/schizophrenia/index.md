@@ -19,7 +19,7 @@ tags: [brainhack, sklearn, fmri]
 
 # Summarize your project in < ~75 words. This description will appear at the top of your page and on the list page with other projects..
 
-summary: "Each project repository should have a markdown file explaining the background and objectives of the project, as well as a summary of the results, and links to the different deliverables of the project. Project reports are incorporated in the BHS [website](https://school.brainhackmtl.org/project)."
+summary: "Computational Psychiatry is growing trend that applies machine learning methods to psychological disorders. How well can we predict schizophrenia diagnosis from brain activity? This project uses neuroimaging tools from Nilearn, and machine learning tools from scikit-learn to differentiate patients diagnosed with schizophrenia from healthy controls using resting state fmri data."
 
 # If you want to add a cover image (listpage and image in the right), add it to your directory and indicate the name
 # below with the extension.
@@ -27,73 +27,101 @@ image: "alina-grubnyak-brain.jpg"
 ---
 <!-- This is an html comment and this won't appear in the rendered page. You are now editing the "content" area, the core of your description. Everything that you can do in markdown is allowed below. We added a couple of comments to guide your through documenting your progress. -->
 
-## Project definition
+## Project definition 
 
 ### Background
 
-Inspired by the [Recurse Centre](https://www.recurse.com/) initiative (formally known as the "hacker school"), Brainhack School was established in 2018 with the mission to train students from a multidisciplinary backgrounds to a panoply of reproducible tools for neural data science, using a project-based approach. Following an initial 3-weeks long pilot, a 4th week was added with an intensive bootcamp, so that students could choose what tools to learn more deeply in their projects. As the course became integrated in standard curriculum at different universities, the formula seemed to be working. In order to streamline the different stages of the project, some standard template and milestones were needed, which needed to be incorporated in a github-based workflow. The "project template" project (which is also our first BHS meta-project) aims at establishing such a standardized template. You can check the following [video](https://youtu.be/PTYs_JFKsHI) where Pierre Bellec gives an overview of the Brainhack school.
+This project uses machine learning to predict schizophrenia diagnosis using fMRI data.
 
-### Tools
+The data used is a resting state fMRI dataset of schizophrenia patients and healthy controls. The data comes from [The Center for Biomedical Research Excellence (COBRE)](http://fcon_1000.projects.nitrc.org/indi/retro/cobre.html).
 
-The "project template" project will rely on the following technologies:
- * Markdown, to structure the text.
- * The Hugo website framework which is used by the BHS website. This makes it possible to easily add the markdown project description to the website.
- * Adding the project to the website relies on github, through pull requests.
+This project aims to predict schizophrenia diagnosis using resting state data. Machine learning techniques will be used to classify schizophrenia patients from controls. My goal for this project was to gain basic experience with processing/cleaning fMRI data. Following this, I experiment with different machine learning methods (algorithms, cross-validation methods, tuning hyperparamters) and see how they compare.
 
-### Data
 
-Ultimately, the project template will be used by all BHS participants. Data on the different projects will be aggregareted on the [following page](https://school.brainhackmtl.org/project). This will serve as an additional example gallery in the years to come for future brainhack school students. Many reports from [BHS 2019](https://github.com/mtl-brainhack-school-2019) already used this template.
+
+### Tools 
+
+The project will rely on the following technologies: 
+ * This README is built using [Markdown](https://guides.github.com/features/mastering-markdown/), to structure the text.
+ * Processing of fMRI data is done with `nilearn` and the machine learning anlayses rely on `scikit-learn`.
+ * `plotly.express` and `ipywidgets` are used to create interactive visualizations.
+ * The main summary and results of the project will live in a [Jupyter Notebook](https://jupyter.org/index.html)
+ * Some interactive visualizations rely on a [Binder](https://jupyter.org/binder) environment.
+ * Updating and version control relies on github, through commits and pull requests.
+
+### Data 
+
+The preprocessed data is publicly available on Nilearn and can be downloaded using `nilearn.datasets.fetch_cobre()` Documentation about the Nilearn data can be found [here](https://nilearn.github.io/modules/generated/nilearn.datasets.fetch_cobre.html#nilearn.datasets.fetch_cobre). (**Note**: The Nilearn implementation of this dataset is deprecated and so access to the data may change or be removed.)
 
 ### Deliverables
 
-At the end of this project, we will have:
- - The current markdown document, completed and revised.
- - A gallery of the student projects at Brainhack 2020.
- - Instructions on the website about how to submit a pull request to the [brainhack school website](https://github.com/BrainhackMTL/school) in order to add the project description to the website.
+Products of this project include:
+ - A complete README summarizing the entire project and its results.
+ - Week 3 Deliverable: 
+     - [Plotly Histogram](http://htmlpreview.github.io/?https://github.com/brainhack-school2020/Alex-A14_Brainhack2020/blob/master/plotly.html) of age
+     - Binder With ipywidgets Correlation Matrices [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/brainhack-school2020/Alex-A14_Brainhack2020/master?filepath=visualization.ipynb)
+ - A [Jupyter notebook](https://github.com/brainhack-school2020/Alex-A14_Brainhack2020/blob/master/analysis.ipynb) that contains all of the relevant code for the project, clearly formatted and commented.
+ - A formatted [html document](http://htmlpreview.github.io/?https://github.com/brainhack-school2020/Alex-A14_Brainhack2020/blob/master/analysis.html) that contains code, descriptions, and visualizations from the project.
 
-## Results
+## Results 
 
-### Progress overview
+### Overview
 
-The project was swiftly initiated by P Bellec, based on the existing template created in 2019 by Tristan Glatard and improved by different students. It was really not that hard. Community feedback is expected to lead to rapid further improvements of this first version.
+The project involved importing and cleaning the demographic data and nifiti files. After this, time series and correlation matrices were generated for each subject. Visualizations of subject demogrpahics and connectivity matrices of patients and controls were generated. Finally, various machine learning models were trained to predict schizophrenia diagnosis and were evaluated using 10-fold cross validation. The performance of the best performing model was then evaluated using a validation set.
 
-### Tools I learned during this project
+### Tools learned in this project:
 
- * **Meta-project** P Bellec learned how to do a meta project for the first time, which is developping a framework while using it at the same time. It felt really weird, but somehow quite fun as well.
- * **Github workflow-** The successful use of this template approach will demonstrate that it is possible to incorporate dozens of students presentation on a website collaboratively over a few weeks.
- * **Project content** Through the project reports generated using the template, it is possible to learn about what exactly the brainhack school students are working on.
+ * **fMRI Data Processing with Nilearn**
+ * **Machine Learning with Scikit Learn**
+ * **Interactive plotting with Plotly Express**
+ * **Pandas Data Manipulation**
+ * **fMRI Data Visualization**
+ * **Visualizing Machine Learning Metrics**
 
+### Method
+
+#### Data Cleaning
+
+Data preparation involved extracting subject ID from the nifti file paths and then using this to merge the final names to the phenotypic data. This allowed for easy subsetting when creating data visualizations comparing patients and controls. The final step in data visualization was to generate time series and correlation matrices for each subject. The correlation matrices were then merged to the phenotypic data to create a column of containing the correlation matrix for each subject.
+
+#### Data Visualization
+
+Feature plots were genrated showing average actiation for patients and controls. An [interactive Plotly Express app](http://htmlpreview.github.io/?https://github.com/brainhack-school2020/Alex-A14_Brainhack2020/blob/master/plotly.html) was generated to display a histogram of age for patients and controls. Lastly, interactive visualizations were created to display average correlation matrices for patients and controls.
+
+#### Classification
+
+The primary goal of the project was to predict schizophrenia diagnosis. Several machine learning apporaches were evaluated on the data. The data was split into training and validation sets using an 80/20 split. Each model was then evaluated on the training data using 10-fold cross validation. F1 score was used as a performance metric. In some cases, a grid search was used to optimize hyperparameters.
+ 
 ### Results
 
-#### Deliverable 1: report template
+The table below displays the average performance of each model across the 10-folds.
 
-You are currently reading the report template! I will let you judge whether it is useful or not. If you think there is something that could be improved, please do not hesitate to open an issue [here](https://github.com/brainhack-school2020/project_template/issues) and let us know.
+| Classifier      | Average CV F1 | Min  | Max  |
+| --------------- | ------------- | ---- | ---- |
+| Linear SVC      | 0.80          | 0.63 | 1.0  |
+| Gradient Boost  | 0.58          | 0.24 | 0.83 |
+| KNN             | 0.62          | 0.43 | 0.73 |
+| Random Forest   | 0.73          | 0.58 | 0.92 |
+| RBF SVC (Tuned) | 0.81          | 0.63 | 1.0  |
 
-#### Deliverable 2: project gallery
+The best performing model was Support Vector Machine CLassifier (SVC) using an RBF kernel, with values of 100.0 and 0.001 for the `C` and `gamma` parameters, respectively. This model was then used to predict daignosis on the left out validation set. On the validation set, the model had a final F1 score of **0.69**, and an accuracy of **0.67**.
 
-There is not yet a project gallery, as BHS 2020 is the first edition that will incorporate it on the website. You can still check out the [2019 BHS github organization](https://github.com/mtl-brainhack-school-2019)
+The figure below shows a confusion matrix of the model's predictions:
 
-##### ECG pupilometry pipeline by Marce Kauffmann
-
-The repository of this project can be found [here](https://github.com/mtl-brainhack-school-2019/ecg_pupillometry_pipeline_kaufmann). The objective was to create a processing pipeline for ECG and pupillometry data. The motivation behind this task is that Marcel's lab (MIST Lab @ Polytechnique Montreal) was conducting a Human-Robot-Interaction user study. The repo features:
- * a [video introduction](http://www.youtube.com/watch/8ZVCNeX42_A) to the project.
- * a presentation [made in a jupyter notebook](https://github.com/mtl-brainhack-school-2019/ecg_pupillometry_pipeline_kaufmann/blob/master/BrainHackPresentation.ipynb) on the results of the project.
- * Notebooks for all analyses.
- * Detailed requirements files, making it easy for others to replicate the environment of the notebook.
- * An overview of the results in the markdown document.
-
-##### Other projects
-Here are other good examples of repositories:
-- [Learning to manipulate biosignals with python](https://github.com/mtl-brainhack-school-2019/franclespinas-biosignals) by François Lespinasse
-- [Run multivariate anaylysis to relate behavioral and electropyhysiological data](https://github.com/mtl-brainhack-school-2019/PLS_PV_Behaviour)
-- [PET pipeline automation and structural MRI exploration](https://github.com/mtl-brainhack-school-2019/rwickens-sMRI-PET) by Rebekah Wickens
-- [Working with PSG [EEG] data from Parkinson's patients](https://github.com/mtl-brainhack-school-2019/Soraya-sleep-data-in-PD-patients) by Cryomatrix
-- [Exploring Brain Functional Activation in Adolescents Who Attempted Suicide](https://github.com/mtl-brainhack-school-2019/Anthony-Gifuni-repo) by Anthony Gifuni
-
-#### Deliverable 3: Instructions
+![alt text](c_matrix.png)
  
- To be made available soon.
+### Discussion and Limitations
 
-## Conclusion and acknowledgement
+An F1 of .69, and accuracy of 67% isn't bad for a binary classfication problem, especially considering the small sample size. It's possible that better performance could be achieved through several methods. This analysis uses 64 ROIs but the atlas used supports up to 444. Increasing the number fo features could improve the model. Conversely, dimensionality reduction could be used to reduce the number of features available to the model.
 
-The BHS team hope you will find this template helpful in documenting your project. Developping this template was a group effort, and benefitted from the feedback and ideas of all BHS students over the years.
+Hyperparameter tuning of more advanced models could be another avenue for improved performance. The Random Forest classifier showed potential, and more time spent tweaking this model could produce better results.
+
+Finally, this analysis doesn't examine feature importance. It's likely that an analysis of a similar size or greater could be devoted to investigating feature importance for schizophrenia prediction, and so it was far beyond the scope of this project.
+
+## Conclusion and Acknowledgements
+
+This project has been a great introduction to working with fMRI data, and using Scikit Learn. The range of functions and clear documentation for both of these packages make them accessible and easy to learn. The project has also strengthened my skills in Python, particularly data management with Pandas.
+
+Apart from the main project, participating in Brainhack 2020 has had several benefits. I am more comfortable with shell coding and the introduction to WSL makes it easier for me to work in Linux environments. The focus on reproducible science has introduced me to numerous tools for making analyses accessible, from Git to Docker. I am also looking forward to trying more tools for neuroimaging analysis, inlcuding fMRIPrep for preprocessing, and MNE (Python) and EEG Workshop (R) for processing EEG data. Although I've only had a brief introduction to many of these tools I feel like they are accessible with the experience that Brainhack has given me.
+
+I'd like to thank all of the instructors, presenters, TAs, and mentors who helped make Brainhack 2020 a success (in a new online format!). I look forward to seeing what Brainhack does in the future.
