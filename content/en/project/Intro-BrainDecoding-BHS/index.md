@@ -19,7 +19,7 @@ tags: [fmri, machine Learning, deep learning, classification, artificial neural 
 
 # Summarize your project in < ~75 words. This description will appear at the top of your page and on the list page with other projects..
 
-summary: "Brain decoding or mind-reading using neuroimaging data has been an active topic for years. It is a neuroscience field that concerned about different types of stimuli from information that has already been encoded and represented in the brain by networks of neurons. My goals for this project are learning the fundamentals of brain decoding, comparing the performance of six different classifiers including "Naive Bayes", "Nearest Neighbours", "Neural Networks", "Logistic Regression", "Support vector machine" and "Decision trees" classifiers and finally training the Artificial Neural Network (ANN) models on Haxby dataset.
+summary: "Brain decoding or mind-reading using neuroimaging data has been an active topic for years. It is a neuroscience field that concerned about different types of stimuli from information that has already been encoded and represented in the brain by networks of neurons. My goals for this project are learning the fundamentals of brain decoding, comparing the performance of six different classifiers including "Naive Bayes", "Nearest Neighbours", "Neural Networks", "Logistic Regression", "Support vector machine" and "Decision trees" classifiers and finally training the Artificial Neural Network (ANN) models on Haxby dataset. I plot confusion matrix to also checked cross validation accuracy for all the classifiers.
 Among all mentioned classifiers SVM has the best and Decision Trees classifier shows the worst performance. You can find the codes and results of [data visualization](https://github.com/brainhack-school2020/BHS_project_SRastegarnia/blob/master/Data-visualization.ipynb), [classifiers](https://github.com/brainhack-school2020/BHS_project_SRastegarnia/blob/master/Classifiers.ipynb), [ANN train](https://github.com/brainhack-school2020/BHS_project_SRastegarnia/blob/master/ANN_onHaxby.ipynb), and my initial efforts in order to learn about [brain decoding](https://github.com/brainhack-school2020/BHS_project_SRastegarnia/blob/master/BHS_Haxby_BrainDecoding.ipynb) by following the Nilearn and Sklearn tutorials inside my repository in brain hack school Github."
 
 # If you want to add a cover image (listpage and image in the right), add it to your directory and indicate the name
@@ -36,7 +36,7 @@ I am currently a Master’s student in computer science at Université de Montr�
 This change of accuracy made me curious about training ANN on
 the Haxby dataset to examine its performance and learn better about this method, that wasn't my plan at the beginning. Moreover, to make the notebook reproducible and easy to follow for those who don't have a background of machine learning (similar to me before Brainhack school!), I have added a full description of each cell and a quick overview of each classifier's theory.
 
-<iframe width="560" height="315" src="Brain_decoding_2.png" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://github.com/brainhack-school2020/BHS_project_SRastegarnia/blob/master/Images/Brain_decoding.png" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ### Tools
 * Git/Github
@@ -60,8 +60,12 @@ For this project I have provided:
 ## Results
 
 ### Progress overview
+When I started this course I had almost no background of machine learning and deep learning also no personal experience about using Git/Github and compute Canada. During the first two weeks, I was trying to digest the information that I was given during BHS training week also practicing and learning by following different tutorials.
+From third week I started to run the codes and push them on my repository, mostly by following Nilearn and sklearn tutorials, also I experimented and personalized them.
+During the last two weeks, I tried to write my own codes by doing several classification approaches on the Haxby dataset. This goals for me needed a lot of reading to learn about classifiers algorithms and the way they work also their strengths and weaknesses to figure out why some classifiers perform better compared to the rest. In addition, I used some performance metrics in order to check my ML models such as "Classification Accuracy”, "Cross-Validation" and “Confusion Matrix”. In the end,  I added documentation to make my notebook easy to follow for those who are new in this field and plotted the results interactively. 
+After doing all the mentioned tasks, I tried my first model training experiment and as I mentioned above I chose ANN. 
 
-The project was swiftly initiated by P Bellec, based on the existing template created in 2019 by Tristan Glatard and improved by different students. It was really not that hard. Community feedback is expected to lead to rapid further improvements of this first version.
+Besides, I have mentioned all my goals divided per week in my repository README file under "TO DO LIST " title.
 
 ### Tools I learned during this project
 
@@ -103,3 +107,36 @@ Here are other good examples of repositories:
 ## Conclusion and acknowledgement
 
 The BHS team hope you will find this template helpful in documenting your project. Developping this template was a group effort, and benefitted from the feedback and ideas of all BHS students over the years.
+
+## Conclusion and acknowledgement
+Plotting the used stimuli Haxby dataset: #https://nilearn.github.io/auto_examples/02_decoding/plot_haxby_stimuli.html#sphx-glr-auto-examples-02-decoding-plot-haxby-stimuli-py
+
+Plot Haxby masks: https://nilearn.github.io/auto_examples/01_plotting/plot_haxby_masks.html#sphx-glr-auto-examples-01-plotting-plot-haxby-masks-py
+
+Decoding with ANOVA + SVM: https://nilearn.github.io/auto_examples/02_decoding/plot_haxby_anova_svm.html#sphx-glr-auto-examples-02-decoding-plot-haxby-anova-svm-py
+
+ROI-based decoding analysis: https://nilearn.github.io/auto_examples/02_decoding/plot_haxby_full_analysis.html#roi-based-decoding-analysis-in-haxby-et-al-dataset
+
+Different multi-class strategies: https://nilearn.github.io/auto_examples/02_decoding/plot_haxby_multiclass.html#sphx-glr-auto-examples-02-decoding-plot-haxby-multiclass-py
+
+Preparing the data: https://nilearn.github.io/auto_examples/plot_decoding_tutorial.html
+
+k-Nearest Neighbours:
+
+train_test_split: https://scikit-learn.org/stable/modules/generated/sklearn.model_selection.train_test_split.html
+
+KNeighborsClassifier(): https://scikit-learn.org/stable/modules/generated/sklearn.neighbors.KNeighborsClassifier.html
+
+accuracy_score: https://scikit-learn.org/stable/modules/generated/sklearn.metrics.accuracy_score.html
+
+LogisticRegression: https://scikit-learn.org/stable/modules/generated/sklearn.linear_model.LogisticRegression.html
+
+Support Vector Machine: 
+https://scikit-learn.org/stable/modules/svm.html 
+
+https://scikit-learn.org/stable/modules/generated/sklearn.svm.SVC.html#sklearn.svm.SVC
+
+Neural Network:
+https://scikit-learn.org/stable/modules/neural_networks_supervised.html 
+MLPClassifier: 
+https://scikit-learn.org/stable/modules/generated/sklearn.neural_network.MLPClassifier.html#sklearn.neural_network.MLPClassifier
