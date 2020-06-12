@@ -38,7 +38,7 @@ When joining the BrainHack School, I was looking forward in particular to workin
 
 You can find me on GitHub at [emilyemchen](https://github.com/emilyemchen) and on Twitter at [@emilyemchen](https://twitter.com/emilyemchen).
 
-#### Andréanne (personal repository)](https://github.com/brainhack-school2020/anproulx-fMRI-autism)
+#### Andréanne [(personal repository)](https://github.com/brainhack-school2020/anproulx-fMRI-autism)
 
 Hi! I am an incoming master's student in Psychology at the University of Montreal. My background is in cognitive neuroscience and my career objective is to work on research projects aiming to discover new ways of characterizing the brain in its pathological states. At the moment, I am working with Sébastien Jacquemont and Pierre Bellec, and the focus of our research is on investigating the effect of genetic mutations on functional and structural brain phenotypes. More precisely, I have been working with resting-state functional connectivity measures in carrier populations with developmental disorders.
 
@@ -235,7 +235,7 @@ Click [here](https://anproulx.github.io/cross_validation_plots/) for the website
 
 Click [here](https://mschoettner.github.io/brainhack_visualization/) for the website. 
 
-<iframe src="https://mschoettner.github.io/brainhack_visualization/" width="100%" height="800px"></iframe>
+<iframe src="https://mschoettner.github.io/brainhack_visualization/" width="100%" height="600px"></iframe>
 
 #### Deliverable 5: Presentation (Week 4)
 
