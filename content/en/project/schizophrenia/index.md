@@ -27,8 +27,8 @@ image: "alina-grubnyak-brain.jpg"
 ---
 <!-- This is an html comment and this won't appear in the rendered page. You are now editing the "content" area, the core of your description. Everything that you can do in markdown is allowed below. We added a couple of comments to guide your through documenting your progress. -->
 
-![alt text](http://i.imgur.com/tXSoThF.png) [@albury_alex](https://twitter.com/albury_alex)
-## Project definition 
+![alt text](https://i.imgur.com/tXSoThF.png) [@albury_alex](https://twitter.com/albury_alex)
+## Project definition
 
 ### Background
 
@@ -40,9 +40,9 @@ Machine learning techniques are used to classify schizophrenia patients from con
 
 
 
-### Tools 
+### Tools
 
-The project relies on the following technologies: 
+The project relies on the following technologies:
  * This README is built using [Markdown](https://guides.github.com/features/mastering-markdown/), to structure the text.
  * Processing of fMRI data is done with `nilearn`
  * Machine learning anlayses rely on `scikit-learn`.
@@ -51,7 +51,7 @@ The project relies on the following technologies:
  * Some interactive visualizations rely on a [Binder](https://jupyter.org/binder) environment.
  * Updating and version control relies on github, through commits and pull requests.
 
-### Data 
+### Data
 
 The preprocessed data is publicly available on Nilearn and can be downloaded using `nilearn.datasets.fetch_cobre()` Documentation about the Nilearn data can be found [here](https://nilearn.github.io/modules/generated/nilearn.datasets.fetch_cobre.html#nilearn.datasets.fetch_cobre). (**Note**: The Nilearn implementation of this dataset is deprecated and so access to the data may change or be removed.)
 
@@ -59,13 +59,13 @@ The preprocessed data is publicly available on Nilearn and can be downloaded usi
 
 Products of this project include:
  - A complete README summarizing the entire project and its results.
- - Week 3 Deliverable: 
+ - Week 3 Deliverable:
      - [Plotly Histogram](http://htmlpreview.github.io/?https://github.com/brainhack-school2020/Alex-A14_Brainhack2020/blob/master/plotly.html) of age
      - Binder With ipywidgets Correlation Matrices [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/brainhack-school2020/Alex-A14_Brainhack2020/master?filepath=visualization.ipynb)
  - A [Jupyter notebook](https://github.com/brainhack-school2020/Alex-A14_Brainhack2020/blob/master/analysis.ipynb) that contains all of the relevant code for the project, clearly formatted and commented.
  - A formatted [html document](http://htmlpreview.github.io/?https://github.com/brainhack-school2020/Alex-A14_Brainhack2020/blob/master/analysis.html) that contains code, descriptions, and visualizations from the project.
 
-## Results 
+## Results
 
 ### Overview
 
@@ -93,7 +93,7 @@ Feature plots were genrated showing average activation for patients and controls
 #### Classification
 
 The primary goal of the project was to predict schizophrenia diagnosis. Several machine learning apporaches were evaluated on the data. The data was split into training and validation sets using an 80/20 split. Each model was then evaluated on the training data using 10-fold cross validation. F1 score was used as a performance metric. In some cases, a grid search was used to optimize hyperparameters.
- 
+
 ### Results
 
 The table below displays the average performance of each model across the 10-folds.
@@ -112,7 +112,7 @@ The best performing model was a Support Vector Machine CLassifier (SVC) using an
 The figure below shows a confusion matrix of the model's predictions:
 
 ![alt text](c_matrix.png)
- 
+
 ### Discussion and Limitations
 
 An F1 of .69, and accuracy of 67% isn't bad for a binary classfication problem, especially considering the small sample size. It's possible that better performance could be achieved through several methods. This analysis uses 64 ROIs, but the atlas used supports up to 444. Increasing the number fo features could improve the model. Conversely, dimensionality reduction could be used to reduce the number of features available to the model.
