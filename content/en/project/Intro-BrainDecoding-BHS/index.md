@@ -2,7 +2,7 @@
 type: "project" # DON'T TOUCH THIS ! :)
 date: "2020-05-16" # Date you first upload your project.
 # Title of your project (we like creative title)
-title: "Intro to brain decoding, artificial neural network, and classification of Haxby dataset using six different common approaches"
+title: "Intro to brain decoding and classification of Haxby dataset using six different common approaches"
 
 # List the names of the collaborators within the [ ]. If alone, simple put your name within []
 names: [Shima Rastegarnia]
@@ -27,7 +27,7 @@ image: "FlowerBouquet.png"
 ---
 <!-- This is an html comment and this won't appear in the rendered page. You are now editing the "content" area, the core of your description. Everything that you can do in markdown is allowed below. We added a couple of comments to guide your through documenting your progress. -->
 
-# Intro to brain decoding, artificial neural network, and classification of Haxby dataset using six different common approaches
+# Intro to brain decoding and classification of Haxby dataset using six different common approaches
 <div align="center">
 <img src="Brain_decoding.jpg" width="825" height="452" allowfullscreen> 
 </div>
