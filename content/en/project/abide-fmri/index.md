@@ -5,21 +5,21 @@ date: "2020-06-11" # Date you first upload your project.
 title: "Predicting Autism with fMRI Data"
 
 # List the names of the collaborators within the [ ]. If alone, simple put your name within []
-names: [Emily Chen, Andréanne Proulx, and Mikkel Schöttner]
+names: [Emily Chen, Andréanne Proulx, Mikkel Schöttner]
 
 # Your project GitHub repository URL
-github_repo: https://github.com/brainhack-school2020/abide-fmri
+github_repo: "https://github.com/brainhack-school2020/abide-fmri"
 
 # If you are working on a project that has website, indicate the full url including "https://" below or leave it empty.
 website:
 
 # List +- 4 keywords that best describe your project within []. Note that the project summary also involves a number of key words. Those are listed on top of the [github repository](https://github.com/brainhack-school2020/project_template), click `manage topics`.
 # Please only lowercase letters
-tags: [brainhack-school, abide-data, resting-state-fmri, scikitlearn-machine-learning, reproducible-science, project-management]
+tags: [brainhack-school, abide-data, resting-state-fmri, machine-learning, reproducible-science, project-management, open-science]
 
 # Summarize your project in < ~75 words. This description will appear at the top of your page and on the list page with other projects..
 
-summary: "TODO"
+summary: "Is autism associated with a distinct neurofunctional signature? If so, how accurately are we able to predict the diagnosis based on fMRI data? In this project, we set out to compare different machine learning models and cross-validation methods to see how well each one was able to predict autism from resting state fMRI data in the ABIDE dataset."
 
 # If you want to add a cover image (listpage and image in the right), add it to your directory and indicate the name
 # below with the extension.
@@ -40,13 +40,15 @@ You can find me on GitHub at [emilyemchen](https://github.com/emilyemchen) and o
 
 #### Andréanne
 
-I am a Master's student in Psychology currently enrolled at the University of Montréal. My main focus is in genomic imagery which consists of investigating the effect of genetic mutations on functional and structural brain phenotypes. More specifically, I have been interested in resting-state functional connectivity measures in carrier populations.
+Hi! I am an incoming master's student in Psychology at the University of Montreal. My background is in cognitive neuroscience and my career objective is to work on research projects aiming to discover new ways of characterizing the brain in its pathological states. At the moment, I am working with Sébastien Jacquemont and Pierre Bellec, and the focus of our research is in investigating the effect of genetic mutations on functional and structural brain phenotypes. More precisely, I have been working with resting-state functional connectivity measures in carrier populations with developmental disorders.
+
+By joining the Brainhack School, I hoped to strengthen my computational skills and my knowledge in the applications of machine learning to the field of neuroimaging. Not only did I get to work on a machine learning problem specific to my field, but I also got to learn about useful tools such as Github. More importantly, I also met a community of brilliant/aware researchers and got to collaborate with other students, even across the world!
 
 #### Mikkel
 
 [TO DO]
 
----
+***
 
 ### Tools 
 
@@ -81,13 +83,13 @@ My project planned to rely on the following technologies:
 * `plotly`
 * HPC/Compute Canada
 
----
+***
 
 ### Data 
 
 The goal of this project is to compare different machine learning models and cross-validation methods and see how well each is able to predict autism from resting state fMRI data. For that we are using the preprocessed open source [ABIDE database](http://fcon_1000.projects.nitrc.org/indi/abide/) which contains structural, functional, and phenotypic data of 539 individuals with autism and 573 typical controls from 20 different research sites.
 
----
+***
 
 ### Deliverables 
 
@@ -100,10 +102,14 @@ By the end of The BrainHack School, we hope to have the following:
 
 ## Project Results
 
+### Project Background 
+
+Several studies have found an altered connectivity profile in the default mode network of subjects with Autism Spectrum Disorder, or ASD (Anderson, 2014). Based on these findings, resting state fMRI data have been used to predict autism by training a classifier on the multi-site ABIDE data set (Nielsen et al., 2013). This project's scientific aim is to replicate these findings.
+
 ### Becoming a Team 
 The three of us joined forces when we realized that we shared many similar learning goals and interests. With such similar project ideas, we figured we would accomplish more working together by each taking on a different cross-validation methods to train various machine learning models. 
 
----
+***
 
 ### Team Project Management
 
@@ -115,13 +121,13 @@ We all shared a common interest in making our project as reproducible as possibl
 * **Milestones:** used to keep our main goals in mind (Week 4 presentation and final deliverable)
 * **Projects:** used to track various aspects of our work 
 
----
+***
 
 ### Standardized Data Preparation and Jupyter Notebooks
 
 The data are processed in a standardized way using a Python script that prepares the data for the machine learning classifiers. Several Jupyter notebooks then implement different models and cross-validation techniques which are described in detail below.
 
----
+***
 
 ### Tools, Technologies, and Libraries Learned
 
@@ -140,11 +146,11 @@ Many of these contribute to open science practices!
 * `seaborn`
 * `venv`
 
----
+***
 
 ### Deliverables
 
-#### Deliverable 1: Jupyter notebooks
+#### Deliverable 1: Jupyter notebooks (x3)
 
 * ##### Leave-site-out cross-validation
 
@@ -156,7 +162,7 @@ This notebook contains code to run a linear support vector classification to pre
 
 [*`kfold-leave-one-out-cv_classifier.ipynb`*](https://github.com/brainhack-school2020/abide-fmri/blob/master/code/kfold-leave-one-out-cv_classifier.ipynb)
 
-This notebook contains the code to run support vector classification, k nearest neighbors, decision tree and random forest on the ABIDE dataset. The models are trained and evaluated using k-fold and leave-one out cross-validation methods. We obtain accuracy scores that represent how skilled the model is at predicting the labels of unseen data.  Leave-one out cross validation gives more accurate predictions than kfold cross validation. The accuracy values range from 55.8% to 69.2%.
+This notebook contains the code to run linear support vector classification, k-nearest neighbors, decision tree, and random forest algorithms on the ABIDE dataset. The models are trained and evaluated using k-fold and leave-one out cross-validation methods. We obtain accuracy scores that represent how skilled the model is at predicting the labels of unseen data.  Leave-one out cross validation gives more accurate predictions than kfold cross validation. The accuracy values range from 55.8% to 69.2%.
 
 * ##### Group k-folds cross-validation
 
@@ -203,28 +209,31 @@ This file increases reproducibility by helping to ensure that the scripts run co
 #### Deliverable 4: Data visualizations (Week 3)
 
 * [Emily's GitHub Repository](https://github.com/emilyemchen/bhs2020-dataviz)
-    * [Age at Scan Distribution by ABIDE Test Site](https://emilyemchen.github.io/bhs2020-dataviz/abide_age.html)
 
-    <iframe src="https://emilyemchen.github.io/bhs2020-dataviz/abide_age.html" width="800px" height="600px"></iframe>
+Click [here](https://emilyemchen.github.io/bhs2020-dataviz/abide_age.html) for the website. 
 
-    * [FIQ Score Distribution by ABIDE Test Site](https://emilyemchen.github.io/bhs2020-dataviz/abide_fiq.html)
+<iframe src="https://emilyemchen.github.io/bhs2020-dataviz/abide_age.html" width="100%" height="800px"></iframe>
 
-    <iframe src="https://emilyemchen.github.io/bhs2020-dataviz/abide_fiq.html" width="800px" height="600px"></iframe>
+Click [here](https://emilyemchen.github.io/bhs2020-dataviz/abide_fiq.html) for the website. 
 
-    * [VIQ Score Distribution by ABIDE Test Site](https://emilyemchen.github.io/bhs2020-dataviz/abide_viq.html)
+<iframe src="https://emilyemchen.github.io/bhs2020-dataviz/abide_fiq.html" width="100%" height="800px"></iframe>
 
-    <iframe src="https://emilyemchen.github.io/bhs2020-dataviz/abide_viq.html" width="800px" height="600px"></iframe>
+Click [here](https://emilyemchen.github.io/bhs2020-dataviz/abide_viq.html) for the website. 
 
-    * [PIQ Score Distribution by ABIDE Test Site](https://emilyemchen.github.io/bhs2020-dataviz/abide_piq.html)
+<iframe src="https://emilyemchen.github.io/bhs2020-dataviz/abide_viq.html" width="100%" height="800px"></iframe>
 
-    <iframe src="https://emilyemchen.github.io/bhs2020-dataviz/abide_piq.html" width="800px" height="600px"></iframe>
+Click [here](https://emilyemchen.github.io/bhs2020-dataviz/abide_piq.html) for the website. 
+
+<iframe src="https://emilyemchen.github.io/bhs2020-dataviz/abide_piq.html" width="100%" height="800px"></iframe>
 
 * [Andréanne's GitHub Repository](https://github.com/brainhack-school2020/anproulx-fMRI-autism)
     * [Various data visualizations](https://chart-studio.plotly.com/~anproulx/2/data-visualization/#/)
-* [Mikkel's GitHub Repository](https://github.com/brainhack-school2020/mschoettner_fMRI-ML)
-    * [Age Distributions at Different Research Sites](https://mschoettner.github.io/brainhack_visualization/)
 
-    <iframe src="https://mschoettner.github.io/brainhack_visualization/" width="800px" height="600px"></iframe>
+* [Mikkel's GitHub Repository](https://github.com/brainhack-school2020/mschoettner_fMRI-ML)
+
+Click [here](https://mschoettner.github.io/brainhack_visualization/) for the website. 
+
+<iframe src="https://mschoettner.github.io/brainhack_visualization/" width="100%" height="800px"></iframe>
 
 #### Deliverable 5: Presentation (Week 4)
 
@@ -251,3 +260,9 @@ Thank you also to The BrainHack School leaders and co-organizers Jean-Baptiste P
 4. Python Data Science Handbook GitHub and website https://github.com/jakevdp/PythonDataScienceHandbook
 
 5. BrainHack School course materials and lectures https://github.com/neurodatascience/course-materials-2020
+
+**Scientific articles:**
+
+Anderson, J. S., Patel, V. B., Preedy, V. R., & Martin, C. R. (2014). Cortical underconnectivity hypothesis in autism: evidence from functional connectivity MRI. Comprehensive Guide to Autism, 1457, 1471.
+
+Nielsen, J. A., Zielinski, B. A., Fletcher, P. T., Alexander, A. L., Lange, N., Bigler, E. D., ... & Anderson, J. S. (2013). Multisite functional connectivity MRI classification of autism: ABIDE results. Frontiers in Human Neuroscience, 7, 599.
