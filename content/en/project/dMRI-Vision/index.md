@@ -34,7 +34,7 @@ image: "connectome_glassbrain.png"
 
 ### Contributors: Michèle W. MacLean & Brainhack School Members
 
-<img src="images/bhs2020.png" width="70%">
+<img src="bhs2020.png" width="70%">
 
 [![](https://img.shields.io/badge/Visit-our%20project%20page-ff69b4)](https://school.brainhackmtl.org/project/template)
 
@@ -45,7 +45,7 @@ Hello! I'm currently a PhD student in Cognitive Neuroscience at l'Université de
 The overall goal of the current project was to combine, use and present the new tools learned during the BrainHack Summer School to organize, preprocess, analyze and visualize diffusion MRI data acquired at l'Unité de neuroimagerie fonctionnelle during my PhD.  
 
 
-<img src="images/logo_UdeM.png" width="30%"> <img src="images/logo_unf.png" width="40%">
+<img src="logo_UdeM.png" width="30%"> <img src="logo_unf.png" width="40%">
 
 
 # Project definition 
@@ -78,7 +78,7 @@ MRI data was acquired with a high resolution 3 Tesla scanner (Siemens Trio syste
 
 Given the time course of the summer school, after the initial preprocessing of the data, I focused on working with the diffusion MRI data. This data set will allow to first become familiarized with the new neuroimaging tools learned during the BrainHack summer school. When I will acquire a larger data set, during the rest of my PhD, I plan to incorporate it to this project. 
 
-<img src="images/CVI.png" width="60%">
+<img src="CVI.png" width="60%">
 
 The figure above is an example of an individual with cortical visual impairment to give you an idea of the type of data, where A) shows a T1-weighted anatomical scan with three different slice views showing the primary visual cortex removal in the left hemisphere and the destruction of the primary visual areas (V1) and B) the individual's visual field showing a symmetric loss across both eyes leading to a complete contralateral visual loss in the right visual field.
 
@@ -102,7 +102,7 @@ For the course:
 ## Methods
 1. **Data Organization/Management.**
 * Convert dicoms to a BIDS friendly dataset. [This tutorial](http://reproducibility.stanford.edu/bids-tutorial-series-part-1b/) served as a guideline.
-<img src="images/bidsexample.png" width="40%">
+<img src="bidsexample.png" width="40%">
 
 2. **Preprocessing diffusion MRI data.**
 * Running a preprocessing pipeline using [this docker image](https://hub.docker.com/r/gkiar/dwipreproc_fsl-5.0.11_minified)
@@ -128,11 +128,11 @@ For the course:
 3. Connectome projected on a 3D glass brain
 
 
-<img src="images/connectivity_matrix.gif" width="60%">
+<img src="connectivity_matrix.gif" width="60%">
 
-<img src="images/connectome.gif" width="80%">
+<img src="connectome.gif" width="80%">
 
-<img src="images/connectome_glassbrain.gif" width="80%">
+<img src="connectome_glassbrain.gif" width="80%">
 
 * The [jupyter notebook](https://github.com/brainhack-school2020/mwmaclean-BHS2020/blob/master/data_visualization/dMRI_data_visualization.ipynb) version of all three figures is interactive with a drop-down for each subject using widgets.
 * The connectivity matrices (.mat files) used for the data visualization can be found [here](https://github.com/brainhack-school2020/mwmaclean-BHS2020/tree/master/data_visualization/connectivity_matrices)
@@ -150,10 +150,10 @@ Organization of MRI data into BIDS format, preprocessing and basic tracking of t
 * How to implement **BIDS** 
 * **Python** scripts 
 * **Docker container** 
-* **DIPY** for preprocessing and basic tracking of diffusion weighted images (DWI)
+* **DIPY** for preprocessing and basic tracking of diffusion MRI
 * **Jupyter Notebook** 
 * Interactive figures in Jupyter Notebook using **data visualization libraries**: Nilearn, plotly & matplotlib, etc.
-![](images/tools.png)
+![](tools.png)
 
 
 ## Conclusion 
