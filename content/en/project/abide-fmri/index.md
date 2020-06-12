@@ -82,6 +82,8 @@ By the end of The BrainHack School, we aimed to have the following:
 
 ## Project Results
 
+![ABIDE-Team](abide-team.png)
+
 ### Project Background 
 
 Several studies have found an altered connectivity profile in the default mode network of subjects with Autism Spectrum Disorder, or ASD (Anderson, 2014). Based on these findings, resting state fMRI data have been used to predict autism by training a classifier on the multi-site ABIDE data set (Nielsen et al., 2013). This project's scientific aim is to replicate these findings and extends the literature by comparing the effects of differing cross-validation methods on various classification algorithms. 
@@ -147,6 +149,9 @@ This notebook contains the code to run linear support vector classification, k-n
 [*`group-kfolds-cv_classifier.ipynb`*](https://github.com/brainhack-school2020/abide-fmri/blob/master/code/group-kfolds-cv_classifier.ipynb)
 
 [DESCRIPTION TO DO]
+
+##### What were the results? 
+![CV-Results](result_cv.png)
 
 #### Deliverable 2: [`prepare_data.py`](https://github.com/brainhack-school2020/abide-fmri/blob/master/code/prepare_data.py) script
 
