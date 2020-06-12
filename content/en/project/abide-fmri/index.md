@@ -2,7 +2,7 @@
 type: "project" # DON'T TOUCH THIS ! :)
 date: "2020-06-11" # Date you first upload your project.
 # Title of your project (we like creative title)
-title: "Predicting Autism with fMRI Data"
+title: "Using fMRI Data to Predict Autism Diagnoses with Various Machine Learning Models and Cross-Validation Methods"
 
 # List the names of the collaborators within the [ ]. If alone, simple put your name within []
 names: [Emily Chen, Andréanne Proulx, Mikkel Schöttner]
@@ -38,7 +38,7 @@ When joining the BrainHack School, I was looking forward in particular to workin
 
 You can find me on GitHub at [emilyemchen](https://github.com/emilyemchen) and on Twitter at [@emilyemchen](https://twitter.com/emilyemchen).
 
-#### Andréanne (personal repository)](https://github.com/brainhack-school2020/anproulx-fMRI-autism)
+#### Andréanne [(personal repository)](https://github.com/brainhack-school2020/anproulx-fMRI-autism)
 
 Hi! I am an incoming master's student in Psychology at the University of Montreal. My background is in cognitive neuroscience and my career objective is to work on research projects aiming to discover new ways of characterizing the brain in its pathological states. At the moment, I am working with Sébastien Jacquemont and Pierre Bellec, and the focus of our research is on investigating the effect of genetic mutations on functional and structural brain phenotypes. More precisely, I have been working with resting-state functional connectivity measures in carrier populations with developmental disorders.
 
@@ -46,7 +46,11 @@ By joining the Brainhack School, I hoped to strengthen my computational skills a
 
 #### Mikkel [(personal repository)](https://github.com/brainhack-school2020/mschoettner_fMRI-ML)
 
-[TO DO]
+Hey! I am a master's student in Cognitive Neuroscience at the University of Marburg. My background is in psychology. I am especially interested in the social brain and how humans infer thoughts and emotions from the actions of others. Right now, I am doing my Masters thesis on how the capacities of Theory of Mind and empathy interact in the brain using fMRI. I am also very much interested in research methods and how we can use statistics and data science techniques on neuroimaging data.
+
+When getting into Brainhack School, I hoped to get a better understanding of machine learning, and how it is useful for analyzing fMRI data. I learned a lot about collaborative project organization, how to make pretty interactive plots and how to write better Python scripts. Brainhack School was really an awesome experience getting to know a lot of talented and motivated people and being able to collaborate with them across the Atlantic!
+
+You can find me on GitHub at [mschoettner](https://github.com/mschoettner) and on Twitter [@mikkelschoett](https://twitter.com/mikkelschoett).
 
 ***
 
@@ -231,7 +235,7 @@ Click [here](https://anproulx.github.io/cross_validation_plots/) for the website
 
 Click [here](https://mschoettner.github.io/brainhack_visualization/) for the website. 
 
-<iframe src="https://mschoettner.github.io/brainhack_visualization/" width="100%" height="800px"></iframe>
+<iframe src="https://mschoettner.github.io/brainhack_visualization/" width="100%" height="600px"></iframe>
 
 #### Deliverable 5: Presentation (Week 4)
 
