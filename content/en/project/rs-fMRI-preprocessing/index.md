@@ -35,11 +35,11 @@ I am a third year PhD student at Polytechnique with a background in MRI. My prim
 
 One important source of variability across studies is a lack of standardization in preprocessing steps. This project will focus on the effect that preprocessing choices may have on the prediction performance of a machine learning model. Specifically, two preprocessing steps that affect the extraction of functional signal will be examined: atlas choice and confound removal.
 
-<center><img src="images/pipeline_detail.png"/></center></br>
+<center><img src="pipeline_detail.png"/></center></br>
 
 Four different atlases will be used: functional (BASC multiscale)<sup>2,3</sup>, structural (AAL)<sup>4</sup>, clustering method (Craddock)<sup>5</sup>, and linear decomposition (MSDL)<sup>6</sup>.
 
-<center><img src="images/atlases.png"/></center></br>
+<center><img src="atlases.png"/></center></br>
 
  Various confound inclusion/exclusion options will be explored, including cerebral spinal fluid (CSF) signal, white matter (WM) signal, global signal, and motion correction.
 
@@ -98,7 +98,7 @@ An interactive figure depicting linear regression plots of model performance on 
 #### Project results
 The connectivity between regions in a particular atlas was calculated as a correlation measure. These correlations differ for each atlas as can be seen for the correlation matrix and connectome of a given subject.
 
-<center><img src="images/connectivity.png"/></center></br>
+<center><img src="connectivity.png"/></center></br>
 
 These differences in connectivity, however, were not found to result in much difference in the prediction performance of the models. In fact, the values of the mean R2 and mean MAE for each atlas using all confounds were fairly similar. The results for the probabilistic atlases were slightly worse, but more work is required before asserting that any such decrease is significant.
 
