@@ -19,7 +19,7 @@ tags: [ Deep neural networks, brain representations, vision, EEG, decoding]
 
 # Summarize your project in < ~75 words. This description will appear at the top of your page and on the list page with other projects..
 #Deep learning is a growing field of AI that is now reaching cognitive-neurosciences.
-summary: "Do artificial neural networks process visual images similarly to our brain? If so, how? In this project we bridge deep learning and brain EEG signals as we aim to understand more about the brain's ability to process common visual stimuli such as objects, faces, scenes and animals."
+summary: "Do artificial neural networks process visual images similarly to our brain? If so, how? In this project, we bridge deep learning and brain EEG signals as we aim to understand more about our ability to process common visual stimuli such as objects, faces, scenes and animals."
 
 # If you want to add a cover image (listpage and image in the right), add it to your directory and indicate the name
 # below with the extension.
