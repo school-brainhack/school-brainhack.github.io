@@ -23,7 +23,7 @@ summary: "Can we automatically detect changes in emotions given a user's biosign
 
 # If you want to add a cover image (listpage and image in the right), add it to your directory and indicate the name
 # below with the extension.
-image: "free_brain_emotions.png"
+image: "free_brain_emotions.jpg"
 ---
 <!-- This is an html comment and this won't appear in the rendered page. You are now editing the "content" area, the core of your description. Everything that you can do in markdown is allowed below. We added a couple of comments to guide your through documenting your progress. -->
 
@@ -49,10 +49,10 @@ Psychological stress has been found to be associated with changes in certain bio
 
 Tools and techniques we used:
  1.	Bash and Python <img src="bash.png" alt="Bash" width="40"/> <img src="python.png" alt="Python" width="40"/> 
- 2. Git and GitHub <img src="git.png" alt="GitHub" width="50"/>
+ 2. Git and GitHub <img src="git.png" alt="GitHub" width="60"/>
  3.	Preprocessing and feature extraction with Scipy and Neurokit <img src="scipy.png" alt="Scipy" width="40"/> <img src="neurokit.png" alt="NeuroKit" width="40"/>
- 4.	Data visualization with Plotly <img src="plotly.png" alt="Plotly" width="50"/>
- 5. Machine learning with Scikit-learn <img src="scikitlearn.png" alt="Scikit-learn" width="50"/>
+ 4.	Data visualization with Plotly <img src="plotly.png" alt="Plotly" width="70"/>
+ 5. Machine learning with Scikit-learn <img src="scikitlearn.png" alt="Scikit-learn" width="75"/>
 
 ### Data 
 
@@ -128,6 +128,7 @@ To try to get an idea of how the classifiers would perform given biosignal data 
 
 I selected a number of classifiers [based on a script from the sci-kit learn documentation](https://scikit-learn.org/stable/auto_examples/classification/plot_classifier_comparison.html): Nearest Neighbors, Support Vector Machine with a linear kernel, Support Vector Machine with an RBF kernel, Gaussian Process, Decision Tree, Random Forest, Multi-layer Perceptron, AdaBoost, and Naive Bayes. The accuracy averaged over the splits for each classifier, with features extracted from both the EEG and ECG data, is shown below:
 
+
 | Name              | Mean Accuracy |
 |-------------------|---------------|
 | Nearest Neighbors | 0.87          |
@@ -139,6 +140,7 @@ I selected a number of classifiers [based on a script from the sci-kit learn doc
 | Neural Net        | 0.73          |
 | AdaBoost          | 0.98          |
 | Naive Bayes       | 0.59          |
+
 
 [AdaBoost](https://scikit-learn.org/stable/modules/generated/sklearn.ensemble.AdaBoostClassifier.html), an ensemble method, had the highest mean accuracy. I also measured the average prediction runtime, and AdaBoost was relatively slow compared to the other classifiers (about 5-10 ms, while most of the others were around 1 ms, on my machine). While we didn't get to do this during this project, it would be interesting to see how methods to reduce runtime affect performance.
 
