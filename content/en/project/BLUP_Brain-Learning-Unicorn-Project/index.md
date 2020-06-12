@@ -19,7 +19,7 @@ tags: [Structural MRI, Brain volumes, Genetic, Open-science, Machine learning, U
 
 # Summarize your project in < ~75 words. This description will appear at the top of your page and on the list page with other projects..
 
-summary: "Can a model predict the genetic profile of an individual based on brain regions volumes? There is growing evidence suggesting that genetic varations formally associated to neurodevelopmental disorders have significant effects on brain structures. In this project, the performance of three classifiers will be compared when predicting the genetic status of individuals from brain region volumes in a highly imbalanced dataset (UK BioBank cohort)."
+summary: "Can a model predict the genetic profile of an individual based on brain regions volumes? There is growing evidence suggesting that genetic variations formally associated to neurodevelopmental disorders have significant effects on brain structures. In this project, the performance of three classifiers will be compared when predicting the genetic status of individuals from brain region volumes in a highly imbalanced dataset (UK BioBank cohort)."
 
 # If you want to add a cover image (listpage and image in the right), add it to your directory and indicate the name
 # below with the extension.
@@ -40,24 +40,23 @@ Click [HERE](https://brainhack-school2020.github.io/EliseD_BLUP_Brain-Learning-U
 <ins>Other project contributors:</ins>
 BHS, Hannah Kiesow [@hannahmaykiesow](https://twitter.com/hannahmaykiesow) (also working on UKBiobank), Kuldeep Kumar [@meetkd007](https://twitter.com/meetkd007) (extracting data from UKBB servers)
 
-
-## Personnal presentation
+## Personal presentation
 
 Welcome to this project dear unicorn student ! 
 
 <p align="center">
-  <img src="https://media.giphy.com/media/CzQ9Kl1UIt8hG/giphy.gif">
+<img src="https://media.giphy.com/media/CzQ9Kl1UIt8hG/giphy.gif">
 </p>
 <p> <font size="1.5"> Source: https://media.giphy.com/</font></p> 
 
-I am Elise, Ph.D. student in neurosciences at the UdeM since near to 4 years, and working on **the contribution of genetic to neurodevelopmental disorders** as autism. I don't really fit in a specific domain (genetic/cognitive neurosciences/psychology). I guess it is what we call a *unicorn student*? Currently, I am working with genetic data (Copy Number Variants), clinical phenotypes and doing a lot of statistics and graphs on R. But my initial formation was in cogitive neurosciences where I started to work with multimodal data (combination of Arterial Spin Labelling MRI data and Eye-tracking data).  
+I am Elise, Ph.D. student in neurosciences at the UdeM since near to 4 years, and working on **the contribution of genetic to neurodevelopmental disorders** as autism. I don't really fit in a specific domain (genetic/cognitive neurosciences/psychology). I guess it is what we call a *unicorn student*? Currently, I am working with genetic data (Copy Number Variants), clinical phenotypes and doing a lot of statistics and graphs on R. But my initial formation was in cognitive neurosciences where I started to work with multimodal data (combination of Arterial Spin Labelling MRI data and Eye-tracking data). 
 
-Since I started my Ph.D., I never used MRI data nor python, and I am here to take a revange on that. 
+Since I started my Ph.D., I never used MRI data nor python, and I am here to take a revenge on that. 
 
 **Skills:**
 
 - Data management (feed me with multimodal data plz)
-- Satistics
+- Statistics
 - Debugging codes
 
 # Project definition
@@ -65,13 +64,12 @@ Since I started my Ph.D., I never used MRI data nor python, and I am here to tak
 ## Background
 
 <p align="center">
-  <img src="Slide_content/illustration_genetic.png">
+<img src="Slide_content/illustration_genetic.png">
 </p>
 
-<p> <font size="1">Source: Illustration inspired from freepik.com content and adapted on adobe illustrator</font></p>  
+<p> <font size="1">Source: Illustration inspired from freepik.com content and adapted on adobe illustrator</font></p> 
 
-Copy number variants (CNVs) are a family of structural variation of the chromosomes. They can be either a loss or a gain of a chromosome portion in comparission to a genome of reference. Sometimes, CNVs can be pathogenic, meaning that they are formally associated to neurodevelopmental or psychiatric disorders, such as autism spectrum disorders (ASD), Schizophrenia (SZ) or intellectual disability (ID). Such pathogenic CNVs have been associated to significant alterations of brain volume ([Modenato et al., 2020](https://www.medrxiv.org/content/10.1101/2020.04.15.20056531v1.full) ; [Martin-Brevet et al., 2018](http://www.sciencedirect.com/science/article/pii/S000632231831401X) ; [Maillard et al., 2015](https://www.nature.com/articles/mp2014145)) or connectivity ([Moreau et al., 2019](https://www.biorxiv.org/content/10.1101/862615v1.full)). Notably, there were common alterations of the insula volume when comparing structural brain alterations due to pathogenic CNVs and due to a neurodevelopmental disorder (e.g. ASD or SZ) ([Cauda et al., 2017](https://onlinelibrary.wiley.com/doi/abs/10.1002/aur.1759) ; [Goodkind et al., 2015](https://jamanetwork.com/journals/jamapsychiatry/fullarticle/2108651)).
-
+Copy number variants (CNVs) are a family of structural variation of the chromosomes. They can be either a loss or a gain of a chromosome portion in comparison to a genome of reference. Sometimes, CNVs can be pathogenic, meaning that they are formally associated to neurodevelopmental or psychiatric disorders, such as autism spectrum disorders (ASD), Schizophrenia (SZ) or intellectual disability (ID). Such pathogenic CNVs have been associated to significant alterations of brain volume ([Modenato et al., 2020](https://www.medrxiv.org/content/10.1101/2020.04.15.20056531v1.full) ; [Martin-Brevet et al., 2018](http://www.sciencedirect.com/science/article/pii/S000632231831401X) ; [Maillard et al., 2015](https://www.nature.com/articles/mp2014145)) or connectivity ([Moreau et al., 2019](https://www.biorxiv.org/content/10.1101/862615v1.full)). Notably, there were common alterations of the insula volume when comparing structural brain alterations due to pathogenic CNVs and due to a neurodevelopmental disorder (e.g. ASD or SZ) ([Cauda et al., 2017](https://onlinelibrary.wiley.com/doi/abs/10.1002/aur.1759) ; [Goodkind et al., 2015](https://jamanetwork.com/journals/jamapsychiatry/fullarticle/2108651)).
 
 ## Problematic 
 
@@ -84,7 +82,7 @@ Can a model predict the genetic profile of an individual based on brain regions 
 This project aims to feed a machine learning model with brain volumes to predict if an individual is carrier of a potentially pathogenic CNV.
 
 <p align="center">
-  <img src="Slide_content/BLUPproject.png">
+<img src="Slide_content/BLUPproject.png">
 </p>
 
 <p> <font size="1">Source: Illustration inspired from freepik.com content and adapted on adobe illustrator</font></p> 
@@ -120,8 +118,8 @@ For all individuals, the 68 region volumes were adjusted for potential confounde
 
 | Goup | N | Mean age (sd) | Mean TIV (sd) | N Female | N Male | N Site 1 | N Site 2 | N Site 3 |
 |:------|:-----:|:---------:|:------:|:---------:|:---------:|:---------:|:---------:|:---------:|
-|   Carriers  | 1265  |63.8 (7.4)| 1540824.3 (150493.6) | 671 | 594 | 781 | 320 | 164 |
-|  Controls  | 34494 | 64.1	(7.6) | 1549091.7 (151512.6) | 18280 |	16214 |	21411 | 8607 |	4476 |
+| Carriers | 1265 |63.8 (7.4)| 1540824.3 (150493.6) | 671 | 594 | 781 | 320 | 164 |
+| Controls | 34494 | 64.1 (7.6) | 1549091.7 (151512.6) | 18280 | 16214 | 21411 | 8607 | 4476 |
 
 ### Final dataset: training and test sets
 
@@ -147,9 +145,8 @@ Click on the following images to open interactive pie-charts:
 - Step 1: Training the model on the training set
 - Step 2: Test the model on a validation set
 - Step 3: Cross validation (n fold = 10)
-- Step 4: Playing with the hyperparameter `max_depth` and `n_estimators` (and `learning_rate` for the gradient-boosted tree classifier)
+- Step 4: Playing with the hyperparameters `max_depth` and `n_estimators` (and `learning_rate` for the gradient-boosted tree classifier)
 - Step 5: Testing the model on the test set
-
 
 ## Tools (used and learned)
 
@@ -170,7 +167,6 @@ In this GitHub repository:
 - Data_for_plots/: Data used for two interactive figures (3D Desikan parcellation map and pie-cart of the sex and site distribution in the carriers and controls)
 - Interactive_plots/: Folder with the html object of the interactive figures
 - Slide_content/: Images used for the Slides_Final_week.ipynb file
-
 
 ### Week 3 deliverable: data visualization
 
@@ -203,7 +199,7 @@ BUT it is not a problem because... I learned a lot doing this project!
 
 ### Week four: 
 - 3 may 2020 Starting slides on jupyter notebook using Rise extension and creating project illustrations on adobe illustrator
-- 5 may 2020 Final presentation of the project with UKBB data and the results of the machine learning models
+- 5 may 2020 Final presentation of the project with UKBioBank data and the results of the machine learning models
 
 ### Week five: 
 - 8 may 2020 Final push of the blog for the visualization assignment
@@ -211,12 +207,12 @@ BUT it is not a problem because... I learned a lot doing this project!
 
 # Conclusion and acknowledgement
 
-This BHS project allows me to learn a lot of concepts and tools concerning the open science. It was also a nice introduction to machine learning models. Hopefully, I will spread the word and I will surelly include all these new tools in my practice. I am more than grateful toward all the intructors, mentors and students, who shared their knowledge. 
+This BHS project allows me to learn a lot of concepts and tools concerning the open science. It was also a nice introduction to machine learning models. Hopefully, I will spread the word and I will surely include all these new tools in my practice. I am more than grateful toward all the instructors, mentors and students, who shared their knowledge. 
 
 <p align="center"> <font size="4"> Thanks for this enriching experiment! </font> </p> 
 
 <p align="center">
-  <img src="https://media.giphy.com/media/l0HlN5Y28D9MzzcRy/giphy.gif" height="300">
+<img src="https://media.giphy.com/media/l0HlN5Y28D9MzzcRy/giphy.gif" height="300">
 </p>
 <p align="center"> <font size="1.5"> Source: https://media.giphy.com/</font></p> 
 
