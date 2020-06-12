@@ -1,8 +1,8 @@
 ---
 type: "project" # DON'T TOUCH THIS ! :)
-date: "2020-05-11" # Date you first upload your project.
+date: "2020-06-11" # Date you first upload your project.
 # Title of your project (we like creative title)
-title: "Diagnosing Schizophrenia with Brain Activity"
+title: "Diagnosing Schizophrenia from Brain Activity"
 
 # List the names of the collaborators within the [ ]. If alone, simple put your name within []
 names: [Alexander Albury]
@@ -15,7 +15,7 @@ website:
 
 # List +- 4 keywords that best describe your project within []. Note that the project summary also involves a number of key words. Those are listed on top of the [github repository](https://github.com/brainhack-school2020/project_template), click `manage topics`.
 # Please only lowercase letters
-tags: [brainhack, sklearn, fmri]
+tags: [brainhack, sklearn, fmri, nilearn, machine-learning]
 
 # Summarize your project in < ~75 words. This description will appear at the top of your page and on the list page with other projects..
 
@@ -27,6 +27,7 @@ image: "alina-grubnyak-brain.jpg"
 ---
 <!-- This is an html comment and this won't appear in the rendered page. You are now editing the "content" area, the core of your description. Everything that you can do in markdown is allowed below. We added a couple of comments to guide your through documenting your progress. -->
 
+![alt text](http://i.imgur.com/tXSoThF.png) [@albury_alex](https://twitter.com/albury_alex)
 ## Project definition 
 
 ### Background
@@ -104,6 +105,7 @@ The table below displays the average performance of each model across the 10-fol
 | KNN             | 0.62          | 0.43 | 0.73 |
 | Random Forest   | 0.73          | 0.58 | 0.92 |
 | RBF SVC (Tuned) | 0.81          | 0.63 | 1.0  |
+
 
 The best performing model was a Support Vector Machine CLassifier (SVC) using an RBF kernel, with values of 100.0 and 0.001 for the `C` and `gamma` parameters, respectively. This model was then used to predict daignosis on the left out validation set. On the validation set, the model had a final F1 score of **0.69**, and an accuracy of **0.67**.
 
