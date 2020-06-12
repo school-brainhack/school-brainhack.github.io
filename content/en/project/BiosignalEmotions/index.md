@@ -23,11 +23,9 @@ summary: "Can we automatically detect changes in emotions given a user's biosign
 
 # If you want to add a cover image (listpage and image in the right), add it to your directory and indicate the name
 # below with the extension.
-image: "bhs2020.png"
+image: "free_brain_emotions.png"
 ---
 <!-- This is an html comment and this won't appear in the rendered page. You are now editing the "content" area, the core of your description. Everything that you can do in markdown is allowed below. We added a couple of comments to guide your through documenting your progress. -->
-
-<img src="free_brain_emotions.png" alt="Brain_emojis" width="100"/> 
 
 ## Project definition 
 
