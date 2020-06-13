@@ -107,9 +107,9 @@ Since May 11, this project goes well and three goals of this project have been r
   - Interactive widgets use to show preprocess results 
   - Interactive widgets use to show reconstruction results 
 <div align="center">
-	<img src="https://github.com/brainhack-school2020/BHS_Project_dMRI/blob/master/Visualization/VolumeSlicesImg.gif" width="300" alt="1" title="3D volume slices image">
-	<img src="https://github.com/brainhack-school2020/BHS_Project_dMRI/blob/master/Visualization/Preprocessing.gif" width="300" title="Interactive widgets use to show preprocess results">	
-	<img src="https://github.com/brainhack-school2020/BHS_Project_dMRI/blob/master/Visualization/ReconstructedImg.gif" width="300" title="Interactive widgets use to show reconstruction results">
+	<img src="VolumeSlicesImg.gif" width="300" alt="1" title="3D volume slices image">
+	<img src="Preprocessing.gif" width="300" title="Interactive widgets use to show preprocess results">	
+	<img src="ReconstructedImg.gif" width="300" title="Interactive widgets use to show reconstruction results">
 </div>
 #### Preprocessing results
 
