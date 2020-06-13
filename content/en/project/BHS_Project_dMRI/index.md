@@ -111,22 +111,23 @@ Since May 11, this project goes well and three goals of this project have been r
 	<img src="Preprocessing.gif" width="300" title="Interactive widgets use to show preprocess results">	
 	<img src="ReconstructedImg.gif" width="300" title="Interactive widgets use to show reconstruction results">
 </div>
+
 #### Preprocessing results
 
 <div align="left">
-	<img src="https://github.com/brainhack-school2020/BHS_Project_dMRI/blob/master/Fig/PreproResults.png" width="650" alt="1" title="DTI Results">
+	<img src="PreproResults.png" width="650" alt="1" title="DTI Results">
 </div>
 
 #### DTI results
 
 <div align="left">
-	<img src="https://github.com/brainhack-school2020/BHS_Project_dMRI/blob/master/Fig/DTI_Results.png" width="800" alt="1" title="DTI Results">
+	<img src="DTI_Results.png" width="800" alt="1" title="DTI Results">
 </div>
 
 #### Left and right hemispheres classification results
 
 <div align="left">
-	<img src="https://github.com/brainhack-school2020/BHS_Project_dMRI/blob/master/Fig/classification.png" width="400" alt="1" title="DTI Results">
+	<img src="classification.png" width="400" alt="1" title="DTI Results">
 </div>
 
 ## Conclusion and acknowledgement
