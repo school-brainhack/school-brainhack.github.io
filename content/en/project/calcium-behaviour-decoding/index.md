@@ -2,7 +2,7 @@
 type: "project" # DON'T TOUCH THIS ! :)
 date: "2020-06-13" # Date you first upload your project.
 # Title of your project (we like creative title)
-title: "#Exploring machine learning tools for modelling calcium imaging data to behavioural events"
+title: "Exploring machine learning tools for modelling calcium imaging data to behavioural events"
 
 # List the names of the collaborators within the [ ]. If alone, simple put your name within []
 names: [Zeeshan Haqqee]
@@ -57,7 +57,7 @@ Big overarching question: How does neural activity change over time as the anima
 For a detailed review of general tools and methodology, see: https://www.biorxiv.org/content/10.1101/2020.02.06.937573v1.full
 
 
-### Data 
+### Data
 
 Behavioural data is time-stamped for every action done by the animal (touching the screen, drinking reward, incorrect choice, correct choice, etc.)
 
@@ -91,12 +91,12 @@ The primary issue with my analysis design is that each cell's activity is its ow
 * nilearn
 * scikitlearn
 * MATLAB
- 
-## Results 
+
+## Results
 
 ### Single Cell - Sliding window analysis
 
-Below are histograms depicting the distribution of test scores (top) and 5-fold cross validation scores (bottom) for three machine learning classifiers tested on 109 indiviual cells with windowed (4 frames) time-series data. Training and test data was shuffled and re-tested 50 times, and counts of cells that scored >80% accuracy on each test are tabulated next to each classifier method. 
+Below are histograms depicting the distribution of test scores (top) and 5-fold cross validation scores (bottom) for three machine learning classifiers tested on 109 indiviual cells with windowed (4 frames) time-series data. Training and test data was shuffled and re-tested 50 times, and counts of cells that scored >80% accuracy on each test are tabulated next to each classifier method.
 
 <img src="results1.PNG">
 
@@ -120,7 +120,7 @@ Equally bad were the results of the summed time-series activity all 109 cells. T
 
 ### Population level - Cell-to-Cell Correlations
 
-Another way to look at population level activity is through cell-to-cell correlations, similar to what is done fMRI connectivity analyses. Except here, each region of interest is an individual neuron. Adapting the script learned from the machine learning with nilearn tutorial, I generated a 109 x 109 correlation matrix for all cells, as well as a feature matrix of 5800+ correlations between pairs of cells' windowed time series data: 
+Another way to look at population level activity is through cell-to-cell correlations, similar to what is done fMRI connectivity analyses. Except here, each region of interest is an individual neuron. Adapting the script learned from the machine learning with nilearn tutorial, I generated a 109 x 109 correlation matrix for all cells, as well as a feature matrix of 5800+ correlations between pairs of cells' windowed time series data:
 
 <img src="crosscorr.png" width=440> <img src="featma.png" width=440>
 
@@ -134,13 +134,13 @@ It appears that looking at correlated activity is a reasonable approach for unde
 
 ## Conclusions
 
-Here, we see that both single cell and population level analyses can be useful for modelling correct vs. incorrect performance on a reward-driven behavioural task. However, some methods seem to work better than others, and both the methods that do and do not work help us understand the functional dynamics of the hippocampal cells that govern certain aspects of reward-driven learning. 
+Here, we see that both single cell and population level analyses can be useful for modelling correct vs. incorrect performance on a reward-driven behavioural task. However, some methods seem to work better than others, and both the methods that do and do not work help us understand the functional dynamics of the hippocampal cells that govern certain aspects of reward-driven learning.
 
 ## Future directions
 
 * Use machine learning to predict and decode other events in the population activity of the cells, such as trial and object types.
 * What does the 'connectome' of relevant correlations for specific events look like? How does it change over time?
-* How does prediction accuracy for each of these tests change over time? Does this reflect anything about how the hippocampus handles the learning of new information? 
+* How does prediction accuracy for each of these tests change over time? Does this reflect anything about how the hippocampus handles the learning of new information?
 * Create a polished machine learning pipeline to systematically decode different types of events in the behaviour and pick return a rank of the best models and their respective prediction accuracies and how they change over time.
 
 ## Acknowledgements
