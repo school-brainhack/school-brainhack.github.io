@@ -57,8 +57,6 @@ _Figure from [Coffey et al., 2019](https://www-nature-com.proxy3.library.mcgill.
 
 ![The Frequency Following Response and Machine-Learning](Coffey_Evolv_FFR.webp)
 
-<iframe width="560" height="315" src="https://www.youtube.com/watch?v=6lX_-AgOXug" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
 ### Tools
 
 The "EEG-FFR Classification" project will rely on the following technologies:
