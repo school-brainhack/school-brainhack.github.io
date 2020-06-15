@@ -55,7 +55,7 @@ Fortunatly, machine-learning classifiers recently developed with speech-evoked n
 
 _Figure from [Coffey et al., 2019](https://www-nature-com.proxy3.library.mcgill.ca/articles/s41467-019-13003-w), with permission)_
 
-![The Frequency Following Response and Machine-Learning](/images/Coffey_Evolv_FFR.webp)
+![The Frequency Following Response and Machine-Learning](Coffey_Evolv_FFR.webp)
 
 <iframe width="560" height="315" src="https://www.youtube.com/watch?v=6lX_-AgOXug" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
@@ -85,10 +85,11 @@ The dataset for this tutorial project was previously published and generously pr
 For more details on this dataset, please see [Cortical Correlates of the Auditory Frequency-Following and Onset Responses: EEG and fMRI Evidence](https://www.jneurosci.org/content/37/4/830). Questions can also be directed to emily.coffey@concordia.ca 
 
 #### 1) Stimuli
+
 The auditory stimuli used were a speech |dah| and a piano tone stimuli, with both a duration of 100ms and a fondamental frequency of 98 Hz. Stimuli were presented in blocks of da/piano, alternating polarity every second stimulus (see Krizman & Kraus, 2019 for more information about alternating the stimulus polarity).
 
 100ms 'da' syllable-stimuli vs piano tone-stimuli compared to the FFR of Subject 101
-![Stimulis vs FFR](/images/Llanos_IABProjectPilot_FFR.png)
+![Stimulis vs FFR](Llanos_IABProjectPilot_FFR.png)
 
 #### 2) EEG Data
 
@@ -112,7 +113,7 @@ _(Note from 1st author: "It is a funny number because I shifted the data to acco
 Here is what a grand average of the FFR looks like:
 
 100ms 'da' syllable-FFR vs. piano tone-FFR (_N=27)
-![100ms 'da' syllable-FFR and piano tone-FFR (_N=27)_](/images/BHS_Tutorial_FFR_GrandAverage.png)
+![100ms 'da' syllable-FFR and piano tone-FFR (_N=27)_](BHS_Tutorial_FFR_GrandAverage.png)
  
 
 ## Results
@@ -133,7 +134,7 @@ It is worth noting that the absence of music experience differences in overall d
 
 As both the tone and the syllable share the same F0 contour, it is worth emphazing that the differences in the FFRs are really fine. More than 100 trials to reach accuracy over chance may be improved by abjusting the parameters of the HMM. (However, this require further exploration and would be under the scope of another tutorial.) It may also take hundreds of trials for very small context-determined perturbations to emerge in the FFR. Further experimentation will tell! :)  
 
-![Results](/images/Results.png)
+![Results](Results.png)
 
 ## Course Deliverables
 
@@ -168,7 +169,7 @@ As both the tone and the syllable share the same F0 contour, it is worth emphazi
 * Proof reading by a novice learner to identify terms that require explainations 
 * Uploading the License procedures for future scripts & tutorials
 
-![Many seeds are planted!](/images/Growing_Plant.jpeg)
+![Many seeds are planted!](Growing_Seeds.jpeg)
 
 ## Conclusion 
 
