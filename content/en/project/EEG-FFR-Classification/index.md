@@ -110,9 +110,12 @@ _(Note from 1st author: "It is a funny number because I shifted the data to acco
 
 Here is what a grand average of the FFR looks like:
 
-100ms 'da' syllable-FFR vs. piano tone-FFR (_N=27)
-![100ms 'da' syllable-FFR and piano tone-FFR (_N=27)_](BHS_Tutorial_FFR_GrandAverage.png)
- 
+100ms 'da' syllable-FFR (_N=26_)
+![100ms 'da' syllable-FFR (_N=26_)](allSubjectFFRcls1.tif)
+
+100ms piano tone-FFR (_N=26_)
+![100ms piano tone-FFR (_N=26)_](allSubjectFFRcls2.tif) 
+
 
 ## Results
 
