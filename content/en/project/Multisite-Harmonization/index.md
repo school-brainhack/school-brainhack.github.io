@@ -175,7 +175,7 @@ Note that this container does NOT contain the data or code. When you run it (see
 
  3. The effects of ASD diagnosis on subcortical volumes were generally non-significant using all three measures.
  4. Cohen's _d_ effect sizes and confidence intervals were similar across all three methods.
-![Forest Plot](output/forest-plot.png)
+![Forest Plot](forest-plot.png)
 
 ## Instructions
 ### Pipeline Instructions
