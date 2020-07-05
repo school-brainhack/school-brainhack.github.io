@@ -76,7 +76,7 @@ This project made use of subcortical volumes, previously derived from a subset (
 ## Progress overview
 ### Workflow
 The workflow encapsulated in the pipeline and jupyter notebook are described in the figure below.
-![workflow](images/workflow_actual.png)
+![workflow](workflow_actual.png)
 T1w structural MRI scans from several sites in the ABIDE dataset were preprocessed, then segmented using the [MAGeTBrain](https://github.com/CobraLab/MAGeTbrain) segmentation pipeline, which provided volumes for left and right striatum, thalamus, and globus pallidus. The pipeline developed here then masked out volumes for structures that did not pass quality control checks (QC). This data was examined using interactive visualizations in Python and Jupyter notebook. The same masked data was processed in three streams by the pipeline. In all three cases, linear models were used to quantify the effect of an autism spectrum disorder diagnosis on the volumes of the subcortical structures listed above. Age, sex, and total brain volume were used as covariates.
 
 In the first stream, linear models were fit, as shown in the figure, to the unharmonized data, with imaging site added as a covariate. In the second, linear mixed effects models were fit, with site as a random effect (random intercept). In the third, the raw volumes were harmonized using ComBat, and linear models were fit to this harmonized data. The harmonization included age and sex as covariates, to preserve variation due to those factors. Because ComBat was expected to remove site-specific effects, site was not included as a covariate in these models.
@@ -120,7 +120,7 @@ The [Github repository](https://github.com/brainhack-school2020/dnmacdon_ASD_mul
 
 The structure of the repository is shown below:
 
-![Repository Structure](images/RepoTree.png)
+![Repository Structure](RepoTree.png)
 
 | File/Directory    | Content |
 | ----------------- | ------- |
@@ -166,11 +166,11 @@ Note that this container does NOT contain the data or code. When you run it (see
 ## Results
  1. Differences between sites included different age distributions, meaning that different sites were sampling different populations. This indicates that there is biological variability between sites that should be preserved. Below are two views on the age distributions.
 
-![Age Distribution 1](images/age_dist1.png) ![Age Distribution 2](images/age_dist2.png)
+![Age Distribution 1](age_dist1.png) ![Age Distribution 2](age_dist2.png)
 
  2. Combat harmonization shifted the subcortical volume distributions, typically subtly. The large panel below shows one example, for the left globus pallidus. Harmonized volumes are in brown, unharmonized in blue. The smaller panels show, for the same structure, the distributions of volume with age and total brain volume, both before and after harmonization. These are biological sources of variability that we want to preserve.
 
-![Harmonization](images/harm_dist_LGP.png)
+![Harmonization](harm_dist_LGP.png)
 
 
  3. The effects of ASD diagnosis on subcortical volumes were generally non-significant using all three measures.
