@@ -51,6 +51,7 @@ This change of accuracy made me curious about training ANN on Haxby dataset to e
 * Python visualization, statistics & machine learning libraries (e.g. NumPy, Seaborn, scikit-learn, Matlplotlib, nibabel, graphviz, and pydotplus)
 * Compute Canada/Calcul Québec
 * Binder
+* Terminal and Shell commands
 
 ### Data
 For BHS project I used [Haxby et al.(2001)](http://data.pymvpa.org/datasets/haxby2001/) which is a high-quality block-design fMRI dataset from a study on face & object representation in the human ventral temporal cortex (This cortex is involved in the high-level visual processing of complex stimuli). It consists of 6 subjects with 12 runs per subject. In this experiment during each run, the subjects passively viewed greyscale images of 8 object categories, grouped in 24s blocks separated by rest periods. Each image was shown for 500ms and was followed by a 1500ms inter-stimulus interval.
@@ -63,10 +64,13 @@ For BHS project I used [Haxby et al.(2001)](http://data.pymvpa.org/datasets/haxb
 
 **Week 3:** From the third week, I started to create my main jupyter notebook called [Classifiers.ipynb](https://github.com/brainhack-school2020/BHS_project_SRastegarnia/blob/master/Classifiers.ipynb) to try six different classification methods on Haxby dataset and compare the results. For me, this approach was challenging not only because of writing scripts but also for understanding the classifiers algorithms and work follows. Since I am new in this field and have never had a machine learning course before, I had to read several references to figure out these approaches, their strengths, and their weaknesses. It gave me the opportunity to learn about several ML models and to get a much better understanding of the reasons that some classifiers return better results on certain datasets compared to the rest.
 
-**Week 4 & 5:** During these weeks, I executed some performance metrics such as "Classification Accuracy”, "Cross-Validation" and “Confusion Matrix” in order to check my different ML model results. I also added documentation to make my notebook reproducible and easy to understand for everyone even those without ML background.  Moreover, I uploaded and ran one of my scripts on Compute Canada.
-After doing all the mentioned tasks, I decided to try a more complicated model and as I mentioned above I chose ANN that can be found as [ANN_onHaxby.ipynb](https://github.com/brainhack-school2020/BHS_project_SRastegarnia/blob/master/ANN_onHaxby.ipynb). Similar to the previous notebook I added a quick review about the ANN algorithm and some explanation for all the cells in order to make it easy to follow.
+**Week 4 & 5:** During these weeks, I executed some performance metrics such as "Classification Accuracy”, "Cross-Validation" and “Confusion Matrix” in order to check my different ML model results. I added a quick review for each classifier algorithm to make my notebook reproducible and easy to understand for everyone even those without ML background.  
 
-I have written down all my progressions in detail, divided per week, in my BHS repository [README](https://github.com/brainhack-school2020/BHS_project_SRastegarnia/blob/master/README.md) file under "TO-DO LIST " section.
+Additionally, I uploaded and ran one of my scripts on Compute Canada.
+
+After finishing all the mentioned tasks, I decided to take advantage of the remaining time of the 5th week by trying a more complicated model. As was mentioned above, I chose the ANN model. This notebook can be found as [ANN_onHaxby.ipynb](https://github.com/brainhack-school2020/BHS_project_SRastegarnia/blob/master/ANN_onHaxby.ipynb). Similar to the previous notebook I added a quick review about the ANN algorithm and some explanation for all the cells in order to make it easy to follow.
+
+*I have written down all my progressions in detail, divided per week, in my BHS repository [README](https://github.com/brainhack-school2020/BHS_project_SRastegarnia/blob/master/README.md) file under "TO-DO LIST " section.*
 
 ## Results
 The following figures demonstrate the confusion matrix of all the classifiers.
@@ -79,7 +83,7 @@ As depicted in the following image the support vector machine classification has
 <img src="clfs.jpg" width="584" height="362"> 
 </div>
 
-
+## Conclusion
 ### Tools I learned during this project
 
  * **Git/Github** 
