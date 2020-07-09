@@ -2,7 +2,7 @@
 type: "project" # DON'T TOUCH THIS ! :)
 date: "2020-05-16" # Date you first upload your project.
 # Title of your project (we like creative title)
-title: "Intro to brain decoding and classification of Haxby dataset using six different common approaches"
+title: "An introduction to brain decoding and comparing the results of the seven different classifier on Haxby dataset"
 
 # List the names of the collaborators within the [ ]. If alone, simple put your name within []
 names: [Shima Rastegarnia]
@@ -19,7 +19,7 @@ tags: [fmri, machine Learning, deep learning, classification, artificial neural 
 
 # Summarize your project in < ~75 words. This description will appear at the top of your page and on the list page with other projects..
 
-summary: "Brain decoding is a neuroscience field that concerned about different types of stimuli from information that has already been encoded and represented in the brain by networks of neurons. My goals for this project are learning the fundamentals of brain decoding, comparing the performance of six different common classifiers and finally training the Artificial Neural Network (ANN) models on Haxby dataset."
+summary: "Brain decoding is a neuroscience field that concerned about different types of stimuli from information that has already been encoded and represented in the brain by networks of neurons. My goal for this project is learning the fundamentals of brain decoding. Moreover, I compared the performance of seven different common classification approaches including Naive Bayes, Nearest Neighbours, Neural Networks, Logistic Regression, Support vector machine, Decision tree and finally the Artificial Neural Network on Haxby dataset."
 
 # If you want to add a cover image (listpage and image in the right), add it to your directory and indicate the name
 # below with the extension.
@@ -35,7 +35,7 @@ image: "FlowerBouquet.png"
 ## Project definition
 
 ### Background
-I have B.S in computer software engineering and currently I am a Master’s student in computer science at Université de Montréal (Jan. 2020). Since I am still in the early steps of my master’s project, my main goal was to learn as much as possible and making use of several tools that we have learned during BHS training courses.
+I have B.S in computer software engineering and currently I am a Master’s student in computer science at Université de Montréal (Jan. 2020). Since I am still in the early steps of my master’s project, my main goal is to learn as much as possible and making use of several tools that we have learned during BHS training courses.
 
 ### Brain_decoding overview
 Brain decoding or mind-reading using neuroimaging data has been an active topic for years. This project focused on brain decoding using visual stimuli. In the human brain, the functional architecture of the object vision pathway can be investigated using fMRI. It can be done by considering the patterns of response in the ventral temporal cortex while subjects are looking at the different objects. Several studies indicate that the brain responses to the vision of each category of objects are widely distributed and overlapping. Therefore, a distinct pattern of response exists for each stimulus category in the ventral temporal cortex.
@@ -57,19 +57,19 @@ For BHS project I used [Haxby et al.(2001)](http://data.pymvpa.org/datasets/haxb
 
 ### Progress overview
 
-Week 1: During BHS training week I was trying to use the tools that we learned by practicing and following different tutorials. I started using my local environments and Github by examining different files an notebooks.
+**Week 1:** During BHS training week I was trying to use the new concepts that we learned, by practicing and following different tutorials. I started using Git & Github.
 
-Week 2: The second week I started to run some brain decoding scripts, mostly by following Nilearn and sklearn tutorials and pushed them on my repository . I tried to explore how they work by experimenting and personalizing them.
+**Week 2:** In the second week, I created the README file, made slides and became prepare for the project draft presentation. Moreover, I started to play with brain decoding scripts, mostly by following Nilearn and sklearn tutorials. I explored how they work by experimenting and personalizing them.
 
-Week 3: From the third week I started to write my own codes for several classification methods on the Haxby dataset. For me, this approach was challenging not only beacause of writing scripts but also for understanding the classifiers algorithms and work follows. Since I am new in this field and have never had a machine learning course before, I had to read several references to figure out these approaches, their strengths and weaknesses. It helps me to have a better understanding about the reasons that some classifiers return better results on certain datasets compared to the rest. Moreover, I uploaded and ran one of my scripts on Compute Canada.
+**Week 3:** From the third week, I started to create my main jupyter notebook called [Classifiers.ipynb](https://github.com/brainhack-school2020/BHS_project_SRastegarnia/blob/master/Classifiers.ipynb) to try six different classification methods on Haxby dataset and compare the results. For me, this approach was challenging not only because of writing scripts but also for understanding the classifiers algorithms and work follows. Since I am new in this field and have never had a machine learning course before, I had to read several references to figure out these approaches, their strengths, and their weaknesses. It gave me the opportunity to learn about several ML models and to get a much better understanding of the reasons that some classifiers return better results on certain datasets compared to the rest.
 
-Week 4: During the fourth week I executed some performance metrics such as "Classification Accuracy”, "Cross-Validation" and “Confusion Matrix” in order to check my different ML models results. I also added documentation to make my notebook reproducible and easy to follow for everyone. 
-After doing all the above tasks, I tried my first model training experiment and as I mentioned above I chose ANN. (I still need to improve this notebook)
+**Week 4 & 5:** During these weeks, I executed some performance metrics such as "Classification Accuracy”, "Cross-Validation" and “Confusion Matrix” in order to check my different ML model results. I also added documentation to make my notebook reproducible and easy to understand for everyone even those without ML background.  Moreover, I uploaded and ran one of my scripts on Compute Canada.
+After doing all the mentioned tasks, I decided to try a more complicated model and as I mentioned above I chose ANN that can be found as [ANN_onHaxby.ipynb](https://github.com/brainhack-school2020/BHS_project_SRastegarnia/blob/master/ANN_onHaxby.ipynb). Similar to the previous notebook I added a quick review about the ANN algorithm and some explanation for all the cells in order to make it easy to follow.
 
-I have wrote down all my goals divided per week in my repository README file under "TO-DO LIST " title.
+I have written down all my progressions in detail, divided per week, in my BHS repository [README](https://github.com/brainhack-school2020/BHS_project_SRastegarnia/blob/master/README.md) file under "TO-DO LIST " section.
 
 ## Results
-The following figure demonstrates the confusion matrix of all the six classifiers
+The following figures demonstrate the confusion matrix of all the classifiers.
 <div align="center">
 <img src="Confusion_matrices.jpg" width="687" height="376"> 
 </div>
@@ -104,7 +104,7 @@ In general, this course taught me how to make a deliverable project based on ope
 * Final report summarizing the entire project
 
 
-### Future plan
+### Future directions
 My future goal post brain hack school would be increasing my knowledge of machine learning and deeplearning and training and learning about different models including GCN!
 
 ## Special thanks to:
