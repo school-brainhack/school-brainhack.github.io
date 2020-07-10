@@ -36,6 +36,10 @@ image: "FlowerBouquet.png"
 
 ### Background
 I have B.S in computer software engineering and currently I am a Master’s student in computer science at Université de Montréal (Jan. 2020). Since I am still in the early steps of my master’s project, my main goal is to learn as much as possible and making use of several tools that we have learned during BHS training courses.
+<div align="center">
+<img src="logo.png" width="700" height="100"> 
+</div>
+
 
 ### Brain_decoding overview
 Brain decoding or mind-reading using neuroimaging data has been an active topic for years. This project focused on brain decoding using visual stimuli. In the human brain, the functional architecture of the object vision pathway can be investigated using fMRI. It can be done by considering the patterns of response in the ventral temporal cortex while subjects are looking at the different objects. Several studies indicate that the brain responses to the vision of each category of objects are widely distributed and overlapping. Therefore, a distinct pattern of response exists for each stimulus category in the ventral temporal cortex.
@@ -54,7 +58,7 @@ This change of accuracy made me curious about training ANN on Haxby dataset to e
 * Terminal and Shell commands
 
 ### Data
-For BHS project I used [Haxby et al.(2001)](http://data.pymvpa.org/datasets/haxby2001/) which is a high-quality block-design fMRI dataset from a study on face & object representation in the human ventral temporal cortex (This cortex is involved in the high-level visual processing of complex stimuli). It consists of 6 subjects with 12 runs per subject. In this experiment during each run, the subjects passively viewed greyscale images of 8 object categories, grouped in 24s blocks separated by rest periods. Each image was shown for 500ms and was followed by a 1500ms inter-stimulus interval.
+For this project I used [Haxby et al.(2001)](http://data.pymvpa.org/datasets/haxby2001/) which is a high-quality block-design fMRI dataset from a study on face & object representation in the human ventral temporal cortex (This cortex is involved in the high-level visual processing of complex stimuli). The dataset consists of 6 subjects with 12 runs per subject. In this experiment during each run, the subjects passively viewed greyscale images of 8 object categories, grouped in 24s blocks separated by rest periods. Each image was shown for 500ms and was followed by a 1500ms inter-stimulus interval.
 
 ### Progress overview
 
@@ -72,48 +76,87 @@ After finishing all the mentioned tasks, I decided to take advantage of the rema
 
 *I have written down all my progressions in detail, divided per week, in my BHS repository [README](https://github.com/brainhack-school2020/BHS_project_SRastegarnia/blob/master/README.md) file under "TO-DO LIST " section.*
 
-## Results
-The following figures demonstrate the confusion matrix of all the classifiers.
+### Results
+As depicted in the following image the support vector machine classification has the best performance while the decision tree returned the worst accuracy, which is understandable considering the classifiers algorithms and the nature of the data.
+
 <div align="center">
-<img src="Confusion_matrices.jpg" width="687" height="376"> 
+<img src="https://github.com/brainhack-school2020/BHS_project_SRastegarnia/blob/master/Images/Classifiers_graphs.png" width="1242" height="310"> 
 </div>
 
-As depicted in the following image the support vector machine classification has the best performance while the decision tree returned the worst accuracy, which is understandable considering the classifiers algorithms and the nature of the data.
+
+&nbsp;
+
+The following figure demonstrates the six classifiers confusion matrices. 
 <div align="center">
-<img src="clfs.jpg" width="584" height="362"> 
+<img src="https://github.com/brainhack-school2020/BHS_project_SRastegarnia/blob/master/Images/6classifiers_cm.png" width="990" height="543"> 
 </div>
+
+&nbsp;
+
+Here, we see the ANN confusion matrix and the accuracy results. The accuracy is increased from each epoch to the next one that demonstrates how during this supervised phase, the network is taught what is the desired output. 
+
+<div align="center">
+<img src="https://github.com/brainhack-school2020/BHS_project_SRastegarnia/blob/master/Images/ANN_cm_acc.png" width="850" height="290"> 
+</div>
+
+&nbsp;
+
+However, some methods seem to work better than others, It shouldn’t be forgotten that the size and type of data plays an important role in the results of different models. As an example, generally multi-layer networks have better results on big datasets. In this case, the results are desirable considering the small size of the input data.
+
+&nbsp;
+
+## Tools I learned during this project
+ALL the tools that are mentionned above, also I touched TensorFlow!
 
 ## Conclusion
-### Tools I learned during this project
-
- * **Git/Github** 
- * **Terminal and Shell commands** 
- * **Compute Canada/Calcul Quebec** 
- * **TensorFlow** 
- * **New python libraries**
- * **Binder**
- * **Nilearn**
+Along with many open science tools that I have learned and used during this course; BHS was a great introduction to machine learning. I trained several machine learning classification methods to learn and compare their performance on the mentioned dataset that helped to strengthen my skills in Python and using ML/DL models.
  
-In general, this course taught me how to make a deliverable project based on open-science.
+In the beginning, I explored brain decoding scripts by following tones of tutorials (mostly from Nilearn and sklearn). In the next step, I created a notebook to improve my coding skills and ML knowledge by evaluating the performance of seven different classifiers. I used plotly for making interactable graphs to demonstrate the results.
+In the end, I tried my first ever deep learning algorithm which was an artificial neural network.
+Additionally, the focus on reproducible science taught me how to make a deliverable project based on an open-science concept.
 
-### Deliverables
+## Deliverables
 
-* [Jupyter Notebook with code to produce plots of my results](https://github.com/brainhack-school2020/BHS_project_SRastegarnia/blob/master/Data-visualization.ipynb)
 * [Jupyter Notebook with code for comparing different classifiers](https://github.com/brainhack-school2020/BHS_project_SRastegarnia/blob/master/Classifiers.ipynb)
 * [Jupyter Notebook with code for Artificial Neural Network model training](https://github.com/brainhack-school2020/BHS_project_SRastegarnia/blob/master/ANN_onHaxby.ipynb)
 * [Jupyter Notebook with code for introduction to brain decoding](https://github.com/brainhack-school2020/BHS_project_SRastegarnia/blob/master/BHS_Haxby_BrainDecoding.ipynb)
+[Jupyter Notebook with code to produce plots of my results](https://github.com/brainhack-school2020/BHS_project_SRastegarnia/blob/master/Data-visualization.ipynb) (week three deliverable)
 * [Batch script used on Compute Canada to run BHS_Haxby_BrainDecoding.py script](https://github.com/brainhack-school2020/BHS_project_SRastegarnia/blob/master/BHS_Batch.sh)
-* [Github repository including project description with all mentioned Jupyter Notebooks clearly commented](https://github.com/brainhack-school2020/BHS_project_SRastegarnia)
+* [Github repository including project description with all mentioned Jupyter Notebooks clearly commented](https://github.com/brainhack-school2020/BHS_project_SRastegarnia) (Please use Binder to see all the results!)
 * [First](https://drive.google.com/open?id=1ABaOXwWPks8xB28OlkiwDvqx7D0B2htQ) and [Final](https://drive.google.com/file/d/1qFHRrdjRLgfP-5dDYNs12vHyDhFCYVp6/view?usp=sharing) presentation slides
-* Final report summarizing the entire project
+* The final report summarizing the entire project and my progression. 
 
 
-### Future directions
-My future goal post brain hack school would be increasing my knowledge of machine learning and deeplearning and training and learning about different models including GCN!
-
-## Special thanks to:
-Pierre Bellec, Désirée Lussier,Valerie Hayot and Jacob Vogel for all their help and support during Brain hack school time!
+## Future directions
+My goals post brain hack school would be increasing my knowledge of machine learning and deep learning and training more complicated models including GCN on new datasets! Also, I hope to try more tools for neuroimaging analysis and preprocessing data.
 
 ## Aknowledgments
+During BHS, I learned a lot of new tools and so many skills that I will definitely use in the future. I would like to thank all the BHS organizers, instructors, and TAs for sharing their knowledge and putting together this amazing course. Special thanks to Pierre Bellec and my clinic instructors Désirée, Valerie, and Jacob for helping me out with different aspects of my project.
+Thanks for giving me this opportunity!
 
-<img src="logo.png" width="1000" height="100"> 
+## References
+
+1. Distributed and Overlapping Representations of Faces and Objects in Ventral Temporal Cortex, Haxby et al. 2001
+2. https://machinelearningmastery.com/exploding-gradients-in-neural-networks/
+3. https://medium.com/data-science-group-iitr/loss-functions-and-optimization-algorithms-demystified-bb92daff331c
+4. https://towardsdatascience.com/the-vanishing-gradient-problem-69bf08b15484
+5. https://scikit-learn.org/stable/modules/generated/sklearn.metrics.accuracy_score.html
+6. https://scikit-learn.org/stable/modules/generated/sklearn.neighbors.KNeighborsClassifier.html
+7. https://scikit-learn.org/stable/modules/generated/sklearn.linear_model.LogisticRegression.html
+8. https://scikit-learn.org/stable/modules/svm.html
+9. https://scikit-learn.org/stable/modules/generated/sklearn.svm.SVC.html#sklearn.svm.SVC
+10. https://towardsdatascience.com/introduction-to-artificial-neural-networks-ann-1aea15775ef9
+11. https://nilearn.github.io/auto_examples/02_decoding/plot_haxby_stimuli.html#sphx-glr-auto-examples-02-decoding-plot-haxby-stimuli-py
+12. https://nilearn.github.io/auto_examples/01_plotting/plot_haxby_masks.html#sphx-glr-auto-examples-01-plotting-plot-haxby-masks-py
+13. https://nilearn.github.io/auto_examples/02_decoding/plot_haxby_anova_svm.html#sphx-glr-auto-examples-02-decoding-plot-haxby-anova-svm-py
+14. https://towardsdatascience.com/building-your-own-artificial-neural-network-from-scratch-on-churn-modeling-dataset-using-keras-in-690782f7d051
+15. https://nilearn.github.io/auto_examples/02_decoding/plot_haxby_full_analysis.html#roi-based-decoding-analysis-in-haxby-et-al-dataset
+16. https://nilearn.github.io/auto_examples/02_decoding/plot_haxby_multiclass.html#sphx-glr-auto-examples-02-decoding-plot-haxby-multiclass-py
+17. https://nilearn.github.io/auto_examples/plot_decoding_tutorial.html
+18. https://scikit-learn.org/stable/modules/generated/sklearn.model_selection.train_test_split.html
+19. https://towardsdatascience.com/categorical-encoding-using-label-encoding-and-one-hot-encoder-911ef77fb5bd
+20. https://scikit-learn.org/stable/modules/generated/sklearn.neural_network.MLPClassifier.html#sklearn.neural_network.MLPClassifier
+21. https://github.com/ncarlson01/chat_ML
+22. https://scikit-learn.org/stable/modules/generated/sklearn.neighbors.KNeighborsClassifier.html?highlight=kneighbors#sklearn.neighbors.KNeighborsClassifier
+23. https://scikit-learn.org/stable/supervised_learning.html#supervised-learning
+
