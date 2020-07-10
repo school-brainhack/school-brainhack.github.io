@@ -81,7 +81,7 @@ After finishing all the mentioned tasks, I decided to take advantage of the rema
 As depicted in the following image the support vector machine classification has the best performance comparing to the other mentioned classifiers, while the decision tree returned the worst accuracy, which is understandable considering the classifiers algorithms and the nature of the data.
 
 <div align="center">
-<img src="https://github.com/brainhack-school2020/BHS_project_SRastegarnia/blob/master/Images/Classifiers_graphs.png" width="1242" height="310"> 
+<img src="Classifiers_graphs.png" width="1242" height="310"> 
 </div>
 
 
@@ -89,7 +89,7 @@ As depicted in the following image the support vector machine classification has
 
 The following figure demonstrates the six classifiers confusion matrices. 
 <div align="center">
-<img src="https://github.com/brainhack-school2020/BHS_project_SRastegarnia/blob/master/Images/6classifiers_cm.png" width="990" height="543"> 
+<img src="6classifiers_cm.png" width="990" height="543"> 
 </div>
 
 &nbsp;
@@ -97,7 +97,7 @@ The following figure demonstrates the six classifiers confusion matrices.
 Here, we see the ANN confusion matrix and the accuracy results. The accuracy is increased from each epoch to the next one that demonstrates how during this supervised phase, the network is taught what is the desired output. 
 
 <div align="center">
-<img src="https://github.com/brainhack-school2020/BHS_project_SRastegarnia/blob/master/Images/ANN_cm_acc.png" width="850" height="290"> 
+<img src="ANN_cm_acc.png" width="850" height="290"> 
 </div>
 
 &nbsp;
@@ -147,17 +147,12 @@ Thanks for giving me this opportunity!
 8. https://scikit-learn.org/stable/modules/svm.html
 9. https://scikit-learn.org/stable/modules/generated/sklearn.svm.SVC.html#sklearn.svm.SVC
 10. https://towardsdatascience.com/introduction-to-artificial-neural-networks-ann-1aea15775ef9
-11. https://nilearn.github.io/auto_examples/02_decoding/plot_haxby_stimuli.html#sphx-glr-auto-examples-02-decoding-plot-haxby-stimuli-py
-12. https://nilearn.github.io/auto_examples/01_plotting/plot_haxby_masks.html#sphx-glr-auto-examples-01-plotting-plot-haxby-masks-py
-13. https://nilearn.github.io/auto_examples/02_decoding/plot_haxby_anova_svm.html#sphx-glr-auto-examples-02-decoding-plot-haxby-anova-svm-py
-14. https://towardsdatascience.com/building-your-own-artificial-neural-network-from-scratch-on-churn-modeling-dataset-using-keras-in-690782f7d051
-15. https://nilearn.github.io/auto_examples/02_decoding/plot_haxby_full_analysis.html#roi-based-decoding-analysis-in-haxby-et-al-dataset
-16. https://nilearn.github.io/auto_examples/02_decoding/plot_haxby_multiclass.html#sphx-glr-auto-examples-02-decoding-plot-haxby-multiclass-py
-17. https://nilearn.github.io/auto_examples/plot_decoding_tutorial.html
-18. https://scikit-learn.org/stable/modules/generated/sklearn.model_selection.train_test_split.html
-19. https://towardsdatascience.com/categorical-encoding-using-label-encoding-and-one-hot-encoder-911ef77fb5bd
-20. https://scikit-learn.org/stable/modules/generated/sklearn.neural_network.MLPClassifier.html#sklearn.neural_network.MLPClassifier
-21. https://github.com/ncarlson01/chat_ML
-22. https://scikit-learn.org/stable/modules/generated/sklearn.neighbors.KNeighborsClassifier.html?highlight=kneighbors#sklearn.neighbors.KNeighborsClassifier
-23. https://scikit-learn.org/stable/supervised_learning.html#supervised-learning
+11. https://towardsdatascience.com/building-your-own-artificial-neural-network-from-scratch-on-churn-modeling-dataset-using-keras-in-690782f7d051
+12. https://nilearn.github.io/auto_examples
+13. https://scikit-learn.org/stable/modules/generated/sklearn.model_selection.train_test_split.html
+14. https://towardsdatascience.com/categorical-encoding-using-label-encoding-and-one-hot-encoder-911ef77fb5bd
+15. https://scikit-learn.org/stable/modules/generated/sklearn.neural_network.MLPClassifier.html#sklearn.neural_network.MLPClassifier
+16. https://github.com/ncarlson01/chat_ML
+17. https://scikit-learn.org/stable/modules/generated/sklearn.neighbors.KNeighborsClassifier.html?highlight=kneighbors#sklearn.neighbors.KNeighborsClassifier
+18. https://scikit-learn.org/stable/supervised_learning.html#supervised-learning
 
