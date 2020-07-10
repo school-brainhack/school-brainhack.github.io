@@ -27,7 +27,7 @@ image: "FlowerBouquet.png"
 ---
 <!-- This is an html comment and this won't appear in the rendered page. You are now editing the "content" area, the core of your description. Everything that you can do in markdown is allowed below. We added a couple of comments to guide your through documenting your progress. -->
 
-# Intro to brain decoding and classification of Haxby dataset using seven different common approaches
+# Intro to brain decoding and classification on Haxby dataset using seven different common approaches
 
 <div align="center">
 <img src="Brain_decoding.jpg" width="825" height="452" allowfullscreen> 
