@@ -27,7 +27,7 @@ image: "FlowerBouquet.png"
 ---
 <!-- This is an html comment and this won't appear in the rendered page. You are now editing the "content" area, the core of your description. Everything that you can do in markdown is allowed below. We added a couple of comments to guide your through documenting your progress. -->
 
-# Intro to brain decoding and classification of Haxby dataset using six different common approaches
+# Intro to brain decoding and classification of Haxby dataset using seven different common approaches
 <div align="center">
 <img src="Brain_decoding.jpg" width="825" height="452" allowfullscreen> 
 </div>
@@ -42,7 +42,7 @@ I have B.S in computer software engineering and currently I am a Master’s stud
 
 
 ### Brain_decoding overview
-Brain decoding or mind-reading using neuroimaging data has been an active topic for years. This project focused on brain decoding using visual stimuli. In the human brain, the functional architecture of the object vision pathway can be investigated using fMRI. It can be done by considering the patterns of response in the ventral temporal cortex while subjects are looking at the different objects. Several studies indicate that the brain responses to the vision of each category of objects are widely distributed and overlapping. Therefore, a distinct pattern of response exists for each stimulus category in the ventral temporal cortex.
+Brain decoding or mind-reading using neuroimaging data has been an active topic for years. A part of this project focused on brain decoding using visual stimuli. In the human brain, the functional architecture of the object vision pathway can be investigated using fMRI. It can be done by considering the patterns of response in the ventral temporal cortex while subjects are looking at the different objects. Several studies indicate that the brain responses to the vision of each category of objects are widely distributed and overlapping. Therefore, a distinct pattern of response exists for each stimulus category in the ventral temporal cortex.
 
 ### Project
 For BHS project, I ran and compared the results of six common classifiers ("Naive Bayes", "Nearest Neighbours", "Neural Networks", "Logistic Regression", "Support vector machine" and "Decision trees" classifiers) on Haxby dataset. During the classification stage, I was trying to find the best results for each approach by playing with parameters. As an example, for Neural Networks classifier, my accuracy result increased significantly when I changed some parameters (it is indicated in the Classifiers.ipynb). 
@@ -72,12 +72,12 @@ For this project I used [Haxby et al.(2001)](http://data.pymvpa.org/datasets/hax
 
 Additionally, I uploaded and ran one of my scripts on Compute Canada.
 
-After finishing all the mentioned tasks, I decided to take advantage of the remaining time of the 5th week by trying a more complicated model. As was mentioned above, I chose the ANN model. This notebook can be found as [ANN_onHaxby.ipynb](https://github.com/brainhack-school2020/BHS_project_SRastegarnia/blob/master/ANN_onHaxby.ipynb). Similar to the previous notebook I added a quick review about the ANN algorithm and some explanation for all the cells in order to make it easy to follow.
+After finishing all the mentioned tasks, I decided to take advantage of the remaining time of the 5th week by training a multi-layer network. As was mentioned above, I chose the ANN model. This notebook can be found as [ANN_onHaxby.ipynb](https://github.com/brainhack-school2020/BHS_project_SRastegarnia/blob/master/ANN_onHaxby.ipynb). Similar to the previous notebook I added a quick review about the ANN algorithm and some explanation for all the cells in order to make it easy to follow.
 
 *I have written down all my progressions in detail, divided per week, in my BHS repository [README](https://github.com/brainhack-school2020/BHS_project_SRastegarnia/blob/master/README.md) file under "TO-DO LIST " section.*
 
 ### Results
-As depicted in the following image the support vector machine classification has the best performance while the decision tree returned the worst accuracy, which is understandable considering the classifiers algorithms and the nature of the data.
+As depicted in the following image the support vector machine classification has the best performance comparing to the other mentioned classifiers, while the decision tree returned the worst accuracy, which is understandable considering the classifiers algorithms and the nature of the data.
 
 <div align="center">
 <img src="https://github.com/brainhack-school2020/BHS_project_SRastegarnia/blob/master/Images/Classifiers_graphs.png" width="1242" height="310"> 
@@ -101,18 +101,18 @@ Here, we see the ANN confusion matrix and the accuracy results. The accuracy is 
 
 &nbsp;
 
-However, some methods seem to work better than others, It shouldn’t be forgotten that the size and type of data plays an important role in the results of different models. As an example, generally multi-layer networks have better results on big datasets. In this case, the results are desirable considering the small size of the input data.
+However, some methods seem to work better than others, It shouldn’t be forgotten that the size and type of data play an important role in the results of different models. As an example, generally multi-layer networks have better results on big datasets. In this case, the results are desirable considering the small size of the input data.
 
 &nbsp;
 
 ## Tools I learned during this project
-ALL the tools that are mentionned above, also I touched TensorFlow!
+Besides all the tools said earlier, I touched TensorFlow as well!
 
 ## Conclusion
-Along with many open science tools that I have learned and used during this course; BHS was a great introduction to machine learning. I trained several machine learning classification methods to learn and compare their performance on the mentioned dataset that helped to strengthen my skills in Python and using ML/DL models.
+Along with many open science tools that I have learned and used during this course; BHS was a great introduction to machine learning. I trained several machine learning classification methods to learn and compare their performance on the Haxby dataset that helped to strengthen my skills in Python and using ML/DL models.
  
 In the beginning, I explored brain decoding scripts by following tones of tutorials (mostly from Nilearn and sklearn). In the next step, I created a notebook to improve my coding skills and ML knowledge by evaluating the performance of seven different classifiers. I used plotly for making interactable graphs to demonstrate the results.
-In the end, I tried my first ever deep learning algorithm which was an artificial neural network.
+In the end, I tried my first ever multi-layer algorithm which was an artificial neural network.
 Additionally, the focus on reproducible science taught me how to make a deliverable project based on an open-science concept.
 
 ## Deliverables
@@ -128,7 +128,7 @@ Additionally, the focus on reproducible science taught me how to make a delivera
 
 
 ## Future directions
-My goals post brain hack school would be increasing my knowledge of machine learning and deep learning and training more complicated models including GCN on new datasets! Also, I hope to try more tools for neuroimaging analysis and preprocessing data.
+My goals post brain hack school would be increasing my knowledge of machine learning and deep learning by training more complicated models including GCN on new datasets! Also, I hope to try more tools for neuroimaging analysis and preprocessing data.
 
 ## Aknowledgments
 During BHS, I learned a lot of new tools and so many skills that I will definitely use in the future. I would like to thank all the BHS organizers, instructors, and TAs for sharing their knowledge and putting together this amazing course. Special thanks to Pierre Bellec and my clinic instructors Désirée, Valerie, and Jacob for helping me out with different aspects of my project.
