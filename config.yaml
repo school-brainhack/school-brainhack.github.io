@@ -25,7 +25,7 @@ languages:
           name: Home
           url: /
           weight: 1
-        
+
 
       topbar:
         - weight: 1
@@ -112,7 +112,7 @@ languages:
         subtitle: A selection of projects from our students
       topbar:
         enable: true
-        text: "**:computer: :brain: [Registrations](/register) will open soon for the 2021 edition! :brain: :computer:**: "
+        text: "**:computer: :brain: Brainhack school is taking a break, we'll be back in 2022! :brain: :computer:**: "
 
 
   fr:
@@ -233,4 +233,3 @@ markup:
 disqusShortname: ''
 googleAnalytics: ''
 paginate: 10
-
