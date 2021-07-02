@@ -5,128 +5,13 @@
 # collection names should be equal to github username, if not, add github: false tag
 # img should be taken directly from GitHub, if no username, simply add it into img/instructors
 # content can be added as markdown.
-title: Community - instructors and residents
-
+title: Community
 
 instructors:
-  - name: Tristan Glatard
-    gh: glatard
-    email: tristan.glatard@concordia.ca
-    website: https://users.encs.concordia.ca/~tglatard/
-    affiliation: Concordia University
-    urlaff: https://concordia.ca
-    twitter: TristanGlatard
-
-  - name: Valerie Hayot-Sasson
-    gh: valhayot
+  - name: BrainHack
+    gh: brainhackorg
     email:
-    website:
-    affiliation: Concordia Univerity
-    urlaff: https://concordia.ca
-    twitter:
-
-  - name: Elizabeth DuPre
-    gh: emdupre
-    email: elizabeth.dupre@mail.mcgill.ca
-    website: http://emdupre.me
-    affiliation: McGill University
-    urlaff: https://www.mcgill.ca/
-    twitter: emdupre_
-
-  - name: Pierre Bellec
-    gh: pbellec
-    email: pierre-louis.bellec@umontreal.ca
-    website:
-    affiliation: University of Montreal
-    urlaff: https://umontreal.ca
-    twitter: pierre_bellec
-
-  - name: Agâh Karakuzu
-    gh: agahkarakuzu
-    email: agahkarakuzu@gmail.com
-    website: https://agahkarakuzu.github.io
-    affiliation: Polytechnique Montreal
-    urlaff: https://polymtl.ca
-    twitter: agahkarakuzu
-
-  - name: Greg Kiar
-    gh: gkiar
-    email: gregory.kiar@mail.mcgill.ca
-    website: https://gkiar.me
-    affiliation: McGill University
-    urlaff: https://www.mcgill.ca/
-    twitter: g_kiar
-
-  - name: Jean-Baptiste Poline
-    gh: jbpoline
-    email:
-    website:
-    affiliation: McGill University
-    urlaff: https://www.mcgill.ca/
-    twitter: jbpoline
-    img: img/instructors/jb.png
-
-
-  - name: Ross Markello
-    gh: rmarkello
-    email: ross.markello@mail.mcgill.ca
-    website: https://rossmarkello.com
-    affiliation: McGill University
-    urlaff: https://www.mcgill.ca/
-    twitter: rossdavism
-
-  - name: Peer Herholz
-    gh: PeerHerholz
-    email:
-    website: https://peerherholz.github.io/
-    affiliation: McGill University
-    urlaff: https://www.mcgill.ca/
-    twitter: peerherholz
-
-  - name: Désirée Lussier-Lévesque
-    gh: dllussier
-    email: desiree.lussier.levesque@criugm.qc.ca
-    website:
-    affiliation: Research center of IUGM
-    urlaff: http://www.criugm.qc.ca/fr.html
-    twitter: desiree_lussier
-
-  - name: Benjamin De Leener
-    gh: benjamindeleener
-    email: benjamin.de-leener@polymtl.ca
-    website: https://www.polymtl.ca/expertises/en/de-leener-benjamin
-    affiliation: Polytechnique Montreal
-    urlaff: https://www.polymtl.ca/
-    twitter: BenDeLeener
-
-  - name: Hannah Akbarzadeh
-    gh: HannahAkbarzadeh
-    email:
-    website:
-    affiliation: Polytechnique Montreal
-    urlaff: https://www.polymtl.ca/
-    twitter:
-
-  - name: Alexa Pichet-Binette
-    gh: alexapichet
-    email:
-    website:
-    affiliation: McGill University
-    urlaff: https://www.mcgill.ca/
-    twitter: alexa_pichetb
-
-  - name: Karim Jerbi
-    gh: k-jerbi
-    email:
-    website:
-    affiliation: University of Montreal
-    urlaff: https://umontreal.ca
-    twitter: karimjerbineuro
-
-  - name: Samuel Guay
-    gh: SamGuay
-    email:
-    website:
-    affiliation: University of Montreal
-    urlaff: https://umontreal.ca
-    twitter: SamGuay_
+    website: https://brainhack.org
+    affiliation: Brainhack organization
+    urlaff: https://brainhack.org
+    twitter: brainhackorg
