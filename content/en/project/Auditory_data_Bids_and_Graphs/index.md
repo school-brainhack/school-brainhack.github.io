@@ -42,11 +42,11 @@ A first task that could be interesting to do would be, in order to go through th
 
 ### Exemple of audiogram
 
-![P01-Baseline 2, Bilateral.png](images/P01-Baseline_2_Bilateral.png)
+![P01-Baseline 2, Bilateral.png](P01-Baseline_2_Bilateral.png)
 
 ### Exemple of Matrix test results graph
 
-![P01-Matrix test FR, Condition 2 (may_2021).png](images/P01-Matrix_test_FR_Condition_2_(may_2021).png)
+![P01-Matrix test FR, Condition 2 (may_2021).png](P01-Matrix_test_FR_Condition_2_(may_2021).png)
 
 A second task that could be interesting to do would be to try and use this database to try and fingerprint the participants based on their results to the tests.
 Since every person's hearing is unique and is affected by the individual auditory experience, it could be interesting to try that kind of machine learning classification task.
@@ -60,7 +60,7 @@ figure reference:
 
 Gorgolewski, K. J., Auer, T., Calhoun, V. D., Craddock, R. C., Das, S., Duff, E. P., Flandin, G., Ghosh, S. S., Glatard, T., Halchenko, Y. O., Handwerker, D. A., Hanke, M., Keator, D., Li, X., Michael, Z., Maumet, C., Nichols, B. N., Nichols, T. E., Pellman, J., … Poldrack, R. A. (2016). The brain imaging data structure, a format for organizing and describing outputs of neuroimaging experiments. *Scientific data*, *3*, 160044. https://doi.org/10.1038/sdata.2016.44
 
-[![Illustration of a BIDS structured dataset](images/BIDS_structure.png)](https://www.nature.com/articles/sdata201644)
+[![Illustration of a BIDS structured dataset](BIDS_structure.png)](https://www.nature.com/articles/sdata201644)
 
 ### Tools
 
@@ -131,7 +131,7 @@ Many of these contribute in my part of the project:
 
 The notebook contains the code used in order to be able to create BIDS compatible files from our data.
 
-![fortier_project_BIDS_structure.png](images/fortier_project_BIDS_structure.png)
+![fortier_project_BIDS_structure.png](fortier_project_BIDS_structure.png)
 
 <b>README.md</b>
 
@@ -168,13 +168,13 @@ Unfortunately, it was not possible to create a machine learning task script on t
 
 ### Exemple of interactive HTML audiogram
 
-![Sub-01_PTA_All_runs.html](results/Sub01/Sub-01_PTA_All_runs.html)
+![Sub-01_PTA_All_runs.html](Sub-01_PTA_All_runs.html)
 
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/PSY6983-2021/fortier_project/HEAD?filepath=code%2FPTA_sample_figure_generator.ipynb){:target="_blank"}
 
 ### Exemple of Matrix test interactive HTML graph
 
-![Sub-01_MTX_L1_French_All_runs.html](results/Sub01/Sub-01_MTX_L1_French_All_runs.html)
+![Sub-01_MTX_L1_French_All_runs.html](Sub-01_MTX_L1_French_All_runs.html)
 
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/PSY6983-2021/fortier_project/HEAD?filepath=code%2FMTX_sample_figure_generator.ipynb){:target="_blank"}
 
