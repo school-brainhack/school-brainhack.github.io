@@ -25,6 +25,14 @@ languages:
           name: Home
           url: /
           weight: 1
+        - identifier: Projects
+          name: Projects
+          url: /project/
+          weight: 3
+        - identifier: Modules
+          name: Modules
+          url: /modules/
+          weight: 2
 
 
       topbar:
