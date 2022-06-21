@@ -25,6 +25,38 @@ languages:
           name: Home
           url: /
           weight: 1
+        - identifier: Schedule
+          name: Schedule
+          url: /schedule/
+          weight: 2
+        - identifier: Projects
+          name: Projects
+          url: /project/
+          weight: 3
+        - identifier: Weeks
+          name: Weeks
+          url: /weeks/
+          weight: 4
+        - identifier: Locations
+          name: Locations
+          url: /locations/
+          weight: 5
+        - identifier: Register
+          name: Register
+          url: /register/
+          weight: 6
+        - parent: documents
+          name: Getting started
+          url: /guide/
+          weight: 7
+        - parent: documents
+          name: Project guide
+          url: /project_guide/
+          weight: 8
+        - identifier: Modules
+          name: Modules
+          url: /modules/
+          weight: 9
 
 
       topbar:
@@ -62,7 +94,7 @@ languages:
       contact_form_ajax: false
       about_us: >-
         <p>Fundamentals and project in neural data science.</p>
-      copyright: 'Copyright (c) 2021, BrainHack School; all rights reserved.'
+      copyright: 'Copyright (c) 2022, BrainHack School; all rights reserved.'
       date_format: 'January 2, 2006'
       logo: img/logo_brainhack.png
       logo_small: img/logo-small.png
@@ -103,7 +135,7 @@ languages:
         link_url: https://school2020.brainhackmtl.org
         link_text: "Check out the 2020 lectures and projects"
       clients:
-        enable: false
+        enable: true
         title: Partner institutions
         subtitle: ''
       recent_posts:
@@ -112,7 +144,7 @@ languages:
         subtitle: A selection of projects from our students
       topbar:
         enable: true
-        text: "**:computer: :brain: Brainhack school is taking a break, we'll be back in 2022! :brain: :computer:**: "
+        text: "**:computer: :brain: Contact <simexp.lab@gmail.com> to register! :brain: :computer:**: "
 
 
   fr:
@@ -131,6 +163,31 @@ languages:
           name: Accueil
           url: /
           weight: 1
+        - identifier: Schedule
+          name: Schedule
+          url: /schedule/
+          weight: 2
+        - identifier: Projects
+          name: Projects
+          url: /project/
+          weight: 3
+        - identifier: Weeks
+          name: Weeks
+          url: /weeks/
+          weight: 4
+        - identifier: Locations
+          name: Locations
+          url: /locations/
+          weight: 5
+        - identifier: Register
+          name: Register
+          url: /register/
+          weight: 6
+        - parent: documents
+          name: Guide de démarrage rapide
+          url: /fr/guide/
+          weight: 7
+
 
       topbar:
         - weight: 1
@@ -150,7 +207,7 @@ languages:
       viewMorePostLink: /blog/
       author:
       defaultKeywords:
-        - BrainHack
+        - Science des données
         - Neuroscience
       mainSections:
         - blog
@@ -160,12 +217,11 @@ languages:
       default_sharing_image: img/sharing-default.png
       googleMapsApiKey:
       style: green
-      email: your@email.com
+      email: pierre.bellec@gmail.com
       contact_form_ajax: false
       about_us: >-
-        <p>Pellentesque habitant morbi tristique senectus et netus et malesuada
-        fames ac turpis egestas.</p>
-      copyright: 'Copyright (c) 2020, BrainHack School; all rights reserved.'
+        <p>Apprentissage basé projet en sciences des données neuronales.</p>
+      copyright: 'Copyright (c) 2022, BrainHack School; all rights reserved.'
       date_format: 'January 2, 2006'
       logo: img/logo_brainhack.png
       logo_small: img/logo-small.png
@@ -213,7 +269,7 @@ languages:
         subtitle: A selection of projects from our students
       topbar:
         enable: true
-        text: "**:computer: :brain: Brainhack school prend une pause. Retrouvez nous en 2022! :brain: :computer:**"
+        text: "**:computer: :brain: Contactez <simexp.lab@gmail.com> pour vous inscrire! :brain: :computer:**"
 
 Permalinks:
   blog: '/blog/:year/:month/:day/:filename/'
