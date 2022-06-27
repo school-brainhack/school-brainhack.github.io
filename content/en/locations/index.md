@@ -1,5 +1,5 @@
 +++
-title = "Locations"
+title = "Sites"
 type = "locations"
 
 [[locations]]

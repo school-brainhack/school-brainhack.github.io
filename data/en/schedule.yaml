@@ -4,405 +4,285 @@
 ####################################################
 
 
-agenda_title: This is the <u>2020</u> Schedule... 2021 schedule will be released ~2 weeks before the start date.
-agenda_subtitle: >
-  This gives you an overview of what we did in 2020. All the videos are still available in the schedule.
-  The schedule will be updated here, reminders will be posted in **[#schedule on Slack](https://brainhack-school2020.slack.com/archives/C0127A3QJTX)**, including the Zoom links and password. You can even
-  **[import the schedule in your favorite calendar app](webcal://school.brainhackmtl.org/schedule/index.ics)** for the most up-to-date information.
-  To import the calendar, *import* this url `webcal://school.brainhackmtl.org/schedule/index.ics` in your calendar.
-  Ping us in the #schedule channel on Slack if you have any question regarding the schedule.
-  The website will always be updated first. Synchronization may take some time in other calendars to happen.
-linktosession:  https://zoom.us/j/96692571531
-linktoschedule: https://brainhack-school2020.slack.com/archives/C0127A3QJTX
+agenda_title: <u>2022</u> Schedule
+agenda_subtitle: 
+linktosession:
+linktoschedule:
 
 schedule:
-- week: Week 0
-  title: "Getting ready"
-  days:
-  - date: 2020-05-04 #monday
-    sessions:
-    - title: Installation party 💻
-      dateStart: 2020-05-04T08:00:00-04:00
-      dateEnd:   2020-05-04T17:00:00-04:00
-      topic: 1 # 1 = computer science, 2 = neuroscience, 3 - both
-      description: >
-        During office hours the listed instructor will be active and on-line in the Slack #help-installation channel.
-
-
-        If you experience any issues or have any questions while following the **[installation instructions](https://neurodatasci-course-2020.netlify.app/setup/)**
-        you can ping them in the [#help-installation channel](https://brainhack-school2020.slack.com/archives/C0121EXGHP1) and they will follow up with you.
-        If needed, they will also be available to jump on a Zoom call to debug any issues you may be experiencing (this will potentially require you
-        to permit them remote access to your computer).
-
-
-        Note you are more than welcome to post questions to the #help-installation channel during times when no instructor
-        is listed as being available, but it may take more time to receive a response!"
-      instructors:
-        - Jane Doe
-        - John Doe
-
-  - date: 2020-05-05 # tuesday
-    sessions:
-    - title: Installation party 💻
-      dateStart: 2020-05-05T08:00:00-04:00
-      dateEnd:   2020-05-05T17:00:00-04:00
-      topic: 1 # 1 = computer science, 2 = neuroscience, 3 - both
-      description: Installation office hours with instructors can be found [here](https://bit.ly/bhs_installofficehours).
-      instructors:
-        - Jane Doe
-        - John Doe
-
-  - date: 2020-05-06 # wednesday
-    sessions:
-    - title: Installation party 💻
-      dateStart: 2020-05-06T08:00:00-04:00
-      dateEnd:   2020-05-06T17:00:00-04:00
-      topic: 1 # 1 = computer science, 2 = neuroscience, 3 - both
-      description: Installation office hours with instructors can be found [here](https://bit.ly/bhs_installofficehours).
-      instructors:
-        - Jane Doe
-        - John Doe
-
-  - date: 2020-05-07 # thursday:
-    sessions:
-    - title: Installation party 💻
-      dateStart: 2020-05-07T08:00:00-04:00
-      dateEnd:   2020-05-07T17:00:00-04:00
-      topic: 1 # 1 = computer science, 2 = neuroscience, 3 - both
-      description: Installation office hours with instructors can be found [here](https://bit.ly/bhs_installofficehours).
-      instructors:
-        - Jane Doe
-        - John Doe
-
-  - date: 2020-05-08 #friday
-    sessions:
-    - title: Installation party 💻
-      dateStart: 2020-05-08T08:00:00-04:00
-      dateEnd:   2020-05-08T17:00:00-04:00
-      topic: 1 # 1 = computer science, 2 = neuroscience, 3 - both
-      description: Installation office hours with instructors can be found [here](https://bit.ly/bhs_installofficehours).
-      instructors:
-        - Jane Doe
-        - John Doe
 
 - week: Week 1
-  title: "Fundamentals of Neuro Data Science"
+  title: "Discovering the tools"
   days:
-  - date: 2020-05-11 #monday
+  - date: 2021-07-26 #monday
     sessions:
     - title: Course introduction
-      dateStart: 2020-05-11T09:00:00-04:00
-      dateEnd:   2020-05-11T10:00:00-04:00
+      dateStart: 2021-07-26T09:00:00-04:00
+      dateEnd:   2021-07-26T10:00:00-04:00
       linktosession: https://zoom.us/j/92317091379
       topic: 3 # 1 = computer science, 2 = neuroscience, 3 - both
-      description: 1-Introduction to neuro data science week and 2-Introduction to brainhack school
-      materials: "[Slides 1](https://github.com/neurodatascience/course-materials-2020/blob/master/lectures/11-may/01-course-introduction/course-introduction.pdf) - [Slides 2](https://github.com/neurodatascience/course-materials-2020/blob/master/lectures/11-may/01-course-introduction/brainhack-school2020.pdf)"
-      video: "[Video 1](https://www.youtube.com/watch?v=z10TgOf08s0&list=PLfqBzCl5BL3-m9BH5qi4u4QzoJBC8Ze72&index=2&t=0s) - [Video 2](https://www.youtube.com/watch?v=PTYs_JFKsHI&list=PLfqBzCl5BL3-m9BH5qi4u4QzoJBC8Ze72&index=3&t=0s)"
+      description: Introduction to brainhack school and the learning modules of week 1.
+      materials: ""
+      video: ""
       instructors:
         - Pierre Bellec
         - JB Poline
 
-    - title: Modern reproducibility problems in the life sciences
-      dateStart:  2020-05-11T10:00:00-04:00
-      dateEnd:    2020-05-11T11:00:00-04:00
-      linktosession: https://zoom.us/j/92317091379
-      materials: "[Slides](https://github.com/neurodatascience/course-materials-2020/blob/master/lectures/11-may/02-modern-reproducibility-problems/modern-reproducibility-problems.pdf)"
-      topic: 2 # 1 = computer science, 2 = neuroscience, 3 - both, 4 = random
-      description: Neuroscientists increasingly rely on openly-accessible data and on advanced methodological procedures for their investigations. Concurrently, there is a growing concern in the life sciences that many results produced are difficult or even impossible to reproduce, commonly referred to as the “reproducibility crisis.”
-      instructors:
-        - JB Poline
-      video: "[Video](https://www.youtube.com/watch?v=WphUnnbpIsw&list=PLfqBzCl5BL3-m9BH5qi4u4QzoJBC8Ze72&index=4&t=0s)"
-
-    - title: Set-up and installation
-      dateStart:  2020-05-11T11:00:00-04:00
-      dateEnd:    2020-05-11T12:00:00-04:00
-      linktosession: https://zoom.us/j/92317091379
-      topic: 1 # 1 = computer science, 2 = neuroscience, 3 - both, 4 = random
-      description:
-      instructors:
-        - Jane Doe
-        - John Doe
-
-    - title: Lunch
-      dateStart: 2020-05-11T12:00:00-04:00
-      dateEnd:   2020-05-11T13:00:00-04:00
-      linktosession: https://zoom.us/j/92317091379
-
-      topic: 4 # 1 = computer science, 2 = neuroscience, 3 - both, 4 = random
-      description: Eat together, on your own or don't, but make sure to take a break. Don't forget the #snack-club!
-      instructors:
-        - Jane Doe
-        - John Doe
-
-    - title: Introduction to the terminal
-      dateStart:  2020-05-11T13:00:00-04:00
-      dateEnd:    2020-05-11T14:00:00-04:00
-      linktosession: https://zoom.us/j/92317091379
-      materials: "[Presentation is a Jupyter Notebook](https://github.com/neurodatascience/course-materials-2020/blob/master/lectures/11-may/03-intro-to-shell/introduction-to-shell.ipynb)"
-      topic: 1 # 1 = computer science, 2 = neuroscience, 3 - both, 4 = random
-      description: Your terminal will become your best friend by the end of the school!
-      video: "[Video](https://www.youtube.com/watch?v=N6soV0dlB-k&list=PLfqBzCl5BL3-m9BH5qi4u4QzoJBC8Ze72&index=5&t=0s)"
-      instructors:
-        - Jane Doe
-        - John Doe
-
-    - title: Introduction to git and GitHub
-      dateStart:  2020-05-11T14:00:00-04:00
-      dateEnd:    2020-05-11T15:00:00-04:00
-      linktosession: https://zoom.us/j/92317091379
-      materials: "[Slides](http://emdupre.github.io/git-course/)"
-      topic: 1 # 1 = computer science, 2 = neuroscience, 3 - both, 4 = random
-      description: Git and Github will become you second best friends!
-      video: "[video](https://www.youtube.com/watch?v=fBgxmpk9C4I&list=PLfqBzCl5BL3-m9BH5qi4u4QzoJBC8Ze72&index=6&t=0s)"
-      instructors:
-        - Jane Doe
-        - John Doe
-
-  - date: 2020-05-12 #tuesday
-    sessions:
-    - title: Python for data analysis
-      dateStart:  2020-05-12T09:00:00-04:00
-      dateEnd:    2020-05-12T12:00:00-04:00
-      linktosession: https://zoom.us/j/92317091379
-      materials: "[Presentation is a Jupyter Notebook](https://github.com/neurodatascience/course-materials-2020/tree/master/lectures/12-may/01-python-for-data-analysis)"
+    - title: Free hacking
+      dateStart: 2021-07-26T10:00:00-04:00
+      dateEnd:   2021-07-26T12:00:00-04:00
+      linktosession: https://zoom.us/j/96692571531
       topic: 3 # 1 = computer science, 2 = neuroscience, 3 - both, 4 = random
-      description: Data science offers a key set of tools and methods to efficiently analyse, visualize, and interpret neuroscience data
-      video: "[Video](https://www.youtube.com/watch?v=NcDcoiNMauc&list=PLfqBzCl5BL3-m9BH5qi4u4QzoJBC8Ze72&index=7&t=0s)"
-      instructors:
-        - Jane Doe
-        - John Doe
-
-    - title: "Lunch"
-      dateStart:  2020-05-12T12:00:00-04:00
-      dateEnd:    2020-05-12T13:00:00-04:00
-      linktosession: https://zoom.us/j/92317091379
-
-      description: "Don't forget the #snack-club!"
-      topic: 4 # 1 = computer science, 2 = neuroscience, 3 - both, 4 = random
-      instructors:
-        - Jane Doe
-        - John Doe
-
-    - title: Containerization with Docker
-      dateStart:  2020-05-12T13:00:00-04:00
-      dateEnd:    2020-05-12T16:30:00-04:00
-      linktosession: https://zoom.us/j/92317091379
-      materials: "[Slides](https://github.com/neurodatascience/course-materials-2020/blob/master/lectures/12-may/02-intro-to-containerization/neurodatascience_virtualization_2020.pdf)"
-      topic: 1 # 1 = computer science, 2 = neuroscience, 3 - both, 4 = random
-      video: "[Video](https://www.youtube.com/watch?v=7BJqzpE76g0&list=PLfqBzCl5BL3-m9BH5qi4u4QzoJBC8Ze72&index=8&t=0s)"
-      instructors:
-        - Jane Doe
-        - John Doe
-
-    - title: Assessment 1
-      dateStart:  2020-05-12T16:30:00-04:00
-      dateEnd:    2020-05-12T17:30:00-04:00
-      linktosession: https://zoom.us/j/92317091379
-
-      topic: 3 # 1 = computer science, 2 = neuroscience, 3 - both, 4 = random
-      instructors:
-        - Jane Doe
-        - John Doe
-
-  - date: 2020-05-13 #wednesday
-    sessions:
-    - title: Standards for project management and organization
-      dateStart: 2020-05-13T09:00:00-04:00
-      dateEnd:    2020-05-13T10:30:00-04:00
-      linktosession: https://zoom.us/j/92317091379
-      topic: 3 # 1 = computer science, 2 = neuroscience, 3 - both, 4 = random
-      materials: "[Slides](https://github.com/neurodatascience/course-materials-2020/blob/master/lectures/13-may/01-standards-for-project-management/NDS2020_ShareableScience.pdf)"
-      video: "[Video](https://www.youtube.com/watch?v=aBMc8bgSK6o&list=PLfqBzCl5BL3-m9BH5qi4u4QzoJBC8Ze72&index=9&t=0s)"
-      description:
-      instructors:
-        - Elizabeth Dupre
-        - John Doe
-
-    - title: Tools for project management and organization
-      dateStart:  2020-05-13T10:30:00-04:00
-      dateEnd:    2020-05-13T12:00:00-04:00
-      linktosession: https://zoom.us/j/92317091379
-      topic: 3 # 1 = computer science, 2 = neuroscience, 3 - both, 4 = random
-      materials: "[Slides](https://effigies.github.io/bids-ecosystem/)"
-      video: "[Video](https://www.youtube.com/watch?v=ceB3Nne-MDo&list=PLfqBzCl5BL3-m9BH5qi4u4QzoJBC8Ze72&index=10&t=0s)"
-      description:
-      instructors: Chris Markiewicz
-
-    - title: "Lunch"
-      dateStart:  2020-05-13T12:00:00-04:00
-      dateEnd:    2020-05-13T13:00:00-04:00
-      linktosession: https://zoom.us/j/92317091379
-
-      topic: 4 # 1 = computer science, 2 = neuroscience, 3 - both, 4 = random
-      description: "Don't forget the #snack-club!"
-      instructors:
-        - Jane Doe
-        - John Doe
-
-    - title: High-performance computing
-      dateStart:  2020-05-13T13:00:00-04:00
-      dateEnd:    2020-05-13T16:30:00-04:00
-      linktosession: https://zoom.us/j/92317091379
-      materials: "[Slides](https://docs.google.com/presentation/d/1toGlTfi4zqavPGHZ9NV3Va7MuT-rmXdv3NHAyQGINdk/edit#slide=id.g3461d16a8f_0_8)"
-      topic: 1 # 1 = computer science, 2 = neuroscience, 3 - both, 4 = random
-      video: "[Video](https://www.youtube.com/watch?v=J9VCHe1ovBg&list=PLfqBzCl5BL3-m9BH5qi4u4QzoJBC8Ze72&index=11&t=0s)"
-      description:
-      instructors:
-        - Jane Doe
-        - John Doe
-
-    - title: 30-min yoga class
-      dateStart:  2020-05-13T17:25:00-04:00
-      dateEnd:    2020-05-13T18:00:00-04:00
-      linktosession: https://zoom.us/j/98179037949
-      topic: 4 # 1 = computer science, 2 = neuroscience, 3 - both, 4 = random
-      description:
-      instructors:
-        - Jane Doe
-        - John Doe
-
-  - date: 2020-05-14 #thursday
-    sessions:
-    - title: Introduction to data visualization in Python
-      dateStart: 2020-05-14T09:00:00-04:00
-      dateEnd:   2020-05-14T10:30:00-04:00
-      linktosession: https://zoom.us/j/92317091379
-      materials: "[Slides](https://github.com/neurodatascience/course-materials-2020/tree/master/lectures)"
-      video: "[Video](https://www.youtube.com/watch?v=lJyFWTT7sCY&list=PLfqBzCl5BL3-m9BH5qi4u4QzoJBC8Ze72&index=12&t=0s)"
-      topic: 3 # 1 = computer science, 2 = neuroscience, 3 - both, 4 = random
-      description:
-      instructors:
-        - Jane Doe
-        - John Doe
-
-    - title: Introduction to classical statistics
-      dateStart:  2020-05-14T10:30:00-04:00
-      dateEnd:    2020-05-14T12:00:00-04:00
-      linktosession: https://zoom.us/j/92317091379
-      materials: "[Presentation is a Jupyter Notebook](https://github.com/neurodatascience/course-materials-2020/tree/master/lectures/14-may/02-intro-to-stats)"
-      topic: 3 # 1 = computer science, 2 = neuroscience, 3 - both, 4 = random
-      video: "[Video](https://www.youtube.com/watch?v=EYVV-9NjdSA&list=PLfqBzCl5BL3-m9BH5qi4u4QzoJBC8Ze72&index=13&t=0s)"
       description:
       instructors:
         - Jane Doe
         - John Doe
 
     - title: "Lunch"
-      dateStart:  2020-05-14T12:00:00-04:00
-      dateEnd:    2020-05-14T13:00:00-04:00
+      dateStart:  2021-07-26T12:00:00-04:00
+      dateEnd:    2021-07-26T13:00:00-04:00
       linktosession: https://zoom.us/j/92317091379
+
+      description: "Don't forget to take a break!"
       topic: 4 # 1 = computer science, 2 = neuroscience, 3 - both, 4 = random
-      description: "Don't forget the #snack-club!"
       instructors:
         - Jane Doe
         - John Doe
 
-    - title: Introduction to machine learning
-      dateStart:  2020-05-14T13:00:00-04:00
-      dateEnd:    2020-05-14T16:30:00-04:00
-      linktosession: https://zoom.us/j/92317091379
-      topic: 1 # 1 = computer science, 2 = neuroscience, 3 - both, 4 = random
-      materials: "[1- Slides](https://github.com/neurodatascience/course-materials-2020/blob/master/lectures/14-may/03-intro-to-machine-learning/IntroML_BrainHackSchool.pdf) & [2- Jupyter Notebook](https://github.com/neurodatascience/course-materials-2020/tree/master/lectures/14-may/03-intro-to-machine-learning)"
-      video: "[Video 1](https://www.youtube.com/watch?v=thLHAg8oOLw&list=PLfqBzCl5BL3-m9BH5qi4u4QzoJBC8Ze72&index=14&t=0s) - [Video 2](https://www.youtube.com/watch?v=2wj9OJjEDy0&list=PLfqBzCl5BL3-m9BH5qi4u4QzoJBC8Ze72&index=15&t=0s)"
-      description: 1- Introduction to machine learning and 2- Hands-on machine learning tutorial
-      instructors:
-        - Jane Doe
-        - John Doe
-
-    - title: Feedback for review sessions on Friday
-      dateStart:  2020-05-14T16:30:00-04:00
-      dateEnd:    2020-05-14T17:00:00-04:00
-      linktosession: https://zoom.us/j/92317091379
-      topic: 1 # 1 = computer science, 2 = neuroscience, 3 - both, 4 = random
+    - title: Questions and exercises
+      dateStart: 2021-07-26T13:00:00-04:00
+      dateEnd:   2021-07-26T14:00:00-04:00
+      linktosession: https://zoom.us/j/96692571531
+      topic: 3 # 1 = computer science, 2 = neuroscience, 3 - both, 4 = random
       description:
       instructors:
         - Jane Doe
         - John Doe
 
-    - title: 30-min yoga class
-      dateStart:  2020-05-14T17:25:00-04:00
-      dateEnd:    2020-05-14T18:00:00-04:00
-      linktosession: https://zoom.us/j/98694580297
-      topic: 4 # 1 = computer science, 2 = neuroscience, 3 - both, 4 = random
+    - title: Free hacking
+      dateStart: 2021-07-26T14:00:00-04:00
+      dateEnd:   2021-07-26T17:00:00-04:00
+      linktosession: https://zoom.us/j/96692571531
+      topic: 3 # 1 = computer science, 2 = neuroscience, 3 - both, 4 = random
       description:
       instructors:
         - Jane Doe
         - John Doe
 
-  - date: 2020-05-15 #friday
+  - date: 2021-07-27 # Tuesday
     sessions:
-    - title: Fundamentals of deep learning in neuroscience
-      dateStart: 2020-05-15T09:00:00-04:00
-      dateEnd:   2020-05-15T10:30:00-04:00
+    - title: Questions and exercises
+      dateStart: 2021-07-27T09:00:00-04:00
+      dateEnd:   2021-07-27T10:00:00-04:00
       linktosession: https://zoom.us/j/92317091379
-      topic: 3 # 1 = computer science, 2 = neuroscience, 3 - both, 4 = random
-      materials: "[Slides](https://www.youtube.com/redirect?v=kpNI6or-qJs&event=video_description&redir_token=nnmLK6cxQAM_livxRxKlpcKWC6l8MTU4OTk1MjY4NkAxNTg5ODY2Mjg2&q=https%3A%2F%2Fgithub.com%2Fneurodatascience%2Fcourse-materials-2020%2Fblob%2Fmaster%2Flectures%2F15-may%2F01-fundamentals-of-deep-learning%2Fdeep-learning-and-inductive-biases.pdf)"
-      video: "[Video](https://youtu.be/kpNI6or-qJs?list=PLfqBzCl5BL3-m9BH5qi4u4QzoJBC8Ze72)"
-      description:
+      topic: 3 # 1 = computer science, 2 = neuroscience, 3 - both
+      description: Time for asking questions on the modules, and validate solutions to exercises.
+      materials: ""
+      video: ""
       instructors:
         - Jane Doe
         - John Doe
 
-    - title: Applications of deep learning in neuroscience
-      dateStart:  2020-05-15T10:30:00-04:00
-      dateEnd:    2020-05-15T12:00:00-04:00
-      linktosession: https://zoom.us/j/92317091379
+    - title: Free hacking
+      dateStart: 2021-07-27T10:00:00-04:00
+      dateEnd:   2021-07-27T12:00:00-04:00
+      linktosession: https://zoom.us/j/96692571531
       topic: 3 # 1 = computer science, 2 = neuroscience, 3 - both, 4 = random
-      materials: "[Slides](https://www.youtube.com/redirect?q=https%3A%2F%2Fgithub.com%2Fneurodatascience%2Fcourse-materials-2020%2Ftree%2Fmaster%2Flectures%2F15-may%2F02-applications-of-deep-learning&redir_token=XzRwa2qEuYbHXdX0wVI9Sljf0q18MTU4OTk1Mjc2NUAxNTg5ODY2MzY1&event=video_description&v=XM1FT_oVDP0)"
-      video: "[Video](https://youtu.be/XM1FT_oVDP0?list=PLfqBzCl5BL3-m9BH5qi4u4QzoJBC8Ze72)"
       description:
       instructors:
         - Jane Doe
         - John Doe
 
     - title: "Lunch"
-      dateStart:  2020-05-15T12:00:00-04:00
-      dateEnd:    2020-05-15T13:00:00-04:00
+      dateStart:  2021-07-27T12:00:00-04:00
+      dateEnd:    2021-07-27T13:00:00-04:00
       linktosession: https://zoom.us/j/92317091379
 
+      description: "Don't forget to take a break!"
       topic: 4 # 1 = computer science, 2 = neuroscience, 3 - both, 4 = random
-      description: "Don't forget the #snack-club!"
       instructors:
         - Jane Doe
         - John Doe
 
-    - title: Advanced machine learning for neuroimaging
-      dateStart:  2020-05-15T13:00:00-04:00
-      dateEnd:    2020-05-15T14:00:00-04:00
-      linktosession: https://zoom.us/j/92317091379
-      topic: 1 # 1 = computer science, 2 = neuroscience, 3 - both, 4 = random
-      materials: "[Slides](https://www.youtube.com/redirect?v=wIMJVgkQjNY&event=video_description&redir_token=EZsqKBN9NGgACJYjwek17Mb0LgZ8MTU4OTk1MjgyOEAxNTg5ODY2NDI4&q=https%3A%2F%2Fgithub.com%2Fneurodatascience%2Fcourse-materials-2020%2Fblob%2Fmaster%2Flectures%2F15-may%2F03-advanced-machine-learning%2Fslides.pdf)"
-      video: "[Video](https://youtu.be/wIMJVgkQjNY?list=PLfqBzCl5BL3-m9BH5qi4u4QzoJBC8Ze72)"
+    - title: Questions and exercises
+      dateStart: 2021-07-27T13:00:00-04:00
+      dateEnd:   2021-07-27T14:00:00-04:00
+      linktosession: https://zoom.us/j/96692571531
+      topic: 3 # 1 = computer science, 2 = neuroscience, 3 - both, 4 = random
       description:
       instructors:
         - Jane Doe
         - John Doe
 
-    - title: Review session 1
-      dateStart:  2020-05-15T14:00:00-04:00
-      dateEnd:    2020-05-15T15:00:00-04:00
-      linktosession: https://zoom.us/j/92317091379
-      topic: 1 # 1 = computer science, 2 = neuroscience, 3 - both, 4 = random
+    - title: Free hacking
+      dateStart: 2021-07-27T14:00:00-04:00
+      dateEnd:   2021-07-27T17:00:00-04:00
+      linktosession: https://zoom.us/j/96692571531
+      topic: 3 # 1 = computer science, 2 = neuroscience, 3 - both, 4 = random
       description:
       instructors:
         - Jane Doe
         - John Doe
 
-    - title: Review session 2
-      dateStart:  2020-05-15T15:00:00-04:00
-      dateEnd:    2020-05-15T16:00:00-04:00
+  - date: 2021-07-28 # Wednesday
+    sessions:
+    - title: Questions and exercises
+      dateStart: 2021-07-28T09:00:00-04:00
+      dateEnd:   2021-07-28T10:00:00-04:00
       linktosession: https://zoom.us/j/92317091379
-      topic: 1 # 1 = computer science, 2 = neuroscience, 3 - both, 4 = random
+      topic: 3 # 1 = computer science, 2 = neuroscience, 3 - both
+      description: Time for asking questions on the modules, and validate solutions to exercises.
+      materials: ""
+      video: ""
+      instructors:
+        - Jane Doe
+        - John Doe
+
+    - title: Free hacking
+      dateStart: 2021-07-28T10:00:00-04:00
+      dateEnd:   2021-07-28T12:00:00-04:00
+      linktosession: https://zoom.us/j/96692571531
+      topic: 3 # 1 = computer science, 2 = neuroscience, 3 - both, 4 = random
       description:
       instructors:
         - Jane Doe
         - John Doe
 
-    - title: Assessment 2
-      dateStart:  2020-05-15T16:00:00-04:00
-      dateEnd:    2020-05-15T17:00:00-04:00
+    - title: "Lunch"
+      dateStart:  2021-07-28T12:00:00-04:00
+      dateEnd:    2021-07-28T13:00:00-04:00
       linktosession: https://zoom.us/j/92317091379
-      topic: 1 # 1 = computer science, 2 = neuroscience, 3 - both, 4 = random
+
+      description: "Don't forget to take a break!"
+      topic: 4 # 1 = computer science, 2 = neuroscience, 3 - both, 4 = random
+      instructors:
+        - Jane Doe
+        - John Doe
+
+    - title: Questions and exercises
+      dateStart: 2021-07-28T13:00:00-04:00
+      dateEnd:   2021-07-28T14:00:00-04:00
+      linktosession: https://zoom.us/j/96692571531
+      topic: 3 # 1 = computer science, 2 = neuroscience, 3 - both, 4 = random
+      description:
+      instructors:
+        - Jane Doe
+        - John Doe
+
+    - title: Free hacking
+      dateStart: 2021-07-28T14:00:00-04:00
+      dateEnd:   2021-07-28T17:00:00-04:00
+      linktosession: https://zoom.us/j/96692571531
+      topic: 3 # 1 = computer science, 2 = neuroscience, 3 - both, 4 = random
+      description:
+      instructors:
+        - Jane Doe
+        - John Doe
+
+  - date: 2021-07-29 # Thursday
+    sessions:
+    - title: Questions and exercises
+      dateStart: 2021-07-29T09:00:00-04:00
+      dateEnd:   2021-07-29T10:00:00-04:00
+      linktosession: https://zoom.us/j/92317091379
+      topic: 3 # 1 = computer science, 2 = neuroscience, 3 - both
+      description: Time for asking questions on the modules, and validate solutions to exercises.
+      materials: ""
+      video: ""
+      instructors:
+        - Jane Doe
+        - John Doe
+
+    - title: Free hacking
+      dateStart: 2021-07-29T10:00:00-04:00
+      dateEnd:   2021-07-29T12:00:00-04:00
+      linktosession: https://zoom.us/j/96692571531
+      topic: 3 # 1 = computer science, 2 = neuroscience, 3 - both, 4 = random
+      description:
+      instructors:
+        - Jane Doe
+        - John Doe
+
+    - title: "Lunch"
+      dateStart:  2021-07-29T12:00:00-04:00
+      dateEnd:    2021-07-29T13:00:00-04:00
+      linktosession: https://zoom.us/j/92317091379
+
+      description: "Don't forget to take a break!"
+      topic: 4 # 1 = computer science, 2 = neuroscience, 3 - both, 4 = random
+      instructors:
+        - Jane Doe
+        - John Doe
+
+    - title: Questions and exercises
+      dateStart: 2021-07-29T13:00:00-04:00
+      dateEnd:   2021-07-29T14:00:00-04:00
+      linktosession: https://zoom.us/j/96692571531
+      topic: 3 # 1 = computer science, 2 = neuroscience, 3 - both, 4 = random
+      description:
+      instructors:
+        - Jane Doe
+        - John Doe
+
+    - title: Free hacking
+      dateStart: 2021-07-29T14:00:00-04:00
+      dateEnd:   2021-07-29T17:00:00-04:00
+      linktosession: https://zoom.us/j/96692571531
+      topic: 3 # 1 = computer science, 2 = neuroscience, 3 - both, 4 = random
+      description:
+      instructors:
+        - Jane Doe
+        - John Doe
+
+  - date: 2021-07-30 # Friday
+    sessions:
+    - title: Questions and exercises
+      dateStart: 2021-07-30T09:00:00-04:00
+      dateEnd:   2021-07-30T10:00:00-04:00
+      linktosession: https://zoom.us/j/92317091379
+      topic: 3 # 1 = computer science, 2 = neuroscience, 3 - both
+      description: Time for asking questions on the modules, and validate solutions to exercises.
+      materials: ""
+      video: ""
+      instructors:
+        - Jane Doe
+        - John Doe
+
+    - title: Free hacking
+      dateStart: 2021-07-30T10:00:00-04:00
+      dateEnd:   2021-07-30T12:00:00-04:00
+      linktosession: https://zoom.us/j/96692571531
+      topic: 3 # 1 = computer science, 2 = neuroscience, 3 - both, 4 = random
+      description:
+      instructors:
+        - Jane Doe
+        - John Doe
+
+    - title: "Lunch"
+      dateStart:  2021-07-30T12:00:00-04:00
+      dateEnd:    2021-07-30T13:00:00-04:00
+      linktosession: https://zoom.us/j/92317091379
+      description: "Don't forget to take a break!"
+      topic: 4 # 1 = computer science, 2 = neuroscience, 3 - both, 4 = random
+      instructors:
+        - Jane Doe
+        - John Doe
+
+    - title: Questions and exercises
+      dateStart: 2021-07-30T13:00:00-04:00
+      dateEnd:   2021-07-30T14:00:00-04:00
+      linktosession: https://zoom.us/j/96692571531
+      topic: 3 # 1 = computer science, 2 = neuroscience, 3 - both, 4 = random
+      description:
+      instructors:
+        - Jane Doe
+        - John Doe
+
+    - title: Free hacking
+      dateStart: 2021-07-30T14:00:00-04:00
+      dateEnd:   2021-07-30T17:00:00-04:00
+      linktosession: https://zoom.us/j/96692571531
+      topic: 3 # 1 = computer science, 2 = neuroscience, 3 - both, 4 = random
       description:
       instructors:
         - Jane Doe
@@ -411,45 +291,22 @@ schedule:
 - week: Week 2
   title: "Time to think about your project"
   days:
-  - date: 2020-05-18 #monday
-    sessions:
-    - title: "Quebec Public Holiday"
-      dateStart: 2020-05-18T08:00:00-04:00
-      dateEnd:   2020-05-18T17:00:00-04:00
-      topic: 1 # 1 = computer science, 2 = neuroscience, 3 - both
-      description: >
-        Enjoy the holiday! There won't be any teaching happening today. Happy free hacking time !?
-      instructors:
-        - Jane Doe
-        - John Doe
-
-  - date: 2020-05-19 #tuesday
+  - date: 2021-08-02 # Monday
     sessions:
     - title: Introduction to Week 2
-      dateStart:  2020-05-19T09:00:00-04:00
-      dateEnd:    2020-05-19T10:00:00-04:00
+      dateStart:  2021-08-02T09:00:00-04:00
+      dateEnd:    2021-08-02T10:00:00-04:00
       linktosession: https://zoom.us/j/96692571531
       topic: 3 # 1 = computer science, 2 = neuroscience, 3 - both, 4 = random
       description:
-      materials: "[Slides](https://docs.google.com/presentation/d/1JveXaq9rbCGvZerChVUdnKrbnezfX2p4_NVsSaAMLdg/edit#slide=id.g805a22c898_0_236)"
-      video: "[Video](https://youtu.be/-g_I8OFKtrI?list=PLfqBzCl5BL3-m9BH5qi4u4QzoJBC8Ze72)"    
+      materials: ""
+      video: ""
       instructors:
         - Pierre Bellec
 
-
-    - title: Virtual coffee break
-      dateStart:  2020-05-19T10:00:00-04:00
-      dateEnd:    2020-05-19T10:15:00-04:00
-      linktosession:
-      topic: 3 # 1 = computer science, 2 = neuroscience, 3 - both, 4 = random
-      description:
-      instructors:
-        - Jane Doe
-        - John Doe
-
     - title: Free hacking
-      dateStart:  2020-05-19T10:00:00-04:00
-      dateEnd:    2020-05-19T12:00:00-04:00
+      dateStart:  2021-08-02T10:00:00-04:00
+      dateEnd:    2021-08-02T12:00:00-04:00
       linktosession: https://zoom.us/j/96692571531
       topic: 3 # 1 = computer science, 2 = neuroscience, 3 - both, 4 = random
       description:
@@ -458,258 +315,51 @@ schedule:
         - John Doe
 
     - title: "Lunch"
-      dateStart:  2020-05-19T12:00:00-04:00
-      dateEnd:    2020-05-19T13:00:00-04:00
+      dateStart:  2021-08-02T12:00:00-04:00
+      dateEnd:    2021-08-02T13:00:00-04:00
       linktosession:
-      description: "Don't forget the #snack-club!"
+      description: "Don't forget to take a break!"
       topic: 4 # 1 = computer science, 2 = neuroscience, 3 - both, 4 = random
       instructors:
         - Jane Doe
         - John Doe
 
-    - title: Parallel sessions - Instructor clinic (group A) and Peer clinic (group B)
-      dateStart:  2020-05-19T13:00:00-04:00
-      dateEnd:    2020-05-19T14:00:00-04:00
+    - title: Project clinic
+      dateStart:  2021-08-02T13:00:00-04:00
+      dateEnd:    2021-08-02T14:00:00-04:00
       linktosession:
-      description: One-on-one meeting with your assigned instructor (group A) and clinic with fellow participants (group B)
+      description: Meeting with peers and instructors to discuss your project
       topic: 1 # 1 = computer science, 2 = neuroscience, 3 - both, 4 = random
-      instructors:
-        - Jane Doe
-        - John Doe
-
-    - title: Parallel sessions - Instructor clinic (group B) and Peer clinic (group A)
-      dateStart:  2020-05-19T14:00:00-04:00
-      dateEnd:    2020-05-19T15:00:00-04:00
-      linktosession:
-      description: One-on-one meeting with your assigned instructor (group B) and clinic with fellow participants (group A)
-      topic: 1 # 1 = computer science, 2 = neuroscience, 3 - both, 4 = random
-      instructors:
-        - Jane Doe
-        - John Doe
-
-    - title: Virtual coffee break
-      dateStart:  2020-05-19T15:00:00-04:00
-      dateEnd:    2020-05-19T15:15:00-04:00
-      linktosession:
-      topic: 1 # 1 = computer science, 2 = neuroscience, 3 - both, 4 = random
-      instructors:
-        - Jane Doe
-        - John Doe
-
-    - title: 30-min yoga class
-      dateStart:  2020-05-19T15:10:00-04:00
-      dateEnd:    2020-05-19T15:45:00-04:00
-      linktosession: https://zoom.us/j/92083982192
-      topic: 4 # 1 = computer science, 2 = neuroscience, 3 - both, 4 = random
-      description:
       instructors:
         - Jane Doe
         - John Doe
 
     - title: Free hacking
-      dateStart:  2020-05-19T15:45:00-04:00
-      dateEnd:    2020-05-19T17:00:00-04:00
+      dateStart:  2021-08-02T14:00:00-04:00
+      dateEnd:    2021-08-02T17:00:00-04:00
       linktosession:  https://zoom.us/j/96692571531
       topic: 3 # 1 = computer science, 2 = neuroscience, 3 - both, 4 = random
       instructors:
         - Jane Doe
         - John Doe
 
-  - date: 2020-05-20 #wednesday
+  - date: 2021-08-03 # Tuesday
     sessions:
-    - title: Open data resources by Sebastian Urchs
-      dateStart:  2020-05-20T09:00:00-04:00
-      dateEnd:    2020-05-20T10:00:00-04:00
+    - title: Questions and exercises
+      dateStart:  2021-08-03T09:00:00-04:00
+      dateEnd:    2021-08-03T10:00:00-04:00
       linktosession: https://zoom.us/j/96692571531
       topic: 3 # 1 = computer science, 2 = neuroscience, 3 - both, 4 = random
-      materials: "[Slides](https://docs.google.com/presentation/d/19pp-SwWI-Fi72BCsht_7SAj-uFp0-ijBqRc31sy2-Ag/edit?usp=sharing)"
-      video: "[Full presentation](https://youtu.be/OEhgEo5IAmk?list=PLfqBzCl5BL3-m9BH5qi4u4QzoJBC8Ze72)"
-      description:
-      instructors:
-        - Jane Doe
-        - John Doe
-
-    - title: Virtual coffee break
-      dateStart:  2020-05-20T10:00:00-04:00
-      dateEnd:    2020-05-20T10:15:00-04:00
-      linktosession:
-      topic: 3 # 1 = computer science, 2 = neuroscience, 3 - both, 4 = random
-      description:
+      description: Time for asking questions on the modules, and validate solutions to exercises.
+      materials: ""
+      video: ""
       instructors:
         - Jane Doe
         - John Doe
 
     - title: Free hacking
-      dateStart:  2020-05-20T10:00:00-04:00
-      dateEnd:    2020-05-20T12:00:00-04:00
-      linktosession:
-      topic: 3 # 1 = computer science, 2 = neuroscience, 3 - both, 4 = random
-      description:
-      instructors:
-        - Jane Doe
-        - John Doe
-
-    - title: "Lunch"
-      dateStart:  2020-05-20T12:00:00-04:00
-      dateEnd:    2020-05-20T13:00:00-04:00
-      linktosession:
-      description: "Don't forget the #snack-club!"
-      topic: 4 # 1 = computer science, 2 = neuroscience, 3 - both, 4 = random
-      instructors:
-        - Jane Doe
-        - John Doe
-
-    - title: Parallel sessions - Instructor clinic (group A) and Peer clinic (group B)
-      dateStart:  2020-05-20T13:00:00-04:00
-      dateEnd:    2020-05-20T14:00:00-04:00
-      linktosession: 
-      description: One-on-one meeting with your assigned instructor (group A) and clinic with fellow participants (group B)
-      topic: 1 # 1 = computer science, 2 = neuroscience, 3 - both, 4 = random
-      instructors:
-        - Jane Doe
-        - John Doe
-
-    - title: Parallel sessions - Instructor clinic (group B) and Peer clinic (group A)
-      dateStart:  2020-05-20T14:00:00-04:00
-      dateEnd:    2020-05-20T15:00:00-04:00
-      linktosession:
-      description: One-on-one meeting with your assigned instructor (group B) and clinic with fellow participants (group A)
-      topic: 1 # 1 = computer science, 2 = neuroscience, 3 - both, 4 = random
-      instructors:
-        - Jane Doe
-        - John Doe
-
-    - title: Virtual coffee break
-      dateStart:  2020-05-20T15:00:00-04:00
-      dateEnd:    2020-05-20T15:15:00-04:00
-      linktosession:
-      topic: 1 # 1 = computer science, 2 = neuroscience, 3 - both, 4 = random
-      instructors:
-        - Jane Doe
-        - John Doe
-
-    - title: Free hacking
-      dateStart:  2020-05-20T15:00:00-04:00
-      dateEnd:    2020-05-20T17:00:00-04:00
-      linktosession: https://zoom.us/j/96692571531
-      topic: 3 # 1 = computer science, 2 = neuroscience, 3 - both, 4 = random
-      instructors:
-        - Jane Doe
-        - John Doe
-
-  - date: 2020-05-21 #thursday
-    sessions:
-    - title: Introduction to magneto and electro encephalography by Karim Jerbi
-      dateStart:  2020-05-21T09:00:00-04:00
-      dateEnd:    2020-05-21T10:00:00-04:00
-      linktosession: https://zoom.us/j/96692571531
-      topic: 3 # 1 = computer science, 2 = neuroscience, 3 - both, 4 = random
-      video: "[Video](https://youtu.be/ANZLL3Vmgsk?list=PLfqBzCl5BL3-m9BH5qi4u4QzoJBC8Ze72)"
-      description:
-      instructors:
-        - Jane Doe
-        - John Doe
-
-    - title: Measuring cortical interactions in EEG, MEG and intracranial EEG by Karim Jerbi
-      dateStart:  2020-05-21T10:15:00-04:00
-      dateEnd:    2020-05-21T11:15:00-04:00
-      linktosession: https://zoom.us/j/96692571531
-      topic: 3 # 1 = computer science, 2 = neuroscience, 3 - both, 4 = random
-      video: "[Video](https://youtu.be/LlqhLuYsn0w?list=PLfqBzCl5BL3-m9BH5qi4u4QzoJBC8Ze72)"
-      description:
-      instructors:
-        - Jane Doe
-        - John Doe
-
-    - title: Free hacking
-      dateStart:  2020-05-21T10:00:00-04:00
-      dateEnd:    2020-05-21T12:00:00-04:00
-      linktosession:
-      topic: 3 # 1 = computer science, 2 = neuroscience, 3 - both, 4 = random
-      description:
-      instructors:
-        - Jane Doe
-        - John Doe
-
-    - title: "Lunch"
-      dateStart:  2020-05-21T12:00:00-04:00
-      dateEnd:    2020-05-21T13:00:00-04:00
-      linktosession:
-      description: "Don't forget the #snack-club!"
-      topic: 4 # 1 = computer science, 2 = neuroscience, 3 - both, 4 = random
-      instructors:
-        - Jane Doe
-        - John Doe
-
-    - title: Project presentations - Group A Parallel sessions
-      dateStart:  2020-05-21T13:00:00-04:00
-      dateEnd:    2020-05-21T15:00:00-04:00
-      linktosession: https://docs.google.com/document/d/15ZVSCmZhxnzrW7lwgyUSf3Uf_lLOgpI5sCRCjIZkSbI/edit#
-      description:
-      topic: 3 # 1 = computer science, 2 = neuroscience, 3 - both, 4 = random
-      instructors:
-        - Jane Doe
-        - John Doe
-
-    - title: Project presentations - Group B Parallel sessions 
-      dateStart:  2020-05-21T13:00:00-04:00
-      dateEnd:    2020-05-21T15:00:00-04:00
-      linktosession: https://docs.google.com/document/d/1y3fPwKEDwVnOCunyxTnDpp2zVdO1GMw-Sp6Rx2mwhoY/edit#
-      description: Two
-      topic: 3 # 1 = computer science, 2 = neuroscience, 3 - both, 4 = random
-      instructors:
-        - Jane Doe
-        - John Doe
-
-    - title: 30-min yoga class
-      dateStart:  2020-05-21T15:15:00-04:00
-      dateEnd:    2020-05-21T15:45:00-04:00
-      linktosession: https://zoom.us/j/97324829890
-      topic: 1 # 1 = computer science, 2 = neuroscience, 3 - both, 4 = random
-      instructors:
-        - Jane Doe
-        - John Doe
-
-    - title: Free hacking
-      dateStart:  2020-05-21T15:00:00-04:00
-      dateEnd:    2020-05-21T17:00:00-04:00
-      linktosession: https://zoom.us/j/96692571531
-      topic: 3 # 1 = computer science, 2 = neuroscience, 3 - both, 4 = random
-      instructors:
-        - Jane Doe
-        - John Doe
-
-    - title: "Virtual social (optional)"
-      dateStart:  2020-05-21T18:00:00-04:00
-      dateEnd:    2020-05-21T20:00:00-04:00
-      linktosession: TBA! Wait for it..
-      topic: 3 # 1 = computer science, 2 = neuroscience, 3 - both, 4 = random
-      instructors:
-        - Jane Doe
-        - John Doe
-
-  - date: 2020-05-22 #friday
-    sessions:
-    - title:  Introduction to functional MRI connectivity by Pierre Bellec
-      dateStart:  2020-05-22T09:00:00-04:00
-      dateEnd:    2020-05-22T10:00:00-04:00
-      linktosession: https://zoom.us/j/96692571531
-      topic: 1 # 1 = computer science, 2 = neuroscience, 3 - both, 4 = random
-      description: Participants interested in fMRIprep can watch this [video](https://www.youtube.com/watch?v=WTcucXAAVBU) and get in touch with Basile Pinsard on slack if they have questions.
-      materials: "[Slides](https://docs.google.com/presentation/d/1mTJoOSRKtGzhWeNLa9PXyKUYA0p9733UHVWrmIyi4zs/edit?usp=sharing)"
-      video: "[Video](https://youtu.be/RoKt_c08wxQ?list=PLfqBzCl5BL3-m9BH5qi4u4QzoJBC8Ze72)"
-    - title:  Introduction to Brain Parcellations by Pierre Bellec
-      dateStart:  2020-05-22T10:00:00-04:00
-      dateEnd:    2020-05-22T11:00:00-04:00
-      linktosession: https://zoom.us/j/96692571531
-      topic: 1 # 1 = computer science, 2 = neuroscience, 3 - both, 4 = random
-      description: Participants interested in fMRIprep can watch this [video](https://www.youtube.com/watch?v=WTcucXAAVBU) and get in touch with Basile Pinsard on slack if they have questions.
-      materials: "[Slides](https://docs.google.com/presentation/d/1mTJoOSRKtGzhWeNLa9PXyKUYA0p9733UHVWrmIyi4zs/edit?usp=sharing)"
-      video: "[Video](https://youtu.be/7uMVRebuDZo?list=PLfqBzCl5BL3-m9BH5qi4u4QzoJBC8Ze72)"
-   
-    - title: Free hacking
-      dateStart:  2020-05-22T10:00:00-04:00
-      dateEnd:    2020-05-22T12:00:00-04:00
+      dateStart:  2021-08-03T10:00:00-04:00
+      dateEnd:    2021-08-03T12:00:00-04:00
       linktosession: https://zoom.us/j/96692571531
       topic: 3 # 1 = computer science, 2 = neuroscience, 3 - both, 4 = random
       description:
@@ -718,29 +368,192 @@ schedule:
         - John Doe
 
     - title: "Lunch"
-      dateStart:  2020-05-22T12:00:00-04:00
-      dateEnd:    2020-05-22T13:00:00-04:00
-      linktosession: 
-      description: "Don't forget the #snack-club!"
+      dateStart:  2021-08-03T12:00:00-04:00
+      dateEnd:    2021-08-03T13:00:00-04:00
+      linktosession:
+      description: "Don't forget to take a break!"
       topic: 4 # 1 = computer science, 2 = neuroscience, 3 - both, 4 = random
       instructors:
         - Jane Doe
         - John Doe
 
-    - title: Team-building sessions
-      dateStart:  2020-05-22T13:00:00-04:00
-      dateEnd:    2020-05-22T15:00:00-04:00
-      linktosession: https://zoom.us/j/96692571531
+    - title: Project clinic
+      dateStart:  2021-08-03T13:00:00-04:00
+      dateEnd:    2021-08-03T14:00:00-04:00
+      linktosession:
+      description: Meeting with peers and instructors to discuss your project
       topic: 1 # 1 = computer science, 2 = neuroscience, 3 - both, 4 = random
       instructors:
         - Jane Doe
         - John Doe
 
     - title: Free hacking
-      dateStart:  2020-05-22T15:00:00-04:00
-      dateEnd:    2020-05-22T17:00:00-04:00
+      dateStart:  2021-08-03T14:00:00-04:00
+      dateEnd:    2021-08-03T17:00:00-04:00
+      linktosession:  https://zoom.us/j/96692571531
+      topic: 3 # 1 = computer science, 2 = neuroscience, 3 - both, 4 = random
+      instructors:
+        - Jane Doe
+        - John Doe
+
+  - date: 2021-08-04 # Wednesday
+    sessions:
+    - title: Questions and exercises
+      dateStart:  2021-08-04T09:00:00-04:00
+      dateEnd:    2021-08-04T10:00:00-04:00
       linktosession: https://zoom.us/j/96692571531
       topic: 3 # 1 = computer science, 2 = neuroscience, 3 - both, 4 = random
+      description: Time for asking questions on the modules, and validate solutions to exercises.
+      materials: ""
+      video: ""
+      instructors:
+        - Jane Doe
+        - John Doe
+
+    - title: Free hacking
+      dateStart:  2021-08-04T10:00:00-04:00
+      dateEnd:    2021-08-04T12:00:00-04:00
+      linktosession: https://zoom.us/j/96692571531
+      topic: 3 # 1 = computer science, 2 = neuroscience, 3 - both, 4 = random
+      description:
+      instructors:
+        - Jane Doe
+        - John Doe
+
+    - title: "Lunch"
+      dateStart:  2021-08-04T12:00:00-04:00
+      dateEnd:    2021-08-04T13:00:00-04:00
+      linktosession:
+      description: "Don't forget to take a break!"
+      topic: 4 # 1 = computer science, 2 = neuroscience, 3 - both, 4 = random
+      instructors:
+        - Jane Doe
+        - John Doe
+
+    - title: Project clinic
+      dateStart:  2021-08-04T13:00:00-04:00
+      dateEnd:    2021-08-04T14:00:00-04:00
+      linktosession:
+      description: Meeting with peers and instructors to discuss your project
+      topic: 1 # 1 = computer science, 2 = neuroscience, 3 - both, 4 = random
+      instructors:
+        - Jane Doe
+        - John Doe
+
+    - title: Free hacking
+      dateStart:  2021-08-04T14:00:00-04:00
+      dateEnd:    2021-08-04T17:00:00-04:00
+      linktosession:  https://zoom.us/j/96692571531
+      topic: 3 # 1 = computer science, 2 = neuroscience, 3 - both, 4 = random
+      instructors:
+        - Jane Doe
+        - John Doe
+
+  - date: 2021-08-05 # Thursday
+    sessions:
+    - title: Questions and exercises
+      dateStart:  2021-08-05T09:00:00-04:00
+      dateEnd:    2021-08-05T10:00:00-04:00
+      linktosession: https://zoom.us/j/96692571531
+      topic: 3 # 1 = computer science, 2 = neuroscience, 3 - both, 4 = random
+      description: Time for asking questions on the modules, and validate solutions to exercises.
+      materials: ""
+      video: ""
+      instructors:
+        - Jane Doe
+        - John Doe
+
+    - title: Free hacking
+      dateStart:  2021-08-05T10:00:00-04:00
+      dateEnd:    2021-08-05T12:00:00-04:00
+      linktosession: https://zoom.us/j/96692571531
+      topic: 3 # 1 = computer science, 2 = neuroscience, 3 - both, 4 = random
+      description:
+      instructors:
+        - Jane Doe
+        - John Doe
+
+    - title: "Lunch"
+      dateStart:  2021-08-05T12:00:00-04:00
+      dateEnd:    2021-08-05T13:00:00-04:00
+      linktosession:
+      description: "Don't forget to take a break!"
+      topic: 4 # 1 = computer science, 2 = neuroscience, 3 - both, 4 = random
+      instructors:
+        - Jane Doe
+        - John Doe
+
+    - title: Project clinic
+      dateStart:  2021-08-05T13:00:00-04:00
+      dateEnd:    2021-08-05T14:00:00-04:00
+      linktosession:
+      description: Meeting with peers and instructors to discuss your project
+      topic: 1 # 1 = computer science, 2 = neuroscience, 3 - both, 4 = random
+      instructors:
+        - Jane Doe
+        - John Doe
+
+    - title: Free hacking
+      dateStart:  2021-08-05T14:00:00-04:00
+      dateEnd:    2021-08-05T17:00:00-04:00
+      linktosession:  https://zoom.us/j/96692571531
+      topic: 3 # 1 = computer science, 2 = neuroscience, 3 - both, 4 = random
+      instructors:
+        - Jane Doe
+        - John Doe
+
+    - title: Social (optional)
+      dateStart:  2021-08-05T17:00:00-04:00
+      dateEnd:    2021-08-05T19:00:00-04:00
+      description: At [Pub McCarold](https://pubmccarold.com/en/home/)
+      linktosession:  https://zoom.us/j/96692571531
+      topic: 3 # 1 = computer science, 2 = neuroscience, 3 - both, 4 = random
+      instructors:
+        - Jane Doe
+        - John Doe
+
+  - date: 2021-08-06 # Friday
+    sessions:
+    - title: Project clinic
+      dateStart:  2021-08-06T09:00:00-04:00
+      dateEnd:    2021-08-06T10:00:00-04:00
+      linktosession: https://zoom.us/j/96692571531
+      topic: 3 # 1 = computer science, 2 = neuroscience, 3 - both, 4 = random
+      description: Meeting with peers and instructors to discuss your project
+      topic: 1 # 1 = computer science, 2 = neuroscience, 3 - both, 4 = random
+      instructors:
+      materials: ""
+      video: ""
+      instructors:
+        - Jane Doe
+        - John Doe
+
+    - title: Free hacking
+      dateStart:  2021-08-06T10:00:00-04:00
+      dateEnd:    2021-08-06T12:00:00-04:00
+      linktosession: https://zoom.us/j/96692571531
+      topic: 3 # 1 = computer science, 2 = neuroscience, 3 - both, 4 = random
+      description:
+      instructors:
+        - Jane Doe
+        - John Doe
+
+    - title: "Lunch"
+      dateStart:  2021-08-06T12:00:00-04:00
+      dateEnd:    2021-08-06T13:00:00-04:00
+      linktosession:
+      description: "Don't forget to take a break!"
+      topic: 4 # 1 = computer science, 2 = neuroscience, 3 - both, 4 = random
+      instructors:
+        - Jane Doe
+        - John Doe
+
+    - title: Project Presentation
+      dateStart:  2021-08-06T14:00:00-04:00
+      dateEnd:    2021-08-06T16:00:00-04:00
+      linktosession:
+      description: Presentation of projects
+      topic: 1 # 1 = computer science, 2 = neuroscience, 3 - both, 4 = random
       instructors:
         - Jane Doe
         - John Doe
@@ -751,558 +564,465 @@ schedule:
   ################################
   ###########  MONDAY ############
   ################################
-  - date: 2020-05-25
+  - date: 2021-08-09 # Monday
     sessions:
-    - title: "Intro to Week 3"
-      dateStart: 2020-05-25T09:00:00-04:00
-      dateEnd:   2020-05-25T09:15:00-04:00
-      linktosession:
-      topic: 3 # 1 = computer science, 2 = neuroscience, 3 - both
-      description: > 
-        A brief review of our goals and schedule for the week
-      instructors:
-        - Tristan Glatard
-    - title: "Morning talk: Data visualization"
-      dateStart: 2020-05-25T09:15:00-04:00
-      dateEnd:   2020-05-25T10:15:00-04:00
-      linktosession:
-      topic: 3 # 1 = computer science, 2 = neuroscience, 3 - both
-      description: > 
-        How to create awesome data visualizations and videos
-      instructors:
-        - Agah Karakuzu
-    # - title: "Virtual coffee break"
-    #   dateStart: 2020-05-25T10:15:00-04:00
-    #   dateEnd:   2020-05-25T10:30:00-04:00
-    #   linktosession:
-    #   topic: 3 # 1 = computer science, 2 = neuroscience, 3 - both
-    #   description: > 
-    #     Informal chit chat
-    - title: "Yoga"
-      dateStart: 2020-05-25T10:30:00-04:00
-      dateEnd:   2020-05-25T11:00:00-04:00
-      linktosession: https://zoom.us/j/98404139023
-      topic: 3 # 1 = computer science, 2 = neuroscience, 3 - both
-      description: > 
-        Online yoga class.
-    - title: "Free hacking"
-      dateStart: 2020-05-25T11:00:00-04:00
-      dateEnd:   2020-05-25T12:00:00-04:00
-      linktosession:
-      topic: 3 # 1 = computer science, 2 = neuroscience, 3 - both
-      description: > 
-        Time to get it done!
-     ############## LUNCH ################
-    - title: "Lunch"
-      dateStart:  2020-05-25T12:00:00-04:00
-      dateEnd:    2020-05-25T13:00:00-04:00
-      linktosession:
-      description: "Don't forget the #snack-club!"
-      topic: 4 # 1 = computer science, 2 = neuroscience, 3 - both, 4 = random
-    - title: Project clinics
-      dateStart:  2020-05-25T13:00:00-04:00
-      dateEnd:    2020-05-25T15:00:00-04:00
-      linktosession:
-      description: One-on-one meeting with your assigned instructor (group B) and clinic with fellow participants (group A)
+    - title: Introduction to Week 3
+      dateStart:  2021-08-09T09:00:00-04:00
+      dateEnd:    2021-08-09T10:00:00-04:00
+      linktosession: https://zoom.us/j/96692571531
       topic: 3 # 1 = computer science, 2 = neuroscience, 3 - both, 4 = random
-    # - title: "Virtual coffee break"
-    #   dateStart: 2020-05-25T15:00:00-04:00
-    #   dateEnd:   2020-05-25T15:15:00-04:00
-    #   linktosession:
-    #   topic: 3 # 1 = computer science, 2 = neuroscience, 3 - both
-    #   description: > 
-    #     Informal chit chat
-    - title: "Free hacking"
-      dateStart: 2020-05-25T15:15:00-04:00
-      dateEnd:   2020-05-25T17:00:00-04:00
-      linktosession:
-      topic: 3 # 1 = computer science, 2 = neuroscience, 3 - both
-      description: > 
-        Time to get it done!
-    
-  ################################
-  ###########  TUESDAY ############
-  ################################
-  - date: 2020-05-26
-    sessions:
-    - title: "Morning talk: Containers"
-      dateStart: 2020-05-26T09:00:00-04:00
-      dateEnd:   2020-05-26T10:00:00-04:00
-      linktosession:
-      materials: "[Jupyter Notebook](https://github.com/glatard/containers/blob/master/Containers%20are%20not%20magic.ipynb)"
-      video: "[Video](https://youtu.be/UFE1D8PBK1A?list=PLfqBzCl5BL3-m9BH5qi4u4QzoJBC8Ze72)"
-      topic: 3 # 1 = computer science, 2 = neuroscience, 3 - both
-      description: > 
-        Understanding containers and how to use them
+      description:
+      materials: ""
+      video: ""
       instructors:
-        - Tristan Glatard
-      
-    # - title: "Virtual coffee break"
-    #   dateStart: 2020-05-26T10:00:00-04:00
-    #   dateEnd:   2020-05-26T10:15:00-04:00
-    #   linktosession:
-    #   topic: 1 # 1 = computer science, 2 = neuroscience, 3 - both
-    #   description: > 
-    #     Informal chit chat
-    - title: "Free hacking"
-      dateStart: 2020-05-26T10:15:00-04:00
-      dateEnd:   2020-05-26T12:00:00-04:00
-      linktosession:
-      topic: 3 # 1 = computer science, 2 = neuroscience, 3 - both
-      description: > 
-        Time to get it done!
-     ############## LUNCH ################
-    - title: "Lunch"
-      dateStart:  2020-05-26T12:00:00-04:00
-      dateEnd:    2020-05-26T13:00:00-04:00
-      linktosession:
-      description: "Don't forget the #snack-club!"
-      topic: 4 # 1 = computer science, 2 = neuroscience, 3 - both, 4 = random
-    - title: Project clinics
-      dateStart:  2020-05-26T13:00:00-04:00
-      dateEnd:    2020-05-26T15:00:00-04:00
-      linktosession:
-      description: One-on-one meeting with your assigned instructor (group B) and clinic with fellow participants (group A)
-      topic: 3 # 1 = computer science, 2 = neuroscience, 3 - both, 4 = random
-    # - title: "Virtual coffee break"
-    #   dateStart: 2020-05-26T15:00:00-04:00
-    #   dateEnd:   2020-05-26T15:15:00-04:00
-    #   linktosession:
-    #   topic: 3 # 1 = computer science, 2 = neuroscience, 3 - both
-    #   description: > 
-    #     Informal chit chat
-    - title: "Free hacking"
-      dateStart: 2020-05-26T15:15:00-04:00
-      dateEnd:   2020-05-26T17:00:00-04:00
-      linktosession:
-      topic: 3 # 1 = computer science, 2 = neuroscience, 3 - both
-      description: > 
-        Time to get it done!
+        - Pierre Bellec
 
-  ################################
-  ###########  WEDNESDAY ############
-  ################################
-  - date: 2020-05-27
-    sessions:
-    - title: "Morning talk: Software Testing and Continuous Integration"
-      dateStart: 2020-05-27T09:00:00-04:00
-      dateEnd:   2020-05-27T10:00:00-04:00
-      linktosession:
-      materials: "[Slides](https://docs.google.com/presentation/d/1J0x3ahRCOx7cnyUq_EfueIaFM8-tze0V9rX-ECKJ65k/edit?usp=sharing) & [GitHub repository for the hands-on part](https://github.com/gkiar/intro2testing)"
-      video: "[Video](https://youtu.be/VibDC49ZAJE?list=PLfqBzCl5BL3-m9BH5qi4u4QzoJBC8Ze72)"
-      topic: 1 # 1 = computer science, 2 = neuroscience, 3 - both
-      description: > 
-        Why and how to test your software
-      instructors:
-        - Greg Kiar
-    # - title: "Virtual coffee break"
-    #   dateStart: 2020-05-27T10:00:00-04:00
-    #   dateEnd:   2020-05-27T10:15:00-04:00
-    #   linktosession:
-    #   topic: 3 # 1 = computer science, 2 = neuroscience, 3 - both
-    #   description: > 
-    #     Informal chit chat
-    - title: "Free hacking"
-      dateStart: 2020-05-27T10:15:00-04:00
-      dateEnd:   2020-05-27T12:00:00-04:00
-      linktosession:
-      topic: 3 # 1 = computer science, 2 = neuroscience, 3 - both
-      description: > 
-        Time to get it done!
-     ############## LUNCH ################
-    - title: "Lunch"
-      dateStart:  2020-05-27T12:00:00-04:00
-      dateEnd:    2020-05-27T13:00:00-04:00
-      linktosession:
-      description: "Don't forget the #snack-club!"
-      topic: 4 # 1 = computer science, 2 = neuroscience, 3 - both, 4 = random
-    - title: Project clinics
-      dateStart:  2020-05-27T13:00:00-04:00
-      dateEnd:    2020-05-27T15:00:00-04:00
-      linktosession:
-      description: One-on-one meeting with your assigned instructor (group B) and clinic with fellow participants (group A)
+    - title: Free hacking
+      dateStart:  2021-08-09T10:00:00-04:00
+      dateEnd:    2021-08-09T12:00:00-04:00
+      linktosession: https://zoom.us/j/96692571531
       topic: 3 # 1 = computer science, 2 = neuroscience, 3 - both, 4 = random
-    - title: "Yoga"
-      dateStart: 2020-05-27T15:00:00-04:00
-      dateEnd:   2020-05-27T15:30:00-04:00
-      linktosession: https://zoom.us/j/97532541804
-      topic: 3 # 1 = computer science, 2 = neuroscience, 3 - both
-      description: > 
-        Online yoga class.
-    # - title: "Virtual coffee break"
-    #   dateStart: 2020-05-27T15:30:00-04:00
-    #   dateEnd:   2020-05-27T15:45:00-04:00
-    #   linktosession:
-    #   topic: 3 # 1 = computer science, 2 = neuroscience, 3 - both
-    #   description: > 
-    #     Informal chit chat
-    - title: "Free hacking"
-      dateStart: 2020-05-27T15:45:00-04:00
-      dateEnd:   2020-05-27T17:00:00-04:00
-      linktosession:
-      topic: 3 # 1 = computer science, 2 = neuroscience, 3 - both
-      description: > 
-        Time to get it done!
+      description:
+      instructors:
+        - Jane Doe
+        - John Doe
 
-  ################################
-  ###########  THURSDAY ############
-  ################################
-  - date: 2020-05-28
-    sessions:
-    - title: "Morning talk: Software Packaging"
-      dateStart: 2020-05-28T09:00:00-04:00
-      dateEnd:   2020-05-28T10:00:00-04:00
-      materials: "[Slides](https://docs.google.com/presentation/d/18aMOZBbKEKTHtiZZA5bRPOBwxOVoPLRT1c5FaQZYLQI/edit#slide=id.p)"
-      video: "[Video](https://youtu.be/f2quLtfcQoQ?list=PLfqBzCl5BL3-m9BH5qi4u4QzoJBC8Ze72)"
-      topic: 1 # 1 = computer science, 2 = neuroscience, 3 - both
-      description: > 
-        How to package your code
-      instructors:
-        - Valerie Hayot-Sasson
-    # - title: "Virtual coffee break"
-    #   dateStart: 2020-05-28T10:00:00-04:00
-    #   dateEnd:   2020-05-28T10:15:00-04:00
-    #   linktosession:
-    #   topic: 3 # 1 = computer science, 2 = neuroscience, 3 - both
-    #   description: > 
-    #     Informal chit chat
-    - title: "Free hacking"
-      dateStart: 2020-05-28T10:15:00-04:00
-      dateEnd:   2020-05-28T12:00:00-04:00
-      linktosession:
-      topic: 3 # 1 = computer science, 2 = neuroscience, 3 - both
-      description: > 
-        Time to get it done!
-     ############## LUNCH ################
     - title: "Lunch"
-      dateStart:  2020-05-28T12:00:00-04:00
-      dateEnd:    2020-05-28T13:00:00-04:00
+      dateStart:  2021-08-09T12:00:00-04:00
+      dateEnd:    2021-08-09T13:00:00-04:00
       linktosession:
-      description: "Don't forget the #snack-club!"
+      description: "Don't forget to take a break!"
       topic: 4 # 1 = computer science, 2 = neuroscience, 3 - both, 4 = random
-    - title: Project clinics
-      dateStart:  2020-05-28T13:00:00-04:00
-      dateEnd:    2020-05-28T15:00:00-04:00
-      linktosession:
-      description: One-on-one meeting with your assigned instructor (group B) and clinic with fellow participants (group A)
-      topic: 3 # 1 = computer science, 2 = neuroscience, 3 - both, 4 = random
-    # - title: "Virtual coffee break"
-    #   dateStart: 2020-05-28T15:00:00-04:00
-    #   dateEnd:   2020-05-28T15:15:00-04:00
-    #   linktosession:
-    #   topic: 3 # 1 = computer science, 2 = neuroscience, 3 - both
-    #   description: > 
-    #     Informal chit chat
-    - title: "Free hacking"
-      dateStart: 2020-05-28T15:15:00-04:00
-      dateEnd:   2020-05-28T18:00:00-04:00
-      linktosession:
-      topic: 3 # 1 = computer science, 2 = neuroscience, 3 - both
-      description: > 
-        Time to get it done!
-    - title: "Virtual social (optional)"
-      dateStart: 2020-05-28T18:00:00-04:00
-      dateEnd:   2020-05-28T21:00:00-04:00
-      linktosession:
-      topic: 3 # 1 = computer science, 2 = neuroscience, 3 - both
-  
-  ################################
-  ###########  FRIDAY ############
-  ################################
-  - date: 2020-05-29
-    sessions:
-    - title: "Morning talk: Writing Scripts in Python"
-      dateStart: 2020-05-29T09:00:00-04:00
-      dateEnd:   2020-05-29T10:00:00-04:00
-      materials: "[Slides by Joel Grus](https://docs.google.com/presentation/d/1n2RlMdmv1p25Xy5thJUhkKGvjtV-dkAIsUXP-AL4ffI/edit#slide=id.g362da58057_0_1) / [Jupyter Notebook](https://github.com/gkiar/Biosignal-Emotions-BHS-2020/blob/master/Greg_demo.ipynb)"
-      video: "[Video](https://youtu.be/zpOQENxs1G4?list=PLfqBzCl5BL3-m9BH5qi4u4QzoJBC8Ze72)"
-      topic: 1 # 1 = computer science, 2 = neuroscience, 3 - both
-      description: > 
-        How to write scripts
       instructors:
-        - Greg Kiar
-    - title: "Virtual coffee break"
-      dateStart: 2020-05-29T10:00:00-04:00
-      dateEnd:   2020-05-29T10:15:00-04:00
-      linktosession:
-      topic: 3 # 1 = computer science, 2 = neuroscience, 3 - both
-      description: > 
-        Informal chit chat
-    - title: "Yoga"
-      dateStart: 2020-05-29T10:30:00-04:00
-      dateEnd:   2020-05-29T11:00:00-04:00
-      linktosession: https://zoom.us/j/93696320633
-      topic: 3 # 1 = computer science, 2 = neuroscience, 3 - both
-      description: > 
-        Online yoga class.
-    - title: "Free hacking"
-      dateStart: 2020-05-29T11:00:00-04:00
-      dateEnd:   2020-05-29T12:00:00-04:00
-      linktosession:
-      topic: 3 # 1 = computer science, 2 = neuroscience, 3 - both
-      description: > 
-        Time to get it done!
-     ############## LUNCH ################
-    - title: "Lunch"
-      dateStart:  2020-05-29T12:00:00-04:00
-      dateEnd:    2020-05-29T13:00:00-04:00
-      linktosession:
-      description: "Don't forget the #snack-club!"
-      topic: 4 # 1 = computer science, 2 = neuroscience, 3 - both, 4 = random
-    - title: Project clinics
-      dateStart:  2020-05-29T13:00:00-04:00
-      dateEnd:    2020-05-29T15:00:00-04:00
-      linktosession:
-      description: One-on-one meeting with your assigned instructor (group B) and clinic with fellow participants (group A)
-      topic: 3 # 1 = computer science, 2 = neuroscience, 3 - both, 4 = random
- 
-    # - title: "Virtual coffee break"
-    #   dateStart: 2020-05-29T15:00:00-04:00
-    #   dateEnd:   2020-05-29T15:15:00-04:00
-    #   linktosession:
-    #   topic: 3 # 1 = computer science, 2 = neuroscience, 3 - both
-    #   description: > 
-    #     Informal chit chat
-    - title: "Free hacking"
-      dateStart: 2020-05-29T15:15:00-04:00
-      dateEnd:   2020-05-29T17:00:00-04:00
-      linktosession:
-      topic: 3 # 1 = computer science, 2 = neuroscience, 3 - both
-      description: > 
-        Time to get it done!
+        - Jane Doe
+        - John Doe
 
+    - title: Project clinic
+      dateStart:  2021-08-09T13:00:00-04:00
+      dateEnd:    2021-08-09T14:00:00-04:00
+      linktosession:
+      description: Meeting with peers and instructors to discuss your project
+      topic: 1 # 1 = computer science, 2 = neuroscience, 3 - both, 4 = random
+      instructors:
+        - Jane Doe
+        - John Doe
+
+    - title: Free hacking
+      dateStart:  2021-08-09T14:00:00-04:00
+      dateEnd:    2021-08-09T17:00:00-04:00
+      linktosession:  https://zoom.us/j/96692571531
+      topic: 3 # 1 = computer science, 2 = neuroscience, 3 - both, 4 = random
+      instructors:
+        - Jane Doe
+        - John Doe
+
+  - date: 2021-08-10 # Tuesday
+    sessions:
+    - title: Questions and exercises
+      dateStart:  2021-08-10T09:00:00-04:00
+      dateEnd:    2021-08-10T10:00:00-04:00
+      linktosession: https://zoom.us/j/96692571531
+      topic: 3 # 1 = computer science, 2 = neuroscience, 3 - both, 4 = random
+      description: Time for asking questions on the modules, and validate solutions to exercises.
+      materials: ""
+      video: ""
+      instructors:
+        - Jane Doe
+        - John Doe
+
+    - title: Free hacking
+      dateStart:  2021-08-10T10:00:00-04:00
+      dateEnd:    2021-08-10T12:00:00-04:00
+      linktosession: https://zoom.us/j/96692571531
+      topic: 3 # 1 = computer science, 2 = neuroscience, 3 - both, 4 = random
+      description:
+      instructors:
+        - Jane Doe
+        - John Doe
+
+    - title: "Lunch"
+      dateStart:  2021-08-10T12:00:00-04:00
+      dateEnd:    2021-08-10T13:00:00-04:00
+      linktosession:
+      description: "Don't forget to take a break!"
+      topic: 4 # 1 = computer science, 2 = neuroscience, 3 - both, 4 = random
+      instructors:
+        - Jane Doe
+        - John Doe
+
+    - title: Project clinic
+      dateStart:  2021-08-10T13:00:00-04:00
+      dateEnd:    2021-08-10T14:00:00-04:00
+      linktosession:
+      description: Meeting with peers and instructors to discuss your project
+      topic: 1 # 1 = computer science, 2 = neuroscience, 3 - both, 4 = random
+      instructors:
+        - Jane Doe
+        - John Doe
+
+    - title: Free hacking
+      dateStart:  2021-08-10T14:00:00-04:00
+      dateEnd:    2021-08-10T17:00:00-04:00
+      linktosession:  https://zoom.us/j/96692571531
+      topic: 3 # 1 = computer science, 2 = neuroscience, 3 - both, 4 = random
+      instructors:
+        - Jane Doe
+        - John Doe
+
+  - date: 2021-08-11 # Wednesday
+    sessions:
+    - title: Project clinic
+      dateStart:  2021-08-11T09:00:00-04:00
+      dateEnd:    2021-08-11T10:00:00-04:00
+      linktosession: https://zoom.us/j/96692571531
+      topic: 3 # 1 = computer science, 2 = neuroscience, 3 - both, 4 = random
+      description:
+      materials: ""
+      video: ""
+      instructors:
+        - Jane Doe
+        - John Doe
+
+    - title: Free hacking
+      dateStart:  2021-08-11T10:00:00-04:00
+      dateEnd:    2021-08-11T12:00:00-04:00
+      linktosession: https://zoom.us/j/96692571531
+      topic: 3 # 1 = computer science, 2 = neuroscience, 3 - both, 4 = random
+      description:
+      instructors:
+        - Jane Doe
+        - John Doe
+
+    - title: "Lunch"
+      dateStart:  2021-08-11T12:00:00-04:00
+      dateEnd:    2021-08-11T13:00:00-04:00
+      linktosession:
+      description: "Don't forget to take a break!"
+      topic: 4 # 1 = computer science, 2 = neuroscience, 3 - both, 4 = random
+      instructors:
+        - Jane Doe
+        - John Doe
+
+    - title: Project clinic
+      dateStart:  2021-08-11T13:00:00-04:00
+      dateEnd:    2021-08-11T14:00:00-04:00
+      linktosession:
+      description: Meeting with peers and instructors to discuss your project
+      topic: 1 # 1 = computer science, 2 = neuroscience, 3 - both, 4 = random
+      instructors:
+        - Jane Doe
+        - John Doe
+
+    - title: Free hacking
+      dateStart:  2021-08-11T14:00:00-04:00
+      dateEnd:    2021-08-11T17:00:00-04:00
+      linktosession:  https://zoom.us/j/96692571531
+      topic: 3 # 1 = computer science, 2 = neuroscience, 3 - both, 4 = random
+      instructors:
+        - Jane Doe
+        - John Doe
+
+  - date: 2021-08-12 # Thursday
+    sessions:
+    - title: Presentation by Dr Angela Tam
+      dateStart:  2021-08-12T09:00:00-04:00
+      dateEnd:    2021-08-12T10:00:00-04:00
+      linktosession: https://zoom.us/j/96692571531
+      topic: 3 # 1 = computer science, 2 = neuroscience, 3 - both, 4 = random
+      description: 
+      materials: ""
+      video: ""
+      instructors:
+        - Jane Doe
+        - John Doe
+
+    - title: Free hacking
+      dateStart:  2021-08-12T10:00:00-04:00
+      dateEnd:    2021-08-12T12:00:00-04:00
+      linktosession: https://zoom.us/j/96692571531
+      topic: 3 # 1 = computer science, 2 = neuroscience, 3 - both, 4 = random
+      description:
+      instructors:
+        - Jane Doe
+        - John Doe
+
+    - title: "Lunch"
+      dateStart:  2021-08-12T12:00:00-04:00
+      dateEnd:    2021-08-12T13:00:00-04:00
+      linktosession:
+      description: "Don't forget to take a break!"
+      topic: 4 # 1 = computer science, 2 = neuroscience, 3 - both, 4 = random
+      instructors:
+        - Jane Doe
+        - John Doe
+
+    - title: Project clinic
+      dateStart:  2021-08-12T13:00:00-04:00
+      dateEnd:    2021-08-12T14:00:00-04:00
+      linktosession:
+      description: Meeting with peers and instructors to discuss your project
+      topic: 1 # 1 = computer science, 2 = neuroscience, 3 - both, 4 = random
+      instructors:
+        - Jane Doe
+        - John Doe
+
+    - title: Free hacking
+      dateStart:  2021-08-12T14:00:00-04:00
+      dateEnd:    2021-08-12T17:00:00-04:00
+      linktosession:  https://zoom.us/j/96692571531
+      topic: 3 # 1 = computer science, 2 = neuroscience, 3 - both, 4 = random
+      instructors:
+        - Jane Doe
+        - John Doe
+
+  - date: 2021-08-13 # Friday
+    sessions:
+    - title: No Brainhack school
+      dateStart:  2021-08-13T09:00:00-04:00
+      dateEnd:    2021-08-13T17:00:00-04:00
+      linktosession: https://zoom.us/j/96692571531
+      topic: 3 # 1 = computer science, 2 = neuroscience, 3 - both, 4 = random
+      description: Enjoy your Friday! Because summer is not just for hacking.
+      topic: 1 # 1 = computer science, 2 = neuroscience, 3 - both, 4 = random
+      instructors:
+      materials: ""
+      video: ""
+      instructors:
+        - Jane Doe
+        - John Doe
 
 - week: Week 4
   title: "Project wrap-up and communication"
   days:
-  
-  ################################
-  ########### Monday ############
-  ################################   
-  - date: 2020-06-01
+  - date: 2021-08-16 # Monday
     sessions:
-    - title: "Introduction to week 4"
-      dateStart: 2020-06-01T09:00:00-04:00
-      dateEnd:   2020-06-01T09:15:00-04:00
+    - title: Introduction to Week 4
+      dateStart:  2021-08-16T09:00:00-04:00
+      dateEnd:    2021-08-16T10:00:00-04:00
       linktosession: https://zoom.us/j/96692571531
-      topic: 3 # 1 = computer science, 2 = neuroscience, 3 - both
-      description: > 
-        A review of goals, delivrables and schedule for the week
-      instructors:
-        - Benjamin De Leener
-    - title: "Morning talk: Life post-Brainhack"
-      dateStart: 2020-06-01T09:15:00-04:00
-      dateEnd:   2020-06-01T10:00:00-04:00
-      linktosession: https://zoom.us/j/96692571531
-      topic: 3 # 1 = computer science, 2 = neuroscience, 3 - both
-      description: > 
-        by Liza Levitis
-      instructors:
-        - Liza Levitis
-    - title: "Free hacking"
-      dateStart: 2020-06-01T10:00:00-04:00
-      dateEnd:   2020-06-01T12:00:00-04:00
-      linktosession:
-      topic: 3 # 1 = computer science, 2 = neuroscience, 3 - both
-      description: > 
-        Time to get it done!
-     ############## LUNCH ################
-    - title: "Lunch"
-      dateStart:  2020-06-01T12:00:00-04:00
-      dateEnd:    2020-06-01T13:00:00-04:00
-      linktosession:
-      description: "Don't forget the #snack-club!"
-      topic: 4 # 1 = computer science, 2 = neuroscience, 3 - both, 4 = random
-    - title: Project clinics
-      dateStart:  2020-06-01T13:00:00-04:00
-      dateEnd:    2020-06-01T15:00:00-04:00
-      linktosession:
-      description: One-on-one meeting with your assigned instructor and clinic with fellow participants
       topic: 3 # 1 = computer science, 2 = neuroscience, 3 - both, 4 = random
-    - title: "Free hacking"
-      dateStart: 2020-06-01T15:00:00-04:00
-      dateEnd:   2020-06-01T18:00:00-04:00
-      linktosession:
-      topic: 3 # 1 = computer science, 2 = neuroscience, 3 - both
-      description: > 
-        Time to get it done!
+      description: A review of goals, delivrables and schedule for the week
+      materials: ""
+      video: ""
+      instructors:
+        - Pierre Bellec
 
-      
-  ################################
-  ########### Tuesday ############
-  ################################   
-  - date: 2020-06-02
-    sessions:
-    - title: "Morning talk: Increasing SNR in science communication"
-      dateStart: 2020-06-02T09:00:00-04:00
-      dateEnd:   2020-06-02T10:00:00-04:00
+    - title: Free hacking
+      dateStart:  2021-08-16T10:00:00-04:00
+      dateEnd:    2021-08-16T12:00:00-04:00
       linktosession: https://zoom.us/j/96692571531
-      topic: 3 # 1 = computer science, 2 = neuroscience, 3 - both
-      description: > 
-        by Nikola Stikov
-      instructors:
-        - Nikola Stikov
-    - title: "Free hacking"
-      dateStart: 2020-06-02T10:00:00-04:00
-      dateEnd:   2020-06-02T12:00:00-04:00
-      linktosession:
-      topic: 3 # 1 = computer science, 2 = neuroscience, 3 - both
-      description: > 
-        Time to get it done!
-    - title: "Yoga"
-      dateStart: 2020-06-02T10:30:00-04:00
-      dateEnd:   2020-06-02T11:00:00-04:00
-      linktosession: https://zoom.us/j/97555940104
-      topic: 3 # 1 = computer science, 2 = neuroscience, 3 - both
-      description: > 
-        Online yoga class.
-    - title: "Lunch"
-      dateStart:  2020-06-02T12:00:00-04:00
-      dateEnd:    2020-06-02T13:00:00-04:00
-      linktosession:
-      description: "Don't forget the #snack-club!"
-      topic: 4 # 1 = computer science, 2 = neuroscience, 3 - both, 4 = random
-    - title: Project clinics
-      dateStart:  2020-06-02T13:00:00-04:00
-      dateEnd:    2020-06-02T15:00:00-04:00
-      linktosession:
-      description: One-on-one meeting with your assigned instructor and clinic with fellow participants
       topic: 3 # 1 = computer science, 2 = neuroscience, 3 - both, 4 = random
-    - title: "Free hacking"
-      dateStart: 2020-06-02T15:00:00-04:00
-      dateEnd:   2020-06-02T18:00:00-04:00
-      linktosession:
-      topic: 3 # 1 = computer science, 2 = neuroscience, 3 - both
-      description: > 
-        Time to get it done!
-    - title: "Virtual social (optional)"
-      dateStart: 2020-06-02T18:00:00-04:00
-      dateEnd:   2020-06-02T21:00:00-04:00
-      linktosession:
-      topic: 3 # 1 = computer science, 2 = neuroscience, 3 - both
-      
-  ################################
-  ########### Wednesday ############
-  ################################   
-  - date: 2020-06-03
-    sessions:
-    - title: "Morning talk: How open source software shaped my academic path"
-      dateStart: 2020-06-03T09:00:00-04:00
-      dateEnd:   2020-06-03T10:00:00-04:00
-      linktosession: https://zoom.us/j/96692571531
-      topic: 3 # 1 = computer science, 2 = neuroscience, 3 - both
-      description: > 
-        by Julia Hunterberg
+      description:
       instructors:
-        - Julia Hunterberg
-    - title: "Free hacking"
-      dateStart: 2020-06-03T10:00:00-04:00
-      dateEnd:   2020-06-03T12:00:00-04:00
-      linktosession:
-      topic: 3 # 1 = computer science, 2 = neuroscience, 3 - both
-      description: > 
-        Time to get it done!
-    - title: "Virtual coffee break"
-      dateStart: 2020-06-03T10:00:00-04:00
-      dateEnd:   2020-06-03T10:15:00-04:00
-      linktosession:
-      topic: 3 # 1 = computer science, 2 = neuroscience, 3 - both
-      description: > 
-        Informal chit chat
-    - title: "Lunch"
-      dateStart:  2020-06-03T12:00:00-04:00
-      dateEnd:    2020-06-03T13:00:00-04:00
-      linktosession:
-      description: "Don't forget the #snack-club!"
-      topic: 4 # 1 = computer science, 2 = neuroscience, 3 - both, 4 = random
-    - title: Project clinics
-      dateStart:  2020-06-03T13:00:00-04:00
-      dateEnd:    2020-06-03T15:00:00-04:00
-      linktosession:
-      description: One-on-one meeting with your assigned instructor and clinic with fellow participants
-      topic: 3 # 1 = computer science, 2 = neuroscience, 3 - both, 4 = random
-    - title: "Free hacking"
-      dateStart: 2020-06-03T15:00:00-04:00
-      dateEnd:   2020-06-03T18:00:00-04:00
-      linktosession:
-      topic: 3 # 1 = computer science, 2 = neuroscience, 3 - both
-      description: > 
-        Time to get it done!
-      
-  ################################
-  ########### Thursday ############
-  ################################   
-  - date: 2020-06-04
-    sessions:
-    - title: "Morning talk: Life post-BrainHack"
-      dateStart: 2020-06-04T09:00:00-04:00
-      dateEnd:   2020-06-04T10:00:00-04:00
-      linktosession: https://zoom.us/j/96692571531
-      topic: 3 # 1 = computer science, 2 = neuroscience, 3 - both
-      description: > 
-        by Isabelle Simard
-      instructors:
-        - Isabelle Simard
-    - title: "Free hacking"
-      dateStart: 2020-06-04T10:00:00-04:00
-      dateEnd:   2020-06-04T12:00:00-04:00
-      linktosession:
-      topic: 3 # 1 = computer science, 2 = neuroscience, 3 - both
-      description: > 
-        Time to get it done!
-    - title: "Yoga"
-      dateStart: 2020-06-04T10:30:00-04:00
-      dateEnd:   2020-06-04T11:00:00-04:00
-      linktosession: https://zoom.us/j/97965153977
-      topic: 3 # 1 = computer science, 2 = neuroscience, 3 - both
-      description: > 
-        Online yoga class.
-     ############## LUNCH ################
-    - title: "Lunch"
-      dateStart:  2020-06-04T12:00:00-04:00
-      dateEnd:    2020-06-04T13:00:00-04:00
-      linktosession:
-      description: "Don't forget the #snack-club!"
-      topic: 4 # 1 = computer science, 2 = neuroscience, 3 - both, 4 = random
-    - title: "Final presentations"
-      dateStart: 2020-06-04T15:00:00-04:00
-      dateEnd:   2020-06-04T17:00:00-04:00
-      linktosession:
-      topic: 3 # 1 = computer science, 2 = neuroscience, 3 - both
-      description: > 
-        First session to present your project.
+        - Jane Doe
+        - John Doe
 
-      
-  ################################
-  ########### Friday ############
-  ################################   
-  - date: 2020-06-05
+    - title: "Lunch"
+      dateStart:  2021-08-16T12:00:00-04:00
+      dateEnd:    2021-08-16T13:00:00-04:00
+      linktosession:
+      description: "Don't forget to take a break!"
+      topic: 4 # 1 = computer science, 2 = neuroscience, 3 - both, 4 = random
+      instructors:
+        - Jane Doe
+        - John Doe
+
+    - title: Project clinic
+      dateStart:  2021-08-16T13:00:00-04:00
+      dateEnd:    2021-08-16T14:00:00-04:00
+      linktosession:
+      description: Meeting with peers and instructors to discuss your project
+      topic: 1 # 1 = computer science, 2 = neuroscience, 3 - both, 4 = random
+      instructors:
+        - Jane Doe
+        - John Doe
+
+    - title: Free hacking
+      dateStart:  2021-08-16T14:00:00-04:00
+      dateEnd:    2021-08-16T17:00:00-04:00
+      linktosession:  https://zoom.us/j/96692571531
+      topic: 3 # 1 = computer science, 2 = neuroscience, 3 - both, 4 = random
+      instructors:
+        - Jane Doe
+        - John Doe
+
+  - date: 2021-08-17 # Tuesday
     sessions:
-    - title: "Final presentations"
-      dateStart: 2020-06-05T09:00:00-04:00
-      dateEnd:   2020-06-05T10:00:00-04:00
+    - title: Presentation TBD
+      dateStart:  2021-08-17T09:00:00-04:00
+      dateEnd:    2021-08-17T10:00:00-04:00
+      linktosession: https://zoom.us/j/96692571531
+      topic: 3 # 1 = computer science, 2 = neuroscience, 3 - both, 4 = random
+      materials: ""
+      video: ""
+      instructors:
+        - Jane Doe
+        - John Doe
+
+    - title: Free hacking
+      dateStart:  2021-08-17T10:00:00-04:00
+      dateEnd:    2021-08-17T12:00:00-04:00
+      linktosession: https://zoom.us/j/96692571531
+      topic: 3 # 1 = computer science, 2 = neuroscience, 3 - both, 4 = random
+      description:
+      instructors:
+        - Jane Doe
+        - John Doe
+
+    - title: "Lunch"
+      dateStart:  2021-08-17T12:00:00-04:00
+      dateEnd:    2021-08-17T13:00:00-04:00
       linktosession:
-      topic: 1 # 1 = computer science, 2 = neuroscience, 3 - both
-      description: >
-        By yourself or in a team, you will present the project you will have worked on.
-    - title: "Final presentations"
-      dateStart: 2020-06-05T13:00:00-04:00
-      dateEnd:   2020-06-05T14:30:00-04:00
+      description: "Don't forget to take a break!"
+      topic: 4 # 1 = computer science, 2 = neuroscience, 3 - both, 4 = random
+      instructors:
+        - Jane Doe
+        - John Doe
+
+    - title: Project clinic
+      dateStart:  2021-08-17T13:00:00-04:00
+      dateEnd:    2021-08-17T14:00:00-04:00
       linktosession:
-      topic: 1 # 1 = computer science, 2 = neuroscience, 3 - both
-      description: >
-        By yourself or in a team, you will present the project you will have worked on.
-    - title: "Final presentations"
-      dateStart: 2020-06-05T15:00:00-04:00
-      dateEnd:   2020-06-05T16:30:00-04:00
+      description: Meeting with peers and instructors to discuss your project
+      topic: 1 # 1 = computer science, 2 = neuroscience, 3 - both, 4 = random
+      instructors:
+        - Jane Doe
+        - John Doe
+
+    - title: Free hacking
+      dateStart:  2021-08-17T14:00:00-04:00
+      dateEnd:    2021-08-17T17:00:00-04:00
+      linktosession:  https://zoom.us/j/96692571531
+      topic: 3 # 1 = computer science, 2 = neuroscience, 3 - both, 4 = random
+      instructors:
+        - Jane Doe
+        - John Doe
+
+  - date: 2021-08-18 # Wednesday
+    sessions:
+    - title: Presentation TBD
+      dateStart:  2021-08-18T09:00:00-04:00
+      dateEnd:    2021-08-18T10:00:00-04:00
+      linktosession: https://zoom.us/j/96692571531
+      topic: 3 # 1 = computer science, 2 = neuroscience, 3 - both, 4 = random
+      materials: ""
+      video: ""
+      instructors:
+        - Jane Doe
+        - John Doe
+
+    - title: Free hacking
+      dateStart:  2021-08-18T10:00:00-04:00
+      dateEnd:    2021-08-18T12:00:00-04:00
+      linktosession: https://zoom.us/j/96692571531
+      topic: 3 # 1 = computer science, 2 = neuroscience, 3 - both, 4 = random
+      description:
+      instructors:
+        - Jane Doe
+        - John Doe
+
+    - title: "Lunch"
+      dateStart:  2021-08-18T12:00:00-04:00
+      dateEnd:    2021-08-18T13:00:00-04:00
       linktosession:
-      topic: 1 # 1 = computer science, 2 = neuroscience, 3 - both
-      description: >
-        By yourself or in a team, you will present the project you will have worked on.
-    - title: "Closing ceremony"
-      dateStart: 2020-06-05T16:30:00-04:00
-      dateEnd:   2020-06-05T17:00:00-04:00
+      description: "Don't forget to take a break!"
+      topic: 4 # 1 = computer science, 2 = neuroscience, 3 - both, 4 = random
+      instructors:
+        - Jane Doe
+        - John Doe
+
+    - title: Project clinic
+      dateStart:  2021-08-18T13:00:00-04:00
+      dateEnd:    2021-08-18T14:00:00-04:00
       linktosession:
-      topic: 1 # 1 = computer science, 2 = neuroscience, 3 - both
-      description: >
-        BYOB. And bring your best hat for the group picture!
+      description: Meeting with peers and instructors to discuss your project
+      topic: 1 # 1 = computer science, 2 = neuroscience, 3 - both, 4 = random
+      instructors:
+        - Jane Doe
+        - John Doe
+
+    - title: Free hacking
+      dateStart:  2021-08-18T14:00:00-04:00
+      dateEnd:    2021-08-18T17:00:00-04:00
+      linktosession:  https://zoom.us/j/96692571531
+      description: Time to get it done!
+      topic: 3 # 1 = computer science, 2 = neuroscience, 3 - both, 4 = random
+      instructors:
+        - Jane Doe
+        - John Doe
+
+  - date: 2021-08-19 # Thursday
+    sessions:
+    - title: Presentation TBD
+      dateStart:  2021-08-19T09:00:00-04:00
+      dateEnd:    2021-08-19T10:00:00-04:00
+      linktosession: https://zoom.us/j/96692571531
+      topic: 3 # 1 = computer science, 2 = neuroscience, 3 - both, 4 = random
+      materials: ""
+      video: ""
+      instructors:
+        - Jane Doe
+        - John Doe
+
+    - title: Free hacking
+      dateStart:  2021-08-19T10:00:00-04:00
+      dateEnd:    2021-08-19T12:00:00-04:00
+      linktosession: https://zoom.us/j/96692571531
+      topic: 3 # 1 = computer science, 2 = neuroscience, 3 - both, 4 = random
+      description:
+      instructors:
+        - Jane Doe
+        - John Doe
+
+    - title: "Lunch"
+      dateStart:  2021-08-19T12:00:00-04:00
+      dateEnd:    2021-08-19T13:00:00-04:00
+      linktosession:
+      description: "Don't forget to take a break!"
+      topic: 4 # 1 = computer science, 2 = neuroscience, 3 - both, 4 = random
+      instructors:
+        - Jane Doe
+        - John Doe
+
+    - title: Project clinic
+      dateStart:  2021-08-19T13:00:00-04:00
+      dateEnd:    2021-08-19T14:00:00-04:00
+      linktosession:
+      description: Meeting with peers and instructors to discuss your project
+      topic: 1 # 1 = computer science, 2 = neuroscience, 3 - both, 4 = random
+      instructors:
+        - Jane Doe
+        - John Doe
+
+    - title: Free hacking
+      dateStart:  2021-08-19T14:00:00-04:00
+      dateEnd:    2021-08-19T17:00:00-04:00
+      linktosession:  https://zoom.us/j/96692571531
+      description: Time to get it done!
+      topic: 3 # 1 = computer science, 2 = neuroscience, 3 - both, 4 = random
+      instructors:
+        - Jane Doe
+        - John Doe
+
+  - date: 2021-08-20 # Friday
+    sessions:
+    - title: Final project presentations
+      dateStart:  2021-08-20T10:00:00-04:00
+      dateEnd:    2021-08-20T12:00:00-04:00
+      linktosession: https://zoom.us/j/96692571531
+      topic: 3 # 1 = computer science, 2 = neuroscience, 3 - both, 4 = random
+      materials: ""
+      video: ""
+      instructors:
+        - Jane Doe
+        - John Doe
+
+    - title: "Goodbye lunch"
+      dateStart:  2021-08-19T12:00:00-04:00
+      dateEnd:    2021-08-19T13:00:00-04:00
+      linktosession:
+      description: "Food provided"
+      topic: 4 # 1 = computer science, 2 = neuroscience, 3 - both, 4 = random
+      instructors:
+        - Jane Doe
+        - John Doe
