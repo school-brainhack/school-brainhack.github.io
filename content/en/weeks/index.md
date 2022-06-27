@@ -16,9 +16,9 @@ type = "weeks"
   * :star: [Introduction to the terminal](/modules/introduction_to_terminal).
   * :star: [Introduction to git and github](/modules/git_github).
   * [Python for data analysis](/modules/python_data_analysis).
-  * [Machine learning - basics](/modules/machine_learning).
+  * [Machine learning - basics](/modules/machine_learning_basics).
   * [Project management](/modules/project_management).
-  * [High performance computing](/modules/high_performance_computing).
+  * [High performance computing](/modules/hpc).
   * [Open data](/modules/open_data).
   * [Writing scripts in python](/modules/python_scripts).
 
