@@ -53,7 +53,7 @@ The video of his presentation is available below:
  ```
  scp cq-formation-premiers-pas-slurmcloud.zip <username>@beluga.computecanada.ca:
  ```
- *Note*: You could have directly dowloaded the file from the beluga cluster, but being familiar with the scp command is very useful.
+ *Note*: You could have directly downloaded the file from the beluga cluster, but being familiar with the scp command is very useful.
  * Connect to the beluga cluster :
  ```
  ssh <username>@beluga.computecanada.ca

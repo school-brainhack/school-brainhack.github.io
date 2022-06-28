@@ -42,7 +42,7 @@ Any question ? Ask us in the `#help-general` channel.
 
 #### PROFILE
 When you set up your profile there are two things to bear in mind:
-* **Your username** – please use a name by which others will be able to identify you. Precising your prefered pronouns is encouraged.
+* **Your username** – please use a name by which others will be able to identify you. Precising your preferred pronouns is encouraged.
 * **Your avatar** – please add a profile picture or other identifier that you’re comfortable with so that others can associate your posts with you more easily.
 
 [Official help on How to edit your profile](https://support.discord.com/hc/en-us/articles/360035491151-Account-Customization).
@@ -79,7 +79,7 @@ Your status is by default managed automatically by Discord, which will update it
 
 #### How use and create channels
 
-There are text channels and voice channels. For both type, you can access the channel by clicking it name on the left pannel. Voice channels allow you to share sound, video or your screen.
+There are text channels and voice channels. For both type, you can access the channel by clicking it name on the left panel. Voice channels allow you to share sound, video or your screen.
 
 The channels are grouped by categories. Categories make the navigation easier, but also allows to adapt some settings (e.g. notifications, permissions) per category. These settings can also be adapted directly per channel.
 
@@ -129,7 +129,7 @@ Discord notifications are great, but they may bother you when you try to focus o
 
 ##### Use reply to continue conversations
 
-* To refer to a previous message in your own message, you can click the arrow on the top right of the reffered message.
+* To refer to a previous message in your own message, you can click the arrow on the top right of the referred message.
 
 <details>
 

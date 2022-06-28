@@ -53,4 +53,4 @@ By default, GNU parallel will use one core per task, and it will launch as many
 tasks as there are cores on the system. As soon as a task is completed, the
 next one will start automatically.
 
-You may change the default behavious with the "-j" option (see the man page).
+You may change the default behaviours with the "-j" option (see the man page).

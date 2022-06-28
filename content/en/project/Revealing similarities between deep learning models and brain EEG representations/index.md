@@ -42,10 +42,10 @@ The general aim of this project is to understand and visualize how deep neural n
 The project will unfold in three steps. 
 
 1) Create a custom deep convolutional neural network (DCNN; using  TensorFlow & Keras). 
-2) Create, from high-density EEG time series, group-averaged representational dissimialrity matrices (RDMs; we will be feeding eeg topographies to linear classifers to do so).
+2) Create, from high-density EEG time series, group-averaged representational dissimialrity matrices (RDMs; we will be feeding eeg topographies to linear classifiers to do so).
 3) Compare the representations (RDMs) from each of the DCNNs' layers to human brain representations (RDMs) unfolding in time. 
 
-The first two steps will be developped in parallel. The last step will integrate their output.
+The first two steps will be developed in parallel. The last step will integrate their output.
 
 Initially, the plan was to train from scratch a DCNN to "learn" more human/brain representations. This is a mid/long-term role, and here I chose to focus on learning programming tools (described below).
 
@@ -62,7 +62,7 @@ The idea here is to come up with a common measure of processing between DCNN and
 <img src="brain_dcnn_parallel.png" width="70%">
 
 
-A good sumary of brain and DNN computations can be obtained with a Representational Dissimlarity Matrix (RDM, see DATA section).
+A good summary of brain and DNN computations can be obtained with a Representational Dissimlarity Matrix (RDM, see DATA section).
 
 
 ## Tools

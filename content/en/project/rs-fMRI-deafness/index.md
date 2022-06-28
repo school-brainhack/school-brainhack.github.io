@@ -115,7 +115,7 @@ This project was initiated as part of the course PSY6983. The following sections
 
 ## 1. Data Management
 
-Since my data was converted from DICOM to NIfTI prior to the beggining of the course, the first phase of the project was dedicated to organize my dataset into the BIDS format. This standardized neuroimaging structure enables the [FAIR guidelines](https://www.go-fair.org/fair-principles/) criteria of interoperability (I) and reusability (R), which corresponds with my objective to familiarize myself with the best practices in data management. Different tutorials and examples available in Github repos facilitated the BIDS conversion (see [bids-starter-kit](https://github.com/bids-standard/bids-starter-kit)). [BIDS Validator](https://bids-standard.github.io/bids-validator/) web browser based version confirmed that the data structure matched the BIDS standards.
+Since my data was converted from DICOM to NIfTI prior to the beginning of the course, the first phase of the project was dedicated to organize my dataset into the BIDS format. This standardized neuroimaging structure enables the [FAIR guidelines](https://www.go-fair.org/fair-principles/) criteria of interoperability (I) and reusability (R), which corresponds with my objective to familiarize myself with the best practices in data management. Different tutorials and examples available in Github repos facilitated the BIDS conversion (see [bids-starter-kit](https://github.com/bids-standard/bids-starter-kit)). [BIDS Validator](https://bids-standard.github.io/bids-validator/) web browser based version confirmed that the data structure matched the BIDS standards.
 
 <p align="center">
 <img src="bids.png">
@@ -182,7 +182,7 @@ The most contributing coefficients to the classifier can be visualized on the br
 
 - **Machine Learning Packages:** I have a better understanding of how to use `scikit-learn`, `nilearn` and their different modules for machine learning and neuroimaging data manipulations.  
 
-- **Python Scripting:** I was able to use different librairies (e.g. `numpy`, `nibabel`), code in a virtual environment with Jupyter Notebook and edit code with Virtual Studio Code. The course modules helped me understand data dimensionality and how to manipulate it.
+- **Python Scripting:** I was able to use different libraries (e.g. `numpy`, `nibabel`), code in a virtual environment with Jupyter Notebook and edit code with Virtual Studio Code. The course modules helped me understand data dimensionality and how to manipulate it.
 
 - **Data Visualization:** I learned to plot static figures with `matplotlib` and `seaborn` and to generate interactive figures with `plotly`. I am now able to code this cool brain visualization:
 
@@ -207,7 +207,7 @@ By the end of the project, I was able to deliver:
 
 The past month has been very educational and rewarding on many levels. The course format allowed for the application of new knowledge to a project that reflects my interests. While it was easy to get lost in ideas of grandeur for the project, I reached most of the goals I set for myself, notably a better understanding of neuroimaging data manipulations using open science tools and practices.  
 
-The classification perfomance outcomes illustrate the need for further investigation on single-level prediction and features' importance. The vectorize correlation matrix was not a good discriminating feature between hearing and non hearing individuals. Although the results were not striking, I emerge of this experience equipped with improved coding skills and fueled with new ideas to try on my model.
+The classification performance outcomes illustrate the need for further investigation on single-level prediction and features' importance. The vectorize correlation matrix was not a good discriminating feature between hearing and non hearing individuals. Although the results were not striking, I emerge of this experience equipped with improved coding skills and fueled with new ideas to try on my model.
 
 A special thanks to Pierre Bellec for his advice and his insightful takes about the future of science practices. I would have been stuck longer on data preprocessing without Desiree's help and might have shed a tear without Andreanne's and François' coding skills. You have all facilitated my learning journey and provided me with the necessary tools to overcome obstacles. A great thanks to Marie-Eve with whom I shared (lots of) coffees during our coding sessions.
 

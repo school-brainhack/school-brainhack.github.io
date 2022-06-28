@@ -228,7 +228,7 @@ Next there is a list of interesting datasets I found, which I choose 2 to work d
 
   | N      | Type      | Tasks | Comments |
   |--------|-----------|----------|----------|
-  |  31   |   channels, eeg, events        |   music listening       |   Very littel information about what files where use     |
+  |  31   |   channels, eeg, events        |   music listening       |   Very little information about what files where use     |
 
   <https://openneuro.org/datasets/ds002721/versions/1.0.1>
 
@@ -303,7 +303,7 @@ Next there is a list of interesting datasets I found, which I choose 2 to work d
 
   <https://openneuro.org/datasets/ds002000/versions/1.0.0>
 
-* Real-time EEG feedback on alpha power lateralization leads to behavioral improvements in a covert attention task
+* Real-time EEG feedback on alpha power lateralization leads to behavioral improvements in a convert attention task
 
   <https://openneuro.org/datasets/ds002034/versions/1.0.1>
 
@@ -341,7 +341,7 @@ Next there is a list of interesting datasets I found, which I choose 2 to work d
 
 #### NOT Accessible
 
-I also find some very interesting datsets that I was not able to access directly and in the period of 3 weeks I was still waiting for them.
+I also find some very interesting datasets that I was not able to access directly and in the period of 3 weeks I was still waiting for them.
 
 I was a little frustrated with the process, making me realize how important is real Open Data.
 

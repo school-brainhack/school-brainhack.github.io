@@ -16,7 +16,7 @@ tags: [deep learning, introduction to deep learning]
 
 # Summarize your project in < ~75 words. This description will appear at the top of your page and on the list page with other projects..
 
-summary: "The objectives of this module are to learn some of the fundementals of using deep learning for neuroscience"
+summary: "The objectives of this module are to learn some of the fundamentals of using deep learning for neuroscience"
 
 # If you want to add a cover image (listpage and image in the right), add it to your directory and indicate the name
 # below with the extension.

@@ -165,7 +165,7 @@ A SVM classifier was computed to see if it is possible to predict which dataset 
 <img src="confusion_matrices_perc_across_fold.png" width="800px"/>
 </p>
 
-This result possibly highlights that the fMRI data in the two datasets come from different distributions. This might explained why the regression model computed on the first dataset performed so poorly on the test set (second dataset). The classification accuracy might be due the different parameters used to acquire the fMRI data. The only divergent acquisition parameters were the number of whole-brain volumes acquired during each functional scan (170 volumes vs 160 volumes) and the voxel sizes (3.44 x 3.44 x 3.40 mm vs 3.4 x 3.4 x 3.4 mm). The averaged age of the participants was also different between the datasets (23.4 ± 2.5 years vs 36.0 ± 10.9 years). This age difference may have contributed to the high classification accuracy, although there is no clear evidence to support a difference in brain activity related to facial expression of pain according to different age groups in the litterature.
+This result possibly highlights that the fMRI data in the two datasets come from different distributions. This might explained why the regression model computed on the first dataset performed so poorly on the test set (second dataset). The classification accuracy might be due the different parameters used to acquire the fMRI data. The only divergent acquisition parameters were the number of whole-brain volumes acquired during each functional scan (170 volumes vs 160 volumes) and the voxel sizes (3.44 x 3.44 x 3.40 mm vs 3.4 x 3.4 x 3.4 mm). The averaged age of the participants was also different between the datasets (23.4 ± 2.5 years vs 36.0 ± 10.9 years). This age difference may have contributed to the high classification accuracy, although there is no clear evidence to support a difference in brain activity related to facial expression of pain according to different age groups in the literature.
 
 ## Conclusion
 
@@ -181,7 +181,7 @@ I would like to thank Pierre Bellec and the TAs who helped me overcome the vario
 * Désirée
 * François
 
-A special mention to Catherine Landry for the shared coffees and the moral suppport.
+A special mention to Catherine Landry for the shared coffees and the moral support.
 
 For any question and comments about the project, please contact me at marie-eve.picard.2@umontreal.ca.
 
