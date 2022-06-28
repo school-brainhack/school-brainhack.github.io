@@ -47,7 +47,7 @@ The video of the presentation is available below (57:51):
  * Create and populate a `README.md` file
  * Create and populate a `license.txt` file
  * Fill a `requirements.txt` file. Include everything needed for development, including e.g. `jupyter-notebook` and `pytest`.
- * Fill a `pyproject.toml` file. Start from a [template](https://martin-thoma.com/pyproject-toml/). These two last steps are much more meaningful if you are working with a code base for your project, rather than a toy module with no depencies.
+ * Fill a `pyproject.toml` file. Start from a [template](https://martin-thoma.com/pyproject-toml/). These two last steps are much more meaningful if you are working with a code base for your project, rather than a toy module with no dependencies.
  * Configure the meta-data of your project with `setup.cfg`. Check the [documentation of pypi](https://packaging.python.org/tutorials/packaging-projects/#configuring-metadata) for more info.
  * Add on `__init.py__` in your module folder. See this [example](https://careerkarma.com/blog/what-is-init-py/)
  * Try installing your package locally by running `pip install -e .` in your repository.

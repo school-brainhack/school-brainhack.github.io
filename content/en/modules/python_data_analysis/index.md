@@ -16,7 +16,7 @@ tags: [Python, data analysis]
 
 # Summarize your project in < ~75 words. This description will appear at the top of your page and on the list page with other projects..
 
-summary: "This tutorial aims at introducing students to the programming langage Python for data analysis. By the end of this module, students will be familiar with Python basic syntax and understand why Python serves well the purpose of data analysis."
+summary: "This tutorial aims at introducing students to the programming language Python for data analysis. By the end of this module, students will be familiar with Python basic syntax and understand why Python serves well the purpose of data analysis."
 
 # If you want to add a cover image (listpage and image in the right), add it to your directory and indicate the name
 # below with the extension.
@@ -59,7 +59,7 @@ All the tutorial notes related to the video below are available [here](https://g
 ## Exercises
 For this part, we will use the famous scikit-learn dataset iris which consists of 3 different types of irises’ (Setosa, Versicolour, and Virginica) with information about petal and sepal length and width stored in a 150x4 numpy.ndarray.
 
-1. Before starting to write some code, you want to set-up the environment so that it load the required modules. In a Jupyter Notebook import the following librairies:
+1. Before starting to write some code, you want to set-up the environment so that it load the required modules. In a Jupyter Notebook import the following libraries:
        
        # imports 
        import pandas as pd

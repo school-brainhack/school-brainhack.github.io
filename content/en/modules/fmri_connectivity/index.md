@@ -43,7 +43,7 @@ The video of the presentation is available below:
 
 ## Exercise
 
- * Download the jupyter notebook with the folowing command, follow it carefully and complete the 3 exercises at the end.
+ * Download the jupyter notebook with the following command, follow it carefully and complete the 3 exercises at the end.
  ```
  wget https://raw.githubusercontent.com/BrainhackMTL/psy6983_2021/master/content/en/modules/fmri_connectivity/BHS_fMRI_connectivity.ipynb
  ```
@@ -54,7 +54,7 @@ The video of the presentation is available below:
 
 [Here](https://pbellec.github.io/functional_parcellation/#/) are Pierre Bellec's slides for a course on brain parcellation. They contain snippets of examples of nilearn code to load datasets, plot brains, compute and plot connectomes...
 
-The video on resting state mentionned by Pierre in his presentation :
+The video on resting state mentioned by Pierre in his presentation :
 <iframe width="560" height="315" src="https://www.youtube.com/embed/_Iph3WW9UOU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 If you want to know more about fMRIprep, Basile Pinsard made a presentation on this topic for BrainHack school 2019 :

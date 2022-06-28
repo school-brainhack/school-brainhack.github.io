@@ -21,6 +21,6 @@ Instructions :
 Additional information:
   * Compute Canada users are specifying accounts in the form of: TYPE-NAME,
     where TYPE can be def, rrg, rpp or ctb, and NAME is the PI's username.
-  * The file slurm-JOB_ID.out constains both standard and error outputs
+  * The file slurm-JOB_ID.out contains both standard and error outputs
     (stdout and stderr) of the job. If it failed, you should check in this
     file. In the case of this exercise, you should see "Bonjour".

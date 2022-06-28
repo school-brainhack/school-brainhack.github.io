@@ -72,7 +72,7 @@ Short exercises need to be completed at the end of each tutorial. Completing all
 
   * Work on projects. Most of the time will be reserved to actually doing the work.
   * Project clinics. Get daily feedback and support from instructors and residents.
-  * Presentation from instructors on their carreer paths.
+  * Presentation from instructors on their career paths.
   * Collaborate. Take time each day to help someone else with their project.
 
   Time to work on training modules is minimal. You will be required to complete 1 out of the following modules:

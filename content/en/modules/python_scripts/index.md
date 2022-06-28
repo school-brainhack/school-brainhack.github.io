@@ -42,9 +42,9 @@ The video is available below:
 
 ## Exercise
 
-In this exercise we will program a key-based encryption and decryption system. We will implement a version of the [Vignere cipher](https://en.wikipedia.org/wiki/Vigen%C3%A8re_cipher), but instead of just using the 26 letters of the alphabet, we will use all the unicode characters.
+In this exercise we will program a key-based encryption and decryption system. We will implement a version of the [Vigenere cipher](https://en.wikipedia.org/wiki/Vigen%C3%A8re_cipher), but instead of just using the 26 letters of the alphabet, we will use all the unicode characters.
 
-The Vignere cipher consists in shifting the letters of the message to encrypt by the index of the corresponding letter in the key. For example the encryption of the letter B with the key D will result in the letter of new_index = index(B) + index(D) = 2 + 4 = 6, so it will be the 6th letter which is F.
+The Vigenere cipher consists in shifting the letters of the message to encrypt by the index of the corresponding letter in the key. For example the encryption of the letter B with the key D will result in the letter of new_index = index(B) + index(D) = 2 + 4 = 6, so it will be the 6th letter which is F.
 
 :warning: Note that here by index I mean the index of the letter in the alphabet and not the index of the letter in the string.
 
@@ -97,7 +97,7 @@ my_super_secret_key
 
 <summary> <h2> On the usefulness of "if __name__ == '__main__':" (click to show &#11015) <h2/></summary>
 
-It is not obvious why you shoud put the `if __name__ == "__main__":` line in your script. Indeed in a lot of cases, putting it or not won't change anything to how your code runs. But in specific settings with multiple scripts importing from each pother, not putting it in can quickly lead to a nightmare.
+It is not obvious why you should put the `if __name__ == "__main__":` line in your script. Indeed in a lot of cases, putting it or not won't change anything to how your code runs. But in specific settings with multiple scripts importing from each pother, not putting it in can quickly lead to a nightmare.
 To give you an insight of how and why it is useful, here is an example (if you don't want to read or if you want complementary explanations, here is [a nice youtube video](https://www.youtube.com/watch?v=g_wlZ9IhbTs) about it).
 
 Suppose you have a script to fit a Ridge model on provided data, judiciously named `fit_Ridge.py`, which looks like this :
@@ -173,7 +173,7 @@ Traceback (most recent call last):
 TypeError: expected str, bytes or os.PathLike object, not NoneType
 ```
 
-The error shows that the script tried to save a model to the path `args.output_path`, which was not defined so it was set to None and raised a TypeError. But our `compare_to_Lasso.py` script never tries to save a model ! Indeed looking at the other lines of the error message, we see that it comes from the import. In fact what happens is that when we try to import the `fit_Ridge_model` fuction from the `fit_Ridge.py` file, python will read the entire file and execute everything that is written in it, so it will try to fit a Ridge model and to save it. But we don't want python to execute everything, we just want it to read the definition of the `fit_Ridge_model` function. That is why here we absolutely need the `if __name__ == "__main__":`, so we modify the `fit_Ridge.py` script like that :
+The error shows that the script tried to save a model to the path `args.output_path`, which was not defined so it was set to None and raised a TypeError. But our `compare_to_Lasso.py` script never tries to save a model ! Indeed looking at the other lines of the error message, we see that it comes from the import. In fact what happens is that when we try to import the `fit_Ridge_model` function from the `fit_Ridge.py` file, python will read the entire file and execute everything that is written in it, so it will try to fit a Ridge model and to save it. But we don't want python to execute everything, we just want it to read the definition of the `fit_Ridge_model` function. That is why here we absolutely need the `if __name__ == "__main__":`, so we modify the `fit_Ridge.py` script like that :
 ```
 #!/usr/bin/env python
 import argparse

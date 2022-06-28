@@ -19,7 +19,7 @@ tags: [Diffuision MRI reconstruction, MRI Visualization, MRI Analyzation, Machin
 
 # Summarize your project in < ~75 words. This description will appear at the top of your page and on the list page with other projects..
 
-summary: "This project is about diffusion magnetic resonance (MR) data processing and analysis. It mainly consists of three parts: brain diffusion MR data preprocessing, diffusion MRI images reconstruction, data visualization and left and right hemispherical preprocessed MR images classification. The whole procedures can be found in [this Jupyter Notebook file](https://github.com/brainhack-school2020/BHS_Project_dMRI/blob/master/dMRI%20Reconstruction%20Project.ipynb). Explanations about procedures results and other details are given in it. With reproducibility being a primary concern, this project was completed by using open-source softwares/tools (Python, FSL, DIPYPE...) and dataset (dHCP and PRIME)."
+summary: "This project is about diffusion magnetic resonance (MR) data processing and analysis. It mainly consists of three parts: brain diffusion MR data preprocessing, diffusion MRI images reconstruction, data visualization and left and right hemispherical preprocessed MR images classification. The whole procedures can be found in [this Jupyter Notebook file](https://github.com/brainhack-school2020/BHS_Project_dMRI/blob/master/dMRI%20Reconstruction%20Project.ipynb). Explanations about procedures results and other details are given in it. With reproducibility being a primary concern, this project was completed by using open-source software/tools (Python, FSL, DIPYPE...) and dataset (dHCP and PRIME)."
 
 # If you want to add a cover image (listpage and image in the right), add it to your directory and indicate the name
 # below with the extension.
@@ -33,7 +33,7 @@ image: "bhs2020.png"
 
 Low blood sugar is a common problem in both children and adults. Existing research showed that it may lead to serious both transient and permanent structural abnormalities on brains. Magnetic resonance imaging (MRI), specially diffusion MRI, has a higher in vivo sensitivity to lesions in soft tissues compared to other imaging modalities, and has potential to identify and quantify brain structure changes. Some of these changes are not appraient enough,even for experienced experts. Machine learning is a useful method to discover potential features. 
 
-Currently, there are some open-source softwares to reconstruct and analyze diffusion MRI data. However, only using these tools, one, like me as a new student in this field, may get confused about operations and principle behind them. This seriously stops people to reach their long-term goals in their diffusion MRI project. 
+Currently, there are some open-source software to reconstruct and analyze diffusion MRI data. However, only using these tools, one, like me as a new student in this field, may get confused about operations and principle behind them. This seriously stops people to reach their long-term goals in their diffusion MRI project. 
 
 Thus, I began this project to preprocess  dMRI data, reconstruct diffusion MR images and do some analysis by using machine learning. The goals are as following:
 

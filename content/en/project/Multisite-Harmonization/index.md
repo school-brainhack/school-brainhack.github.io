@@ -88,7 +88,7 @@ Note that the Jupyter notebook also supports the examination of the harmonized d
 Data harmonization and effect size visualization were done in R, where the available tools were more sophisticated.
 
 ### Pipeline: Python vs. R
-Initially, the project was meant to run entirely in Python. However, two challenges arose. First, the current Python version of neuroCombat is not able to accept data with missing values. Since this data is masked based on segmentation quality (structures whose segementation failed are not used), the data contains missing values. The R version of neuroCombat does support missing values. Also, R has much more sophisticated packages available to generate forest plots, which are used here to compare the results of the different harmonization methods. Since the language of the Brainhack School is Python, the project was reconceived as a mini-pipeline, using both R and Python.
+Initially, the project was meant to run entirely in Python. However, two challenges arose. First, the current Python version of neuroCombat is not able to accept data with missing values. Since this data is masked based on segmentation quality (structures whose segmentation failed are not used), the data contains missing values. The R version of neuroCombat does support missing values. Also, R has much more sophisticated packages available to generate forest plots, which are used here to compare the results of the different harmonization methods. Since the language of the Brainhack School is Python, the project was reconceived as a mini-pipeline, using both R and Python.
 
 ### Jupyter Notebooks
 Jupyter notebooks are used in this project both for data visualization and for presentation (using RISE). Initially, data harmonization was done in Python, and all of the code was run inside of Jupyter notebooks. When QC masking was added, it was necessary to move the ComBat harmonization code to R. For this reason, the Jupyter Notebooks depend on having access to the harmonized data from the pipeline. Several interactive visualizations are provided in the Jupyter notebooks, and conda environments are provided to allow them to be run on other machines without version conflicts.
@@ -206,8 +206,8 @@ where the options are:
 |  -i      | Input filename |
 |  -o      | Output directory|
 |  -s      | Site / Name of feature to harmonize |
-|  -x      | Name of independant variable / regressor, here diagnosis. Should be categorical |
-|  -l      | Name of control condition for independant variable |
+|  -x      | Name of independent variable / regressor, here diagnosis. Should be categorical |
+|  -l      | Name of control condition for independent variable |
 |  -c      | Comma-separated names of covariates for linear models |
 |  -q      | Names of QC variables / columns |
 |  -t      | QC threshold. All features below this QC value will be masked |

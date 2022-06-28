@@ -16,7 +16,7 @@ tags: [bash shell, terminal]
 
 # Summarize your project in < ~75 words. This description will appear at the top of your page and on the list page with other projects..
 
-summary: "This tutorial aims at introducing students to the use of command line terminal which offers more flexibility than build-in graphical user interfaces. We hope to provide students with an understanding of the basic command lines and advantages of working with the bash shell."
+summary: "This tutorial aims at introducing students to the use of command line terminal which offers more flexibility than built-in graphical user interfaces. We hope to provide students with an understanding of the basic command lines and advantages of working with the bash shell."
 
 # If you want to add a cover image (listpage and image in the right), add it to your directory and indicate the name
 # below with the extension.
@@ -169,7 +169,7 @@ When run in the molecules directory, which ls command(s) will produce this outpu
 
     ethane.pdb methane.pdb
 
-    a) ls *t*ane.pdb
+    a) ls *t*and.pdb
     b) ls *t?ne.*
     c) ls *t??ne.pdb
     d) ls ethane.*
