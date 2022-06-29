@@ -31,7 +31,7 @@ The estimated time to complete this training module is 2h.
 The prerequisites to take this module are:
  * the [installation](/modules/installation) module.
 
-Contact François Paugam if you have questions on this module, or if you want to check that you completed successfully all the exercises.
+Contact Hao-Ting Wang if you have questions on this module, or if you want to check that you completed successfully all the exercises.
 
 ## Resources
 This module was presented by [Greg Kiar](https://github.com/gkiar) during the QLSC 612 course in 2020, with [slides](https://docs.google.com/presentation/d/1n2RlMdmv1p25Xy5thJUhkKGvjtV-dkAIsUXP-AL4ffI/edit#slide=id.g362da58057_0_1) from Joel Grus' talk at JupyterCon 2018.
@@ -62,10 +62,12 @@ You pair up the letters of the message with the ones of the key one by one, and 
 
 For the indices of the letter, we will not use the the number of the letter in the alphabet, but the unicode index of the letter, which is easily obtained with the native python function `ord`. The reverse operation of getting a letter from its unicode index is obtained with native python function `chr`. There are 1114112 unicode characters handled by python, so we'll have to make sure we have indices in the range 0 to 1114111. To ensure that, we can use values modulo 1114112, i.e. `encrypted_index = (ord(message_letter) + ord(key_letter)) % 1114112`.
 
-In a file `useful_functions.py`, you'll implement the following functions :
-* `encrypt_letter(letter, key)` : return the encrypted letter with the key, e.g. `encrypt_letter("l", "h")` should return `'Ô'`.
-* `decrypt_letter(letter, key)` : return the decrypted letter with the key, e.g. `decrypt_letter("Ô", "h")` should return `'l'`.
-* `process_message(message, key, encrypt)`: return the encrypted message using the letters in `key` if encrypt is `True`, and the decrypted message if encrypt is `False`. For example :
+### Step 1: Create relevant functions in `useful_functions.py`
+
+  You'll implement the following functions :
+  * `encrypt_letter(letter, key)` : return the encrypted letter with the key, e.g. `encrypt_letter("l", "h")` should return `'Ô'`.
+  * `decrypt_letter(letter, key)` : return the decrypted letter with the key, e.g. `decrypt_letter("Ô", "h")` should return `'l'`.
+  * `process_message(message, key, encrypt)`: return the encrypted message using the letters in `key` if encrypt is `True`, and the decrypted message if encrypt is `False`. For example :
 ```
 process_message('coucou', 'clef', True)
 'ÆÛÚÉÒá'
@@ -74,28 +76,22 @@ process_message('ÆÛÚÉÒá', 'clef', False)
 'coucou'
 ```
 
-Then in a file `cypher_script.py`:
+After creating these function, try to call them in your python terminal or in a JupyterNotebook to try things out.
+Are the functions performing as you expected?
+
+If so, let's make sure they are in a file named `useful_functions.py` and conclude the first part of the exercise.
+
+### Step 2: Create a file `cypher_script.py`:
+
 * use the Argparse library introduced in the video so that a user can call the script with three arguments : `--message`, `--key` and `--mode`. `--message` will contain the path to a text files containing the message. `--key` will be a string directly containing the key. `--mode` will be a string that can take the value `"enc"` or `"dec"` to tell the script if you want to encrypt or decrypt the message.
 * The script should import the functions from `useful_functions.py` and use them in its main function to encrypt or decrypt the text in the message file using the text in the key file as the key, and save the results in a file that has the same name as the message file but with a `_encrypted` or `_decrypted` suffix depending on the mode. So calling `python cypher_script.py --message msg_file.txt --key my_key --mode enc` should create a `msg_file_encrypted.txt` file.
-* Don't forget to use the `if __name__ == "__main__"`. Even though in this example it won’t make a difference, it is never too early to get used to good practices.
-
-Finally, decrypt the file obtained with :
-```
-wget https://raw.githubusercontent.com/BrainhackMTL/psy6983_2021/master/content/en/modules/python_scripts/message_encrypted.txt
-```
-with the following key :
-```
-my_super_secret_key
-```
-
- * Follow up with François Paugam to validate you completed the exercise correctly.
- * :tada: :tada: :tada: you completed this training module! :tada: :tada: :tada:
+* Don't forget to write the code under `if __name__ == "__main__"`. Even though in this example it won’t make a difference, it is never too early to get used to good practices. Read this section below to understand the usefulness of `if __name__ == "__main__"`.
 
 <br/>
 
 <details>
 
-<summary> <h2> On the usefulness of "if __name__ == '__main__':" (click to show &#11015) <h2/></summary>
+<summary> <h4> On the usefulness of "if __name__ == '__main__':" (click to show &#11015) <h4/></summary>
 
 It is not obvious why you should put the `if __name__ == "__main__":` line in your script. Indeed in a lot of cases, putting it or not won't change anything to how your code runs. But in specific settings with multiple scripts importing from each pother, not putting it in can quickly lead to a nightmare.
 To give you an insight of how and why it is useful, here is an example (if you don't want to read or if you want complementary explanations, here is [a nice youtube video](https://www.youtube.com/watch?v=g_wlZ9IhbTs) about it).
@@ -108,10 +104,10 @@ import pickle  # pickle is a librairie to save and load python objects.
 import numpy as np
 from sklearn.linear_model import Ridge
 
-def  fit_Ridge_model(X, Y):
-  model = Ridge()
-  model.fit(X, Y)
-  return model
+def fit_Ridge_model(X, Y):
+    model = Ridge()
+    model.fit(X, Y)
+    return model
 
 parser = argparse.ArgumentParser()
 parser.add_argument("--X_data_path", type=str)
@@ -181,7 +177,7 @@ import pickle  # pickle is a librairie to save and load python objects.
 import numpy as np
 from sklearn.linear_model import Ridge
 
-def  fit_Ridge_model(X, Y):
+def fit_Ridge_model(X, Y):
     model = Ridge()
     model.fit(X, Y)
     return model
@@ -204,6 +200,22 @@ In the end using `if __name__ == "__main__":` is the only way to safely import f
 
 </details>
 <br>
+
+
+### Step 3: verify your results
+
+Finally, decrypt the file obtained with :
+```
+wget https://raw.githubusercontent.com/BrainhackMTL/psy6983_2021/master/content/en/modules/python_scripts/message_encrypted.txt
+```
+with the following key :
+```
+my_super_secret_key
+```
+
+ * Follow up with Hao-Ting Wang to validate you completed the exercise correctly.
+ * :tada: :tada: :tada: you completed this training module! :tada: :tada: :tada:
+
 
 ## More resources
 
