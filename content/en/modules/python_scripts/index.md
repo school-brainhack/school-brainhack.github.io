@@ -31,7 +31,7 @@ The estimated time to complete this training module is 2h.
 The prerequisites to take this module are:
  * the [installation](/modules/installation) module.
 
-Contact François Paugam if you have questions on this module, or if you want to check that you completed successfully all the exercises.
+Contact Hao-Ting Wang if you have questions on this module, or if you want to check that you completed successfully all the exercises.
 
 ## Resources
 This module was presented by [Greg Kiar](https://github.com/gkiar) during the QLSC 612 course in 2020, with [slides](https://docs.google.com/presentation/d/1n2RlMdmv1p25Xy5thJUhkKGvjtV-dkAIsUXP-AL4ffI/edit#slide=id.g362da58057_0_1) from Joel Grus' talk at JupyterCon 2018.
@@ -213,7 +213,7 @@ with the following key :
 my_super_secret_key
 ```
 
- * Follow up with François Paugam to validate you completed the exercise correctly.
+ * Follow up with Hao-Ting Wang to validate you completed the exercise correctly.
  * :tada: :tada: :tada: you completed this training module! :tada: :tada: :tada:
 
 
