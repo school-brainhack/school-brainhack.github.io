@@ -82,7 +82,7 @@ Now that you've installed everything it's time to check that everything works as
 Type the following into your terminal:
 
 ``` bash
-bash <( curl -s https://raw.githubusercontent.com/BrainhackMTL/psy6983_2021/master/content/en/modules/installation/nds_check_install.sh )
+bash <( curl -s https://raw.githubusercontent.com/brainhackorg/school/master/content/en/modules/installation/nds_check_install.sh )
 ```
 
 If you installed everything correctly you should see a message informing you as such.
