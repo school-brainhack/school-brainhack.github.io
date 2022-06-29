@@ -17,7 +17,7 @@ Try opening a terminal and typing `git --version`.
 If you do not see something like “git version X.XX.X” printed out, then follow these steps:
 
 1. Follow [this link](https://sourceforge.net/projects/git-osx-installer/files/git-2.23.0-intel-universal-mavericks.dmg/download?use_mirror=autoselect) to automatically download an installer.
-1. Double click the downloaded file (`git-2.23.0-intel-universal-mavericks.dmg`) and then double click the `git-2.23.0-intel-universal-mavericks.pkg` icon inside the dmg that is opened.
+1. Double click the downloaded file (`git-2.33.0-intel-universal-mavericks.dmg`) and then double click the `git-2.33.0-intel-universal-mavericks.pkg` icon inside the dmg that is opened.
 1. Follow the on-screen instructions to install the package.
 
 ### VSCode
