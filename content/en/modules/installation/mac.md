@@ -42,9 +42,18 @@ If you do not see something like “git version X.XX.X” printed out, then foll
 
 1. Open a new terminal and type the following lines (separately) into the terminal, pressing `Enter` after each one:
 
+   **On X86 MacOs machine :**
+   
    ``` bash
    curl -O https://repo.anaconda.com/miniconda/Miniconda3-latest-MacOSX-x86_64.sh
    bash Miniconda3-latest-MacOSX-x86_64.sh
+   ```
+   
+   **On ARM MacOs machine :**
+   
+   ``` bash
+   curl -O https://repo.anaconda.com/miniconda/Miniconda3-latest-MacOSX-arm64.sh
+   bash Miniconda3-latest-MacOSX-arm64.sh
    ```
 
 1. A license agreement will be displayed and the bottom of the terminal will read `--More--`.
@@ -59,9 +68,15 @@ If you do not see something like “git version X.XX.X” printed out, then foll
    - If you do not see a path like this then please try typing `conda init`, closing your terminal, and repeating this step.
      If your issue is still not resolved skip the following step and contact an instructor on the #help-installation channel of the BHS Slack.
 1. Type the following to remove the installation script that was downloaded:
-
+   
+   **On X86 MacOs machine :**
    ``` bash
    rm ./Miniconda3-latest-MacOSX-x86_64.sh
+   ```
+   
+   **On ARM MacOs machine :**
+      ``` bash
+   rm ./Miniconda3-latest-MacOSX-arm64.sh
    ```
 
 #### Python packages
