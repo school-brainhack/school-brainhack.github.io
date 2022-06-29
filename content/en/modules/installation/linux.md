@@ -10,8 +10,8 @@ To check whether this is necessary, follow these steps:
 
 ### Git
 
-You may already have it; try typing `sudo apt-get install git` (Ubuntu, Debian) or `sudo yum install git` (Fedora) inside the terminal.
-If you are prompted to install it follow the instructions on-screen to do so.
+You may already have it; try typing `sudo apt-get install git` (Ubuntu, Debian) or `sudo yum install git` (Fedora, CentOS) inside the terminal.
+If you are prompted to install it, follow the instructions on-screen to do so.
 
 ### VSCode
 
