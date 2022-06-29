@@ -81,9 +81,7 @@ Your status is by default managed automatically by Discord, which will update it
 
 There are text channels and voice channels. For both types, you can access the channel by clicking its name on the left panel. Voice channels allow you to share sound, video or your screen.
 
-The channels are grouped by categories. Categories make the navigation easier, but also allows to adapt some settings (e.g. notifications, permissions) per category. These settings can also be adapted directly per channel.
-
-You can create new categories or channels for relevant topics (e.g., your project) and choose to make the new channel public or private. Private channels are only accessible by people you invite to the channel.
+The channels are grouped by categories. Categories make the navigation easier, but also allows to adapt some settings (e.g. notifications, permissions) per category. These settings can also be adapted directly per channel. In the Brainhack School Discord server, we will be providing all the common and project specific discussion channels to your use! If the students would need to open a new channel admins will help with the set up (please DM to @isil).
 
 <details>
 
@@ -162,7 +160,7 @@ However, sometimes you want to start a private conversation. To do this you can 
 ##### Direct message when necessary
 You may feel tempted to use DM instead of asking questions in dedicated channels. If an instructor believes others will benefit from the answer, they will probably encourage you to ask your question in the appropriate channel. If you have a question, others likely have the same one, we are all learning from each other.
 
-That said, DM is useful to discuss privately with other people (one or many) and you don't want to flood a channel.
+That said, DM is useful to discuss privately with other people (one or many) and when you don't want to flood a channel.
 
 <details>
 
@@ -189,15 +187,6 @@ snippet
 ```
 ````
 
-
-#### Emojis
-
-When you click on the emoji icon in the conversation or add a reaction, you can see the custom ones we’ve added.
-
-You can find images for things like :brainhack:, etc.
-
-Take a look at them and feel free to [add more custom emoji](https://support.discord.com/hc/en-us/articles/360036479811-Custom-Emojis) yourself.
-
 <a name="4-BrainHack-School-Features"></a>
 ### 4. BrainHack School Features
 
@@ -211,12 +200,12 @@ In addition to the @everyone and @here handles, we've created a useful handle to
 
 ##### Prefixes
 
-To keep our Slack organised, we've set channel prefixes. These are self-explanatory:
+To keep our Discord organised, we've set channel prefixes. These are self-explanatory:
 
 | Prefix  | Purpose    |         |
 | -------- | -------- 	| -------- |
-| #help-   | For questions, assistance, and resources on a topic | Create as many as you want (e.g, #help-installation, #help-python, etc.)     |
-| #proj-   | For collaborating and discussing a project     	| Each project will have its own public channel. Choose a clever acronym, puns are encouraged      |
+| #help-   | For questions, assistance, and resources on a topic (e.g, #help-installation etc.)|
+| #proj-   | For collaborating and discussing a project. | Each project will have its own public channel.|
 
 #### Dedicated channels
 
@@ -231,17 +220,146 @@ To keep our Slack organised, we've set channel prefixes. These are self-explanat
 `#Lounge`: A voice channel for casual chatting.
 
 
-
 ---
+## Markdown
+Markdown is a lightweight markup langauge, which is highly used in git platforms such as GitHub, BitBucket, or websites to easily format the
+text for visibility.
+
+A markdown file could be easily created by a text editor or online platforms like [Hackmd.io](https://hackmd.io/) and save the file with an 
+extension of .md or .markdown. To compile the markdown you will need applications that are capable of process and convert the markdown file 
+into a printable HTML code.  
 
 
-## To be continued...
 
-What else do you want a quick start guide on?
-* Markdown format?
-* GitHub?
-* VSC?
-* ...
+The markdown has a very easy syntax to remember to format the text such as
+
+### Headers
+
+```
+
+# Header 1
+
+## Header 2
+
+### Header 3
+
+#### Header 4
+
+...
+```
+
+# Header 1 
+
+## Header 2
+
+### Header 3
+
+#### Header 4
+
+### Formatting
+
+```
+*This is Italic writing*
+_I can also use underscores for Italic._
+
+**This is for bold writing.**
+__Double underscore is also for bold writing.__
+
+***I can also combine both.***
+
+~~Striking through~~
+
+:smile: :brain: :rocket:
+
+```
+
+*This is Italic writing*
+_I can also use underscores for Italic._
+
+**This is for bold writing.**
+__Double underscore is also for bold writing.__
+
+***I can also combine both.***
+
+~~Striking through~~
+
+:smile: :brain: :rocket:
+
+### Lists
+
+```
+1. First
+2. Second
+3. Third
+
+- Bullet point
+
+* Another bullet point
+
+- Bullet point
+    - Sub-bullet point
+    
+- [ ] Checkbox
+    
+```
+
+1. First
+2. Second
+3. Third
+
+- Bullet point
+
+* Another bullet point
+
+- Bullet point
+    - Sub-bullet point
+
+- [ ] Checkbox
+    
+### Adding Image or Link to the Text
+
+``` 
+Link
+[Brainhack School Website](https://school.brainhackmtl.org/guide/)
+
+Image
+![Brainhack Logo](https://avatars.githubusercontent.com/u/62623251?s=200&v=4)
+```
+
+Link
+[Brainhack School Website](https://school.brainhackmtl.org/guide/)
+
+Image
+![Brainhack Logo](https://avatars.githubusercontent.com/u/62623251?s=200&v=4)
+
+
+### Code and Quotes
+```
+``` Adding code block```
+```
+
+
+```
+Using the `inline` code.
+
+> Quoting a text.
+```
+
+
+``` 
+Adding some code
+```
+
+Using the `inline` code.
+
+> Quoting a text.
+
+
+## GitHub
+
+We would highly recommend you to go through [Getting Started with GitHub](https://the-turing-way.netlify.app/collaboration/github-novice.html) resources
+ of The Turing Way which will give the general overview about the aim of using GitHub and basic skills to familiarize yourself. 
+
 
 
 © BrainHackMTL - Licensed under a [CC BY 4.0 license.](https://creativecommons.org/licenses/by/4.0/)
