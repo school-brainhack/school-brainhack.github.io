@@ -19,7 +19,7 @@ tags: [AlE meta-analysis, Needs vs Desires, Machine learning, NiMARE]
 
 # Summarize your project in < ~75 words. This description will appear at the top of your page and on the list page with other projects..
 
-summary: "The goal of this project is to make a classification of the needs and desires states from studies fMRI datas"
+summary: "The goal of this project is to make a classification of the needs and desires states from studies fMRI data"
 
 # If you want to add a cover image (listpage and image in the right), add it to your directory and indicate the name
 # below with the extension.
@@ -33,7 +33,7 @@ image: "./MA_map_first_study-need.png"
 
 My name is Laurence and I've completed a bachelor's degree in cognitive neuroscience at Montreal University. I am currently a master student in psychology at Montreal University. I am particularly interested in social neurosciences, thereby working at the NeSC (Neuroscience en contextes sociaux)lab. My master project is a coordinate based meta-analysis on social hierarchy.
 
-I really wish to contribute to scientific findings by adopting approaches that consider the current issues of reproductibility and social inclusion in neuroscience! I've decided to do brainhack school in order to familiarize myself with coding and neuroimaging datas.
+I really wish to contribute to scientific findings by adopting approaches that consider the current issues of reproductibility and social inclusion in neuroscience! I've decided to do brainhack school in order to familiarize myself with coding and neuroimaging data.
 
 
 
@@ -45,16 +45,16 @@ I really wish to contribute to scientific findings by adopting approaches that c
 ## Using ALE algorithm and machine learning to classify need and desire states
 
 
-### Theoritical background
+### Theoretical background
 * * *
 Overconsumption is associated with several environmental, social and individual problems (Lipschutz, 2001). One explanation suggested for overconsumption is that "we consume what we want belong what we need" (Stearns, 2006), (Juvénal et al., 2021). Some stimuli are sought for their survival value (food, water,...), while others are sought for their reward value (money, interesting objects,...). While motivation towards the former seems to increase, or even be triggered, by a state of deprivation, motivation towards the latter seems to increase as a function of the previously learned value of the stimulus, corresponding to the association between this stimulus and a reward. However, since a stimulus can be pursued for its *needing* value **AND** for its *wanting* value, for example some kind of food, or even some activities, we can wonder what are the similarities and the differences between those two conditions at a neural level?
 
 
-To answer this question, we previously made a coordinate-based meta-analysis with the ALE (Activation likelihood estimation) algorithm in order to find the consistent activations reported in the litterature for each of those conditions. Therefore, we identified regions more commonly reported in the experiments regarding *needs* than in the expriment of *wantings*, vice versa.
+To answer this question, we previously made a coordinate-based meta-analysis with the ALE (Activation likelihood estimation) algorithm in order to find the consistent activations reported in the literature for each of those conditions. Therefore, we identified regions more commonly reported in the experiments regarding *needs* than in the expriment of *wantings*, vice versa.
 
 #### ALE
 * * *
-The ALE approach is used to show the convergence between the regions reported in the litterature of a specified topic. For each of the selected studies, the coordinates of the significant voxels are taken (activation peaks). Then, the algorithm is making a gaussian matrice representing the spatial uncertainty, based on the sample of the corresponding study, around the activation peaks reported and thus making what is call a *MA map (main activation map)*.Therefore, each of the experiment has it own *MA map* where each voxels is associated with an activation probability (that increase in the closest to the peaks).Then, the union of the MA maps are taken and the algorithm is making permutations to identify which activations peaks are significantly reported across the experiments, thus representing the convergence of activations.
+The ALE approach is used to show the convergence between the regions reported in the literature of a specified topic. For each of the selected studies, the coordinates of the significant voxels are taken (activation peaks). Then, the algorithm is making a gaussian matrice representing the spatial uncertainty, based on the sample of the corresponding study, around the activation peaks reported and thus making what is call a *MA map (main activation map)*.Therefore, each of the experiment has it own *MA map* where each voxels is associated with an activation probability (that increase in the closest to the peaks).Then, the union of the MA maps are taken and the algorithm is making permutations to identify which activations peaks are significantly reported across the experiments, thus representing the convergence of activations.
 
 [Acar, F et al.,2018](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0208177)
 
@@ -132,9 +132,9 @@ There are the confusion matrices that shows the results:
 ![Confusion matrice](./Confusion-Matrices.png)
 
 #### Interpretation
-Even if the accuracy is quite good, because the dataset contains more *needs* than *wants*, the model have initially more than 50% of accuracy if it classifies all the datas into *needs*. Therefore, we should be careful with the interpretation of that accuracy value. This also explains why the model never classifies the *needs* into *wants* and why it is only making errors by classifying the *wants* into *needs*. A solution to overcome this problem would be to balance the weight of the different conditions according to the proportions in the dataset.
+Even if the accuracy is quite good, because the dataset contains more *needs* than *wants*, the model have initially more than 50% of accuracy if it classifies all the data into *needs*. Therefore, we should be careful with the interpretation of that accuracy value. This also explains why the model never classifies the *needs* into *wants* and why it is only making errors by classifying the *wants* into *needs*. A solution to overcome this problem would be to balance the weight of the different conditions according to the proportions in the dataset.
 
-Moreover, I've split the data into training set and test set by myself with a proportion of 75% for the training set and 25% for the test set, and I've split again the training set into 60% training set and 40% validation set. Thus, the model is not optimal, because it is only learning with 45% of the initial dataset, which is quite small when having 71 datas. A cross-validation method would have been more efficient in that case.
+Moreover, I've split the data into training set and test set by myself with a proportion of 75% for the training set and 25% for the test set, and I've split again the training set into 60% training set and 40% validation set. Thus, the model is not optimal, because it is only learning with 45% of the initial dataset, which is quite small when having 71 data. A cross-validation method would have been more efficient in that case.
 
 
 
@@ -152,9 +152,9 @@ There you can see the most contributing features on the brain. The more the regi
 
 # Conclusion
 * * *
-In conclusion, the objectives of my project are mostly reach. Even if the model is not optimal and few modifications should be applied to improve it's validity, I've succeeded in building a machine learning model and in formatting the initial datas so the model can process them.
+In conclusion, the objectives of my project are mostly reach. Even if the model is not optimal and few modifications should be applied to improve it's validity, I've succeeded in building a machine learning model and in formatting the initial data so the model can process them.
 
-Finally, I've started this course without a significant background in coding and a little fear about it (I admit). One of my motivation to do brainhack school was to demystify this field in order to be ready to make great neuroscience! I'm glad I did it, learned python and many useful packages to analyse and play with neuroimaging datas.
+Finally, I've started this course without a significant background in coding and a little fear about it (I admit). One of my motivation to do brainhack school was to demystify this field in order to be ready to make great neuroscience! I'm glad I did it, learned python and many useful packages to analyse and play with neuroimaging data.
 
 I really want to thank BrainHack School team for their remarkable competence and exceptional support during all the course!
 ![Thank you!](./Thank_you.png)

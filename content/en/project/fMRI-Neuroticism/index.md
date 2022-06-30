@@ -63,7 +63,7 @@ I would like to produce jupyter notebooks with examples of the analysis code, an
 
 We started out working with preprocessed data from the HCP,and explored different ways of using parcellations and connectivity measured to produce connectivity matrices. A lot of time went into learning how to download and use data in this format, but the data is very large and was very challenging to work with. Through reading papers (particularly [Dadi et al. 2019](https://www.sciencedirect.com/science/article/pii/S1053811919301594), and [Cai et al. 2020](https://academic.oup.com/scan/article/15/3/359/5815970)) we eventually discovered that HCP data is much larger than average per subject (about an hour of scan each) and that they have published an even further processed data set of parcellations, time series, and connectivity matrices (PTN release). We decided to switch to this data set which allowed us to work with 810 subjects, which would have been impossible otherwise.
 
-With the PTN data we focussed on predicting Neuroticism from the processed connectivity matrices. Using a feature selection strategy from [connectome-based predictive modeling](https://pubmed.ncbi.nlm.nih.gov/28182017/)  (CPM) that is simply choosing the edges in the connectivity matrices most correlated with the score being predicted, I tried CPM, SVR, and linear regression with leave one out cross validation. I found that prediction was very weak and that we were very far from being able to point to any specific regions or networks that are meaningful for any specific trait. Liz tried to improve on the prediction by using neural nets and tweaking parameters.
+With the PTN data we focused on predicting Neuroticism from the processed connectivity matrices. Using a feature selection strategy from [connectome-based predictive modeling](https://pubmed.ncbi.nlm.nih.gov/28182017/)  (CPM) that is simply choosing the edges in the connectivity matrices most correlated with the score being predicted, I tried CPM, SVR, and linear regression with leave one out cross validation. I found that prediction was very weak and that we were very far from being able to point to any specific regions or networks that are meaningful for any specific trait. Liz tried to improve on the prediction by using neural nets and tweaking parameters.
 
 To try different models, I rewrote jupyter notebooks that I used to write and test code as python scripts that could be used more efficiently and that I could run on compute canada. I also produced documentation and data visualization to go along with the notebooks and scripts. Liz contributed exploratory data analysis and several models to the ptn_pipeline.ipynb notebook. In the end we found that neuroticism and personality traits are very hard to predict from fMRI data and that one month is not very long to explore and compare the many many different options for processing fMRI data that might have better prediction results. The slides for our final presentation can be found [here](https://docs.google.com/presentation/d/1qsFBFawu3MmrGuhGlogRqCZJWTqOs_ZLAXk5uCATcJQ/edit?usp=sharing).
 
@@ -95,7 +95,7 @@ Here is an image of the networks that are correlated with neuroticism (note that
  * [ptn_pipeline.ipynb](https://github.com/brainhack-school2020/harveyaa_fMRI_neuroticism/blob/master/ptn_pipeline.ipynb) - explores the models and code in ptn_script.py.
  * [data_viz.ipynb](https://github.com/brainhack-school2020/harveyaa_fMRI_neuroticism/blob/master/data_viz.ipynb) - uses the outputs from the python scripts to create figures with seaborn and nilearn plotting, the interactive nilearn plots are saved as .html files in the figures folder of this repo.
 
-#### Deliverable 2: Pyhon scripts
+#### Deliverable 2: Python scripts
 
 * [ptn_script.py](https://github.com/brainhack-school2020/harveyaa_fMRI_neuroticism/blob/master/ptn_script.py) - code to run the models and save the output files.
 * [clean_data.py](https://github.com/brainhack-school2020/harveyaa_fMRI_neuroticism/blob/master/clean_data.py) - code to remove the subjects with no behavioural data from HCP PTN recon2 download (see documentation/how_to.md)
@@ -118,7 +118,7 @@ Here is an image of the networks that are correlated with neuroticism (note that
 * List of packages used - [requirements.txt](https://github.com/brainhack-school2020/harveyaa_fMRI_neuroticism/blob/master/requirements.txt) 
  
 ## Thank you!!
-Special thanks to Pierre Bellec, Desiree Lussier, Peer Herholz, Liz Izakson and everyone I got to chat with through clinics and groups! Brainhack school has been an amazing introduction to neuroimaging, I'm very grateful for everyone's time, help, ressources and encouragement!
+Special thanks to Pierre Bellec, Desiree Lussier, Peer Herholz, Liz Izakson and everyone I got to chat with through clinics and groups! Brainhack school has been an amazing introduction to neuroimaging, I'm very grateful for everyone's time, help, resources and encouragement!
 
 
 ### References

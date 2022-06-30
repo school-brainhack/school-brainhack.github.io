@@ -33,14 +33,14 @@ The prerequisites to take this module are:
  * the [python scripts](/modules/python_scripts) module.
  * the [python data analysis](/modules/python_data_analysis) module.
 
-Contact Desiree Lussier if you have questions on this module, or if you want to check that you completed successfully all the exercises.
+Contact Désirée Lussier if you have questions on this module, or if you want to check that you completed successfully all the exercises.
 
 ## Resources
-The first portion of this module was presented by Estefany Suarez and Jacob Vogel during Brainhack School 2020 and the notebook by Alexandre Hutton during for the MAIN 2019 machine learning workshop. 
+The tutorial slides and video portion of this module were presented by Estefany Suarez and Jacob Vogel during Brainhack School 2020. 
 
 The tutorial slides are available [here](https://github.com/neurodatascience/course-materials-2020/tree/master/lectures/14-may/03-intro-to-machine-learning).
 
-The notebook for the exercise is available [here](https://github.com/main-training/main-training-nilearn-ml/blob/master/01_intro_ml.ipynb)
+The notebook for the exercise is available [here](https://github.com/brainhackorg/school/blob/master/content/en/modules/machine_learning_basics/machine_learning.ipynb)
 
 The video presentations are available below. The first video (Estefany Suarez and Jacob Vogel) is here:
 <iframe width="560" height="315" src="https://www.youtube.com/embed/thLHAg8oOLw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
@@ -48,13 +48,16 @@ The video presentations are available below. The first video (Estefany Suarez an
 ## Exercise
 
  * Watch the video presentation by Estefany Suarez and go over the slides.
- * Download the [notebook](https://github.com/main-training/main-training-nilearn-ml/blob/master/01_intro_ml.ipynb) 
+ * Download the [notebook](https://github.com/brainhackorg/school/blob/master/content/en/modules/machine_learning_basics/machine_learning.ipynb) 
  * Follow the tutorial within the Jupyter Notebook and run the code. Feel free to play around with the code to see what happens!
  * Follow up with Désirée Lussier to validate you completed the exercise correctly.
  * 🎉 🎉 🎉 you completed this training module! 🎉 🎉 🎉
 
 ## More resources
+Want to dive deeper into machine learning?
 
 If you are curious to learn more, you can check this tutorial "Understanding and diagnosing your machine-learning models" by Gael Varoquaux [here](http://gael-varoquaux.info/interpreting_ml_tuto/index.html).
+
+You can also take a look at the MAIN 2021 educational tutorial on model selection & validation as well as supervised learning notes [here](https://main-educational.github.io/material.html)
 
 Additional examples, tutorials, and documentation can be found at the [Scikit-Learn website](https://scikit-learn.org/stable).

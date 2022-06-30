@@ -29,6 +29,10 @@ languages:
           name: Schedule
           url: /schedule/
           weight: 2
+        - identifier: Projects
+          name: Projects
+          url: /project/
+          weight: 3
         - identifier: Weeks
           name: Weeks
           url: /weeks/
@@ -161,11 +165,7 @@ languages:
         - identifier: Schedule
           name: Schedule
           url: /schedule/
-          weight: 2
-        - identifier: Projects
-          name: Projects
-          url: /project/
-          weight: 3
+          weight: 2        
         - identifier: Weeks
           name: Weeks
           url: /weeks/

@@ -12,7 +12,7 @@ website:
 
 # List +- 4 keywords that best describe your project within []. Note that the project summary also involves a number of key words. Those are listed on top of the [github repository](https://github.com/PSY6983-2021/project_template), click `manage topics`.
 # Please only lowercase letters
-tags: [open data, fair, license, standards]
+tags: [open data, fair, license, standards, github]
 
 # Summarize your project in < ~75 words. This description will appear at the top of your page and on the list page with other projects..
 
@@ -30,6 +30,7 @@ The estimated time to complete this training module is 3h.
 
 The prerequisites to take this module are:
  * the [open data](/modules/open_data) module.
+ * the [python packaging](modules/packaging/) module
 
 Contact Pierre Bellec if you have questions on this module, or if you want to check that you completed successfully all the exercises.
 
@@ -53,6 +54,8 @@ Prepare your answers in an online document (e.g. using hackmd.io).
    * [UK biobank](https://www.ukbiobank.ac.uk/)
    * [CIMAQ](http://www.cima-q.ca/en/home/)
  * Find an example of a neuroimaging paper described on the open science framework (or somewhere else), with 1. code available? 2. Documentation for data analysis available? 3. Data available? For each aspect, summarize briefly the standards followed (if any).
+ * Create a project template
+    * Recommend to incoorperate with [python packaging](modules/packaging/) module
  * Follow up with Pierre Bellec to validate you completed the exercise correctly.
  * :tada: :tada: :tada: you completed this training module! :tada: :tada: :tada:
 
@@ -61,6 +64,7 @@ Prepare your answers in an online document (e.g. using hackmd.io).
 If you are curious to learn more about BIDS, check the [BIDS specifications](https://bids-specification.readthedocs.io/en/stable/). There will also be a training module on BIDS in week 2.
 
 Some documentation on standards for project organization:
+ * the [Good Research Code Handbook](https://goodresearch.dev/setup.html)
  * the entire "the Turing way" documentation is relevant, but the section on [project design](https://the-turing-way.netlify.app/project-design/project-design.html) is the most important for this training module.
  * the [data science cookie cutter](https://drivendata.github.io/cookiecutter-data-science/)
  * the [YODA principles](https://handbook.datalad.org/en/latest/basics/101-127-yoda.html)

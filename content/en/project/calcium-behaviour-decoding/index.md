@@ -75,7 +75,7 @@ The primary issue with my analysis design is that each cell's activity is its ow
 
 <img src="plan.PNG">
 
-1. For single-cell analysis, I have the option of using the time series data of a single cell. However, treating each frame in the time series as its own indepedent variable is not realible; any slight jitter in the cell activity from trial to trial will make it impossible to find recurring patterns. To fix this, I will use a sliding window that takes the average of a few frames, effectively smoothing out the time series for each trial to allow a more liberal overlap of activity between trials.
+1. For single-cell analysis, I have the option of using the time series data of a single cell. However, treating each frame in the time series as its own independent variable is not realible; any slight jitter in the cell activity from trial to trial will make it impossible to find recurring patterns. To fix this, I will use a sliding window that takes the average of a few frames, effectively smoothing out the time series for each trial to allow a more liberal overlap of activity between trials.
 
 2. From the single-cell analysis, I have the option of taking the cell-by-cell predicted categories and inputting them into a random forest analysis to test whether neurons show any kind of 'democratic' coding for correct vs. incorrect attempts.
 
@@ -96,7 +96,7 @@ The primary issue with my analysis design is that each cell's activity is its ow
 
 ### Single Cell - Sliding window analysis
 
-Below are histograms depicting the distribution of test scores (top) and 5-fold cross validation scores (bottom) for three machine learning classifiers tested on 109 indiviual cells with windowed (4 frames) time-series data. Training and test data was shuffled and re-tested 50 times, and counts of cells that scored >80% accuracy on each test are tabulated next to each classifier method.
+Below are histograms depicting the distribution of test scores (top) and 5-fold cross validation scores (bottom) for three machine learning classifiers tested on 109 individual cells with windowed (4 frames) time-series data. Training and test data was shuffled and re-tested 50 times, and counts of cells that scored >80% accuracy on each test are tabulated next to each classifier method.
 
 <img src="results1.PNG">
 
@@ -110,7 +110,7 @@ Here we can see visually that these cells do indeed differ significantly between
 
 Now then, what about population level activity? Is there something about the activity of all these cells, or groups of cells, that can indicate correct vs. incorrect response choices? One idea is to test whether hippocampal cells function as some kind of 'democracy'; where the predictions of individual neurons accounted together could somehow improve the overall accuracy of the machine learning tools.
 
-To do this, I took the predctions of each individual neuron from the training set of the linear SVC analysis and put it into a Random Forest classifier. Unfortunately, the results were quite poor (41.6% +/- 11% accuracy on cross validation). This isn't too suprising, as hippocampal cells aren't really expected to work 'democratically' to predict single, specific events.
+To do this, I took the predctions of each individual neuron from the training set of the linear SVC analysis and put it into a Random Forest classifier. Unfortunately, the results were quite poor (41.6% +/- 11% accuracy on cross validation). This isn't too surprising, as hippocampal cells aren't really expected to work 'democratically' to predict single, specific events.
 
 ### Population level - Summed Activity
 
