@@ -33,7 +33,7 @@ The prerequisites to take this module are:
 * You should already have everything installed for this module!
 * We will be using Jupyter Notebook which is a web application that allows you to create and share documents that contain live code, equations, visualizations and explanatory text.
 
-Contact Andréanne Proulx if you have questions on this module, or if you want to check that you completed successfully all the exercises.
+Contact Marie-Eve Picard if you have questions on this module, or if you want to check that you completed successfully all the exercises.
 
 ## Before starting:
 
@@ -84,7 +84,7 @@ For this part, we will use the famous scikit-learn dataset iris which consists o
      * Reminder : extreme value are > 3.9 standard deviation. (value - mean) / std. For this one, you might need to use a for loop.
 10. What about other features of the flowers? Try automating the previous operation by writing a function name find_extreme_values()
 11. Read about the boxplot function in matplotlib to get familiar with python documentation. What does it tell us? 
-https://matplotlib.org/3.1.1/api/_as_gen/matplotlib.pyplot.boxplot.html
+https://matplotlib.org/stable/api/_as_gen/matplotlib.pyplot.boxplot.html
 12. Use this function to plot the boxplot distribution for features. Try adding a title and name for axis. 
 12. Save dataframe in csv format and the plot as png.
 
@@ -92,23 +92,24 @@ Note: Internet is your best friend. Remember that whenever you are stuck, resour
 
 If you are done, you can play around with different functions. Try to answer interesting questions you might have using the data.
 
- * Follow up with Andréanne Proulx to validate you completed the exercise correctly.
+ * Follow up with Marie-Eve Picard to validate you completed the exercise correctly.
  * :tada: :tada: :tada: you completed this training module! :tada: :tada: :tada:
 
 ## More resources
 
 There are hundreds of excellent resources online for learning Python and/or data science. A few good ones:
 
-- CodeAcademy offers interactive programming courses for many languages and tools, including Python and git
-- A Whirlwind Tour of Python is an excellent intro to Python by Jake VanderPlas; Jupyter notebooks are available here
+- [CodeAcademy](https://www.codecademy.com) offers interactive programming courses for many languages and tools, including Python and git
+- [A Whirlwind Tour of Python](https://jakevdp.github.io/WhirlwindTourOfPython/) is an excellent intro to Python by Jake VanderPlas; Jupyter notebooks are available [here](https://github.com/jakevdp/WhirlwindTourOfPython)
 - Another excellent and free online book is Allen Downey's "Think Python"
 - Object Oriented Programming in Python 3
 (https://realpython.com/python3-object-oriented-programming/) 
 - Jake Vanderplas's Python Data Science Handbook is also available online as a set of notebooks
-- Kaggle maintains a nice list of data science and Python tutorials
+- [Kaggle](https://www.kaggle.com) maintains a nice list of data science and Python tutorials
 
 - Neuromatch Academy also has great tutorials available for Python in a computational neuroscience context.
     - Tutorial 1: https://compneuro.neuromatch.io/tutorials/W0D1_PythonWorkshop1/student/W0D1_Tutorial1.html
-    - Tutorial 2: https://compneuro.neuromatch.io/tutorials/W0D2_PythonWorkshop2/chapter_title.html
+    - Tutorial 2: https://compneuro.neuromatch.io/tutorials/W0D2_PythonWorkshop2/student/W0D2_Tutorial1.html
+- Introduction to Python in French (https://www.youtube.com/watch?v=cjFxd-0idHo)
 
-If you are curious, eiger to learn more, you can also try out this tutorial which inspired much of the content you saw today. [introduction to Python](https://neurohackademy.org/course/introduction-to-python-2/)
+If you are curious, eiger to learn more, you can also try out this tutorial which inspired much of the content you saw today: [Introduction to Python](https://neurohackademy.org/course/introduction-to-python-2/)
