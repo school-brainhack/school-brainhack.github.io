@@ -11,10 +11,17 @@ The image processing tool must be built (i.e. compiled). To do that, you first
 need to load appropriate modules. The compilation requires GNU compilers and
 the BOOST library. To load these modules:
 ```
-   module purge
+    module purge
    module load gcc boost
    module list
 ```
+Here `module purge` is first called to unload all potentially loaded module, so that we only have
+the module mentioned in the `module load` command, to avoid any eventual conflict between modules.
+Some module might not be unloaded unless you use the `--force` flag, but that's ok in our case, we don't need
+to remove everything.
+`module list` lists all our modules.
+
+
 Once all required modules are loaded, you can compile filterImage.exe with the command:
 ```
    make

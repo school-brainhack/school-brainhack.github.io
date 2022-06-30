@@ -26,6 +26,13 @@ For example, for a job array of 5 jobs, where SLURM_ARRAY_TASK_ID would be
 ```
   #SBATCH --array=1-9:2
 ```
+
+Alternatively, you can define only specific values by listing them separated by commas,
+for example if you only want values 2, 5, 8 and 22, you would use :
+```
+  #SBATCH --array=2,5,8,22
+```
+
 ==== An Array in Bash ====
 
 Bash supports arrays. A Bash array can be declared the following way:
