@@ -142,8 +142,8 @@ languages:
         title: Project gallery
         subtitle: A selection of projects from our students
       topbar:
-        enable: true
-        text: "**:computer: :brain: Contact <simexp.lab@gmail.com> to register! :brain: :computer:**: "
+        enable: false
+        text: "**:computer: :brain: Contact <school.brainhack@gmail.com> to register! :brain: :computer:**: "
 
 
   fr:
@@ -165,7 +165,7 @@ languages:
         - identifier: Schedule
           name: Schedule
           url: /schedule/
-          weight: 2        
+          weight: 2
         - identifier: Weeks
           name: Weeks
           url: /weeks/
@@ -263,8 +263,8 @@ languages:
         title: Project gallery
         subtitle: A selection of projects from our students
       topbar:
-        enable: true
-        text: "**:computer: :brain: Contactez <simexp.lab@gmail.com> pour vous inscrire! :brain: :computer:**"
+        enable: false
+        text: "**:computer: :brain: Contactez <school.brainhack@gmail.com> pour vous inscrire! :brain: :computer:**"
 
 Permalinks:
   blog: '/blog/:year/:month/:day/:filename/'
