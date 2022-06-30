@@ -20,7 +20,7 @@ Note: mpiexec is smart enough to get your SLURM environment and determine how
 ==== Instructions ====
 
 The filterImage.exe application uses MPI to process multiple images
-simultaneously on multiple nodes. For this exercise, we will process all 29
+simultaneously on multiple nodes. For this exercise, we will process all
 pictures with 4 processors, i.e. two nodes and two cores per node.
 
   * Modify submit.sh to request 2 nodes, 2 tasks per node and 1 core per task

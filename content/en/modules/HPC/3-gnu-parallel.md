@@ -12,7 +12,7 @@ main input formats:
   * Lists of values on the command line
   * Lists of values in a file
 
-Please check the [Compute Canada wiki](https://docs.computecanada.ca/wiki/GNU_Parallel) for basic options, and the [official documentation](http://www.gnu.org/software/parallel/man.html) for advanced options.
+Please check the [Alliance Canada wiki](https://docs.alliancecan.ca/wiki/GNU_Parallel) for basic options, and the [official documentation](http://www.gnu.org/software/parallel/man.html) for advanced options.
 
 
 For this exercise, we will reuse the output of the "ls" command with $( ).
@@ -53,4 +53,4 @@ By default, GNU parallel will use one core per task, and it will launch as many
 tasks as there are cores on the system. As soon as a task is completed, the
 next one will start automatically.
 
-You may change the default behaviours with the "-j" option (see the man page).
+You may change the default behavious with the "-j" option (see the man page with the `man parallel` command).
