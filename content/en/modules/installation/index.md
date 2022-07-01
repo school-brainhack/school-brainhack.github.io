@@ -31,7 +31,7 @@ There are a few computing requirements for the course that are absolutely necess
  1. You must have at least 40 GB of free disk space on your computer (but we would recommend more, to be safe).
  1. If you are using Windows you must be using Windows 10; Windows 7 and 8 will not be sufficient for this course.
 
-If you foresee any of these being a problem please reach out to one of the instructors for what steps you can take to ensure you are ready for the course start on July 26th.
+If you foresee any of these being a problem please reach out to one of the instructors for what steps you can take to ensure you are ready for the course start on July 4th.
 
 ## Required software
 To get the most out of our course, we ask you to install the following software:
@@ -68,7 +68,7 @@ It is a good idea to associate this with your university e-mail (if you have one
 ### Discord
 
 Go to https://discord.com/download and download and install Discord.
-You will be invited to the BrainHack School Slack server via the e-mail with which you registered for the course.
+You will be invited to the BrainHack School Discord server via the e-mail with which you registered for the course. If you have not received the invitation, please reach out to one of the instructors.
 
 ### Modern web browser
 
@@ -82,7 +82,7 @@ Now that you've installed everything it's time to check that everything works as
 Type the following into your terminal:
 
 ``` bash
-bash <( curl -s https://raw.githubusercontent.com/BrainhackMTL/psy6983_2021/master/content/en/modules/installation/nds_check_install.sh )
+bash <( curl -s https://raw.githubusercontent.com/brainhackorg/school/master/content/en/modules/installation/nds_check_install.sh )
 ```
 
 If you installed everything correctly you should see a message informing you as such.
