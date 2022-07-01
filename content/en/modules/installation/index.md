@@ -68,7 +68,7 @@ It is a good idea to associate this with your university e-mail (if you have one
 ### Discord
 
 Go to https://discord.com/download and download and install Discord.
-You will be invited to the BrainHack School Slack server via the e-mail with which you registered for the course. If you have not received the invitation, please reach out to one of the instructors.
+You will be invited to the BrainHack School Discord server via the e-mail with which you registered for the course. If you have not received the invitation, please reach out to one of the instructors.
 
 ### Modern web browser
 
