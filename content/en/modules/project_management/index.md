@@ -30,7 +30,8 @@ The estimated time to complete this training module is 4h.
 
 The prerequisites to take this module are:
  * the [open data](/modules/open_data) module.
- * the [installation](/modules/installation) module.
+ * the [terminal](/modules/introduction_to_terminal) module.
+ * the [Git and GitHub](/modules/git_github) module.
 
 Contact Hao-Ting Wang if you have questions on this module, or if you want to check that you completed successfully all the exercises.
 
@@ -101,6 +102,7 @@ Let's start with a working example. Write down in an online document (e.g. using
 
 After seeing one example, let's create a directory for your project and sync to GitHub. 
 The end result will be a logically organized project skeleton that's synced to version control.
+The instructor should be able to verify your progress through 1. a public GitHub repository and 2. clone and test your project on their own machine.
 
  * Pick a short and descriptive name for your project....
    * Create a folder in your home directory.
@@ -124,16 +126,41 @@ The end result will be a logically organized project skeleton that's synced to v
  * Next we will populate the directory with a project skeleton and some basic descriptions. 
    * Create the directories described in the lession with command `mkdir`. 
    * Try to add these changes to git. You should notice empty directories are not added, this is because git will only push files.
-   * To work around this issue, let's create a file named `.gitkeep` in each of the empty directory. 
+   * To work around this issue, let's create a file named `.gitkeep` in each of the empty directory using command `touch`. 
    * Now try to add and commit these files again. 
 
+ * (Optional) Creating a project package
+   Creating a project package can be difficult for the first time, but the pay off is substantial: your project structure will be clean, you won’t need to change Python'’'s path, and your project will be pip installable. This is the standard approach in the data science world.
+   This is a minimal demo for a installable package. We encourage you to revisit [Install a project package](https://goodresearch.dev/setup.html#install-a-project-package) after completing the [python packaging](/modules/packaging) module.
+    * Create a file under `src/` named `helloworld.py`, with one line `print('hello world')`
+    * Create a file under `src/` named `__init__.py`.
+    * Create a `setup.py` file in the root directory with the following lines:
+      ```
+      from setuptools import find_packages, setup
+
+      setup(
+          name='src',
+          packages=find_packages(),
+      )
+
+      ```
+    * Finally, activate the project virtual environment you created earlier. Install your package:
+      ```
+      pip install -e .
+      ```  
+    * To varify the completion of this part, you should be able to run the following code from a python kernel as long as the virtual environment is activated:
+      ```
+      import src.helloworld
+      >>> hello world
+      ```
+
 * Follow up with Hao-Ting Wang to validate you completed the exercise correctly.
-* We encourage you to revisit [Install a project package](https://goodresearch.dev/setup.html#install-a-project-package) after completing the [python packaging](/modules/packaging) module.
 * :tada: :tada: :tada: you completed this training module! :tada: :tada: :tada:
 
 ## More resources
 
 If you are curious to learn more about BIDS, check the [BIDS specifications](https://bids-specification.readthedocs.io/en/stable/). There will also be a training module on BIDS in week 2.
+We encourage you to revisit [Install a project package](https://goodresearch.dev/setup.html#install-a-project-package) after completing the [python packaging](/modules/packaging) module.
 
 Some documentation on standards for project organization:
  * the entire "the Turing way" documentation is relevant, but the section on [project design](https://the-turing-way.netlify.app/project-design/project-design.html) is the most important for this training module.
