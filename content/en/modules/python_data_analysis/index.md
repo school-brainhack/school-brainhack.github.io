@@ -71,16 +71,16 @@ For this part, we will use the famous scikit-learn dataset iris which consists o
        
 2. Load the iris dataset
 
-       data =load_iris()
+       iris = load_iris()
 
        
 3. Explore the dataset using .keys()
-4. Print the shape and type of data
+4. Print the shape and type of 'data'
 5. Store 'data' and 'features_names' in distinct variables
-6. Create a pandas dataframe with 'data' and use feature_names for column names
+6. Create a pandas dataframe with 'data' and use 'feature_names' for column names
 7. Get the summary statistics for this dataframe using .describe()
 8. Subset the dataframe to keep only the first 50 rows 
-9. Try to answer this question : Are there any extreme sepal length values? 
+9. Try to answer this question using the entire dataframe : Are there any extreme sepal length values? 
      * Reminder : extreme value are > 3.9 standard deviation. (value - mean) / std. For this one, you might need to use a for loop.
 10. What about other features of the flowers? Try automating the previous operation by writing a function name find_extreme_values()
 11. Read about the boxplot function in matplotlib to get familiar with python documentation. What does it tell us? 
@@ -90,7 +90,7 @@ https://matplotlib.org/stable/api/_as_gen/matplotlib.pyplot.boxplot.html
 
 Note: Internet is your best friend. Remember that whenever you are stuck, resources and blogs can help you figure it out (Stack Overflow). 
 
-If you are done, you can play around with different functions. Try to answer interesting questions you might have using the data.
+If you are done, you can play around with different functions (ex. other plotting functions). Try to answer interesting questions you might have using the data.
 
  * Follow up with Marie-Eve Picard to validate you completed the exercise correctly.
  * :tada: :tada: :tada: you completed this training module! :tada: :tada: :tada:
