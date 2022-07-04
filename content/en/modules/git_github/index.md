@@ -45,7 +45,7 @@ The video of her presentation is available below:
 
 ## Exercise
 
- * send a request through discord on #general to be added to the github organization [PSY6983-2021](https://github.com/PSY6983-2021).
+ * send a request through discord on #general to be added to the github organization [brainhack-school2022](https://github.com/brainhack-school2022).
  * create a local repository following the naming convention `<last_name>_project`. Don't worry, you will be able to change this name later, and possibly merge the content in another repository if you decide to team up with other people.
  * initialize your repo with a README and a LICENSE.
  * Create an issue for adding a short bio.
