@@ -185,7 +185,7 @@ After creating and saving this file you realize you misspelled the filename! You
      cp statstics.txt .
      
      
- * Follow up with Andréanne Proulx to validate you completed the exercise correctly.
+ * Follow up with Natasha Clarke to validate you completed the exercise correctly.
  * :tada: :tada: :tada: you completed this training module! :tada: :tada: :tada:
 
 ## More resources
