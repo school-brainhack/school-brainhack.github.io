@@ -19,7 +19,7 @@ PS: You don't have to install Hugo to add your document and make the pull reques
 
 This document will guide you through the whole Git/Github workflow that you are probably becoming expert at ;).
 
-- [ ] Fork the BrainHack school website repository @ https://github.com/BrainhackMTL/school
+- [ ] Fork the BrainHack school website repository @ https://github.com/brainhackorg/school
 - [ ] Clone your newly forked repo on your computer.
 - [ ] Go in `school/content/en/project/`. Then, copy and paste the `template/` directory in `school/content/en/project/`.
 - [ ] Change the name of the `template copy/` directory to a significant one. The name you give to the folder will become the page that your project will be accessible. For example, the`fake` project is accessible at https://school.brainhackmtl.org/project/fake. So, make sure to pick a nice and relevant short name ;). PS: if you want more than one word, replace the `space` between words by `-`.
