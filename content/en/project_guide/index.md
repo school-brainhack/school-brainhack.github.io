@@ -11,7 +11,7 @@ The project template was added in the [BHS gallery](https://school.brainhackmtl.
 
 # Adding your project to the gallery
 
-The gallery can be found [here](project). Instructions to push your project to this gallery through a pull request to the [BHS website](https://github.com/brainhackmtl/school) are now available! Keep reading:
+The gallery can be found [here](project). Instructions to push your project to this gallery through a pull request to the [BHS website](https://github.com/brainhackorg/school) are now available! Keep reading:
 
 Last but not least, the final deliverable that will be displayed in the [Project Gallery](https://school.brainhackmtl.org/project). We don't want you to write new stuff, you have done more than enough :raised_hands:. In fact, this page should reflect your final report (aka your README.md).
 
@@ -19,7 +19,7 @@ PS: You don't have to install Hugo to add your document and make the pull reques
 
 This document will guide you through the whole Git/Github workflow that you are probably becoming expert at ;).
 
-- [ ] Fork the BrainHack school website repository @ https://github.com/BrainhackMTL/school
+- [ ] Fork the BrainHack school website repository @ https://github.com/brainhackorg/school
 - [ ] Clone your newly forked repo on your computer.
 - [ ] Go in `school/content/en/project/`. Then, copy and paste the `template/` directory in `school/content/en/project/`.
 - [ ] Change the name of the `template copy/` directory to a significant one. The name you give to the folder will become the page that your project will be accessible. For example, the`fake` project is accessible at https://school.brainhackmtl.org/project/fake. So, make sure to pick a nice and relevant short name ;). PS: if you want more than one word, replace the `space` between words by `-`.
