@@ -31,12 +31,14 @@ The estimated time to complete this training module is 1.5h.
 The prerequisites to take this module are:
  * the [installation](/modules/installation) module.
 
-Contact Desiree Lussier if you have questions on this module, or if you want to check that you completed successfully all the exercises.
+Contact Isil Bilgin if you have questions on this module, or if you want to check that you completed successfully all the exercises.
 
 ## Resources
 This module was presented by Sebastian Urchs during Brainhack School 2020.
 
-The preseantation slides are available [here](https://docs.google.com/presentation/d/19pp-SwWI-Fi72BCsht_7SAj-uFp0-ijBqRc31sy2-Ag).
+The presentation slides are available [here](https://docs.google.com/presentation/d/19pp-SwWI-Fi72BCsht_7SAj-uFp0-ijBqRc31sy2-Ag).
+
+Jupyter Notebook to follow is [here](https://mybinder.org/v2/gh/surchs/bhs_nilearn_example/7c678e38f7d59f18ba57d4515cba116446cdf3c2).
 
 The video presentation is available below:
 <iframe width="560" height="315" src="https://www.youtube.com/embed/OEhgEo5IAmk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
@@ -45,10 +47,18 @@ The video presentation is available below:
 ## Exercise
 
  * Watch the video presentation by Sebastian Urchs and go over the slides.
- * Find an open neuroimaging dataset via one of the resource links described in the presentation that has at least 40 participants and including phemotypic information that could be useful to your project (age, cognitive scores, diagnoses, etc.)
- * Download at least 1 of these participants and their accompanying phenotypic information.
- * Follow up with Désirée Lussier to validate you completed the exercise correctly.
+ * Find an open neuroimaging dataset via one of the resource links described in the presentation that has at least 40 participants and including phenotypic information that could be useful to your project (age, gender, cognitive scores, diagnoses, etc.)
+ * Download at least one  of these participants and their accompanying phenotypic information.
+ * Follow up with Isil Bilgin to validate you completed the exercise correctly.
  * 🎉 🎉 🎉 you completed this training module! 🎉 🎉 🎉
 
 ## More resources
+### Open Access Data
+[FCP-INDI](http://fcon_1000.projects.nitrc.org/)
+[OpenNeuro](https://openneuro.org/)
+[Canadian Open Neuroscience Portal](https://portal.conp.ca/)
+[openMorph](https://github.com/cMadan/openMorph)
+[Nilearn Data Set](https://nilearn.github.io/modules/reference.html#module-nilearn.datasets)
 
+### Handling the Data
+[DataLad](http://handbook.datalad.org/en/latest/#)
