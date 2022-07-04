@@ -11,7 +11,7 @@ The project template was added in the [BHS gallery](https://school.brainhackmtl.
 
 # Adding your project to the gallery
 
-The gallery can be found [here](project). Instructions to push your project to this gallery through a pull request to the [BHS website](https://github.com/brainhackmtl/school) are now available! Keep reading:
+The gallery can be found [here](project). Instructions to push your project to this gallery through a pull request to the [BHS website](https://github.com/brainhackorg/school) are now available! Keep reading:
 
 Last but not least, the final deliverable that will be displayed in the [Project Gallery](https://school.brainhackmtl.org/project). We don't want you to write new stuff, you have done more than enough :raised_hands:. In fact, this page should reflect your final report (aka your README.md).
 
