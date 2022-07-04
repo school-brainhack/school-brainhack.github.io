@@ -62,10 +62,10 @@ The video of her presentation is available below:
  * Using the command line, commit this change to your local repository. Make sure you registered your github user name and email address, so the commit is accurately credited to you when you push it on github.
  * Using the command line, push the branch and your changes to the github repository.
  * Using the github interface, open a new pull request with your changes. Use a descriptive name for the pull request, e.g. `iss1 - add bio`.
- * Using the github interface, request a review of your changes by `pbellec`.
+ * Using the github interface, request a review of your changes by `complexbrains`.
  * Once pbellec has approved the review, merge the pull request to the `main` branch.
  * Close the issue.
- * Follow up with Pierre Bellec to validate you completed the exercise correctly.
+ * Follow up with Isil Bilgin to validate you completed the exercise correctly.
  * :tada: :tada: :tada: you completed this training module! :tada: :tada: :tada:
 
 ## More resources
