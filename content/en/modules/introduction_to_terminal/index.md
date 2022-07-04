@@ -33,11 +33,11 @@ The prerequisites to take this module are:
    - Windows: Ubuntu application (Windows Linux Subsystem)
    - Mac/Linux: Terminal
 
-You environment should be ready to go, everything required was set up during installations! In the video, you will be working with a dataset from https://swcarpentry.github.io/shell-novice/setup.html. Click on this link, and navigate to the section Download files. Download shell-lesson-data.zip, unzip it, and move the file to your Desktop.
+Your environment should be ready to go, everything required was set up during the installation! In the video, you will be working with a dataset from https://swcarpentry.github.io/shell-novice/setup.html. Click on this link, and navigate to the section Download files. Download shell-lesson-data.zip, unzip it, and move the file to your Desktop.
 
 Important: Note that if you are working with Windows Subsystem for Linux (WSL), paths will be a bit different than with Mac/Linux. You will want to use : `/mnt/c/Users/USERNAME/Desktop/`
 
-Contact Andréanne Proulx if you have questions on this module, or if you want to check that you completed successfully all the exercises.
+Contact Natasha Clarke if you have questions on this module, or if you want to check that you completed successfully all the exercises.
 
 ## Resources
 This module was presented by [Ross Markello](https://rossmarkello.com/) during the QLSC 612 course in 2020.
@@ -99,7 +99,7 @@ This is how your filesystem is organised.
 ![filesystem.png](filesystem.png)
 
 **2.1.** 
-Based on the previous diagram, if `pwd` displays `/Users/thing`, what will `ls -F ../backup` display?
+Based on the previous diagram, if `pwd` displays `/Users/things`, what will `ls -F ../backup` display?
 
     a) ../backup: No such file or directory
     b) 2012-12-01 2013-01-08 2013-01-27
