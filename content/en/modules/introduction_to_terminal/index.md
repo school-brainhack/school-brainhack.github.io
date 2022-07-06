@@ -173,6 +173,8 @@ When run in the proteins directory, which ls command(s) will produce this output
     b) ls *t?ne.*
     c) ls *t??ne.pdb
     d) ls ethane.*
+    
+Hint: you can try these out using the dataset you downloaded earlier!
 
 **Exercise 7 : Renaming files**
 Suppose that you created a plain-text file in your current directory to contain a list of the statistical tests you will need to do to analyze your data, and named it: statstics.txt
