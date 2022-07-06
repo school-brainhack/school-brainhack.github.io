@@ -165,7 +165,7 @@ What does cp do when given three or more filenames?
   
 
 **Exercise 6: List filenames matching a pattern**
-When run in the molecules directory, which ls command(s) will produce this output?
+When run in the proteins directory, which ls command(s) will produce this output?
 
     ethane.pdb methane.pdb
 
