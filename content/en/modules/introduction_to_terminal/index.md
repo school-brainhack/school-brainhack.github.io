@@ -141,7 +141,7 @@ What is the output of the closing `ls` command in the sequence shown below:
       $ ls
       proteins.dat
       $ mkdir recombine
-      $ mv proteins.dat recombine`
+      $ mv proteins.dat recombine
       $ cp recombine/proteins.dat ../proteins-saved.dat
       $ ls
       
@@ -169,7 +169,7 @@ When run in the molecules directory, which ls command(s) will produce this outpu
 
     ethane.pdb methane.pdb
 
-    a) ls *t*and.pdb
+    a) ls *t*ane.pdb
     b) ls *t?ne.*
     c) ls *t??ne.pdb
     d) ls ethane.*
