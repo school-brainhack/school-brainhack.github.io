@@ -58,7 +58,7 @@ The video presentation is available below:
 [OpenNeuro](https://openneuro.org/)
 [Canadian Open Neuroscience Portal](https://portal.conp.ca/)
 [openMorph](https://github.com/cMadan/openMorph)
-[Nilearn Data Set](https://nilearn.github.io/modules/reference.html#module-nilearn.datasets)
+[Nilearn Data Set](https://nilearn.github.io/stable/modules/reference.html#module-nilearn.datasets)
 
 ### Handling the Data
 [DataLad](http://handbook.datalad.org/en/latest/#)
