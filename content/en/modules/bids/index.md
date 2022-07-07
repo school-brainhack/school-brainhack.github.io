@@ -54,7 +54,7 @@ The video of his presentation is available below:
 ## More resources
 
 If you want to learn more about BIDS and pybids, check:
- * the [BIDS Starter Kit]([https://bids.neuroimaging.io/](https://bids-standard.github.io/bids-starter-kit/index.html#),
+ * the [BIDS Starter Kit](https://bids-standard.github.io/bids-starter-kit/index.html#),
  * the [BIDS documentation](https://bids.neuroimaging.io/),
  * the [dicom2bids](https://unfmontreal.github.io/Dcm2Bids/) converter - we have local support for this one.
  * the [pybids documentation](https://bids-standard.github.io/pybids/user_guide.html)
