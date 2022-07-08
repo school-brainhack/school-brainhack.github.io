@@ -51,11 +51,11 @@ If you need to resfresh some machine learning concepts before this tutorial, you
 
 ## Exercise
 
- * 1. Download the jupyter notebook (save raw version), or start a new jupyter notebook 
- * 2. Watch the video and test the code yourself
+1. Download the jupyter notebook (save raw version), or start a new jupyter notebook 
+2. Watch the video and test the code yourself
 
 Using the same dataset 
- * Tweak the pipeline in the tutorial, by applying PCA , keeping 90% of the variance, instead of SelectPercentile to reduce the dimensionality of features (feature selection). Refer to scikit-learn documentation. https://scikit-learn.org/stable/modules/generated/sklearn.decomposition.PCA.html
+3. Tweak the pipeline in the tutorial, by applying PCA , keeping 90% of the variance, instead of SelectPercentile to reduce the dimensionality of features (feature selection). Refer to scikit-learn documentation. https://scikit-learn.org/stable/modules/generated/sklearn.decomposition.PCA.html
 
   
         model = Pipeline([
@@ -64,18 +64,18 @@ Using the same dataset
                       ])
 
 
- * Implement cross-validation, but this time changing to leave-one-out. Here is to give an idea as to where changes need to be made in the code.
+ 4. Implement cross-validation, but this time changing to leave-one-out. Here is to give an idea as to where changes need to be made in the code.
 
         # First we create 10 splits of the data
         skf = KFold(n_splits=10, shuffle=True, random_state=123)
 
- * What are the features we are using in this model? What are the numbers representing the shape of the time series (168, 64), the shape of the connectivity matrix (64 x 64), and of the feature matrix (155, 2016)?
+ 5. What are the features we are using in this model? What are the numbers representing the shape of the time series (168, 64), the shape of the connectivity matrix (64 x 64), and of the feature matrix (155, 2016)?
       
- * Using the performance of the different polynomial fit (MSE) for train and test error, try to explain why increasing complexity of models does not necessarily lead to a better model. 
+ 6. Using the performance of the different polynomial fit (MSE) for train and test error, try to explain why increasing complexity of models does not necessarily lead to a better model. 
  
- * Remember we talked about regularization in the introduction to machine learning? Variance of model estimation increases when there are more features than samples. This especially relevant when we have > 2000 features ! Apply a penalty to the SVR model. Refer to the documentation https://scikit-learn.org/stable/modules/generated/sklearn.svm.LinearSVR.html.
+ 7. Remember we talked about regularization in the introduction to machine learning? Variance of model estimation increases when there are more features than samples. This especially relevant when we have > 2000 features ! Apply a penalty to the SVR model. Refer to the documentation https://scikit-learn.org/stable/modules/generated/sklearn.svm.LinearSVR.html.
  
- * BONUS: Try to run a [SVC](https://scikit-learn.org/stable/modules/generated/sklearn.svm.SVC.html) with a linear kernel to classify Children and Adults labels (*pheno['Child_Adult']*). What can you say about the performance of your model ?
+**Bonus**: Try to run a [SVC](https://scikit-learn.org/stable/modules/generated/sklearn.svm.SVC.html) with a linear kernel to classify Children and Adults labels (*pheno['Child_Adult']*). What can you say about the performance of your model ?
  
  * Follow up with Marie-Eve Picard to validate you completed the exercise correctly.
  * :tada: :tada: :tada: you completed this training module! :tada: :tada: :tada:
