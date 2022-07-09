@@ -44,6 +44,8 @@ The material of the tutorial is available [here](http://handbook.datalad.org/en/
 The video of her presentation is available below:
 <iframe width="560" height="315" src="https://www.youtube.com/embed/QsAqnP7TwyY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
+For the installation of the DataLad please follow the instructions in the [DataLad Handbook](http://handbook.datalad.org/en/latest/intro/installation.html)
+
 ## Exercise
  * Follow along the tutorial with Adina. You can copy paste the commands from the DataLad handbook section linked above, while following the video.
    * **Warning 1**: The url for one of the books in the tutorial (`byte-of-python.pdf`) is broken, so the pdf is unreadable. This does not impact the tutorial, but just don't be surprised if that document does not open. Also it shows how important it is to create persistent URLs when you release material, such as those offered on platforms like `zenodo`, `osf` or `figshare`.
