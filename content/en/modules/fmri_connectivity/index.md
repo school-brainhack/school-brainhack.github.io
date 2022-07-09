@@ -32,30 +32,36 @@ The prerequisites to take this module are:
  * the [installation](/modules/installation) module.
  * the [introduction to python for data analysis](/modules/python_data_analysis) module.
 
-Contact François Paugam if you have questions on this module, or if you want to check that you completed successfully all the exercises.
+Contact Désirée Lussier for questions on this module and once you have completed the exercises to receive credit for the module.
 
 ## Resources
-This module was presented by Pierre Bellec during the QLSC 612 course in 2020, the slides are available [here](https://docs.google.com/presentation/d/1mTJoOSRKtGzhWeNLa9PXyKUYA0p9733UHVWrmIyi4zs/edit#slide=id.p).
-
-The video of the presentation is available below:
+This module was presented by Pierre Bellec during the QLSC 612 course in 2020. The video of the presentation is available below:
 <iframe width="560" height="315" src="https://www.youtube.com/embed/RoKt_c08wxQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
+The slides are available [here](https://docs.google.com/presentation/d/1mTJoOSRKtGzhWeNLa9PXyKUYA0p9733UHVWrmIyi4zs/edit#slide=id.p).
+
+You can find the Jupyter notebook for this module [here](https://github.com/brainhackorg/school/blob/master/content/en/modules/fmri_connectivity/BHS_fMRI_connectivity.ipynb)
 
 ## Exercise
 
- * Download the jupyter notebook with the following command, follow it carefully and complete the 3 exercises at the end.
+ * Watch the video presentation by Pierre Bellec and go over the slides.
+ * Download the jupyter notebook using the link above or the following command
  ```
- wget https://raw.githubusercontent.com/BrainhackMTL/psy6983_2021/master/content/en/modules/fmri_connectivity/BHS_fMRI_connectivity.ipynb
+ wget https://raw.githubusercontent.com/brainhackorg/school/master/content/en/modules/fmri_connectivity/BHS_fMRI_connectivity.ipynb
  ```
- * Follow up with François Paugam to validate you completed the exercise correctly.
+ * Run the notebook and complete the 3 exercises at the end.
+ * Follow up with Désirée Lussier to validate you completed the exercise correctly.
  * :tada: :tada: :tada: you completed this training module! :tada: :tada: :tada:
 
 ## More resources
 
-[Here](https://pbellec.github.io/functional_parcellation/#/) are Pierre Bellec's slides for a course on brain parcellation. They contain snippets of examples of nilearn code to load datasets, plot brains, compute and plot connectomes...
+[Here](https://pbellec.github.io/functional_parcellation/#/) are Pierre Bellec's slides for a course on brain parcellation. They contain snippets of examples of nilearn code to load datasets, plot brains, compute and plot connectomes.
 
-The video on resting state mentioned by Pierre in his presentation :
-<iframe width="560" height="315" src="https://www.youtube.com/embed/_Iph3WW9UOU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+Chapter on Functional Connectivity from Méthods en neurosciences cognitives [here](https://psy3018.github.io/connectivite.html)
 
-If you want to know more about fMRIprep, Basile Pinsard made a presentation on this topic for BrainHack school 2019 :
+The video on resting state mentioned by Pierre in his presentation is [here](https://www.youtube.com/watch?v=_Iph3WW9UOU&t=3s)
+
+Additional Nilearn tutorials on functional connectivity can be found [here](https://nilearn.github.io/stable/connectivity/index.html)
+
+If you want to know more about fMRIprep, Basile Pinsard made a presentation on this topic for BrainHack school 2019:
 <iframe width="560" height="315" src="https://www.youtube.com/embed/WTcucXAAVBU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>

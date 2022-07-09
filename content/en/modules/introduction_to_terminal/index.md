@@ -141,7 +141,7 @@ What is the output of the closing `ls` command in the sequence shown below:
       $ ls
       proteins.dat
       $ mkdir recombine
-      $ mv proteins.dat recombine`
+      $ mv proteins.dat recombine
       $ cp recombine/proteins.dat ../proteins-saved.dat
       $ ls
       
@@ -165,14 +165,16 @@ What does cp do when given three or more filenames?
   
 
 **Exercise 6: List filenames matching a pattern**
-When run in the molecules directory, which ls command(s) will produce this output?
+When run in the proteins directory, which ls command(s) will produce this output?
 
     ethane.pdb methane.pdb
 
-    a) ls *t*and.pdb
+    a) ls *t*ane.pdb
     b) ls *t?ne.*
     c) ls *t??ne.pdb
     d) ls ethane.*
+    
+Hint: you can try these out using the dataset you downloaded earlier!
 
 **Exercise 7 : Renaming files**
 Suppose that you created a plain-text file in your current directory to contain a list of the statistical tests you will need to do to analyze your data, and named it: statstics.txt
