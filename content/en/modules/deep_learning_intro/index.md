@@ -32,7 +32,7 @@ The prerequisites to take this module are:
  * the [installation](/modules/installation) module.
  * the [python data analysis](/modules/python_data_analysis) module (recommended for Python familiarity).
 
-Contact Desiree Lussier if you have questions on this module, or if you want to check that you completed successfully all the exercises.
+Contact Isil Bilgin if you have questions on this module, or if you want to check that you completed successfully all the exercises.
 
 ## Resources
 The first portion of this module was presented by Blake Richards during Brainhack School 2020
@@ -48,10 +48,15 @@ The video presentation is available here:
  * * How would deep learning provide an advantage for solving the problem?
  * * Give an example of a research question for which deep learning would not be appropriate.
  * * What would be a disadvantage of deep learning compared to another method?
- * Follow up with Désirée Lussier to validate you completed the exercise correctly.
+ * Follow up with Isil Bilgin to validate you completed the exercise correctly.
  * 🎉 🎉 🎉 you completed this training module! 🎉 🎉 🎉
 
 ## More resources
 
-You can check out the documentation on Pytorch and additional tutorials [here](https://pytorch.org/tutorials/). The Deep Learning Book by Ian Goodfellow and Yoshua Bengio and Aaron Courville is also freely available [here](https://www.deeplearningbook.org/)
+You can check out the documentation on Pytorch and additional tutorials [here](https://pytorch.org/tutorials/). 
+The Deep Learning Book by Ian Goodfellow and Yoshua Bengio and Aaron Courville is also freely available [here](https://www.deeplearningbook.org/)
+For more comprehensive look of the deep learning tools and methods please look at the lecture series by Yan LeCun & Alfred Canziani at University of NY is [here](https://atcold.github.io/pytorch-Deep-Learning/) and for the videos [here](https://www.youtube.com/playlist?list=PLLHTzKZzVU9eaEyErdV26ikyolxOsz6mq)
+To learn and solve various deep learning exercises please look at the resources provided at the [Kaggle Deep Learning course](https://www.kaggle.com/learn/intro-to-deep-learning)
+Or have a look at the lecture and exercises series provided by the [Neuromatch Academy Deep Learning Course](https://deeplearning.neuromatch.io/tutorials/intro.html)
+
 
