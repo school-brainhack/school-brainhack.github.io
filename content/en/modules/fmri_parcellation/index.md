@@ -56,4 +56,10 @@ The video presentation is available here:
  * 🎉 🎉 🎉 you completed this training module! 🎉 🎉 🎉
 
 ## More resources
-You can watch my talk on dynamic parcellation (in French) [here](https://www.youtube.com/watch?v=5dA_ujGGtIY). If you are curious about how the embeddings of different parcellations compare you can check out my OHBM 2021 poster [here](https://drive.google.com/file/d/1O00bbKyI3Hqkah93iN83xpL10hMvygSt/view?usp=sharing) and check out Sebastian Urchs' paper on the MIST atlas [here](https://mniopenresearch.org/articles/1-3)
+You can watch my talk on dynamic parcellation and the Dypac package (in French) [here](https://www.youtube.com/watch?v=5dA_ujGGtIY) or (in English) [here](https://www.youtube.com/watch?v=4PV_v2JAKBA&t=236s). 
+
+For information on or to install the Dynamic Parcel Aggregation with Clustering (Dypac) package for Python see PyPi [here](https://pypi.org/project/dypac/) or the Github repository [here](https://github.com/courtois-neuromod/dypac), with a Jupyter notebook demo you can download and run here [here](https://github.com/courtois-neuromod/dypac/blob/main/examples/dypac_demo.ipynb)
+
+If you are curious about how the embeddings of different parcellations compare you can check out my OHBM 2021 poster [here](https://drive.google.com/file/d/1O00bbKyI3Hqkah93iN83xpL10hMvygSt/view?usp=sharing) and check out Sebastian Urchs' paper on the MIST atlas [here](https://mniopenresearch.org/articles/1-3)
+
+You can also check out the Nilearn (unstable development version) tutorials [here](https://nilearn.github.io/dev/auto_examples/03_connectivity/plot_data_driven_parcellations.html#sphx-glr-auto-examples-03-connectivity-plot-data-driven-parcellations-py)
