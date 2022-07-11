@@ -34,28 +34,32 @@ The prerequisites to take this module are:
  * the [introduction to git and github](/modules/git_github) module can help, but not required.
  * the [project management](/modules/project_management) module is recommended, but not required.
 
-Contact Pierre Bellec if you have questions on this module, or if you want to check that you completed successfully all the exercises.
+Contact Isil Bilgin if you have questions on this module, or if you want to check that you completed successfully all the exercises.
 
 ## Resources
-This module was presented by [Adina Wagner](https://twitter.com/AdinaKrik) during the HBM brainhack in 2020.
+This module was presented by [Adina Wagner](https://twitter.com/AdinaKrik) during the HBM Brainhack in 2020.
 
 The material of the tutorial is available [here](http://handbook.datalad.org/en/latest/code_from_chapters/OHBM.html).
 
 The video of her presentation is available below:
 <iframe width="560" height="315" src="https://www.youtube.com/embed/QsAqnP7TwyY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
+For the installation of the DataLad please follow the instructions in the [DataLad Handbook](http://handbook.datalad.org/en/latest/intro/installation.html)
+
 ## Exercise
- * Follow along the tutorial with Adina. You can copy paste the commands from the datalad handbook section linked above, while following the video.
-   * **Warning**: the url for one of the books in the tutorial (`byte-of-python.pdf`) is broken, so the pdf is unreadable. This does not impact the tutorial, but just don't be surprised if that document does not open. Also it shows how important it is to create persistent URLs when you release material, such as those offered on platforms like `zenodo`, `osf` or `figshare`.
-   * **warning 2** to follow the tutorial you may need to install new command line tools, such as `tree`.
- * Check with Pierre Bellec to validate that the history of your datalad repository includes all the steps of the tutorial.
- * :tada: :tada: :tada: you completed this training module! :tada: :tada: :tada:
+ * Follow along the tutorial with Adina. You can copy paste the commands from the DataLad handbook section linked above, while following the video.
+   * **Warning 1**: The url for one of the books in the tutorial (`byte-of-python.pdf`) is broken, so the pdf is unreadable. This does not impact the tutorial, but just don't be surprised if that document does not open. Also it shows how important it is to create persistent URLs when you release material, such as those offered on platforms like `zenodo`, `osf` or `figshare`.
+   * **Warning 2**: Follow the tutorial you may need to install new command line tools, such as `tree`.
+ * Check with Isil Bilgin to validate that the history of your DataLad repository that includes all the steps of the tutorial.
+ * :tada: :tada: :tada: You completed this training module! :tada: :tada: :tada:
 
 ## More resources
 
 If you want to learn more, check:
- * the [datalad handbook](http://handbook.datalad.org), which features lot of additional resources as well!
- * the [datalad datasets](https://github.com/datalad-datasets) github organization, which provides an easy access to a number of data resources. This type of DataLad repositories are the easiest way to get access to datasets.
- * note that for the last part of the tutorial you will need to install [singularity](https://sylabs.io/singularity/) and the `datalad-container` extension (installable through `pip`).
- * all of the Open Neuro datasets available on the [Open Neuro](https://github.com/OpenNeuroDatasets) github organization.
- * you can also read about the [YODA](https://handbook.datalad.org/en/latest/basics/101-127-yoda.html) principles for reproducible papers.
+ * The [DataLad handbook](http://handbook.datalad.org), which features lot of additional resources as well!
+ * The [DataLad datasets](https://github.com/datalad-datasets) github organization, which provides an easy access to a number of data resources. This type of DataLad repositories are the easiest way to get access to datasets.
+ * The [DataLad lecture series](https://www.youtube.com/playlist?list=PLEQHbPfpVqU5RSPiyFuPdDlSUEd-XoPV-)
+ * The [DataLad Course Material](https://github.com/datalad-handbook/datalad-course)
+ * Note that for the last part of the tutorial you will need to install [singularity](https://sylabs.io/singularity/) and the `datalad-container` extension (installable through `pip`).
+ * All of the Open Neuro datasets available on the [Open Neuro](https://github.com/OpenNeuroDatasets) github organization.
+ * You can also read about the [YODA](https://handbook.datalad.org/en/latest/basics/101-127-yoda.html) principles for reproducible papers.
