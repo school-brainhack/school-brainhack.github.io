@@ -16,7 +16,7 @@ tags: [fmri, deep leatning, neuroimaging, nobrainer]
 
 # Summarize your project in < ~75 words. This description will appear at the top of your page and on the list page with other projects..
 
-summary: "How deep learning can be used in neuroimaging analyses ? A hands-on example using the nobrainer library."
+summary: "How deep learning can be used in neuroimaging analyses? A hands-on example using the nobrainer library and Montreal AI-Neuroscience workshop material."
 
 # If you want to add a cover image (listpage and image in the right), add it to your directory and indicate the name
 # below with the extension.
@@ -32,28 +32,33 @@ The prerequisites to take this module are:
  * the [installation](/modules/installation) module.
  * the [introduction to python for data analysis](/modules/python_data_analysis) module.
 
-Contact François Paugam if you have questions on this module, or if you want to check that you completed successfully all the exercises.
+Contact Hao-Ting Wang if you have questions on this module, or if you want to check that you completed successfully all the exercises.
 
 ## Resources
-This module was presented by [Jakub Kaczmarzyk](https://twitter.com/jakubkaczmarzyk) during the QLSC 612 course in 2020, the slides are available [here](https://raw.githubusercontent.com/neurodatascience/course-materials-2020/master/lectures/15-may/02-applications-of-deep-learning/nobrainer-brainhackmtl-2020.pdf).
-
-The video of the presentation is available below:
-<iframe width="560" height="315" src="https://www.youtube.com/embed/XM1FT_oVDP0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
+This module will be using the [MAIN educational workshop on brain encoding and decoding](https://main-educational.github.io/brain_encoding_decoding/intro.html).
 
 ## Exercise
+Let's have a look at application on functional data with the [MAIN educational workshop on brain encoding and decoding](https://main-educational.github.io/brain_encoding_decoding/intro.html). We will look at the **decoding** modules. This part is independent from the video above.
+ * Please follow the [introduction](https://main-educational.github.io/brain_encoding_decoding/intro.html#), set-up your environment and clone the material from GitHub. Please provide your ansers in jupyter notebooks.
+ * Through out this tutorial you will be using the Haxby data set. Please read through and understand how to access it [here](https://main-educational.github.io/brain_encoding_decoding/haxby_data.html) and go throught the [original support-vector machine analysis](https://main-educational.github.io/brain_encoding_decoding/svm_decoding.html) of the study and complete the exercises. 
+ * After understanding the workflow of functional data, please go through the [Multi-Layer Perceptron](https://main-educational.github.io/brain_encoding_decoding/mlp_decoding.html) and complete the relevant exercise. If you want a challenge, please feel free to do the harder questions, or do both lessons :tada:.
 
- * Follow along the video running the notebook presented in the hands-on part. This notebook can be run [from google colab](https://colab.research.google.com/github/neurodatascience/course-materials-2020/blob/master/lectures/15-may/02-applications-of-deep-learning/mtl_deep_learning_jakubkaczmarzyk.ipynb) (if you have a google account) which is recommended since it lets you have access to a GPU. Otherwise you can also run it remotely [on binder](https://mybinder.org/v2/gh/neurodatascience/course-materials-2020/master?filepath=lectures%2F15-may%2F02-applications-of-deep-learning%2Fmtl_deep_learning_jakubkaczmarzyk.ipynb) (but with no GPU). If you prefer to run it locally, you can download the .ipynb file :
- ```
- wget https://raw.githubusercontent.com/neurodatascience/course-materials-2020/master/lectures/15-may/02-applications-of-deep-learning/mtl_deep_learning_jakubkaczmarzyk.ipynb
- ```
- * Follow up with François Paugam to validate you completed the exercise correctly.
+ * (Optional) You can learn about the [Graph Convolution Network](https://main-educational.github.io/brain_encoding_decoding/gcn_decoding.html) and how to work with timeseries data!
+
+ * Follow up with Hao-Ting Wang to validate you completed the exercise correctly.
  * :tada: :tada: :tada: you completed this training module! :tada: :tada: :tada:
 
 ## More resources
+
+This demo was presented by [Jakub Kaczmarzyk](https://twitter.com/jakubkaczmarzyk) during the QLSC 612 course in 2020, the slides are available [here](https://raw.githubusercontent.com/neurodatascience/course-materials-2020/master/lectures/15-may/02-applications-of-deep-learning/nobrainer-brainhackmtl-2020.pdf).
+
+The video of the presentation is available below:
+<iframe width="560" height="315" src="https://www.youtube.com/embed/XM1FT_oVDP0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 You can find more information about the nobrainer library on its [github repo](https://github.com/neuronets/nobrainer).
 
 [A nature communications article](https://www.nature.com/articles/s41467-020-20655-6) on the superiority of deep learning over standard machine learning in neuromimaging tasks.
 
 [A Neuroscience and Biobehavioral Reviews article](https://www.sciencedirect.com/science/article/pii/S0149763416305176) on deep learnging applications in neuroimaging studies of brain-based disorders. It has a good overview of the general framework of deep learning applications, and descriptions of the main kinds of architectures.
+
+[MAIN educational workshop on brain encoding and decoding](https://main-educational.github.io/brain_encoding_decoding/intro.html) covers deep learning application to analyse a classic neuroimaging dataset. The tutorial also incooperates the useful features from `nilearn` to process your neuroimaging data, as well as doing decoding analysis.
