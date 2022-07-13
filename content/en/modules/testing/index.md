@@ -46,7 +46,6 @@ The video of the presentation is available below:
 ## Exercise
 
  * Watch the video until **55:23**.
-  [his repo](https://github.com/gkiar/intro2testing).
  * Fork [this repo](https://github.com/FrancoisPgm/intro2testing).
  * On your fork in github, go to the **Actions** tab and create a new workflow.
  * Modify the action template created by github to :
