@@ -24,7 +24,7 @@ Finally, in order to convert your notebook to a shiny presentation, open your te
 
  This will create the `.html` file of your published version of your presentation! You are ready to go! 
 
- The slides are adapted from a slide deck of one of our 2022 students @Andjelaaaa :tada:
+ The slides are adapted from a [slide deck](https://github.com/brainhack-school2022/dimitrijevic_project/blob/main/project_presentation.ipynb) of one of our 2022 students Andjela Dimitrijevic :tada:
 
 
 # Adding your project to the gallery
