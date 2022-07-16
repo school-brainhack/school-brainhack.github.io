@@ -37,13 +37,46 @@ Contact François Paugam if you have questions on this module, or if you want to
 ## Resources
 This module was presented by [Greg Kiar](https://twitter.com/g_kiar) during the QLSC 612 course in 2020, the slides are available [here](https://docs.google.com/presentation/d/1J0x3ahRCOx7cnyUq_EfueIaFM8-tze0V9rX-ECKJ65k/edit#slide=id.p).
 
+:warning: In Greg's presentation  he uses Travis-CI.org to do the remote tests on his github repo. Since 2021 Travis-CI.org no longer exists, there is only the commercial Travic-CI.com. So instead we will here use **GitHub actions**. Thus you can follow the video up until **55:23**, then follow the instructions below to setup the Github action workflow.
+
 The video of the presentation is available below:
 <iframe width="560" height="315" src="https://www.youtube.com/embed/VibDC49ZAJE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 
 ## Exercise
 
- * While watching the hands-on part of the video, reproduce what Greg is doing on a fork of [his repo](https://github.com/gkiar/intro2testing).
+ * Watch the video until **55:23**.
+ * Fork [this repo](https://github.com/FrancoisPgm/intro2testing).
+ * On your fork in github, go to the **Actions** tab and create a new workflow.
+ * Modify the action template created by github to :
+    * Change the workflow name from "build" to "test"
+    * add the following step to setup python :
+    ```
+          # Set up python to be able to run python scripts
+          - name: Set up Python
+            uses: actions/setup-python@v1
+            with:
+              python-version: 3.7
+    ```
+    * add the following step to install the dependancies :
+    ```
+          # Pip install the required packages
+          - name: Install Dependencies
+            run: pip install -r requirements.txt
+    ```
+    * Run the test script :
+    ```
+          # Run the test script
+          - name: Run test
+            run: |
+              cd code
+              bash test.sh
+    ```
+ * commit and push this new file to create and run the action.
+ * go back to the action tab on your repo, you should see an action called "test".
+ * verify that the action did run the test, the first one should be passed and the second should fail, so you should be able to see something like that :
+
+    <img src="example_action.png" alt="Action example" width="500"/>
  * Follow up with François Paugam to validate you completed the exercise correctly.
  * :tada: :tada: :tada: you completed this training module! :tada: :tada: :tada:
 

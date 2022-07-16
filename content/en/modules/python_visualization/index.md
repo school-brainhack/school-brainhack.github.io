@@ -32,11 +32,11 @@ The prerequisites to take this module are:
  * Installations
  * [Introduction to python for data analysis](https://psy6983.brainhackmtl.org/modules/python_data_analysis/) module.
 
-Contact Andréanne Proulx if you have questions on this module, or if you want to check that you completed successfully all the exercises.
+Contact Natasha Clarke if you have questions on this module, or if you want to check that you completed successfully all the exercises.
 
 
 ## Resources
-This module was presented by Jacob Vogel during the QLSC 612 course in 2020, the slides are available [here](https://github.com/neurodatascience/course-materials-2020/blob/master/lectures/14-may/01-data-visualization/python_visualization_for_data.ipynb).
+This module was presented by Jacob Vogel during the QLSC 612 course in 2020, and the associated notebook is available [here](https://github.com/neurodatascience/course-materials-2020/blob/master/lectures/14-may/01-data-visualization/python_visualization_for_data.ipynb). (Note: if you did the BIDS module, the dataset to download is the same - ds000228! A few functions now throw warnings, you can ignore these, or fix them if you like.)
 
 The video of the presentation is available below (1h09):
 <iframe width="560" height="315" src="https://www.youtube.com/embed/lJyFWTT7sCY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
@@ -48,9 +48,9 @@ The video of the presentation is available below (1h09):
 
 ## Exercice
 
-For this next part, we will refer to the following [notebook](https://github.com/BrainhackMTL/psy6983_2021/blob/master/content/en/modules/python_visualization/python_visualization_intro_rmv_answ.ipynb)
+For this next part, we will refer to the following [notebook](https://github.com/brainhackorg/school/blob/master/content/en/modules/python_visualization/python_visualization_intro_rmv_answ.ipynb).
 
-For example purposes, we will make use of a phenotypic dataset from the ABIDE II consortium. This amazing international multi-site dataset contains data from individuals diagnosed with Autism Spectrum Disorder (ASD) and healthy controls. We will use a version of the phenotypic  [data](http://fcon_1000.projects.nitrc.org/indi/abide/abide_II.html) from a single site (Kennedy Krieger Institute). Thus please download the dataset from the linked resource providing your NITRC credentials. If you don't have one, you can create an account.
+For example purposes, we will make use of a phenotypic dataset from the ABIDE II consortium. This amazing international multi-site dataset contains data from individuals diagnosed with Autism Spectrum Disorder (ASD) and healthy controls. We will use a version of the phenotypic  [data](http://fcon_1000.projects.nitrc.org/indi/abide/abide_II.html) from a single site (Kennedy Krieger Institute). To download the dataset, click on the link and then 'Kennedy Krieger Institute' on the right-hand side. Then, Downloads -> Phenotypic File. You will need an NITRC account - if you don't have one, you can create one in a few minutes [here](https://www.nitrc.org/account/register.php).
 
 1. **Read through the notebook running all the cells**
 2. **Complete the exercises in the notebook**
@@ -76,6 +76,9 @@ For example purposes, we will make use of a phenotypic dataset from the ABIDE II
         The x-axis should reflect the different sex categories.
 
 **Exercise 4** Play around and make an interactive plot using plotly and your project data if you have any.
+
+ * Follow up with Natasha Clarke to validate you completed the exercise correctly.
+ * :tada: :tada: :tada: you completed this training module! :tada: :tada: :tada:
 
 ## More resources
 
