@@ -9,6 +9,24 @@ github_repo = "https://github.com/brainhack-school2022/project_template"
 
 The project template was added in the [BHS gallery](https://school.brainhackmtl.org/project/template/). You can also help improve the template by posting an issue on the [template repo](https://github.com/brainhack-school2022/project_template/issues). Project repositories are hosted in the Brainhack school 2022 [github organization](https://github.com/brainhack-school2022).
 
+For your project pitch from the week-2 onwards please follow this simple template [here]((https://github.com/brainhackorg/school/tree/master/content/en/project_guide/brainhack_project_presentation_slide_template.html)) to bring your ideas together. You can either use a Google slides or Jupyter noteook to create your slides.
+
+## Optional New Skill Alert! 
+If you would like to use and learn how to create slides with Jupyter notebook, please download the notebook template from [here](https://github.com/brainhackorg/school/tree/master/content/en/project_guide/brainhack_project_presentation_slide_template.ipynb) to your local. Then [install Jupyter notebook](https://jupyter.org/install) Python package if you haven't done so already. 
+
+After the installation run the Jupyter notebook by typing `jupyter notebook` at your terminal. This will open the jupyter notebook envionment at your browser. Then upload the notebook template from your local to the Jupyter environment. 
+
+Now you can click to the book you just uploaded at your browser named as `brainhack_project_presentation_slide_template.ipynb`. This will open the template presentation at the jupyter environment and will give you a chance to edit its cell content as you go along. After you complete the presentation, save the notebook, and download it to your local. 
+
+Finally, in order to convert your notebook to a shiny presentation, open your terminal, go to the directory where the notebook is located and run the following command:
+
+ `jupyter nbconvert 'brainhack_project_presentation_slide_template.ipynb' --to slides --post serve`
+
+ This will create the `.html` file of your published version of your presentation! You are ready to go! 
+
+ The slides are adapted from a [slide deck](https://github.com/brainhack-school2022/dimitrijevic_project/blob/main/project_presentation.ipynb) of one of our 2022 students Andjela Dimitrijevic :tada:
+
+
 # Adding your project to the gallery
 
 The gallery can be found [here](project). Instructions to push your project to this gallery through a pull request to the [BHS website](https://github.com/brainhackorg/school) are now available! Keep reading:

@@ -32,7 +32,7 @@ The prerequisites to take this module are:
  * the [installation](/modules/installation) module.
  * the [introduction to the terminal](/modules/introduction_to_terminal/) module.
 
-Contact Desiree Lussier if you have questions on this module, or if you want to check that you completed successfully all the exercises.
+Contact Isil Bilgin if you have questions on this module, or if you want to check that you completed successfully all the exercises.
 
 ## Resources
 This module consists of a video by Tristan Glatard that was originally presented at BrainHack School 2020 and notebook by Tristan Glatard containing links to content by Julia Evans.
@@ -46,9 +46,12 @@ The video presentation is available here:
 
  * Watch the video presentation.
  * Complete the notebook exercises and review the content.
- * Follow up with Désirée Lussier to validate you completed the exercise correctly.
+ * Follow up with Isil Bilgin to validate you completed the exercise correctly.
  * 🎉 🎉 🎉 you completed this training module! 🎉 🎉 🎉
 
 ## More resources
 
-Documentation for Docker can be found [here](https://www.docker.com/) and Singularity [here](https://sylabs.io/singularity/)
+* Documentation for Docker can be found [here](https://www.docker.com/) and Singularity [here](https://sylabs.io/singularity/)
+* Read a bit more from the [The Turing Way Book](https://the-turing-way.netlify.app/reproducible-research/renv/renv-containers.html) to learn why containers are important for the reproducable research.
+* You can also have a look at [this lecture](https://www.youtube.com/watch?v=7BJqzpE76g0) about Docker Containers by Dr. Peer Herholz from Brainhack School 2020. 
+* And yet another lecture nother lecture about Dockers from Dr. Chris Gorgolewski at Neurohackademy course [here](https://www.youtube.com/watch?v=4s0vNSt-3j0&list=PLA6PlfxWZPLTLJ2qTN9enG0tkizpmwWaq&index=22)
