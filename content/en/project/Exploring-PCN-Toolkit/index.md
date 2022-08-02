@@ -1,6 +1,6 @@
 ---
 type: "project" # DON'T TOUCH THIS ! :)
-date: "2020-05-16" # Date you first upload your project.
+date: "2022-07-29" # Date you first upload your project.
 # Title of your project (we like creative title)
 title: "Exploratory Work on the Predictive Clinical Neuroscience (PCN) Toolkit"
 
@@ -8,14 +8,14 @@ title: "Exploratory Work on the Predictive Clinical Neuroscience (PCN) Toolkit"
 names: [Andjela Dimitrijevic]
 
 # Your project GitHub repository URL
-github_repo: https://github.com/brainhack-school2020/dimitrijevic_project
+github_repo: https://github.com/brainhack-school2022/dimitrijevic_project
 
 # If you are working on a project that has website, indicate the full url including "https://" below or leave it empty.
 website:
 
 # List +- 4 keywords that best describe your project within []. Note that the project summary also involves a number of key words. Those are listed on top of the [github repository](https://github.com/brainhack-school2020/project_template), click `manage topics`.
 # Please only lowercase letters
-tags: [pcn-toolkit, github, hpc, brainhack]
+tags: [pcn-toolkit, github, hpc, brainhack cloud]
 
 # Summarize your project in < ~75 words. This description will appear at the top of your page and on the list page with other projects..
 
@@ -23,79 +23,90 @@ summary: "My project consists of exploring the predictive normative modelling (P
 
 # If you want to add a cover image (listpage and image in the right), add it to your directory and indicate the name
 # below with the extension.
-image: "bhs2020.png"
+image: "FSL_recon.png"
 ---
 <!-- This is an html comment and this won't appear in the rendered page. You are now editing the "content" area, the core of your description. Everything that you can do in markdown is allowed below. We added a couple of comments to guide your through documenting your progress. -->
 
-## Project definition
+# Project definition
 
-### Background
+## Background
 
-Inspired by the [Recurse Centre](https://www.recurse.com/) initiative (formally known as the "hacker school"), Brainhack School was established in 2018 with the mission to train students from multidisciplinary backgrounds to a panoply of reproducible tools for neural data science, using a project-based approach. Following an initial 3-weeks long pilot, a 4th week was added with an intensive bootcamp, so that students could choose what tools to learn more deeply in their projects. As the course became integrated in standard curriculum at different universities, the formula seemed to be working. In order to streamline the different stages of the project, some standard template and milestones needed to be incorporated in a github-based workflow. The "project template" project (which is also our first BHS meta-project) aims at establishing such a standardized template. You can check the following [video](https://youtu.be/PTYs_JFKsHI) where Pierre Bellec gives an overview of the Brainhack school.
+The PCN toolkit aims at providing diffferent tools of **normative modelling** for understanding *psychiatric disorders* at the individual level including: <br />
+- Data selection, 
+- Data preparation, 
+- Algorithm & modelling, 
+- Evaluation & interpretation <br />
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/PTYs_JFKsHI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+I was interesting in how to use this tool because it overlaps with my PhD work on trying to find a neuroimaging atlas for pediatric population. Hence, I wanted to see if it would be useful with the data I have. 
+
+## Objectives 
+
+The aim of this project will be decomposed into three sub-objectives:
+* Start off with the available tutorial on the PCN toolkit documentation to get familiar to it
+* Use another set of data if possible to follow through the available steps that this toolkit offers 
+* Adapt some functionalities which were found to be less intuitive to work with  <br />
+* Learn some new tools throughout this work
+
+All of these three sub-objectives will be **documented** to be able to be **reproduced** in later or other exploratory works. 
 
 ### Tools
+This project relied on numerous tools throughout its creation:
+- [PCN Toolkit](https://pcntoolkit.readthedocs.io/en/latest/) and their [GitHub page](https://github.com/amarquand/PCNtoolkit) to explore their tutorials
+- Google Colab to follow through some of the tutorials
+- Bash Terminal constantly when moving files or using Git
+- High performance computing (HPC) through accessing the BrainHack cloud
+- Markdown to structure the tutorial guides
+- Git and GitHub for version control and making the project reproducible
 
-The "project template" project will rely on the following technologies:
- * Markdown, to structure the text.
- * The Hugo website framework which is used by the BHS website. This makes it possible to easily add the markdown project description to the website.
- * Adding the project to the website relies on github, through pull requests.
+<img width="100" height="100" src="https://cdn3.iconfinder.com/data/icons/logos-and-brands-adobe/512/267_Python-512.png">
 
-### Data
+<img width="100" height="100" src="https://lthub.ubc.ca/files/2021/06/GitHub-Logo.png">
 
-Ultimately, the project template will be used by all BHS participants. Data on the different projects will be aggregareted on the [following page](https://school.brainhackmtl.org/project). This will serve as an additional example gallery in the years to come for future brainhack school students. Many reports from [BHS 2019](https://github.com/mtl-brainhack-school-2019) already used this template.
+<img width="80" height="80" src="https://avatars.githubusercontent.com/u/8958471?v=4">
 
-### Deliverables
 
-At the end of this project, we will have:
- - The current markdown document, completed and revised.
- - A gallery of the student projects at Brainhack 2020.
- - Instructions on the website about how to submit a pull request to the [brainhack school website](https://github.com/BrainhackMTL/school) in order to add the project description to the website.
+## Data
+
+In the end, this project does not use data a lot because guides for using some neuroimaging tools are presented instead. However, FreeSurfer was used on two subjects of the publicly available longitudinal [Calgary Preschool Dataset](https://osf.io/axz5r/).
+
+
+## Results: Deliverables of this project
+
+At the end of this BraiHack school, these files will be made available:
+- A [GitHub page](https://github.com/brainhack-school2022/dimitrijevic_project) containing all the modifications that were made to the PCN-toolkit tutorials
+ - A [markdown file](https://github.com/brainhack-school2022/dimitrijevic_project/blob/main/PCNTutorial_steps/where_to_start.md) on where to start with the PCN-toolkit tutorials and [another](https://github.com/brainhack-school2022/dimitrijevic_project/blob/main/PCNTutorial_steps/data_formatting.md) on how to format the data adequately all in the PCNTutorial_steps directory on GitHub
+ - A [markdown file](https://github.com/brainhack-school2022/dimitrijevic_project/blob/main/BrainHackCloud_steps/get_connected.md) on getting connected to the BrainHack Cloud to access HPC clusters as well as [one](https://github.com/brainhack-school2022/dimitrijevic_project/blob/main/BrainHackCloud_steps/neurodesk_access.md) on testing out the Neurodesktop container all in the BrainHackCloud_steps directory on GitHub
+ 
+
+
+## Progress overview
+
+At first, I thought using the Calgary Preschool Dataset would have been enough to do the analysis with the PCN-toolkit. However, this dataset seems too small (only 64 subjects) for that type of analysis. Furthermore, it was lacking cortical thickness maps which is an essential feature to be analyzed. Hence, that's why I started connecting to the HPC during the last week of the BrainHack school to be able to run FreeSurfer recon-all function on all subjects. This too came with its specific challenges and takes quite long to run on the NeuroDesk test server that was tried out on one subject. Also, FreeSurfer bases its cortical thickness maps on previous registration tasks using adult templates (by default the Talairach atlas). This can incorporate biases and render the results to be faulty. The final presentation on this project is avaible via [this link](https://docs.google.com/presentation/d/1BBGOiibHYFYnNmN_DVhKsS1oMsixU5fQ7aqgNR5F5jc/edit?usp=sharing).
+
 
 ## Results
 
-### Progress overview
+*Reported GitHub issue to alert the PCN-toolkit tutorial writers*
 
-The project was swiftly initiated by P Bellec, based on the existing template created in 2019 by Tristan Glatard and improved by different students. It was really not that hard. Community feedback is expected to lead to rapid further improvements of this first version.
+The BLR_protocol tutorial is more easily ran locally and does not work because of the older python version available on Google Colab. To consult the issue click [here](https://github.com/predictive-clinical-neuroscience/PCNtoolkit-demo/issues/6)
 
-### Tools I learned during this project
+*Accessed the neurodesktop via the BrainHack Cloud was successful*
 
- * **Meta-project** P Bellec learned how to do a meta project for the first time, which is developping a framework while using it at the same time. It felt really weird, but somehow quite fun as well.
- * **Github workflow-** The successful use of this template approach will demonstrate that it is possible to incorporate dozens of students presentation on a website collaboratively over a few weeks.
- * **Project content** Through the project reports generated using the template, it is possible to learn about what exactly the brainhack school students are working on.
+The neurodesktop test server is great and easily accessible through the browser with various neuroimaging tools. Their test server is available via this [link](https://www.neurodesk.org/docs/neurodesktop/getting-started/play/) without any installation required. Also, the access to this neurodesktop container through the BrainHack cloud was succesful. However, running the NeuroDesk container via Docker should first be done on a virtual machine and NOT directly on the cloud.
+ 
 
-### Results
+*Obtained recon-all results for one subject*
 
-#### Deliverable 1: report template
+This was ran directly on the test server which is an interesting tool easily usable by everyone. The results are available as a zip file under the results directory of the main GitHub repository for this project. However, this took approximately 7 hours to run because it was done on the available resources on the test server. Hence, using BrainHack cloud resources to parallelize everything is suggested.
 
-You are currently reading the report template! I will let you judge whether it is useful or not. If you think there is something that could be improved, please do not hesitate to open an issue [here](https://github.com/brainhack-school2020/project_template/issues) and let us know.
+## Future Work
+Some future steps which will be done to follow through this project are presented below:
 
-#### Deliverable 2: project gallery
+- Aggregating multiple pediatric datasets to have more subjects and also different sites to analyze with the PCN-Toolkit
+- Submitting a job to the slurm scheduler to obtain cortical thickness maps of the data, but with an appropriate atlas
+- Uploading this newly modified data via DataLad tools to make it more reproducible
 
-There is not yet a project gallery, as BHS 2020 is the first edition that will incorporate it on the website. You can still check out the [2019 BHS github organization](https://github.com/mtl-brainhack-school-2019)
-
-##### ECG pupilometry pipeline by Marce Kauffmann
-
-The repository of this project can be found [here](https://github.com/mtl-brainhack-school-2019/ecg_pupillometry_pipeline_kaufmann). The objective was to create a processing pipeline for ECG and pupillometry data. The motivation behind this task is that Marcel's lab (MIST Lab @ Polytechnique Montreal) was conducting a Human-Robot-Interaction user study. The repo features:
- * a [video introduction](http://www.youtube.com/watch/8ZVCNeX42_A) to the project.
- * a presentation [made in a jupyter notebook](https://github.com/mtl-brainhack-school-2019/ecg_pupillometry_pipeline_kaufmann/blob/master/BrainHackPresentation.ipynb) on the results of the project.
- * Notebooks for all analyses.
- * Detailed requirements files, making it easy for others to replicate the environment of the notebook.
- * An overview of the results in the markdown document.
-
-##### Other projects
-Here are other good examples of repositories:
-- [Learning to manipulate biosignals with python](https://github.com/mtl-brainhack-school-2019/franclespinas-biosignals) by François Lespinasse
-- [Run multivariate anaylysis to relate behavioral and electropyhysiological data](https://github.com/mtl-brainhack-school-2019/PLS_PV_Behaviour)
-- [PET pipeline automation and structural MRI exploration](https://github.com/mtl-brainhack-school-2019/rwickens-sMRI-PET) by Rebekah Wickens
-- [Working with PSG [EEG] data from Parkinson's patients](https://github.com/mtl-brainhack-school-2019/Soraya-sleep-data-in-PD-patients) by Cryomatrix
-- [Exploring Brain Functional Activation in Adolescents Who Attempted Suicide](https://github.com/mtl-brainhack-school-2019/Anthony-Gifuni-repo) by Anthony Gifuni
-
-#### Deliverable 3: Instructions
-
- To be made available soon.
 
 ## Conclusion and acknowledgement
 
-The BHS team hope you will find this template helpful in documenting your project. Developping this template was a group effort, and benefitted from the feedback and ideas of all BHS students over the years.
+To conclude, the initial objectives of this project have been slightly modified. However, I am still glab with all the new essential tools I have learned throughout the weeks during this BrainHack school. I would like to thank all the instructors, but specifically the ones from the group-analysis pod which made this experience smoother! :fireworks:
