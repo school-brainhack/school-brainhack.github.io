@@ -72,7 +72,7 @@ In the end, this project does not use data a lot because guides for using some n
 
 ## Results: Deliverables of this project
 
-At the end of this BraiHack school, these files will be made available:
+At the end of this BrainHack school, these files will be made available:
 - A [GitHub page](https://github.com/brainhack-school2022/dimitrijevic_project) containing all the modifications that were made to the PCN-toolkit tutorials
  - A [markdown file](https://github.com/brainhack-school2022/dimitrijevic_project/blob/main/PCNTutorial_steps/where_to_start.md) on where to start with the PCN-toolkit tutorials and [another](https://github.com/brainhack-school2022/dimitrijevic_project/blob/main/PCNTutorial_steps/data_formatting.md) on how to format the data adequately all in the PCNTutorial_steps directory on GitHub
  - A [markdown file](https://github.com/brainhack-school2022/dimitrijevic_project/blob/main/BrainHackCloud_steps/get_connected.md) on getting connected to the BrainHack Cloud to access HPC clusters as well as [one](https://github.com/brainhack-school2022/dimitrijevic_project/blob/main/BrainHackCloud_steps/neurodesk_access.md) on testing out the Neurodesktop container all in the BrainHackCloud_steps directory on GitHub
@@ -81,21 +81,21 @@ At the end of this BraiHack school, these files will be made available:
 
 ## Progress overview
 
-At first, I thought using the Calgary Preschool Dataset would have been enough to do the analysis with the PCN-toolkit. However, this dataset seems too small (only 64 subjects) for that type of analysis. Furthermore, it was lacking cortical thickness maps which is an essential feature to be analyzed. Hence, that's why I started connecting to the HPC during the last week of the BrainHack school to be able to run FreeSurfer recon-all function on all subjects. This too came with its specific challenges and takes quite long to run on the NeuroDesk test server that was tried out on one subject. Also, FreeSurfer bases its cortical thickness maps on previous registration tasks using adult templates (by default the Talairach atlas). This can incorporate biases and render the results to be faulty. The final presentation on this project is avaible via [this link](https://docs.google.com/presentation/d/1BBGOiibHYFYnNmN_DVhKsS1oMsixU5fQ7aqgNR5F5jc/edit?usp=sharing).
+At first, I thought using the Calgary Preschool Dataset would have been enough to do the analysis with the PCN-toolkit. However, this dataset seems too small (only 64 subjects) for that type of analysis. Furthermore, it was lacking cortical thickness maps which is an essential feature to be analyzed. Hence, that's why I started connecting to the HPC during the last week of the BrainHack school to be able to run FreeSurfer recon-all function on all subjects. This too came with its specific challenges. First, getting connecting to the BrainHack cloud from my own computer did not work directly. Second, it took quite long to run the wanted FreeSurfer command on the NeuroDesk test server on one subject. Also, FreeSurfer bases its cortical thickness maps on previous registration tasks using adult templates (by default the Talairach atlas). This can incorporate biases and render the results to be faulty. The final presentation on this project is avaible via [this link](https://docs.google.com/presentation/d/1BBGOiibHYFYnNmN_DVhKsS1oMsixU5fQ7aqgNR5F5jc/edit?usp=sharing).
 
 
-## Results
+## Detailed actions
 
 *Reported GitHub issue to alert the PCN-toolkit tutorial writers*
 
-The BLR_protocol tutorial is more easily ran locally and does not work because of the older python version available on Google Colab. To consult the issue click [here](https://github.com/predictive-clinical-neuroscience/PCNtoolkit-demo/issues/6)
+The BLR_protocol tutorial is more easily ran locally and does not work because of the older python version available on Google Colab. The solution of running it locally has all been explained in the [where_to_start md file](https://github.com/brainhack-school2022/dimitrijevic_project/blob/main/PCNTutorial_steps/where_to_start.md). To consult the reported issue click [here](https://github.com/predictive-clinical-neuroscience/PCNtoolkit-demo/issues/6)
 
-*Accessed the neurodesktop via the BrainHack Cloud was successful*
+*Accessed the neurodesktop via the BrainHack Cloud successfully*
 
-The neurodesktop test server is great and easily accessible through the browser with various neuroimaging tools. Their test server is available via this [link](https://www.neurodesk.org/docs/neurodesktop/getting-started/play/) without any installation required. Also, the access to this neurodesktop container through the BrainHack cloud was succesful. However, running the NeuroDesk container via Docker should first be done on a virtual machine and NOT directly on the cloud.
+The neurodesktop test server is great and easily accessible through the browser with various neuroimaging tools. Their test server is available via this [link](https://www.neurodesk.org/docs/neurodesktop/getting-started/play/) without any installation required. Also, installing and accessing this neurodesktop container through the BrainHack cloud was succesful. However, an important note is that running the NeuroDesk container via Docker should first be done on a virtual machine and NOT directly on the cloud.
  
 
-*Obtained recon-all results for one subject*
+*Obtained recon-all FreeSurfer results for one subject*
 
 This was ran directly on the test server which is an interesting tool easily usable by everyone. The results are available as a zip file under the results directory of the main GitHub repository for this project. However, this took approximately 7 hours to run because it was done on the available resources on the test server. Hence, using BrainHack cloud resources to parallelize everything is suggested.
 
