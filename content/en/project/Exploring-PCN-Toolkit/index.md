@@ -76,12 +76,26 @@ At the end of this BrainHack school, these files will be made available:
 - A [GitHub page](https://github.com/brainhack-school2022/dimitrijevic_project) containing all the modifications that were made to the PCN-toolkit tutorials
  - A [markdown file](https://github.com/brainhack-school2022/dimitrijevic_project/blob/main/PCNTutorial_steps/where_to_start.md) on where to start with the PCN-toolkit tutorials and [another](https://github.com/brainhack-school2022/dimitrijevic_project/blob/main/PCNTutorial_steps/data_formatting.md) on how to format the data adequately all in the PCNTutorial_steps directory on GitHub
  - A [markdown file](https://github.com/brainhack-school2022/dimitrijevic_project/blob/main/BrainHackCloud_steps/get_connected.md) on getting connected to the BrainHack Cloud to access HPC clusters as well as [one](https://github.com/brainhack-school2022/dimitrijevic_project/blob/main/BrainHackCloud_steps/neurodesk_access.md) on testing out the Neurodesktop container all in the BrainHackCloud_steps directory on GitHub
+ - A recon-all analysis done on one subject of the Calgary Preschool dataset available under the results directory in the GitHub page.
  
 
 
 ## Progress overview
 
-At first, I thought using the Calgary Preschool Dataset would have been enough to do the analysis with the PCN-toolkit. However, this dataset seems too small (only 64 subjects) for that type of analysis. Furthermore, it was lacking cortical thickness maps which is an essential feature to be analyzed. Hence, that's why I started connecting to the HPC during the last week of the BrainHack school to be able to run FreeSurfer recon-all function on all subjects. This too came with its specific challenges. First, getting connecting to the BrainHack cloud from my own computer did not work directly. Second, it took quite long to run the wanted FreeSurfer command on the NeuroDesk test server on one subject. Also, FreeSurfer bases its cortical thickness maps on previous registration tasks using adult templates (by default the Talairach atlas). This can incorporate biases and render the results to be faulty. The final presentation on this project is avaible via [this link](https://docs.google.com/presentation/d/1BBGOiibHYFYnNmN_DVhKsS1oMsixU5fQ7aqgNR5F5jc/edit?usp=sharing).
+At first, I thought using the Calgary Preschool Dataset would have been enough to do the analysis with the PCN-toolkit. However, this dataset seems too small (only 64 subjects) for that type of analysis. Furthermore, it was lacking cortical thickness maps which is an essential feature to be analyzed. Hence, that's why I started connecting to the HPC during the last week of the BrainHack school to be able to run FreeSurfer recon-all function on all subjects. This too came with its specific challenges. First, getting connecting to the BrainHack cloud from my own computer did not work directly. Second, it took quite long to run the wanted FreeSurfer command on the NeuroDesk test server on one subject. Also, FreeSurfer bases its cortical thickness maps on previous registration tasks using adult templates (by default the Talairach atlas). This can incorporate biases and render the results to be faulty as shown on the two figures below. Indeed, some regions are not well delineated whether it be for the white matter and gray matter segmentation on Fig. 1 or the wrong specific parcellations shown by the green rectangle on the second figure.
+
+<div>
+    <p style="text-align:center;"><img src="https://github.com/Andjelaaaa/school/blob/master/content/en/project/Exploring-PCN-Toolkit/SegExample.png?raw=1"  width="1000"  ></p>
+    </div> 
+Fig. 1 
+
+<div>
+    <p style="text-align:center;"><img src="https://github.com/Andjelaaaa/school/blob/master/content/en/project/Exploring-PCN-Toolkit/CorticalParcellationExample.png?raw=1"  width="1000"  ></p>
+    </div> 
+Fig. 2 
+
+
+The final presentation on this project is avaible via [this link](https://docs.google.com/presentation/d/1BBGOiibHYFYnNmN_DVhKsS1oMsixU5fQ7aqgNR5F5jc/edit?usp=sharing) for further details.
 
 
 ## Detailed actions
