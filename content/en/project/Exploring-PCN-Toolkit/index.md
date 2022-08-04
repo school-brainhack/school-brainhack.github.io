@@ -85,14 +85,13 @@ At the end of this BrainHack school, these files will be made available:
 At first, I thought using the Calgary Preschool Dataset would have been enough to do the analysis with the PCN-toolkit. However, this dataset seems too small (only 64 subjects) for that type of analysis. Furthermore, it was lacking cortical thickness maps which is an essential feature to be analyzed. Hence, that's why I started connecting to the HPC during the last week of the BrainHack school to be able to run FreeSurfer recon-all function on all subjects. This too came with its specific challenges. First, getting connecting to the BrainHack cloud from my own computer did not work directly. Second, it took quite long to run the wanted FreeSurfer command on the NeuroDesk test server on one subject. Also, FreeSurfer bases its cortical thickness maps on previous registration tasks using adult templates (by default the Talairach atlas). This can incorporate biases and render the results to be faulty as shown on the two figures below. Indeed, some regions are not well delineated whether it be for the white matter and gray matter segmentation on Fig. 1 or the wrong specific parcellations shown by the green rectangle on the second figure.
 
 <div>
-    <p style="text-align:center;"><img src="https://github.com/Andjelaaaa/school/blob/master/content/en/project/Exploring-PCN-Toolkit/SegExample.png?raw=1"  width="1000"  ></p>
+    <p style="text-align:center;"><img src="https://github.com/Andjelaaaa/school/blob/master/content/en/project/Exploring-PCN-Toolkit/SegExample.png?raw=1"  width="1000" class="caption">Fig. 1 Example of white matter segmentation on a subject</p>
     </div> 
-Fig. 1 
+
 
 <div>
-    <p style="text-align:center;"><img src="https://github.com/Andjelaaaa/school/blob/master/content/en/project/Exploring-PCN-Toolkit/CorticalParcellationExample.png?raw=1"  width="1000"  ></p>
-    </div> 
-Fig. 2 
+    <p style="text-align:center;"><img src="https://github.com/Andjelaaaa/school/blob/master/content/en/project/Exploring-PCN-Toolkit/CorticalParcellationExample.png?raw=1"  width="1000"  class="caption">Fig. 2 Parcellations of the right and left hemisphere pial surface for cortical analyses </p>
+    </div>  
 
 
 The final presentation on this project is avaible via [this link](https://docs.google.com/presentation/d/1BBGOiibHYFYnNmN_DVhKsS1oMsixU5fQ7aqgNR5F5jc/edit?usp=sharing) for further details.
