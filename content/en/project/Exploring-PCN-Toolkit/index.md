@@ -76,7 +76,6 @@ At the end of this BrainHack school, these files will be made available:
 - A [GitHub page](https://github.com/brainhack-school2022/dimitrijevic_project) containing all the modifications that were made to the PCN-toolkit tutorials
  - A [markdown file](https://github.com/brainhack-school2022/dimitrijevic_project/blob/main/PCNTutorial_steps/where_to_start.md) on where to start with the PCN-toolkit tutorials and [another](https://github.com/brainhack-school2022/dimitrijevic_project/blob/main/PCNTutorial_steps/data_formatting.md) on how to format the data adequately all in the PCNTutorial_steps directory on GitHub
  - A [markdown file](https://github.com/brainhack-school2022/dimitrijevic_project/blob/main/BrainHackCloud_steps/get_connected.md) on getting connected to the BrainHack Cloud to access HPC clusters as well as [one](https://github.com/brainhack-school2022/dimitrijevic_project/blob/main/BrainHackCloud_steps/neurodesk_access.md) on testing out the Neurodesktop container all in the BrainHackCloud_steps directory on GitHub
- - A recon-all analysis done on one subject of the Calgary Preschool dataset available under the results directory in the GitHub page.
  
 
 
@@ -110,7 +109,7 @@ The neurodesktop test server is great and easily accessible through the browser 
 
 *Obtained recon-all FreeSurfer results for one subject*
 
-This was ran directly on the test server which is an interesting tool easily usable by everyone. The results are available as a zip file under the results directory of the main GitHub repository for this project. However, this took approximately 7 hours to run because it was done on the available resources on the test server. Hence, using BrainHack cloud resources to parallelize everything is suggested.
+This was ran directly on the test server which is an interesting tool easily usable by everyone. The results could not be loaded as a zip file in the main GitHub repository for this project because of their size. However, this took approximately 7 hours to run because it was done on the available resources on the test server. Hence, using BrainHack cloud resources to parallelize everything is suggested.
 
 ## Future Work
 Some future steps which will be done to follow through this project are presented below:
