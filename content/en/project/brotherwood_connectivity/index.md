@@ -73,7 +73,7 @@ A summary of the dataset is as follows:
 |Total         |261         |152 |109   |33.29      |9.29   |
 
 <p align="center">
-<img src="docs/population.png">
+<img src="population.png">
 </p>
 
 ### Project Deliverables
@@ -99,7 +99,7 @@ Brain masking and connectivity data retrieval was done using `nilearn` (Abraham 
 
 
 <p align="center">
-<img src="docs/atlas.png">
+<img src="atlas.png">
 </p>
 
 
@@ -107,7 +107,7 @@ Confounds detected by `fMRIprep` were loaded using `nilearn`'s `load_confounds_s
 
 
 <p align="center">
-<img src="docs/confounds.png">
+<img src="confounds.png">
 </p>
 
 
@@ -115,7 +115,7 @@ The upper triangular vector (UTV) of each subject's connectivity matrix forms a 
 
 
 <p align="center">
-<img src="docs/connectivity.png">
+<img src="connectivity.png">
 </p>
 
 
@@ -125,14 +125,14 @@ Phenotype was learned and predicted using a support vector classifier with a lin
 
 
 <p align="center">
-<img src="docs/stratification.png">
+<img src="stratification.png">
 </p>
 
 Using each model to predict the unseen test data, the folllowing multi-label confusion matrices were obtained:
 
 
 <p align="center">
-<img src="docs/conf_matrices.png">
+<img src="conf_matrices.png">
 </p>
 
 
@@ -169,7 +169,7 @@ Following this, SVC coefficients were extracted to identify those features which
 
 
 <p align="center">
-<img src="docs/cont_schz_coefs.png">
+<img src="cont_schz_coefs.png">
 </p>
 
 Click [here](https://brainhack-school2022.github.io/brotherwood_project/Control_vs_Schizophrenia_image_interactive.html) for an interactive map.
@@ -180,7 +180,7 @@ Click [here](https://brainhack-school2022.github.io/brotherwood_project/Control_
 
 
 <p align="center">
-<img src="docs/cont_adhd_coefs.png">
+<img src="cont_adhd_coefs.png">
 </p>
 
 Click [here](https://brainhack-school2022.github.io/brotherwood_project/ADHD_vs_Control_image_interactive.html) for an interactive map.
@@ -191,7 +191,7 @@ Click [here](https://brainhack-school2022.github.io/brotherwood_project/ADHD_vs_
 
 
 <p align="center">
-<img src="docs/cont_bipo_coefs.png">
+<img src="cont_bipo_coefs.png">
 </p>
 
 Click [here](https://brainhack-school2022.github.io/brotherwood_project/Bipolar_vs_Control_image_interactive.html) for an interactive map.
@@ -202,7 +202,7 @@ Click [here](https://brainhack-school2022.github.io/brotherwood_project/Bipolar_
 
 
 <p align="center">
-<img src="docs/schz_adhd_coefs.png">
+<img src="schz_adhd_coefs.png">
 </p>
 
 Click [here](https://brainhack-school2022.github.io/brotherwood_project/ADHD_vs_Schizophrenia_image_interactive.html) for an interactive map.
@@ -213,7 +213,7 @@ Click [here](https://brainhack-school2022.github.io/brotherwood_project/ADHD_vs_
 
 
 <p align="center">
-<img src="docs/schz_bipo_coefs.png">
+<img src="schz_bipo_coefs.png">
 </p>
 
 Click [here](https://brainhack-school2022.github.io/brotherwood_project/Bipolar_vs_Schizophrenia_image_interactive.html) for an interactive map.
@@ -224,7 +224,7 @@ Click [here](https://brainhack-school2022.github.io/brotherwood_project/Bipolar_
 
 
 <p align="center">
-<img src="docs/adhd_bipo_coefs.png">
+<img src="adhd_bipo_coefs.png">
 </p>
 
 Click [here](https://brainhack-school2022.github.io/brotherwood_project/ADHD_vs_Bipolar_image_interactive.html) for an interactive map.
