@@ -19,7 +19,7 @@ tags: [Neural network, visualization, features, module]
 
 # Summarize your project in < ~75 words. This description will appear at the top of your page and on the list page with other projects..
 
-summary: "This project has for goal to explore, understand and learn how to create comprehensive visualizations of the features learned by a convolution neural network, whether the model is specialized in auditory or visual input. [website](https://github.com/brainhack-school2022/freteault_project)."
+summary: "This project has for goal to explore, understand and learn how to create comprehensive visualizations of the features learned by a convolution neural network, whether the model is specialized in auditory or visual input."
 
 # If you want to add a cover image (listpage and image in the right), add it to your directory and indicate the name
 # below with the extension.
