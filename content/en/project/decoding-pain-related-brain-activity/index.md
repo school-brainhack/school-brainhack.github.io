@@ -25,31 +25,6 @@ summary: "Painful experience involves a distributed pattern of brain activity. W
 # below with the extension.
 image: "brain-activity.webp"
 ---
-<!-- This is an html comment and this won't appear in the rendered page. You are now editing the "content" area, the core of your description. Everything that you can do in markdown is allowed below. We added a couple of comments to guide your through documenting your progress. -->
-
-
-### Background
-### Tools
-### Data
-### Deliverables
-## Results
-### Progress overview
-### Tools I learned during this project
-### Results
-#### Deliverable 1: report template
-#### Deliverable 2: project gallery
-##### ECG pupilometry pipeline by Marce Kauffmann
-
-##### Other projects
-
-#### Deliverable 3: Instructions
-
- To be made available soon.
-
-## Conclusion and acknowledgement
-
-The BHS team hope you will find this template helpful in documenting your project. Developping this template was a group effort, and benefitted from the feedback and ideas of all BHS students over the years.
-
 ### Background
 #### personal background
 
@@ -82,17 +57,14 @@ The tools used to accomplish this task are:
 
 ### Data
 
-The dataset that will be used comes from Desmartaux et al., 2021 and is access restricted. It includes 24 participants (13 women and 11 males) and mean age is 26.9. Subjects participated to a fMRI scanning session where they received hypnosis to either increase or decrease pain. After hypnotic suggestions to modulate pain,a serie of either 6 or 9 painful stimuli were administered. In total, each participant received 72 electrical shocks. Across all participants, a total of 1728 trials/shocks were done.
-
+The dataset that will be used comes from Desmartaux et al., 2021 and has restricted access. It includes 24 participants (13 women and 11 males) and mean age is 26.9. Subjects participated to a fMRI scanning session where they received hypnosis to either increase or decrease pain. After hypnotic suggestions to modulate pain,a serie of either 6 or 9 painful stimuli were administered. In total, each participant received 72 electrical shocks. Across all participants, a total of 1728 trials/shocks were done.
 ![](protocole_desmartaux2021.png)
-
 
 ### Method
 
 A Support vector classifier from [sklearn documentation](https://scikit-learn.org/stable/modules/generated/sklearn.svm.SVC.html) was applied to 1726 statistical brain maps, each modeling the brain activation during a single painful shock. Those contrast maps were generated using a General Linear Model for which the code can be found [here](https://github.com/dylansutterlin/decoding_pain_experience). Those 1726 trials were used to predict the pain modulating condition administered prior to each shock.
 
 * Example of a statistical map :
-
 ![](betamaps_07.png)
 
 There were four different type of verbal suggestion to modulate (or not for the control sugestions) the pain experience. Hence, there were four classes to predict with the model. Those four classes are listed a the following :
@@ -126,17 +98,17 @@ There were four different type of verbal suggestion to modulate (or not for the 
 * - [x] Github repository provinding a fairly open science/reproductible aspect to the project
 
 #### Final script's structure
-* data :vPermission pending to give access to date (...)
+* data : Permission pending to give access to date (...)
 * docs : A readme file descripbing the pipeline
 * images : The images used in this README.me
 * results : Saved metrics' dataframe, brain maps (.nii files) showing the voxels that were the most predictive of the target
 * scripts : The main scripts with a function file that are called in main.py
-* src : All the general function that can we reused wihout context
+* src : All the general function that can be reused wihout context
 
 ### Statistical model
 
 * The SVC model was performed with a linear kernel
-* A nifti masker was used to project the 3 dimmensional contrast maps to 1 dimension with the argument `(mask_strategy = 'whole-brain-template', standardize = True)`
+* A nifti masker was used to project the 3 dimmensional contrast maps to 1 dimensional with the argument `(mask_strategy = 'whole-brain-template', standardize = True)`
 * Then a SVC was applied using on a K-fold cross-validation with the following parameters : `GroupShuffleSplit(n_splits = 5, test_size = 0.3, random_state = 33)`
 
 * The final model was fitted all the training set and was then tested on a subset of data for that the model had never 'seen'. The final model accuracy = **0.60970874**
@@ -146,11 +118,9 @@ There were four different type of verbal suggestion to modulate (or not for the 
    * Class 2 = Neutral suggestion in Hyperalgesia run
    * Class 3 = Hypoalgesia
    * Class 4 = Neutral suggestion in hypoalgeisa run
-
 ![](images/confusion_matrix_finalSVC.png)
 
-* With the final model, all the coefficients were reprojected to the MNI space using `masker.inverse_transform()`. Since there were four classes, six different class comparisons can be made and the highest coefficient for each comparison are presented in the plots below. The highest peaks represents the brain regions that either when activated or deactivated (red or blue) had the highest preictive value of the class(type of suggestion). For example, when looking at the first plot, the activation of the dlPFC apears to be the most predictive to predict the Neut_HYPO vs HYPO class.
-
+* With the final model, all the coefficients were reprojected to the MNI space using `masker.inverse_transform()`. Since there were four classes, six different class comparisons can be made and the highest coefficient for each comparison are presented in the plots below. The highest peaks represents the brain regions that either when activated or deactivated (red or blue) had the highest preictive value of the class(type of suggestion). For example, when looking at the first plot, the activation of the dlPFC appears to be the most predictive to predict the Neut_HYPO vs HYPO class.
 ![](coeff1png.png)
 ![](coeff2.png)
 ![](coeff3.png)
@@ -164,7 +134,7 @@ The main objective of this project was to complete a decoding model having the v
 
 ## Acknowledgement
 
-Thanks to all the instructors, espicially Marie-Eve and Francois who took the time to sit down with me and precise some concepts and shed some light on many topics such as the proper workflow, bebugging techniques. proper use of sklearn, nilearn modules and so on!
+Thanks to all the instructors, espicially Marie-Eve and Francois who took the time to sit down with me and precise some concepts and shed some light on many topics such as the proper workflow, debugging techniques, proper use of sklearn, nilearn modules and so on!
 
 ## References
 
