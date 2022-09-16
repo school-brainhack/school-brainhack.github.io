@@ -1,0 +1,98 @@
+Brain hack school 2022
+Stroke Prediction
+ML TO PREDICT HEART STROKE
+Hinane Boumghar
+
+Problem Definition:
+Heart attacks and strokes are life-threatening medical emergencies.
+A little delay in first aid can lead the threat to the end of life.
+According to the World Health Organization (WHO) stroke is the 2nd leading cause of death globally, responsible for approximately 11% of total deaths.
+So, heart stroke is one the serious medical issue we are facing right now and need a solution or precaution.
+
+Introduction:
+Precautions before stroke can save one from such medical emergency and can save from having stroke.
+One can take precautions only if he/she know that in near future stroke is coming.
+An automated system that can predict if the person will get stroke in near future or not can save a lot of lives.
+So, in this project I’m going to build such a system that will predict if someone will get stroke depending upon their medical and demographic data.
+
+Objectives:
+
+Objective 1
+Main objective is to build a predictive system that can predict system that can predict the future stroke.
+
+Objective 2
+Accuracy of system should be more than 95% because wrong prediction can cause of loss of life.
+
+Objective 3
+Analyzing what are the factors that can cause of heart stroke.
+
+System Building Process:
+Data Gathering
+Data Exploration
+Data Preprocessing
+Building Predictive System
+
+Dataset:
+While working with machine learning project data is one of the important part to train the algorithm.
+I used an open-source dataset from Kaggle that has high popularity.
+Click here to get the data.
+This dataset was having demographic and medical details of patient.
+It was having more than 5 thousands records. Each record was having 11 columns.
+
+Data Exploration:
+Data exploration is the first step in data analysis involving the use of data visualization tools and statistical techniques to uncover data set characteristics and initial patterns.
+I performed exploration to see what are the factors that causing heart stroke. 
+For that I checked the relationship of each variable with target feature (stroke) to get hidden insights.
+I made interesting plots that can be seen in the coding part.
+
+Data Exploration Cont…
+I got following interesting insights from the data after exploration that these are the reasons of heart stroke.
+If the patient is having HYPERTENSION then chances of having stroke are high.
+Married people has higher chances of stroke.
+People with any heart disease has high stroke rate.
+Formerly Smoked people has higher chances of stroke.
+Self-Employed people were having high stroke rate.
+
+Data Preprocessing:
+Data preprocessing can refer to manipulation or dropping of data before it is used in order to ensure or enhance performance, and is an important step in the data mining process.
+First of all I checked null values and BMI was having 201 null values that were filled with the mean of that feature.
+After that I encoded categorical feature to numeric.
+And then I separate my data into input and output features and checked the distribution of target feature and came to know that data is imbalance.
+
+Data Imbalance ness:
+Imbalance occurs when one class has more number of records.
+In our data class 0 was having 95% data and other class was having only 5% records.
+So, my data was also imbalanced.
+I used oversampling technique to generate synthetic data for minority class and balanced it as you can see in second image.
+
+Predictive Modeling:
+After doing all of this I built supervised machine learning classification model. 
+The model that I used was Random Forest from ensemble family.
+I selected this model because it performs all time well due to its ensemble structure.
+I trained this model on on training data and evaluated it using different evaluation metrices. 
+Results of this model are on the next slide.
+
+Results:
+I evaluated model using testing data.
+Accuracy of model was 94 percent.
+Its precision and recall was also very good for both classes. That’s mean our model is fair between classes.
+AUC score of model was also around 99 percent.
+
+Conclusion:
+Heart Stroke is one of the serious and dangerous medical emergency.
+To overcome the seriousness of this problem I decided to build a predictive system and for that I used an open source dataset from Kaggle and explored that data.
+Exploration gave interesting insights and then I cleaned the data and build classification model and evaluated to see how much accurate it is. It was performing 95% accurately that is a very good accuracy.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
