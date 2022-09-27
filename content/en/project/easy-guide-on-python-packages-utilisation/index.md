@@ -27,7 +27,7 @@ image: "python_code.jpg"
 ---
 <!-- This is an html comment and this won't appear in the rendered page. You are now editing the "content" area, the core of your description. Everything that you can do in markdown is allowed below. We added a couple of comments to guide your through documenting your progress. -->
 
-
+# An easy guide to "not throwing your expensive computer out the window because you can't run a Python neuroimaging tool
 ## Personnal Background
 Hello there! My name is Claudéric DeRoy. I have completed a Bachelor in Cognitive Neuroscience at Université de Montréal and also a part of a Bachelor degree in Computer Science, also at Université de Montréal. I am actually a master student in psychology in the NeCS lab under the supervision of Professor Sébastien Hétu. I essential study some computer programmes and pipelines for preprocessing electrodermal activity (EDA) to propose guidelines on how to signal process EDA to the scientific community.
 
