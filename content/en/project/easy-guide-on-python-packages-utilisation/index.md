@@ -1,6 +1,6 @@
 ---
 type: "project" # DON'T TOUCH THIS ! :)
-date: "2022-09-27" # Date you first upload your project.
+date: "2022-07-05" # Date you first upload your project.
 # Title of your project (we like creative title)
 title: "An easy guide to "not throwing your expensive computer out the window because you can't run a Python neuroimaging tool"
 
@@ -27,11 +27,12 @@ image: "python_code.jpg"
 ---
 <!-- This is an html comment and this won't appear in the rendered page. You are now editing the "content" area, the core of your description. Everything that you can do in markdown is allowed below. We added a couple of comments to guide your through documenting your progress. -->
 
-# An easy guide to "not throwing your expensive computer out the window because you can't run a Python neuroimaging tool
+# Project definition
+
 ## Personnal Background
 Hello there! My name is Claudéric DeRoy. I have completed a Bachelor in Cognitive Neuroscience at Université de Montréal and also a part of a Bachelor degree in Computer Science, also at Université de Montréal. I am actually a master student in psychology in the NeCS lab under the supervision of Professor Sébastien Hétu. I essential study some computer programmes and pipelines for preprocessing electrodermal activity (EDA) to propose guidelines on how to signal process EDA to the scientific community.
 
-# Project Definition
+
 ## Project Background
 The more theoretical background is from another [project](https://github.com/brainhack-school2022/Lajoie_project/blob/main/project_description.md) of the Brainhack School 2022. The background for this project is more of a practical one. Essentially, computer programmes or computer analysis pipelines for neuroimaging are quite common and can be pretty intimidating for people who are not used to programming in general, which corresponds to a lot of undergrad and graduate students in psychology. Fortunately, there are many tools that can make the installation of libraries, modules, virtual environments and the rest easier or at least less painful. This also helps on another level of research. In 2012, Gronenschild et al. obtained a difference in percentage of volume and cortical thickness using FreeSurfer on both a Macintosh and a Hewlett-Packard machine but also between two different versions of Mac OSX (OSX 10.5 and OSX 10.6). This demonstrates the importance of packaging and containerized programmes so that scripts  are always run in the same environment, but also making those containers available so that the scientific community can use the same tools in the same environment, helping rule out the difference between software as a cause for reproducible failure.
 
@@ -80,7 +81,6 @@ This is fairly simple, everything is accessible on my GitHub repository. So feel
 ## Replicability
 Creating a Docker container (actually writing a Dockerfile) will help (in my humble opinion) to run the code more replicable. Like I said above, Gronenschild et al. (2012) have shown a certain degree of variability between different versions of the same OS and also between different versions of the same software. Using a Docker container constrains the version of software used during the execution of the code. This version constraint will be the same for every user that runs the code inside the Docker container. But also, in each run, the same user will technically have the same software version each time, thus ruling out the software as a potential point of source failure for replicated study.
 Also, the `.json` also helps for replicability. For example, if I run the code with an edited version of the `batch.json` by me, I can publish the article with my edited `batch.json` so that any researcher who is trying to replicate my finding will only have to run the code with the `batch.json` I provided in my article.
-
 
 
 ## The tools I learned and used for this project
