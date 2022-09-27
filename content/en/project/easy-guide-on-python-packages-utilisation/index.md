@@ -1,33 +1,32 @@
 ---
 type: "project" # DON'T TOUCH THIS ! :)
-date: "2020-05-16" # Date you first upload your project.
+date: "2022-" # Date you first upload your project.
 # Title of your project (we like creative title)
-title: "This is an example project page which serves as a template"
+title: "An easy guide to "not throwing your expensive computer out the window because you can't run a Python neuroimaging tool"
 
 # List the names of the collaborators within the [ ]. If alone, simple put your name within []
-names: [Samuel Guay, Pierre Bellec]
+names: [Claudéric DeRoy]
 
 # Your project GitHub repository URL
-github_repo: https://github.com/brainhack-school2020/project_template
+github_repo: https://github.com/brainhack-school2022/deroy_project
 
 # If you are working on a project that has website, indicate the full url including "https://" below or leave it empty.
 website:
 
 # List +- 4 keywords that best describe your project within []. Note that the project summary also involves a number of key words. Those are listed on top of the [github repository](https://github.com/brainhack-school2020/project_template), click `manage topics`.
 # Please only lowercase letters
-tags: [project, github, markdown, brainhack]
+tags: [pyhton, scripting, packaging, replicability]
 
 # Summarize your project in < ~75 words. This description will appear at the top of your page and on the list page with other projects..
 
-summary: "Each project repository should have a markdown file explaining the background and objectives of the project, as well as a summary of the results, and links to the different deliverables of the project. Project reports are incorporated in the BHS [website](https://school.brainhackmtl.org/project)."
+summary: "The goal of this project was to learn how to create code that would be easy to use for unexperienced users but also to be as more open as possible while also being replicable. So I took a code already written and scripted it, packaged it, made a Docker container for it, and finally created a guide on how to use it."
 
 # If you want to add a cover image (listpage and image in the right), add it to your directory and indicate the name
 # below with the extension.
-image: "bhs2020.png"
+image: "python_code.jpg"
 ---
 <!-- This is an html comment and this won't appear in the rendered page. You are now editing the "content" area, the core of your description. Everything that you can do in markdown is allowed below. We added a couple of comments to guide your through documenting your progress. -->
 
-# An easy guide to "not throwing your expensive computer out the window because you can't run a Python neuroimaging tool"
 
 ## Personnal Background
 Hello there! My name is Claudéric DeRoy. I have completed a Bachelor in Cognitive Neuroscience at Université de Montréal and also a part of a Bachelor degree in Computer Science, also at Université de Montréal. I am actually a master student in psychology in the NeCS lab under the supervision of Professor Sébastien Hétu. I essential study some computer programmes and pipelines for preprocessing electrodermal activity (EDA) to propose guidelines on how to signal process EDA to the scientific community.
