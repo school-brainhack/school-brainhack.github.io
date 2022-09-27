@@ -1,6 +1,6 @@
 ---
 type: "project" # DON'T TOUCH THIS ! :)
-date: "2022-" # Date you first upload your project.
+date: "2022-07-05" # Date you first upload your project.
 # Title of your project (we like creative title)
 title: "An easy guide to "not throwing your expensive computer out the window because you can't run a Python neuroimaging tool"
 
