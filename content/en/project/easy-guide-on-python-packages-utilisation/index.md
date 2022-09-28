@@ -2,7 +2,7 @@
 type: "project" # DON'T TOUCH THIS ! :)
 date: "2022-07-05" # Date you first upload your project.
 # Title of your project (we like creative title)
-title: "An easy guide to "not throwing your expensive computer out the window because you can't run a Python neuroimaging tool"
+title: "An easy guide to "\not throwing your expensive computer out the window because you can't run a Python neuroimaging tool\""
 
 # List the names of the collaborators within the [ ]. If alone, simple put your name within []
 names: [Claudéric DeRoy]
