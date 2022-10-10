@@ -1,0 +1,23 @@
+[build-system]
+requires = ["hatchling", "pandas"]
+build-backend = "hatchling.build"
+
+[project]
+name = "test_input_johanna"
+version = "0.0.1"
+authors = [
+  { name="likeajumprope", email="bayerj@student.unimelb.edu.au" },
+]
+description = "A package to format the input for normative modelling"
+readme = "README.md"
+license = { file="LICENSE" }
+requires-python = ">=3.10"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/likeajumprope/normative_twins_project"
+"Bug Tracker" = "https://github.com/likeajumprope/normative_twins_project/issues"
