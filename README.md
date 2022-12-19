@@ -1,5 +1,5 @@
 # Brainhack School
-This is the website of the brainhack school, built with [hugo](https://gohugo.io/), and deployed with [netlify](https://www.netlify.com/). 
+This is the website of the brainhack school, built with [hugo](https://gohugo.io/). 
 
 ## Deploying site
 The deployment of the website is automated using github actions. 
