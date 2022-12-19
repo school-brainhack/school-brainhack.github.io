@@ -1,4 +1,4 @@
-baseurl: 'https://school.brainhackmtl.org'
+baseurl: 'https://school-brainhack.github.io'
 title: 'BrainHack School'
 theme: hugo-universal-theme
 defaultContentLanguage: en
