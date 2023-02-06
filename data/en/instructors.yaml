@@ -32,31 +32,6 @@ instructors:
     urlaff: https://criugm.qc.ca/
     twitter: psychinthecity_
 
-  - name: Désirée Lussier
-    gh: dllussier
-    email: desiree.lussier.levesque@criugm.qc.ca
-    website:
-    affiliation: University of Montreal
-    urlaff: https://www.umontreal.ca/en/
-    twitter: desiree_lussier
-
-  - name: Francois Paugam
-    gh: FrancoisPgm
-    email: francois.paugam@umontreal.ca
-    website:
-    affiliation: University of Montreal
-    urlaff: https://www.umontreal.ca/en/
-    twitter:
-
-  - name: Marie-Ève Picard
-    gh: me-pic
-    email: marie-eve.picard.2@umontreal.ca
-    website: https://github.com/me-pic
-    affiliation: University of Montreal
-    urlaff: https://www.umontreal.ca/en/
-    twitter: MarieEvePicard2
-
-
   - name: Hao-Ting Wang
     gh: htwangtw
     email: htwangtw@gmail.com
