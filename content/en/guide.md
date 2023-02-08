@@ -320,14 +320,14 @@ __Double underscore is also for bold writing.__
 
 ``` 
 Link
-[Brainhack School Website](https://school.brainhackmtl.org/guide/)
+[Brainhack School Website](https://school-brainhack.github.io/)
 
 Image
 ![Brainhack Logo](https://avatars.githubusercontent.com/u/62623251?s=200&v=4)
 ```
 
 Link
-[Brainhack School Website](https://school.brainhackmtl.org/guide/)
+[Brainhack School Website](https://school-brainhack.github.io)
 
 Image
 ![Brainhack Logo](https://avatars.githubusercontent.com/u/62623251?s=200&v=4)

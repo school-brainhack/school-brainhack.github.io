@@ -61,15 +61,15 @@ languages:
       topbar:
         - weight: 1
           name: GitHub
-          url: 'https://github.com/brainhackMTL/school/'
+          url: 'https://github.com/school-brainhack'
           pre: <i class='fab fa-2x fa-github'></i>
         - weight: 3
-          name: Twitter
-          url: 'http://twitter.com/brainhackMTL'
+          name: Mastodon
+          url: 'https://neuromatch.social/@brainhack_school'
           pre: <i class='fab fa-2x fa-twitter'></i>
         - weight: 4
           name: Email
-          url: 'mailto:emilie.dessureault@criugm.qc.ca'
+          url: 'mailto:school.brainhack@gmail.com'
           pre: <i class='fas fa-2x fa-envelope'></i>
 
     params:
@@ -131,7 +131,7 @@ languages:
         icon: far fa-file-alt
         title: 'Project-based, transdisciplinary training'
         subtitle: 'Neuroscience, Statistical Modelling and Computer Science'
-        link_url: https://school2020.brainhackmtl.org
+        link_url: https://https://school-brainhack.github.io/
         link_text: "Check out the 2020 lectures and projects"
       clients:
         enable: true
@@ -187,15 +187,15 @@ languages:
       topbar:
         - weight: 1
           name: GitHub
-          url: 'https://github.com/brainhackMTL/school/'
+          url: 'https://github.com/school-brainhack'
           pre: <i class='fab fa-2x fa-github'></i>
         - weight: 3
-          name: Twitter
-          url: 'http://twitter.com/brainhackMTL'
+          name: Mastodon
+          url: 'https://neuromatch.social/@brainhack_school'
           pre: <i class='fab fa-2x fa-twitter'></i>
         - weight: 4
           name: Email
-          url: 'mailto:info@bhs.com'
+          url: 'mailto:school.brainhack@gmail.com'
           pre: <i class='fas fa-2x fa-envelope'></i>
 
     params:
@@ -212,7 +212,7 @@ languages:
       default_sharing_image: img/sharing-default.png
       googleMapsApiKey:
       style: green
-      email: pierre.bellec@gmail.com
+      email: school.brainhack@gmail.com
       contact_form_ajax: false
       about_us: >-
         <p>Apprentissage basé projet en sciences des données neuronales.</p>
@@ -252,7 +252,7 @@ languages:
         icon: far fa-file-alt
         title: 'Formation transdisciplinaire axée sur les projets'
         subtitle: 'Neurosciences, Modélisation statistique et Sciences informatiques'
-        link_url: https://school2020.brainhackmtl.org/fr/
+        link_url: https://school-brainhack.github.io/fr/
         link_text: Consultez les projets et vidéos de 2020
       clients:
         enable: true
