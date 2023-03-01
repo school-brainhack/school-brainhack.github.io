@@ -10,7 +10,7 @@ assignees: ''
 <!--Provide a title and a brief description of the suggested content.-->
 
 ## Key tools / technology included in this module 
-<!--The material should adhert to the following standards:-->
+<!--The material should adhere to the following standards:-->
 <!--Use free, open source tools -->
 <!--Python based tool -->
 <!--Be of high quality -->
@@ -19,7 +19,7 @@ assignees: ''
 
 ## Prerequisites
 
-<!-- Have a look at the exising modules, pick prerequisites from there. If not, please write N/A-->
+<!-- Have a look at the existing modules, pick prerequisites from there. If not, please write N/A-->
 
 ## Study outcomes
 
@@ -27,11 +27,11 @@ assignees: ''
 
 ## Estimated study time
 
-<!-- we recommand to compartmentalise the time to 3 hours -->
+<!-- We recommend to limit the time to 3 hours. -->
 
 ## Exercise examples
 
-<!-- The module must include excercises. Please give us at least one example.-->
+<!-- The module must include exercises. Please give us at least one example.-->
 <!-- In the final module we will need around 5 to 10 exercises. -->
 
 ## Evaluation guideline
