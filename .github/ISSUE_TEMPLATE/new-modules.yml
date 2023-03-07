@@ -86,7 +86,7 @@ body:
       label: References you would like to include
       description: Link to the source material you base the new module on.
     validations:
-      required: flase
+      required: false
 
   - type: markdown
     attributes:
