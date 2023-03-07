@@ -16,12 +16,14 @@ body:
 
         Once we evaluate the content, we will ask you to submit a pull request to add the new content.
 
-        We would like to ensure the new module adhert to the following standards:
+        We would like to ensure the new module adhere to the following standards:
 
         - Use free, open source tools: to ensure all students can access the tool.
         - Python-based tool: the school focuses on Python based content.
         - Be of high quality: the material or tool should be from a quality source.
         - Have a broad appeal: a general neuroscience / data science topic suitable for entry level student.
+
+        Please see the existing modules as examples!
 
   - type: markdown
     attributes:
@@ -57,7 +59,7 @@ body:
   - type: textarea
     attributes:
       label: Prerequisites
-      description: Have a look at the exising modules, pick prerequisites from there. If not, please write N/A.
+      description: Have a look at the existing modules, pick prerequisites from there. If not, please write N/A.
     validations:
       required: true
 
@@ -74,6 +76,13 @@ body:
       description: We recommend to limit the time to 3 hours. Leave blank if unsure.
     validations:
       required: false
+
+  - type: textarea
+    attributes:
+      label: Exercise examples
+      description: The module must include exercises. Please give us at least one example. In the final module we will need around 5 to 10 exercises.
+    validations:
+      required: true
 
   - type: textarea
     attributes:
