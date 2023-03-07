@@ -6,7 +6,7 @@ labels: Enhance
 assignees: ''
 ---
 
-## Which module you would like to maintain / imporve?
+## Which module you would like to maintain / improve?
 <!--have a look at the listed modules https://school-brainhack.github.io/modules/ -->
 <!--Tell us which module you want to maintain-->
 
