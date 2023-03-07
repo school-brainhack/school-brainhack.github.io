@@ -37,14 +37,8 @@ body:
 
   - type: textarea
     attributes:
-      label: Project Description
-      description: "Add a brief description of the Module.\nTry to include all the\
-        \ relevant information to answer the following questions."
-      value: |
-        - What are you doing, for whom, and why?
-        - What makes your project special and exciting?
-        - How to get started?
-        - Where to find key resources?
+      label: Module Description
+      description: "Add a brief description of the Module."
     validations:
       required: true
 
