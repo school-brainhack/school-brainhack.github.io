@@ -2,7 +2,7 @@ name: Propose a new module
 
 description: Ideas for new content for brainhack school? Submit an issue to discuss with us!
 
-labels: 
+# labels: 
 
 body:
   - type: markdown
