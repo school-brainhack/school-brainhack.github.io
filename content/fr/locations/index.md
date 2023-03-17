@@ -34,7 +34,7 @@ type = "locations"
   img = "locations/uruguay.png"
   imgalttext = "Universidad de la Republica"
   name = "Universidad de la Republica, Montevideo, Uruguay"                                                  
-  description = """Le cours est organisé par une équipre du Center for Basic Research in Psychology (CIBPsi) de l'École de Psychologie, et CICADA, un centre interdisciplinaire pour les sciences des données et de l'apprentissage manchine, Tristán Narvaja 1674, Montevideo 11200, Uruguay.
+  description = """Le cours est organisé par une équipe du Center for Basic Research in Psychology (CIBPsi) de l'École de Psychologie, et CICADA, un centre interdisciplinaire pour les sciences des données et de l'apprentissage manchine, Tristán Narvaja 1674, Montevideo 11200, Uruguay.
 """
 
 [[locations]]
@@ -64,4 +64,5 @@ type = "locations"
   name = "Open Science Initiative Marburg (OSIUM), Marburg, Allemagne"                                              
   description = """Le cours est organisé par l'Open Science Initiative Marburg (OSIUM). Seuls les modules en ligne seront proposés, et répartis sur 4 semaines, car nous ne pouvons pas offrir de crédits et en raison de l'horaire de cours des étudiant.e.s. Les auxiliaires d'enseignement suivront les modules de formation avec les étudiant.e.s en ligne, puisque les étudiant.e.s sont réparti.e.s dans différentes villes.
 """
+
 +++
