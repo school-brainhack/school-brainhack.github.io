@@ -1,4 +1,4 @@
-name: Propose a new module
+name: Propose a new module / revise content for the existing module
 
 description: Ideas for new content for brainhack school? Submit an issue to discuss with us!
 
@@ -39,8 +39,15 @@ body:
 
   - type: textarea
     attributes:
+      label: Topic keywords
+      description: "Please enter up to five keywords for the proposed topic."
+    validations:
+      required: true
+
+  - type: textarea
+    attributes:
       label: Module Description
-      description: "Add a brief description of the Module."
+      description: "Add a brief description of the module including the following information: a brief description of the content and module outline."
     validations:
       required: true
 
