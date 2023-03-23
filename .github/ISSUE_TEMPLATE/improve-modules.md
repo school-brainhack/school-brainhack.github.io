@@ -1,17 +1,18 @@
 ---
-name: Maintainnce of module
+name: Maintenance of module
 about: Maintain the content of existing module.
 title: ''
 labels: Enhance
 assignees: ''
 ---
 
-## Which module you would like to maintain?
-<!--have a look at the listed modules https://school-brainhack.github.io/modules/ -->
-<!--Tell us which module you want to maintain-->
+<!--Title = "Maintentance of ****" e.g. Maintenance of DL_for_neuroimaging -->
 
-## What work would need to be done?
+## Module to maintain
+Website: <!--e.g. https://school-brainhack.github.io/modules/dl_for_neuroimaging/ -->
+Code: <!--e.g. https://github.com/school-brainhack/school-brainhack.github.io/tree/main/content/en/modules/DL_for_neuroimaging-->
 
-<!--for example: ensuring links, resources and exercises reflect the state-of-the-art; videos are of good quality and reflect the materials-->
-<!-- If any update / re write of the module is needed, feel free to suggest alternative material here. -->
-<!-- If major changes are needed, we suggest you to open an issue for new modules. -->
+## Work to be done
+Please ensure links, resources and exercises reflect the state-of-the-art; videos are of good quality and reflect the materials.
+If any update / re-write of the module is needed, feel free to suggest alternative material in a comment!
+If you think major changes are needed, we suggest you open an issue for new modules.
