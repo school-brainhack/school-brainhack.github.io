@@ -65,7 +65,7 @@ type = "locations"
   img = "locations/marburg.png"
   imgalttext = "Marburg"
   name = "Open Science Initiative Marburg (OSIUM), Marburg, Germany"                                              
-  description = """The course is organized by the Open Science Initiative Marburg (OSIUM). Only the training modules will be offered, spread over 4 weeks as we can not offer any credits and students are not available full day besides their normal studies. TAs will go through the training modules together with the students in a virtual space, as students are spread over different cities.  
+  description = """The course is organized by the Open Science Initiative Marburg (OSIUM) and sponsored by The Adaptive Mind (TAM) research collaboration group. Only the training modules will be offered, spread over the 4 weeks. TAs will go through the training modules together with the students in a virtual space, as students are spread over different cities. .  
 """
 
 
