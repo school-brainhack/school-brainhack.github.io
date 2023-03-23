@@ -1,7 +1,7 @@
 ---
 name: Maintenance of module
 about: Maintain the content of existing module.
-title: e.g. Maintenance of DL_for_neuroimaging module
+title: Maintenance of [module name] module
 labels: Enhance
 assignees: ''
 ---
