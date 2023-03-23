@@ -1,7 +1,7 @@
 ---
 name: Maintenance of module
 about: Maintain the content of existing module.
-title: 'e.g. Maintenance of DL_for_neuroimaging'
+title: e.g. Maintenance of DL_for_neuroimaging
 labels: Enhance
 assignees: ''
 ---
@@ -13,6 +13,7 @@ Code: <!--e.g. https://github.com/school-brainhack/school-brainhack.github.io/tr
 ## Work to be done
 Please ensure: 
 - [ ] links, resources and exercises reflect the state-of-the-art 
-- [ ] videos are of good quality and reflect the materials.
-If any update / re-write of the module is needed, feel free to suggest alternative material in a comment!
+- [ ] videos are of good quality and reflect the materials.  <br> 
+
+If any update / re-write of the module is needed, feel free to suggest alternative material in a comment! <br> 
 If you think major changes are needed, we suggest you open an issue for new modules.
