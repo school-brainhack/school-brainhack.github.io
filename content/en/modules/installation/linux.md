@@ -6,7 +6,7 @@ To check whether this is necessary, follow these steps:
 
 1. Open a terminal and type `echo $SHELL`.
    - If it reads `/bin/bash` then you are all set!
-   - If not, whenever the instructions read "open a terminal," please assume you are to open a terminal, type `bash`, and the proceed with the instructions as specified.
+   - If not, whenever the instructions read "open a terminal," please assume you are to open a terminal, type `bash`, and then proceed with the instructions as specified.
 
 ### Git
 
