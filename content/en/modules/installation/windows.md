@@ -20,11 +20,8 @@ Windows Subsystem for Linux (WSL) will install a Linux distribution (it is Ubunt
 3. A meesage will prompt to ask you to reboot the computer. 
    ![win03](win03.png)
 4. Once your computer has rebooted, a Ubuntu window will pop up. If no window popped up, search for and open Ubuntu from your applications. If you cannot find Ubuntu, try step 2 again.
-5. It will show the message about installing Ubuntu, you will then be prompted to `Enter new UNIX username`.
+5. It will show the message about installing Ubuntu, you will then be prompted to `Enter new UNIX username`. You can use any combination of alphanumeric characters here for your username, but a good choice is `<first_initial><last_name>` (e.g., `jsmith` for John Smith). You will then be prompted to enter a new password. (Choose something easy to remember as you will find yourself using it frequently.)
    ![win04](win04.png)
-   You can use any combination of alphanumeric characters here for your username, but a good choice is `<first_initial><last_name>` (e.g., `jsmith` for John Smith).
-   You will then be prompted to enter a new password.
-   (Choose something easy to remember as you will find yourself using it frequently.)
 6. You will see the message to inform you that the installation is successful, and you can now close the window.
    ![win05](win05.png)
 7. The final step is check if we missed anything. Please search for powershell and run as administrator again. Then type `wsl -l -v` and press enter. Please make sure you have Ubuntu in the list, and the version is 2. 
@@ -57,19 +54,19 @@ You already have it, now that you’ve installed the WSL!
 
 1. Go to https://code.visualstudio.com/ and click the download button, then run the `.exe` file on Windows.
 2. Leave all the defaults during the installation with the following exception:
-      - Please make sure the box labelled "Register Code as an editor for supported file types" and "add to PATH" are selected.
+   - Please make sure the box labelled "Register Code as an editor for supported file types" and "add to PATH" are selected.
 3. The VScode is now installed on your Windows, and also integrated with your WSL. You can now open VScode either on Windows or WSL.
 
 #### VSCode extensions
 
 1. Let try to open VScode on Windows system and installed necessary extensions. Search and open VScode on your Windows application.
 2. Press `Ctrl+Shift+P` in the new window that opens and type "Extensions: Install extensions" into the search bar that appears at the top of the screen.
-   Select the appropriate entry from the dropdown menu that appears (there should be four entries; simply select the one that reads "Extensions: Install extensions").
-3. A new panel should appear on the left-hand side of the screen with a search bar.
-   Search for each of the following extensions and press `Install` for the first entry that appears. (The author listed for all of these extensions should be "Microsoft".)
-      - Python (n.b., you will need to reload VSCode after installing this)
-      - Docker
-      - WSL
+   - Select the appropriate entry from the dropdown menu that appears (there should be four entries; simply select the one that reads "Extensions: Install extensions").
+3. A new panel should appear on the left-hand side of the screen with a search bar. 
+   - Search for each of the following extensions and press `Install` for the first entry that appears. (The author listed for all of these extensions should be "Microsoft".)
+     - Python (n.b., you will need to reload VSCode after installing this)
+     - Docker
+     - WSL
 4. Once the WSL extension is installed, you will see a new icon appear at the bottom left corner. You can now access to WSL by this icon. Click on it and select "connect to WSL". The whole VScode will be refrashed and then connected to WSL.
    ![win08](win08.png)
 5. Press `Ctrl+Shift+P` in the new window that opens and type "Extensions: Install extensions" into the search bar that appears at the top of the screen. You would find that the three extensions are not installed on WSL. Please also installed the three extensions, and be cautious that Windows and WSL are isolated systems that the most of extensions, softwares or packages should be installed separately.
@@ -85,18 +82,18 @@ You already have it, now that you’ve installed the WSL!
    bash Miniconda3-latest-Linux-x86_64.sh
    ```
 
-1. A license agreement will be displayed and the bottom of the terminal will read `--More--`.
+2. A license agreement will be displayed and the bottom of the terminal will read `--More--`.
    Press `Enter` or the space bar until you are prompted with "Do you accept the license terms? [yes|no]."
    Type `yes` and then press `Enter`
-2. The installation script will inform you that it is going to install into a default directory (e.g., `/home/$USER/miniconda3`).
+3. The installation script will inform you that it is going to install into a default directory (e.g., `/home/$USER/miniconda3`).
    Leave this default and press `Enter`.
-3. When you are asked "Do you wish the installer to initialize Miniconda3 by running conda init? [yes|no]," type `yes` and press `Enter`.
+4. When you are asked "Do you wish the installer to initialize Miniconda3 by running conda init? [yes|no]," type `yes` and press `Enter`.
    Exit the terminal once the installation has finished.
-4. Re-open the Ubuntu application.
+5. Re-open the Ubuntu application.
    Type `which python` into the terminal and it should return a path (e.g., `/home/$USER/miniconda3/bin/python`).
    - If you do not see a path like this then please try typing `conda init`, closing your terminal, and repeating this step.
      If your issue is still not resolved skip the following step and contact an instructor on the #help-installation channel on the BHS Slack.
-5. Type the following to remove the installation script that was downloaded:
+6. Type the following to remove the installation script that was downloaded:
 
    ``` bash
    rm ./Miniconda3-latest-Linux-x86_64.sh
