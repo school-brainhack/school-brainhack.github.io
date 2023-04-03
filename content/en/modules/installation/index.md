@@ -29,9 +29,9 @@ image: "installation.png"
 There are a few computing requirements for the course that are absolutely necessary (beyond the few software packages we would like you to install, described below):
  1. You must have administrator access to your computer (i.e., you must be able to install things yourself without requesting IT approval).
  1. You must have at least 40 GB of free disk space on your computer (but we would recommend more, to be safe).
- 1. If you are using Windows you must be using Windows 10; Windows 7 and 8 will not be sufficient for this course.
+ 1. If you are using Windows you must be using Windows 10 or 11; Windows 7 and 8 will not be sufficient for this course.
 
-If you foresee any of these being a problem please reach out to one of the instructors for what steps you can take to ensure you are ready for the course start on July 4th.
+If you foresee any of these being a problem please reach out to one of the instructors for what steps you can take to ensure you are ready for the course.
 
 ## Required software
 To get the most out of our course, we ask you to install the following software:
@@ -52,7 +52,7 @@ If you already have all of the above software tools/packages installed, or are c
 
 Select the tab that corresponds to your operating system and follow the instructions therein.
 
-Note: If the instructions below aren't working and you have spent more than 15-20 minutes troubleshooting on your own, reach out on the #help-installation channel on the BHS Discord with the exact problems you're having.
+Note: If the instructions below aren't working and you have spent more than 15-20 minutes troubleshooting on your own, reach out on the `#help-installation` channel on the BHS Discord with the exact problems you're having.
 
 {{< tabs tabTotal="3" tabID="setup" tabName1="Windows" tabName2="Mac OS" tabName3="Linux" >}}
 {{< tab tabNum="1" >}} {{% content "content/en/modules/installation/windows.md" %}} {{< /tab >}}

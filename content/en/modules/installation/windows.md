@@ -1,31 +1,49 @@
+### Prerequisites
+
+1. These installation instructions required Windows 10 version 21H1 or higher, or Windows 11 21H2 or higher. Please check with **Windows Update** to make sure your system is updated.
+2. You should enable Virtualization in your BIOS setting. Please click `ctrl+alt+del` then click `Task Manager`, navigate to "Performance" tabe and select CPU. Please make sure the Virtualization is `Enabled`.
+   ![win00](win00.png)
+   Note: If the Virtualization is “Disable”, you have to reboot your PC and get into BIOS setting to turn on the Virtualization function. Depending on your PC or motherboard manufacturer (ASUS, Acer, Dell, … etc), there are different ways to get into BIOS settings, so that we cannont provide common step-by-step instructions to help you turn on the Virtualization. If you have problem on BIOS settings, please consult your friends or local TAs, or reach out on the `#help-installation` channel on our Discord server.
+
 ### Windows Subsystem for Linux (WSL)
+Windows Subsystem for Linux (WSL) will install a Linux distribution (it is Ubuntu 22.04.1 LTS by default), then users can directly run Linux applications and Bash command-line tools on Windows. But, it should be noted that the Linux subsystem (i.e. Ubuntu) is a independent environment that have their own file structure and text command, which you will learn from another mandatory module. Some applications, such as VScode and Docker, can automatically integret with WSL when you installed those on Windowns. But most of applications, such as python and probably your analysis softwares, should be installed under WSL. Please be cautious with these instructions in the future.
 
 1. Search for `Windows Powershell` in your applications; right click and select `Run as administrator`.
    Select `Yes` on the prompt that appears asking if you want to allow the app to make changes to your device.
-2. Type the following into the Powershell and then press `Enter`:
+   ![win01](win01.png)
 
-   ```bash
-   Enable-WindowsOptionalFeature -Online -FeatureName Microsoft-Windows-Subsystem-Linux
-   ```
+2. Type `wsl --install` into the Powershell and then press `Enter`.
+   ![win02](win02.png)
+   - You should see the messages about installing WSL, please wait and follow next step.
+   - If WSL help text prompted and no installing take place, you might already install WSL before. Check if you have `Ubuntu` in your applications. Or, try `wsl --install -d Ubuntu` to install another Linux distro. 
 
-3. Press `Enter` again when prompted to reboot your computer.
-4. Once your computer has rebooted, open the Microsoft Store and search for "Ubuntu."
-   Install the program labelled "Ubuntu 18.04" (not "Ubuntu 16.04" or "Ubuntu") by clicking the tile, pressing `Get`, and then `Install`.
-5. Search for and open Ubuntu from your applications.
-   There will be a slight delay (of a few minutes) while it finishes installing.
-6. You will be prompted to `Enter new UNIX username`.
+3. A meesage will prompt to ask you to reboot the computer. 
+   ![win03](win03.png)
+4. Once your computer has rebooted, a Ubuntu window will pop up. If no window popped up, search for and open Ubuntu from your applications. If you cannot find Ubuntu, try step 2 again.
+5. It will show the message about installing Ubuntu, you will then be prompted to `Enter new UNIX username`.
+   ![win04](win04.png)
    You can use any combination of alphanumeric characters here for your username, but a good choice is `<first_initial><last_name>` (e.g., `jsmith` for John Smith).
    You will then be prompted to enter a new password.
    (Choose something easy to remember as you will find yourself using it frequently.)
-7. Right click on the top bar of the Ubuntu application and select "Properties".
-   Under the "Options" tab, under the "Edit Options" heading, make sure the box reading "Use Ctrl+Shift+C/V as Copy/Paste" is checked.
-   Under the "Terminal" tab, under the "Cursor Shape" heading, make sure the box reading "Vertical Bar" is checked.
-   Press "Okay" to save these settings and then exit the application.
+6. You will see the message to inform you that the installation is successful, and you can now close the window.
+   ![win05](win05.png)
+7. The final step is check if we missed anything. Please search for powershell and run as administrator again. Then type `wsl -l -v` and press enter. Please make sure you have Ubuntu in the list, and the version is 2. 
+   ![win06](win06.png)
+   - If the version is not 2, please type `wsl --set-version Ubuntu 2` to update the WSL to version 2. This is necessary for installing Docker on WSL.
+8. Finally, in the same powershell window, type `wsl --update`. Hopefully, there is no updates. Then, we could move on to the next step.
 
-(The above step-by-step WSL instructions are distilled from [here](https://docs.microsoft.com/en-us/windows/wsl/install-win10) and [here](https://docs.microsoft.com/en-us/windows/wsl/initialize-distro).
+(The above step-by-step WSL instructions are distilled from [here](https://learn.microsoft.com/en-us/windows/wsl/install) and [here](https://learn.microsoft.com/en-us/windows/wsl/install-manual).
 If you have questions during the installation procedure those resources may have answers!)
 
-From this point on whenever the instructions specify to "open a terminal" please assume you are supposed to open the Ubuntu application.
+### Windows Terminal
+Microsoft have [Windows Terminal](https://aka.ms/terminal) that will provide better functionality for command-line interface. This application is now built-in on Windows 11. We will demostrate how to open terminal for WSL (it is Ubuntu by default).
+
+1. Click [here]((https://aka.ms/terminal)) and download. Then, you can search and open **Windows Terminal** in your applications.
+2. By default, it will open a PowerShell for Windows system. For this course, we will use bash terminal on WSL. You can click the down arrow and select Ubuntu to open the terminal. 
+   ![win07](win07.png)
+   - If you would like to open Ubuntu terminal by defauly, you can change the default profile in Settings.
+
+From this point on whenever the instructions specify to "open a terminal" please assume you are supposed to open the terminal for Ubuntu.
 
 ### Bash shell
 
@@ -37,26 +55,30 @@ You already have it, now that you’ve installed the WSL!
 
 ### VSCode
 
-1. Go to https://code.visualstudio.com/ and click the download button, then run the `.exe` file.
-1. Leave all the defaults during the installation with the following exception:
-      - Please make sure the box labelled "Register Code as an editor for supported file types" is selected
+1. Go to https://code.visualstudio.com/ and click the download button, then run the `.exe` file on Windows.
+2. Leave all the defaults during the installation with the following exception:
+      - Please make sure the box labelled "Register Code as an editor for supported file types" and "add to PATH" are selected.
+3. The VScode is now installed on your Windows, and also integrated with your WSL. You can now open VScode either on Windows or WSL.
 
 #### VSCode extensions
 
-1. Open the Ubuntu application.
-1. Type `code .` into the terminal and press `Enter`.
-   You should see a message reading "Installing VS Code Server" and then a new windows will open up.
-1. Press `Ctrl+Shift+P` in the new window that opens and type "Extensions: Install extensions" into the search bar that appears at the top of the screen.
+1. Let try to open VScode on Windows system and installed necessary extensions. Search and open VScode on your Windows application.
+2. Press `Ctrl+Shift+P` in the new window that opens and type "Extensions: Install extensions" into the search bar that appears at the top of the screen.
    Select the appropriate entry from the dropdown menu that appears (there should be four entries; simply select the one that reads "Extensions: Install extensions").
-1. A new panel should appear on the left-hand side of the screen with a search bar.
+3. A new panel should appear on the left-hand side of the screen with a search bar.
    Search for each of the following extensions and press `Install` for the first entry that appears. (The author listed for all of these extensions should be "Microsoft".)
       - Python (n.b., you will need to reload VSCode after installing this)
       - Docker
-      - Remote - WSL
+      - WSL
+4. Once the WSL extension is installed, you will see a new icon appear at the bottom left corner. You can now access to WSL by this icon. Click on it and select "connect to WSL". The whole VScode will be refrashed and then connected to WSL.
+   ![win08](win08.png)
+5. Press `Ctrl+Shift+P` in the new window that opens and type "Extensions: Install extensions" into the search bar that appears at the top of the screen. You would find that the three extensions are not installed on WSL. Please also installed the three extensions, and be cautious that Windows and WSL are isolated systems that the most of extensions, softwares or packages should be installed separately.
+6. Please close the VScode, let try another way to open VScode on WSL. Open the terminal for WSL (it is Ubuntu by default), then type `code .` into the terminal and press `Enter`. Check the icon botom left, you would find that the VScode is now on WSL.
+   - You can get back to Windows by click the icon, and select "Close remote connection".
 
 ### Python
 
-1. Open a new terminal and type the following lines (separately) into the terminal, pressing `Enter` after each one:
+1. Open a new terminal for WSL and type the following lines (separately) into the terminal, pressing `Enter` after each one:
 
    ``` bash
    wget https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh
@@ -66,15 +88,15 @@ You already have it, now that you’ve installed the WSL!
 1. A license agreement will be displayed and the bottom of the terminal will read `--More--`.
    Press `Enter` or the space bar until you are prompted with "Do you accept the license terms? [yes|no]."
    Type `yes` and then press `Enter`
-1. The installation script will inform you that it is going to install into a default directory (e.g., `/home/$USER/miniconda3`).
+2. The installation script will inform you that it is going to install into a default directory (e.g., `/home/$USER/miniconda3`).
    Leave this default and press `Enter`.
-1. When you are asked "Do you wish the installer to initialize Miniconda3 by running conda init? [yes|no]," type `yes` and press `Enter`.
+3. When you are asked "Do you wish the installer to initialize Miniconda3 by running conda init? [yes|no]," type `yes` and press `Enter`.
    Exit the terminal once the installation has finished.
-1. Re-open the Ubuntu application.
+4. Re-open the Ubuntu application.
    Type `which python` into the terminal and it should return a path (e.g., `/home/$USER/miniconda3/bin/python`).
    - If you do not see a path like this then please try typing `conda init`, closing your terminal, and repeating this step.
      If your issue is still not resolved skip the following step and contact an instructor on the #help-installation channel on the BHS Slack.
-1. Type the following to remove the installation script that was downloaded:
+5. Type the following to remove the installation script that was downloaded:
 
    ``` bash
    rm ./Miniconda3-latest-Linux-x86_64.sh
@@ -92,90 +114,13 @@ conda install -y flake8 ipython jupyter jupyterlab matplotlib nibabel nilearn nu
 
 ### Docker
 
-Unfortunately, Docker for Windows is a bit of a mess.
-The recommended version of Docker to install varies dramatically depending not only on which version of Windows you have installed (e.g., Windows 10 Home versus Professional/Enterprise/Education), but also which _build_ of Windows you have.
-As such, developing a comprehensive set of instructions for installing Docker is rather difficult.
+1.  Download and run the latest [Docker Desktop installer](https://docs.docker.com/desktop/install/windows-install/). When you see the configuration, please turn on "Use WSL 2 instead of Hyper-V" (this option is not available on some of Windows version). Then the installer will ask you to log out or reboot.
+2.  After login, search and open Docker Desktop, it will take a while to initialize the Docker. The initialization will be done when a tutorial guide show up. You can skip the tutorial and move on to the next step.
+3.  Docker Desktop will automatically integrate into WSL. We should test if docker is sucessfully installed on WSL. Open the terminal for WSL (i.e. Ubuntu), once you see a `$` prompt type `docker run hello-world`. A brief introductory message should be printed to the screen, and you have sucessfully installed Docker on Windows and WSL.
+   ![win09](win09.png)
 
-For this course, you will need to install either [Docker Toolbox for Windows](https://docs.docker.com/toolbox/toolbox_install_windows/) or [Docker for Windows Desktop](https://docs.docker.com/docker-for-windows/install/).
-Which you install will depend on your OS.
-**PLEASE NOTE** that installing Docker for Windows Desktop will disable VirtualBox on your computer.
-If you actively use VirtualBox we recommend you install Docker Toolbox.
+**Note**: If you restart your computer (or somehow otherwise shut down the Docker VM) you will need to re-open the "Docker Desktop" application before your `docker` commands will work again!
+If you are having problems running `docker` commands in the terminal, try re-opening the "Docker Desktop" application.
 
-(Note: the below instructions assume you are installing Docker Toolbox.
-Because there are fewer requirements for Docker Toolbox, it is likely that you will be able to install this more easily.)
-
-1. Download the latest [Docker Toolbox installer](https://github.com/docker/toolbox/releases/download/v19.03.1/DockerToolbox-19.03.1.exe) (note: that link will automatically download the file)
-1. Run the downloaded `.exe` file and leave all the defaults during the installation procedure.
-   Click `Yes`on the prompt that appears asking if the application can make changes to your computer.
-1. Search for and open the newly-installed "Docker Quickstart" application.
-   Again, click `Yes`on the prompt that appears asking if the application can make changes to your computer.
-   The application will do a number of things to finish installing and setting up Docker.
-1. Once you see a `$` prompt type `docker run hello-world`.
-   A brief introductory message should be printed to the screen.
-1. Close the "Docker Quickstart" application and open a terminal (i.e., the Ubuntu application).
-1. Copy-paste the following commands.
-   You will be prompted to enter your password once.
-
-   ``` bash
-   # Update the apt package list.
-   sudo apt-get update -y
-   # Install Docker's package dependencies.
-   sudo apt-get install -y \
-       apt-transport-https \
-       ca-certificates \
-       curl \
-       software-properties-common
-   # Download and add Docker's official public PGP key.
-   curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add -
-   # Verify the fingerprint.
-   sudo apt-key fingerprint 0EBFCD88
-   # Add the `stable` channel's Docker upstream repository.
-   sudo add-apt-repository \
-       "deb [arch=amd64] https://download.docker.com/linux/ubuntu \
-       $(lsb_release -cs) \
-       stable"
-   # Update the apt package list (for the new apt repo).
-   sudo apt-get update -y
-   # Install the latest version of Docker CE.
-   sudo apt-get install -y docker-ce
-   # Allow your user to access the Docker CLI without needing root access.
-   sudo usermod -aG docker $USER
-   ```
-
-1. Close and re-open the terminal.
-1. Type `pip install docker-compose`.
-1. Type `powershell.exe "docker-machine config"`.
-   You should get output similar to the following:
-
-   ``` bash
-   --tlsverify
-   --tlscacert="C:\\Users\\<YOUR_USERNAME>\\.docker\\machine\\machines\\default\\ca.pem"
-   --tlscert="C:\\Users\\<YOUR_USERNAME>\\.docker\\machine\\machines\\default\\cert.pem"
-   --tlskey="C:\\Users\\<YOUR_USERNAME>\\.docker\\machine\\machines\\default\\key.pem"
-   -H=tcp://xxx.xxx.xx.xxx:xxxx
-   ```
-
-   where `<YOUR_USERNAME>` will have an actual value (likely your Windows username), and `tcp=xxx.xxx.xx.xxx:xxx` will be a series of numbers.
-   If you don't get this output then something has gone wrong.
-   Please make sure you were able to run the `docker run hello-world` command, above.
-   If you were and you still don't receive this output, please contact one of the instructors on the #help-installation channel on the BHS Slack.
-1. You will use the the outputs of the above command to modify the commands below before running them in the terminal.
-   First, take the numbers printed in place of the `x`s on the output of the line `-H=tcp://xxx.xxx.xx.xxx:xxxx` from above and replace the placeholder `xxx.xxx.xx.xxx:xxxx` on the first command below (`export DOCKER_HOST`).
-   Second, take whatever value is printed in place of `<YOUR_USERNAME>` above and replace the `<YOUR_USERNAME>` placeholder on the second command below (`export DOCKER_CERT_PATH`).
-   Once you have updated the commands appropriately, copy and paste them into the terminal:
-
-   ```bash
-   echo "export DOCKER_HOST=tcp://xxx.xxx.xx.xxx:xxxx" >> $HOME/.bashrc
-   echo "export DOCKER_CERT_PATH=/mnt/c/Users/<YOUR_USERNAME>/.docker/machine/certs" >> $HOME/.bashrc
-   echo "export DOCKER_TLS_VERIFY=1" >> $HOME/.bashrc
-   ```
-
-1. Close and re-open a terminal (i.e., the Ubuntu application).
-   Type `docker run hello-world`.
-   The same brief introductory message you saw before should be printed to the screen.
-
-**Note**: If you restart your computer (or somehow otherwise shut down the Docker VM) you will need to re-open the "Docker Quickstart" application and wait until you see the `$` prompt again before your `docker` commands will work again!
-If you are having problems running `docker` commands in the terminal, try re-opening the "Docker Quickstart" application.
-
-(The above step-by-step instructions are distilled from [here](https://docs.docker.com/toolbox/toolbox_install_windows/) and [here](https://medium.com/@joaoh82/setting-up-docker-toolbox-for-windows-home-10-and-wsl-to-work-perfectly-2fd34ed41d51).
+(The above step-by-step instructions are distilled from [here](https://docs.docker.com/desktop/install/windows-install/) and [here](https://learn.microsoft.com/en-us/windows/wsl/tutorials/wsl-containers).
 If you have questions during the installation procedure please check those links for potential answers!)
