@@ -5,8 +5,8 @@ Depending on which version of Linux you’re running you may need to type `bash`
 To check whether this is necessary, follow these steps:
 
 1. Open a terminal and type `echo $SHELL`.
-   If it reads `/bin/bash` then you are all set!
-   If not, whenever the instructions read "open a terminal," please assume you are to open a terminal, type `bash`, and the proceed with the instructions as specified.
+   - If it reads `/bin/bash` then you are all set!
+   - If not, whenever the instructions read "open a terminal," please assume you are to open a terminal, type `bash`, and then proceed with the instructions as specified.
 
 ### Git
 
@@ -23,7 +23,7 @@ If you are prompted to install it, follow the instructions on-screen to do so.
 
 1. Open the Visual Studio Code application.
 1. Press `Ctrl+Shift+P` in the new window that opens and type "Extensions: Install extensions" into the search bar that appears at the top of the screen.
-   Select the appropriate entry from the dropdown menu that appears (there should be four entries; simply select the one that reads "Extensions: Install extensions").
+   - Select the appropriate entry from the dropdown menu that appears (there should be four entries; simply select the one that reads "Extensions: Install extensions").
 1. A new panel should appear on the left-hand side of the screen with a search bar.
    Search for each of the following extensions and press `Install` for the first entry that appears. (The author listed for all of these extensions should be "Microsoft".)
       - Python (n.b., you will need to reload VSCode after installing this)
@@ -48,7 +48,7 @@ If you are prompted to install it, follow the instructions on-screen to do so.
 1. Re-open a new terminal.
    Type `which python` into the terminal and it should return a path (e.g., `/home/$USER/miniconda3/bin/python`).
    - If you do not see a path like this then please try typing `conda init`, closing your terminal, and repeating this step.
-     If your issue is still not resolved skip the following step and contact an instructor on the #help-installation channel of the BHS Slack.
+     If your issue is still not resolved skip the following step and contact an instructor on the `#help-installation` channel of the BHS Discord.
 1. Type the following to remove the installation script that was downloaded:
 
    ``` bash
