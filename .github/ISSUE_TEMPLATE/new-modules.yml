@@ -1,0 +1,113 @@
+name: Propose a new module / revise content for the existing module
+
+description: Ideas for new content for brainhack school? Submit an issue to discuss with us!
+
+# labels: 
+
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ## Guildeline
+
+        We are very excited to see a proposal of a new module!
+
+        The modules are curated resources for the student to gain neuroscience and data science skills.
+
+        Once we evaluate the content, we will ask you to submit a pull request to add the new content.
+
+        We would like to ensure the new module adhere to the following standards:
+
+        - Use free, open source tools: to ensure all students can access the tool.
+        - Python-based tool: the school focuses on Python based content.
+        - Be of high quality: the material or tool should be from a quality source.
+        - Have a broad appeal: a general neuroscience / data science topic suitable for entry level student.
+
+        Please see the existing modules as examples!
+
+  - type: markdown
+    attributes:
+      value: |
+        ## Module info
+
+  - type: textarea
+    attributes:
+      label: Title
+      description: What's the module you would like to add? Please provide a title.
+    validations:
+      required: true
+
+  - type: textarea
+    attributes:
+      label: Topic keywords
+      description: "Please enter up to five keywords for the proposed topic."
+    validations:
+      required: true
+
+  - type: textarea
+    attributes:
+      label: Module Description
+      description: "Add a brief description of the module including the following information: a brief description of the content and module outline."
+    validations:
+      required: true
+
+  - type: textarea
+    attributes:
+      label: Key tools / technology included in this module
+      description: "If you are not sure what to include, feel free to raise that and\
+        \ we can help!\nPlease make sure the tool included follows the listed standard:"
+      value: |
+        - Open-source
+        - Python-based
+        - Quality software (well maintained, not serving a single research project, clear feedback / bug report system)
+    validations:
+      required: true
+
+  - type: textarea
+    attributes:
+      label: Prerequisites
+      description: Have a look at the existing modules, pick prerequisites from there. If not, please write N/A.
+    validations:
+      required: true
+
+  - type: textarea
+    attributes:
+      label: Study outcomes
+      description: Please briefly describe the expected outcomes in bullet points.
+    validations:
+      required: true
+
+  - type: textarea
+    attributes:
+      label: Estimated study time
+      description: We recommend to limit the time to 3 hours. Leave blank if unsure.
+    validations:
+      required: false
+
+  - type: textarea
+    attributes:
+      label: Exercise examples
+      description: The module must include exercises. Please give us at least one example. In the final module we will need around 5 to 10 exercises.
+    validations:
+      required: true
+
+  - type: textarea
+    attributes:
+      label: References you would like to include
+      description: Link to the source material you base the new module on.
+    validations:
+      required: false
+
+  - type: markdown
+    attributes:
+      value: |
+        ## Review checklist
+
+  - type: checkboxes
+    attributes:
+      label: Things to check by the reviewers.
+      options:
+        - label: Use free, open source tools.
+        - label: Python-based tool.
+        - label: Be of high quality.
+        - label: Have a broad appeal.
