@@ -29,8 +29,8 @@ image: "regr_image.jpg"
 The estimated time to complete this training module is 4h.
 
 The prerequisites to take this module are:
- * installations
- * [introduction to python for data analysis](https://school.brainhackmtl.org/modules/python_data_analysis/) module.
+ * [installation](https://school-brainhack.github.io/modules/installation/) module
+ * [introduction to python for data analysis](https://school.brainhackmtl.org/modules/python_data_analysis/) module
  * [introduction to machine learning ](https://school.brainhackmtl.org/modules/machine_learning_basics/) module
 
 Recommended but not mandatory : 
