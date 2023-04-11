@@ -29,8 +29,8 @@ image: "regr_image.jpg"
 The estimated time to complete this training module is 4h.
 
 The prerequisites to take this module are:
- * installations
- * [introduction to python for data analysis](https://school.brainhackmtl.org/modules/python_data_analysis/) module.
+ * [installation](https://school-brainhack.github.io/modules/installation/) module
+ * [introduction to python for data analysis](https://school.brainhackmtl.org/modules/python_data_analysis/) module
  * [introduction to machine learning ](https://school.brainhackmtl.org/modules/machine_learning_basics/) module
 
 Recommended but not mandatory : 
@@ -54,7 +54,8 @@ If you need to resfresh some machine learning concepts before this tutorial, you
 1. Download the jupyter notebook (save raw version), or start a new jupyter notebook 
 2. Watch the video and test the code yourself
 
-Using the same dataset 
+Using the same dataset:
+
 3. Tweak the pipeline in the tutorial, by applying PCA , keeping 90% of the variance, instead of SelectPercentile to reduce the dimensionality of features (feature selection). Refer to scikit-learn documentation. https://scikit-learn.org/stable/modules/generated/sklearn.decomposition.PCA.html
 
   
@@ -73,7 +74,7 @@ Using the same dataset
       
  6. Using the performance of the different polynomial fit (MSE) for train and test error, try to explain why increasing complexity of models does not necessarily lead to a better model. 
  
- 7. Remember we talked about regularization in the introduction to machine learning? Variance of model estimation increases when there are more features than samples. This especially relevant when we have > 2000 features ! Apply a penalty to the SVR model. Refer to the documentation https://scikit-learn.org/stable/modules/generated/sklearn.svm.LinearSVR.html.
+ 7. Remember we talked about regularization in the introduction to machine learning? Variance of model estimation increases when there are more features than samples. This is especially relevant when we have > 2000 features ! Apply a penalty to the SVR model. Refer to the documentation https://scikit-learn.org/stable/modules/generated/sklearn.svm.LinearSVR.html.
  
 **Bonus**: Try to run a [SVC](https://scikit-learn.org/stable/modules/generated/sklearn.svm.SVC.html) with a linear kernel to classify Children and Adults labels (*pheno['Child_Adult']*). What can you say about the performance of your model ?
  
@@ -85,5 +86,5 @@ Using the same dataset
 - Dataset used : https://openneuro.org/datasets/ds000228/versions/1.0.0
 - scikit-learn documentation : https://scikit-learn.org/stable/
 - Nilearn plotting functions : https://nilearn.github.io/stable/plotting/index.html
-- Python Data Science Handbook's chapter on machine learning by Jake VanderPlas is an excellent resource, although not openly available online
+- [Python Data Science Handbook](https://jakevdp.github.io/PythonDataScienceHandbook/)'s chapter on machine learning by Jake VanderPlas is an excellent resource, although not openly available online
 
