@@ -23,6 +23,3 @@ To test it locally, you will need to:
 <!-- prettier-ignore-end -->
 
 <!-- ALL-CONTRIBUTORS-LIST:END -->
-
-[![All Contributors](https://img.shields.io/github/all-contributors/school-brainhack/school-brainhack.github.io
-?color=ee8449&style=flat-square)](#contributors)
