@@ -30,7 +30,7 @@ The estimated time to complete this training module is 2.30h.
 
 The prerequisites to take this module are:
  * Installations
- * [Introduction to python for data analysis](https://psy6983.brainhackmtl.org/modules/python_data_analysis/) module.
+ * [Working with MNE-Python and EEG-BIDS](https://psy6983.brainhackmtl.org/modules/mne_python/) module.
 
 Contact Davide Momi if you have questions on this module, or if you want to check that you completed successfully all the exercises.
 
