@@ -60,11 +60,7 @@ pip install -r requirements.txt
  * Start a new jupyter notebook
  * Watch the video and  run the cells in the notebook
 
-## Exercice
-
-For this next part, we will refer to the following [notebook](https://github.com/brainhackorg/school/blob/master/content/en/modules/python_visualization/python_visualization_intro_rmv_answ.ipynb).
-
-For example purposes, we will make use of a phenotypic dataset from the ABIDE II consortium. This amazing international multi-site dataset contains data from individuals diagnosed with Autism Spectrum Disorder (ASD) and healthy controls. We will use a version of the phenotypic  [data](http://fcon_1000.projects.nitrc.org/indi/abide/abide_II.html) from a single site (Kennedy Krieger Institute). To download the dataset, click on the link and then 'Kennedy Krieger Institute' on the right-hand side. Then, Downloads -> Phenotypic File. You will need an NITRC account - if you don't have one, you can create one in a few minutes [here](https://www.nitrc.org/account/register.php).
+## Exercise
 
 1. **Read through the notebook running all the cells**
 2. **Complete the exercises in the notebook**
