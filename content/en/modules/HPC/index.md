@@ -2,7 +2,7 @@
 type: "modules" # DON'T TOUCH THIS ! :)
 
 # Title of your project (we like creative title)
-title: "High performance computing"
+title: "High Performance Computing"
 
 # Your project GitHub repository URL
 github_repo: https://github.com/calculquebec/cq-formation-premiers-pas
@@ -30,7 +30,7 @@ The estimated time to complete this training module is 4h.
 
 The prerequisites to take this module are:
  * the [installation](/modules/installation) module.
- * the [introduction to the terminal](/modules/terminal) module.
+ * the [introduction to the terminal](/modules/introduction_to_terminal) module.
 
 Contact François Paugam if you have questions on this module, or if you want to check that you completed successfully all the exercises.
 
