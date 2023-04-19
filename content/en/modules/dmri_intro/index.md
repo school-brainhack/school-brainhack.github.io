@@ -30,7 +30,7 @@ The estimated time to complete this training module is 3.30h.
 
 The prerequisites to take this module are:
  * Installations
- * [Introduction to dMRI](https://psy6983.brainhackmtl.org/modules/introduction_to_dMRI/) module.
+ * [Introduction to dMRI](https://psy6983.brainhackmtl.org/modules/dmri_intro/) module.
 
 Contact Davide Momi if you have questions on this module, or if you want to check that you completed successfully all the exercises.
 
@@ -55,19 +55,32 @@ dependencies will need to be installed:
 - [PyBIDS] : used to check the data structure [BIDS] compliance.
 
 
-To run the code locally please follow the instructions:
+To run the code locally please follow the instructions.
+Use the terminal or an Anaconda Prompt for the following steps:
 
-1) Clone this repo using:
+1) Create an environment:
+```
+conda create --name myenv dMRI_workshop
+```
+
+When conda asks you to proceed, type y:
+
+2) Activate the new environment:
+```
+conda activate dMRI_workshop
+```
+
+3) Clone this repo using:
 ```
 git clone https://github.com/Davi1990/Intro_to_dMRI_workshop
 ```
 
-2) Install the required dependencies using:
+4) Install the required dependencies using:
 ```
 pip install -r requirements.txt
 ```
 
-3) Download the necessary data
+5) Download the necessary data
 
 Notebooks expect them to be placed in the `data` folder that exists in the root
 of the repository.
