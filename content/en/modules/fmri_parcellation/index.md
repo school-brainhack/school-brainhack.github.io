@@ -40,7 +40,7 @@ Contact Desiree Lussier if you have questions on this module, or if you want to 
 ## Resources
 The first portion of this module was presented by Pierre Bellec during Brainhack School 2020 and the notebook was created by Desiree Lussier for this module.
 
-The tutorial slides are available [here](https://docs.google.com/presentation/d/1mTJoOSRKtGzhWeNLa9PXyKUYA0p9733UHVWrmIyi4zs/edit?usp=sharing).
+The tutorial slides are available [here](https://docs.google.com/presentation/d/1mTJoOSRKtGzhWeNLa9PXyKUYA0p9733UHVWrmIyi4zs/edit?usp=sharing) starting from Slide 39.
 
 The video presentation is available here:
 <iframe width="560" height="315" src="https://www.youtube.com/embed/7uMVRebuDZo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
