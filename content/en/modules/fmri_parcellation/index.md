@@ -48,9 +48,9 @@ The video presentation is available here:
 ## Exercise
 
  * Watch the video presentation by Pierre Bellec and go over the slides.
- * Download the notebook created for this module found [here](https://github.com/BrainhackMTL/psy6983_2021/blob/master/content/en/modules/fmri_parcellation/atlas_parcellations.ipynb)
+ * Download the notebook created for this module found [here](https://github.com/school-brainhack/school-brainhack.github.io/blob/main/content/en/modules/fmri_parcellation/atlas_parcellations.ipynb)
  * Run the notebook to view the parcellation for the atlas example.
- * Create new code blocks in your notebook and the example to retrieve three other atlases using Nilearn datasets, the documentation for which you can find [here](https://nilearn.github.io/modules/reference.html#module-nilearn.datasets), and view the atlases in your notebook.
+ * Create new code blocks in your notebook and the example to retrieve three other atlases using Nilearn datasets, the documentation for which you can find [here](https://nilearn.github.io/dev/modules/datasets.html), and view the atlases in your notebook.
  * Answer the discussion at the bottom of the notebook in the markdown block provided and save.
  * Follow up with Désirée Lussier to and validate you completed the exercise.
  * 🎉 🎉 🎉 you completed this training module! 🎉 🎉 🎉
