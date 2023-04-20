@@ -42,6 +42,8 @@ For example, the documentation website for the clusters is no longer https://doc
 
 `ssh <username>@beluga.computecanada.ca`
 
+:warning: :warning: If you reside outside of Canada and don't have access to a local HPC you can apply to access [Brainhack Cloud](https://brainhack.org/brainhack_cloud/). Subsequently anytime the lecture material below refers to location-specific inputs you will have to adjust your inputs accordingly. (e.g. the ssh connection)
+
 ## Resources
 This module was presented by [Félix-Antoine Fortin](https://github.com/cmd-ntrf) during the QLSC 612 course in 2020.
 
