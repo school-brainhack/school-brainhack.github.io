@@ -39,8 +39,8 @@ This module will be using the [MAIN educational workshop on brain encoding and d
 
 ## Exercise
 Let's have a look at application on functional data with the [MAIN educational workshop on brain encoding and decoding](https://main-educational.github.io/brain_encoding_decoding/intro.html). We will look at the **decoding** modules. This part is independent from the video above.
- * Please follow the [introduction](https://main-educational.github.io/brain_encoding_decoding/intro.html#), set-up your environment and clone the material from GitHub. Please provide your ansers in jupyter notebooks.
- * Through out this tutorial you will be using the Haxby data set. Please read through and understand how to access it [here](https://main-educational.github.io/brain_encoding_decoding/haxby_data.html) and go throught the [original support-vector machine analysis](https://main-educational.github.io/brain_encoding_decoding/svm_decoding.html) of the study and complete the exercises. 
+ * Please follow the [introduction](https://main-educational.github.io/brain_encoding_decoding/intro.html#), set-up your environment and clone the material from GitHub. Please provide your answers in jupyter notebooks.
+ * Throughout this tutorial you will be using the Haxby data set. Please read through and understand how to access it [here](https://main-educational.github.io/brain_encoding_decoding/haxby_data.html) and go through the [original support-vector machine analysis](https://main-educational.github.io/brain_encoding_decoding/svm_decoding.html) of the study and complete the exercises. 
  * After understanding the workflow of functional data, please go through the [Multi-Layer Perceptron](https://main-educational.github.io/brain_encoding_decoding/mlp_decoding.html) and complete the relevant exercise. If you want a challenge, please feel free to do the harder questions, or do both lessons :tada:.
 
  * (Optional) You can learn about the [Graph Convolution Network](https://main-educational.github.io/brain_encoding_decoding/gcn_decoding.html) and how to work with timeseries data!
@@ -61,4 +61,6 @@ You can find more information about the nobrainer library on its [github repo](h
 
 [A Neuroscience and Biobehavioral Reviews article](https://www.sciencedirect.com/science/article/pii/S0149763416305176) on deep learnging applications in neuroimaging studies of brain-based disorders. It has a good overview of the general framework of deep learning applications, and descriptions of the main kinds of architectures.
 
-[MAIN educational workshop on brain encoding and decoding](https://main-educational.github.io/brain_encoding_decoding/intro.html) covers deep learning application to analyse a classic neuroimaging dataset. The tutorial also incooperates the useful features from `nilearn` to process your neuroimaging data, as well as doing decoding analysis.
+[An overview article](https://pubmed.ncbi.nlm.nih.gov/35722548/) on the challenges associated with applying deep learning models to neuroimaging applications, especially fMRI data. Three new methods are presented which could potentially help incorporate these models into clinical practice.
+
+[MAIN educational workshop on brain encoding and decoding](https://main-educational.github.io/brain_encoding_decoding/intro.html) covers deep learning application to analyse a classic neuroimaging dataset. The tutorial also incorporates useful features from the `nilearn` library to process your neuroimaging data, as well as doing decoding analysis.
