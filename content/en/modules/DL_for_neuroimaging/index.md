@@ -61,6 +61,6 @@ You can find more information about the nobrainer library on its [github repo](h
 
 [A Neuroscience and Biobehavioral Reviews article](https://www.sciencedirect.com/science/article/pii/S0149763416305176) on deep learnging applications in neuroimaging studies of brain-based disorders. It has a good overview of the general framework of deep learning applications, and descriptions of the main kinds of architectures.
 
-[An overview article](https://pubmed.ncbi.nlm.nih.gov/35722548/) on the challenges associated to applying deep learning models in neuroimaging applications especially fMRI data. Three new methods are presented which could potentially help incorporate these models into clinical practice.
+[An overview article](https://pubmed.ncbi.nlm.nih.gov/35722548/) on the challenges associated with applying deep learning models to neuroimaging applications, especially fMRI data. Three new methods are presented which could potentially help incorporate these models into clinical practice.
 
 [MAIN educational workshop on brain encoding and decoding](https://main-educational.github.io/brain_encoding_decoding/intro.html) covers deep learning application to analyse a classic neuroimaging dataset. The tutorial also incorporates useful features from the `nilearn` library to process your neuroimaging data, as well as doing decoding analysis.
