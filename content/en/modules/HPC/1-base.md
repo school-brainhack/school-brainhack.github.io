@@ -19,15 +19,15 @@ prefix at the beginning of the line.
 
 Instructions :
   * Job options must be set with "#SBATCH ..." lines on top of the script,
-    but below the "#!/bin/bash" line
+    but below the "#!/bin/bash" line.
   * Modify submit.sh to specify your account, e.g. `#SBATCH --account=rrg-pbellec`.
   * Modify submit.sh to specify 1 node with 1 processor for 2 minutes.
-  * Modify submit.sh to specify the job name "ex1"
+  * Modify submit.sh to specify the job name "ex1".
   * Submit the job with the following command:
 ```
    sbatch submit.sh
 ```
-  * Please note the job ID
+  * Please note the job ID.
   * Verify the status of your job with:
 ```
    squeue -u $USER
