@@ -32,7 +32,7 @@ The prerequisites to take this module are:
  * the [installation](/modules/installation) module.
  * the [introduction to the terminal](/modules/introduction_to_terminal) module.
  
-If you have any questions regarding the module content, or if you want to check that you successfully completed all the exercises, you can contact Davide Momi by posting them in the relevant module channel on the school Discord server. If you do not have access to the server and would like to join, please send us an email at school [dot] brainhack [at] gmail [dot] com.
+If you have any questions regarding the module content please ask them in the relevant module channel on the school Discord server. If you do not have access to the server and would like to join, please send us an email at school [dot] brainhack [at] gmail [dot] com.
 
 ## Resources
 This module was presented by Davide Momi during the of [Neuroimaging Carpentry](https://conp-pcno-training.github.io/neuroimaging-carpentry/) workshop series, and the associated notebooks are available [here](https://github.com/Davi1990/Intro_to_dMRI_workshop).
@@ -163,7 +163,7 @@ $ osf -p cmq8a clone ./data
 
 **Exercise 5** Set the color of the streamlines to display the values of the FA map and change the opacity to 0.05 (05_deterministic_tractography notebook).
 
- * Follow up with your local TA(s) or Davide Momi to validate you completed the exercises correctly.
+ * Follow up with your local TA(s) to validate you completed the exercises correctly.
  * :tada: :tada: :tada: you completed this training module! :tada: :tada: :tada:
 
  ## More resources
