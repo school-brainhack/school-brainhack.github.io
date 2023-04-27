@@ -33,6 +33,7 @@ The prerequisites to take this module are:
  * the [introduction to python for data analysis](/modules/python_data_analysis) module.
 
 If you have any questions regarding the module content please ask them in the relevant module channel on the school Discord server. If you do not have access to the server and would like to join, please send us an email at school.brainhack [at] gmail [dot] com
+
 Follow up with your local TA(s) to validate you completed the exercises correctly.
 
 ## Resources
@@ -58,11 +59,11 @@ You can find the Jupyter notebook for this module [here](https://github.com/scho
 
 [Here](https://pbellec.github.io/functional_parcellation/#/) are Pierre Bellec's slides for a course on brain parcellation. They contain snippets of examples of nilearn code to load datasets, plot brains, compute and plot connectomes.
 
-Chapter on Functional Connectivity from Méthods en neurosciences cognitives [here](https://psy3018.github.io/connectivite.html)
+The chapter on Functional Connectivity from the course Méthods en neurosciences cognitives is [here](https://psy3018.github.io/connectivite.html) (in French only).
 
-The video on resting state mentioned by Pierre in his presentation is [here](https://www.youtube.com/watch?v=_Iph3WW9UOU&t=3s)
+The video on resting state mentioned by Pierre in his presentation is [here](https://www.youtube.com/watch?v=_Iph3WW9UOU&t=3s).
 
-Additional Nilearn tutorials on functional connectivity can be found [here](https://nilearn.github.io/stable/connectivity/index.html)
+Additional Nilearn tutorials on functional connectivity can be found [here](https://nilearn.github.io/stable/connectivity/index.html).
 
 If you want to know more about fMRIprep, Basile Pinsard made a presentation on this topic for BrainHack school 2019:
 <iframe width="560" height="315" src="https://www.youtube.com/embed/WTcucXAAVBU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
