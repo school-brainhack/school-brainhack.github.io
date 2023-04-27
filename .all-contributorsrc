@@ -12,7 +12,13 @@
       "avatar_url": "https://avatars.githubusercontent.com/u/77584086?v=4",
       "profile": "https://github.com/me-pic",
       "contributions": [
-        "translation"
+        "translation",
+        "bug",
+        "content",
+        "doc",
+        "maintenance",
+        "mentoring",
+        "review"
       ]
     },
     {
