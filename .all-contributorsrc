@@ -95,6 +95,28 @@
         "research",
         "translation"
       ]
+    },
+    {
+      "login": "SamGuay",
+      "name": "Samuel Guay",
+      "avatar_url": "https://avatars.githubusercontent.com/u/30598330?v=4",
+      "profile": "https://github.com/SamGuay",
+      "contributions": [
+        "bug",
+        "content",
+        "doc",
+        "eventOrganizing",
+        "maintenance",
+        "review",
+        "ideas",
+        "code",
+        "test",
+        "infra",
+        "data",
+        "design",
+        "research",
+        "translation"
+      ]
     }
   ],
   "contributorsPerLine": 7,
