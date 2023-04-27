@@ -29,16 +29,17 @@ image: "dMRI.png"
 The estimated time to complete this training module is 3.30h.
 
 The prerequisites to take this module are:
- * Installations
+ * the [installation](/modules/installation) module.
+ * the [introduction to the terminal](/modules/introduction_to_terminal) module.
  * [Introduction to dMRI](https://psy6983.brainhackmtl.org/modules/dmri_intro/) module.
 
 Contact Davide Momi if you have questions on this module, or if you want to check that you completed successfully all the exercises.
 
 
 ## Resources
-This module was presented by Davide Momi during the of [Neuroimaging Carpentry](https://conp-pcno-training.github.io/neuroimaging-carpentry/) workshop series, and the associated notebooks are available [here](https://github.com/Davi1990/Intro_to_dMRI_workshop)
+This module was presented by Davide Momi during the of [Neuroimaging Carpentry](https://conp-pcno-training.github.io/neuroimaging-carpentry/) workshop series, and the associated notebooks are available [here](https://github.com/Davi1990/Intro_to_dMRI_workshop).
 
-The video of the presentation is available below (1h33):
+The video of the presentation is available below (duration 1h33).
 <iframe width="560" height="315" src="https://www.youtube.com/embed/HM3lMplqTM4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 ## Tutorial
@@ -63,7 +64,7 @@ Use the terminal or an Anaconda Prompt for the following steps:
 conda create --name myenv dMRI_workshop
 ```
 
-When conda asks you to proceed, type y:
+When conda asks you to proceed, type y.
 
 2) Activate the new environment:
 ```
@@ -82,8 +83,7 @@ pip install -r requirements.txt
 
 5) Download the necessary data
 
-Notebooks expect them to be placed in the `data` folder that exists in the root
-of the repository.
+This will create a `data` folder at the root of the repository that Notebooks will use.
 
 Note that the above command clones the entire repository, which may be quite large and
 take a while to download. Alternatively, data from a single subject is available
@@ -93,19 +93,17 @@ $ cd ./data
 $ osf -p cmq8a fetch ds000221_subject/ds000221_sub-010006.zip
 $ unzip ds000221_sub-010006.zip
 ~~~
-{: .language-bash}
 
 
 ## Extra steps
 
 > ## Test the installation
 >
-> Test installation information for a package can be checked by running, for
+> Installation information for a package can be checked by running, for
 > example:
 > ~~~
 > $ pip show dipy
 > ~~~
-> {: .language-bash}
 >
 > Similarly, it can be checked that a given package can be imported in Python by
 > running, for example:
@@ -113,7 +111,6 @@ $ unzip ds000221_sub-010006.zip
 > $ python
 > >>> import dipy
 > ~~~
-> {: .language-bash}
 >
 > Alternatively, the package version can also be checked by running, for example:
 > ~~~
@@ -121,36 +118,27 @@ $ unzip ds000221_sub-010006.zip
 > >>> import dipy
 > >>> print(dipy.__version__)
 > ~~~
-> {: .language-bash}
 >
 > You can also see the packages and versions of all `pip`-installed dependencies
 > by typing:
 > ~~~
 > $ pip freeze
 > ~~~
-> {: .language-bash}
-{: .discussion}
 
-In order to run the notebooks, the notebook server needs to be started. Once the
-current directory changed to the root of the code directory, the server is
-started running:
+Make sure you are in the root of `Intro_to_dMRI_workshop`, and start the notebook server to run the notebooks.
+If using `IPython`:
 ~~~
 $ ipython notebook
 ~~~
-{: .language-bash}
 
-if using `IPython`, and running:
-
+If using `JupyterLab`.
 ~~~
 jupyter-lab
 ~~~
-{: .language-bash}
-
-if using `JupyterLab`.
 
 In either case, the commands will print some information about the notebook
 server in the terminal, and a web browser will be opened to the URL of the web
-application (by default, http://127.0.0.1:8888). The users will be presented to
+application (by default, http://127.0.0.1:8888). The users will be presented with
 the directory structure of the current directory, and they will be able to run
 the notebook of interest.
 
@@ -161,32 +149,32 @@ The data used in the lesson is hosted in [OSF]. It can be downloaded by running:
 ~~~
 $ osf -p cmq8a clone ./data
 ~~~
-{: .language-bash}
 
-## Exercise
+## Exercises
 
-1. **Read through the notebook running all the cells**
-2. **Complete the exercises in the notebook**
+1. **Read through the notebooks running all the cells**
+2. **Complete the exercises in the notebooks**
 
-**Exercise 1** Get a list of all diffusion data in NIfTI file format.
+**Exercise 1** Get a list of all diffusion data in NIfTI file format (01_introduction notebook).
 
-**Exercise 2** Plot the axial and radial diffusivity maps of the example given. Start from fitting the preprocessed diffusion image.
+**Exercise 2** Plot the axial and radial diffusivity maps of the example given. Start from fitting the preprocessed diffusion image (03_diffusion_tensor_imaging notebook).
 
-**Exercise 3** Simulate the ODF for two fibre populations with crossing angles of 90, 60, 45, 30, and 20 degrees. We have included helpful hints and code below to help you get started.
+**Exercise 3** Simulate the ODF for two fibre populations with crossing angles of 90, 60, 45, 30, and 20 degrees. We have included helpful hints and code to help you get started (04_constrained_spherical_deconvolution notebook).
 
-**Exercise 4** Repeat the tractography, but apply a binary stopping criteria (BinaryStoppingCriterion) using the seed mask. Visualize the tractogram!
+**Exercise 4** Repeat the tractography, but apply a binary stopping criteria (BinaryStoppingCriterion) using the seed mask. Visualize the tractogram (05_deterministic_tractography notebook)!
 
-**Exercise 5** Set the color of the streamlines to display the values of the FA map and change the opacity to 0.05.
-
+**Exercise 5** Set the color of the streamlines to display the values of the FA map and change the opacity to 0.05 (05_deterministic_tractography notebook).
 
 
- * Follow up with Natasha Clarke to validate you completed the exercise correctly.
+
+ * Follow up with your local TA(s) to validate you completed the exercises correctly.
  * :tada: :tada: :tada: you completed this training module! :tada: :tada: :tada:
 
+If you have any questions regarding the module content please ask them in the relevant module channel on the school Discord server. If you do not have access to the server and would like to join, please send us an email at school.brainhack [at] gmail [dot] com
 
  ## More resources
 
  - Other great resources to get started with plotting in python:
-    -  [DIPY](https://dipy.org/)
+    -  [DIPY](https://dipy.org/) website, including documentation and tutorials.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/7Bl38jfBJu0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
