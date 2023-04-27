@@ -54,11 +54,11 @@ The video presentation is available below:
 
 ## More resources
 ### Open Access Data
-[FCP-INDI](http://fcon_1000.projects.nitrc.org/)
-[OpenNeuro](https://openneuro.org/)
-[Canadian Open Neuroscience Portal](https://portal.conp.ca/)
-[openMorph](https://github.com/cMadan/openMorph)
-[Nilearn Data Set](https://nilearn.github.io/stable/modules/reference.html#module-nilearn.datasets)
+- [FCP-INDI](http://fcon_1000.projects.nitrc.org/)
+- [OpenNeuro](https://openneuro.org/)
+- [Canadian Open Neuroscience Portal](https://portal.conp.ca/)
+- [openMorph](https://github.com/cMadan/openMorph)
+- [Nilearn Data Set](https://nilearn.github.io/stable/modules/datasets.html)
 
 ### Handling the Data
-[DataLad](http://handbook.datalad.org/en/latest/#)
+- [DataLad](http://handbook.datalad.org/en/latest/#)
