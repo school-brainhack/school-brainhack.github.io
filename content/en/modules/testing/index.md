@@ -32,7 +32,7 @@ The prerequisites to take this module are:
  * the [Using git and github](/modules/git_github) module.
  * the [A brief introduction to the bash shell](/modules/introduction_to_terminal) module.
 
-It is highly recommended to also have done the [python script](/modules/python_scripts) modue, but that's not strictly necessary.
+It is highly recommended to also have done the [python script](/modules/python_scripts) module, but that's not strictly necessary.
 
 Contact François Paugam if you have questions on this module, or if you want to check that you completed successfully all the exercises.
 
@@ -46,11 +46,11 @@ The video of the presentation is available below:
 ## Exercise
 
  * Fork [this repo](https://github.com/school-brainhack/testing_CI_module) for the hands on part.
- * Watch the video, and follow along the hands on implementing the unit tests and the github action to run them.
+ * Watch the video, and follow along the hands on material. You will implement the unit tests and the github action to execute the unit test.
  * Follow up with François Paugam to validate you completed the exercise correctly.
  * :tada: :tada: :tada: you completed this training module! :tada: :tada: :tada:
 
- **Bonus and addendum** : During the first part of the video I said we would implement unit tests, an integration test and an installation test. I forgot about the integration test during the hands on so I leave it t you as a bonus exercise, which corresponds to writing a test for the main function, since it integrates the other three functions. For the installation test, this one comes for free with the github action, as the action runs in a virtual machine and has to re-install the dependancies each time. 
+ **Bonus and addendum** : During the first part of the video I said we would implement unit tests, an integration test and an installation test. I forgot about the integration test during the hands on so I leave it to you as a bonus exercise, which corresponds to writing a test for the main function, since it integrates the other three functions. For the installation test, this one comes for free with the github action, as the action runs in a virtual machine and has to re-install the dependencies each time. 
 
 ## More resources
 
