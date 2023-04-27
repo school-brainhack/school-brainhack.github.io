@@ -31,7 +31,6 @@ The estimated time to complete this training module is 3.30h.
 The prerequisites to take this module are:
  * the [installation](/modules/installation) module.
  * the [introduction to the terminal](/modules/introduction_to_terminal) module.
- * [Introduction to dMRI](https://psy6983.brainhackmtl.org/modules/dmri_intro/) module.
 
 ## Resources
 This module was presented by Davide Momi during the of [Neuroimaging Carpentry](https://conp-pcno-training.github.io/neuroimaging-carpentry/) workshop series, and the associated notebooks are available [here](https://github.com/Davi1990/Intro_to_dMRI_workshop).
