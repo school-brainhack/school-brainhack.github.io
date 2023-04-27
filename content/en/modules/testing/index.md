@@ -50,7 +50,7 @@ The video of the presentation is available below:
  * Follow up with François Paugam to validate you completed the exercise correctly.
  * :tada: :tada: :tada: you completed this training module! :tada: :tada: :tada:
 
- **Bonus and addendum** : During the first part of the video I said we would implement unit tests, an integration test and an installation test. I forgot about the integration test during the hands on so I leave it t you as a bonus exercise, which corresponds to writing a test for the main function, since it integrates the other three functions. For the installation test, this one comes for free with the github action, as the action runs in a virtual machine and has to re-install the dependancies each time. 
+ **Bonus and addendum** : During the first part of the video I said we would implement unit tests, an integration test and an installation test. I forgot about the integration test during the hands on so I leave it to you as a bonus exercise, which corresponds to writing a test for the main function, since it integrates the other three functions. For the installation test, this one comes for free with the github action, as the action runs in a virtual machine and has to re-install the dependencies each time. 
 
 ## More resources
 
