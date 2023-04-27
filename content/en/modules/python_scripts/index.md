@@ -31,7 +31,10 @@ The estimated time to complete this training module is 2h.
 The prerequisites to take this module are:
  * the [installation](/modules/installation) module.
 
-Contact Hao-Ting Wang if you have questions on this module, or if you want to check that you completed successfully all the exercises.
+If you have any questions regarding the module content please ask them in the relevant module channel on the school Discord server. If you do not have access 
+to the server and would like to join, please send us an email at school [dot] brainhack [at] gmail [dot] com.
+
+Follow up with your local TA(s) to validate you completed the exercises correctly.
 
 ## Resources
 This module was presented by [Greg Kiar](https://github.com/gkiar) during the QLSC 612 course in 2020, with [slides](https://docs.google.com/presentation/d/1n2RlMdmv1p25Xy5thJUhkKGvjtV-dkAIsUXP-AL4ffI/edit#slide=id.g362da58057_0_1) from Joel Grus' talk at JupyterCon 2018.
@@ -213,7 +216,7 @@ with the following key :
 my_super_secret_key
 ```
 
- * Follow up with Hao-Ting Wang to validate you completed the exercise correctly.
+ * Follow up with your local TA(s) to validate you completed the exercises correctly.
  * :tada: :tada: :tada: you completed this training module! :tada: :tada: :tada:
 
 
