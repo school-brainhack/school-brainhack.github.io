@@ -41,28 +41,28 @@ This module was presented by Pierre Bellec during the QLSC 612 course in 2020. T
 
 The slides are available [here](https://docs.google.com/presentation/d/1mTJoOSRKtGzhWeNLa9PXyKUYA0p9733UHVWrmIyi4zs/edit#slide=id.p).
 
-You can find the Jupyter notebook for this module [here](https://github.com/brainhackorg/school/blob/master/content/en/modules/fmri_connectivity/BHS_fMRI_connectivity.ipynb)
+You can find the Jupyter notebook for this module [here](https://github.com/school-brainhack/school-brainhack.github.io/blob/main/content/en/modules/fmri_connectivity/BHS_fMRI_connectivity.ipynb)
 
 ## Exercise
 
  * Watch the video presentation by Pierre Bellec and go over the slides.
  * Download the jupyter notebook using the link above or the following command
  ```
- wget https://raw.githubusercontent.com/brainhackorg/school/master/content/en/modules/fmri_connectivity/BHS_fMRI_connectivity.ipynb
+ wget https://raw.githubusercontent.com/school-brainhack/school-brainhack.github.io/main/content/en/modules/fmri_connectivity/BHS_fMRI_connectivity.ipynb
  ```
  * Run the notebook and complete the 3 exercises at the end.
- * Follow up with a TA to validate you completed the exercise correctly.
+ * Follow up with your local TA(s) to validate you completed the exercise correctly.
  * :tada: :tada: :tada: you completed this training module! :tada: :tada: :tada:
 
 ## More resources
 
 [Here](https://pbellec.github.io/functional_parcellation/#/) are Pierre Bellec's slides for a course on brain parcellation. They contain snippets of examples of nilearn code to load datasets, plot brains, compute and plot connectomes.
 
-Chapter on Functional Connectivity from Méthods en neurosciences cognitives [here](https://psy3018.github.io/connectivite.html)
+The chapter on Functional Connectivity from the course Méthods en neurosciences cognitives is [here](https://psy3018.github.io/connectivite.html) (in French only).
 
-The video on resting state mentioned by Pierre in his presentation is [here](https://www.youtube.com/watch?v=_Iph3WW9UOU&t=3s)
+The video on resting state mentioned by Pierre in his presentation is [here](https://www.youtube.com/watch?v=_Iph3WW9UOU&t=3s).
 
-Additional Nilearn tutorials on functional connectivity can be found [here](https://nilearn.github.io/stable/connectivity/index.html)
+Additional Nilearn tutorials on functional connectivity can be found [here](https://nilearn.github.io/stable/connectivity/index.html).
 
 If you want to know more about fMRIprep, Basile Pinsard made a presentation on this topic for BrainHack school 2019:
 <iframe width="560" height="315" src="https://www.youtube.com/embed/WTcucXAAVBU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
