@@ -32,7 +32,8 @@ The prerequisites to take this module are:
  * the [installation](/modules/installation) module.
  * the [introduction to python for data analysis](/modules/python_data_analysis) module.
 
-Contact Désirée Lussier for questions on this module and once you have completed the exercises to receive credit for the module.
+If you have any questions regarding the module content please ask them in the relevant module channel on the school Discord server. If you do not have access to the server and would like to join, please send us an email at school.brainhack [at] gmail [dot] com
+Follow up with your local TA(s) to validate you completed the exercises correctly.
 
 ## Resources
 This module was presented by Pierre Bellec during the QLSC 612 course in 2020. The video of the presentation is available below:
@@ -40,17 +41,17 @@ This module was presented by Pierre Bellec during the QLSC 612 course in 2020. T
 
 The slides are available [here](https://docs.google.com/presentation/d/1mTJoOSRKtGzhWeNLa9PXyKUYA0p9733UHVWrmIyi4zs/edit#slide=id.p).
 
-You can find the Jupyter notebook for this module [here](https://github.com/brainhackorg/school/blob/master/content/en/modules/fmri_connectivity/BHS_fMRI_connectivity.ipynb)
+You can find the Jupyter notebook for this module [here](https://github.com/school-brainhack/school-brainhack.github.io/blob/main/content/en/modules/fmri_connectivity/BHS_fMRI_connectivity.ipynb)
 
 ## Exercise
 
  * Watch the video presentation by Pierre Bellec and go over the slides.
  * Download the jupyter notebook using the link above or the following command
  ```
- wget https://raw.githubusercontent.com/brainhackorg/school/master/content/en/modules/fmri_connectivity/BHS_fMRI_connectivity.ipynb
+ wget https://raw.githubusercontent.com/school-brainhack/school-brainhack.github.io/main/content/en/modules/fmri_connectivity/BHS_fMRI_connectivity.ipynb
  ```
  * Run the notebook and complete the 3 exercises at the end.
- * Follow up with Désirée Lussier to validate you completed the exercise correctly.
+ * Follow up with your local TA(s) to validate you completed the exercise correctly.
  * :tada: :tada: :tada: you completed this training module! :tada: :tada: :tada:
 
 ## More resources
