@@ -33,7 +33,9 @@ The prerequisites to take this module are:
  * the [terminal](/modules/introduction_to_terminal) module.
  * the [Git and GitHub](/modules/git_github) module.
 
-Contact Hao-Ting Wang if you have questions on this module, or if you want to check that you completed successfully all the exercises.
+If you have any questions regarding the module content please ask them in the relevant module channel on the school Discord server. If you do not have access to the server and would like to join, please send us an email at school.brainhack [at] gmail [dot] com
+
+Follow up with your local TA(s) to validate you completed the exercises correctly.
 
 ## Resources
 
@@ -69,38 +71,6 @@ We will follow the first lesson [Set up your project](https://goodresearch.dev/s
 
 :memo: Please skip the [Install a project package](https://goodresearch.dev/setup.html#install-a-project-package) section. We recommend to revisit this part after completing the [python packaging](/modules/packaging) module.
 
-Let's start with a working example. Write down in an online document (e.g. using hackmd.io).
- * Check out [this repository](https://github.com/SIMEXP/fmriprep-denoise-benchmark) which follows the principle of the project set up in the Good Research Code Handbook. It is slightly different. 
-   * Read through the lesson [Set up your project](https://goodresearch.dev/setup.html).
-   * The lesson introduced this project layout:
-     ```
-     ├── data
-     ├── docs
-     ├── results
-     ├── scripts
-     ├── src
-     ├── tests
-     ├── .gitignore
-     ├── environment.yml
-     ├── README.md
-     └── setup.py
-     ```
-     However, the layout in this project `fmriprep-denoise-benchmark` is slightly different. Here's it's layout excluding some more complex files.
-     ```
-     ├── content
-     ├── fmriprep_denoise
-     ├── inputs
-     ├── results
-     ├── scripts
-     ├── .gitignore
-     ├── LICENSE
-     ├── README.md
-     ├── requirements.txt
-     └── setup.py
-     ``` 
-     Can you map out directories and files that serves the same purpose as the ones in the lesson? What extra file is in `fmriprep-denoise-benchmark`? Which directory is missing?
-
-After seeing one example, let's create a directory for your project and sync to GitHub. 
 The end result will be a logically organized project skeleton that's synced to version control.
 The instructor should be able to verify your progress through 1. a public GitHub repository and 2. clone and test your project on their own machine.
 
@@ -154,7 +124,7 @@ The instructor should be able to verify your progress through 1. a public GitHub
       >>> hello world
       ```
 
-* Follow up with Hao-Ting Wang to validate you completed the exercise correctly.
+* Follow up with your local TA(s) to validate you completed the exercise correctly.
 * :tada: :tada: :tada: you completed this training module! :tada: :tada: :tada:
 
 ## More resources
@@ -166,5 +136,7 @@ Some documentation on standards for project organization:
  * the entire "the Turing way" documentation is relevant, but the section on [project design](https://the-turing-way.netlify.app/project-design/project-design.html) is the most important for this training module.
  * the [YODA principles](https://handbook.datalad.org/en/latest/basics/101-127-yoda.html)
  * the [Good Research Code Handbook](https://goodresearch.dev/) has lots of resources to help you learn industry standard research code management.
+
+Check out [this repository](https://github.com/SIMEXP/fmriprep-denoise-benchmark) which follows the principle of the project set up in the Good Research Code Handbook.
 
 Finally, a [blog post](http://ivory.idyll.org/blog/2015-on-licensing-in-bioinformatics.html) on choosing a license for open science projects by Titus Brown.
