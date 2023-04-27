@@ -59,14 +59,14 @@ Prepare your answers in an online document (e.g. using hackmd.io).
    * [ADNI](http://adni.loni.usc.edu/)
    * [UK biobank](https://www.ukbiobank.ac.uk/)
    * [CIMAQ](http://www.cima-q.ca/en/home/)
- * Find an example of a neuroimaging paper described on the open science framework (or somewhere else), with 1. code available? 2. Documentation for data analysis available? 3. Data available? For each aspect, summarize briefly the standards followed (if any).
+ * Find an example of a neuroimaging paper described on the open science framework (or somewhere else), with 1. Code available? 2. Documentation for data analysis available? 3. Data available? For each aspect, summarize briefly the standards followed (if any).
 
 
 ### Create a project template for your Brainhack School project 
 
-We have learned about the community standard of data sharing in the previous exercise and how that improves communutcation and collaboration with researchers.
+We have learned about the community standard of data sharing in the previous exercise and how that improves communication and collaboration with researchers.
 The same principle can be applied to your analysis code. Using a consistent project template will help when your project grow in the long run.
-For this section, please prepare your answer as an GitHub repository. 
+For this section, please prepare your answer as a GitHub repository. 
 We will follow the first lesson [Set up your project](https://goodresearch.dev/setup.html) in the [Good Research Code Handbook](https://goodresearch.dev/index.html)
 
 :memo: Please skip the [Install a project package](https://goodresearch.dev/setup.html#install-a-project-package) section. We recommend to revisit this part after completing the [python packaging](/modules/packaging) module.
@@ -94,15 +94,15 @@ The instructor should be able to verify your progress through 1. a public GitHub
   :bulb: With the same principle, you can also create a `LICENSE` file through GitHub.
 
  * Next we will populate the directory with a project skeleton and some basic descriptions. 
-   * Create the directories described in the lession with command `mkdir`. 
+   * Create the directories described in the lesson with command `mkdir`. 
    * Try to add these changes to git. You should notice empty directories are not added, this is because git will only push files.
    * To work around this issue, let's create a file named `.gitkeep` in each of the empty directory using command `touch`. 
    * Now try to add and commit these files again. 
 
  * (Optional) Creating a project package
-   Creating a project package can be difficult for the first time, but the pay off is substantial: your project structure will be clean, you won’t need to change Python'’'s path, and your project will be pip installable. This is the standard approach in the data science world.
+   Creating a project package can be difficult for the first time, but the pay off is substantial: your project structure will be clean, you won’t need to change Python's path, and your project will be pip installable. This is the standard approach in the data science world.
    This is a minimal demo for a installable package. We encourage you to revisit [Install a project package](https://goodresearch.dev/setup.html#install-a-project-package) after completing the [python packaging](/modules/packaging) module.
-    * Create a file under `src/` named `helloworld.py`, with one line `print('hello world')`
+    * Create a file under `src/` named `helloworld.py`, with one line `print('hello world')`.
     * Create a file under `src/` named `__init__.py`.
     * Create a `setup.py` file in the root directory with the following lines:
       ```
@@ -118,7 +118,7 @@ The instructor should be able to verify your progress through 1. a public GitHub
       ```
       pip install -e .
       ```  
-    * To varify the completion of this part, you should be able to run the following code from a python kernel as long as the virtual environment is activated:
+    * To verify the completion of this part, you should be able to run the following code from a python kernel as long as the virtual environment is activated:
       ```
       import src.helloworld
       >>> hello world
@@ -134,7 +134,7 @@ We encourage you to revisit [Install a project package](https://goodresearch.dev
 
 Some documentation on standards for project organization:
  * the entire "the Turing way" documentation is relevant, but the section on [project design](https://the-turing-way.netlify.app/project-design/project-design.html) is the most important for this training module.
- * the [YODA principles](https://handbook.datalad.org/en/latest/basics/101-127-yoda.html)
+ * the [YODA principles](https://handbook.datalad.org/en/latest/basics/101-127-yoda.html).
  * the [Good Research Code Handbook](https://goodresearch.dev/) has lots of resources to help you learn industry standard research code management.
 
 Check out [this repository](https://github.com/SIMEXP/fmriprep-denoise-benchmark) which follows the principle of the project set up in the Good Research Code Handbook.
