@@ -35,8 +35,6 @@ The prerequisites to take this module are:
 If you have any questions regarding the module content please ask them in the relevant module channel on the school Discord server. If you do not have access 
 to the server and would like to join, please send us an email at school [dot] brainhack [at] gmail [dot] com.
 
-Follow up with your local TA(s) to validate you completed the exercises correctly.
-
 ## Resources
 This module was presented by Jacob Vogel during the QLSC 612 course in 2020, and the associated notebook is available [here](https://github.com/neurodatascience/course-materials-2020/blob/master/lectures/14-may/01-data-visualization/python_visualization_for_data.ipynb). (Note: if you did the BIDS module, the dataset to download is the same - ds000228! A few functions now throw warnings, you can ignore these, or fix them if you like.)
 
