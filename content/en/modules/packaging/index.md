@@ -34,8 +34,6 @@ The prerequisites to take this module are:
 
 If you have any questions regarding the module content please ask them in the relevant module channel on the school Discord server. If you do not have access to the server and would like to join, please send us an email at school [dot] brainhack [at] gmail [dot] com.
 
-Follow up with your local TA(s) to validate you completed the exercises correctly.
-
 ## Resources
 This module was presented by Valérie Hayot-Sasson during BrainHack School 2020. The slides are available [here](https://docs.google.com/presentation/d/18aMOZBbKEKTHtiZZA5bRPOBwxOVoPLRT1c5FaQZYLQI/edit?usp=sharing).
 
