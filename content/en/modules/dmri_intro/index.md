@@ -16,7 +16,7 @@ tags: [DIPY, python, Tractography, BIDS, Tensor]
 
 # Summarize your project in < ~75 words. This description will appear at the top of your page and on the list page with other projects..
 
-summary: "This repo includes tutorial for working with dMRI data using DIPY"
+summary: "This repo includes a tutorial for working with dMRI data using DIPY"
 
 # If you want to add a cover image (listpage and image in the right), add it to your directory and indicate the name
 # below with the extension.
@@ -150,8 +150,8 @@ $ osf -p cmq8a clone ./data
 
 ## Exercises
 
-1. **Read through the notebooks running all the cells**
-2. **Complete the exercises in the notebooks**
+1. Read through the notebooks running all the cells
+2. Complete the exercises in the notebooks
 
 **Exercise 1** Get a list of all diffusion data in NIfTI file format (01_introduction notebook).
 
