@@ -32,7 +32,7 @@ The prerequisites to take this module are:
  * the [Using git and github](/modules/git_github) module.
  * the [A brief introduction to the bash shell](/modules/introduction_to_terminal) module.
 
-It is highly recommended to also have done the [python script](/modules/python_scripts) modue, but that's not strictly necessary.
+It is highly recommended to also have done the [python script](/modules/python_scripts) module, but that's not strictly necessary.
 
 Contact François Paugam if you have questions on this module, or if you want to check that you completed successfully all the exercises.
 
