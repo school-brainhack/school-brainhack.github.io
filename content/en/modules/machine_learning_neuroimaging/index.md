@@ -34,8 +34,8 @@ The prerequisites to take this module are:
  * [introduction to machine learning ](https://school.brainhackmtl.org/modules/machine_learning_basics/) module
 
 Recommended but not mandatory : 
- * [fmri connectivity ](https://school.brainhackmtl.org/modules/fmri_connectivity/) module
- * [fmri parcellation ](https://school.brainhackmtl.org/modules/fmri_parcellation/) module
+ * [fmri connectivity ](/modules/fmri_connectivity) module
+ * [fmri parcellation ](/modules/fmri_parcellation) module
 
 If you have any questions regarding the module content please ask them in the relevant module channel on the school Discord server. If you do not have access to the server and would like to join, please send us an email at school [dot] brainhack [at] gmail [dot] com.
 
