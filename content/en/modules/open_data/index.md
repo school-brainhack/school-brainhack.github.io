@@ -31,14 +31,17 @@ The estimated time to complete this training module is 1.5h.
 The prerequisites to take this module are:
  * the [installation](/modules/installation) module.
 
-Contact Isil Bilgin if you have questions on this module, or if you want to check that you completed successfully all the exercises.
+If you have any questions regarding the module content please ask them in the relevant module channel on the school Discord server. If you do not have access to the server and would like to join, please send us an email at school [dot] brainhack [at] gmail [dot] com.
+
+Follow up with your local TA(s) to validate you completed the exercises correctly.
 
 ## Resources
 This module was presented by Sebastian Urchs during Brainhack School 2020.
 
 The presentation slides are available [here](https://docs.google.com/presentation/d/19pp-SwWI-Fi72BCsht_7SAj-uFp0-ijBqRc31sy2-Ag).
 
-Jupyter Notebook to follow is [here](https://mybinder.org/v2/gh/surchs/bhs_nilearn_example/7c678e38f7d59f18ba57d4515cba116446cdf3c2).
+Jupyter Notebook to follow is [here](https://mybinder.org/v2/gh/school-brainhack/bhs_nilearn_example/HEAD?labpath=nilearn_demo.ipynb). If you are not able to run the notebook through mybinder, you can download it from
+this [link](https://github.com/surchs/bhs_nilearn_example/blob/master/nilearn_demo.ipynb), and run it locally inside a [virtual environment](https://virtualenv.pypa.io/en/latest/). 
 
 The video presentation is available below:
 <iframe width="560" height="315" src="https://www.youtube.com/embed/OEhgEo5IAmk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
@@ -54,11 +57,11 @@ The video presentation is available below:
 
 ## More resources
 ### Open Access Data
-[FCP-INDI](http://fcon_1000.projects.nitrc.org/)
-[OpenNeuro](https://openneuro.org/)
-[Canadian Open Neuroscience Portal](https://portal.conp.ca/)
-[openMorph](https://github.com/cMadan/openMorph)
-[Nilearn Data Set](https://nilearn.github.io/stable/modules/reference.html#module-nilearn.datasets)
+- [FCP-INDI](http://fcon_1000.projects.nitrc.org/)
+- [OpenNeuro](https://openneuro.org/)
+- [Canadian Open Neuroscience Portal](https://portal.conp.ca/)
+- [openMorph](https://github.com/cMadan/openMorph)
+- [Nilearn Data Set](https://nilearn.github.io/stable/modules/datasets.html)
 
 ### Handling the Data
-[DataLad](http://handbook.datalad.org/en/latest/#)
+- [DataLad](http://handbook.datalad.org/en/latest/#)
