@@ -68,6 +68,33 @@
         "review",
         "ideas"
       ]
+    },
+    {
+      "login": "pbellec",
+      "name": "Pierre Bellec",
+      "avatar_url": "https://avatars.githubusercontent.com/u/1670887?v=4",
+      "profile": "http://simexp-lab.org",
+      "contributions": [
+        "bug",
+        "content",
+        "doc",
+        "eventOrganizing",
+        "maintenance",
+        "mentoring",
+        "review",
+        "ideas",
+        "code",
+        "test",
+        "tutorial",
+        "infra",
+        "data",
+        "fundingFinding",
+        "design",
+        "financial",
+        "projectManagement",
+        "research",
+        "translation"
+      ]
     }
   ],
   "contributorsPerLine": 7,
