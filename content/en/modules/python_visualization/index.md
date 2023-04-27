@@ -29,8 +29,8 @@ image: "plotting.png"
 The estimated time to complete this training module is 3h.
 
 The prerequisites to take this module are:
- * Installations
- * [Introduction to python for data analysis](https://psy6983.brainhackmtl.org/modules/python_data_analysis/) module.
+ * [Installations](/modules/installation)
+ * [Introduction to python for data analysis](/modules/python_data_analysis) module.
 
 If you have any questions regarding the module content please ask them in the relevant module channel on the school Discord server. If you do not have access 
 to the server and would like to join, please send us an email at school [dot] brainhack [at] gmail [dot] com.
