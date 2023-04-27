@@ -102,7 +102,7 @@ Follow up with your local TA(s) to validate you completed the exercises correctl
 
  ## More resources
 
- - Other great resources to get started with plotting in python:
+ - Other great resources to get started with NME in python:
     -  [MNE-Python](https://mne.tools/stable/auto_tutorials/index.html)
     -  [Neurodesk](https://www.neurodesk.org/tutorials/electrophysiology/eeg_mne-python/)
 
