@@ -45,7 +45,7 @@ The video of the presentation is available below:
 
 ## Exercise
 
- * Fork [this repo](https://github.com/FrancoisPgm/testing_CI_module) for the hands on part.
+ * Fork [this repo](https://github.com/school-brainhack/testing_CI_module) for the hands on part.
  * Watch the video, and follow along the hands on implementing the unit tests and the github action to run them.
  * Follow up with François Paugam to validate you completed the exercise correctly.
  * :tada: :tada: :tada: you completed this training module! :tada: :tada: :tada:
