@@ -37,7 +37,7 @@ Your environment should be ready to go, everything required was set up during th
 
 Important: Note that if you are working with Windows Subsystem for Linux (WSL), paths will be a bit different than with Mac/Linux. You will want to use : `/mnt/c/Users/USERNAME/Desktop/`
 
-Contact Natasha Clarke if you have questions on this module, or if you want to check that you completed successfully all the exercises.
+If you have any questions regarding the module content please ask them in the relevant module channel on the school Discord server. If you do not have access to the server and would like to join, please send us an email at school [dot] brainhack [at] gmail [dot] com.
 
 ## Resources
 This module was presented by [Ross Markello](https://rossmarkello.com/) during the QLSC 612 course in 2020.
@@ -74,7 +74,7 @@ True/False
  - *Environmental variables are preceded by `$`*
  - *Good naming conventions of files include special characters*
 
-## Exercises
+## Exercise
 
 Practice makes perfect. 
 
@@ -187,7 +187,7 @@ After creating and saving this file you realize you misspelled the filename! You
      cp statstics.txt .
      
      
- * Follow up with Natasha Clarke to validate you completed the exercise correctly.
+ * Follow up with your local TA(s) to validate you completed the exercises correctly.
  * :tada: :tada: :tada: you completed this training module! :tada: :tada: :tada:
 
 ## More resources
