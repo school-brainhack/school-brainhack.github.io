@@ -32,7 +32,7 @@ The prerequisites to take this module are:
  * the [installation](/modules/installation) module.
  * the [python data analysis](/modules/python_data_analysis) module (recommended for Python familiarity).
 
-Contact Isil Bilgin if you have questions on this module, or if you want to check that you completed successfully all the exercises.
+If you have any questions regarding the module content please ask them in the relevant module channel on the school Discord server. If you do not have access to the server and would like to join, please send us an email at school [dot] brainhack [at] gmail [dot] com.
 
 ## Resources
 The first portion of this module was presented by Blake Richards during Brainhack School 2020
@@ -48,7 +48,8 @@ The video presentation is available here:
  * * How would deep learning provide an advantage for solving the problem?
  * * Give an example of a research question for which deep learning would not be appropriate.
  * * What would be a disadvantage of deep learning compared to another method?
- * Follow up with Isil Bilgin to validate you completed the exercise correctly.
+ 
+ * Follow up with your local TA(s) to validate you completed the exercises correctly.
  * 🎉 🎉 🎉 you completed this training module! 🎉 🎉 🎉
 
 ## More resources
