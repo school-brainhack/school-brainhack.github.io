@@ -12,6 +12,109 @@
       "avatar_url": "https://avatars.githubusercontent.com/u/77584086?v=4",
       "profile": "https://github.com/me-pic",
       "contributions": [
+        "translation",
+        "bug",
+        "content",
+        "doc",
+        "maintenance",
+        "mentoring",
+        "review"
+      ]
+    },
+    {
+      "login": "clarkenj",
+      "name": "Natasha Clarke",
+      "avatar_url": "https://avatars.githubusercontent.com/u/57987005?v=4",
+      "profile": "https://github.com/clarkenj",
+      "contributions": [
+        "ideas",
+        "bug",
+        "content",
+        "doc",
+        "eventOrganizing",
+        "maintenance",
+        "mentoring",
+        "review"
+      ]
+    },
+    {
+      "login": "htwangtw",
+      "name": "Hao-Ting Wang",
+      "avatar_url": "https://avatars.githubusercontent.com/u/13743617?v=4",
+      "profile": "https://wanghaoting.com/",
+      "contributions": [
+        "bug",
+        "content",
+        "doc",
+        "eventOrganizing",
+        "maintenance",
+        "mentoring",
+        "review",
+        "ideas"
+      ]
+    },
+    {
+      "login": "complexbrains",
+      "name": "Isil Bilgin",
+      "avatar_url": "https://avatars.githubusercontent.com/u/45263281?v=4",
+      "profile": "https://twitter.com/complexbrains",
+      "contributions": [
+        "bug",
+        "content",
+        "doc",
+        "eventOrganizing",
+        "maintenance",
+        "mentoring",
+        "review",
+        "ideas"
+      ]
+    },
+    {
+      "login": "pbellec",
+      "name": "Pierre Bellec",
+      "avatar_url": "https://avatars.githubusercontent.com/u/1670887?v=4",
+      "profile": "http://simexp-lab.org",
+      "contributions": [
+        "bug",
+        "content",
+        "doc",
+        "eventOrganizing",
+        "maintenance",
+        "mentoring",
+        "review",
+        "ideas",
+        "code",
+        "test",
+        "tutorial",
+        "infra",
+        "data",
+        "fundingFinding",
+        "design",
+        "financial",
+        "projectManagement",
+        "research",
+        "translation"
+      ]
+    },
+    {
+      "login": "SamGuay",
+      "name": "Samuel Guay",
+      "avatar_url": "https://avatars.githubusercontent.com/u/30598330?v=4",
+      "profile": "https://github.com/SamGuay",
+      "contributions": [
+        "bug",
+        "content",
+        "doc",
+        "eventOrganizing",
+        "maintenance",
+        "review",
+        "ideas",
+        "code",
+        "test",
+        "infra",
+        "data",
+        "design",
+        "research",
         "translation"
       ]
     }

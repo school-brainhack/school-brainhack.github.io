@@ -33,8 +33,6 @@ The prerequisites to take this module are:
 
 If you have any questions regarding the module content please ask them in the relevant module channel on the school Discord server. If you do not have access to the server and would like to join, please send us an email at school [dot] brainhack [at] gmail [dot] com.
 
-Follow up with your local TA(s) to validate you completed the exercises correctly.
-
 ## Resources
 This module was presented by Sebastian Urchs during Brainhack School 2020.
 
@@ -52,7 +50,7 @@ The video presentation is available below:
  * Watch the video presentation by Sebastian Urchs and go over the slides.
  * Find an open neuroimaging dataset via one of the resource links described in the presentation that has at least 40 participants and including phenotypic information that could be useful to your project (age, gender, cognitive scores, diagnoses, etc.)
  * Download at least one  of these participants and their accompanying phenotypic information.
- * Follow up with Isil Bilgin to validate you completed the exercise correctly.
+ * Follow up with your local TA(s) to validate you completed the exercises correctly.
  * 🎉 🎉 🎉 you completed this training module! 🎉 🎉 🎉
 
 ## More resources

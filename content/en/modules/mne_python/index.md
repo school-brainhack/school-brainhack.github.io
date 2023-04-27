@@ -89,9 +89,9 @@ pip install -r requirements.txt
         Make a `matplotlib` figure with 1 row and 5 columns and plot the first 5 components using the function `mne.viz.plot_topomap`.
 
 
-After finishing your exercises, rename the notebook and save it to your local machine with your answers to share with your TA(s).
-Follow up with your local TA(s) to validate you completed the exercises correctly
- :tada: :tada: :tada: you completed this training module! :tada: :tada: :tada:
+* After finishing your exercises, rename the notebook and save it to your local machine.
+* Follow up with your local TA(s) to validate you completed the exercises correctly.
+* :tada: :tada: :tada: you completed this training module! :tada: :tada: :tada:
 
 
  ## More resources

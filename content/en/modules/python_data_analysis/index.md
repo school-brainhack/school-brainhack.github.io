@@ -33,7 +33,8 @@ The prerequisites to take this module are:
 * You should already have everything installed for this module!
 * We will be using Jupyter Notebook which is a web application that allows you to create and share documents that contain live code, equations, visualizations and explanatory text.
 
-Contact Marie-Eve Picard if you have questions on this module, or if you want to check that you completed successfully all the exercises.
+If you have any questions regarding the module content please ask them in the relevant module channel on the school Discord server. If you do not have access 
+to the server and would like to join, please send us an email at school [dot] brainhack [at] gmail [dot] com.
 
 ## Before starting:
 
@@ -92,7 +93,7 @@ Note: Internet is your best friend. Remember that whenever you are stuck, resour
 
 If you are done, you can play around with different functions (ex. other plotting functions). Try to answer interesting questions you might have using the data.
 
- * Follow up with Marie-Eve Picard to validate you completed the exercise correctly.
+ * Follow up with your local TA(s) to validate you completed the exercises correctly.
  * :tada: :tada: :tada: you completed this training module! :tada: :tada: :tada:
 
 ## More resources

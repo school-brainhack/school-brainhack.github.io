@@ -29,11 +29,11 @@ image: "plotting.png"
 The estimated time to complete this training module is 3h.
 
 The prerequisites to take this module are:
- * Installations
- * [Introduction to python for data analysis](https://psy6983.brainhackmtl.org/modules/python_data_analysis/) module.
+ * [Installations](/modules/installation)
+ * [Introduction to python for data analysis](/modules/python_data_analysis) module.
 
-Contact Natasha Clarke if you have questions on this module, or if you want to check that you completed successfully all the exercises.
-
+If you have any questions regarding the module content please ask them in the relevant module channel on the school Discord server. If you do not have access 
+to the server and would like to join, please send us an email at school [dot] brainhack [at] gmail [dot] com.
 
 ## Resources
 This module was presented by Jacob Vogel during the QLSC 612 course in 2020, and the associated notebook is available [here](https://github.com/neurodatascience/course-materials-2020/blob/master/lectures/14-may/01-data-visualization/python_visualization_for_data.ipynb). (Note: if you did the BIDS module, the dataset to download is the same - ds000228! A few functions now throw warnings, you can ignore these, or fix them if you like.)
@@ -77,7 +77,7 @@ For example purposes, we will make use of a phenotypic dataset from the ABIDE II
 
 **Exercise 4** Play around and make an interactive plot using plotly and your project data if you have any.
 
- * Follow up with Natasha Clarke to validate you completed the exercise correctly.
+ * Follow up with your local TA(s) to validate you completed the exercises correctly.
  * :tada: :tada: :tada: you completed this training module! :tada: :tada: :tada:
 
 ## More resources

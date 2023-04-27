@@ -42,7 +42,7 @@ If you have any questions regarding the module content please ask them in the re
 ## Resources
 This module was presented by [Ross Markello](https://rossmarkello.com/) during the QLSC 612 course in 2020.
 
-All the tutorial notes related to the video below are available [here](https://github.com/neurodatascience/course-materials-2020/blob/master/lectures/11-may/03-intro-to-shell/introduction-to-shell.ipynb). 
+All the tutorial notes related to the video below are available [here](https://github.com/school-brainhack/course-materials-2020/blob/master/lectures/11-may/03-intro-to-shell/introduction-to-shell.ipynb). 
 
 The video of the presentation is available below (duration 1h13). Follow along with the video of the presentation, typing the command line into your terminal.
 
@@ -194,4 +194,4 @@ After creating and saving this file you realize you misspelled the filename! You
 
 If you are curious to solidify your capabilities for using the shell, you can check this tutorial "Effective use of bash" by Ankur Sinha organized for the [INCF/OCNS software working group](https://ocns.github.io/SoftwareWG/2021/06/09/software-wg-tutorials-at-cns-2021-online-bash-git-and-python.html).
 
-You can also try out this tutorial which inspired much of the content you saw today, while exploring the shell in further detail. It covers pipes and filters, loops, shell scripts, finding things. [The Unix Shell](https://swcarpentry.github.io/shell-novice/01-intro/index.html)
+You can also try out this tutorial which inspired much of the content you saw today, while exploring the shell in further detail. It covers pipes and filters, loops, shell scripts, finding things: [The Unix Shell](https://swcarpentry.github.io/shell-novice/01-intro/index.html).
