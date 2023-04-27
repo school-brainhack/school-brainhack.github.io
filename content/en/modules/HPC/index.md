@@ -32,7 +32,9 @@ The prerequisites to take this module are:
  * the [installation](/modules/installation) module.
  * the [introduction to the terminal](/modules/introduction_to_terminal) module.
 
-Contact François Paugam if you have questions on this module, or if you want to check that you completed successfully all the exercises.
+If you have any questions regarding the module content please ask them in the relevant module channel on the school Discord server. If you do not have access to the server and would like to join, please send us an email at school [dot] brainhack [at] gmail [dot] com.
+
+Follow up with your local TA(s) to validate you completed the exercises correctly.
 
 :warning: It should be noted that recently Compute Canada changed its name to Alliance Canada.
 That does not change the relevance of the exercises presented here, but it can make some naming conventions outdated.
@@ -95,7 +97,7 @@ The video of his presentation is available below:
 
  <br>
 
- * Follow up with François Paugam to validate you have completed the 5 exercises correctly.
+ * Follow up with your local TA(s) to validate you completed the exercises correctly.
  * :tada: :tada: :tada: you completed this training module! :tada: :tada: :tada:
 
 ## More resources
