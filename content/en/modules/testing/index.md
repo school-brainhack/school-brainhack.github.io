@@ -34,10 +34,7 @@ The prerequisites to take this module are:
 
 It is highly recommended to also have done the [python script](/modules/python_scripts) module, but that's not strictly necessary.
 
-If you have any questions regarding the module content please ask them in the relevant module channel on the school Discord server. If you do not have access 
-to the server and would like to join, please send us an email at school [dot] brainhack [at] gmail [dot] com.
-
-Follow up with your local TA(s) to validate you completed the exercises correctly.
+If you have any questions regarding the module content please ask them in the relevant module channel on the school Discord server. If you do not have access to the server and would like to join, please send us an email at school [dot] brainhack [at] gmail [dot] com.
 
 ## Resources
 The [slides](https://drive.google.com/file/d/1M3nr4D0-cPCjHjL23vk-BXth2TqHshtj/view?usp=sharing) are adapted from the original QLSC 612 course in 2020 by [Greg Kiar](https://twitter.com/g_kiar)
