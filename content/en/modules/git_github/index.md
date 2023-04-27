@@ -32,7 +32,7 @@ The prerequisites to take this module are:
  * the [installation](/modules/installation) module.
  * the [introduction to the terminal](/modules/introduction_to_terminal) module.
 
-Contact Pierre Bellec if you have questions on this module, or if you want to check that you completed successfully all the exercises.
+If you have any questions regarding the module content please ask them in the relevant module channel on the school Discord server. If you do not have access to the server and would like to join, please send us an email at school [dot] brainhack [at] gmail [dot] com.
 
 ## Resources
 This module was presented by [Elizabeth Dupre](https://elizabeth-dupre.com/#/) during the QLSC 612 course in 2020, with content adapted from the software carpentries by [Elizabeth Dupre](https://elizabeth-dupre.com/#/).
@@ -67,7 +67,7 @@ For the last lecture of the Introduction to Git and GitHub module ([Pull Request
  * Using the github interface, request a review of your changes by `complexbrains` (Isil Bilgin).
  * Once `complexbrains` has approved the review, merge the pull request to the `main` branch.
  * Close the issue.
- * Follow up with Isil Bilgin to validate you completed the exercise correctly.
+ * Follow up with your local TA(s) to validate you completed the exercises correctly.
  * :tada: :tada: :tada: you completed this training module! :tada: :tada: :tada:
 
 ## More resources

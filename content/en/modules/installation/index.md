@@ -87,4 +87,4 @@ bash <( curl -s https://raw.githubusercontent.com/brainhackorg/school/master/con
 
 If you installed everything correctly you should see a message informing you as such.
 If any problems were detected you should receive some brief instructions on what is wrong with potential suggestions on how to remedy it.
-If you followed these instructions step-by-step and cannot resolve the issue please contact one of the course instructors for more help.
+If you followed these instructions step-by-step and cannot resolve the issue please post in the relevant module channel on the school Discord server. If you do not have access to the server and would like to join, please send us an email at school [dot] brainhack [at] gmail [dot] com..

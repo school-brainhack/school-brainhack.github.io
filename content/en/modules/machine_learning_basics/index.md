@@ -33,7 +33,10 @@ The prerequisites to take this module are:
  * the [python scripts](/modules/python_scripts) module.
  * the [python data analysis](/modules/python_data_analysis) module.
 
-Contact Désirée Lussier if you have questions on this module, or if you want to check that you completed successfully all the exercises.
+If you have any questions regarding the module content please ask them in the relevant module channel on the school Discord server. If you do not have access 
+to the server and would like to join, please send us an email at school [dot] brainhack [at] gmail [dot] com.
+
+Follow up with your local TA(s) to validate you completed the exercises correctly.
 
 ## Resources
 The tutorial slides and video portion of this module were presented by Estefany Suarez and Jacob Vogel during Brainhack School 2020. 
@@ -50,7 +53,7 @@ The video presentations are available below. The first video (Estefany Suarez an
  * Watch the video presentation by Estefany Suarez and go over the slides.
  * Download the [notebook](https://github.com/brainhackorg/school/blob/master/content/en/modules/machine_learning_basics/machine_learning.ipynb) 
  * Follow the tutorial within the Jupyter Notebook and run the code. Feel free to play around with the code to see what happens!
- * Follow up with Désirée Lussier to validate you completed the exercise correctly.
+ * Follow up with your local TA(s) to validate you completed the exercises correctly.
  * 🎉 🎉 🎉 you completed this training module! 🎉 🎉 🎉
 
 ## More resources

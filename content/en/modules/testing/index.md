@@ -32,57 +32,29 @@ The prerequisites to take this module are:
  * the [Using git and github](/modules/git_github) module.
  * the [A brief introduction to the bash shell](/modules/introduction_to_terminal) module.
 
-Contact François Paugam if you have questions on this module, or if you want to check that you completed successfully all the exercises.
+It is highly recommended to also have done the [python script](/modules/python_scripts) module, but that's not strictly necessary.
+
+If you have any questions regarding the module content please ask them in the relevant module channel on the school Discord server. If you do not have access to the server and would like to join, please send us an email at school [dot] brainhack [at] gmail [dot] com.
 
 ## Resources
-This module was presented by [Greg Kiar](https://twitter.com/g_kiar) during the QLSC 612 course in 2020, the slides are available [here](https://docs.google.com/presentation/d/1J0x3ahRCOx7cnyUq_EfueIaFM8-tze0V9rX-ECKJ65k/edit#slide=id.p).
-
-:warning: In Greg's presentation  he uses Travis-CI.org to do the remote tests on his github repo. Since 2021 Travis-CI.org no longer exists, there is only the commercial Travic-CI.com. So instead we will here use **GitHub actions**. Thus you can follow the video up until **55:23**, then follow the instructions below to setup the Github action workflow.
+The [slides](https://drive.google.com/file/d/1M3nr4D0-cPCjHjL23vk-BXth2TqHshtj/view?usp=sharing) are adapted from the original QLSC 612 course in 2020 by [Greg Kiar](https://twitter.com/g_kiar)
 
 The video of the presentation is available below:
-<iframe width="560" height="315" src="https://www.youtube.com/embed/VibDC49ZAJE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/TIPIap8rZyE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 
 ## Exercise
 
- * Watch the video until **55:23**.
- * Fork [this repo](https://github.com/FrancoisPgm/intro2testing).
- * On your fork in github, go to the **Actions** tab and create a new workflow.
- * Modify the action template created by github to :
-    * Change the workflow name from "build" to "test"
-    * add the following step to setup python :
-    ```
-          # Set up python to be able to run python scripts
-          - name: Set up Python
-            uses: actions/setup-python@v1
-            with:
-              python-version: 3.7
-    ```
-    * add the following step to install the dependancies :
-    ```
-          # Pip install the required packages
-          - name: Install Dependencies
-            run: pip install -r requirements.txt
-    ```
-    * Run the test script :
-    ```
-          # Run the test script
-          - name: Run test
-            run: |
-              cd code
-              bash test.sh
-    ```
- * commit and push this new file to create and run the action.
- * go back to the action tab on your repo, you should see an action called "test".
- * verify that the action did run the test, the first one should be passed and the second should fail, so you should be able to see something like that :
-
-    <img src="example_action.png" alt="Action example" width="500"/>
- * Follow up with François Paugam to validate you completed the exercise correctly.
+ * Fork [this repo](https://github.com/school-brainhack/testing_CI_module) for the hands on part.
+ * Watch the video, and follow along the hands on material. You will implement the unit tests and the github action to execute the unit test.
+ * Follow up with your local TA(s) to validate you completed the exercises correctly.
  * :tada: :tada: :tada: you completed this training module! :tada: :tada: :tada:
+
+ **Bonus and addendum** : During the first part of the video I said we would implement unit tests, an integration test and an installation test. I forgot about the integration test during the hands on so I leave it to you as a bonus exercise, which corresponds to writing a test for the main function, since it integrates the other three functions. For the installation test, this one comes for free with the github action, as the action runs in a virtual machine and has to re-install the dependencies each time. 
 
 ## More resources
 
-The [pytest](https://docs.pytest.org/) library is the go-to way to implement unit tests in python. If you intend to do unit testing in python, you should get familiar with this tool; either through the [pytest documentation](https://docs.pytest.org/en/6.2.x/contents.html#toc), with a tutorial such as [this one](https://www.guru99.com/pytest-tutorial.html) or watching [this PyConDE keynote](https://www.youtube.com/watch?v=CMuSn9cofbI).
+To learn more about pytest and all the nice things it offers, refer to the [pytest documentation](https://docs.pytest.org/en/6.2.x/contents.html#toc). You can also check tutorials such as [this one](https://www.guru99.com/pytest-tutorial.html) or watch [this PyConDE keynote](https://www.youtube.com/watch?v=CMuSn9cofbI).
 
 <br/>
 

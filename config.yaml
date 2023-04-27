@@ -53,10 +53,14 @@ languages:
           name: Project guide
           url: /project_guide/
           weight: 8
+        - parent: documents
+          name: Code of Conduct
+          url: /coc/
+          weight: 9
         - identifier: Modules
           name: Modules
           url: /modules/
-          weight: 9
+          weight: 10
 
       topbar:
         - weight: 1

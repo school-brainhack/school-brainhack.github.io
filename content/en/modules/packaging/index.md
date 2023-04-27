@@ -32,7 +32,7 @@ The prerequisites to take this module are:
  * [Installation module](/modules/installation).
  * [Introduction to python for data analysis](/modules/python_data_analysis/) module.
 
-Contact Désirée Lussier if you have questions on this module, or if you want to check that you completed successfully all the exercises.
+If you have any questions regarding the module content please ask them in the relevant module channel on the school Discord server. If you do not have access to the server and would like to join, please send us an email at school [dot] brainhack [at] gmail [dot] com.
 
 ## Resources
 This module was presented by Valérie Hayot-Sasson during BrainHack School 2020. The slides are available [here](https://docs.google.com/presentation/d/18aMOZBbKEKTHtiZZA5bRPOBwxOVoPLRT1c5FaQZYLQI/edit?usp=sharing).
@@ -52,7 +52,7 @@ The video of the presentation is available below (57:51):
  * Add on `__init.py__` in your module folder. See this [example](https://careerkarma.com/blog/what-is-init-py/)
  * Try installing your package locally by running `pip install -e .` in your repository.
  * **Optional**: You can try to create the distribution files and publish this package on a test server of `pypi`. This step is described in this [tutorial](https://packaging.python.org/tutorials/packaging-projects/#generating-distribution-archives). The pypi test server is made to test how publishing a package works - so don't worry if this is just a test or if you make mistakes, the server exists for that purpose. If you upload the package on pipy itself, anybody will be able to install your software by typing `pip install <my_package>` but beware! `pipy` is a community resource, and you should only publish serious, well tested projects on there.
- * Follow up with Désirée Lussier to validate you completed the exercise correctly.
+ * Follow up with your local TA(s) to validate you completed the exercises correctly.
  * :tada: :tada: :tada: you completed this training module! :tada: :tada: :tada:
 
 ## More resources
