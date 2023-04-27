@@ -31,7 +31,9 @@ The estimated time to complete this training module is 1.5h.
 The prerequisites to take this module are:
  * the [installation](/modules/installation) module.
 
-Contact Isil Bilgin if you have questions on this module, or if you want to check that you completed successfully all the exercises.
+If you have any questions regarding the module content please ask them in the relevant module channel on the school Discord server. If you do not have access to the server and would like to join, please send us an email at school [dot] brainhack [at] gmail [dot] com.
+
+Follow up with your local TA(s) to validate you completed the exercises correctly.
 
 ## Resources
 This module was presented by Sebastian Urchs during Brainhack School 2020.
