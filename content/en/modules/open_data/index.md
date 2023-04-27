@@ -40,7 +40,8 @@ This module was presented by Sebastian Urchs during Brainhack School 2020.
 
 The presentation slides are available [here](https://docs.google.com/presentation/d/19pp-SwWI-Fi72BCsht_7SAj-uFp0-ijBqRc31sy2-Ag).
 
-Jupyter Notebook to follow is [here](https://mybinder.org/v2/gh/school-brainhack/bhs_nilearn_example/HEAD?labpath=nilearn_demo.ipynb).
+Jupyter Notebook to follow is [here](https://mybinder.org/v2/gh/school-brainhack/bhs_nilearn_example/HEAD?labpath=nilearn_demo.ipynb). If you are not able to run the notebook through mybinder, you can download it from
+this [link](https://github.com/surchs/bhs_nilearn_example/blob/master/nilearn_demo.ipynb), and run it locally inside a [virtual environment](https://virtualenv.pypa.io/en/latest/). 
 
 The video presentation is available below:
 <iframe width="560" height="315" src="https://www.youtube.com/embed/OEhgEo5IAmk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
