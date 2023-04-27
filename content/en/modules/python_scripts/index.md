@@ -31,16 +31,22 @@ The estimated time to complete this training module is 2h.
 The prerequisites to take this module are:
  * the [installation](/modules/installation) module.
 
-Contact Hao-Ting Wang if you have questions on this module, or if you want to check that you completed successfully all the exercises.
+Contact your local TA if you have questions on this module, or if you want to check that you completed successfully all the exercises.
 
 ## Resources
-This module was presented by [Greg Kiar](https://github.com/gkiar) during the QLSC 612 course in 2020, with [slides](https://docs.google.com/presentation/d/1n2RlMdmv1p25Xy5thJUhkKGvjtV-dkAIsUXP-AL4ffI/edit#slide=id.g362da58057_0_1) from Joel Grus' talk at JupyterCon 2018.
+This module is based on [Greg Kiar](https://github.com/gkiar)'s [QLSC 612 course]( https://youtu.be/zpOQENxs1G4 ) in 2020, with [slides](https://docs.google.com/presentation/d/1n2RlMdmv1p25Xy5thJUhkKGvjtV-dkAIsUXP-AL4ffI/edit#slide=id.g362da58057_0_1) from Joel Grus' talk at JupyterCon 2018.
 
 The video is available below:
-<iframe width="560" height="315" src="https://www.youtube.com/embed/zpOQENxs1G4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/karKf2CCpPA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 
 ## Exercise
+
+* Watch the video and follow along the hands on part to do the exercise. If you prefer to do the execercise on your own, the instructions are also written below.
+
+<details>
+
+<summary> <h4> Click to show the exercise instructions &#11015 <h4/></summary>
 
 In this exercise we will program a key-based encryption and decryption system. We will implement a version of the [Vigenere cipher](https://en.wikipedia.org/wiki/Vigen%C3%A8re_cipher), but instead of just using the 26 letters of the alphabet, we will use all the unicode characters.
 
@@ -64,7 +70,7 @@ For the indices of the letter, we will not use the the number of the letter in t
 
 ### Step 1: Create relevant functions in `useful_functions.py`
 
-  You'll implement the following functions :
+  In that file, implement the following functions :
   * `encrypt_letter(letter, key)` : return the encrypted letter with the key, e.g. `encrypt_letter("l", "h")` should return `'Ô'`.
   * `decrypt_letter(letter, key)` : return the decrypted letter with the key, e.g. `decrypt_letter("Ô", "h")` should return `'l'`.
   * `process_message(message, key, encrypt)`: return the encrypted message using the letters in `key` if encrypt is `True`, and the decrypted message if encrypt is `False`. For example :
@@ -79,141 +85,43 @@ process_message('ÆÛÚÉÒá', 'clef', False)
 After creating these function, try to call them in your python terminal or in a JupyterNotebook to try things out.
 Are the functions performing as you expected?
 
-If so, let's make sure they are in a file named `useful_functions.py` and conclude the first part of the exercise.
+To reliably make sure that the `process_message `function works correctly, let's add a test at the end of the `useful_functions.py` file. 
+* Define a `message` variable with a word (e.g. `message = "word"`), then a `key` variable with an other word (e.g. `key = "key"`). 
+* Use `process_message` to generate the encryption of the `message` variable with the `key` in an `encrypted_msg` variable.
+* Use the `process_message` function again to decrypt the `encrypted_msg` variable (still using the same `key`) in a `decrypted_msg` variable.
+* Verify that `message == decrypted_msg` by printing "Test passed" if it is true and "Test failed" if it is false. 
+
+Now we have a proper test of our `process_message` function, and we can run it by executing the `useful_functions.py` script. However we don't want to run the test when we just import the functions from the file, so we will need to use the `if __name__ == "__main__":` statement.
+* Put the test in an `if __name__ == "__main__":` block.
+
+Now we have our functions and a test to validate them, we can conclude the first part of the exercise.
 
 ### Step 2: Create a file `cypher_script.py`:
 
-* use the Argparse library introduced in the video so that a user can call the script with three arguments : `--message`, `--key` and `--mode`. `--message` will contain the path to a text files containing the message. `--key` will be a string directly containing the key. `--mode` will be a string that can take the value `"enc"` or `"dec"` to tell the script if you want to encrypt or decrypt the message.
-* The script should import the functions from `useful_functions.py` and use them in its main function to encrypt or decrypt the text in the message file using the text in the key file as the key, and save the results in a file that has the same name as the message file but with a `_encrypted` or `_decrypted` suffix depending on the mode. So calling `python cypher_script.py --message msg_file.txt --key my_key --mode enc` should create a `msg_file_encrypted.txt` file.
-* Don't forget to write the code under `if __name__ == "__main__"`. Even though in this example it won’t make a difference, it is never too early to get used to good practices. Read this section below to understand the usefulness of `if __name__ == "__main__"`.
+* use the Argparse library introduced in the video so that a user can call the script with four arguments : `-i`, `-o`, `-k` and `-m`. `-i` will contain the path to the input text files containing the message. `-o` will contain the path for the output file where the processed message will be written. `-k` will be a string directly containing the key. `-m` will be the mode: a string that can take the value `"encryption"` or `"decryption"` to tell the script if you want to encrypt or decrypt the input message.
+* The script should import the functions from `useful_functions.py` and use them in its main function to encrypt or decrypt the text in the input file using the text in the key file as the key, and save the results in the output file. So calling `python cypher_script.py -i msg_file.txt -o msg_encrypted.txt -k my_key -m encryption` should create a `msg_encrypted.txt` file.
+* Don't forget to write the code under `if __name__ == "__main__"`. Even though in this file it won’t make a difference, it is never too early to get used to good practices.
 
 <br/>
 
-<details>
-
-<summary> <h4> On the usefulness of "if __name__ == '__main__':" (click to show &#11015) <h4/></summary>
-
-It is not obvious why you should put the `if __name__ == "__main__":` line in your script. Indeed in a lot of cases, putting it or not won't change anything to how your code runs. But in specific settings with multiple scripts importing from each pother, not putting it in can quickly lead to a nightmare.
-To give you an insight of how and why it is useful, here is an example (if you don't want to read or if you want complementary explanations, here is [a nice youtube video](https://www.youtube.com/watch?v=g_wlZ9IhbTs) about it).
-
-Suppose you have a script to fit a Ridge model on provided data, judiciously named `fit_Ridge.py`, which looks like this :
-```
-#!/usr/bin/env python
-import argparse
-import pickle  # pickle is a librairie to save and load python objects.
-import numpy as np
-from sklearn.linear_model import Ridge
-
-def fit_Ridge_model(X, Y):
-    model = Ridge()
-    model.fit(X, Y)
-    return model
-
-parser = argparse.ArgumentParser()
-parser.add_argument("--X_data_path", type=str)
-parser.add_argument("--Y_data_path", type=str)
-parser.add_argument("--output_path", type=str)
-args = parser.parse_args()
-
-X = np.load(args.X_data_path)
-Y = np.load(args.Y_data_path)
-model = fit_Ridge_model(X, Y)
-pickle.dump(model, open(args.output_path, 'wb'))
-```
-This script allows the user to provide the paths to two numpy files as data to fit a Ridge model, and to save the model to the provided path with a command like :
-```
-python fit_Ridge.py --X_data_path data_folder/X.npy --Y_data_path data_folder/Y.npy --output_path models/Ridge.pk
-```
-There is no `if __name__ == "__main__":` to be seen but, used on its own, the script works fine.
-
-But later, you write an other script `compare_to_Lasso.py` that compare Ridge and Lasso models on the same data, so you need to fit a Ridge model again. Eager to apply the good practices of programming, you judiciously decide not to duplicate the code for fitting a ridge model, but to import the `fit_Ridge_model` function from the `fit_Ridge.py`. Thus your second script looks like that :
-```
-#!/usr/bin/env python
-import numpy as np
-import argparse
-from sklearn.linear_model import Lasso
-from fit_Ridge import fit_Ridge_model
-
-parser = argparse.ArgumentParser()
-parser.add_argument("--X_data_path", type=str)
-parser.add_argument("--Y_data_path", type=str)
-args = parser.parse_args()
-
-X = np.load(args.X_data_path)
-Y = np.load(args.Y_data_path)
-
-ridge_model = fit_Ridge_model(X, Y)
-lasso_model = Lasso()
-lasso_model.fit(X, Y)
-
-ridge_score = ridge_model.score(X, Y)
-lasso_score = lasso_model.score(X, Y)
-
-if Ridge_score > lasso_score:
-    print("Ridge model is better.")
-else:
-    print("Lasso model is better.")
-```
-
-It seems fine but here when you try to call
-```
-python compare_to_Lasso.py --X_data_path data_folder/x.npy --Y_data_path data_folder/Y.npy
-```
-you get an error :
-```
-Traceback (most recent call last):
-  File "compare_lasso_ridge.py", line 5, in <module>
-    from fit_Ridge import fit_Ridge_model
-  File "/Users/francois/scratch/fit_Ridge.py", line 21, in <module>
-    pickle.dump(model, open(args.output_path, 'wb'))
-TypeError: expected str, bytes or os.PathLike object, not NoneType
-```
-
-The error shows that the script tried to save a model to the path `args.output_path`, which was not defined so it was set to None and raised a TypeError. But our `compare_to_Lasso.py` script never tries to save a model ! Indeed looking at the other lines of the error message, we see that it comes from the import. In fact what happens is that when we try to import the `fit_Ridge_model` function from the `fit_Ridge.py` file, python will read the entire file and execute everything that is written in it, so it will try to fit a Ridge model and to save it. But we don't want python to execute everything, we just want it to read the definition of the `fit_Ridge_model` function. That is why here we absolutely need the `if __name__ == "__main__":`, so we modify the `fit_Ridge.py` script like that :
-```
-#!/usr/bin/env python
-import argparse
-import pickle  # pickle is a librairie to save and load python objects.
-import numpy as np
-from sklearn.linear_model import Ridge
-
-def fit_Ridge_model(X, Y):
-    model = Ridge()
-    model.fit(X, Y)
-    return model
-
-if __name__ == "__main__":
-    parser = argparse.ArgumentParser()
-    parser.add_argument("--X_data_path", type=str)
-    parser.add_argument("--Y_data_path", type=str)
-    parser.add_argument("--output_path", type=str)
-    args = parser.parse_args()
-
-    X = np.load(args.X_data_path)
-    Y = np.load(args.Y_data_path)
-    model = fit_Ridge_model(X, Y)
-    pickle.dump(model, open(args.output_path, 'wb'))
-```
-Now when importing from this script, python will read the definition of the function, but after that it will not execute the rest, since during the import the variable `__name__` is not set to `"__main__"` but to `"fit_Ridge"`.
-
-In the end using `if __name__ == "__main__":` is the only way to safely import functions from our script, and since you never know for sure that you won't have to import something from a script in the future, putting it in all of your script by default is not a bad idea.
-
 </details>
-<br>
 
+<br/>
 
-### Step 3: verify your results
+### Last step: verify your implementation
 
 Finally, decrypt the file obtained with :
 ```
-wget https://raw.githubusercontent.com/BrainhackMTL/psy6983_2021/master/content/en/modules/python_scripts/message_encrypted.txt
+wget https://raw.githubusercontent.com/school-brainhack/school-brainhack.github.io/main/content/en/modules/python_scripts/message_encrypted.txt
 ```
 with the following key :
 ```
 my_super_secret_key
 ```
+Can you see something cool in the decrypted file ?
 
- * Follow up with Hao-Ting Wang to validate you completed the exercise correctly.
+
+ * Follow up with your local TA to validate you completed the exercise correctly.
  * :tada: :tada: :tada: you completed this training module! :tada: :tada: :tada:
 
 
