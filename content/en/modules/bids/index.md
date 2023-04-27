@@ -32,7 +32,8 @@ The prerequisites to take this module are:
  * the [installation](/modules/installation) module.
  * the [introduction to the terminal](/modules/terminal) module.
  * the [python for data analysis](/modules/python_data_analysis) module.
-Contact Natasha Clarke if you have questions on this module, or if you want to check that you completed successfully all the exercises.
+
+If you have any questions regarding the module content please ask them in the relevant module channel on the school Discord server. If you do not have access to the server and would like to join, please send us an email at school [dot] brainhack [at] gmail [dot] com.
 
 ## Resources
 This module was presented by [Christopher J. Markiewicz](https://effigies.github.io/) during the QLSC 612 course in 2020.
@@ -48,7 +49,8 @@ The video of his presentation is available below:
  * Install pybids. Use pybids to get a list of all BOLD `nii.gz` files for subject `pixar003`. In which folder did you find them? is it logical? You may want to have a look at the [BIDS documentation](https://bids.neuroimaging.io/) to familiarize yourself with the BIDS standard.
  * Using pybids, get a list of the flip angles in `DS000228`.
  * Clone a Midnight Brain Scan dataset from this [git](https://github.com/OpenNeuroDatasets/ds000224) repository. Use `pybids` to load the `participant.tsv` file as a pandas dataframe in python.
- * Follow up with Natasha Clarke to validate you completed the exercise correctly.
+ 
+ * Follow up with your local TA(s) to validate you completed the exercises correctly.
  * :tada: :tada: :tada: you completed this training module! :tada: :tada: :tada:
 
 ## More resources

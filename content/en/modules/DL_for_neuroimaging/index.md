@@ -32,7 +32,7 @@ The prerequisites to take this module are:
  * the [installation](/modules/installation) module.
  * the [introduction to python for data analysis](/modules/python_data_analysis) module.
 
-Contact Hao-Ting Wang if you have questions on this module, or if you want to check that you completed successfully all the exercises.
+If you have any questions regarding the module content please ask them in the relevant module channel on the school Discord server. If you do not have access to the server and would like to join, please send us an email at school [dot] brainhack [at] gmail [dot] com.
 
 ## Resources
 This module will be using the [MAIN educational workshop on brain encoding and decoding](https://main-educational.github.io/brain_encoding_decoding/intro.html).
@@ -45,7 +45,7 @@ Let's have a look at application on functional data with the [MAIN educational w
 
  * (Optional) You can learn about the [Graph Convolution Network](https://main-educational.github.io/brain_encoding_decoding/gcn_decoding.html) and how to work with timeseries data!
 
- * Follow up with Hao-Ting Wang to validate you completed the exercise correctly.
+ * Follow up with your local TA(s) to validate you completed the exercises correctly.
  * :tada: :tada: :tada: you completed this training module! :tada: :tada: :tada:
 
 ## More resources
