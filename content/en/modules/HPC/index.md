@@ -34,6 +34,8 @@ The prerequisites to take this module are:
 
 If you have any questions regarding the module content please ask them in the relevant module channel on the school Discord server. If you do not have access to the server and would like to join, please send us an email at school [dot] brainhack [at] gmail [dot] com.
 
+Follow up with your local TA(s) to validate you completed the exercises correctly.
+
 :warning: It should be noted that recently Compute Canada changed its name to Alliance Canada.
 That does not change the relevance of the exercises presented here, but it can make some naming conventions outdated.
 For example, the documentation website for the clusters is no longer https://docs.computecanada.ca/wiki/Technical_documentation but https://docs.alliancecan.ca/wiki/Technical_documentation. However for now the old URLs redirect to the new ones so using the old names doesn't seem to create issues, but that might not stay true in the long run.

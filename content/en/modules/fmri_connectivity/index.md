@@ -32,7 +32,9 @@ The prerequisites to take this module are:
  * the [installation](/modules/installation) module.
  * the [introduction to python for data analysis](/modules/python_data_analysis) module.
 
-If you have any questions regarding the module content please ask them in the relevant module channel on the school Discord server. If you do not have access to the server and would like to join, please send us an email at school.brainhack [at] gmail [dot] com.
+If you have any questions regarding the module content please ask them in the relevant module channel on the school Discord server. If you do not have access to the server and would like to join, please send us an email at school.brainhack [at] gmail [dot] com
+
+Follow up with your local TA(s) to validate you completed the exercises correctly.
 
 ## Resources
 This module was presented by Pierre Bellec during the QLSC 612 course in 2020. The video of the presentation is available below:
