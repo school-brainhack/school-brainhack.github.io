@@ -21,7 +21,14 @@
       "avatar_url": "https://avatars.githubusercontent.com/u/57987005?v=4",
       "profile": "https://github.com/clarkenj",
       "contributions": [
-        "ideas"
+        "ideas",
+        "bug",
+        "content",
+        "doc",
+        "eventOrganizing",
+        "maintenance",
+        "mentoring",
+        "review"
       ]
     }
   ],
