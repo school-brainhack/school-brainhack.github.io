@@ -24,7 +24,7 @@ To test it locally, you will need to:
 <table>
   <tbody>
     <tr>
-      <td align="center" valign="top" width="14.28%"><a href="https://github.com/me-pic"><img src="https://avatars.githubusercontent.com/u/77584086?v=4?s=100" width="100px;" alt="Marie-Eve Picard (she/her)"/><br /><sub><b>Marie-Eve Picard (she/her)</b></sub></a><br /><a href="#translation-me-pic" title="Translation">🌍</a></td>
+      <td align="center" valign="top" width="14.28%"><a href="https://github.com/me-pic"><img src="https://avatars.githubusercontent.com/u/77584086?v=4?s=100" width="100px;" alt="Marie-Eve Picard (she/her)"/><br /><sub><b>Marie-Eve Picard (she/her)</b></sub></a><br /><a href="#translation-me-pic" title="Translation">🌍</a> <a href="https://github.com/school-brainhack/school-brainhack.github.io/issues?q=author%3Ame-pic" title="Bug reports">🐛</a> <a href="#content-me-pic" title="Content">🖋</a> <a href="https://github.com/school-brainhack/school-brainhack.github.io/commits?author=me-pic" title="Documentation">📖</a> <a href="#maintenance-me-pic" title="Maintenance">🚧</a> <a href="#mentoring-me-pic" title="Mentoring">🧑‍🏫</a> <a href="https://github.com/school-brainhack/school-brainhack.github.io/pulls?q=is%3Apr+reviewed-by%3Ame-pic" title="Reviewed Pull Requests">👀</a></td>
     </tr>
   </tbody>
 </table>
