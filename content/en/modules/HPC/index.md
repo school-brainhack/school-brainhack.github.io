@@ -42,7 +42,7 @@ For example, the documentation website for the clusters is no longer https://doc
 
 `ssh <username>@beluga.computecanada.ca`
 
-:warning: :warning: If you reside outside of Canada and don't have access to a local HPC you can apply to access [Brainhack Cloud](https://brainhack.org/brainhack_cloud/). Subsequently anytime the lecture material below refers to location-specific inputs you will have to adjust your inputs accordingly. (e.g. the ssh connection)
+:warning: :warning: If you reside outside of Canada and don't have access to a local HPC you can apply to access [Brainhack Cloud](https://brainhack.org/brainhack_cloud/). Subsequently anytime the lecture material below refers to location-specific inputs you will have to adjust your inputs accordingly (e.g. the ssh connection).
 
 ## Resources
 This module was presented by [Félix-Antoine Fortin](https://github.com/cmd-ntrf) during the QLSC 612 course in 2020.
@@ -76,7 +76,7 @@ The video of his presentation is available below:
  ```
  rm cq-formation-premiers-pas-slurmcloud.zip
  ```
- * Do the exercises in the `cq-formation-premiers-pas-slurmcloud` folder, you cans see the original instructions in the README files, for example :
+ * Do the exercises in the `cq-formation-premiers-pas-slurmcloud` folder, you can see the original instructions in the README files, for example :
  ```
  cd cq-formation-premiers-pas-slurmcloud/1-base
  cat README.en
@@ -95,7 +95,7 @@ The video of his presentation is available below:
 
  <br>
 
- * Follow up with François Paugam to validate you completed the 5 exercises correctly.
+ * Follow up with François Paugam to validate you have completed the 5 exercises correctly.
  * :tada: :tada: :tada: you completed this training module! :tada: :tada: :tada:
 
 ## More resources
