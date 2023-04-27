@@ -33,8 +33,6 @@ The prerequisites to take this module are:
 
 If you have any questions regarding the module content please ask them in the relevant module channel on the school Discord server. If you do not have access to the server and would like to join, please send us an email at school [dot] brainhack [at] gmail [dot] com.
 
-Follow up with your local TA(s) to validate you completed the exercises correctly.
-
 ## Resources
 This module was presented by Sebastian Urchs during Brainhack School 2020.
 
