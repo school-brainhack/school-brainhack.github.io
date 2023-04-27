@@ -38,10 +38,9 @@ To test it locally, you will need to:
    Navigate the local version to make sure things are compiled correctly.
 
 
-<!-- markdownlint-restore -->
-<!-- prettier-ignore-end -->
+## Contributors
 
-<!-- ALL-CONTRIBUTORS-LIST:END -->
+<!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
 <!-- prettier-ignore-start -->
 <!-- markdownlint-disable -->
 
