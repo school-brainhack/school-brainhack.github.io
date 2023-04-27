@@ -32,7 +32,8 @@ The prerequisites to take this module are:
  * the [installation](/modules/installation) module.
  * the [introduction to python for data analysis](/modules/python_data_analysis) module.
 
-Contact Désirée Lussier for questions on this module and once you have completed the exercises to receive credit for the module.
+If you have any questions regarding the module content please ask them in the relevant module channel on the school Discord server. If you do not have access to the server and would like to join, please send us an email at school.brainhack [at] gmail [dot] com
+Follow up with your local TA(s) to validate you completed the exercises correctly.
 
 ## Resources
 This module was presented by Pierre Bellec during the QLSC 612 course in 2020. The video of the presentation is available below:
@@ -50,7 +51,7 @@ You can find the Jupyter notebook for this module [here](https://github.com/brai
  wget https://raw.githubusercontent.com/brainhackorg/school/master/content/en/modules/fmri_connectivity/BHS_fMRI_connectivity.ipynb
  ```
  * Run the notebook and complete the 3 exercises at the end.
- * Follow up with Désirée Lussier to validate you completed the exercise correctly.
+ * Follow up with a TA to validate you completed the exercise correctly.
  * :tada: :tada: :tada: you completed this training module! :tada: :tada: :tada:
 
 ## More resources

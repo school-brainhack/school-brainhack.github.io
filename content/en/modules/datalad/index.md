@@ -34,7 +34,8 @@ The prerequisites to take this module are:
  * the [introduction to git and github](/modules/git_github) module can help, but not required.
  * the [project management](/modules/project_management) module is recommended, but not required.
 
-Contact Isil Bilgin if you have questions on this module, or if you want to check that you completed successfully all the exercises.
+If you have any questions regarding the module content please ask them in the relevant module channel on the school Discord server. If you do not have access to the server and would like to join, please send us an email at school.brainhack [at] gmail [dot] com
+Follow up with your local TA(s) to validate you completed the exercises correctly.
 
 ## Resources
 This module was presented by [Adina Wagner](https://twitter.com/AdinaKrik) during the HBM Brainhack in 2020.
