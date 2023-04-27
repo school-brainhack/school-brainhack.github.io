@@ -29,26 +29,24 @@ image: "brain_dynamics.gif"
 The estimated time to complete this training module is 2.30h.
 
 The prerequisites to take this module are:
- * Installations
- * Creting a virtual environment:
-       - if you are using Conda, please a Conda virtual environment by following instructions [here](https://conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html).
+ * the [installation](/modules/installation) module.
+ * Creating a virtual environment:
+       - if you are using Conda, please create a Conda virtual environment by following the instructions [here](https://conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html).
        - otherwise ceate a new Python virtual environment by following the instructions [here](https://docs.python.org/3/library/venv.html).
  * Install MNE and MNE-BIDS:
-       - Install MNE by following instructions [here](https://mne.tools/stable/install/manual_install.html)
-       - Install MNE-BIDS by following the instructions [here](https://mne.tools/mne-bids/stable/install.htm)
-       - if you are using conda environment with `conda create --strict-channel-priority --channel=conda-forge --name=mne mne-base`
-       - otherwise with `pip install mne`.
+       - Install MNE by following the instructions [here](https://mne.tools/stable/install/manual_install.html).
+       - Install MNE-BIDS by following the instructions [here](https://mne.tools/mne-bids/stable/install.htm).
        
 If you have any questions regarding the module content please ask them in the relevant module channel on the school Discord server. If you do not have access to the server and would like to join, please send us an email at school.brainhack [at] gmail [dot] com.
 
 ## Resources
-This module was presented by Davide Momi during the [Brainhack Toronto](https://brainhackto.github.io/global-toronto-12-2022/), and the associated notebooks are available [here](https://github.com/Davi1990/mne_eeg_workshop)
+This module was presented by Davide Momi during the [Brainhack Toronto](https://brainhackto.github.io/global-toronto-12-2022/), and the associated notebooks are available [here](https://github.com/Davi1990/mne_eeg_workshop).
 
-The video of the presentation is available below (1h33):
+The video of the presentation is available below (duration 1h33):
 <iframe width="560" height="315" src="https://www.youtube.com/embed/du1XezR246w" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 ## Tutorial
-To run the code locally please follow the instructions
+To run the code locally please follow the instructions.
  * Download the folder using:
 ```
 git clone https://github.com/Davi1990/mne_eeg_workshop/
@@ -63,16 +61,16 @@ cd folder_path_to_the_cloned_repo
 pip install -r requirements.txt
 ```
 
- * Download the required [data folder](https://drive.google.com/drive/folders/1DO-dXfIXzGDzmgcWRMtYvX30ZECYzRYd?usp=sharing)
+ * Download the required [data folder](https://drive.google.com/drive/folders/1DO-dXfIXzGDzmgcWRMtYvX30ZECYzRYd?usp=sharing).
 
- * Download the [raw file](https://drive.google.com/file/d/1-RSyaXp2Chx0zLuaAnlgK8o1VMo3enx8/view?usp=share_link)
+ * Download the [raw file](https://drive.google.com/file/d/1-RSyaXp2Chx0zLuaAnlgK8o1VMo3enx8/view?usp=share_link).
 
  * Start a new jupyter notebook. For this follow the instructions below:
        - Open the terminal
-       - Type jupyter notebook
-       - If you’re not automatically directed to a webpage copy the URL printed in the terminal and paste it in your browser
-       - Once on the webpage, navigate to the `mne_eeg_workshop` you cloned.
-       - upload the notebook associated with notebook.
+       - Type `jupyter notebook`
+       - If you’re not automatically directed to a webpage, copy the URL printed in the terminal and paste it in your browser
+       - Once on the webpage, navigate to the `mne_eeg_workshop` you cloned
+       - Open the relevant notebook.
        
 ## Exercise
 
@@ -88,16 +86,16 @@ pip install -r requirements.txt
        Is there any bad channel?
        
 
-**Exercise 2** Import a new epoched file and generate figure of both evoked response and principal components
+**Exercise 2** Import a new epoched file and generate a figure of both evoked response and principal components.
 
-        Read the file 'sub-s01_task-faceFO_eeg.fif' as an epoched object
-        Make a joint plot of the time-series?
-        Create a variable with the array of the evoked data
-        Decompose the data using SVD (use the function numpy.linalg.svd)
-        Make a matplotlib figure with 1 row and 5 columns and plot the first 5 components using the function mne.viz.plot_topomap
+        Read the file `sub-s01_task-faceFO_eeg.fif` as an epoched object.
+        Make a joint plot of the time-series.
+        Create a variable with the array of the evoked data.
+        Decompose the data using SVD (use the function `numpy.linalg.svd`)
+        Make a `matplotlib` figure with 1 row and 5 columns and plot the first 5 components using the function `mne.viz.plot_topomap`.
 
 
-After finishing each of your exercise, rename the notebook and save it to your local with your answers to share with your TA(s).
+After finishing your exercises, rename the notebook and save it to your local machine with your answers to share with your TA(s).
 Follow up with your local TA(s) to validate you completed the exercises correctly
  :tada: :tada: :tada: you completed this training module! :tada: :tada: :tada:
 
