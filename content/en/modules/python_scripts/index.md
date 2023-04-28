@@ -34,7 +34,7 @@ The prerequisites to take this module are:
 Contact your local TA if you have questions on this module, or if you want to check that you completed successfully all the exercises.
 
 ## Resources
-This module is based on [Greg Kiar](https://github.com/gkiar)'s [QLSC 612 course]( https://youtu.be/zpOQENxs1G4 ) in 2020, with [slides](https://docs.google.com/presentation/d/1n2RlMdmv1p25Xy5thJUhkKGvjtV-dkAIsUXP-AL4ffI/edit#slide=id.g362da58057_0_1) from Joel Grus' talk at JupyterCon 2018.
+This module is based on [Greg Kiar](https://github.com/gkiar)'s [QLSC 612 course](https://youtu.be/zpOQENxs1G4) in 2020, with [slides](https://docs.google.com/presentation/d/1n2RlMdmv1p25Xy5thJUhkKGvjtV-dkAIsUXP-AL4ffI/edit#slide=id.g362da58057_0_1) from Joel Grus' talk at JupyterCon 2018.
 
 The video is available below:
 <iframe width="560" height="315" src="https://www.youtube.com/embed/karKf2CCpPA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
