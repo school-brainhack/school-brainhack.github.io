@@ -13,7 +13,8 @@ All one needs to do is to use the "mpiexec" command. For example:
 ```
 Note: if some application does not use MPI to split the workload, all created
       processes will do the same workload, and all the workload many times.
-      For example: mpiexec hostname
+      For example: mpiexec hostname.
+
 Note: mpiexec is smart enough to get your SLURM environment and determine how
       many processes must be started on each node.
 
@@ -23,8 +24,8 @@ The filterImage.exe application uses MPI to process multiple images
 simultaneously on multiple nodes. For this exercise, we will process all
 pictures with 4 processors, i.e. two nodes and two cores per node.
 
-  * Modify submit.sh to request 2 nodes, 2 tasks per node and 1 core per task
-  * Use mpiexec with filterImage.exe
+  * Modify submit.sh to request 2 nodes, 2 tasks per node and 1 core per task.
+  * Use mpiexec with filterImage.exe.
   * Submit the job with the following command:
     sbatch submit.sh
   * Verify that the task is running properly. You should get new images in

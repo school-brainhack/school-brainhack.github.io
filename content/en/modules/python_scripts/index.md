@@ -31,6 +31,9 @@ The estimated time to complete this training module is 2h.
 The prerequisites to take this module are:
  * the [installation](/modules/installation) module.
 
+If you have any questions regarding the module content please ask them in the relevant module channel on the school Discord server. If you do not have access 
+to the server and would like to join, please send us an email at school [dot] brainhack [at] gmail [dot] com.
+
 Contact your local TA if you have questions on this module, or if you want to check that you completed successfully all the exercises.
 
 ## Resources
@@ -120,8 +123,7 @@ my_super_secret_key
 ```
 Can you see something cool in the decrypted file ?
 
-
- * Follow up with your local TA to validate you completed the exercise correctly.
+ * Follow up with your local TA(s) to validate you completed the exercises correctly.
  * :tada: :tada: :tada: you completed this training module! :tada: :tada: :tada:
 
 

@@ -32,12 +32,17 @@ The prerequisites to take this module are:
  * the [installation](/modules/installation) module.
  * the [introduction to the terminal](/modules/introduction_to_terminal) module.
 
-Contact Pierre Bellec if you have questions on this module, or if you want to check that you completed successfully all the exercises.
+If you have any questions regarding the module content please ask them in the relevant module channel on the school Discord server. If you do not have access to the server and would like to join, please send us an email at school [dot] brainhack [at] gmail [dot] com.
 
 ## Resources
-This module was presented by [Elizabeth Dupre](https://elizabeth-dupre.com/#/) during the QLSC 612 course in 2020, with content adapted from the software carpentries by [Elizabeth Dupre](https://elizabeth-dupre.com/#/).
 
-All the tutorial notes are available [here](https://emdupre.github.io/git-course/).
+This module was written by [Elizabeth Dupre](https://elizabeth-dupre.com/#/) and Jenny Tou.
+
+Jenny Tou wrote the git concept module. She initially presented her workshops at Brigham and Women's Hospital in 2019. The video found here is a shortern version of the original presentation. Please contact Jenny for the complete presentation materials.
+
+[Elizabeth Dupre](https://elizabeth-dupre.com/#/) presented her material during the QLSC 612 course in 2020, with content adapted from the software carpentries by [Elizabeth Dupre](https://elizabeth-dupre.com/#/).
+
+All her tutorial notes are available [here](https://emdupre.github.io/git-course/).
 
 The video of her presentation is available below:
 <iframe width="560" height="315" src="https://www.youtube.com/embed/fBgxmpk9C4I" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
@@ -45,9 +50,16 @@ The video of her presentation is available below:
 ## ATTENTION! 
 For the last lecture of the Introduction to Git and GitHub module ([Pull Requests](https://emdupre.github.io/git-course/06-pull-requests/)) please use [this repo](https://github.com/brainhack-school2022/more-papers) under Brainhack School 2022 Github organization to complete the tutorial instead of the one indicated in the tutorial (due to it is no longer in use.). Thank you! 
 
+Github authentication methods have changed! Please find the [latest documentation](https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/about-authentication-to-github).
+
+## Git Concept
+This is a 10 minutes walk through of basic git concepts for people who wants a refresher!
+
+<iframe width="560" height="315" src="https://vimeo.com/822025017?share=copy" title="Vimeo video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 ## Exercise
 
- * send a request through discord on #git-github with your GitHub user name to Isil Bilgin to be added to the github organization [brainhack-school2022](https://github.com/brainhack-school2022).
+ * send a request through discord on #git-github with your GitHub user name to Isil Bilgin to be added to the github organization [school-brainhack](https://github.com/school-brainhack).
  * create a local repository following the naming convention `<last_name>_project`. Don't worry, you will be able to change this name later, and possibly merge the content in another repository if you decide to team up with other people.
  * initialize your repo with a README and a LICENSE.
  * Create an issue for adding a short bio.
@@ -67,7 +79,7 @@ For the last lecture of the Introduction to Git and GitHub module ([Pull Request
  * Using the github interface, request a review of your changes by `complexbrains` (Isil Bilgin).
  * Once `complexbrains` has approved the review, merge the pull request to the `main` branch.
  * Close the issue.
- * Follow up with Isil Bilgin to validate you completed the exercise correctly.
+ * Follow up with your local TA(s) to validate you completed the exercises correctly.
  * :tada: :tada: :tada: you completed this training module! :tada: :tada: :tada:
 
 ## More resources

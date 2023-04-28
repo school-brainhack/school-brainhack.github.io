@@ -37,12 +37,12 @@ Your environment should be ready to go, everything required was set up during th
 
 Important: Note that if you are working with Windows Subsystem for Linux (WSL), paths will be a bit different than with Mac/Linux. You will want to use : `/mnt/c/Users/USERNAME/Desktop/`
 
-Contact Natasha Clarke if you have questions on this module, or if you want to check that you completed successfully all the exercises.
+If you have any questions regarding the module content please ask them in the relevant module channel on the school Discord server. If you do not have access to the server and would like to join, please send us an email at school [dot] brainhack [at] gmail [dot] com.
 
 ## Resources
 This module was presented by [Ross Markello](https://rossmarkello.com/) during the QLSC 612 course in 2020.
 
-All the tutorial notes related to the video below are available [here](https://github.com/neurodatascience/course-materials-2020/blob/master/lectures/11-may/03-intro-to-shell/introduction-to-shell.ipynb). 
+All the tutorial notes related to the video below are available [here](https://github.com/school-brainhack/course-materials-2020/blob/master/lectures/11-may/03-intro-to-shell/introduction-to-shell.ipynb). 
 
 The video of the presentation is available below (duration 1h13). Follow along with the video of the presentation, typing the command line into your terminal.
 
@@ -74,7 +74,7 @@ True/False
  - *Environmental variables are preceded by `$`*
  - *Good naming conventions of files include special characters*
 
-## Exercises
+## Exercise
 
 Practice makes perfect. 
 
@@ -187,11 +187,11 @@ After creating and saving this file you realize you misspelled the filename! You
      cp statstics.txt .
      
      
- * Follow up with Natasha Clarke to validate you completed the exercise correctly.
+ * Follow up with your local TA(s) to validate you completed the exercises correctly.
  * :tada: :tada: :tada: you completed this training module! :tada: :tada: :tada:
 
 ## More resources
 
 If you are curious to solidify your capabilities for using the shell, you can check this tutorial "Effective use of bash" by Ankur Sinha organized for the [INCF/OCNS software working group](https://ocns.github.io/SoftwareWG/2021/06/09/software-wg-tutorials-at-cns-2021-online-bash-git-and-python.html).
 
-You can also try out this tutorial which inspired much of the content you saw today, while exploring the shell in further detail. It covers pipes and filters, loops, shell scripts, finding things. [The Unix Shell](https://swcarpentry.github.io/shell-novice/01-intro/index.html)
+You can also try out this tutorial which inspired much of the content you saw today, while exploring the shell in further detail. It covers pipes and filters, loops, shell scripts, finding things: [The Unix Shell](https://swcarpentry.github.io/shell-novice/01-intro/index.html).

@@ -9,15 +9,15 @@ flexible while having a compact syntax.
 
 GNU parallel is a powerful tool to execute parallel tasks. It supports two
 main input formats:
-  * Lists of values on the command line
-  * Lists of values in a file
+  * Lists of values on the command line.
+  * Lists of values in a file.
 
 Please check the [Alliance Canada wiki](https://docs.alliancecan.ca/wiki/GNU_Parallel) for basic options, and the [official documentation](http://www.gnu.org/software/parallel/man.html) for advanced options.
 
 
 For this exercise, we will reuse the output of the "ls" command with $( ).
 For example, to display the content of "../photos" in
-parallal, we would use GNU parallel the following way:
+parallel, we would use GNU parallel the following way:
 ```
    parallel echo {1} ::: $(ls ../photos)
 ```
@@ -32,10 +32,10 @@ We will use the parallel command to convert all pictures in
 "../photos":
 
   * Request 2 cores with the --cpus-per-task option in the job submission
-    script header
+    script header.
   * Use the parallel command on filterImage.exe to run it on the list of files in
     "../photos" (you can mimic the example line above, replacing `echo` by the adequate command).
-  * Submit the job with the command
+  * Submit the job with the command.
 ```
    sbatch submit.sh
 ```
