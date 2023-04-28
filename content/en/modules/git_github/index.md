@@ -38,7 +38,7 @@ Contact Pierre Bellec if you have questions on this module, or if you want to ch
 
 This module was written by [Elizabeth Dupre](https://elizabeth-dupre.com/#/) and Jenny Tou.
 
-Jenny Tou wrote the git concept module. She initially presented her workshops at Brigham and Women's Hospital in 2019. The video found here is a shortern version of the original presentation. Please contact her at sl.tou@mail.utoronto.ca for the complete presentation materials.
+Jenny Tou wrote the git concept module. She initially presented her workshops at Brigham and Women's Hospital in 2019. The video found here is a shortern version of the original presentation. Please contact Jenny for the complete presentation materials.
 
 [Elizabeth Dupre](https://elizabeth-dupre.com/#/) presented her material during the QLSC 612 course in 2020, with content adapted from the software carpentries by [Elizabeth Dupre](https://elizabeth-dupre.com/#/).
 
@@ -53,6 +53,8 @@ For the last lecture of the Introduction to Git and GitHub module ([Pull Request
 Github authentication methods have changed! Please find the [latest documentation](https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/about-authentication-to-github).
 
 ## Git Concept
+This is a 10 minutes walk through of basic git concepts for people who wants a refresher!
+
 <iframe width="560" height="315" src="https://vimeo.com/822025017?share=copy" title="Vimeo video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ## Exercise
