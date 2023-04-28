@@ -1,22 +1,40 @@
-#!/usr/bin/env python
 import argparse
-import os
-from useful_functions import encrypt_letter, decrypt_letter, process_message
+from useful_functions import process_message
+
+
+def main(input_path, key, mode, output_path):
+    with open(input_path, "r") as message_file:
+        message = message_file.read()
+    encrypt = mode == "encryption"
+    processed_message = process_message(message, key, encrypt)
+    with open(output_path, "w") as out_file:
+        out_file.write(processed_message)
+
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
-    parser.add_argument("--message", type=str, help="Path to the text file containing the message \
-                        to be encrypted or decrypted.")
-    parser.add_argument("--key", type=str, help="Key to use to encrypt or decrypt the message.")
-    parser.add_argument("--mode", type=str, choices=["enc", "dec"], help="whether to encrypt ('enc') \
-                        or decrypt ('dec') the message.")
+    parser.add_argument(
+        "-i",
+        dest="input_path",
+        type=str,
+        required=True,
+        help="Path to the input file.",
+    )
+    parser.add_argument(
+        "-o",
+        dest="output_path",
+        type=str,
+        required=True,
+        help="Path to the output file.",
+    )
+    parser.add_argument("-k", dest="key", type=str, required=True, help="Key.")
+    parser.add_argument(
+        "-m",
+        dest="mode",
+        type=str,
+        required=True,
+        choices=["encryption", "decryption"],
+        help="Wether to encrypt or decrypt the message.",
+    )
     args = parser.parse_args()
-
-    with open(args.message, 'r') as f:
-        message = f.read()
-    encrypt = args.mode == "enc"
-    processed_message = process_message(message, args.key, encrypt)
-    suffix = "_encrypted" if encrypt else "_decrypted"
-    save_path = os.path.splitext(args.message)[0] + suffix + ".txt"
-    with open(save_path, 'w') as f:
-        f.write(processed_message)
+    main(args.input_path, args.key, args.mode, args.output_path)
