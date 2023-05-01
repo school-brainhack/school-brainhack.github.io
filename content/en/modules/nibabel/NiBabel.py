@@ -39,7 +39,7 @@
 # | NIfTI-1 | NIfTI-2 | MGH |
 # | MINC 1.0 | MINC 2.0 | AFNI BRIK/HEAD |
 # | ANALYZE | SPM99 ANALYZE | SPM2 ANALYZE |
-# | DICOM | PAR/REC | ECAT | 
+# | DICOM | PAR/REC | ECAT |
 #
 # It also supports surface file formats:
 #
@@ -92,9 +92,8 @@ from scipy import ndimage as ndi      # Operate on N-dimensional images
 # %pylab inline
 
 # %%
-# Assume we're on the NeuroHackademy hub.
-data_dir = Path('data')
-
+# Assume you have download the data to your home directory in ~/data
+data_dir = Path.home() / 'brainhackschool_nibabel' / 'data'
 # %% [markdown] slideshow={"slide_type": "slide"}
 # ## Learning objectives
 #
@@ -109,8 +108,8 @@ data_dir = Path('data')
 # ### Loading
 
 # %%
-t1w = nb.load(data_dir / 'ds000114/sub-01/ses-test/anat/sub-01_ses-test_T1w.nii.gz')
-bold = nb.load(data_dir / 'ds000114/sub-01/ses-test/func/sub-01_ses-test_task-fingerfootlips_bold.nii.gz')
+t1w = nb.load(data_dir / 'openneuro/ds000114/sub-01/ses-test/anat/sub-01_ses-test_T1w.nii.gz')
+bold = nb.load(data_dir / 'openneuro/ds000114/sub-01/ses-test/func/sub-01_ses-test_task-fingerfootlips_bold.nii.gz')
 
 # %% slideshow={"slide_type": "fragment"}
 print(t1w)
@@ -121,20 +120,20 @@ print(t1w)
 # All NiBabel images have a `.to_filename()` method:
 
 # %% slideshow={"slide_type": "-"}
-t1w.to_filename('/tmp/img.nii.gz')
+t1w.to_filename(data_dir / 'tmp/img.nii.gz')
 
 # %% [markdown] slideshow={"slide_type": "fragment"}
 # `nibabel.save` will attempt to convert to a reasonable image type, if the extension doesn't match:
 
 # %%
-nb.save(t1w, '/tmp/img.mgz')
+nb.save(t1w, data_dir / 'tmp/img.mgz')
 
 # %% [markdown] slideshow={"slide_type": "fragment"}
 # Some image types separate header and data into two separate images. Saving to either filename will generate both.
 
 # %%
-nb.save(t1w, '/tmp/img.img')
-print(nb.load('/tmp/img.hdr'))
+nb.save(t1w, data_dir / 'tmp/img.img')
+print(nb.load(data_dir / 'tmp/img.hdr'))
 
 # %% [markdown] slideshow={"slide_type": "subslide"}
 # ### Serialization
@@ -306,7 +305,7 @@ print(f"Value: ", data[int(i), int(j), int(k)])
 # %% [markdown] slideshow={"slide_type": "slide"}
 # ### Image headers
 #
-# The image header is specific to each file format. Minimally, it contains information to construct the data and affine arrays, but some methods are useful beyond that. 
+# The image header is specific to each file format. Minimally, it contains information to construct the data and affine arrays, but some methods are useful beyond that.
 #
 # * `get_zooms()` method returns voxel sizes. If the data is 4D, then repetition time is included as a temporal zoom.
 # * `get_data_dtype()` returns the numpy data type in which the image data is stored (or will be stored when the image is saved).
@@ -328,7 +327,7 @@ print(header['descrip'])
 # The MGH header is similarly accessible, but its structure is quite different:
 
 # %%
-mghheader = nb.load('/tmp/img.mgz').header
+mghheader = nb.load(data_dir / 'tmp/img.mgz').header
 print(mghheader)
 
 # %%
@@ -362,14 +361,14 @@ print(mghheader.get_data_dtype())
 def rescale(img):
     data = img.get_fdata()
     rescaled = ((data - data.min()) * 255. / (data.max() - data.min())).astype(np.uint8)
-    
+
     rescaled_img = img.__class__(rescaled, affine=img.affine, header=img.header)
-    
+
     rescaled_img.header.set_data_dtype('uint8')  # Ensure data is saved as this type
     return rescaled_img
 
 rescaled_t1w = rescale(t1w)
-rescaled_t1w.to_filename('/tmp/rescaled_t1w.nii.gz')
+rescaled_t1w.to_filename(data_dir / 'tmp/rescaled_t1w.nii.gz')
 
 # %% [markdown] slideshow={"slide_type": "slide"}
 # ## Data objects - Arrays and Array Proxies
@@ -384,8 +383,8 @@ print(array_img.dataobj)
 # When loading a file, an `ArrayProxy` is used for most image types.
 
 # %%
-array_img.to_filename('/tmp/array_img.nii')
-proxy_img = nb.load('/tmp/array_img.nii')
+array_img.to_filename(data_dir / 'tmp/array_img.nii')
+proxy_img = nb.load(data_dir / 'tmp/array_img.nii')
 print(proxy_img.dataobj)
 
 # %% [markdown] slideshow={"slide_type": "fragment"}
@@ -463,9 +462,9 @@ print(float_img.get_fdata())
 
 # %%
 float_img.header.set_data_dtype(np.uint16)
-float_img.to_filename("/tmp/uint16_img.nii")
+float_img.to_filename(data_dir / "tmp/uint16_img.nii")
 
-uint16_img = nb.load("/tmp/uint16_img.nii")
+uint16_img = nb.load(data_dir / "tmp/uint16_img.nii")
 print(uint16_img.get_fdata())
 
 # %% [markdown]
@@ -609,7 +608,7 @@ np.array_equal(tp15.get_fdata(), bold.dataobj[..., :5])
 # To load a surface mesh in a FreeSurfer directory, use `nb.freesurfer.read_geometry`:
 
 # %%
-fs_verts, fs_faces, fs_meta = nb.freesurfer.read_geometry(data_dir / 'ds005-preproc/freesurfer/sub-01/surf/lh.pial', read_metadata=True)
+fs_verts, fs_faces, fs_meta = nb.freesurfer.read_geometry(data_dir / 'ds000228-fmriprep/sourcedata/freesurfer/sub-pixar001/surf/lh.pial', read_metadata=True)
 print(fs_verts[:2])
 print(fs_faces[:2])
 pprint(fs_meta)
@@ -624,7 +623,7 @@ _ = nlp.plot_surf((fs_verts, fs_faces))
 # Let's do the same thing with GIFTI. Here, the file-level metadata is minimal:
 
 # %%
-gii_pial = nb.load(data_dir / 'ds005-preproc/fmriprep/sub-01/anat/sub-01_hemi-L_pial.surf.gii')
+gii_pial = nb.load(data_dir / 'ds000228-fmriprep/sub-pixar001/anat/sub-pixar001_hemi-L_pial.surf.gii')
 pprint(gii_pial.meta.metadata)  # .meta maps onto the XML object, its .metadata property exposes a Python dict
 
 # %% [markdown]
@@ -660,11 +659,11 @@ _ = nlp.plot_surf((gii_verts, gii_faces))
 
 # %%
 # Morphometry
-curv = nb.freesurfer.read_morph_data(data_dir / 'ds005-preproc/freesurfer/sub-01/surf/lh.curv')
+curv = nb.freesurfer.read_morph_data(data_dir / 'ds000228-fmriprep/sourcedata/freesurfer/sub-pixar001/surf/lh.curv')
 # Annotations
-labels, color_table, names = nb.freesurfer.read_annot(data_dir / 'ds005-preproc/freesurfer/sub-01/label/lh.aparc.annot')
+labels, color_table, names = nb.freesurfer.read_annot(data_dir / 'ds000228-fmriprep/sourcedata/freesurfer/sub-pixar001/label/lh.aparc.annot')
 # MGH files...
-mgh = nb.load(data_dir / 'ds005-preproc/freesurfer/sub-01/surf/lh.w-g.pct.mgh')
+mgh = nb.load(data_dir / 'ds000228-fmriprep/sourcedata/freesurfer/sub-pixar001/surf/lh.w-g.pct.mgh')
 print(curv.shape)
 print(labels.shape)
 print(mgh.shape)
@@ -679,7 +678,7 @@ _ = nlp.plot_surf((fs_verts, fs_faces), mgh.get_fdata(), axes=axes[2])
 # GIFTIs will be GIFTIs. This one is a BOLD series sampled to the `fsaverage5` surface:
 
 # %%
-bold_gii = nb.load(data_dir / 'ds005-preproc/fmriprep/sub-01/func/sub-01_task-mixedgamblestask_run-1_space-fsaverage5_hemi-L_bold.func.gii')
+bold_gii = nb.load(data_dir / 'ds000228-fmriprep/sub-pixar001/func/sub-pixar001_task-pixar_hemi-L_space-fsaverage5_bold.func.gii')
 
 # %% [markdown] slideshow={"slide_type": "subslide"}
 # Each time point is an individual data array with intent `NIFTI_INTENT_TIME_SERIES`. `agg_data()` will aggregate these into a single array.
@@ -692,7 +691,7 @@ data.shape
 # We can plot the mean BOLD signal. This time we will use a FreeSurfer surface, which Nilearn knows what to do with:
 
 # %%
-_ = nlp.plot_surf(str(data_dir / 'ds005-preproc/freesurfer/fsaverage5/surf/lh.inflated'), data.mean(axis=1))
+_ = nlp.plot_surf(str(data_dir / 'ds000228-fmriprep/sourcedata/freesurfer/fsaverage5/surf/lh.inflated'), data.mean(axis=1))
 
 # %% [markdown] slideshow={"slide_type": "subslide"}
 # ### Don't Panic
@@ -740,7 +739,7 @@ _ = nlp.plot_surf(str(data_dir / 'ds005-preproc/freesurfer/fsaverage5/surf/lh.in
 # NiBabel loads a header that closely mirrors this structure, and makes the NIfTI-2 header accessible as a `nifti_header` attribute.
 
 # %%
-cifti = nb.load(data_dir / 'ds005-preproc/fmriprep/sub-01/func/sub-01_task-mixedgamblestask_run-1_space-fsLR_den-91k_bold.dtseries.nii')
+cifti = nb.load(data_dir / 'ds000228-fmriprep/sub-pixar001/func/sub-pixar001_task-pixar_space-fsLR_den-91k_bold.dtseries.nii')
 cifti_data = cifti.get_fdata(dtype=np.float32)
 cifti_hdr = cifti.header
 nifti_hdr = cifti.nifti_header
@@ -797,7 +796,7 @@ def surf_data_from_cifti(data, axis, surf_name):
 
 
 # %%
-_ = nlp.plot_surf(str(data_dir / "conte69/Conte69.L.inflated.32k_fs_LR.surf.gii"),
+_ = nlp.plot_surf(str(data_dir / "Conte69.L.inflated.32k_fs_LR.surf.gii"),
                   surf_data_from_cifti(cifti_data, axes[1], 'CIFTI_STRUCTURE_CORTEX_LEFT').mean(axis=1),
                   cmap='plasma')
 

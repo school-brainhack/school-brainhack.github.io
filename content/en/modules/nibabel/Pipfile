@@ -14,6 +14,7 @@ nilearn = "*"
 matplotlib = "*"
 transforms3d = "*"
 pipfile = "*"
+pytest = "*"
 
 [requires]
 python_version = "3.8"

@@ -30,27 +30,50 @@ image: "open_data.png"
 
 We will watch the presentation **NiBabel: Neuroimaging data and file structures in Python** from Neurohackademy 2020 by Chris Markiewicz.
 
-The original presentation and the practical notebook is can be found here: https://github.com/effigies/nibabel-presentations
+The original presentation and the practical notebook is can be found [here](https://github.com/effigies/nibabel-presentations).
+In this exercise, we will use the note book in the brainhack school repository.
+
+### Downlad data and jupyter notebook
 
 You will need to install the example dataset with [DataLad](modules/datalad/).
 
 ```bash
-mkdir ~/data
+# download open neuro dataset
+mkdir ~/brainhackschool_nibabel
+cd ~/brainhackschool_nibabel
+mkdir data
 cd data
 datalad install ///openneuro
 cd openneuro
 datalad get -r ds000114/sub-01
 
-cd ~/data
+cd ~/brainhackschool_nibabel/data
 datalad install git@github.com:OpenNeuroDerivatives/ds000228-fmriprep.git
 cd ds000228-fmriprep
 datalad get -r sourcedata/freesurfer/sub-pixar001/surf
+datalad get -r sourcedata/freesurfer/fsaverage5
+
 datalad get sub-pixar001/anat/sub-pixar001_hemi-L_pial.surf.gii
 datalad get sub-pixar001/func/sub-pixar001_task-pixar_hemi-L_space-fsaverage5_bold.func.gii
 datalad get sub-pixar001/func/sub-pixar001_task-pixar_space-fsLR_den-91k_bold.dtseries.nii
+
+# get the surface data from midnight scan club
+cd ~/brainhackschool_nibabel/data
+wget -c https://raw.githubusercontent.com/MidnightScanClub/MSCcodebase/master/Utilities/Conte69_atlas-v2.LR.32k_fs_LR.wb/Conte69.L.inflated.32k_fs_LR.surf.gii 
+
+# get the tutorial
+cd ~/brainhackschool_nibabel
+wget -c https://raw.githubusercontent.com/school-brainhack/school-brainhack.github.io/tree/main/content/en/modules/nibabel/Pipfile
+wget -c https://raw.githubusercontent.com/school-brainhack/school-brainhack.github.io/tree/main/content/en/modules/nibabel/Nibabel.py
+
+# make a temporary directory to dump things
+mkdir ~/brainhackschool_nibabel/data/tmp
 ```
 
-You will need to create the environment with the 
+### Set up environment
+
+You will need to create the environment with the `Pipfile`.
+
 ```
 pip install pipenv  # You need pipenv to create an environmnet
 pipenv install Pipfile  # install the environment
