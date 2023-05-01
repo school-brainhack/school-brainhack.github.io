@@ -44,29 +44,34 @@ The video of the presentation is available below (duration 1h33).
 This tutorial uses `Jupyter` notebooks. Follow the instructions to install the necessary dependencies in a virtual environment. 
 
 1. Clone this repo using:
+
     ```bash
     git clone https://github.com/Davi1990/Intro_to_dMRI_workshop
     ```
 
 2. Create an environment in the cloned repository:
-    ```
+
+    ```bash
     cd Intro_to_dMRI_workshop
     virtualenv env
     ```
+
     To activate the environment, use the following command in `Intro_to_dMRI_workshop/`
-    ```
+
+    ```bash
     source env/bin/activate
     ```
 
-3. In the activated environment, install the dependencies, [osf command line tool](https://github.com/cos-labs/osf-cli) and jupyter-lab:
+3. In the activated environment, install the dependencies and jupyter-lab:
+
     ```bash
     pip install -r requirements.txt
     pip install jupyterlab
-    pip install osfclient
     ```
 
 5. Finally download the necessary data from OSF.
     Data from a single subject that's used in this tutorial is available and can be downloaded by running:
+
     ```bash
     mkdir ./data
     osf -p cmq8a fetch ds000221_subject/ds000221_sub-010006.zip
@@ -74,8 +79,7 @@ This tutorial uses `Jupyter` notebooks. Follow the instructions to install the n
     ```
 
    Note: you can also clone the full dataset with osf. This will create a `data` folder at the root of the repository. Since the command clones the entire repository, which may be quite large and
-    take a while to download.
-
+   take a while to download.
     ```bash
     osf -p cmq8a clone ./data
     ```
