@@ -41,21 +41,7 @@ The video of the presentation is available below (duration 1h33).
 <iframe width="560" height="315" src="https://www.youtube.com/embed/HM3lMplqTM4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 ## Tutorial
-If users choose to run the `Jupyter` notebooks locally, the following
-dependencies will need to be installed:
-
-- [ANTs] : used to register different anatomical data.
-- [FSL] : used for different data preprocessing steps.
-- [DIPY] : used for diffusion MRI data processing.
-- [FURY] : used for anatomical data visualisation purposes.
-- [Matplotlib] : used for data visualisation purposes.
-- [Nilearn] : used for anatomical data visualisation purposes.
-- [osfclient] : used to download the necessary data.
-- [PyBIDS] : used to check the data structure [BIDS] compliance.
-
-
-To run the code locally please follow the instructions.
-Use the terminal or an Anaconda Prompt for the following steps:
+This tutorial uses `Jupyter` notebooks. Follow the instructions to install the necessary dependencies locally. Use the terminal or an Anaconda Prompt for the following steps:
 
 1) Create an environment:
 ```
@@ -74,12 +60,16 @@ conda activate dMRI_workshop
 git clone https://github.com/Davi1990/Intro_to_dMRI_workshop
 ```
 
-4) Install the required dependencies using:
+4) Install the required dependencies:
 ```
+cd Intro_to_dMRI_workshop
 pip install -r requirements.txt
 ```
 
 5) Download the necessary data
+```
+osf -p cmq8a clone ./data
+```
 
 This will create a `data` folder at the root of the repository that Notebooks will use.
 
@@ -140,15 +130,7 @@ application (by default, http://127.0.0.1:8888). The users will be presented wit
 the directory structure of the current directory, and they will be able to run
 the notebook of interest.
 
-For additional information about `Python` setups besides the package manuals,
-users are encouraged to read the [Programming with Python] Carpentries lesson.
-
-The data used in the lesson is hosted in [OSF]. It can be downloaded by running:
-~~~
-$ osf -p cmq8a clone ./data
-~~~
-
-## Exercises
+## Exercise
 
 1. Read through the notebooks running all the cells
 2. Complete the exercises in the notebooks
@@ -168,7 +150,8 @@ $ osf -p cmq8a clone ./data
 
  ## More resources
 
- - Other great resources to get started with plotting in python:
+- For additional information about `Python` setups besides the package manuals, users are encouraged to read the [Programming with Python](https://swcarpentry.github.io/python-novice-inflammation/) Carpentries lesson.
+ - Other great resources to get started with dMRI:
     -  [DIPY](https://dipy.org/) website, including documentation and tutorials.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/7Bl38jfBJu0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
