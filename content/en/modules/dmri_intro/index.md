@@ -78,8 +78,7 @@ This tutorial uses `Jupyter` notebooks. Follow the instructions to install the n
     unzip ds000221_sub-010006.zip
     ```
 
-   Note: you can also clone the full dataset with osf. This will create a `data` folder at the root of the repository. Since the command clones the entire repository, which may be quite large and
-   take a while to download.
+   Note: you can also clone the full dataset with OSF. This will create a `data` folder at the root of the repository. Since the command clones the entire repository, this may be quite large and take a while to download.
     ```bash
     osf -p cmq8a clone ./data
     ```
