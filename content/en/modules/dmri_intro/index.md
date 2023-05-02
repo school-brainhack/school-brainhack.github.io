@@ -74,6 +74,7 @@ This tutorial uses `Jupyter` notebooks. Follow the instructions to install the n
 
     ```bash
     mkdir ./data
+    cd data
     osf -p cmq8a fetch ds000221_subject/ds000221_sub-010006.zip
     unzip ds000221_sub-010006.zip
     ```
