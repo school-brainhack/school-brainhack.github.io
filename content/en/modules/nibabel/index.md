@@ -43,7 +43,7 @@ In this exercise, we will use the note book in the brainhack school repository.
 
 ### Downlad data and jupyter notebook
 
-You will need to install the example dataset with [DataLad](modules/datalad/).
+You will need to install the example dataset with [DataLad](/modules/datalad).
 
 ```bash
 # download open neuro dataset
