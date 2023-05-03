@@ -30,13 +30,7 @@ The estimated time to complete this training module is 2.30h.
 
 The prerequisites to take this module are:
  * the [installation](/modules/installation) module.
- * Creating a virtual environment:
-       - if you are using Conda, please create a Conda virtual environment by following the instructions [here](https://conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html).
-       - otherwise ceate a new Python virtual environment by following the instructions [here](https://docs.python.org/3/library/venv.html).
- * Install MNE and MNE-BIDS:
-       - Install MNE by following the instructions [here](https://mne.tools/stable/install/manual_install.html).
-       - Install MNE-BIDS by following the instructions [here](https://mne.tools/mne-bids/stable/install.htm).
-       
+ 
 If you have any questions regarding the module content please ask them in the relevant module channel on the school Discord server. If you do not have access to the server and would like to join, please send us an email at school.brainhack [at] gmail [dot] com.
 
 ## Resources
