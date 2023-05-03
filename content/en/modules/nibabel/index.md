@@ -39,7 +39,7 @@ If you do not have access to the server and would like to join, please send us a
 We will watch the presentation **NiBabel: Neuroimaging data and file structures in Python** from Neurohackademy 2020 by Chris Markiewicz.
 
 The original presentation and the practical notebook can be found [here](https://github.com/effigies/nibabel-presentations).
-In this exercise, we will use the note book in the brainhack school repository.
+In this exercise, we will use the notebook in the brainhack school repository. Follow the instructions below to run both. 
 
 ### Downlad data and jupyter notebook
 
