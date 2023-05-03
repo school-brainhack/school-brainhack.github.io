@@ -29,7 +29,7 @@ image: "https://nipy.org/nibabel/_static/reggie.png"
 The estimated time to complete this training module is 1h30m for the basic content and 1h for the optional advanced content.
 
 The prerequisites to take this module are:
- * the [DataLad](modules/datalad/) module.
+ * the [DataLad](/modules/datalad) module.
 
 If you have any questions regarding the module content please ask them in the relevant module channel on the school Discord server.
 If you do not have access to the server and would like to join, please send us an email at school [dot] brainhack [at] gmail [dot] com.
