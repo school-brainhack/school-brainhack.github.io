@@ -33,7 +33,8 @@ The estimated time to complete this training module is 1h30m for the basic conte
  - **optional** - Acquire a passing familiarity with the structures of surface images, CIFTI-2 files and tractogram
 
 The prerequisites to take this module are:
- * the [DataLad](modules/datalad/) module.
+ * the [introduction to the terminal](/modules/introduction_to_terminal) module.
+ * the [DataLad](/modules/datalad) module.
 
 If you have any questions regarding the module content please ask them in the relevant module channel on the school Discord server.
 If you do not have access to the server and would like to join, please send us an email at school [dot] brainhack [at] gmail [dot] com.
@@ -42,12 +43,12 @@ If you do not have access to the server and would like to join, please send us a
 
 We will watch the presentation **NiBabel: Neuroimaging data and file structures in Python** from Neurohackademy 2020 by Chris Markiewicz.
 
-The original presentation and the practical notebook is can be found [here](https://github.com/effigies/nibabel-presentations).
-In this exercise, we will use the note book in the brainhack school repository.
+The original presentation and the practical notebook can be found [here](https://github.com/effigies/nibabel-presentations).
+In this exercise, we will use the notebook in the brainhack school repository. Follow the instructions below to run both. 
 
 ### Downlad data and jupyter notebook
 
-You will need to install the example dataset with [DataLad](modules/datalad/).
+You will need to install the example dataset with [DataLad](/modules/datalad).
 
 ```bash
 # download open neuro dataset
