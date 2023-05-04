@@ -96,15 +96,14 @@ virtualenv env
 source env/bin/activate
 pip install -r requirements.txt  # install the environment
 ```
-From here you can launch `jupyter notebook` and navigate to the presentaion `Nibabel.py`
-To launch the jupyter notebook:
+From here you can launch `jupyter notebook` and navigate to the presentaion `Nibabel.py`, or launch the notebook directly using:
 ```
 jupyter notebook Nibabel.py
 ```
 
 ## Material
 
-You can follow the `Nibabel.py` notebook along with the presentation.
+Follow the `Nibabel.py` notebook along with the presentation.
 
 The time stamps of this video are as follows.
 You need to watch all the basic content to complete the excercise.
