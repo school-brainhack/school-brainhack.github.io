@@ -154,10 +154,7 @@ https://nilearn.github.io/stable/manipulating_images/input_output.html#understan
 
 Here are all the links mentioned in the presentations:
 
-https://nipy.org/nibabel/coordinate_systems.html
-
-https://nipy.org/nibabel/nibabel_images.html#the-image-data-array
-
-https://nipy.org/nibabel/images_and_memory.html
-
-https://neurohackademy.org/course/introduction-to-the-geometry-and-structure-of-the-human-brain/
+- https://nipy.org/nibabel/coordinate_systems.html
+- https://nipy.org/nibabel/nibabel_images.html#the-image-data-array
+- https://nipy.org/nibabel/images_and_memory.html
+- https://neurohackademy.org/course/introduction-to-the-geometry-and-structure-of-the-human-brain/
