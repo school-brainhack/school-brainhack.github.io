@@ -135,7 +135,7 @@ The video presentation is available below:
 
 ## Exercise
 
- * Watch the video presentation by Chris Markiewicz and go over the slides.
+ * Watch the video presentation by Chris Markiewicz and go over the `Nibabel.py` notebook.
 
  * In a separate notebook, complete the following exercises:
 
