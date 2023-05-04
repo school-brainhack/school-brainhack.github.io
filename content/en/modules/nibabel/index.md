@@ -28,9 +28,9 @@ image: "reggie.png"
 
 The estimated time to complete this training module is 1h30m for the basic content and 1h for the optional advanced content.
 
- - **Basic** - Be able to load and save different types of neuroimaging files in Nibabel. How to work with volumetric data
- - **Advanced** - Understand the difference between array and array proxy images
- - **optional** - Acquire a passing familiarity with the structures of surface images, CIFTI-2 files and tractogram
+ - **Basic** - Be able to load and save different types of neuroimaging files in Nibabel. Know how to work with volumetric data.
+ - **Advanced** - Understand the difference between array and array proxy images.
+ - **Optional** - Acquire a passing familiarity with the structures of surface images, CIFTI-2 files and tractogram.
 
 The prerequisites to take this module are:
  * the [introduction to the terminal](/modules/introduction_to_terminal) module.
@@ -104,14 +104,14 @@ jupyter notebook Nibabel.py
 
 ## Material
 
-You can follow the `Nibabel.py` along the presentation.
+You can follow the `Nibabel.py` notebook along with the presentation.
 
-The time stamps of this video is as followed.
+The time stamps of this video are as follows.
 You need to watch all the basic content to complete the excercise.
 You can skip the optional sections.
 
  - 0:00 Introduction
- - 0:44 Brief introduction of NiBabel / some Neurohackademy related business
+ - 0:44 Brief introduction to NiBabel / some Neurohackademy related business
  - 2:01 Start of the talk
  - 3:01 Installation of NiBabel
  - 6:01 Learning objective of the original presentation
@@ -141,7 +141,7 @@ The video presentation is available below:
 
     * Use the nilearn library function `fetch_atlas_difumo` to get the 64 parcellation image. As we learned in the video, the data in this image is just a number array and you can maniputate it with numpy. Please extract the 16th region, binarize it, and save it as a new nifti image.
 
-    * Use the slicer opject to view the new nifti file we created in the three different view.
+    * Use the slicer object to view the new nifti file we created in the three different views.
 
     * Bonus: in 200 words, describe the conceptual differences between array and array proxy images.
 
