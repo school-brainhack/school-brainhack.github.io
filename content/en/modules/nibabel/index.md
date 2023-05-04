@@ -86,7 +86,7 @@ mkdir ~/brainhackschool_nibabel/data/tmp
 
 ### Set up environment
 
-You will need to create the environment with the `Pipfile`.
+You will need to create the environment with the `requirements.txt` file.
 
 ```
 pip install virtualenv
