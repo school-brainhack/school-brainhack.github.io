@@ -87,7 +87,7 @@ from matplotlib import pyplot as plt  # Matlab-ish plotting commands
 from nilearn import plotting as nlp   # Nice neuroimage plotting
 import transforms3d                   # Work with affine algebra
 from scipy import ndimage as ndi      # Operate on N-dimensional images
-# import nibabel.testing                # For fetching test data
+import nibabel.testing                # For fetching test data
 
 # %pylab inline
 
