@@ -771,7 +771,7 @@ schedule:
       dateEnd:    2023-05-22T17:00:00-04:00
       linktosession:
       topic: 3 # 1 = computer science, 2 = neuroscience, 3 - both, 4 = random
-      description: Enjoy your Friday! Because summer is not just for hacking.
+      description: Enjoy your bank holiday Monday (in Quebec)!
       topic: 1 # 1 = computer science, 2 = neuroscience, 3 - both, 4 = random
       instructors:
       materials: ""
