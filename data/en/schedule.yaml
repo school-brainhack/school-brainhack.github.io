@@ -21,7 +21,7 @@ schedule:
       dateEnd:   2023-05-08T11:00:00-04:00
       linktosession:
       topic: 3 # 1 = computer science, 2 = neuroscience, 3 - both
-      description: Introduction to brainhack school and the learning modules of week 1.
+      description: Introduction to brainhack school, hubs and the modules for week 1.
       materials: ""
       video: ""
       instructors:
@@ -1018,7 +1018,7 @@ schedule:
       dateEnd:    2023-05-26T11:00:00-04:00
       linktosession:
       topic: 3 # 1 = computer science, 2 = neuroscience, 3 - both, 4 = random
-      description: The panelists will be among the researchers who either migrated between academia and industry, or have an academic career with industrial collaborations, and will share their experiences and advices on the challenges and opportunities the either path contains. 
+      description: The panelists will be researchers who either migrated between academia and industry, or have an academic career with industrial collaborations, and will share their experiences and advice on the challenges and opportunities for either path. 
       materials: ""
       video: ""
       instructors:
@@ -1085,7 +1085,7 @@ schedule:
       dateEnd:    2023-05-29T10:00:00-04:00
       linktosession:
       topic: 3 # 1 = computer science, 2 = neuroscience, 3 - both, 4 = random
-      description: A review of goals, delivrables and schedule for the week
+      description: A review of goals, deliverables and schedule for the week
       materials: ""
       video: ""
       instructors:
