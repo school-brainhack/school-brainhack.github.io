@@ -12,15 +12,15 @@ type = "weeks"
   buttondescr = "View the schedule for that week"
   description = """
   Week 1 will introduce participants to a reproducible computational toolkit for neural data science, as well as a basic grounding in supervised and unsupervised machine learning methods. Short pre-recorded lectures and hands-on tutorials throughout the five days will provide participants with familiarity applying these methods to real data. Each participant will be required to complete 6 tutorials out of the following list:
-  * :star: [Installation of software](/modules/installation) for brainhack school.
-  * :star: [Introduction to the terminal](/modules/introduction_to_terminal).
-  * :star: [Introduction to git and github](/modules/git_github).
-  * [Python for data analysis](/modules/python_data_analysis).
-  * [Machine learning - basics](/modules/machine_learning_basics).
-  * [Project management](/modules/project_management).
-  * [High performance computing](/modules/hpc).
-  * [Open data](/modules/open_data).
-  * [Writing scripts in python](/modules/python_scripts).
+  * :star: [Installation of software](/modules/installation) for brainhack school
+  * :star: [Introduction to the terminal](/modules/introduction_to_terminal)
+  * :star: [Introduction to git and github](/modules/git_github)
+  * [Python for data analysis](/modules/python_data_analysis)
+  * [Machine learning - basics](/modules/machine_learning_basics)
+  * [Project management](/modules/project_management)
+  * [High performance computing](/modules/hpc)
+  * [Open data](/modules/open_data)
+  * [Writing scripts in python](/modules/python_scripts)
 
   Note that the tutorials marked with a :star: are mandatory. As a participant, at the end of Week 1 you should be able to answer questions such as:
  * How can I open a terminal, and use it to perform operations such as moving or creating files?
@@ -50,13 +50,16 @@ Short exercises need to be completed at the end of each tutorial. Completing all
  Each project will be presented orally and in writing, with rounds of feedback, and revised by the end of week 2. This project description will count for 20% of the final grade.
 
  There will still be time to work on training modules as well. You will be required to complete 3 out of the following modules:
-  * [Introduction to deep learning](/modules/deep_learning_intro).
-  * [Deep learning for neuroimaging](/modules/dl_for_neuroimaging).
-  * [Machine learning for neuroimaging](/modules/machine_learning_neuroimaging).
-  * [Functional connectivity in fMRI](/modules/fmri_connectivity).
-  * [Functional parcellations in fMRI](/modules/fmri_parcellation).
-  * [The Brain Imaging Data Structure (BIDS) ecosystem](/modules/bids).
-  * [DataLad for reproducible research data management](/modules/datalad).
+  * [Introduction to deep learning](/modules/deep_learning_intro)
+  * [Deep learning for neuroimaging](/modules/dl_for_neuroimaging)
+  * [Machine learning for neuroimaging](/modules/machine_learning_neuroimaging)
+  * [Functional connectivity in fMRI](/modules/fmri_connectivity)
+  * [Functional parcellations in fMRI](/modules/fmri_parcellation)
+  * [The Brain Imaging Data Structure (BIDS) ecosystem](/modules/bids)
+  * [DataLad for reproducible research data management](/modules/datalad)
+  * [Working with MNE-Python and EEG-BIDS](/modules/mne_python)
+  * [Neuroimaging data and file structures in Python](/modules/nibabel)
+  * [Introduction to dMRI](/modules/dmri_intro)
  """
 
 [[week]]
@@ -76,10 +79,10 @@ Short exercises need to be completed at the end of each tutorial. Completing all
   * Collaborate. Take time each day to help someone else with their project.
 
   Time to work on training modules is minimal. You will be required to complete 1 out of the following modules:
-   * [Data visualization](/modules/python_visualization).
-   * [Python packaging](/modules/packaging).
-   * [Testing and continuous integration](/modules/testing).
-   * [Containers](/modules/containers).
+   * [Data visualization](/modules/python_visualization)
+   * [Python packaging](/modules/packaging)
+   * [Testing and continuous integration](/modules/testing)
+   * [Containers](/modules/containers)
 
 """
 
