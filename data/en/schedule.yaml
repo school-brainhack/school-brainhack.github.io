@@ -442,6 +442,7 @@ schedule:
       dateStart:  2023-05-15T14:00:00-04:00
       dateEnd:    2023-05-15T15:00:00-04:00
       linktosession:
+      description: Meeting with peers and instructors to discuss your project
       topic: 3 # 1 = computer science, 2 = neuroscience, 3 - both, 4 = random
       instructors:
         - Jane Doe
@@ -451,7 +452,6 @@ schedule:
       dateStart:  2023-05-15T15:00:00-04:00
       dateEnd:    2023-05-15T17:00:00-04:00
       linktosession:
-      description: Meeting with peers and instructors to discuss your project
       topic: 1 # 1 = computer science, 2 = neuroscience, 3 - both, 4 = random
       instructors:
         - Jane Doe
