@@ -59,7 +59,7 @@ This is a 10 minutes walk through of basic git concepts for people who wants a r
 
 ## Exercise
 
- * send a request through discord on #git-github with your GitHub user name to Isil Bilgin to be added to the github organization [school-brainhack](https://github.com/school-brainhack).
+ * send a request at the "Using Git and Github" module post at the modules channels of Discord server by typing "@<user-handle-of-your-TA> please add my <github-user-name>" to the github organization." This will alert your local TA(s) to add you to the [school-brainhack](https://github.com/brainhack-school2023/) organization. 
  * create a local repository following the naming convention `<last_name>_project`. Don't worry, you will be able to change this name later, and possibly merge the content in another repository if you decide to team up with other people.
  * initialize your repo with a README and a LICENSE.
  * Create an issue for adding a short bio.
@@ -76,8 +76,8 @@ This is a 10 minutes walk through of basic git concepts for people who wants a r
  * Using the command line, commit this change to your local repository. Make sure you registered your github user name and email address, so the commit is accurately credited to you when you push it on github.
  * Using the command line, push the branch and your changes to the github repository.
  * Using the github interface, open a new pull request with your changes. Use a descriptive name for the pull request, e.g. `iss1 - add bio`.
- * Using the github interface, request a review of your changes by `complexbrains` (Isil Bilgin).
- * Once `complexbrains` has approved the review, merge the pull request to the `main` branch.
+ * Using the github interface, request a review of your changes by your local TA (by choosing their github handle among the listed ones).
+ * Once your local TA has approved the review, merge the pull request to the `main` branch.
  * Close the issue.
  * Follow up with your local TA(s) to validate you completed the exercises correctly.
  * :tada: :tada: :tada: you completed this training module! :tada: :tada: :tada:
