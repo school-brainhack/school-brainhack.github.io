@@ -870,7 +870,7 @@ schedule:
       dateEnd:    2023-05-24T11:00:00-04:00
       linktosession:
       topic: 3 # 1 = computer science, 2 = neuroscience, 3 - both, 4 = random
-      description:
+      description: Meeting with peers and instructors to discuss your project
       materials: ""
       video: ""
       instructors:
