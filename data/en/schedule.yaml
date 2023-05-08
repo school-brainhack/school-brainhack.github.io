@@ -21,7 +21,7 @@ schedule:
       dateEnd:   2023-05-08T11:00:00-04:00
       linktosession:
       topic: 3 # 1 = computer science, 2 = neuroscience, 3 - both
-      description: Introduction to brainhack school, hubs and the modules for week 1.
+      description: Introduction to brainhack school and the learning modules of week 1.
       materials: ""
       video: ""
       instructors:
@@ -442,7 +442,6 @@ schedule:
       dateStart:  2023-05-15T14:00:00-04:00
       dateEnd:    2023-05-15T15:00:00-04:00
       linktosession:
-      description: Meeting with peers and instructors to discuss your project
       topic: 3 # 1 = computer science, 2 = neuroscience, 3 - both, 4 = random
       instructors:
         - Jane Doe
@@ -452,6 +451,7 @@ schedule:
       dateStart:  2023-05-15T15:00:00-04:00
       dateEnd:    2023-05-15T17:00:00-04:00
       linktosession:
+      description: Meeting with peers and instructors to discuss your project
       topic: 1 # 1 = computer science, 2 = neuroscience, 3 - both, 4 = random
       instructors:
         - Jane Doe
@@ -750,7 +750,7 @@ schedule:
       dateStart:  2023-05-19T14:00:00-04:00
       dateEnd:    2023-05-19T17:00:00-04:00
       linktosession:
-      description: Presentation of projects
+      description: Presentation of projects. Please do not forget by now you should have been created your project repository under https://github.com/brainhack-school2023/ organization and project issue at https://github.com/brainhack-school2023/brainhack_school_projects. For more instruction please visit Student Guideline https://school-brainhack.readthedocs.io/en/latest/STUDENTS.html
       topic: 1 # 1 = computer science, 2 = neuroscience, 3 - both, 4 = random
       instructors:
         - Jane Doe
@@ -771,7 +771,7 @@ schedule:
       dateEnd:    2023-05-22T17:00:00-04:00
       linktosession:
       topic: 3 # 1 = computer science, 2 = neuroscience, 3 - both, 4 = random
-      description: Enjoy your bank holiday Monday (in Quebec)!
+      description: Enjoy your Friday! Because summer is not just for hacking.
       topic: 1 # 1 = computer science, 2 = neuroscience, 3 - both, 4 = random
       instructors:
       materials: ""
@@ -854,23 +854,23 @@ schedule:
   - date: 2023-05-24 # Wednesday
     sessions:
 
-    - title: Free hacking
+    - title: Happy Project Review Hour!
       dateStart:  2023-05-24T09:00:00-04:00
       dateEnd:    2023-05-24T10:00:00-04:00
       linktosession:
       topic: 3 # 1 = computer science, 2 = neuroscience, 3 - both, 4 = random
-      description:
+      description: Please visit the project issues from your peers at the repository https://github.com/brainhack-school2023/brainhack_school_projects/issues to learn about your peers' projects.
       instructors:
         - Jane Doe
         - John Doe
 
 
-    - title: Project clinic
+    - title: Panel - Industry and Academia Synergy Discussions
       dateStart:  2023-05-24T10:00:00-04:00
       dateEnd:    2023-05-24T11:00:00-04:00
       linktosession:
       topic: 3 # 1 = computer science, 2 = neuroscience, 3 - both, 4 = random
-      description: Meeting with peers and instructors to discuss your project
+      description: The panelists will be among the researchers who either migrated between academia and industry, or have an academic career with industrial collaborations, and will share their experiences and advices on the challenges and opportunities the either path contains. 
       materials: ""
       video: ""
       instructors:
@@ -939,12 +939,12 @@ schedule:
         - Jane Doe
         - John Doe
 
-    - title: Project clinic
+    - title: Questions and exercises
       dateStart:  2023-05-25T10:00:00-04:00
       dateEnd:    2023-05-25T11:00:00-04:00
       linktosession:
       topic: 3 # 1 = computer science, 2 = neuroscience, 3 - both, 4 = random
-      description: Meeting with peers and instructors to discuss your project
+      description:
       materials: ""
       video: ""
       instructors:
@@ -1013,12 +1013,12 @@ schedule:
         - Jane Doe
         - John Doe
 
-    - title: Panel - Industry and Academia Synergy Discussions
+    - title: Project clinic
       dateStart:  2023-05-26T10:00:00-04:00
       dateEnd:    2023-05-26T11:00:00-04:00
       linktosession:
       topic: 3 # 1 = computer science, 2 = neuroscience, 3 - both, 4 = random
-      description: The panelists will be researchers who either migrated between academia and industry, or have an academic career with industrial collaborations, and will share their experiences and advice on the challenges and opportunities for either path. 
+      description: Meeting with peers and instructors to discuss your project 
       materials: ""
       video: ""
       instructors:
@@ -1085,7 +1085,7 @@ schedule:
       dateEnd:    2023-05-29T10:00:00-04:00
       linktosession:
       topic: 3 # 1 = computer science, 2 = neuroscience, 3 - both, 4 = random
-      description: A review of goals, deliverables and schedule for the week
+      description: A review of goals, delivrables and schedule for the week
       materials: ""
       video: ""
       instructors:
@@ -1096,7 +1096,7 @@ schedule:
       dateEnd:    2023-05-29T11:00:00-04:00
       linktosession:
       topic: 3 # 1 = computer science, 2 = neuroscience, 3 - both, 4 = random
-      description: Meeting with peers and instructors to discuss your project
+      description:
       instructors:
         - Jane Doe
         - John Doe
@@ -1168,7 +1168,7 @@ schedule:
       dateEnd:    2023-05-30T11:00:00-04:00
       linktosession:
       topic: 3 # 1 = computer science, 2 = neuroscience, 3 - both, 4 = random
-      description: Meeting with peers and instructors to discuss your project
+      description:
       instructors:
         - Jane Doe
         - John Doe
@@ -1245,7 +1245,7 @@ schedule:
       dateEnd:    2023-05-31T11:00:00-04:00
       linktosession:
       topic: 3 # 1 = computer science, 2 = neuroscience, 3 - both, 4 = random
-      description: Meeting with peers and instructors to discuss your project
+      description:
       instructors:
         - Jane Doe
         - John Doe
@@ -1318,7 +1318,6 @@ schedule:
       dateStart:  2023-06-01T10:00:00-04:00
       dateEnd:    2023-06-01T11:00:00-04:00
       linktosession:
-      description: Meeting with peers and instructors to discuss your project
       topic: 3 # 1 = computer science, 2 = neuroscience, 3 - both, 4 = random
       materials: ""
       video: ""
