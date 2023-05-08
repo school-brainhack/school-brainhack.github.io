@@ -57,6 +57,7 @@ This is a 10 minutes walk through of basic git concepts for people who wants a r
 
 <iframe width="560" height="315" src="https://youtu.be/epFXYvPCrKU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
+
 ## Exercise
 
  * send a request at the "Using Git and Github" module post at the modules channels of Discord server by typing "@<user-handle-of-your-TA> please add my <github-user-name>" to the github organization." This will alert your local TA(s) to add you to the [school-brainhack](https://github.com/brainhack-school2023/) organization. 
