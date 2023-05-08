@@ -55,7 +55,7 @@ Github authentication methods have changed! Please find the [latest documentatio
 ## Git Concept
 This is a 10 minutes walk through of basic git concepts for people who wants a refresher!
 
-<iframe width="560" height="315" src="https://vimeo.com/822025017?share=copy" title="Vimeo video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://youtu.be/epFXYvPCrKU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ## Exercise
 
