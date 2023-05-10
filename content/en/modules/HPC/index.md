@@ -12,11 +12,11 @@ website:
 
 # List +- 4 keywords that best describe your project within []. Note that the project summary also involves a number of key words. Those are listed on top of the [github repository](https://github.com/PSY6983-2021/project_template), click `manage topics`.
 # Please only lowercase letters
-tags: [HPC, computecanda, calculquebec, alliancecanada]
+tags: [HPC, computecanda, alliancecanada, brainhackcloud]
 
 # Summarize your project in < ~75 words. This description will appear at the top of your page and on the list page with other projects..
 
-summary: "Introduction to the Alliance Canada (formerly Compute Canada) infrastructure and parallel computing."
+summary: "Introduction to HPC infrastructure and parallel computing, using Alliance Canada (formerly Compute Canada), or Brainhack Cloud."
 
 # If you want to add a cover image (listpage and image in the right), add it to your directory and indicate the name
 # below with the extension.
