@@ -78,8 +78,8 @@ wget -c https://raw.githubusercontent.com/MidnightScanClub/MSCcodebase/master/Ut
 
 # get the tutorial
 cd ~/brainhackschool_nibabel
-wget -c https://raw.githubusercontent.com/school-brainhack/school-brainhack.github.io/tree/main/content/en/modules/nibabel/requirements.txt
-wget -c https://raw.githubusercontent.com/school-brainhack/school-brainhack.github.io/tree/main/content/en/modules/nibabel/Nibabel.py
+wget -c https://raw.githubusercontent.com/school-brainhack/school-brainhack.github.io/main/content/en/modules/nibabel/requirements.txt
+wget -c https://raw.githubusercontent.com/school-brainhack/school-brainhack.github.io/main/content/en/modules/nibabel/NiBabel.py
 
 # make a temporary directory to dump things
 mkdir ~/brainhackschool_nibabel/data/tmp
