@@ -8,7 +8,7 @@ title: "This is an example project page which serves as a template"
 names: [Samuel Guay, Pierre Bellec]
 
 # Your project GitHub repository URL
-github_repo: https://github.com/brainhack-school2020/project_template
+github_repo: https://github.com/brainhack-school2023/project_template
 
 # If you are working on a project that has website, indicate the full url including "https://" below or leave it empty.
 website:
