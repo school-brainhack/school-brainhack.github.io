@@ -12,11 +12,11 @@ website:
 
 # List +- 4 keywords that best describe your project within []. Note that the project summary also involves a number of key words. Those are listed on top of the [github repository](https://github.com/PSY6983-2021/project_template), click `manage topics`.
 # Please only lowercase letters
-tags: [HPC, computecanda, calculquebec, alliancecanada]
+tags: [HPC, computecanda, alliancecanada, brainhackcloud]
 
 # Summarize your project in < ~75 words. This description will appear at the top of your page and on the list page with other projects..
 
-summary: "Introduction to the Alliance Canada (formerly Compute Canada) infrastructure and parallel computing."
+summary: "Introduction to HPC infrastructure and parallel computing, using Alliance Canada (formerly Compute Canada), or Brainhack Cloud."
 
 # If you want to add a cover image (listpage and image in the right), add it to your directory and indicate the name
 # below with the extension.
@@ -44,7 +44,7 @@ For example, the documentation website for the clusters is no longer https://doc
 
 `ssh <username>@beluga.computecanada.ca`
 
-:warning: :warning: If you reside outside of Canada and don't have access to a local HPC you can apply to access [Brainhack Cloud](https://brainhack.org/brainhack_cloud/). Subsequently anytime the lecture material below refers to location-specific inputs you will have to adjust your inputs accordingly (e.g. the ssh connection).
+:warning: :warning: If you reside outside of Canada and don't have access to a local HPC you can apply to access [Brainhack Cloud](https://brainhack.org/brainhack_cloud/). Some detailed steps for connecting to their cloud are available on this [GitHub repository](https://github.com/brainhack-school2022/dimitrijevic_project/blob/main/BrainHackCloud_steps/get_connected.md). Subsequently anytime the lecture material below refers to location-specific inputs you will have to adjust your inputs accordingly (e.g. the ssh connection).
 
 ## Resources
 This module was presented by [Félix-Antoine Fortin](https://github.com/cmd-ntrf) during the QLSC 612 course in 2020.

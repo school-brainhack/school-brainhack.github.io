@@ -54,6 +54,10 @@
 
 - id: discover
   translation: "Discover this project"
+
+- id: discoverModules
+  translation: "Discover this module"
+
 - id: continueReading
   translation: "Continue reading"
 
