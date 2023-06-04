@@ -35,6 +35,7 @@ image: "brain.png"
 
 > :information_source: I received great feedback during my final presentation of this project! I haven't been able to incorporate all of the feedback yet, however, check out a full list of feedback [here](#Feedback-from-the-final-presentation ).
 
+> :information_source: In the spirit of open science, I have successfully contributed to the nilearn project by contributing a typo. See my [merged pull request here](https://github.com/nilearn/nilearn/pull/3738).
 
 <div style="text-align: center;">
    <img src="img/tulpa.jpg" height="160px;" alt=""/>
@@ -210,7 +211,8 @@ The aim was to train a classifier that can accurately distinguish between differ
 
 ### Deliverable 8: Deep neural network encoding results
 
-Building on what I have done with the ML classifiers, I wanted to explore if I could achieve the same resutls with a Neural Netowrk. I used `PyTorch` to build a `Multilayer Perceptron` with 4 linear layers, 3 rectified linear unit, and one dropout layer with a threshold of 0.3. I then trained this model with a `learning rate of 0.01` and a `weight decay of 0.01`. The results show an `accuracy of 0.73` which is simialr, though slightly lower, than the accuracy of the [scikit learn ensemble classifier](#Deliverable-7-ML-classifier-results) of 0.76.
+Building on what I have done with the ML classifiers, I wanted to explore if I could achieve the same resutls with a Neural Netowrk. I used `PyTorch` to build a `Multilayer Perceptron` with 4 linear layers, 3 rectified linear unit, and one dropout layer with a threshold of 0.3. I then trained this model with a `learning rate of 0.01` and a `weight decay of 0.01`. The results show an `accuracy of 0.73` which is simialr, though slightly lower, than the accuracy of the [scikit learn ensemble classifier](#Deliverable-7-ML-classifier-results) of 0.76. 
+Below you can see the definitino of the model, the confusion matrix, the learning rate of the model, as well as the weights of the trained model. 
 
 <div style="text-align: center">
    <img src="img/nn/NN_model.png" width="400px;" alt=""/>
