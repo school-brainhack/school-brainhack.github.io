@@ -158,7 +158,7 @@ The aim was to train a classifier that can accurately distinguish between differ
 
 
 **prep-write condition**
-> average accuracy = 0.76
+> average accuracy = 0.76 <br/>
 > p-value (on 100 permutations): p=0.00
 <div style="text-align: center">
    <img src="img/ml/ml_p-w_p.png" width="400px;" alt=""/>
