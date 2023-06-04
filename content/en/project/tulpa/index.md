@@ -32,9 +32,7 @@ image: "brain.png"
 
 
 > :warning: TLDR; check out my [to-do list](#My-to-do-list).
-
-> :information_source: **NOTE: This is a special note!**: Please read this!
-
+> :information_source: I received great feedback during my final presentation of this project! I haven't been able to incorporate all of the feedback yet, however, check out a full list of feedback [here](#Feedback-from-the-final-presentation ).
 
 
 <div style="text-align: center;">
