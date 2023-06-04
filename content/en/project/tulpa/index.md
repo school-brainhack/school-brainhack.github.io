@@ -34,6 +34,9 @@ TLDR; check out my [to-do list](#My-to-do-list).
 
 > :warning: **WARNING: This is a warning message!**: Be careful!
 
+> :information_source: **NOTE: This is a special note!**: Please read this!
+
+
 
 <div style="text-align: center;">
    <img src="img/tulpa.jpg" height="160px;" alt=""/>
