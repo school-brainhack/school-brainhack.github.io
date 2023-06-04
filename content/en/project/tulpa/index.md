@@ -35,7 +35,7 @@ image: "brain.png"
 
 > :information_source: I received great feedback during my final presentation of this project! I haven't been able to incorporate all of the feedback yet, however, check out a full list of feedback [here](#Feedback-from-the-final-presentation ).
 
-> :information_source: In the spirit of open science, I have successfully contributed to the nilearn project by contributing a typo. See my [merged pull request here](https://github.com/nilearn/nilearn/pull/3738).
+> :information_source: In the spirit of open science, I have successfully contributed to the nilearn project by correcting a typo. See my [merged pull request](https://github.com/nilearn/nilearn/pull/3738).
 
 <div style="text-align: center;">
    <img src="img/tulpa.jpg" height="160px;" alt=""/>
