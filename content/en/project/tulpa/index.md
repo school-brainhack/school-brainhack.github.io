@@ -138,6 +138,14 @@ I have then computed a second level analysis that combines the individual beta m
 
 I then used [Neuro Maps](https://netneurolab.github.io/neuromaps/user_guide/nulls.html) to compute the pearson-r correlation between the first level outputs computed with Nilearn to those I previously computed with SPM. To test for the significance of these comparisons, I re-computed the pearson-r for random pairs. The r values of the true (matched) pairs have a mean of 61.32 while the mean of the random (unmatched) pairs is 17.09. A two-sample t-test revleaed that this difference is significant: **T-stat: -26.24** and a **p-value=0.000**. 
 
+> :information_source: matched pairs are between software, within subject, within contrast, within run.
+
+> :information_source: unmatched pairs are between software, between subject, between contrast, between run 
+
+
+I received great feedback during my final presentation of this project! I haven't been able to incorporate all of the feedback yet, however, check out a full list of feedback [here](#Feedback-from-the-final-presentation ).
+
+
 <div style="text-align: center; background-color: white; border: 1px solid #000; padding: 20px;">
    <img src="img/spm_vs_nilearn.png" height="420px;" alt=""/>
 </div>
