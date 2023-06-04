@@ -157,37 +157,34 @@ I have previously computed a gPPI for this dataset using CONN. I wanted to repli
 The aim was to train a classifier that can accurately distinguish between different task conditions. I used a majority vote ensemble classifier that combines `LogisticRegression`, `RandomForestClassifier`, and a `SVC`. When classifying the conditions `prep` vs. `write`, the classifier achievs an acciracy of ~80%, so well above chance. However, this is not surprising as the writing conditions will have muhc stronger motor cortex activation and the two conditions are quite different. I then classified the `self`, `tulpa`, and `friend` conditions for preparation and writing respectively. In both conditions, we have an accuracy of ~51% for this 3-group classification problem. Given the three groups, chance levels are at 33.3%, thus an accuracy of 51% is well above chance, YAY!
 
 
-<u>**prep-write condition**</u>
+**Prep-write condition**
 > Average accuracy = 0.76 <br/>
 > P-value (on 100 permutations): p=0.00
 <div style="text-align: center">
-   <img src="img/ml/ml_p-w_p.png" width="400px;" alt=""/>
-   <br/>
    <img src="img/ml/ml_p-w_conf.png" width="400px;" alt=""/>
    <br/>
    <img src="img/ml/ml_p-w_weights.png" width="400px;" alt=""/>
    <img src="img/ml/ml_p-w_glass.png" width="400px;" alt=""/>
-   <br /><sub><b>prep-write condition</b></sub>
 </div>
 
+**Write condition**
+> Average accuracy = 0.52 <br/>
+> P-value (on 100 permutations): p=0.32
 <div style="text-align: center">
-   <img src="img/ml/ml_w_p.png" width="400px;" alt=""/>
-   <br/>
    <img src="img/ml/ml_w_conf.png" width="400px;" alt=""/>
    <br/>
    <img src="img/ml/ml_w_weights.png" width="400px;" alt=""/>
    <img src="img/ml/ml_w_glass.png" width="400px;" alt=""/>
-   <br /><sub><b>write condition</b></sub>
 </div>
 
+**Prep condition**
+> Average accuracy = 0.37 <br/>
+> P-value (on 100 permutations): p=0.00
 <div style="text-align: center">
-   <img src="img/ml/ml_p_p.png" width="400px;" alt=""/>
-   <br/>
    <img src="img/ml/ml_p_conf.png" width="400px;" alt=""/>
    <br/>
    <img src="img/ml/ml_p_weights.png" width="400px;" alt=""/>
    <img src="img/ml/ml_p_glass.png" width="400px;" alt=""/>
-   <br /><sub><b>prep condition</b></sub>
 </div>
 
 ### Deliverable 4: Deep neural network encoding results
