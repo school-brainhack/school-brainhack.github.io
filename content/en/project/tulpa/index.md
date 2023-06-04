@@ -210,7 +210,7 @@ The aim was to train a classifier that can accurately distinguish between differ
 
 ### Deliverable 8: Deep neural network encoding results
 
-Building on what I have done with the ML classifiers, I wanted to explore if I could achieve the same resutls with a Neural Netowrk. I used `PyTorch` to build a `Multilayer Perceptron` with 4 linear layers, 3 rectified linear unit, and one dropout layer with a threshold of 0.3. I then trained this model with a `learning rate of 0.01` and a `weight decay of 0.01`. The results show an `accuracy of 0.73` which is simialr, though slightly lower, than the accuracy of the [scikit learn ensemble classifier of 0.76](#Deliverable-7:-ML-classifier-results). 
+Building on what I have done with the ML classifiers, I wanted to explore if I could achieve the same resutls with a Neural Netowrk. I used `PyTorch` to build a `Multilayer Perceptron` with 4 linear layers, 3 rectified linear unit, and one dropout layer with a threshold of 0.3. I then trained this model with a `learning rate of 0.01` and a `weight decay of 0.01`. The results show an `accuracy of 0.73` which is simialr, though slightly lower, than the accuracy of the scikit learn [ensemble-classifier](#Deliverable-7:-ML-classifier-results).  of 0.76
 
 <div style="text-align: center">
    <img src="img/nn/NN_model.png" width="400px;" alt=""/>
