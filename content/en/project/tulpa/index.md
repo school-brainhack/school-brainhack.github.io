@@ -147,7 +147,7 @@ I then used [Neuro Maps](https://netneurolab.github.io/neuromaps/user_guide/null
    <img src="img/spm_vs_nilearn.png" height="420px;" alt=""/>
 </div>
 
-### Deliverable 4: Connectome results
+### Deliverable 5: Connectome results
 
 I have parcellated the brain into 39 regions based on the [probabilistic msdl atlas](https://nilearn.github.io/dev/modules/generated/nilearn.datasets.fetch_atlas_msdl.html). A probabilistic atlas assigns a probability to each voxel, indicating how likely it is that that voxel belongs to a specific region. I have then computed the correlation between all of these 39 regions, resulting into a connectome of shape 39*39. Given that that the correlation measure is none directive, the upper and lower triangle of the connectome mirror each other. Below is an example of a connectome for one subject and one condition.
 
@@ -155,20 +155,20 @@ I have parcellated the brain into 39 regions based on the [probabilistic msdl at
    <img src="img/connectome.png" width="600px;" alt=""/>
 </div>
 
-### Deliverable 4: Seed-to-Voxel connectivity results
+### Deliverable 6: Seed-to-Voxel connectivity results
 I have previously computed a gPPI for this dataset using CONN. I wanted to replicate this task dependent seed to voxel correlation using Nilearn. I have specified the seed based on the group peak activation in the SMA, using the results from the SPM and Randomise analysis. Seed coordination in MNI space are `(-4, 12, 55)`. I have then constructed a sphere around this voxel with a radius of 5 mm. Using this ROI, correlations to all voxels based by task condition were computed. Below is an illustrative example of the connectivity values for one subject and one condition.
 
 <div style="text-align: center">
    <img src="img/gPPI.png" width="600px;" alt=""/>
 </div>
 
-### Deliverable 4: ML-classifier results
+### Deliverable 7: ML-classifier results
 
 The aim was to train a classifier that can accurately distinguish between different task conditions. I used a majority vote ensemble classifier that combines `LogisticRegression`, `RandomForestClassifier`, and a `SVC`. When classifying the conditions `prep` vs. `write`, the classifier achievs an acciracy of ~80%, so well above chance. However, this is not surprising as the writing conditions will have muhc stronger motor cortex activation and the two conditions are quite different. I then classified the `self`, `tulpa`, and `friend` conditions for preparation and writing respectively. In both conditions, we have an accuracy of ~51% for this 3-group classification problem. Given the three groups, chance levels are at 33.3%, thus an accuracy of 51% is well above chance, YAY!
 
 <br/>
 
-> :information_source: all classifiers were trained and tested on the **connectome**. Next, the plan is to train the classifier on the beta maps of the GLM. See my [to-do list](#My-to-do-list) for further details. 
+> :information_source: all classifiers were trained and tested on the **connectome**. Next, the plan is to train classifiers on the beta maps of the GLM. See my [to-do list](#My-to-do-list) for further details. 
 
 
 **Prep-write condition**
@@ -183,6 +183,7 @@ The aim was to train a classifier that can accurately distinguish between differ
 </div>
 
 <br/>
+
 **Write condition**
 
 > Average accuracy = 0.52 <br/>
@@ -195,6 +196,7 @@ The aim was to train a classifier that can accurately distinguish between differ
 </div>
 
 <br/>
+
 **Prep condition**
 
 > Average accuracy = 0.37 <br/>
@@ -206,7 +208,9 @@ The aim was to train a classifier that can accurately distinguish between differ
    <img src="img/ml/ml_p_glass.png" width="400px;" alt=""/>
 </div>
 
-### Deliverable 4: Deep neural network encoding results
+### Deliverable 8: Deep neural network encoding results
+
+Building on what I have done with the ML classifiers, I wanted to explore if I could achieve the same resutls with a Neural Netowrk. I used `PyTorch` to build a `Multilayer Perceptron` with 4 linear layers, 3 rectified linear unit, and one dropout layer with a threshold of 0.3. I then trained this model with a `learning rate of 0.01` and a `weight decay of 0.01`. The results show an `accuracy of 0.73` which is simialr, though slightly lower, than the accuracy of the [scikit learn ensemble classifier of 0.76](#Deliverable 7: ML-classifier results). 
 
 <div style="text-align: center">
    <img src="img/nn/NN_model.png" width="400px;" alt=""/>
