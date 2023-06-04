@@ -30,9 +30,8 @@ image: "brain.png"
 
 # Tulpas: invisible friends in the brain
 
-TLDR; check out my [to-do list](#My-to-do-list).
 
-> :warning: **WARNING: This is a warning message!**: Be careful!
+> :warning: TLDR; check out my [to-do list](#My-to-do-list).
 
 > :information_source: **NOTE: This is a special note!**: Please read this!
 
