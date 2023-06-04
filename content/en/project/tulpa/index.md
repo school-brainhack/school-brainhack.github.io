@@ -33,6 +33,8 @@ image: "brain.png"
 
 > :warning: TLDR; check out my [to-do list](#My-to-do-list).
 
+> :warning: Practical [tipps and tricks](#Tipps-and-Tricks) I learned during this brainhack school.
+
 > :information_source: I received great feedback during my final presentation of this project! I haven't been able to incorporate all of the feedback yet, however, check out a full list of feedback [here](#Feedback-from-the-final-presentation ).
 
 > :information_source: In the spirit of open science, I have successfully contributed to the nilearn project by correcting a typo. See my [merged pull request](https://github.com/nilearn/nilearn/pull/3738).
@@ -266,7 +268,8 @@ Below you can see the definitino of the model, the confusion matrix, the learnin
 - look into **stratified cross validation** to deal with multiple runs per subject in the classifier. If I use stratification this shouldn't be a problem. 
 
 
-## Tipps and Tricks, useful hacks, and notes for next iterations of this project 
+## Tipps and Tricks
+**useful hacks, and notes for next iterations of this project**
 - Plotting results
    - [plotly](https://plotly.com/)
    - histograms are powerful because they don't collapse either time or space 
