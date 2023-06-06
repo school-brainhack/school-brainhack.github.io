@@ -1,14 +1,14 @@
 ---
 type: "project" # DON'T TOUCH THIS ! :)
-date: "2020-05-16" # Date you first upload your project.
+date: "2023-06-09" # Date you first upload your project.
 # Title of your project (we like creative title)
-title: "This is an example project page which serves as a template"
+title: Analyzing variability of working memory and reward processing in children with and without ADHD using fMRI data
 
 # List the names of the collaborators within the [ ]. If alone, simple put your name within []
-names: [Samuel Guay, Pierre Bellec]
+names: [Zara Khan, Fariah Sandhu, Clara Sun]
 
 # Your project GitHub repository URL
-github_repo: https://github.com/brainhack-school2023/project_template
+github_repo: https://github.com/brainhack-school2023/csun_project/
 
 # If you are working on a project that has website, indicate the full url including "https://" below or leave it empty.
 website:
