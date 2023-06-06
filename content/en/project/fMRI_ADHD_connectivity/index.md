@@ -93,10 +93,8 @@ Our group had chosen to focus on one task from the eight- the Verbal, Large Rewa
 
 ### Deliverables
 
-At the end of this project, we will have:
- - The current markdown document, completed and revised.
- - A gallery of the student projects at Brainhack 2020.
- - Instructions on the website about how to submit a pull request to the [brainhack school website](https://github.com/BrainhackMTL/school) in order to add the project description to the website.
+<input type = "checkbox" checked> This is my first checkbox
+
 
 ## Results
 
