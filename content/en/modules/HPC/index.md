@@ -2,7 +2,7 @@
 type: "modules" # DON'T TOUCH THIS ! :)
 
 # Title of your project (we like creative title)
-title: "High performance computing"
+title: "High Performance Computing"
 
 # Your project GitHub repository URL
 github_repo: https://github.com/calculquebec/cq-formation-premiers-pas
@@ -12,11 +12,11 @@ website:
 
 # List +- 4 keywords that best describe your project within []. Note that the project summary also involves a number of key words. Those are listed on top of the [github repository](https://github.com/PSY6983-2021/project_template), click `manage topics`.
 # Please only lowercase letters
-tags: [HPC, computecanda, calculquebec, alliancecanada]
+tags: [HPC, computecanda, alliancecanada, brainhackcloud]
 
 # Summarize your project in < ~75 words. This description will appear at the top of your page and on the list page with other projects..
 
-summary: "Introduction to the Alliance Canada (formerly Compute Canada) infrastructure and parallel computing."
+summary: "Introduction to HPC infrastructure and parallel computing, using Alliance Canada (formerly Compute Canada), or Brainhack Cloud."
 
 # If you want to add a cover image (listpage and image in the right), add it to your directory and indicate the name
 # below with the extension.
@@ -30,9 +30,11 @@ The estimated time to complete this training module is 4h.
 
 The prerequisites to take this module are:
  * the [installation](/modules/installation) module.
- * the [introduction to the terminal](/modules/terminal) module.
+ * the [introduction to the terminal](/modules/introduction_to_terminal) module.
 
-Contact François Paugam if you have questions on this module, or if you want to check that you completed successfully all the exercises.
+If you have any questions regarding the module content please ask them in the relevant module channel on the school Discord server. If you do not have access to the server and would like to join, please send us an email at school [dot] brainhack [at] gmail [dot] com.
+
+Follow up with your local TA(s) to validate you completed the exercises correctly.
 
 :warning: It should be noted that recently Compute Canada changed its name to Alliance Canada.
 That does not change the relevance of the exercises presented here, but it can make some naming conventions outdated.
@@ -41,6 +43,8 @@ For example, the documentation website for the clusters is no longer https://doc
 :warning: A notable exception to the name change are the hostnames of the clusters for ssh connections. You still have to use the `.computecanada.ca` domain name. So for example if you want to connect to Beluga, you still need to type :
 
 `ssh <username>@beluga.computecanada.ca`
+
+:warning: :warning: If you reside outside of Canada and don't have access to a local HPC you can apply to access [Brainhack Cloud](https://brainhack.org/brainhack_cloud/). Some detailed steps for connecting to their cloud are available on this [GitHub repository](https://github.com/brainhack-school2022/dimitrijevic_project/blob/main/BrainHackCloud_steps/get_connected.md). Subsequently anytime the lecture material below refers to location-specific inputs you will have to adjust your inputs accordingly (e.g. the ssh connection).
 
 ## Resources
 This module was presented by [Félix-Antoine Fortin](https://github.com/cmd-ntrf) during the QLSC 612 course in 2020.
@@ -74,7 +78,7 @@ The video of his presentation is available below:
  ```
  rm cq-formation-premiers-pas-slurmcloud.zip
  ```
- * Do the exercises in the `cq-formation-premiers-pas-slurmcloud` folder, you cans see the original instructions in the README files, for example :
+ * Do the exercises in the `cq-formation-premiers-pas-slurmcloud` folder, you can see the original instructions in the README files, for example :
  ```
  cd cq-formation-premiers-pas-slurmcloud/1-base
  cat README.en
@@ -93,7 +97,7 @@ The video of his presentation is available below:
 
  <br>
 
- * Follow up with François Paugam to validate you completed the 5 exercises correctly.
+ * Follow up with your local TA(s) to validate you completed the exercises correctly.
  * :tada: :tada: :tada: you completed this training module! :tada: :tada: :tada:
 
 ## More resources

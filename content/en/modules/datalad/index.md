@@ -34,7 +34,7 @@ The prerequisites to take this module are:
  * the [introduction to git and github](/modules/git_github) module can help, but not required.
  * the [project management](/modules/project_management) module is recommended, but not required.
 
-Contact Isil Bilgin if you have questions on this module, or if you want to check that you completed successfully all the exercises.
+If you have any questions regarding the module content please ask them in the relevant module channel on the school Discord server. If you do not have access to the server and would like to join, please send us an email at school.brainhack [at] gmail [dot] com.
 
 ## Resources
 This module was presented by [Adina Wagner](https://twitter.com/AdinaKrik) during the HBM Brainhack in 2020.
@@ -51,9 +51,9 @@ For the installation of the DataLad please follow the instructions in the [DataL
    * **Warning 1**: The url for one of the books in the tutorial (`byte-of-python.pdf`) is broken, so the pdf is unreadable. This does not impact the tutorial, but just don't be surprised if that document does not open. Also it shows how important it is to create persistent URLs when you release material, such as those offered on platforms like `zenodo`, `osf` or `figshare`.
    * **Warning 2**: Follow the tutorial you may need to install new command line tools, such as `tree`.
    * **Warning 3**: To be able to clone the some repositories throughout the hands on parts of the lecture you will need to produce a SSH key and register it with your github account. To be able to create your SSH key please follow the [instructions from Github](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent#generating-a-new-ssh-key). From the Git Bash terminal (a bash emulation that comes with the installation of Git) go to where the ssh key file is stored and run `cat ~/.ssh/id_rsa.pub` command to see the key. It will be a very long string of letters and numbers starting with an indicator `ssh-rsa`. Copy the whole chunk of the key string and go to your  GitHub account, from Settings> SSH & GPG keys menu click to the New SSH key button. Paste the copied key into the `Key` text box and give a title to your key such as `home_laptop_github_key`. And click the `Add SSH Key` button to save it. Now you have your SSH key is settled for the current operating system environment and you are ready to run `datalad clone` command by using `git@github.com:...` links listed throughout the tutorial. 
- * Check with Isil Bilgin to validate that the history of your DataLad repository that includes all the steps of the tutorial.
- * :tada: :tada: :tada: You completed this training module! :tada: :tada: :tada:
-
+   *  Follow up with your local TA(s) to validate you completed the exercises correctly.
+   *  :tada: :tada: :tada: You completed this training module! :tada: :tada: :tada:
+   
 ## More resources
 
 If you want to learn more, check:

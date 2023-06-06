@@ -32,7 +32,7 @@ The prerequisites to take this module are:
  * the [installation](/modules/installation) module.
  * the [introduction to the terminal](/modules/introduction_to_terminal/) module.
 
-Contact Isil Bilgin if you have questions on this module, or if you want to check that you completed successfully all the exercises.
+If you have any questions regarding the module content please ask them in the relevant module channel on the school Discord server. If you do not have access to the server and would like to join, please send us an email at school [dot] brainhack [at] gmail [dot] com.
 
 ## Resources
 This module consists of a video by Tristan Glatard that was originally presented at BrainHack School 2020 and notebook by Tristan Glatard containing links to content by Julia Evans.
@@ -46,7 +46,7 @@ The video presentation is available here:
 
  * Watch the video presentation.
  * Complete the notebook exercises and review the content.
- * Follow up with Isil Bilgin to validate you completed the exercise correctly.
+ * Follow up with your local TA(s) to validate you completed the exercises correctly.
  * 🎉 🎉 🎉 you completed this training module! 🎉 🎉 🎉
 
 ## More resources

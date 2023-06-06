@@ -7,10 +7,10 @@ type = "coc"
 
 ---
 
-# BrainHack School Code of Conduct
+# Brainhack School Code of Conduct
 
 Hello  :wave:, and  
-:computer::brain: Welcome to BrainHack School! :brain::computer:
+:computer::brain: Welcome to Brainhack School! :brain::computer:
 
 Brainhack is dedicated to providing an environment where people are kind and respectful to each other, a harassment-free Brainhack experience for everyone, regardless of gender, gender identity and expression, sexual orientation, disability, physical appearance, body size, race, age or religion. We do not tolerate harassment of event participants in any form. Sexual language and imagery is not appropriate for any event venue, including talks. Brainhack participants violating these rules may be sanctioned or expelled from the event without a refund at the discretion of the event organizers.
 
@@ -53,15 +53,13 @@ While we do not assume Brainhack participants know the cultural practices of eve
 Participants asked to stop any harassing behavior are expected to comply immediately. Organizers and presenters are also subject to the anti-harassment policy. In particular, they should not use sexualized images, activities, or other material. Event organisers may take action to redress anything designed to, or with the clear impact of, disrupting the event or making the environment hostile for any participants.
 
 ## **Reporting**
-If someone makes you or anyone else feel unsafe or unwelcome, please report it as soon as possible to the moderator on Slack or by email (@support will list the Code of Conduct committee members).
+If someone makes you or anyone else feel unsafe or unwelcome, please report it as soon as possible to your local hub organizer. You can also contact one of the main school organizers on Discord or by email at school [dot] brainhack [at] gmail [dot] com. Depending on the issue, you may need to follow your local hub policies and guidelines for reporting. 
 
-### *Reporting Issues*
-BrainHack school is supported by the McGill University and Universite de Montreal disciplinary boards in enforcing appropriate behavior throughout the course.
+### *Reporting Issues at the UdeM hub*
+For students attending the Universite de Montreal hub, Brainhack school is supported by their disciplinary board in enforcing appropriate behavior throughout the course. Any incident of unacceptable behavior hurts the learning environment for everyone. We are therefore committed to supporting students to access these resources and ensure a supportive environment.
 
-Any incident of unacceptable behavior hurts the learning environment for everyone. We are therefore committed to supporting students to access these resources and ensure a supportive environment.
+The [University of Montreal Bureau d’intervention en matière de harcèlement (BIMH)](https://neurosciences.umontreal.ca/bureau-dintervention-en-matiere-de-harcelement-ou-de-lintimidation-bimh-514-343-7020/) exists to promote a healthy student environment across the university, and we are ready to assist students in submitting a report to the disciplinary board.
 
-Both the [McGill Code of Student Conduct and Disciplinary Procedures](https://www.mcgill.ca/secretariat/files/secretariat/code_of_student_conduct_and_disciplinary_procedures.pdf) and the [University of Montreal Bureau d’intervention en matière de harcèlement (BIMH)](https://neurosciences.umontreal.ca/bureau-dintervention-en-matiere-de-harcelement-ou-de-lintimidation-bimh-514-343-7020/) exist to promote a healthy student environment at their respective universities. As BrainHack School straddles these two institutions, we are ready to assist students in submitting reports to either disciplinary board.
+When necessary, a support team member will assist students to file a report. Complaints can be filed, without limitation periods, for any incident of harassment that has occurred in the course of university activities, whether on or off-campus. If one feels more comfortable to report an issue directly to the BIMH, they can visit their website (https://harcelement.umontreal.ca) or contact them directly (phone 514 343-7020; e-mail harcelement@umontreal.ca).
 
-When necessary, a support team member will assist students to file a report at the appropriate university office. Complaints can be filed, without limitation periods, for any incident of harassment that has occurred in the course of university activities, whether on or off-campus. If one feels more comfortable to report an issue directly to the BIMH, they can visit their website (https://harcelement.umontreal.ca) or contact them directly (phone 514 343-7020; e-mail harcelement@umontreal.ca). Similarly for McGill University, issues can be reported directly to Robin Beech, the disciplinary officer for Graduate and Postdoctoral Studies (phone 514 398-5222; e-mail robin.beech@mcgill.ca).
-
-Also, if you need moral support, feel welcome to ping the moderators on Slack or by email @support.
+Also, if you need moral support, feel welcome to ping the school organizers on Discord or by email at school [dot] brainhack [at] gmail [dot] com.
