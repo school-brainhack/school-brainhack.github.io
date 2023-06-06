@@ -92,12 +92,11 @@ Our group had chosen to focus on one task from the eight- the Verbal, Large Rewa
  
 
 ### Deliverables
-
-<h1>Languages of the web</h1>
-<h3>&check; HTML</h3>
-<h3>&#10003; CSS</h3>
-<h3>&#10003; JavaScript</h3>
-<h3>&check; PHP</h3>
+<h3>&check; Preprocessed Data</h3>
+<h3>&#10003; Creating Brain Parcellations</h3>
+<h3>&#10003; Visualizations</h3>
+ <h3>&#10003; Graphs for Statistical Analysis</h3>
+<h3>&check; Connecitivty Matrix</h3>
 
 
 ## Results
