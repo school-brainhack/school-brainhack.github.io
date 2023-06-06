@@ -43,14 +43,10 @@ Attention Deficit Hyperactivity Disorder (ADHD) is one of the most common neurod
 ### Tools
 
 This project will rely on the following technologies:
- * Open Neuro fMRI data - doi: 10.18112/openneuro.ds002424.v1.2.0
-<ul>
-<li>Nilearn</li>
-<li>Bullet 2</li>
-<li>Bullet 3</li>
+* Open Neuro fMRI data - doi: 10.18112/openneuro.ds002424.v1.2.0
 * Python Scripts:
- * Nilearn - extractring and visualizing data
- * Pandas - manipulation and plotting 
+ - Nilearn - extractring and visualizing data
+ - Pandas - manipulation and plotting 
  * Nibabel - loading images 
  * SciNet - Jupyter Notebook - to implement code for our data/ take first steps within our the Niagara (University of Toronto) cluster
  * Git and GitHub - practice sharing a workspace, fork repositories, version control 
