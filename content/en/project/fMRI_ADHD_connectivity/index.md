@@ -46,13 +46,25 @@ This project will rely on the following technologies:
 * Open Neuro fMRI data - doi: 10.18112/openneuro.ds002424.v1.2.0
 * Python Scripts:
  - Nilearn - extractring and visualizing data
- <p style="margin-left: 40px">This text is indented.</p> 
  * Pandas - manipulation and plotting 
  - Nibabel - loading images 
  - SciNet - Jupyter Notebook - to implement code for our data/ take first steps within our the Niagara (University of Toronto) cluster
  - Git and GitHub - practice sharing a workspace, fork repositories, version control 
  - Bash - Use Terminal for quick and easy access 
 
+<!-- testing thing here -->
+<OL>
+<LI>Main Heading
+<UL>
+<LI>List item 1
+<LI>List item 2
+</UL>
+<LI>Secondary Heading
+<UL>
+<LI>List item 1
+<LI>List item 2
+</UL>
+</OL>
 
 ### Data
 
