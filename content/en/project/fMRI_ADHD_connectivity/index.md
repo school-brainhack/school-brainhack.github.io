@@ -92,11 +92,11 @@ Our group had chosen to focus on one task from the eight- the Verbal, Large Rewa
  
 
 ### Deliverables
-&check; Preprocessed Data
-&#10003; Creating Brain Parcellations
-&#10003; Visualizations
-&#10003; Graphs for Statistical Analysis
-&check; Connecitivty Matrix
+&check; Preprocessed Data<br>
+&#10003; Creating Brain Parcellations<br>
+&#10003; Visualizations<br>
+&#10003; Graphs for Statistical Analysis<br>
+&check; Connecitivty Matrix<br>
 
 
 ## Results
