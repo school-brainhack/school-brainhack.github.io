@@ -19,7 +19,7 @@ tags: [project, github, markdown, brainhack, jupyter notebook, preprocessing, AD
 
 # Summarize your project in < ~75 words. This description will appear at the top of your page and on the list page with other projects..
 
-summary: "Each project repository should have a markdown file explaining the background and objectives of the project, as well as a summary of the results, and links to the different deliverables of the project. Project reports are incorporated in the BHS [website](https://school.brainhackmtl.org/project)."
+summary: "Our project aims to help develop our skillset on analyzing fMRI data on the OpenNeuro dataset chosen. This includes using ciftify, cifti_clean, jupyter notebook, and multiutudes of libraries within python. Project reports are incorporated in the BHS [website](https://school.brainhackmtl.org/project)."
 
 # If you want to add a cover image (listpage and image in the right), add it to your directory and indicate the name
 # below with the extension.
