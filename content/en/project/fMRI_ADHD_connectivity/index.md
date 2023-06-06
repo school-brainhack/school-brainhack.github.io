@@ -89,7 +89,6 @@ Our group had chosen to focus on one task from the eight- the Verbal, Large Rewa
  
  <!-- Add Data Images Hhere!!! Marks as Done when done -->
  
- 
 
 ### Deliverables
 &check; Preprocessed Data<br>
@@ -100,10 +99,10 @@ Our group had chosen to focus on one task from the eight- the Verbal, Large Rewa
 
 
 ## Results
-
+ 
 ### Progress overview
 
-The project was swiftly initiated by P Bellec, based on the existing template created in 2019 by Tristan Glatard and improved by different students. It was really not that hard. Community feedback is expected to lead to rapid further improvements of this first version.
+This project was initiated by Clara Sun, Fariah Sandhu and Zara Khan, based off of the OpenNeuro Dataset from James R. Booth et al on 22nd May 2023. The final presentation of this project was delivered on 2nd June 2023. All deliverables were given an attempt to be completed, where the ones that were, can be found on this repository. 
 
 ### Tools I learned during this project
 
