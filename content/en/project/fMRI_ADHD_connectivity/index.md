@@ -59,7 +59,22 @@ This project will rely on the following technologies:
 
 ### Data
 
-Ultimately, the project template will be used by all BHS participants. Data on the different projects will be aggregareted on the [following page](https://school.brainhackmtl.org/project). This will serve as an additional example gallery in the years to come for future brainhack school students. Many reports from [BHS 2019](https://github.com/mtl-brainhack-school-2019) already used this template.
+For this project, we were working with a Neuroimaging Dataset on Working Memory and Reward Processing in Children With and Without ADHD from OpenNeuro (Lytle et al., 2020). 
+
+The dataset contains 79 children at session T1 (mean age = 10.4, 14 female). A subset of the participants 48 individuals returned two years later to complete a follow-up standardized testing session (n = 48, mean age = 12.6, SD = 0.94). 35 participants at session T1 and 18 participants at session T2 had a diagnosis of ADHD. All participants diagnosed with ADHD were male. Participants were recruited from the greater Chicago area.
+
+Participants completed eight n-back working memory tasks in the scanner which varied in three factors: reward amount, feedback delay, and judgment type. In all tasks, participants were presented with a series of letters one at a time. These letters were located in one of four positions around a fixation box. 
+
+In the verbal working memory task (V), which is what we were looking at,  participants were asked to judge whether the letter that appeared on the screen was the same letter as the one presented n letters back.
+
+Participants made responses by selecting one of two buttons on a right-handed button box. Prior to the beginning of each block, the program would indicate which task instructions were to be followed (1-back, 2-back or fixation) with varying amounts of trials and questions. 
+
+Tasks also varied in reward amount. Participants were told that they would make $.02 or $.25 for every correct answer for the small (S) and large (L) reward tasks, although all participants were compensated the same by the end of the tasks. Participants were reminded of what reward amount was being offered by one of two images. For small reward tasks, the image was two coins, and for the large reward tasks, the was a stack of paper bills. 
+
+Tasks contained one of two feedback times, immediate (I) or delayed (D). In the delayed feedback tasks, participants would continue to view a black fixation square. At the end of each experimental block, participants would be told their percentage of correct responses.
+
+In all tasks, trial timing was adhered to. Participants were presented with the letter in one of the four corners, where the letter disappeared and only the fixation square remained. Participants then continued to see a fixation period of 600 ms. In delayed feedback, the fixation square remained black.
+
 
 ### Deliverables
 
