@@ -1,29 +1,29 @@
 ---
 type: "project" # DON'T TOUCH THIS ! :)
 date: "2023-06-09" # Date you first upload your project.
-# Title of your project (we like creative title)
+# Title of your project (we like creative title) <!-- changed here -->
 title: Analyzing variability of working memory and reward processing in children with and without ADHD using fMRI data
 
-# List the names of the collaborators within the [ ]. If alone, simple put your name within []
+# List the names of the collaborators within the [ ]. If alone, simple put your name within [] <!-- changed here -->
 names: [Zara Khan, Fariah Sandhu, Clara Sun]
 
-# Your project GitHub repository URL
+# Your project GitHub repository URL <!-- this is changed too -->
 github_repo: https://github.com/brainhack-school2023/csun_project/
 
-# If you are working on a project that has website, indicate the full url including "https://" below or leave it empty.
+# If you are working on a project that has website, indicate the full url including "https://" below or leave it empty. <!-- changed here too -->
 website:
 
-# List +- 4 keywords that best describe your project within []. Note that the project summary also involves a number of key words. Those are listed on top of the [github repository](https://github.com/brainhack-school2020/project_template), click `manage topics`.
+# List +- 4 keywords that best describe your project within []. Note that the project summary also involves a number of key words. Those are listed on top of the [github repository](https://github.com/brainhack-school2020/project_template), click `manage topics`. <!-- changed here as well -->
 # Please only lowercase letters
 tags: [project, github, markdown, brainhack, jupyter notebook, preprocessing, ADHD, fMRI]
 
-# Summarize your project in < ~75 words. This description will appear at the top of your page and on the list page with other projects..
+# Summarize your project in < ~75 words. This description will appear at the top of your page and on the list page with other projects.. <!-- this is changed as well -->
 
 summary: "Our project aims to help develop our skillset on analyzing fMRI data on the OpenNeuro dataset chosen. This includes using ciftify, cifti_clean, jupyter notebook, and multiutudes of libraries within python. Project reports are incorporated in the BHS [website](https://school.brainhackmtl.org/project)."
 
 # If you want to add a cover image (listpage and image in the right), add it to your directory and indicate the name
 # below with the extension.
-image: "bhs2020.png"
+image: "bhs2020.png" <!-- Done, I believe Clara added this in -->
 ---
 <!-- This is an html comment and this won't appear in the rendered page. You are now editing the "content" area, the core of your description. Everything that you can do in markdown is allowed below. We added a couple of comments to guide your through documenting your progress. -->
 
@@ -31,9 +31,10 @@ image: "bhs2020.png"
 
 ### Background
 
-Inspired by the [Recurse Centre](https://www.recurse.com/) initiative (formally known as the "hacker school"), Brainhack School was established in 2018 with the mission to train students from multidisciplinary backgrounds to a panoply of reproducible tools for neural data science, using a project-based approach. Following an initial 3-weeks long pilot, a 4th week was added with an intensive bootcamp, so that students could choose what tools to learn more deeply in their projects. As the course became integrated in standard curriculum at different universities, the formula seemed to be working. In order to streamline the different stages of the project, some standard template and milestones needed to be incorporated in a github-based workflow. The "project template" project (which is also our first BHS meta-project) aims at establishing such a standardized template. You can check the following [video](https://youtu.be/PTYs_JFKsHI) where Pierre Bellec gives an overview of the Brainhack school.
+Attention Deficit Hyperactivity Disorder (ADHD) is one of the most common neurodevelopmental disorders worldwide. Moreover, there is a high prevalence of ADHD among children (Morkem et al., 2020). The characteristics symptoms of ADHD, namely poor working memory, greater reliance on external feedback, and abnormal reward processing are of interest to us because these characteristics have been associated with changes in brain activity patterns in distinct networks. In addition, previous studies also suggest that there are substantial individual differences in reactions to reward and feedback manipulation among those with ADHD (Hammer et al., 2015). 
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/PTYs_JFKsHI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+# add in image here
+image: "blah" <!-- Comment here when added -->
 
 ### Tools
 
