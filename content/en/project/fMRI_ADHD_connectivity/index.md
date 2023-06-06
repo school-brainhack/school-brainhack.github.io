@@ -80,11 +80,13 @@ Some Limitations included:
 * Native English speakers
 * Have normal or corrected to normal vision and have no history of neurological or psychological disorder
 * Prematurity of less than 36 weeks
-Head injury causing overnight hospitalization
-Hearing loss, or contraindications for MRI. 
-Participants could not be taking medication affecting the central nervous system other than ADHD medication, and all participants with ADHD were required to be male.
+* Head injury causing overnight hospitalization
+* Hearing loss, or contraindications for MRI
+* Participants could not be taking medication affecting the central nervous system other than ADHD medication, and all participants with ADHD were required to be male
 
-
+**Our Chosen Task:**
+Our group had chosen to focus on one task from the eight- the Verbal, Large Reward, Delayed Feedback (VLD).  Of the 73 participants who completed the VLD task, 30 participants were diagnosed with ADHD as opposed to the 43 participants who were not. Due to problems our group ran into with preprocessing data (which will be discussed later), we were only able to obtain processed data for the first 10 participants, 4 of whom could not be used as a result of not completing the VLD task. Of our six participants, five individuals were diagnosed with ADHD.
+ 
  <!-- Add Data Images Hhere!!! Marks as Done when done -->
  
  
