@@ -33,7 +33,7 @@ image: "bhs2020.png"
 
 Attention Deficit Hyperactivity Disorder (ADHD) is one of the most common neurodevelopmental disorders worldwide. Moreover, there is a high prevalence of ADHD among children (Morkem et al., 2020). The characteristics symptoms of ADHD, namely poor working memory, greater reliance on external feedback, and abnormal reward processing are of interest to us because these characteristics have been associated with changes in brain activity patterns in distinct networks. In addition, previous studies also suggest that there are substantial individual differences in reactions to reward and feedback manipulation among those with ADHD (Hammer et al., 2015). 
 
-<!-- add in image: "blah" here and Comment here when added -->
+<img src="bold_graph.png" width="70%">
 
 ### Personal Goals <!-- Done -->
  * Understand the processing and application of the full neuroimaging workflow, specifically from raw fMRI data to data visualization
