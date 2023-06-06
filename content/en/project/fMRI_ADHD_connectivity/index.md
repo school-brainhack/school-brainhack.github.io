@@ -44,6 +44,10 @@ Attention Deficit Hyperactivity Disorder (ADHD) is one of the most common neurod
 
 This project will rely on the following technologies:
  * Open Neuro fMRI data - doi: 10.18112/openneuro.ds002424.v1.2.0
+<ul>
+<li>Nilearn</li>
+<li>Bullet 2</li>
+<li>Bullet 3</li>
 * Python Scripts:
  * Nilearn - extractring and visualizing data
  * Pandas - manipulation and plotting 
