@@ -93,7 +93,7 @@ Our group had chosen to focus on one task from the eight- the Verbal, Large Rewa
 
 ### Deliverables
 
-<input type = "checkbox" checked> This is my first checkbox
+<input type = "checkbox"> This is my first checkbox
 
 
 ## Results
