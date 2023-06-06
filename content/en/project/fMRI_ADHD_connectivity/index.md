@@ -43,9 +43,15 @@ Attention Deficit Hyperactivity Disorder (ADHD) is one of the most common neurod
 ### Tools
 
 This project will rely on the following technologies:
- * Markdown, to structure the text.
- * The Hugo website framework which is used by the BHS website. This makes it possible to easily add the markdown project description to the website.
- * Adding the project to the website relies on github, through pull requests.
+ * Open Neuro fMRI data - doi: 10.18112/openneuro.ds002424.v1.2.0
+* Python Scripts:
+ * Nilearn - extractring and visualizing data
+ * Pandas - manipulation and plotting 
+ * Nibabel - loading images 
+ * SciNet - Jupyter Notebook - to implement code for our data/ take first steps within our the Niagara (University of Toronto) cluster
+ * Git and GitHub - practice sharing a workspace, fork repositories, version control 
+ * Bash - Use Terminal for quick and easy access 
+
 
 ### Data
 
