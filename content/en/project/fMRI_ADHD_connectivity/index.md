@@ -143,7 +143,7 @@ Once again, following Erin Dickie’s KCNI modules, we were able to create and c
 
 The personal objectives within this project were met as well as some deliverable goals. We all started Brainhacks with no previous knowledge on neuroimaging and the tools used with neuro-analysis on fMRI data. Moreover, most of us had limited skills with code. During our time in Brainhacks school, we were exposed to many different skills and techniques that we did not know existed. We learned lots from the modules such as the introduction to python and fMRI modules that set the foundation for our knowledge. We then applied these skills with the homework which prepared us for our project. We would like to take these skills that we learned over the course of a month in future personal projects over the summer, and develop them further. 
 
-We are also glad to have had wonderful TAs as well as our supervisor, Erin Dickie, that helped us perform analysis on SciNet within the Nigara cluster 
+We are also glad to have had wonderful TAs as well as our supervisor, Erin Dickie, that helped us perform analysis on SciNet within the Nigara cluster.
 
 ## Acknowledgements
 We would like to thank Erin Dickie for leading and organizing Brainhacks school for the Toronto Hub and giving us the wonderful opportunity to be able to join. We would also like to thank our TAs who would join our online discord calls, and were always available to help whenever we needed it:
