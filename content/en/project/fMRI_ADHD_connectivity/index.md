@@ -115,33 +115,48 @@ This project was initiated by Clara Sun, Fariah Sandhu and Zara Khan, based off 
 
 #### Deliverable 1: A Github repository with code scripts and data preparation
 
-You are currently reading the report template! I will let you judge whether it is useful or not. If you think there is something that could be improved, please do not hesitate to open an issue [here](https://github.com/brainhack-school2020/project_template/issues) and let us know.
+You are currently reading the report template! I will let you judge whether it is useful or not. 
+ 
+#### Deliverable 2: A jupyter notebook of the analysis codes and visualizations
+ 
+Based on resources contained within Erin Dickie’s Krembil Centre for Neuroinformatics (KCNI) summer school slides and modules, we were able to produce graphs as well as brain images via the preprocessed data. For example, using nilearn, nibabel, and matplotlib, we were able to plot slices of the brain as well as a line graph which displayed fMRI signal vs time of any brain parcellation. In the context of our data, we chose to plot the somatomotor region vs the auditory region. 
+ 
+The code for parcellation graph comparing fMRI signal vs. time with the somatomotor and auditory regions
 
-#### Deliverable 2: project gallery
+ <!-- Add image here -->
 
-There is not yet a project gallery, as BHS 2020 is the first edition that will incorporate it on the website. You can still check out the [2019 BHS github organization](https://github.com/mtl-brainhack-school-2019)
+The Deliverable:
+ 
+<!-- Add image here too - the actaul graph here -->
 
-##### ECG pupilometry pipeline by Marce Kauffmann
+#### Deliverable 3: A connectivity matrix based on one task
+ 
+Once again, following Erin Dickie’s KCNI modules, we were able to create and compare connectivity matrices based on children with and without ADHD. The analysis code can be found within this repository under “brainhacks_connectivity matrix.ipynb”. Using a list, we were able to sum up the values of each participant with ADHD, average out these values (using numpy), and then plot the models using previous code in order to see a connectivity matrix. 
 
-The repository of this project can be found [here](https://github.com/mtl-brainhack-school-2019/ecg_pupillometry_pipeline_kaufmann). The objective was to create a processing pipeline for ECG and pupillometry data. The motivation behind this task is that Marcel's lab (MIST Lab @ Polytechnique Montreal) was conducting a Human-Robot-Interaction user study. The repo features:
- * a [video introduction](http://www.youtube.com/watch/8ZVCNeX42_A) to the project.
- * a presentation [made in a jupyter notebook](https://github.com/mtl-brainhack-school-2019/ecg_pupillometry_pipeline_kaufmann/blob/master/BrainHackPresentation.ipynb) on the results of the project.
- * Notebooks for all analyses.
- * Detailed requirements files, making it easy for others to replicate the environment of the notebook.
- * An overview of the results in the markdown document.
+ Participants with ADHD:
+ <!-- Adding the first kinda bougie connectivity matrix -->
+ 
+ Participant (Subject 3) without ADHD:
+ <!-- Add the sucky connectivity matrix -->
+ 
+## Conclusion 
 
-##### Other projects
-Here are other good examples of repositories:
-- [Learning to manipulate biosignals with python](https://github.com/mtl-brainhack-school-2019/franclespinas-biosignals) by François Lespinasse
-- [Run multivariate anaylysis to relate behavioral and electropyhysiological data](https://github.com/mtl-brainhack-school-2019/PLS_PV_Behaviour)
-- [PET pipeline automation and structural MRI exploration](https://github.com/mtl-brainhack-school-2019/rwickens-sMRI-PET) by Rebekah Wickens
-- [Working with PSG [EEG] data from Parkinson's patients](https://github.com/mtl-brainhack-school-2019/Soraya-sleep-data-in-PD-patients) by Cryomatrix
-- [Exploring Brain Functional Activation in Adolescents Who Attempted Suicide](https://github.com/mtl-brainhack-school-2019/Anthony-Gifuni-repo) by Anthony Gifuni
+The personal objectives within this project were met as well as some deliverable goals. We all started Brainhacks with no previous knowledge on neuroimaging and the tools used with neuro-analysis on fMRI data. Moreover, most of us had limited skills with code. During our time in Brainhacks school, we were exposed to many different skills and techniques that we did not know existed. We learned lots from the modules such as the introduction to python and fMRI modules that set the foundation for our knowledge. We then applied these skills with the homework which prepared us for our project. We would like to take these skills that we learned over the course of a month in future personal projects over the summer, and develop them further. 
 
-#### Deliverable 3: Instructions
+We are also glad to have had wonderful TAs as well as our supervisor, Erin Dickie, that helped us perform analysis on SciNet within the Nigara cluster 
 
- To be made available soon.
+## Acknowledgements
+We would like to thank Erin Dickie for leading and organizing Brainhacks school for the Toronto Hub and giving us the wonderful opportunity to be able to join. We would also like to thank our TAs who would join our online discord calls, and were always available to help whenever we needed it:
+* Ju-Chi Yu
+* Ryan Yeung
 
-## Conclusion and acknowledgement
+A special mention to the 12th floor and their coffee machine, and Major League Hacking for providing us with merch and pizza on our last day!
 
-The BHS team hope you will find this template helpful in documenting your project. Developping this template was a group effort, and benefitted from the feedback and ideas of all BHS students over the years.
+## References
+ Hammer, R., Cooke, G. E., Stein, M. A., & Booth, J. R. (2015). Functional neuroimaging of visuospatial working memory tasks enables accurate detection of attention deficit and hyperactivity disorder. NeuroImage Clinical, 9(C), 244–252. https://doi.org/10.1016/j.nicl.2015.08.015
+
+Lytle M. N., Hammer R., & Booth J. R. (2020). Working memory and reward in children with and without Attention Deficit Hyperactivity Disorder (ADHD). OpenNeuro.10.18112/openneuro.ds002424 Lytle MN, Hammer R & Booth JR (2020). A neuroimaging dataset on working memory and reward processing in children with and without ADHD. Data in Brief, 28,105801.
+
+Morkem, R., Handelman, K., Queenan, J. A., Birtwhistle, R., & Barber, D. (2020). Validation of an EMR algorithm to measure the prevalence of ADHD in the Canadian Primary Care Sentinel Surveillance Network (CPCSSN). BMC Medical Informatics and Decision Making, 20(1), 166–166. https://doi.org/10.1186/s12911-020-01182-2
+
+
