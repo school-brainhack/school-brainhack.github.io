@@ -33,7 +33,7 @@ image: "bhs2020.png"
 
 Attention Deficit Hyperactivity Disorder (ADHD) is one of the most common neurodevelopmental disorders worldwide. Moreover, there is a high prevalence of ADHD among children (Morkem et al., 2020). The characteristics symptoms of ADHD, namely poor working memory, greater reliance on external feedback, and abnormal reward processing are of interest to us because these characteristics have been associated with changes in brain activity patterns in distinct networks. In addition, previous studies also suggest that there are substantial individual differences in reactions to reward and feedback manipulation among those with ADHD (Hammer et al., 2015). 
 
-<img src="bold_graph.png" width="70%">
+<img src="cover_brain_tingz.png" width="80%">
 
 ### Personal Goals <!-- Done -->
  * Understand the processing and application of the full neuroimaging workflow, specifically from raw fMRI data to data visualization
@@ -87,7 +87,7 @@ Some Limitations included:
 **Our Chosen Task:**
 Our group had chosen to focus on one task from the eight- the Verbal, Large Reward, Delayed Feedback (VLD).  Of the 73 participants who completed the VLD task, 30 participants were diagnosed with ADHD as opposed to the 43 participants who were not. Due to problems our group ran into with preprocessing data (which will be discussed later), we were only able to obtain processed data for the first 10 participants, 4 of whom could not be used as a result of not completing the VLD task. Of our six participants, five individuals were diagnosed with ADHD.
  
- <!-- Add Data Images Hhere!!! Marks as Done when done -->
+ <!-- Add Data Images Hhere!!! Marks as Done when done --> <img src="verbal_task.png" width="70%">
  
 
 ### Deliverables
