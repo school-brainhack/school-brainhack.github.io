@@ -51,10 +51,10 @@ This project will rely on the following technologies:
 <LI>Nilearn - extractring and visualizing data
 <LI>Pandas - manipulation and plotting 
 <LI>Nibabel - loading images
+</UL>
 <LI>SciNet - Jupyter Notebook - to implement code for our data/ take first steps within our the Niagara (University of Toronto) cluster
 <LI>Git and GitHub - practice sharing a workspace, fork repositories, version control 
-<LI> Bash - Use Terminal for quick and easy access 
-</UL>
+<LI>Bash - Use Terminal for quick and easy access 
 </OL>
 
 ### Data
