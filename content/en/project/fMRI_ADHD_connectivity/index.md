@@ -93,7 +93,11 @@ Our group had chosen to focus on one task from the eight- the Verbal, Large Rewa
 
 ### Deliverables
 
-<input type = "checkbox"> This is my first checkbox
+<h1>Languages of the web</h1>
+<h3>&check; HTML</h3>
+<h3>&#10003; CSS</h3>
+<h3>&#10003; JavaScript</h3>
+<h3>&check; PHP</h3>
 
 
 ## Results
