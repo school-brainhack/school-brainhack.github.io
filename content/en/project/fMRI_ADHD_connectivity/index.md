@@ -35,9 +35,14 @@ Attention Deficit Hyperactivity Disorder (ADHD) is one of the most common neurod
 
 <!-- add in image: "blah" here and Comment here when added -->
 
+### Personal Goals
+ * Understand the processing and application of the full neuroimaging workflow, specifically from raw fMRI data to data visualization
+ * Build and develop skills in open science applications, particularly for future neuroimaging projects
+ * Gaining insight into fMRI data applications, specifically in creating connectivity matrices and brain parcellations
+
 ### Tools
 
-The "project template" project will rely on the following technologies:
+This project will rely on the following technologies:
  * Markdown, to structure the text.
  * The Hugo website framework which is used by the BHS website. This makes it possible to easily add the markdown project description to the website.
  * Adding the project to the website relies on github, through pull requests.
