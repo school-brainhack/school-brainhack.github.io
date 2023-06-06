@@ -113,7 +113,7 @@ This project was initiated by Clara Sun, Fariah Sandhu and Zara Khan, based off 
 
 ### Results
 
-#### Deliverable 1: report template vbjhkkhg jhoigjhg hgjhgih hojghgh yuh upload htat file fr frf fdgfg ghghgbfd hbfddgjhgh gdfdgdgbfdd fhgbfdhdfghfdbhdf fdbdfbdfh dh hfghfghfgfjjhhhhjfjfghgdfgfdgdg
+#### Deliverable 1: A Github repository with code scripts and data preparation
 
 You are currently reading the report template! I will let you judge whether it is useful or not. If you think there is something that could be improved, please do not hesitate to open an issue [here](https://github.com/brainhack-school2020/project_template/issues) and let us know.
 
