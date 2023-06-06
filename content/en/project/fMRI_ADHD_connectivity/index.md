@@ -35,12 +35,12 @@ Attention Deficit Hyperactivity Disorder (ADHD) is one of the most common neurod
 
 <!-- add in image: "blah" here and Comment here when added -->
 
-### Personal Goals
+### Personal Goals <!-- Done -->
  * Understand the processing and application of the full neuroimaging workflow, specifically from raw fMRI data to data visualization
  * Build and develop skills in open science applications, particularly for future neuroimaging projects
  * Gaining insight into fMRI data applications, specifically in creating connectivity matrices and brain parcellations
 
-### Tools
+### Tools <!-- Done -->
 
 This project will rely on the following technologies:
 <!-- testing thing here -->
@@ -74,7 +74,20 @@ Tasks also varied in reward amount. Participants were told that they would make 
 Tasks contained one of two feedback times, immediate (I) or delayed (D). In the delayed feedback tasks, participants would continue to view a black fixation square. At the end of each experimental block, participants would be told their percentage of correct responses.
 
 In all tasks, trial timing was adhered to. Participants were presented with the letter in one of the four corners, where the letter disappeared and only the fixation square remained. Participants then continued to see a fixation period of 600 ms. In delayed feedback, the fixation square remained black.
+ 
+Some Limitations included:
+* Right-handed
+* Native English speakers
+* Have normal or corrected to normal vision and have no history of neurological or psychological disorder
+* Prematurity of less than 36 weeks
+Head injury causing overnight hospitalization
+Hearing loss, or contraindications for MRI. 
+Participants could not be taking medication affecting the central nervous system other than ADHD medication, and all participants with ADHD were required to be male.
 
+
+ <!-- Add Data Images Hhere!!! Marks as Done when done -->
+ 
+ 
 
 ### Deliverables
 
