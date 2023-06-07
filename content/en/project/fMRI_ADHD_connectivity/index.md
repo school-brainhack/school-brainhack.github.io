@@ -134,11 +134,11 @@ This project was initiated by Clara Sun, Fariah Sandhu and Zara Khan, based off 
 
 The data we obtained from Lytle et al. (2020) via OpenNeuro was already validated based on the Brain Imaging Data Structure (BIDS) standards. Thus, we were able to proceed directly to preprocessing data by forking the schizophrenia Canadian Neuroimaging Database (SCanD) project codebase developed by Erin Dickie and TIGR Lab. An overview of the general folder structure for the repository (after all scripts are run) is shown below.
  
-<img src="bids_folder_structure.png" alt="Tree diagram showing SCanD_project folder structure" width="600" height="450">
+<img src="code.png" alt="Tree diagram showing SCanD_project folder structure" width="600" height="450">
 
 An example of output from the SCanD project preprocessing pipeline fMRI prep anatomical step is shown below for subject 3, a child without ADHD. Specifically, the image below shows the template T1-weighted image with contours delineating the detected brain mask (red outline) and brain tissue (blue outline) segmentations. These outputs were reviewed for quality assurance purposes.
 
-<img src="fmriprep_anat_sub-03.png" alt="Brain mask and tissue segmentation for subject 3, child without ADHD" width="350" height="450">
+<img src="fmriprep_anat_sub-03.png" alt="Brain mask and tissue segmentation for subject 3, child without ADHD" width="400" height="450">
 
 Our project GitHub repository can be accessed here: https://github.com/brainhack-school2023/csun_project/ 
 
