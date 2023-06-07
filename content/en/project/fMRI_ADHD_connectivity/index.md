@@ -88,8 +88,13 @@ Some Limitations included:
 Our group had chosen to focus on one task from the eight- the Verbal, Large Reward, Delayed Feedback (VLD).  Of the 73 participants who completed the VLD task, 30 participants were diagnosed with ADHD as opposed to the 43 participants who were not. Due to problems our group ran into with preprocessing data (which will be discussed later), we were only able to obtain processed data for the first 10 participants, 4 of whom could not be used as a result of not completing the VLD task. Of our six participants, five individuals were diagnosed with ADHD.
  
  <!-- Add Data Images Hhere!!! Marks as Done when done --> 
-<img src="verbal_task.png" alt="schematic of verbal task" width="350" height="600">
-<img src="delayed-feedback-large-reward.png" alt="schematic of delayed feedback for the large reward" width="50%">
+<body>
+ <h1>Verbal Task and Large Reward with Delayed Feedback</h1>
+ <div class="container"> 
+  <div class="image"> <img src="verbal_task.png" alt="schematic of verbal task" width="370" height="600">
+  <div class="image"> <img src="delayed-feedback-large-reward.png" alt="schematic of delayed feedback for the large reward" width="350" height="300">
+ </div>
+</body>
  
 
 ### Deliverables
