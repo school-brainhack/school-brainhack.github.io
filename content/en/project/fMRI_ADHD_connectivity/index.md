@@ -19,7 +19,7 @@ tags: [project, github, markdown, brainhack, jupyter notebook, preprocessing, AD
 
 # Summarize your project in < ~75 words. This description will appear at the top of your page and on the list page with other projects.. <!-- this is changed as well -->
 
-summary: "Our project aims to help develop our skillset on analyzing fMRI data on the OpenNeuro dataset chosen. This includes using ciftify, cifti_clean, jupyter notebook, and multiutudes of libraries within python. Project reports are incorporated in the BHS [website](https://school.brainhackmtl.org/project)."
+summary: "The focus of our project was to gain experience using neuroimaging tools to preprocess, analyze, and visualize functional MRI data. We aimed to explore differential variability in brain connectivity among children with and without ADHD. Project reports are incorporated on the BHS [website](https://school.brainhackmtl.org/project)."
 
 # If you want to add a cover image (listpage and image in the right), add it to your directory and indicate the name
 # below with the extension.
@@ -30,6 +30,11 @@ image: "bhs2020.png"
 ## Project definition
 
 ### Background
+
+#### About us
+Hello, we are team Pipasaurus! The three of us are undergraduate summer research students in the Translational Imaging and Genetics Research (TIGR) Laboratory at the Centre for Addiction and Mental Health (CAMH) in Toronto. We are a multidisciplinary team with diverse educational backgrounds: Zara is studying biomedical and electrical engineering at McMaster University, Fariah is studying psychology at York University, and Clara just finished her undergraduate degree studying interdisciplinary medical sciences at Western University. As newcomers to neuroimaging, Brainhack School 2023 presented the perfect opportunity for us to develop our skill sets in an immersive, beginner-friendly environment. Functional MRI is one modality of special interest to us, particularly because we will be working with fMRI data this summer.
+
+#### About the project
 
 Attention Deficit Hyperactivity Disorder (ADHD) is one of the most common neurodevelopmental disorders worldwide. Moreover, there is a high prevalence of ADHD among children (Morkem et al., 2020). The characteristics symptoms of ADHD, namely poor working memory, greater reliance on external feedback, and abnormal reward processing are of interest to us because these characteristics have been associated with changes in brain activity patterns in distinct networks. In addition, previous studies also suggest that there are substantial individual differences in reactions to reward and feedback manipulation among those with ADHD (Hammer et al., 2015). 
 
