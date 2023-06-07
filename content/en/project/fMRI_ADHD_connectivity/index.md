@@ -121,7 +121,7 @@ Our group had chosen to focus on one task from the eight- the Verbal, Large Rewa
 
 This project was initiated by Clara Sun, Fariah Sandhu and Zara Khan, based off of the OpenNeuro Dataset from James R. Booth et al on 22nd May 2023. The final presentation of this project was delivered on 2nd June 2023. All deliverables were given an attempt to be completed, where the ones that were, can be found on this repository. 
 
-### Tools I learned during this project
+### Tools we learned to use during this project
 
  * **Pre-processing Data Scripts:** We learned how to pre-process data for the first time, which is running code through SciNet clusteres and being able to access the fMRI data. It felt really weird, but somehow quite fun as well.
  * **Jupyter Notebook/Jupyter Lab:** We used this platform to code our results based on the preprocessed data. That was quite the challenge because we were hit with all these new libraries that we did not know could produce _so_ many different visualizations.
@@ -154,7 +154,7 @@ The code for parcellation graph comparing fMRI signal vs. time with the somatomo
   <img src="code.png" alt="Code used to generate BOLD graph and connectivity matrix" width="700" height="450">
   </figure>                                                                                                 
 
-The Deliverable:
+BOLD fMRI signal over time for somatosensory and auditory regions:
   <figure>
    <img src="bold_graph.png" alt="Graph showing BOLD fMRI signal over time for somatosensory and auditory regions" width="600" height="200">
   </figure>                                                                                                     
