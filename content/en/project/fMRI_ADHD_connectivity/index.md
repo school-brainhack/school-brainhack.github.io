@@ -99,7 +99,7 @@ Our group had chosen to focus on one task from the eight- the Verbal, Large Rewa
   <img src="verbal_task.png" alt="schematic of verbal task" width="370" height="600">
    <figcaption>Figure 1. Schematic of verbal task design adapted from Lytle et al. (2020) illustrating correct (solid arrow) and incorrect (dashed arrow) trials in the (a) 1-back, (b) 2-back tasks.</figcaption>
   </figure>
-&nbsp;
+#### #####
   <figure>
    <img src="delayed-feedback-large-reward.png" alt="schematic of delayed feedback for the large reward" width="350" height="300">
    <figcaption>Figure 2. Schematic of the delayed feedback large reward adapted from Lytle et al. (2020) illustrating trial timing.</figcaption>
