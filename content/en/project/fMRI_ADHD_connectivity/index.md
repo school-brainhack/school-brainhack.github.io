@@ -134,7 +134,7 @@ This project was initiated by Clara Sun, Fariah Sandhu and Zara Khan, based off 
 
 The data we obtained from Lytle et al. (2020) via OpenNeuro was already validated based on the Brain Imaging Data Structure (BIDS) standards. Thus, we were able to proceed directly to preprocessing data by forking the schizophrenia Canadian Neuroimaging Database (SCanD) project codebase developed by Erin Dickie and TIGR Lab. An overview of the general folder structure for the repository (after all scripts are run) is shown below.
  
-<img src="code.png" alt="Tree diagram showing SCanD_project folder structure" width="600" height="450">
+<img src="bids_folder_structure.png" alt="Tree diagram showing SCanD_project folder structure" width="600" height="450">
 
 An example of output from the SCanD project preprocessing pipeline fMRI prep anatomical step is shown below for subject 3, a child without ADHD. Specifically, the image below shows the template T1-weighted image with contours delineating the detected brain mask (red outline) and brain tissue (blue outline) segmentations. These outputs were reviewed for quality assurance purposes.
 
@@ -151,7 +151,7 @@ Based on resources contained within Erin Dickie’s Krembil Centre for Neuroinfo
 The code for parcellation graph comparing fMRI signal vs. time with the somatomotor and auditory regions:
 
   <figure>
-  <img src="verbal_task.png" alt="Code used to generate BOLD graph and connectivity matrix" width="300" height="600">
+  <img src="code.png" alt="Code used to generate BOLD graph and connectivity matrix" width="700" height="450">
   </figure>                                                                                                 
 
 The Deliverable:
