@@ -163,14 +163,14 @@ BOLD fMRI signal over time for somatosensory and auditory regions:
  
 Once again, following Erin Dickie’s KCNI modules, we were able to create and compare connectivity matrices based on children with and without ADHD. The analysis code can be found within this repository under “brainhacks_connectivity matrix.ipynb”. Using a list, we were able to sum up the values of each participant with ADHD, average out these values (using numpy), and then plot the models using previous code in order to see a connectivity matrix. 
 
- Participants with ADHD:
+ Participant (subject 3) without ADHD:
  <!-- Adding the first kinda bougie connectivity matrix --> 
    <figure>
    <img src="connectivity_matrix.png" alt="fMRI connectivity matrix for subject 3, a neurotypically developing child" width="550" height="400">
   </figure>   
 
  
- Participant (Subject 3) without ADHD:
+ Participants with ADHD:
  <!-- Add the sucky connectivity matrix --> 
   <figure>
    <img src="connectivity_matrix_ADHD.png" alt="fMRI connectivity matrix for children with ADHD" width="550" height="400">
