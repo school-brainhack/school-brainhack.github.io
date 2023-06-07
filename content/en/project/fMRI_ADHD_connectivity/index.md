@@ -134,11 +134,11 @@ This project was initiated by Clara Sun, Fariah Sandhu and Zara Khan, based off 
 
 The data we obtained from Lytle et al. (2020) via OpenNeuro was already validated based on the Brain Imaging Data Structure (BIDS) standards. Thus, we were able to proceed directly to preprocessing data by forking the schizophrenia Canadian Neuroimaging Database (SCanD) project codebase developed by Erin Dickie and TIGR Lab. An overview of the general folder structure for the repository (after all scripts are run) is shown below.
  
-<img src="bids_folder_structure.png" alt="Tree diagram showing SCanD_project folder structure" width="500" height="300">
+<img src="bids_folder_structure.png" alt="Tree diagram showing SCanD_project folder structure" width="600" height="450">
 
 An example of output from the SCanD project preprocessing pipeline fMRI prep anatomical step is shown below for subject 3, a child without ADHD. Specifically, the image below shows the template T1-weighted image with contours delineating the detected brain mask (red outline) and brain tissue (blue outline) segmentations. These outputs were reviewed for quality assurance purposes.
 
-<img src="fmriprep_anat_sub-03.png" alt="Brain mask and tissue segmentation for subject 3, child without ADHD" width="300" height="450">
+<img src="fmriprep_anat_sub-03.png" alt="Brain mask and tissue segmentation for subject 3, child without ADHD" width="350" height="450">
 
 Our project GitHub repository can be accessed here: https://github.com/brainhack-school2023/csun_project/ 
 
@@ -148,14 +148,16 @@ Our preprocessing scripts adapted from Erin Dickie’s SCanD_project: https://gi
  
 Based on resources contained within Erin Dickie’s Krembil Centre for Neuroinformatics (KCNI) summer school slides and modules, we were able to produce graphs as well as brain images via the preprocessed data. For example, using nilearn, nibabel, and matplotlib, we were able to plot slices of the brain as well as a line graph which displayed fMRI signal vs time of any brain parcellation. In the context of our data, we chose to plot the somatomotor region vs the auditory region. 
  
-The code for parcellation graph comparing fMRI signal vs. time with the somatomotor and auditory regions 
+The code for parcellation graph comparing fMRI signal vs. time with the somatomotor and auditory regions:
 
-<img src="code.png" alt="Code used to generate BOLD graph and connectivity matrix” width="600" height="300">
+  <figure>
+  <img src="verbal_task.png" alt="Code used to generate BOLD graph and connectivity matrix" width="300" height="600">
+  </figure>                                                                                                 
 
 The Deliverable:
- 
-<!-- done -->
-                                                                                                    <img src="bold_graph.png" alt="Graph showing BOLD fMRI signal over time for somatosensory and auditory regions” width="600" height="200">
+  <figure>
+   <img src="bold_graph.png" alt="Graph showing BOLD fMRI signal over time for somatosensory and auditory regions" width="600" height="200">
+  </figure>                                                                                                     
 
 #### Deliverable 3: A connectivity matrix based on one task
  
@@ -163,11 +165,16 @@ Once again, following Erin Dickie’s KCNI modules, we were able to create and c
 
  Participants with ADHD:
  <!-- Adding the first kinda bougie connectivity matrix --> 
- <img src="connectivity_matrix.png" alt="fMRI connectivity matrix for subject 3, a neurotypically developing child” width="550" height="400">
+   <figure>
+   <img src="connectivity_matrix.png" alt="fMRI connectivity matrix for subject 3, a neurotypically developing child" width="550" height="400">
+  </figure>   
 
  
  Participant (Subject 3) without ADHD:
- <!-- Add the sucky connectivity matrix --> <img src="connectivity_matrix_ADHD.png" alt="fMRI connectivity matrix for children with ADHD” width="550" height="400">
+ <!-- Add the sucky connectivity matrix --> 
+  <figure>
+   <img src="connectivity_matrix_ADHD.png" alt="fMRI connectivity matrix for children with ADHD" width="550" height="400">
+  </figure>   
  
 ## Conclusion 
 
