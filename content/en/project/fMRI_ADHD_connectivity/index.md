@@ -97,11 +97,12 @@ Our group had chosen to focus on one task from the eight- the Verbal, Large Rewa
  <h1>Verbal Task and Large Reward with Delayed Feedback</h1>
   <figure>
   <img src="verbal_task.png" alt="schematic of verbal task" width="370" height="600">
-   <figcaption>Verbal task schematic adapted from Lytle et al. 2020 showing 1-back and 2-back tasks</figcaption>
+   <figcaption>Figure 1. Schematic of verbal task design adapted from Lytle et al. (2020) illustrating correct (solid arrow) and incorrect (dashed arrow) trials in the (a) 1-back, (b) 2-back tasks.</figcaption>
   </figure>
+&nbsp;
   <figure>
    <img src="delayed-feedback-large-reward.png" alt="schematic of delayed feedback for the large reward" width="350" height="300">
-   <figcaption>Delayed feedback, large reward</figcaption>
+   <figcaption>Figure 2. Schematic of the delayed feedback large reward adapted from Lytle et al. (2020) illustrating trial timing.</figcaption>
   </figure>
  </div>
 </body>
