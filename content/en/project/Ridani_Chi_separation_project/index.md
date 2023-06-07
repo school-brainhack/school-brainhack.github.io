@@ -1,38 +1,38 @@
 ---
 type: "project" # DON'T TOUCH THIS ! :)
-date: "2020-05-16" # Date you first upload your project.
+date: "2023-06-09" # Date you first upload your project.
 # Title of your project (we like creative title)
-title: "This is an example project page which serves as a template"
+title: "Validation χ-separation using phantom simulations"
 
 # List the names of the collaborators within the [ ]. If alone, simple put your name within []
-names: [Samuel Guay, Pierre Bellec]
+names: [Daniel Ridani]
 
 # Your project GitHub repository URL
-github_repo: https://github.com/brainhack-school2023/project_template
+github_repo: https://github.com/brainhack-school2023/Ridani_project
 
 # If you are working on a project that has website, indicate the full url including "https://" below or leave it empty.
 website:
 
 # List +- 4 keywords that best describe your project within []. Note that the project summary also involves a number of key words. Those are listed on top of the [github repository](https://github.com/brainhack-school2020/project_template), click `manage topics`.
 # Please only lowercase letters
-tags: [project, github, markdown, brainhack]
+tags: [python, susceptibility, software, polytechnique, visualization]
 
 # Summarize your project in < ~75 words. This description will appear at the top of your page and on the list page with other projects..
 
-summary: "Each project repository should have a markdown file explaining the background and objectives of the project, as well as a summary of the results, and links to the different deliverables of the project. Project reports are incorporated in the BHS [website](https://school.brainhackmtl.org/project)."
+summary: "How can we validate χ-separation algorithm? In the absence of ground truth to validate χ-separation, my project aims to validate the χ-separation results using realistic in-silico head phantom  simulations. Simulations offer a valuable advantage by providing a controlled environment where we can define and manipulate various parameters with known ground truth values. By choosing specific values for the simulation, we can create a ground truth against which we can compare the results obtained through the χ-separation algorithm."
 
 # If you want to add a cover image (listpage and image in the right), add it to your directory and indicate the name
 # below with the extension.
-image: "bhs2020.png"
+image: "Cover_image.png"
 ---
 <!-- This is an html comment and this won't appear in the rendered page. You are now editing the "content" area, the core of your description. Everything that you can do in markdown is allowed below. We added a couple of comments to guide your through documenting your progress. -->
 
 
-<img src="Cover_image.png">
 
 
 
-# Validation χ-separation using phantom simulations
+
+
 
 ## About Me
 ![Screenshot 2023-04-14 150759](https://github.com/brainhack-school2023/Ridani_project/assets/77506715/787adb2e-bd57-41fa-b1b1-ef0e2da9c4b1)
