@@ -53,7 +53,7 @@ At the end of this project, these files will be made available:
 ## Results
 ---
 ### Progress overview
-First, this project involved correcting the format of my dataset. I had to convert it to BIDS format and preprocess the Nifti files with fmriprep. These steps took longer than expected. So far, only one participant's files have been converted to BIDS format and preprocessed. However, I was able to run a first-level general linear model on this participant to present: 1) BOLD activity in the visual cortex and the superior frontal gyrus (SFG) when images were shown at this participant (effect of interest)  and 2) no significant region shown BOLD activity when contrasting high vs low calorie snacks.
+First, this project involved correcting the format of my dataset. I had to convert it to BIDS format and preprocess the Nifti files with fmriprep. These steps took longer than expected. So far, only one participant's files have been converted to BIDS format and preprocessed. However, I was able to run a first-level general linear model on this participant to present: 1) BOLD activity in the visual cortex and the superior frontal gyrus (SFG) when images were shown at this participant (effect of interest)  and 2) no significant region of BOLD activity when contrasting high vs low calorie snacks.
 
 ##### Figure 1. BOLD activity when images are shown (for run #1 of one participant)
 ![](GLM-1stLevel-EffectOfInterest-Images.JPG)
