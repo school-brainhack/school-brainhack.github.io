@@ -59,10 +59,10 @@ At the end of this project, I will have:
 First, this project involved correcting the format of my dataset. I had to convert it to BIDS format and preprocess the Nifti files with fmriprep. These steps took longer than expected. So far, only one participant's files have been converted to BIDS format and preprocessed. However, I was able to run a first-level general linear model on this participant to present: 1) BOLD activity when images were shown to this participant (effect of interest) and 2) BOLD contrast between high vs low calorie snacks.
 
 ##### Figure 1. BOLD activity when images are shown (for run #1 of one participant)
-![](results/GLM-1stLevel-EffectOfInterest-Images.JPG)
+![](GLM-1stLevel-EffectOfInterest-Images.JPG)
 
 ##### Figure 2. BOLD activity contrast between high vs low calorie snacks (for run #1 of one participant)
-![](results/GLM-1stLevel-contrastHighVSLowCal.JPG)
+![](GLM-1stLevel-contrastHighVSLowCal.JPG)
 
 ### Tools I learned during this project
 1) [dcm2niix](https://github.com/rordenlab/dcm2niix): I learned how to convert Dicom data to Nifti and what I must check to validate that the convertion went well;
