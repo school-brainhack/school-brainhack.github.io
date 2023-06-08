@@ -29,14 +29,11 @@ image: "/Users/venkatesh/Desktop/BHS-delivery/school-brainhack.github.io/content
 
 ## Project definition
 
-### Background
+## Background
 ## Study 1
-- Extensive research has been conducted on how individuals respond to naturalistic stimuli like video-watching [Uri Hasson et al., 2004, Sonkusare et al., 2019, TiCS].
-- The investigation of how stimuli synchronize subjects during independent viewing has also been explored [Uri Hasson et al., 2004, Dmochowski et al., 2012].
-- Previous studies have quantified the strength of the Structure-Function coupling of the hemodynamic response during resting-state [Preti M G, Van de Ville D., 2019].
-- A recent study has compared the macro-scale cortical organization of the brain during video-watching with resting-state conditions [Samara et al., 2023].
+Numerous studies have extensively investigated how individuals respond to naturalistic stimuli, particularly video-watching. These studies, conducted by researchers such as Uri Hasson et al. (2004), Sonkusare et al. (2019), have provided valuable insights into the neural mechanisms underlying the processing of such stimuli. Additionally, investigations into the synchronization of brain activity among individuals during independent viewing, as explored by Uri Hasson et al. (2004) and Dmochowski et al. (2012), have revealed the remarkable coordination and shared neural responses that occur during these experiences. Furthermore, previous research has focused on quantifying the strength of the relationship between the brain's structure and its functional activity during resting-state conditions. Study by Preti M G and Van de Ville D. (2019) has shed light on this structure-function coupling, highlighting how the underlying anatomical organization influences brain function at rest. A recent study conducted by Samara et al. (2023) has compared the macro-scale cortical organization of the brain during video-watching with resting-state conditions, providing valuable insights into the similarities and differences in brain organization and functional connectivity between these two states. Collectively, these studies have significantly advanced our understanding of how the brain responds to naturalistic stimuli, the synchronization of brain activity during independent viewing, the relationship between brain structure and function during rest, and the cortical organization during video-watching and resting-state conditions.
 
-Gap: How much the electrophysiological activity during video-watching depends on the underlying anatomical structure.
+The gap in the existing research is the exploration of how the electrophysiological activity during video-watching depends on the underlying anatomical structure.
 
 The cortex has been observed to exhibit stereotypical responsiveness to complex naturalistic stimuli and display links to individual variability [Uri Hasson et al., 2004], referred to as Strong Inter-subject Correlation (ISC) and Weak ISC.
 
@@ -50,9 +47,9 @@ To compare the Structure-Function coupling observed during Strong ISC and Weak I
 ## Study 2
 Results supported by from the Study 1 points in the direction that Structure-Function coupling during Strong and Weak ISC does not vary, prompting to design and analyse the Inter-Subject Synchrony during video-watching from a different lens.
 
-- Graph Theory is a powerful tool to model the brain as graphs and the functional relevance such as brain organization can be tested with various measures [Olaf Sporns., 2022]
-- Networked brain supports Segregation/Specialized and Integration/Distributed information processing [Bassett D, Bullmore E., 2007]
-- Segregation, a Graph Theory measure, quantifies the level of interaction between a given network and the rest of the networks [Wig G S., 2017]
+Graph Theory has emerged as a powerful tool for modeling the brain as interconnected networks, enabling the examination of functional relevance and brain organization through various measures (Sporns, 2022). The networked brain exhibits both segregation, characterized by specialized processing within specific networks, and integration, involving distributed information processing across multiple networks (Bassett and Bullmore, 2007). This highlights the dynamic interplay between specialized and distributed processing in the brain. Segregation, a measure derived from Graph Theory and emphasized by Wig (2017), quantifies the interaction level between a given network and other networks, providing insights into communication and information exchange (Wig, 2017). By leveraging Graph Theory measures such as segregation, valuable insights into the functional connectivity and information processing dynamics of the brain can be gained.
+
+
 ![image info](/content/en/project/video-EEG-FC-SC/Segregation.jpg)
 *Segregation quantifies how much does a given network talk to other networks, e.g., Does Visual Yeo-Krienen network talk to other networks such as Default-Mode Network, Frontoparietal, Dorsal Attention ?*
 
@@ -80,14 +77,16 @@ In this study, we embarked on an investigation of the Structure-Function couplin
 
 Motivated by the work of Betzel et al. (2020), we transitioned to an alternative approach using Segregation analysis to identify distinctive patterns during specific video segments. To accomplish this, we computed Functional connectivity by leveraging a dynamic window based on phase coherence among all pairs of HCP-MMP ROIs (Glasser et al., 2016). Notably, we focused on assessing the level of Segregation within the Visual Yeo-Krienen network.
 
-Subsequently, we compared Segregation between periods characterized by Significant ISC (red markers) and non-Significant ISC (null ISC). Excitingly, we observed higher segregation within the Visual network during Significant ISC periods (t(168) = 1.01; p < 0.045; permutation-corrected).
+Subsequently, we compared Segregation between periods characterized by Significant ISC (red markers) and non-Significant ISC (null ISC). Excitingly, we observed higher segregation within the Visual network during Significant ISC periods (t(168) = 1.97; p < 0.048; 
+permutation-corrected).
 
 This transition from investigating Structure-Function coupling based on correlation alone to exploring Segregation as an alternative approach allowed us to uncover meaningful patterns during video-watching. Our findings emphasize the complexity of defining ISC periods and highlight the potential of Segregation analysis to capture distinct dynamics in the brain's functional connectivity during video-watching.
 
-### Tools I learned during this project
+### Tools we learned during this project
 
- * **Meta-project**: Venkatesh Subramani is delighted to have made the best use of BHS. He learned to visualize all the layers in the project starting from conception to implementation to interpretation. He observed that he is a human-variant of backpropagation algorithm tweaking the previous layers in answering an interesting research question.
- * **Git**: Venkatesh unlearned and relearned Git version control as part of the BHS training modules and applied the knowledge during this project
+ * **Meta-project**: We are delighted to have made the best use of BHS. We learned to visualize all the layers in the project starting from conception to implementation to interpretation. We observed that we are a human-variant of backpropagation algorithm tweaking the previous layers in answering an interesting research question.
+ * **Git and Github**: We unlearned and relearned Git version control as part of the BHS training modules and applied the knowledge during this project
+
 
 # Results
 
@@ -109,21 +108,20 @@ Visual inspection of the uncorrected test statistics map revealed localized diff
 We computed functional connectome dynamically (1s of EEG) over a non-overlapping sliding window for the cortical activity in the alpha band. The regions of interest (ROIs) defined by the HCP-MMP parcellation [Glasser et al., 2016] were grouped, and Segregation analysis [Wig G S, 2017] was performed, with a specific emphasis on the Visual Yeo-Krienen network. To establish a noise floor, we generated surrogate Segregation measures by spatially permuting the EEG cortical signal (N = 100). We compared the observed Segregation values against the surrogate Segregation measures to identify instances where the observed Segregation exceeded the noise floor.
 
 ![image info](/content/en/project/video-EEG-FC-SC/results/segregation_alpha.png)
-*Relating Segregation time-series to the ISC time-series. First the ISC time-series (blue) is binarized i.e., set to 1 when ISC is significant. Second, the Segregation is projected alongside (green). The yellow horizontal line distinguishes the level of Segregation (high or low)*
+*Relating Segregation time-series to the Strong ISC. First the ISC time-series (blue) is binarized i.e., set to 1 when it is Strong. Second, the Segregation is projected alongside (green). The yellow horizontal line distinguishes the level of Segregation (high or low)*
 
-Upon analyzing the time-series of Segregation in relation to the binarized ISC time-series (blue), we observed occasional alignment between the two, although not strictly consistent. To further explore this relationship, we categorized the Segregation into two groups.
+Upon analyzing the time-series of Segregation in relation to the binarized Strong ISC (blue), we observed occasional alignment between the two, although not strictly consistent. To further explore this relationship, we categorized the Segregation into two groups.
 
 ![image info](/content/en/project/video-EEG-FC-SC/results/segregation_grouping.png)*Segregation grouped to two groups*
 
-The analysis revealed a significant difference between the two groups (two-sample t-test; t(168) = 1.01; p < 0.045; permutation-corrected), indicating that the Visual Yeo-Krienen network exhibits greater segregation during periods of significant inter-subject correlation (ISC).
+The analysis revealed a significant difference between the two groups (two-sample t-test; t(168) = 1.97; p < 0.048; corrections with 50000 permutations), indicating that the Visual Yeo-Krienen network exhibits greater segregation during periods of significant inter-subject correlation (ISC).
 
 Overall, these findings demonstrate that the level of Segregation in the Visual network is influenced by the strength of ISC, providing insights into the functional dynamics of the brain during video-watching.
 
 ## Deliverable 4: project gallery
-
-There is not yet a project gallery, as BHS 2020 is the first edition that will incorporate it on the website. You can still check out the [2019 BHS github organization](https://github.com/mtl-brainhack-school-2019)
-
-
+The content is made ready for to be added to the project gallery of BHS 2023
 
 ## Conclusion and acknowledgement
 In this project, the researchers investigated the relationship between electrophysiological activity and underlying anatomical structure during video-watching. They initially focused on periods of weak inter-subject correlation (ISC) and attempted to define weak ISC based on correlation. However, they found no significant differences in the structure-function coupling between strong and weak ISC periods. They then shifted their approach and explored segregation analysis as an alternative method to identify distinct patterns during specific video segments. They computed functional connectivity using a dynamic window and assessed the level of segregation within the Visual Yeo-Krienen network. The results showed higher segregation within the Visual network during periods of significant ISC compared to null ISC. These findings highlight the complexity of defining ISC periods and demonstrate the potential of segregation analysis to capture unique dynamics in the brain's functional connectivity during video-watching.
+
+The authors would like to thank Austin Benn for the supervision. Nicolas Farrugia, and Giulia Lioi for the inputs along the way. Last but not the least, the authors would like to register a massive thanks and gratitude to Team Organizers of BHS 2023 for a smooth and wonderful Brainhack!
