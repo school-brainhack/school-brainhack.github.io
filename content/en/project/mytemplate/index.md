@@ -62,19 +62,19 @@ First, this project involved correcting the format of my dataset. I had to conve
 ![](GLM-1stLevel-contrastHighVSLowCal.JPG)
 
 ### Tools I learned during this project
-1) [dcm2niix](https://github.com/rordenlab/dcm2niix): I learned how to convert Dicom data to Nifti and what I must check to validate that the convertion went well;
+1) [dcm2niix](https://github.com/rordenlab/dcm2niix): I learned how to convert data from Dicom to Nifti and what I must check to validate that the convertion went well;
 2) [BIDS-validator](https://bids-standard.github.io/bids-validator/): I learned how to standardize a dataset into BIDS format;
 3) [fmriprep](https://fmriprep.org/en/stable/): I learned how to execute fmriprep and what is the output after the execution;
-4) [Nilearn](https://nilearn.github.io/stable/index.html): I learned how to use nilearn on jupiter notebook to visualize data and examine the contrast of high vs low calorie food cues in a one participant's run;
+4) [Nilearn](https://nilearn.github.io/stable/index.html): I learned how to use Nilearn on Jupyter Notebook to visualize data and examine the contrast of high vs low calorie food cues in a one participant's run;
 5) [Alliance Canada](https://alliancecan.ca/fr): I learned how to manage time, cpus, and memory to run a bash file;
-6) [GitHub](https://github.com/): Before this school, I had trouble using it. But now, I'm very glad to know how to use it and how it could help me to produce reproductible research.  
+6) [GitHub](https://github.com/): Before this school, I had trouble using it. But now, I'm very glad to know much and how it could help me to produce reproductible research.  
 
 ### Deliverables
 The results of my project was mostly:
 1) BIDS transformation of one participant's file to better use standardized pipeline;
 2) Use fmriprep to had clean preprocessed data for one participant;
 3) Create Alliance Canada scripts that could be share to all members of my lab;
-4) Use Nilearn from jupiter notebook to visualize contrast for high vs low calorie food cues.
+4) Use Nilearn from Jupyter Notebook to visualize contrast for high vs low calorie food cues.
 
 ### Future work
 For this study, I'll have to convert all my dataset into a BIDS format and execute fmriprep on my Nifti files using Alliance Canada. Then, I would be able to go further in my analysis, which means to execute 2nd and 3rd level general linear model. 
