@@ -23,7 +23,7 @@ summary: "Changes in fMRI brain reactivity to food cues after weight loss induce
 
 # If you want to add a cover image (listpage and image in the right), add it to your directory and indicate the name
 # below with the extension.
-image: "Paradigm.PNG"
+image: "project_image.png"
 ---
 <!-- This is an html comment and this won't appear in the rendered page. You are now editing the "content" area, the core of your description. Everything that you can do in markdown is allowed below. We added a couple of comments to guide your through documenting your progress. -->
 
@@ -44,7 +44,7 @@ This project will use:
 ### Data
 The dataset was collected from 2016 to now at Quebec Heart and Lungs Institute. Ninety-four participants with severe obesity scheduled to undergo bariatric surgery were recruited. Participants were scanned prior to, 4, 12 and 24 months after bariatric surgery. For this project, a T1 and three fMRI runs with [Becker-DeGroot-Marshack auction task](https://onlinelibrary.wiley.com/doi/10.1002/bs.3830090304) (duration: 10 minutes 27 seconds) will be used. Forty-five randomized images (15 high-sweet, 15 high-salt and 15 low caloric density) were presented to participants for 4 seconds. Participant must bid between 0 to 5$ for each snacks in the next 4s. The auction part will not be evaluated in this project.
 
-![](data/raw/Paradigm.png)
+![](Paradigm.png)
 
 ### Project deliverables 
 At the end of this project, I will have:
