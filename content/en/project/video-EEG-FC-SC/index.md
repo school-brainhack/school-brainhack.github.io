@@ -86,7 +86,7 @@ This transition from investigating Structure-Function coupling based on correlat
 
 ### Tools I learned during this project
 
- * **Meta-project**: Venkatesh Subramani is delighted to have made the best use of BHS. He learned to visualize all the layers in the project starting from conception to implementation to interpretation. He observed that he is a human-variant of backpropagation algorithm tweaking the previous layers in answering the interesting research question.
+ * **Meta-project**: Venkatesh Subramani is delighted to have made the best use of BHS. He learned to visualize all the layers in the project starting from conception to implementation to interpretation. He observed that he is a human-variant of backpropagation algorithm tweaking the previous layers in answering an interesting research question.
  * **Git**: Venkatesh unlearned and relearned Git version control as part of the BHS training modules and applied the knowledge during this project
 
 # Results
