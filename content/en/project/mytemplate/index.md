@@ -19,7 +19,7 @@ tags: [fMRI, food cues, obesity, weight loss]
 
 # Summarize your project in < ~75 words. This description will appear at the top of your page and on the list page with other projects..
 
-summary: "Functional MRI studies examining reactivity to food cues in obesity have shown BOLD differences in brain regions involved in the regulation of food intake. This project aims to characterize brain reactivity to food cues in people with severe obesity and to examine changes in brain reactivity to food cues by fMRI after weight loss induced by bariatric surgery."
+summary: "Functional MRI studies examining reactivity to food cues in obesity have shown BOLD differences in brain regions involved in the regulation of food intake. This project aims to characterize brain reactivity to food cues in individuals with severe obesity and to examine changes in brain reactivity to food cues by fMRI after weight loss induced by bariatric surgery."
 
 # If you want to add a cover image (listpage and image in the right), add it to your directory and indicate the name
 # below with the extension.
