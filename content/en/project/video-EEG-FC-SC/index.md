@@ -86,7 +86,7 @@ This transition from investigating Structure-Function coupling based on correlat
 
 ### Tools I learned during this project
 
- * **Meta-project**: Venkatesh Subramani is actually proud to have made the best use of BHS. He learned to visualize all the layers in the project starting from conception to implementation to interpretation. He observed that he is a human-variant of backpropagation algorithm tweaking the previous layers in answering the interesting research question.
+ * **Meta-project**: Venkatesh Subramani is delighted to have made the best use of BHS. He learned to visualize all the layers in the project starting from conception to implementation to interpretation. He observed that he is a human-variant of backpropagation algorithm tweaking the previous layers in answering the interesting research question.
  * **Git**: Venkatesh unlearned and relearned Git version control as part of the BHS training modules and applied the knowledge during this project
 
 # Results
@@ -109,7 +109,7 @@ Visual inspection of the uncorrected test statistics map revealed localized diff
 We computed functional connectome dynamically (1s of EEG) over a non-overlapping sliding window for the cortical activity in the alpha band. The regions of interest (ROIs) defined by the HCP-MMP parcellation [Glasser et al., 2016] were grouped, and Segregation analysis [Wig G S, 2017] was performed, with a specific emphasis on the Visual Yeo-Krienen network. To establish a noise floor, we generated surrogate Segregation measures by spatially permuting the EEG cortical signal (N = 100). We compared the observed Segregation values against the surrogate Segregation measures to identify instances where the observed Segregation exceeded the noise floor.
 
 ![image info](/content/en/project/video-EEG-FC-SC/results/segregation_alpha.png)
-*Relating Segregation time-series to the ISC time-series. First the ISC time-series (blue) is binarized i.e., set to 1 when ISC is significant. Second, the Segregation is projected alonside (green). The yellow horizontal line distinguishes the level of Segregation (more or less)*
+*Relating Segregation time-series to the ISC time-series. First the ISC time-series (blue) is binarized i.e., set to 1 when ISC is significant. Second, the Segregation is projected alongside (green). The yellow horizontal line distinguishes the level of Segregation (high or low)*
 
 Upon analyzing the time-series of Segregation in relation to the binarized ISC time-series (blue), we observed occasional alignment between the two, although not strictly consistent. To further explore this relationship, we categorized the Segregation into two groups.
 
