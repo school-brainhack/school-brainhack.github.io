@@ -37,7 +37,7 @@ The gap in the existing research is the exploration of how the electrophysiologi
 
 The cortex has been observed to exhibit stereotypical responsiveness to complex naturalistic stimuli and display links to individual variability [Uri Hasson et al., 2004], referred to as Strong Inter-subject Correlation (ISC) and Weak ISC.
 
-![image info](/content/en/project/video-EEG-FC-SC/strong_weak_ISC.jpg)
+![image info](/strong_weak_ISC.jpg)
 *Red markers indicate the significant ISC tested against bootstraping. Strong ISC has been already studied as part of the PhD work of Venkatesh. Weak ISC is investigated in the framework of BHS and they are defined based on criterion such as the period in which ISC is identified to be low*
 
 The objective of our study is two folds: To examine the Structure-Function coupling of the electrophysiological activity during video-watching, particularly focusing on periods of weak inter-subject correlation (ISC).
@@ -60,8 +60,8 @@ We look into the Segregation of Visual network during the entire period of the v
 * Python, Scipy, Nilearn, Pandas, Matplotlib, mne_connectivity
 
 ### Data
-* Video-watching EEG (N = 25) from Healthy Brain Network [HBN](http://fcon_1000.projects.nitrc.org/indi/cmi_healthy_brain_network/)
-* Structural Connectome of N = 56 subjects from Human Connectome Project [HCP]() constructed by Preti M G and Van de Ville D., 2019
+* Video-watching EEG (N = 25) from Healthy Brain Network - [HBN](http://fcon_1000.projects.nitrc.org/indi/cmi_healthy_brain_network/)
+* Structural Connectome of N = 56 subjects from Human Connectome Project - [HCP](https://www.humanconnectome.org) constructed by Preti M G and Van de Ville D., 2019
 * Pre-processed and source-localized EEG signal
 
 ### Deliverables
@@ -96,10 +96,10 @@ Current report in a markdown file
 ## Deliverable 2: Structure-Function coupling between Strong ISC and Weak ISC periods
 We employed a Graph Signal Processing (GSP) measure, introduced by Preti M G and Van de Ville D [Preti M G, Van de Ville D., 2019], to quantify the relationship between structure and function. Specifically, we examined the strength of decoupling between weakly correlated electrophysiological activity and the underlying anatomical structure. Comparing the patterns observed during Strong and Weak ISC periods, we found no significant differences in the regions of interest (ROIs) (paired t-test on the ROIs with FDR-correction).
 
-![image info](/content/en/project/video-EEG-FC-SC/results/alpha.png)
+![image info](alpha.png)
 *Uncorrected test statistics by comparing Strong and Weak ISC periods for the alpha band. The test statistics is thresholded at alpha = 0.05*
 
-![image info](/content/en/project/video-EEG-FC-SC/results/alpha_corrected.png)
+![image info](alpha_corrected.png)
 *FDR-corrected spatial map for the alpha band*
 
 Visual inspection of the uncorrected test statistics map revealed localized differences across the brain in the alpha band. However, the FDR-corrected spatial map demonstrated that no regions reached statistical significance. This observation suggests that the lack of significant differences between Strong and Weak ISC periods may be attributed to their close similarity. These findings underscore the complexity involved in defining Weak ISC periods and highlight the challenges associated with studying their distinct characteristics.
@@ -107,12 +107,12 @@ Visual inspection of the uncorrected test statistics map revealed localized diff
 ## Deliverable 3: Segregation analysis during video
 We computed functional connectome dynamically (1s of EEG) over a non-overlapping sliding window for the cortical activity in the alpha band. The regions of interest (ROIs) defined by the HCP-MMP parcellation [Glasser et al., 2016] were grouped, and Segregation analysis [Wig G S, 2017] was performed, with a specific emphasis on the Visual Yeo-Krienen network. To establish a noise floor, we generated surrogate Segregation measures by spatially permuting the EEG cortical signal (N = 100). We compared the observed Segregation values against the surrogate Segregation measures to identify instances where the observed Segregation exceeded the noise floor.
 
-![image info](/content/en/project/video-EEG-FC-SC/results/segregation_alpha.png)
+![image info](segregation_alpha.png)
 *Relating Segregation time-series to the Strong ISC. First the ISC time-series (blue) is binarized i.e., set to 1 when it is Strong. Second, the Segregation is projected alongside (green). The yellow horizontal line distinguishes the level of Segregation (high or low)*
 
 Upon analyzing the time-series of Segregation in relation to the binarized Strong ISC (blue), we observed occasional alignment between the two, although not strictly consistent. To further explore this relationship, we categorized the Segregation into two groups.
 
-![image info](/content/en/project/video-EEG-FC-SC/results/segregation_grouping.png)*Segregation grouped to two groups*
+![image info](segregation_grouping.png)*Segregation grouped to two groups*
 
 The analysis revealed a significant difference between the two groups (two-sample t-test; t(168) = 1.97; p < 0.048; corrections with 50000 permutations), indicating that the Visual Yeo-Krienen network exhibits greater segregation during periods of significant inter-subject correlation (ISC).
 
