@@ -37,7 +37,7 @@ The gap in the existing research is the exploration of how the electrophysiologi
 
 The cortex has been observed to exhibit stereotypical responsiveness to complex naturalistic stimuli and display links to individual variability [Uri Hasson et al., 2004], referred to as Strong Inter-subject Correlation (ISC) and Weak ISC.
 
-![image info](/strong_weak_ISC.jpg)
+![image info](strong_weak_ISC.jpg)
 *Red markers indicate the significant ISC tested against bootstraping. Strong ISC has been already studied as part of the PhD work of Venkatesh. Weak ISC is investigated in the framework of BHS and they are defined based on criterion such as the period in which ISC is identified to be low*
 
 The objective of our study is two folds: To examine the Structure-Function coupling of the electrophysiological activity during video-watching, particularly focusing on periods of weak inter-subject correlation (ISC).
@@ -50,7 +50,7 @@ Results supported by from the Study 1 points in the direction that Structure-Fun
 Graph Theory has emerged as a powerful tool for modeling the brain as interconnected networks, enabling the examination of functional relevance and brain organization through various measures (Sporns, 2022). The networked brain exhibits both segregation, characterized by specialized processing within specific networks, and integration, involving distributed information processing across multiple networks (Bassett and Bullmore, 2007). This highlights the dynamic interplay between specialized and distributed processing in the brain. Segregation, a measure derived from Graph Theory and emphasized by Wig (2017), quantifies the interaction level between a given network and other networks, providing insights into communication and information exchange (Wig, 2017). By leveraging Graph Theory measures such as segregation, valuable insights into the functional connectivity and information processing dynamics of the brain can be gained.
 
 
-![image info](/content/en/project/video-EEG-FC-SC/Segregation.jpg)
+![image info](Segregation.jpg)
 *Segregation quantifies how much does a given network talk to other networks, e.g., Does Visual Yeo-Krienen network talk to other networks such as Default-Mode Network, Frontoparietal, Dorsal Attention ?*
 
 Objective: Could there be a marker distinguishable in the specific periods of the video that Segregation highlight ?
