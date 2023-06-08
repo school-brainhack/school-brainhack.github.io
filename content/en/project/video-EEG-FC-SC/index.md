@@ -15,7 +15,7 @@ website:
 
 # List +- 4 keywords that best describe your project within []. Note that the project summary also involves a number of key words. Those are listed on top of the [github repository](https://github.com/brainhack-school2020/project_template), click `manage topics`.
 # Please only lowercase letters
-tags: [eeg, dmri, Inter-Subject Correlation, Segregation] 
+tags: [eeg, dmri, brain-dynamics, connectivity, visual-stimuli] 
 
 # Summarize your project in < ~75 words. This description will appear at the top of your page and on the list page with other projects..
 
@@ -23,7 +23,7 @@ summary: "This study investigated the Structure-Function coupling of weakly corr
 
 # If you want to add a cover image (listpage and image in the right), add it to your directory and indicate the name
 # below with the extension.
-image: "/Users/venkatesh/Desktop/BHS-delivery/school-brainhack.github.io/content/en/project/video-EEG-FC-SC/paradigms_BHS.jpg"
+image: "paradigms_BHS.jpg"
 ---
 <!-- This is an html comment and this won't appear in the rendered page. You are now editing the "content" area, the core of your description. Everything that you can do in markdown is allowed below. We added a couple of comments to guide your through documenting your progress. -->
 
@@ -67,7 +67,7 @@ We look into the Segregation of Visual network during the entire period of the v
 ### Deliverables
  - Documentation in this markdown
  - Git repo containing source code
- - OSF for all the source data - https://osf.io/qjk6y/?view_only=f804a763eede498da80ba521fb1490d3
+ - OSF for all the source and generated data - https://osf.io/qjk6y/?view_only=f804a763eede498da80ba521fb1490d3
  - Wrapping up to submit at the gallery of the student projects at Brainhack 2023.
 
 ## Results
