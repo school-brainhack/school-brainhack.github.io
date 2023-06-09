@@ -103,10 +103,10 @@ Figure 4 presents the quantitative comparative analysis between simulated and me
 - χ-separation is a great and easy tool to use that allows us to separate myelin from iron.
 - Simulations are important to obtain the ground truth and validate the measured values.
 - χ-separation showed great visual results compared to the simulated maps but it poorly performed  numerically, especially when it comes to negative susceptibility. 
-- χ-separation performed better when the χ-model was less complex, which could be one of this algorithm's limitations.
+- χ-separation performed better when the χ-model was less complex, which could be one of the algorithm's limitations.
 - Using Python for data visualization and analysis is easy and produces the best plots.
 - Other χ-separation limitations should be explored
-- Other separation algorithms should be explored.
+- Other separation algorithms should be studied.
 - Add microstructure information to the algorithm to make it more accurate (such as myelin fiber orientations)
 
 
@@ -116,7 +116,7 @@ Regarding the objectives, learning tools, and deliverables, I consider the proje
 
 ## Detailed guide to Reproducibility
 Requirements:
-- Download χ-separation code from GitHub, you can find the repository [here](https://github.com/SNU-LIST/chi-separation). They have a well documented manual on how to use the GUI.
+- Download χ-separation code from GitHub, you can find the repository [here](https://github.com/SNU-LIST/chi-separation). It have a well documented manual on how to use the GUI.
 - Download QSM reconstruction challenge 2.0 simulation code. you can find the files [here](https://data.donders.ru.nl/collections/di/dccn/DSC_3015069.02_542?1). Note that you will have to request access in order to download the file, but it's really simple you just have to connect to your ORCID account. In case you don't have an ORCID-ID you can create one [here](https://orcid.org/)
 - Download and install python packages for data visualization and analysis you will need three: Seaborn, Matplotlib, Pandas. You can install them use these command line:`pip install seaborn` || `pip install matplotlib` || `pip install pandas` 
 - Download qMRLab software for data fitting. you can find the software [here](http://qmrlab.org/) [8].
@@ -126,7 +126,7 @@ Once all the files are installed, carefully read the manuals that are provided b
 
 After reading everything, you have a general idea of what you should expect from these codes. First, open your simulation file and create your custom phantom. You can do that by changing, for example, the values of each region of the brain provided by a file named "parameters.mat", which will contain susceptibility values used as a reference for your work denoted as "chiref", "chiref" will present the total susceptibility, I suggest adding two more columns named "chipos" and "chineg" so you can add your positive and negative susceptibilities (always make sure that chiref=chipos+chineg). Now RUN the file named `MacroCreateSusceptibiltyPhantom.m` that will call the main function `CreateOwnRealisticPhantom.m`. Now before running you might want to consider one of these two options:
 - Run the code through chiref, chipos, chineg individually. (By default, the code will use chiref since we manually added chipos and chineg so to run the code over the values of chipos and chineg you will have to change in `CreateOwnRealisticPhantom.m` every chiref into chipos or chineg).
-- Change the code! You can automatically get the chipos and chineg then add them together and save the results as chiref. Here is my suggestion: 1) Make a copy of the original code so you don't lose it. 2) In `CreateOwnRealisticPhantom.m` change every chiref to chipos. 3) Copy-paste almost all the code and now change it to chineg. At this point you should have the exact code repeated twice once for chipos and once for chineg. 4) To get chiref add these few lines at the end: 
+- Change the code! You can automatically get the chipos and chineg then add them together and save the results as chiref. Here is my suggestion: 1) Make a copy of the original code so you don't lose it. 2) Open `CreateOwnRealisticPhantom.m` and change every chiref to chipos. 3) Copy-paste almost all the code and now change it to chineg. At this point you should have the exact code repeated twice once for chipos and once for chineg. 4) To get chiref add these few lines at the end: 
 ```matlab
 %Calculation of ChiTotal from ChiNeg and ChiPos
 % File paths of the two NIfTI images to be loaded
@@ -150,11 +150,11 @@ save_untouch_nii(resultNii, resultPath);
 % Display a message upon successful save
 disp('Result NIfTI image saved successfully.');
 ```
-Now we have 3 images chiref saved as `Chi.nii`, chipos saved as `ChiPos.nii` and chineg saved as `ChiNeg.nii`. For the next step (data simulation) use only the `Chi.nii` file since the `ChiPos.nii` and `ChiNeg.nii` are only used for comparison reasons. Open `MacroCreateSimulationData.m` file, after you make sure you used the parameters you want ( in this project I used a protocol called Challenge protocol that is already in `MacroCreateSimulationData.m`) run the file and wait until the simulation ends. This simulation will result in multiple phase and magnitude images each correspond to it's TE time. You can use this file [here](https://github.com/brainhack-school2023/Ridani_project/blob/main/Scripts/Concatenate_echoes.py) to concatenate the files into one file named `Magnitude_data.nii.gz` and `Phase_data.nii.gz`. Now go ahead and open χ-separation GUI and follow the instruction to get the separated images. Note that you can use this code [here](https://github.com/brainhack-school2023/Ridani_project/blob/main/Scripts/R2Prime_calculation.py) to calculate an estimation of R<sup>\'</sup><sub>2</sub> map.
+Now we have 3 images chiref saved as `Chi.nii`, chipos saved as `ChiPos.nii` and chineg saved as `ChiNeg.nii`. For the next step (data simulation) use only the `Chi.nii` file since the `ChiPos.nii` and `ChiNeg.nii` are only used for comparison reasons. Open `MacroCreateSimulationData.m` file, after you make sure you used the parameters you want ( in this project I used a protocol called Challenge protocol that is already implemented in `MacroCreateSimulationData.m`), run the file and wait until the simulation ends. This simulation will result in multiple phase and magnitude images each correspond to it's TE time. You can use this file [here](https://github.com/brainhack-school2023/Ridani_project/blob/main/Scripts/Concatenate_echoes.py) to concatenate the files into one file named `Magnitude_data.nii.gz` and `Phase_data.nii.gz`. Now go ahead and open χ-separation GUI and follow the instruction to get the separated images. Note that you can use this code [here](https://github.com/brainhack-school2023/Ridani_project/blob/main/Scripts/R2Prime_calculation.py) to calculate an estimation of R<sup>\'</sup><sub>2</sub> map.
 
 In order to create susceptibility maps and other maps that have constant regions as I did in this project you can use this python  code [here](https://github.com/brainhack-school2023/Ridani_project/blob/main/Scripts/Make_uniform_chi.py) to create uniform χ susceptibility  maps and this code [here](https://github.com/brainhack-school2023/Ridani_project/blob/main/Scripts/Make_uniform_maps.py) to create other uniform maps that you will need in this work (read the code to understand which maps I am talking about).
 
-The final step is to make the plots that I showed in the results section. To do this you will have first to download this .csv file [here](https://github.com/brainhack-school2023/Ridani_project/blob/main/susceptibility.csv) that will contain all the values used to plot the figures and you can find the code [here]([https://github.com/brainhack-school2023/Ridani_project/blob/main/Scripts/Figure_plotting.ipynb](https://github.com/brainhack-school2023/Ridani_project/blob/main/NoteBook/Figure_plotting.ipynb)) which a Jupyter Notebook code.
+The final step is to make the plots that I showed in the results section. To do this you will have first to download this .csv file [here](https://github.com/brainhack-school2023/Ridani_project/blob/main/susceptibility.csv) that will contain all the values used to plot the figures and you can find the code [here](https://github.com/brainhack-school2023/Ridani_project/blob/main/NoteBook/Figure_plotting.ipynb)) which is a Jupyter Notebook code.
 
 IMPORTANT NOTE: Always make sure that everything is on the same path (requirements and data)
 
@@ -162,24 +162,24 @@ IMPORTANT NOTE: Always make sure that everything is on the same path (requiremen
 
 
 ## Acknowledgments
-I would like to thank the Brank Hack School 2023 for organizing this course and for their support. The course has been highly beneficial, and I would like to express my appreciation to Dr. Eva Alonso Ortiz for delivering excellent instruction.
+I would like to thank the Brank Hack School 2023 for organizing this course and for their support. The course has been highly beneficial, and I would like to express my appreciation to Dr. Eva Alonso Ortiz for delivering excellent instructions.
 ## References
 
-Marques, José P., et al. "QSM reconstruction challenge 2.0: A realistic in silico head phantom for MRI data simulation and evaluation of susceptibility mapping procedures." Magnetic Resonance in Medicine 86.1 (2021): 526-542.
+1. Marques, José P., et al. "QSM reconstruction challenge 2.0: A realistic in silico head phantom for MRI data simulation and evaluation of susceptibility mapping procedures." Magnetic Resonance in Medicine 86.1 (2021): 526-542.
 
-Shin, Hyeong-Geol, et al. "χ-separation: Magnetic susceptibility source separation toward iron and myelin mapping in the brain." Neuroimage 240 (2021): 118371.
+2. Shin, Hyeong-Geol, et al. "χ-separation: Magnetic susceptibility source separation toward iron and myelin mapping in the brain." Neuroimage 240 (2021): 118371.
 
-Waskom, M. Seaborn: Statistical Data Visualization. Retrieved from https://seaborn.pydata.org/
+3. Waskom, M. Seaborn: Statistical Data Visualization. Retrieved from https://seaborn.pydata.org/
 
-Hunter, J. D. (2007). Matplotlib: A 2D graphics environment. Computing in Science & Engineering, 9(3), 90-95. https://doi.org/10.1109/MCSE.2007.55
+4. Hunter, J. D. (2007). Matplotlib: A 2D graphics environment. Computing in Science & Engineering, 9(3), 90-95. https://doi.org/10.1109/MCSE.2007.55
 
-McKinney, W. (2010). Data Structures for Statistical Computing in Python. In Proceedings of the 9th Python in Science Conference (pp. 56-61). https://doi.org/10.25080/Majora-92bf1922-00a
+5. McKinney, W. (2010). Data Structures for Statistical Computing in Python. In Proceedings of the 9th Python in Science Conference (pp. 56-61). https://doi.org/10.25080/Majora-92bf1922-00a
 
-Krebs, Nikolaus, et al. "Assessment of trace elements in human brain using inductively coupled plasma mass spectrometry." Journal of Trace Elements in Medicine and Biology 28.1 (2014): 1-7.
+6. Krebs, Nikolaus, et al. "Assessment of trace elements in human brain using inductively coupled plasma mass spectrometry." Journal of Trace Elements in Medicine and Biology 28.1 (2014): 1-7.
 
-Dimov, Alexey V., et al. "Susceptibility source separation from gradient echo data using magnitude decay modeling." Journal of Neuroimaging 32.5 (2022): 852-859.
+7. Dimov, Alexey V., et al. "Susceptibility source separation from gradient echo data using magnitude decay modeling." Journal of Neuroimaging 32.5 (2022): 852-859.
 
-Karakuzu, A., Boudreau, M., Duval, T., Boshkovski, T., Leppert, I. R., Cabana, J. F., … & Stikov, N. (2020). qMRLab: Quantitative MRI analysis, under one umbrella. Journal of Open Source Software, 5(53), 2343. doi: 10.21105/joss.02343.
+8. Karakuzu, A., Boudreau, M., Duval, T., Boshkovski, T., Leppert, I. R., Cabana, J. F., … & Stikov, N. (2020). qMRLab: Quantitative MRI analysis, under one umbrella. Journal of Open Source Software, 5(53), 2343. doi: 10.21105/joss.02343.
 
 
 
