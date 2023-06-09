@@ -84,7 +84,7 @@ Figure 1 represents the entire pipeline used to get two separate images of iron 
 <img src="phantoms.png">
 Figure 2: Phantom maps of variable and uniform assessments of brain region values. The left set (a, b, c) illustrates a variable assessment approach, where image a represents χ<sup>Positive</sup><sub>Simulated</sub>, image b represents χ<sup>Negative</sup><sub>Simulated</sub>, and image c represents χ<sup>Total</sup><sub>Simulated</sub> values. The right set (d, e, f) presents a uniform assessment approach, with images d, e, and f mirroring the same representation as a, b, and c, respectively. <br><br><br>
 
-Figure 2 represents the phantom maps that will be used as ground truth. This figures present two sets of maps: the first (a, b and c) has a variable assessment of brain region values and the second (d, e and f) has a uniform assessment of brain region values. The figure presented in this study exemplifies the comparative analysis of variable and uniform assessments. The findings of these experiments will shed light on the limitations of χ-separation when it comes to the complexity of the used model.
+Figure 2 represents the phantom maps that will be used as ground truth. This figure present two sets of maps: the first (a, b and c) has a variable assessment of brain region values and the second (d, e and f) has a uniform assessment of brain region values. The figure presented in this study exemplifies the comparative analysis of variable and uniform assessments. The findings of these experiments will shed light on the limitations of χ-separation when it comes to the complexity of the used model.
 
 ### χ-separation 
 #### Qualitative assessment<br><br>
