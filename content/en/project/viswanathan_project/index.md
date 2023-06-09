@@ -23,7 +23,7 @@ Summary: "This project will walk you through visualizing functional network conn
 
 # If you want to add a cover image (listpage and image in the right), add it to your directory and indicate the name
 # below with the extension.
-image: ""
+image: "connectome.png"
 ---
 <!-- This is an html comment and this won't appear in the rendered page. You are now editing the "content" area, the core of your description. Everything that you can do in markdown is allowed below. We added a couple of comments to guide your through documenting your progress. -->
 
@@ -82,9 +82,11 @@ For understanding the resting- state functional network connectivity in reward n
 
 7. Graph theory visualizations was done using the networkx library where a graph network was plotted based on correlation matrix at each time point where each ROI was an edge and at 0.5 threshold, we can see that different ROI pairs emerge at different time points. 
 
-### Progress overview
 
-The project was swiftly initiated by P Bellec, based on the existing template created in 2019 by Tristan Glatard and improved by different students. It was really not that hard. Community feedback is expected to lead to rapid further improvements of this first version.
+## Interpretations 
+T-statsitics was computed for time point 1 and 2 (p = 0.20214417156708017), 1 and 3 (p = 0.7489632606673926) and 2 and 3 ( p = 0.3206681890020016). No statistical significance was seen in all the three time t-test scores showing that there is no significant reward network changes across time. 
+
+
 
 ### Tools I learned during this project
 
