@@ -1,0 +1,32 @@
+import numpy as np
+import nibabel as nib
+from nilearn.image import resample_img
+from nilearn import maskers, connectome, plotting
+
+# Define the paths to the input files
+fmri_file = "/Users/diegoduran/Desktop/sub-06/sub-06/ses-04/func/sub-06_ses-04_task-motorseq_run-5_space-T1w_desc-preproc_bold.nii.gz"
+atlas_file = "/Users/diegoduran/Desktop/Glasser/MNI_Glasser_HCP_v1.0.nii.gz"
+
+# Load the fMRI and atlas images
+fmri_img = nib.load(fmri_file)
+atlas_img = nib.load(atlas_file)
+
+# Define the ROI labels
+roi = [8, 9, 11, 29, 45, 46, 47, 48, 49, 50, 51, 52, 53, 56, 78, 95, 117]
+# Dimensions and affine transformation matrix of the fMRI image
+target_shape = fmri_img.shape[:3]
+target_affine = fmri_img.affine
+
+# Load and resample the atlas image to match the fMRI image
+resampled_atlas_img = resample_img(atlas_img, target_affine=target_affine, target_shape=target_shape)
+
+# Apply NiftiLabelsMasker to obtain the time series data within the ROIs
+atlas_masker = maskers.NiftiLabelsMasker(labels_img=resampled_atlas_img, labels=roi)
+data_in_atlas = atlas_masker.fit_transform(fmri_file)
+# Compute the correlation matrix 
+correlation_measure = connectome.ConnectivityMeasure(kind='correlation')
+correlation_matrix = correlation_measure.fit_transform([data_in_atlas])[0]
+
+# Plot the correlation matrix with connectome visualization
+plotting.plot_connectome(correlation_matrix, node_coords=atlas_masker.seeds_,
+                         edge_threshold="90%", colorbar=True)
