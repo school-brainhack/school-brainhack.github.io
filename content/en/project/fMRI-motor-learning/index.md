@@ -39,8 +39,6 @@ Hello my name is Diego, I am a graduate student at Toronto Metropolitan Univeris
 
 Motor learning can be understood as a set of processes aimed at learning and refining new skills by practicing (Nieuwboer et al, 2009) This process results in changes within the nervous system that translates to improvements in movement accuracy and smoothness. Neuroscientists have created models to depict motor learning such as Fitts and Posner's 3 stages, however there is no consensus about the speciifc changes that occur in the brain. Although these changes are difficult to quantify, performance with a task can serve an indirect measure that can outline clear stages of learning.
 
-<img src="cover_brain_tingz.png" width="80%">
-
 ### Personal Goals <!-- Done -->
  * Understand the processing and application of the full neuroimaging workflow, specifically from raw fMRI data to data visualization
  * Build and develop skills in open science applications, particularly for future neuroimaging projects
@@ -81,77 +79,53 @@ Participants executed inside the scanner 6 trained and 6 untrained sequences. Se
 
 
 ## Results
+
  
-### Progress overview
-
-This project was initiated by Diego Duran, based off of the OpenNeuro Dataset from Eva Berlot et al.(2020) on June 9th 2023. The final presentation of this project was delivered on 2nd June 2023. All deliverables were given an attempt to be completed, where the ones that were, can be found on this repository. 
-
-### Tools we learned to use during this project
+### Tools used and ROIs
 
  * **Pre-processing Data Scripts:** We learned how to pre-process data for the first time, which is running code through SciNet clusteres and being able to access the fMRI data. It felt really weird, but somehow quite fun as well.
  * **Jupyter Notebook/Jupyter Lab:** We used this platform to code our results based on the preprocessed data. That was quite the challenge because we were hit with all these new libraries that we did not know could produce _so_ many different visualizations.
  * **Git:** Through the modules, and accessing functions used for preprocessing/analysis - Git was a integral part of what we had to learn.
  * **Bash/Terminal:** To be able to locate our data once it was/after preprocessing, we had to be able to use the classic "cd" and "ls" commands to find where all our outputs from the preprocesed data was hidden.
+ 
+##### Human Connectome Project
+Through there research, Bertlot et al. (2020) determined 5 areas of interest when investigating motor sequence learning
+   * Primary Motor Cortex (M1)
+   * Primary Somatosensory Cortex (S1)
+   * Premotor Dorsal Area (PMd)
+   * Anterior Portion of the Superior Parietal Lobe (SPLa)
+ 
+ Using these areas, I compared them with the work from Glasser et al. (2016) and the Human Connectome Project. Through this, I was able to further divide these 5 areas in to 18 ROIs in which I would use as my nodes for my connectivity matrix.
+ 
+ ##### Considerations
+ 
+Due to an issue in preprocessing, I was only able to get clean data for participant 6 on there final fMRI image.
+ 
 
 ### Results
 
-#### Deliverable 1: A Github repository with code scripts and data preparation
+#### fMRI Image
 
-The data we obtained from Lytle et al. (2020) via OpenNeuro was already validated based on the Brain Imaging Data Structure (BIDS) standards. Thus, we were able to proceed directly to preprocessing data by forking the schizophrenia Canadian Neuroimaging Database (SCanD) project codebase developed by Erin Dickie and TIGR Lab. An overview of the general folder structure for the repository (after all scripts are run) is shown below.
+<img src="Picture3.png" width="600" height="450">
+
+#### Connectivity Matrix
+
+<img src="Screen Shot 2023-06-02 at 10.46.21 AM.png">
+
+#### Performance Metrics
  
-<img src="bids_folder_structure.png" alt="Tree diagram showing SCanD_project folder structure" width="600" height="450">
+   <img src="Picture2.png" width="550" height="400">
+   
+## Next Steps
+ 1. Re-run preprocessing to capture all participants and sessions
+ 2. Upload data and run analysis on new sessions
+ 3. Plot Connectomes for each session against performance metrics
+ 4. Analyze plot for stages of learning
 
-An example of output from the SCanD project preprocessing pipeline fMRI prep anatomical step is shown below for subject 3, a child without ADHD. Specifically, the image below shows the template T1-weighted image with contours delineating the detected brain mask (red outline) and brain tissue (blue outline) segmentations. These outputs were reviewed for quality assurance purposes.
-
-<img src="fmriprep_anat_sub-03.png" alt="Brain mask and tissue segmentation for subject 3, child without ADHD" width="400" height="450">
-
-Our project GitHub repository can be accessed here: https://github.com/brainhack-school2023/csun_project/ 
-
-Our preprocessing scripts adapted from Erin Dickie’s SCanD_project: https://github.com/sunclara/SCanD_project-brainhack2023 
-
-#### Deliverable 2: A jupyter notebook of the analysis codes and visualizations
+ ## Conclusion
  
-Based on resources contained within Erin Dickie’s Krembil Centre for Neuroinformatics (KCNI) summer school slides and modules, we were able to produce graphs as well as brain images via the preprocessed data. For example, using nilearn, nibabel, and matplotlib, we were able to plot slices of the brain as well as a line graph which displayed fMRI signal vs time of any brain parcellation. In the context of our data, we chose to plot the somatomotor region vs the auditory region. 
+The ideal result would have had plots for all sessions and comparing them in time against the performance metrics. Based on the performance metric above, the transition from week 1 to week 2 resulted in the largest amount of improvement with the given task. Comparing the images from these weeks would have been interesting as the difference in patterning would translate to a clear stage of learning. Although this was not completed, I reached my personal objectives in creating a script that works to test my postulations. 
  
-The code for parcellation graph comparing fMRI signal vs. time with the somatomotor and auditory regions:
-
-  <figure>
-  <img src="code.png" alt="Code used to generate BOLD graph and connectivity matrix" width="700" height="450">
-  </figure>                                                                                                 
-
-BOLD fMRI signal over time for somatosensory and auditory regions:
-  <figure>
-   <img src="bold_graph.png" alt="Graph showing BOLD fMRI signal over time for somatosensory and auditory regions" width="600" height="200">
-  </figure>                                                                                                     
-
-#### Deliverable 3: A connectivity matrix based on one task
- 
-Once again, following Erin Dickie’s KCNI modules, we were able to create and compare connectivity matrices based on children with and without ADHD. The analysis code can be found within this repository under “brainhacks_connectivity matrix.ipynb”. Using a list, we were able to sum up the values of each participant with ADHD, average out these values (using numpy), and then plot the models using previous code in order to see a connectivity matrix. 
-
- Participant (subject 3) without ADHD:
- <!-- Adding the first kinda bougie connectivity matrix --> 
-   <figure>
-   <img src="connectivity_matrix.png" alt="fMRI connectivity matrix for subject 3, a neurotypically developing child" width="550" height="400">
-  </figure>   
-
- 
- Participants with ADHD:
- <!-- Add the sucky connectivity matrix --> 
-  <figure>
-   <img src="connectivity_matrix_ADHD.png" alt="fMRI connectivity matrix for children with ADHD" width="550" height="400">
-  </figure>   
- 
-## Conclusion 
-
-The personal objectives within this project were met as well as some deliverable goals. We all started Brainhacks with no previous knowledge on neuroimaging and the tools used with neuro-analysis on fMRI data. Moreover, most of us had limited skills with code. During our time in Brainhacks school, we were exposed to many different skills and techniques that we did not know existed. We learned lots from the modules such as the introduction to python and fMRI modules that set the foundation for our knowledge. We then applied these skills with the homework which prepared us for our project. We would like to take these skills that we learned over the course of a month in future personal projects over the summer, and develop them further. 
-
-
-## Acknowledgements
-We would like to thank Erin Dickie for leading and organizing Brainhacks school for the Toronto Hub and giving us the wonderful opportunity to be able to join. We would also like to thank our TAs who would join our online discord calls, and were always available to help whenever we needed it:
-* Ju-Chi Yu
-* Ryan Yeung
-
-A special mention to the 12th floor and Major League Hacking for providing us with merch and pizza on our last day!
 
 ## References
 Berlot E, Popp NJ, Diedrichsen J. A critical re-evaluation of fMRI signatures of motor sequence learning. Elife. 2020 May 13;9:e55241. doi: 10.7554/eLife.55241. PMID: 32401193; PMCID: PMC7266617.
