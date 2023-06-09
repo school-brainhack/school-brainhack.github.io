@@ -70,7 +70,7 @@ This approach will help reduce the complexity of the phantom model to see if the
  
 - Frequency shift (Δf): This map can be obtained from the phase image after we apply a couple of processing steps that will be explained in the next section.
 - R<sup>\'</sup><sub>2</sub> map (R<sup>\'</sup><sub>2</sub>  = R<sup>\*</sup><sub>2</sub>  - R<sub>2</sub> ): In order to obtain an R<sup>\'</sup><sub>2</sub> map, you will need to follow these steps. First, acquire two different scan sequences: Gradient-echo (GRE) and Spin-echo (SE). From each sequence, generate magnitude images. Next, perform an exponential fitting on the magnitude images separately. This will provide you with T<sup>\*</sup><sub>2</sub> and T<sub>2</sub> maps for the GRE and SE sequences, respectively.
-To calculate R<sup>\*</sup><sub>2</sub>, take the inverse of T<sup>\*</sup><sub>2</sub> (denoted as <sup>1</sup>&frasl;<sub>T<sup>\*</sup><sub>2</sub></sub>). Similarly, calculate R<sub>2</sub> by taking the inverse of T<sub>2</sub> (denoted as 1 / <sup>1</sup>&frasl;<sub>T<sub>2</sub></sub>). Finally, obtain R<sup>\'</sup><sub>2</sub> by subtracting R<sub>2</sub> from R<sup>\*</sup><sub>2</sub>.
+To calculate R<sup>\*</sup><sub>2</sub>, take the inverse of T<sup>\*</sup><sub>2</sub> (denoted as <sup>1</sup>&frasl;<sub>T<sup>\*</sup><sub>2</sub></sub>). Similarly, calculate R<sub>2</sub> by taking the inverse of T<sub>2</sub> (denoted as <sup>1</sup>&frasl;<sub>T<sub>2</sub></sub>). Finally, obtain R<sup>\'</sup><sub>2</sub> by subtracting R<sub>2</sub> from R<sup>\*</sup><sub>2</sub>.
 
 
 ### Pipeline and preprocessing
