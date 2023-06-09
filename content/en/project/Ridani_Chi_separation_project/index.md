@@ -102,7 +102,7 @@ Figure 4 presents the quantitative comparative analysis between simulated and me
 ## Conclusion and future work
 - χ-separation is a great and easy tool to use that allows us to separate myelin from iron.
 - Simulations are important to obtain the ground truth and validate the measured values.
-- χ-separation showed great visual results compared to the simulated maps but it poorly performed  numerically especially when it come to negative susceptibility. 
+- χ-separation showed great visual results compared to the simulated maps but it poorly performed  numerically, especially when it comes to negative susceptibility. 
 - χ-separation performed better when the χ-model was less complex, which could be one of this algorithm's limitations.
 - Using Python for data visualization and analysis is easy and produces the best plots.
 - Other χ-separation limitations should be explored
