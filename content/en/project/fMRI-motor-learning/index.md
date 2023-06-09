@@ -19,7 +19,7 @@ tags: [project, github, markdown, brainhack, jupyter notebook, preprocessing, AD
 
 # Summarize your project in < ~75 words. This description will appear at the top of your page and on the list page with other projects.. <!-- this is changed as well -->
 
-summary: "The focus of this project was to quanitfy stages motor learning in participants learning a sequence of tasks. Participants under went learning over a 5 week period, and received fMRI images after every week. This project aimed to create fMRI connectivity images for each of the weeks and constrast them to identify changes in brain stimulation. These contrasts would then be compared to particiapnts performance metrics to quantify learning by pairing the changes in the brain with changes in performance . Project reports are incorporated on the BHS [website](https://school.brainhackmtl.org/project)."
+summary: "The focus of this project was to quanitfy stages motor learning in participants learning a sequence of tasks. Participants under went learning over a 5 week period, and received fMRI images after every week. This project aimed to create fMRI connectivity images for each of the weeks and constrast them to identify changes in brain stimulation. These contrasts would then be compared to particiapnts performance metrics to quantify learning by pairing the changes in the brain with changes in performance."
 
 # If you want to add a cover image (listpage and image in the right), add it to your directory and indicate the name
 # below with the extension.
