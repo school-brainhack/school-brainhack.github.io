@@ -51,38 +51,38 @@ docker run -ti --rm \
   /data /out \
   participant --participant_label {sub-mp0010,sub-mp0011,sub-mp0012,sub-mp0013,sub-mp0014 --skip-bids-validation
 
-![Brain-mask-fmriprep](outputs/Brain-mask.png)
-![Spatial-normalization-fmriprep](outputs/Spatial-normalization.png)
-![Alignment-functional-anatomical-fmriprep](outputs/Alignment-functional-anatomical.png) 
+![Brain-mask-fmriprep](https://github.com/brainhack-school2023/Moqadam_project/raw/main/outputs/Brain-mask.png)
+![Spatial-normalization-fmriprep](https://github.com/brainhack-school2023/Moqadam_project/raw/main/outputs/Spatial-normalization.png)
+![Alignment-functional-anatomical-fmriprep](https://github.com/brainhack-school2023/Moqadam_project/raw/main/outputs/Alignment-functional-anatomical.png) 
 
 ## Functional Connectivity Analysis and Group Comparison using Harvard Atlas
 
 This analysis aimed to investigate functional connectivity patterns and group differences using the Harvard atlas. The preprocessed data and confound information were imported from the specified directory. The Harvard atlas was utilized for defining brain regions of interest. The functional connectivity matrix was extracted, and subjects were divided into depressed and non-depressed groups based on BDI scores.
 Connectivity matrices were computed for each subject, and mean matrices were calculated for the depressed and non-depressed groups. 
-![Connections with Dependencies](outputs/connectionsdep.png)
-![Connections](outputs/connections.png)
+![Connections with Dependencies](https://github.com/brainhack-school2023/Moqadam_project/raw/main/outputs/connectionsdep.png)
+![Connections](https://github.com/brainhack-school2023/Moqadam_project/raw/main/outputs/connections.png)
 
 ## Data Processing and Grouping based on BDI Scores for Connectivities Analysis
 
 Data processing and grouping based on BDI scores were performed to investigate connectivities. The data consisted of preprocessed functional connectivity data and BDI scores obtained from participants. The functional connectivity matrix was computed, and subjects were categorized into depressed and non-depressed groups based on their BDI scores.
 Connectivity matrices were created for each subject, and group-level analyses were conducted. The results demonstrated distinct patterns of connectivity between the depressed and non-depressed groups. These findings highlight the potential differences in brain network organization associated with depression.
 Updating and Filtering Correlation matrix for Analysis
-![Connectivities](outputs/connectivities.png) 
+![Connectivities](https://github.com/brainhack-school2023/Moqadam_project/raw/main/outputs/connectivities.png) 
 
 ## Updating and Filtering Correlation matrix based on label of interest
 
 Updating and filtering the correlation matrix to focus our analysis on specific regions of interest and their associations with neurobehavioral data, improved the accuracy and relevance of the data, allowing us to uncover meaningful insights and generate hypotheses for further investigation.
 
-![Non-Dependencies](outputs/nonDep.png)
-![Dep](outputs/Dep.png)
+![Non-Dependencies](https://github.com/brainhack-school2023/Moqadam_project/raw/main/outputs/nonDep.png)
+![Dep](https://github.com/brainhack-school2023/Moqadam_project/raw/main/outputs/Dep.png)
 
 ## Ploting of Functional Connectivity in Depressed and Non-Depressed Groups
 
 The aim of this analysis was to visualize atlas-based coordinates for depressed and non-depressed groups. Coordinates were obtained using the specified atlas, and separate visualizations were created for each group. The connectivity patterns and spatial distribution of these coordinates were examined.
 The visualizations revealed distinct patterns of connectivity and spatial organization in the depressed and non-depressed groups. These findings provide valuable insights into the differences in brain network architecture associated with depression. The visualizations serve as a powerful tool for understanding and interpreting the complex connectivity patterns in different brain states.
 
-![Plot](outputs/plot.png)
-![View](outputs/view.png)
+![Plot](https://github.com/brainhack-school2023/Moqadam_project/raw/main/outputs/plot.png)
+![View](https://github.com/brainhack-school2023/Moqadam_project/raw/main/outputs/view.png)
 
 ## Connectivity Distribution by Group: Depressed vs. Non-Depressed
 
@@ -91,7 +91,7 @@ This analysis aimed to explore the distribution of connectivities between depres
 The results of the T-test revealed a significant difference in connectivities between the depressed and non-depressed groups (T-Statistic: -2.1286, P-Value: 0.0348). This indicates that there are distinct patterns of brain connectivity associated with depression.
 These findings suggest that neuroconnectivity analysis could potentially serve as a valuable tool for understanding and identifying markers of depression. 
 
-![Connection by Group](outputs/conn%20by%20group.png)
+![Connection by Group](https://github.com/brainhack-school2023/Moqadam_project/raw/main/outputs/conn%20by%20group.png)
 
 
 ## Linear Regression Model for MCI Prediction
@@ -100,7 +100,7 @@ This study aimed to predict Mild Cognitive Impairment (MCI) using connectivities
 The model's performance was evaluated using Mean Squared Error (MSE) and R-squared (R2). The MSE was 0.279, indicating the average squared difference between predicted and actual MCI values. The R2 value was -0.115, suggesting the model did not explain much variance in MCI.
 In summary, the linear regression model showed limited success in predicting MCI using connectivities and BDI scores. 
 
-![LM](outputs/lm.png)
+![LM](https://github.com/brainhack-school2023/Moqadam_project/raw/main/outputs/lm.png)
 
 Mixed Effects Linear Regression Model for MCI Prediction:
 
@@ -108,7 +108,7 @@ A mixed effects linear regression model was developed to predict Mild Cognitive 
 After fitting the model, predictions were made on the test set. The evaluation of the model yielded a Mean Squared Error (MSE) of 0.250 and an R-squared (R2) value close to zero. The MSE represents the average squared difference between predicted and actual MCI values, while R2 indicates the proportion of variance in MCI explained by the model.
 In summary, the mixed effects linear regression model showed limited success in predicting MCI using connectivities and BDI scores. The convergence warning suggests potential issues with model estimation.
 
-![Mixed](outputs/mixed.png)
+![Mixed](https://github.com/brainhack-school2023/Moqadam_project/raw/main/outputs/mixed.png)
 
 ## Tools
 
