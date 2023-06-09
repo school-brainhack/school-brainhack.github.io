@@ -19,7 +19,7 @@ tags: [schizophrenia, fmri, tractography, machine-learning, neuroimaging, python
 
 # Summarize your project in < ~75 words. This description will appear at the top of your page and on the list page with other projects..
 
-Summary: "The review discusses using tractography techniques in MRI to capture structural connectivity and evaluating existing connections of the PFC, creating a script to separate data, comparing classification models, and comparing the connectome of healthy subjects with those diagnosed with schizophrenia."
+Summary: "Schizophrenia (SZ) involves significant alterations in perception, thoughts, mood, and behavior. This project aims to develop an AI model using machine learning for complementary SZ diagnosis, utilizing prefrontal cortex connectomics and tractography techniques. It focuses on creating scripts for data separation, comparing classification models, and analyzing the connectome of healthy individuals and those with SZ. Early detection and accurate diagnosis through machine learning will enable targeted interventions, improving outcomes for individuals with SZ."
 
 # If you want to add a cover image (listpage and image in the right), add it to your directory and indicate the name
 # below with the extension.
@@ -35,7 +35,7 @@ Hugo Galván, Agustina Boveda, Pablo Koss,Sebastian Galván
 
 ## Summary 
 
-The review discusses using tractography techniques in MRI to capture structural connectivity and evaluating existing connections of the PFC, creating a script to separate data, comparing classification models, and comparing the connectome of healthy subjects with those diagnosed with schizophrenia.
+Schizophrenia (SZ) involves significant alterations in perception, thoughts, mood, and behavior. This project aims to develop an AI model using machine learning for complementary SZ diagnosis, utilizing prefrontal cortex connectomics and tractography techniques. It focuses on creating scripts for data separation, comparing classification models, and analyzing the connectome of healthy individuals and those with SZ. Early detection and accurate diagnosis through machine learning will enable targeted interventions, improving outcomes for individuals with SZ.
 
 ## Project definition
 
