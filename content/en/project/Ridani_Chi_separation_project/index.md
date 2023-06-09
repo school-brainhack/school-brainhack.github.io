@@ -23,7 +23,7 @@ My project aims to validate χ-separation algorithm using realistic in silico he
 
 ### Tools
 - χ-separation GUI developed by Hyeong-Geol Shin et al.
-- QSM reconstruction challenge 2.0 code for GRE simulations of custom phantoms.
+- QSM reconstruction challenge 2.0 code for Gradient Echo (GRE) simulations of custom phantoms.
 - Git and GitHub for Version Control.
 - Python Packages: "matplotlib" [3], "seaborn" [4], "pandas" [5].
 ### Data
