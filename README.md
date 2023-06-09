@@ -37,7 +37,7 @@ This project aims to explore and compare the functional connectivity patterns in
 
 The BIDS Validator is a tool that verifies if neuroimaging datasets adhere to the BIDS standard, promoting organized and correctly formatted data for enhanced data sharing and reproducibility in neuroimaging research. In the case of the "mp1014" subject dataset, it identified 2 errors and 1 warning in 62 files. I utilized the error log for subjectmp1014 and subsequently ran fmriprep for the dataset.
 
-![BIDS Validator](outputs/BIDSvalidator.png)
+![BIDS Validator](https://github.com/brainhack-school2023/Moqadam_project/raw/main/outputs/BIDSvalidator.png)
 
 ## Running fMRIPrep with Docker: Preprocessing fMRI Data for Multiple Participants
 
