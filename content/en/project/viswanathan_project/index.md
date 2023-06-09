@@ -19,7 +19,7 @@ tags: [resting- state, github, reward, brainhack]
 
 # Summarize your project in < ~75 words. This description will appear at the top of your page and on the list page with other projects..
 
-summary: "This project will walk you through visualizing functional network connectivity based on a custom mask of ROIs of interest and visualize those network changes across time"
+Summary: "This project will walk you through visualizing functional network connectivity based on a custom mask of ROIs of interest and visualize those network changes across time"
 
 # If you want to add a cover image (listpage and image in the right), add it to your directory and indicate the name
 # below with the extension.
