@@ -92,7 +92,7 @@ The first shows a time series extracted from the test video, showing that all th
 
 ![image](./TimeSeries.png)
 
-Then, in order to compare the distance and orientation of the mouse at the explorations detected by each method, we plot the position of the mouse in each frame using polar coordinates, where the radial coordinate is the distance to object one of the objects, and the angular coordinate is the orientation.
+Then, in order to compare the distance and orientation of the mouse at the explorations detected by each method, we plot the position of the mouse in each frame using polar coordinates, where the radial coordinate is the distance to one of the objects, and the angular coordinate is the orientation.
 
 To simplify the comparison between the three detection methods, the region considered for explorations by our custom algorithm is delimited by a dashed line (on the right hand side), and the points are plotted twice: on the left, we highlight the manual detections in red, while on the right, we highlight the Machine Learning algorithm's detections in blue.
 
