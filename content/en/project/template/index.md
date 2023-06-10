@@ -8,7 +8,7 @@ title: "Functional Connectivity in Schizophrenia patients with and without Audit
 names: [Jagruti Pershad, Daisy Hu]
 
 # Your project GitHub repository URL
-github_repo: https://github.com/brainhack-school2023/project_template
+github_repo: https://github.com/24jagruti11/Schiz_Auditory_hallucination.git
 
 
 # List +- 4 keywords that best describe your project within []. Note that the project summary also involves a number of key words. Those are listed on top of the [github repository](https://github.com/brainhack-school2020/project_template), click `manage topics`.
