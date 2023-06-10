@@ -8,7 +8,7 @@ title: "This is an example project page which serves as a template"
 names: [Pilar López Maggi, Gonzalo Giordano, Ana Pavlova Contreras, Santiago D'hers]
 
 # Your project GitHub repository URL
-github_repo: github.com/sdhers/Mice-Behavioral-Analysis
+github_repo: https://github.com/sdhers/Mice-Behavioral-Analysis.git
 
 # List +- 4 keywords that best describe your project within []. Note that the project summary also involves a number of key words. Those are listed on top of the [github repository](https://github.com/PSY6983-2021/project_template), click `manage topics`.
 # Please only lowercase letters
@@ -57,7 +57,7 @@ We worked on videos obtained with C57 mice during a Novel Object Recognition exp
 At the end of this project, we will have:
  - A script to simplify the manual labeling of videos (including features to quickly label succesive frames by holding down a key and to go back if the user has made a mistake).
  - A Jupyter Notebook where the labeled data and the tracked positions are imported and processed, and where each of our exploration detection methods is applied and compared to the others.
- - A [`requirements.txt`](./requirements.txt) file and the data used during the project, to simplify the reproduction of our results.
+ - A [`requirements.txt`](https://github.com/sdhers/Mice-Behavioral-Analysis/tree/main/requirements.txt) file and the data used during the project, to simplify the reproduction of our results.
 
 ## Results
 
@@ -75,15 +75,15 @@ During the first week, we learned the basic tools which then allowed us to work 
 
 #### Video labeling script
 
-We developed [a script](./Video_Processing/Label_videos.py) to be able to process the video information and label the frames with ease.
+We developed a script to be able to process the video information and label the frames with ease. It can be found at [`Video_Processing/Label_videos.py`](https://github.com/sdhers/Mice-Behavioral-Analysis/tree/main/Video_Processing/Label_videos.py).
 
 #### Motion tracking using DLC
 
-We used Deep Lab Cut to track the positions of different parts of the mice in each of the videos. The resulting data (in `h5` format) can be found under [`Motion_Tracking/DataDLC/videos_eval/`](./Motion_Tracking/DataDLC/videos_eval/).
+We used Deep Lab Cut to track the positions of different parts of the mice in each of the videos. The resulting data (in `h5` format) can be found under [`Motion_Tracking/DataDLC/videos_eval/`](https://github.com/sdhers/Mice-Behavioral-Analysis/tree/main/Motion_Tracking/DataDLC/videos_eval/).
 
 #### Applying and comparing each method
 
-The most important part of our project is contained in [`exploration_detection.ipynb`](./Motion_Tracking/exploration_detection.ipynb). To start with, we import the labels and the tracked data for each video, and we separate a video to use later to test the model. We then develop our custom algorithm for detecting explorations based on the positions tracked by DLC. This algorithm labels a frame as an exploration if the mouse is both close to a given object and looking at it. In order to determine the proximity and orientation of the mouse, we extract the positions of its nose and its head. We then filter the points where the nose is close to the object and the angle between the head-nose vector and the head-object vector is small. Our code makes use of a series of classes defined in [`Motion_Tracking/utils.py`](./Motion_Tracking/utils.py) to handle the math.
+The most important part of our project is contained in [`exploration_detection.ipynb`](https://github.com/sdhers/Mice-Behavioral-Analysis/tree/main/Motion_Tracking/exploration_detection.ipynb). To start with, we import the labels and the tracked data for each video, and we separate a video to use later to test the model. We then develop our custom algorithm for detecting explorations based on the positions tracked by DLC. This algorithm labels a frame as an exploration if the mouse is both close to a given object and looking at it. In order to determine the proximity and orientation of the mouse, we extract the positions of its nose and its head. We then filter the points where the nose is close to the object and the angle between the head-nose vector and the head-object vector is small. Our code makes use of a series of classes defined in [`Motion_Tracking/utils.py`](https://github.com/sdhers/Mice-Behavioral-Analysis/tree/main/Motion_Tracking/utils.py) to handle the math.
 
 ![image](./Criteria.png)
 
