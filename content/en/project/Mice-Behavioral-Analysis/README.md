@@ -108,9 +108,9 @@ We can see that all three methods seem to agree in the region considered for exp
 However, there are several points in the range of angles between $135$° and $180$° where both the manual method and the Machine Learning algorithm detect explorations; this range is not considered by our custom algorithm, which shows its limitations.
 
 ## Conclusion
-In a video where mice spend approximately 7% of the time exploring, the automatic labeling got 81.7% of the manual labels right (18.3% of false negatives), labeling an extra 17.3% labels wrong (false positives).
+In a video where the mouse spent 7.01% of the time exploring, the custom geometric method and the model detected 5.83% and 5.97% respectively. The custom geometric method got 16.92% of false positives and 18.44% of false negatives, while the Random Forest method got 14.83% of false positives and 16.54% of false negatives.
 
-In the other hand, the trained random forest model got 90.2% of the manual labels right (leaving 9.8% of false negatives), labeling an extra 11.7% labels wrong (false positives).
+These numbers, along with the analyses made on the plots, seem to point to the Machine Learning algorithm as the superior computional method to detect explorations.
 
 ## Acknowledgements
 
