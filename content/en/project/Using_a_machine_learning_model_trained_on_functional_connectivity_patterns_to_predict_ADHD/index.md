@@ -2,7 +2,7 @@
 type: "project" # DON'T TOUCH THIS ! :)
 date: "2023-06-09" # Date you first upload your project.
 # Using a machine learning model trained on functional connectivity patterns to predict ADHD
-title: "This is an example project page which serves as a template"
+title: "Using a machine learning model trained on functional connectivity patterns to predict ADHD"
 
 # List the names of the collaborators within the [ ]. If alone, simple put your name within []
 names: [Sebastian Morales]
