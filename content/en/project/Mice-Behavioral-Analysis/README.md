@@ -57,7 +57,7 @@ We worked on videos obtained with C57 mice during a Novel Object Recognition exp
 At the end of this project, we will have:
  - A script to simplify the manual labeling of videos (including features to quickly label succesive frames by holding down a key and to go back if the user has made a mistake).
  - A Jupyter Notebook where the labeled data and the tracked positions are imported and processed, and where each of our exploration detection methods is applied and compared to the others.
- - A `requirements.txt` file and the data used during the project, to simplify the reproduction of our results.
+ - A [`requirements.txt`](./requirements.txt) file and the data used during the project, to simplify the reproduction of our results.
 
 ## Results
 
@@ -79,11 +79,11 @@ We developed [a script](./Video_Processing/Label_videos.py) to be able to proces
 
 #### Motion tracking using DLC
 
-We used Deep Lab Cut to track the positions of different parts of the mice in each of the videos. The resulting data (in `h5` format) can be found under `Motion_Tracking/DataDLC/videos_eval/`.
+We used Deep Lab Cut to track the positions of different parts of the mice in each of the videos. The resulting data (in `h5` format) can be found under [`Motion_Tracking/DataDLC/videos_eval/`](./Motion_Tracking/DataDLC/videos_eval/).
 
 #### Applying and comparing each method
 
-The most important part of our project is contained in [`exploration_detection.ipynb`](./Motion_Tracking/exploration_detection.ipynb). To start with, we import the labels and the tracked data for each video, and we separate a video to use later to test the model. We then develop our custom algorithm for detecting explorations based on the positions tracked by DLC. This algorithm labels a frame as an exploration if the mouse is both close to a given object and looking at it. In order to determine the proximity and orientation of the mouse, we extract the positions of its nose and its head. We then filter the points wehre the nose is close to the object and the angle between the head-nose vector and the head-object vector is small. Our code makes use of a series of classes defined in [`Motion-Tracking/utils.py`](./Motion_Tracking/utils.py) to handle the math.
+The most important part of our project is contained in [`exploration_detection.ipynb`](./Motion_Tracking/exploration_detection.ipynb). To start with, we import the labels and the tracked data for each video, and we separate a video to use later to test the model. We then develop our custom algorithm for detecting explorations based on the positions tracked by DLC. This algorithm labels a frame as an exploration if the mouse is both close to a given object and looking at it. In order to determine the proximity and orientation of the mouse, we extract the positions of its nose and its head. We then filter the points where the nose is close to the object and the angle between the head-nose vector and the head-object vector is small. Our code makes use of a series of classes defined in [`Motion-Tracking/utils.py`](./Motion_Tracking/utils.py) to handle the math.
 
 ![image](./Criteria.png)
 
@@ -92,6 +92,8 @@ We then use the Random Forest model to process the positions and the given label
 The notebook contains a detailed explanation of the process used to import and analyze our data, as well as a description of our custom algorithm and a comparison between the three detection methods.
 
 ![image](./FrameperFrame.png)
+
+![image](./Angle.png)
 
 ## Conclusion
 In a video where mice spend approximately 7% of the time exploring, the automatic labeling got 81.7% of the manual labels right (18.3% of false negatives), labeling an extra 17.3% labels wrong (false positives).
