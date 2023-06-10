@@ -59,7 +59,7 @@ At the end of this project, we will have:
 
 ### Progress overview
 
-The project involved importing data on a github repository, using SciNet teach cluster for the preprocessing of the data and parcellation. Preprocessing involved running MRIQC to generate quality metric report, fMRIPrep for preprocessing of the data, Ciftify Clean for signal cleaning and Ciftify for the visualisation of the data. Parcellation helped to divide brain regions based on brain activty where groups of similar voxels are averaged to reduce the effect of random noise effects.  **MACHINE LEARNING**
+The project involved importing data on a github repository, using SciNet teach cluster for the preprocessing of the data and parcellation. Preprocessing involved running MRIQC to generate quality metric report, fMRIPrep for preprocessing of the data, Ciftify Clean for signal cleaning and Ciftify for the visualisation of the data. Parcellation helped to divide brain regions based on brain activty where groups of similar voxels are averaged to reduce the effect of random noise effects. Then, functional connectivity matrices were computed for all participants with complete data for 392 ROIs. Machine learning was used to classify diagnosis (healthy controls, patients with auditory hallucination, patients without auditory hallucination) based on functional connectivity matrices. Data for 67 participants went through reshaping, scaling, dimension reduction using PCA, and permutation testing a cross validation SVM (sklearn).
 
 ### Tools I learned during this project
 
@@ -70,7 +70,4 @@ The project involved importing data on a github repository, using SciNet teach c
  * Machine Learning
 
 ### Results
-A complete README summarizing the entire project and its results.
-
-## Conclusion and acknowledgement
-
+The machine learning algorithm was not able to classify diagnosis based on functional connectivity.
