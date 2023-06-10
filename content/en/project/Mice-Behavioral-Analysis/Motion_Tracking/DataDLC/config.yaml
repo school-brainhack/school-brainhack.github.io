@@ -1,0 +1,107 @@
+    # Project definitions (do not edit)
+Task: PruebaConda
+scorer: SantiD
+date: May10
+multianimalproject: false
+identity:
+
+    # Project path (change when moving around)
+project_path: /content/drive/MyDrive/Colab_Notebooks/DLC/PruebaConda-SantiD-2023-05-10
+
+    # Annotation data set configuration (and individual video cropping parameters)
+video_sets:
+  C:\Users\dhers\Desktop\PruebaConda-SantiD-2023-05-10\videos\WIN_20220727_15_48_36_Pro.mp4:
+    crop: 0, 400, 0, 600
+  C:\Users\dhers\Desktop\PruebaConda-SantiD-2023-05-10\videos\WIN_20220727_15_57_11_Pro.mp4:
+    crop: 0, 400, 0, 600
+  C:\Users\dhers\Desktop\PruebaConda-SantiD-2023-05-10\videos\WIN_20220727_16_07_03_Pro.mp4:
+    crop: 0, 400, 0, 600
+  C:\Users\dhers\Desktop\PruebaConda-SantiD-2023-05-10\videos\WIN_20220727_16_14_20_Pro.mp4:
+    crop: 0, 400, 0, 600
+  C:\Users\dhers\Desktop\PruebaConda-SantiD-2023-05-10\videos\WIN_20220727_16_25_08_Pro.mp4:
+    crop: 0, 400, 0, 600
+  C:\Users\dhers\Desktop\PruebaConda-SantiD-2023-05-10\videos\WIN_20220727_16_31_32_Pro.mp4:
+    crop: 0, 400, 0, 600
+  C:\Users\dhers\Desktop\PruebaConda-SantiD-2023-05-10\videos\WIN_20220727_16_40_21_Pro.mp4:
+    crop: 400, 800, 0, 600
+  C:\Users\dhers\Desktop\PruebaConda-SantiD-2023-05-10\videos\WIN_20220727_16_46_56_Pro.mp4:
+    crop: 400, 800, 0, 600
+  C:\Users\dhers\Desktop\PruebaConda-SantiD-2023-05-10\videos\WIN_20220727_21_49_02_Pro.mp4:
+    crop: 0, 400, 0, 600
+  C:\Users\dhers\Desktop\PruebaConda-SantiD-2023-05-10\videos\WIN_20220727_21_57_27_Pro.mp4:
+    crop: 0, 400, 0, 600
+  C:\Users\dhers\Desktop\PruebaConda-SantiD-2023-05-10\videos\WIN_20220727_22_07_22_Pro.mp4:
+    crop: 0, 400, 0, 600
+  C:\Users\dhers\Desktop\PruebaConda-SantiD-2023-05-10\videos\WIN_20220727_22_14_45_Pro.mp4:
+    crop: 0, 400, 0, 600
+  C:\Users\dhers\Desktop\PruebaConda-SantiD-2023-05-10\videos\WIN_20220727_22_25_26_Pro.mp4:
+    crop: 0, 400, 0, 600
+  C:\Users\dhers\Desktop\PruebaConda-SantiD-2023-05-10\videos\WIN_20220727_22_31_46_Pro.mp4:
+    crop: 0, 400, 0, 600
+  C:\Users\dhers\Desktop\PruebaConda-SantiD-2023-05-10\videos\WIN_20220727_22_40_41_Pro.mp4:
+    crop: 400, 800, 0, 600
+  C:\Users\dhers\Desktop\PruebaConda-SantiD-2023-05-10\videos\WIN_20220727_22_47_19_Pro.mp4:
+    crop: 400, 800, 0, 600
+
+bodyparts:
+- obj_1
+- obj_2
+- nose
+- L_ear
+- R_ear
+- head
+- neck
+- body
+- tail_1
+- tail_2
+- tail_3
+
+    # Fraction of video to start/stop when extracting frames for labeling/refinement
+
+    # Fraction of video to start/stop when extracting frames for labeling/refinement
+
+    # Fraction of video to start/stop when extracting frames for labeling/refinement
+start: 0
+stop: 1
+numframes2pick: 20
+
+    # Plotting configuration
+skeleton:
+- - nose
+  - L_ear
+  - R_ear
+  - head
+- - head
+  - neck
+  - body
+  - tail_1
+  - tail_2
+  - tail_3
+skeleton_color: white
+pcutoff: 0.6
+dotsize: 4
+alphavalue: 0.7
+colormap: rainbow
+
+    # Training,Evaluation and Analysis configuration
+TrainingFraction:
+- 0.95
+iteration: 0
+default_net_type: resnet_50
+default_augmenter: default
+snapshotindex: -1
+batch_size: 8
+
+    # Cropping Parameters (for analysis and outlier frame detection)
+cropping: false
+    #if cropping is true for analysis, then set the values here:
+x1: 0
+x2: 400
+y1: 0
+y2: 600
+
+    # Refinement configuration (parameters from annotation dataset configuration also relevant in this stage)
+corner2move2:
+- 50
+- 50
+move2corner: true
