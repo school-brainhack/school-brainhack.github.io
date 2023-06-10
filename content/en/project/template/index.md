@@ -1,6 +1,6 @@
 ---
 type: "project" # DON'T TOUCH THIS ! :)
-date: "2020-05-16" # Date you first upload your project.
+date: "2023-05-18" # Date you first upload your project.
 # Title of your project (we like creative title)
 title: "Functional Connectivity in Schizophrenia patients with and without Auditory Hallucinations"
 
