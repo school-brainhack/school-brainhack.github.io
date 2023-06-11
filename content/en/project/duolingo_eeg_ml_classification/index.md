@@ -7,7 +7,7 @@ date: "2023-06-10" # Date your first upload your project.
 title: "Predicting feedback perception in an online language learning task using EEG and machine learning"
 
 # List the names of the collaborators within the [ ]. If alone, simple put your name within []
-names: [Stephanie Fu, <a href="https://dylanscottlow.github.io/" target="blank">Dylan Scott Low</a>]
+names: [Dylan Scott Low Y.J., Stephanie Fu Pei-Yun]
 
 # Your project GitHub repository URL
 github_repo: https://github.com/stephanie0404/Brainhack-school-project
@@ -21,7 +21,7 @@ tags: [machine learning, duolingo, eeg, neurolinguistics, brainhack]
 
 # Summarize your project in < ~75 words. This description will appear at the top of your page and on the list page with other projects..
 
-summary: "In this project, we attempt to apply machine learning methods to the analysis of EEG data recorded while a participant completes language learning tasks on the popular online platform Duolingo. Specifically, we seek to determine if features in the EEG signal can serve to predict whether the participant has gotten a task right or wrong, at the moment when the participant receives feedback on their performance in the task. A k-nearest neighbours classifier achieves a 98% accuracy rate when predicting whether the participant got the answer right or wrong based on the EEG voltages from 8 electrodes."
+summary: "In this project, we aim to use machine learning on EEG data from participants' language learning tasks on Duolingo. Specifically, we ask if EEG features can predict whether the participant has gotten a task right or wrong when they receive feedback. Using a k-nearest neighbours classifier, we achieve 98% accuracy in determining correct or incorrect answers based on EEG voltages from 8 electrodes."
 
 # If you want to add a cover image (listpage and image in the right), add it to your directory and indicate the name
 # below with the extension.
