@@ -19,7 +19,7 @@ tags: [Python, Susceptibility, Software, Visualization, Polytechnique]
 
 # Summarize your project in < ~75 words. This description will appear at the top of your page and on the list page with other projects..
 
-summary: "Each project repository should have a markdown file explaining the background and objectives of the project, as well as a summary of the results, and links to the different deliverables of the project. Project reports are incorporated in the BHS [website](https://school.brainhackmtl.org/project)."
+summary: "How can we validate χ-separation algorithm? In the absence of ground truth to validate χ-separation, my project aims to validate the χ-separation results using realistic in-silico head phantom simulations. Simulations offer a valuable advantage by providing a controlled environment where we can define and manipulate various parameters with known ground truth values. By choosing specific values for the simulation, we can create a ground truth against which we can compare the results obtained through the χ-separation algorithm."
 
 # If you want to add a cover image (listpage and image in the right), add it to your directory and indicate the name
 # below with the extension.
