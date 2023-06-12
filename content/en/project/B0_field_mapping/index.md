@@ -60,10 +60,9 @@ Consequently, these local susceptibility differences cause variations in the pre
 <p><span
 class="math display"><em>ω</em>0 = <em>γ</em><em>B</em><sub>0</sub></span></p>
 <p><span
-class="math display"><em>ω</em> = <em>ω</em>0 + <em>Δ</em><em>χ</em></span></p>
+class="math display"><em>ω</em> = <em>ω</em>0 + (<em>ω</em>0⋅<em>Δ</em><em>χ</em>)</span></p>
 <p><span
-class="math display"><em>ϕ</em> = ∫<em>ω</em>(<em>t</em>)<em>d</em><em>t</em></span></p>
-
+class="math display"><em>ϕ</em> = ∫<em>ω</em>(<em>t</em>)/<em>d</em><em>t</em></span></p>
 ### Phase wrap concept
 The B0 offset affects magnitude and phase images differently. In magnitude images, the signal decays exponentially with increasing B0 offset, while phase accumulation increases in a linear manner. 
 
