@@ -24,7 +24,7 @@ summary: "In this project I am trying to train and test a normative model on a n
 # If you want to add a cover image (listpage and image in the right), add it to your directory and indicate the name
 # below with the extension.
 
-<img src="images/normative.png" width="400">
+image: "images/normative.png"
 
 
 ---
