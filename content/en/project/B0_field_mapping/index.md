@@ -57,10 +57,10 @@ The regions of the brain that experience the most significant variations in the 
 
 Consequently, these local susceptibility differences cause variations in the precessional frequency of spins, also known as the Larmor frequency (ω0). As a result, phase accumulation occurs over time. Therefore, the greater the difference in χ or the longer the duration, the more spread-out the phases become. The relationship between the Larmor frequency, the B0 field offset and phase accumulation can be described as follows:
 
-<p><span
-class="math display"><em>ω</em>0 = <em>γ</em><em>B</em><sub>0</sub> + <em>Δ</em><em>χ</em></span></p>
-<p><span
-class="math display"><em>ϕ</em> = ∫<em>ω</em>(<em>t</em>)<em>d</em><em>t</em></span></p>
+$$ \omega 0 = \gamma B_0 $$
+$$ \omega = \omega 0 + \Delta \chi $$
+
+$$ \phi = \int \omega(t) dt $$
 
 ### Phase wrap concept
 The B0 offset affects magnitude and phase images differently. In magnitude images, the signal decays exponentially with increasing B0 offset, while phase accumulation increases in a linear manner. 
