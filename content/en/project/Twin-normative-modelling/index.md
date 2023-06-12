@@ -2,7 +2,7 @@
 type: "project" # DON'T TOUCH THIS ! :)
 date: "2022-07-22" # Date you first upload your project.
 # Title of your project (we like creative title)
-title: "This is an example project page which serves as a template"
+title: "Twin normative modelling project"
 
 # List the names of the collaborators within the [ ]. If alone, simple put your name within []
 names: [Johanna Bayer]
