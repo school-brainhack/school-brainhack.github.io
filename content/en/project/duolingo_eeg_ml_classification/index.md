@@ -1,5 +1,4 @@
 # Brainhack-school-project
-
 ---
 type: "project" # DON'T TOUCH THIS ! :)
 date: "2023-06-10" # Date your first upload your project.
