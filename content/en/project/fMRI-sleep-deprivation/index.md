@@ -27,10 +27,6 @@ image: "images/Programming-Memes-Programmer-while-sleeping.jpg"
 ---
 <!-- This is an html comment and this won't appear in the rendered page. You are now editing the "content" area, the core of your description. Everything that you can do in markdown is allowed below. We added a couple of comments to guide your through documenting your progress. -->
 
-## Project definition
-
-### Background
-
 #### About Me
 
 <a href="https://github.com/Thomas-Pr">
@@ -40,7 +36,7 @@ image: "images/Programming-Memes-Programmer-while-sleeping.jpg"
 
 Hello and welcome to my project! My name is Thomas Perrin, I am currently pursuing a Master of Engineering degree in Biomedical Engineering at Polytechnique Montreal. I have previously studied mostly medical devices and images analysis at IMT Atlantique in France. Exploring neuroimaging and learning about open-source tools is a new and inspiring part of my journey in Biomedical Engineering!
 
-#### The project
+#### Project Description
 
 Sleep deprivation is commonplace in modern society, but little is known about the functional mechanisms and correlates of sleepiness in the awake brain. Sleepiness is a brain state with pervasive effects on cognitive and affective functioning ([Killgore, 2010, Tamm et al., 2020](#references)). Adult fMRI studies have demonstrated associations between restricted sleep and amygdala-prefrontal functional connectivity ([Reidy et al., 2016](#references)), with inhibition of top-down-control in emotion ([Tamm et al., 2020](#references)). Therefore, it would be interesting to explore and predict whether a participant is sleep deprived or not based on a functional connectivity estimation.
 
