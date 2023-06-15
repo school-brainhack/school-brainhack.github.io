@@ -28,14 +28,13 @@ image: "img/brain.png"
 <!-- This is an html comment and this won't appear in the rendered page. You are now editing the "content" area, the core of your description. Everything that you can do in markdown is allowed below. We added a couple of comments to guide your through documenting your progress. -->
 
 
-# Tulpas: invisible friends in the brain
+<h1 id="section1">Tulpas: invisible friends in the brain</h1>
 
+> :warning: TLDR; check out my <a href="#section8">to-do list</a>.
 
-> :warning: TLDR; check out my [to-do list](#My-to-do-list).
+> :warning: Practical <a href="#section10">tipps and tricks</a> I learned during this brainhack school.
 
-> :warning: Practical [tipps and tricks](#Tipps-and-Tricks) I learned during this brainhack school.
-
-> :information_source: I received great feedback during my final presentation of this project! I haven't been able to incorporate all of the feedback yet, however, check out a full list of feedback [here](#Feedback-from-the-final-presentation ).
+> :information_source: I received great feedback during my final presentation of this project! I haven't been able to incorporate all of the feedback yet, however, check out a full list of feedback <a href="#section9">here</a>.
 
 > :information_source: In the spirit of open science, I have successfully contributed to the nilearn project by correcting a typo. See my [merged pull request](https://github.com/nilearn/nilearn/pull/3738).
 
@@ -45,7 +44,7 @@ image: "img/brain.png"
    <img src="img/brain.png" height="160px;" alt=""/>
 </div>
 
-## Background
+<h2 id="section2">Background</h2>
 Tulpamancy is an intriguing psychological and sociocultural phenomenon that presents novel opportunities for neuroimaging research. Derived from Tibetan Buddhist practices, the term "Tulpa" refers to a self-induced, autonomous mental companion created through focused thought and mental conditioning. Individuals who engage in this practice, known as Tulpamancers, report a range of experiences that suggest Tulpas operate independently of the host's conscious control, often possessing their distinct personality, preferences, and perceptual experiences.
 
 Tulpas are not viewed as hallucinations but rather as fully-fledged conscious entities sharing the same neurological space as the host. The creation and interaction with Tulpas require intense concentration and visualization, often leading to the creation of a mentally constructed realm, called a "wonderland," where Tulpamancers and their Tulpas can interact.
@@ -56,13 +55,16 @@ Through neuroimaging, we aim to investigate these questions, seeking to shed lig
 
 To get a better understanding of Tulpamancy you can check the following [video](https://www.youtube.com/watch?v=f3nf6NOPyr8). The video summarises the most important tipps for creating tulpas. These tipps are sourced from the reddit thread [`r/tulpas`](https://www.reddit.com/r/Tulpas/).
 
-<iframe width="560" height="315" src="https://www.youtube.com/watch?v=f3nf6NOPyr8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/f3nf6NOPyr8" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-## Data
+
+<h2 id="section3">Data</h2>
 
 The data used for this project was collected by Dr. Michael Lifshitz (McGill) from 2020 to 2022 at Stanford University, California, USA. The dataset comprises fMRI scans of 22 expert Tulpamancers. The data was aquired during a sentence completion task originally designed by [Walsh et al. (2015)](https://www.sciencedirect.com/science/article/pii/S0010945214003037?casa_token=rzUA8Ep2LcEAAAAA:W-24nUu1MMLfuAMWAIhnP9p_pxmfo1Me0QBdhFrxqeEJ29sWT7pi-7CtrsWeVCBt47AvVjDxowVl). The tasks consists of 10 runs. During each run, participants are given a beginning of a sentnece such as "in summer...". Participants then have 9 seconds to complete this sentence in their mind (preparation) and another 12 seconds to write down the complete sentnece on a sheet of paper in front of them (write). These 10 runs are repeated multiple times for different conditions. The conditions comprise self: completing or writing the sentence as yourself; Tulpa: letting the tulpa complete or write the sentence; and a control conditino friend: imagine a friend completing or writing the sentence.
 
-<div style="text-align: center; background-color: white; border: 1px solid #000; padding: 20px;">
+The image below depicts an overview of the analysis. The grey boxes have already been completed prior to the brainhack school (BIDS organisation, preprocessing with fmriprep, gPPI in CONN, and GLM in SPM and FSL). The green boxes are the main focus of the brainhack school coding sprint (GLM with Nilearn, Connecttome analysis, Classification). 
+
+<div style="text-align: center">
    <img src="img/sc_protocol.png" height="250px;" alt=""/>
    <img src="img/MRI.png" height="250px;" alt=""/>
    <br /><sub><b>protocol of the sentence completion task</b></sub>
@@ -71,9 +73,10 @@ The data used for this project was collected by Dr. Michael Lifshitz (McGill) fr
 
 The data was preprocessed with [fmriprep](https://fmriprep.org/en/stable/) before any of the analyses were carried out. 
 
-## Deliverables
+<h2 id="section4">Deliverables</h2>
 
 In addition to the deliverables below, you can find a more extensive report of this project on this [website](https://jonasmago.github.io/brainhack2023/intro.html).
+
 
 
 ```{warning}
@@ -82,13 +85,8 @@ The date of publishing the final results on this [website](https://jonasmago.git
 
 You can also find all the code used for the results below in this [github repo](https://github.com/brainhack-school2023/jonas_project.git).
 
-# Results
 
-<div style="text-align: center; background-color: white; border: 1px solid #000; padding: 20px;">
-   <img src="img/tasks.png" height="200px;" alt=""/>
-</div>
-
-## Progress overview
+<h2 id="section5">Progress overview</h2>
 
 The [brainhack school](https://school-brainhack.github.io/) provided four weeks of space during which I could work full time on the analysis of this Tulpa dataset. At the end of these four weeks I was able to complete a first draft of all major analyses intended. These analyses include: 
 * GLM (first and second level).
@@ -96,7 +94,12 @@ The [brainhack school](https://school-brainhack.github.io/) provided four weeks 
 * ML classifier to differentiate conditions using the connectome;
 * A deep learning decoding appraoch using PyTorch to distinguish the task conditions. 
 
-## Tools I learned during this project
+<div style="text-align: center">
+   <img src="img/tasks.png" height="200px;" alt=""/>
+</div>
+
+
+<h2 id="section6">Tools I learned during this project</h2>
 
 This project was intended to upskill in the use of the following
  * `Nilearn` to analyse fMRI data in python.
@@ -105,7 +108,7 @@ This project was intended to upskill in the use of the following
  * `Jupyter {book}`and `Github pages`to present academic work online.
  * `Markdown`, `testing`, `continuous integration` and `Github` as good open science coding practices.
 
-## Results
+<h2 id="section7">Results</h2>
 
 ### Deliverable 1: project report 
 
@@ -132,7 +135,7 @@ The repository of this project can be found [here](https://github.com/mtl-brainh
 I have used `Nilearn` to compute a GLM that compares different conditions of the task. Specifically, I am interested in teh respective contrasts between **self**, **tulpa**, and **friend**. I am interested in these contrasts for the preparation and writing phase respectively. I have computed the GLM on fmriprep prepreocessed data. I have then created a design matrix that integrates the timing files (first two columes) as well as well as some movement regressors (see figure below). To incorporate the movement regressors I have used the `load_confounds_strategy` from nilearn with the following parameters: `denoise_strategy="scrubbing", motion="basic", wm_csf="basic"`. 
 I have then computed a second level analysis that combines the individual beta maps into a group level contrast between the different conditions (see design matrix below). As a result I receive z-scores of each voxel, indicating how much that voxel differs across the two compared condition. The plot below displays these z-scores for comparing the self-write with the tulpa-write condition. A z-score of 3.0 is equivalent to a 99% confidence interval, a z-score of 2.3 is equivalent to a 95% confidence interval. 
 
-<div style="text-align: center; background-color: white; border: 1px solid #000; padding: 20px;">
+<div style="text-align: center">
    <img src="img/dm_first.png" height="420px;" alt=""/>
    <img src="img/dm_second.png" height="420;" alt=""/>
    <img src="img/SSW-STW_paired_thres.png" width="400px;" alt=""/>
@@ -146,9 +149,10 @@ I then used [Neuro Maps](https://netneurolab.github.io/neuromaps/user_guide/null
 > :information_source: unmatched pairs are between software, between subject, between contrast, between run 
 
 
-<div style="text-align: center; background-color: white; border: 1px solid #000; padding: 20px;">
+<div style="text-align: center">
    <img src="img/spm_vs_nilearn.png" height="420px;" alt=""/>
 </div>
+
 
 ### Deliverable 5: Connectome results
 
@@ -230,7 +234,8 @@ Below you can see the definitino of the model, the confusion matrix, the learnin
    <br /><sub><b>results of the neural network</b></sub>
 </div>
 
-## My to-do list 
+<h2 id="section8">My to-do list </h2>
+
 * [X] preprocess the fMRI data with fmriprep
 * [X] run GLMs using SPM for the first level and FSL Randomise for the second level 
 * [X] replicate GLM in Nilearn 
@@ -253,7 +258,7 @@ Below you can see the definitino of the model, the confusion matrix, the learnin
    * [ ] ML classifier on the average activity for each of the 10 trials (not entire runs) cropped to an ROI in the SMA
 * [X] Deep Neural Network Decoder using PyTorch
 
-## Feedback from the final presentation 
+<h2 id="section9">Feedback from the final presentation </h2>
 - visualise things in MRIcroGL, soon implemented in nilearn as `niview`
 - change my pearson-r values to [-1, 1] (currently [-100,100])
 - for comparing nilearn and spm beta maps: specify not-matched. E.g.:
@@ -267,8 +272,8 @@ Below you can see the definitino of the model, the confusion matrix, the learnin
 - it's important to  **de-mean** my data before doing this (e.g. use z-score). 
 - look into **stratified cross validation** to deal with multiple runs per subject in the classifier. If I use stratification this shouldn't be a problem. 
 
+<h2 id="section10">Tipps and Tricks</h2>
 
-## Tipps and Tricks
 **useful hacks, and notes for next iterations of this project**
 - Plotting results
    - [plotly](https://plotly.com/)
@@ -306,7 +311,9 @@ Below you can see the definitino of the model, the confusion matrix, the learnin
    - [sourcery](https://sourcery.ai/) automatically suggests improvements 
    - can I describe the function in **one** line
 
-## About the Author
+
+<h2 id="section11">About the Author</h2>
+
 - `Name`: Jonas Mago
 - `Contact`: jonas.h.mago@gmail.com
 - `Affiliation`: McGill University
