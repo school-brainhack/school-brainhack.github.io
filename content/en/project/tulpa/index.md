@@ -194,7 +194,7 @@ The aim was to train a classifier that can accurately distinguish between differ
 **Write condition**
 
 > Average accuracy = 0.52 <br/>
-> P-value (on 100 permutations): p=0.32
+> P-value (on 100 permutations): p=0.02
 <div style="text-align: center">
    <img src="img/ml/ml_w_conf.png" width="400px;" alt=""/>
    <br/>
@@ -207,7 +207,7 @@ The aim was to train a classifier that can accurately distinguish between differ
 **Prep condition**
 
 > Average accuracy = 0.37 <br/>
-> P-value (on 100 permutations): p=0.02
+> P-value (on 100 permutations): p=0.32
 <div style="text-align: center">
    <img src="img/ml/ml_p_conf.png" width="400px;" alt=""/>
    <br/>
