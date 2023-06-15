@@ -263,7 +263,7 @@ Below you can see the definitino of the model, the confusion matrix, the learnin
 - r2 is a measure for the percentage of variance explained. Not relevant here, thus, remove it. 
 - explain permutation test for significance testing.
 - apply the classifer on beta maps per trials (there are 10 trials per run). I can use ROIs or entire beta masks. The model will take care of the many variables. 
-- try a searchlight appraoch: train a classifer on different ROIs or voxels and then compare the accuracy. This could lead to a accuracy map with voxel resolution, however, this is computationally expensive. 
+- try a searchlight approach: train a classifer on different ROIs or voxels and then compare the accuracy. This could lead to an accuracy map with voxel resolution, however, this is computationally expensive. 
 - it's important to  **de-mean** my data before doing this (e.g. use z-score). 
 - look into **stratified cross validation** to deal with multiple runs per subject in the classifier. If I use stratification this shouldn't be a problem. 
 
