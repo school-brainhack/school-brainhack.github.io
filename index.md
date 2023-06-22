@@ -41,6 +41,7 @@ VS code: VS code helps me a lot when I tried run both jupyter notebooks to debug
 **Results**
 In hippocampus, the detection of SCZ could be well predicted via original voxel-based rs-fMRI signal of instantaneous amplitude and frequency with the F1-socre of 1 by multiple models (e.g., KNN, logistic and SVM models). Furthermore, linear discriminant analysis model performed best in IMF4 of instantaneous frequency with the F1-score of 0.86 for detection of delusion; while logistic model performed ideally in IMF2 of sample entropy with the F1-score of 0.95 for detection of hallucination. Naive Bayse model with IMF2 of instantaneous frequency had the F1-score of 0.87 for predicting both symptoms.
 ![image](https://github.com/MengHuaKuo/school-brainhack.github.io/assets/130176621/37a35186-c1fe-47c8-9300-5e1630f3f484)
+![image](https://github.com/MengHuaKuo/school-brainhack.github.io/assets/130176621/b6b255f6-baf9-4aa9-a91c-e9f931e6e099)
 
 **Conclusion and acknowledgement**
 Our study shows the precise diagnosis for SCZ is feasible. In addition, the prediction of delusion and hallucination help to clarify the influence from one brain network to another, which might indirectly shed light on the network dynamics and structural connectivity.
