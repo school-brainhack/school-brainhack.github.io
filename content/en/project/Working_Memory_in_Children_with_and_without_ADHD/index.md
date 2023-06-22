@@ -23,7 +23,7 @@ summary: "This project aims to using both fMRI data and the behavioral data duri
 
 # If you want to add a cover image (listpage and image in the right), add it to your directory and indicate the name
 # below with the extension.
-image: ""
+image: "sub-03_conn_95.png"
 ---
 <!-- This is an html comment and this won't appear in the rendered page. You are now editing the "content" area, the core of your description. Everything that you can do in markdown is allowed below. We added a couple of comments to guide your through documenting your progress. -->
 
@@ -75,7 +75,7 @@ In the `fMRI_Analysis` folder, there're files including:
 
 ## Conclusion and acknowledgement
 
-In the beginning, we want to build a model to classify the ADHD and healthly controls using the machine learning technique. But the preprocessing of the fMRI data took longer than we expected. (We've spending loads of time dealing with countless problems, and eventually find out how to preprocess the fMRI data with `fmriPrep`.
+In the beginning, we want to build a model to classify the ADHD and healthly controls using the machine learning technique. But the preprocessing of the fMRI data took longer than we expected. (We've spending loads of time dealing with countless problems, and eventually find out how to preprocess the fMRI data with `fmriprep`.
 
 At that point, we’re running out of time, so we decided to look into the connectivity to see if there is any difference between the ADHD child and Healthy control. Also we have practiced our skills on drawing plots with Python, like using `matplotlib` and `Seaborn`.
 For future, we could try out and apply machine learning technique on the dataset.
