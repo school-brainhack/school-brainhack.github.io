@@ -41,7 +41,7 @@ Inspired by the https://alz-journals.onlinelibrary.wiley.com/doi/full/10.1002/tr
 ### Tools
 
 
-    Jupyter notebook for coding and visualization
+ * Jupyter notebook for coding and visualization
     Docker container
     fMRIPrep for rs-fMRI preprocessing
     Python Packages: matplotlib, seaborn, nilearn, plotly, Nibabel, scipy, Pandas
