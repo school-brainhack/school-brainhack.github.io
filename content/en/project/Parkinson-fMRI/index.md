@@ -1,6 +1,6 @@
 ---
 type: "project" # DON'T TOUCH THIS ! :)
-date: "2020-05-16" # Date you first upload your project.
+date: "2020-06-09" # Date you first upload your project.
 # Title of your project (we like creative title)
 title: "Modulation of functional connectivity in Parkinson’s disease with neuropsychiatric symptoms"
 
@@ -34,18 +34,14 @@ image: "view.png"
 
 Inspired by the https://alz-journals.onlinelibrary.wiley.com/doi/full/10.1002/trc2.12371, this project has defined which aims to investigate the functional connectivity patterns in individuals with Parkinson's disease and neuropsychiatric symptoms (PD+NPS) compared to those without the NPS. The study utilizes resting-state fMRI data to analyze the connectivity matrix and identify alterations in functional brain networks associated with PD+NPS. The project also involves familiarizing with data science packages, interpreting neuroimaging data, and advanced visualization techniques. The findings may contribute to understanding the neural mechanisms underlying PD+NPS and inform future research and interventions. The project involves BIDS validation, fMRI preprocessing, functional connectivity analysis, group comparisons, and prediction modeling for mild cognitive impairment.
 
-<<<<<<< HEAD
-=======
-
->>>>>>> dbd38180fc41c44646a5e6d9e5dd283e98ef8757
 ### Tools
 
 
  * Jupyter notebook for coding and visualization
-    Docker container
-    fMRIPrep for rs-fMRI preprocessing
-    Python Packages: matplotlib, seaborn, nilearn, plotly, Nibabel, scipy, Pandas
-    Git and Github for Version Control
+ * Docker container
+ * fMRIPrep for rs-fMRI preprocessing
+ * Python Packages: matplotlib, seaborn, nilearn, plotly, Nibabel, scipy, Pandas
+ * Git and Github for Version Control
 
 
 ### Data
@@ -145,11 +141,11 @@ I have encountered obstacles during the project that affected the speed, particu
 
 Throughout this project, I have gained proficiency in several tools and technologies, including:
 
-    Jupyter Notebooks
-    GitHub
-    BIDS Validator
-    High Performance Computing
-    Data Visualization Tools (specifically Nilearn)
+    * Jupyter Notebooks
+    * GitHub
+    * BIDS Validator
+    * High Performance Computing
+    * Data Visualization Tools (specifically Nilearn)
 
 These tools have been instrumental in facilitating code development, version control, data validation, efficient computing, and data visualization tasks within the project.
 
