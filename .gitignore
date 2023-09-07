@@ -1,6 +1,1 @@
-/public/
-/resources/
-.hugo_build.lock
-
-#DS_Store
-.DS_Store
+content/en/project/video-EEG-FC-SC/generated_data
