@@ -40,14 +40,14 @@ I am currently a first-year PhD student at Polytechnique Montreal, specializing 
 The objective of my project is to develop a comprehensive tutorial on the principles of B0 field mapping in MRI. Additionally, I aim to explain the existing approaches for calculating B0 field maps in an interactive manner. Furthermore, I will investigate the significance of B0 field maps in MRI by comparing the connectivity matrix of rs-fMRI (resting-state functional MRI) from a single subject with and without utilizing the B0 field map during the processing pipeline.
 
 ## Introduction
-In magnetic resonance imaging (MRI), achieving a homogeneous distribution of the main magnetic field (referred to as B0) is crucial for obtaining high-quality images without significant geometric distortions or undesirable signal dropout [1]. B0 field inhomogeneity can arise from various factors such as manufacturing imperfections or the presence of large metallic objects near the magnet. However, the most common cause of field perturbations is the difference in magnetic susceptibility ($\chi$) among tissues within the human body. Magnetic susceptibility describes the extent to which a specific tissue becomes magnetized within the B0 field. Even with the process of shimming, which aims to compensate for magnetic inhomogeneity, it is challenging to achieve complete homogenization of the B0 field, especially at air-tissue interfaces where the susceptibility difference is particularly pronounced [2].
+In magnetic resonance imaging (MRI), achieving a homogeneous distribution of the main magnetic field (referred to as B0) is crucial for obtaining high-quality images without significant geometric distortions or undesirable signal dropout [1]. B0 field inhomogeneity can arise from various factors such as manufacturing imperfections or the presence of large metallic objects near the magnet. However, the most common cause of field perturbations is the difference in magnetic susceptibility (χ) among tissues within the human body. Magnetic susceptibility describes the extent to which a specific tissue becomes magnetized within the B0 field. Even with the process of shimming, which aims to compensate for magnetic inhomogeneity, it is challenging to achieve complete homogenization of the B0 field, especially at air-tissue interfaces where the susceptibility difference is particularly pronounced [2].
 
 While the achieved homogeneity after shimming is generally satisfactory for most anatomical images, even subtle remaining B0 offsets can significantly affect the acquisition of Echo Planar Imaging (EPI) sequences. EPI is a commonly used sequence in functional MRI (fMRI), making it crucial to find ways to correct for these distortions to avoid erroneous interpretation of results. The solution to this issue lies in retrospectively correcting EPI images using a B0 field map, which involves shifting pixels in the phase-encode direction [3]. A B0 field map is a quantitative image representing the intensity of the B0 offset in hertz (Hz) or radians per second (rad/s). There are three methods to calculate the B0 field map: double-echo Gradient Echo (GRE) sequence, multi-echo GRE sequence, and EPI-derived field mapping. The latter method requires acquiring two EPI images with opposite phase-encoding directions. 
 
 ## Background
 
 ### Sources of B0 offset 
-The regions of the brain that experience the most significant variations in the main magnetic field, B0, are primarily located at the skull base. This is due to the high $\chi$ difference between the paramagnetic air in sinuses and the diamagnetic brain tissues. Paramagnetic materials tend to enhance the B0 field by aligning towards it, while diamagnetic materials weaken the B0 field by aligning in the opposite direction.
+The regions of the brain that experience the most significant variations in the main magnetic field, B0, are primarily located at the skull base. This is due to the high χ difference between the paramagnetic air in sinuses and the diamagnetic brain tissues. Paramagnetic materials tend to enhance the B0 field by aligning towards it, while diamagnetic materials weaken the B0 field by aligning in the opposite direction.
 
 <p align="center">
 <img src="magnetic_susceptibility.png" width="350" >
@@ -55,11 +55,14 @@ The regions of the brain that experience the most significant variations in the 
 
 ***Courtesy of Allen D. Elster, MRIquestions.com***
 
-Consequently, these local susceptibility differences cause variations in the precessional frequency of spins, also known as the Larmor frequency ($\omega 0$). As a result, phase accumulation occurs over time. Therefore, the greater the difference in $\chi$  or the longer the duration, the more spread-out the phases become. The relationship between the Larmor frequency, the B0 field offset and phase accumulation can be described as follows:
+Consequently, these local susceptibility differences cause variations in the precessional frequency of spins, also known as the Larmor frequency (ω0). As a result, phase accumulation occurs over time. Therefore, the greater the difference in χ or the longer the duration, the more spread-out the phases become. The relationship between the Larmor frequency, the B0 field offset and phase accumulation can be described as follows:
 
-$$ \omega 0 = \gamma B_0 + \delta \chi $$
-
-$$ \phi = \int \omega(t) dt $$
+<p><span
+class="math display"><em>ω</em>0 = <em>γ</em><em>B</em><sub>0</sub></span></p>
+<p><span
+class="math display"><em>ω</em> = <em>ω</em>0 + (<em>ω</em>0⋅<em>Δ</em><em>χ</em>)</span></p>
+<p><span
+class="math display"><em>ϕ</em> = ∫<em>ω</em>(<em>t</em>) <em>d</em><em>t</em></span></p>
 
 ### Phase wrap concept
 The B0 offset affects magnitude and phase images differently. In magnitude images, the signal decays exponentially with increasing B0 offset, while phase accumulation increases in a linear manner. 
@@ -86,7 +89,7 @@ Click [here](https://brainhack-school2023.github.io/Vejdani_project/phase_wraps.
 
 ## Main Objectives
 
-- Illustration of three previously-mentioned methods of $B_0$ mapping 
+- Illustration of three previously-mentioned methods of B0 mapping 
 - Comparison of fMRI connectivity matrix with and without EPI undistortion
 
 ## Personal Objectives
