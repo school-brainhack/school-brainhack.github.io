@@ -1,0 +1,59 @@
+clc,clear all;clear
+HC = dir('.\MRIdata\non_filtered\HC\*.nii');
+nHC = length(HC);
+fnameHC = '.\MRIdata\non_filtered\HC_eemd\HIPPO\';
+aal = load_nii('./MRIdata/aal/aal_3mm');
+aalimg = aal.img;
+aal_1D = reshape(aalimg,61*73*61,1);
+lHIPPO = [find(aal_1D == 37)];
+rHIPPO = [find(aal_1D == 38)];
+HIPPO = [lHIPPO;rHIPPO];
+% a = aal.img == 37
+% b = aal.img == 38
+% c = a+b
+% c = reshape(c,61*73*61,1);
+
+for i = 169:169
+    dataHC = load_nii(['.\MRIdata\non_filtered\HC\',HC(i).name]);
+    HCimg = dataHC.img;
+    HCimg(find(isnan(HCimg)==1)) = 0;
+    HCimg = reshape(HCimg,61*73*61,195);
+    z = zeros(size(HCimg));
+    nfolder = mkdir(['./MRIdata/non_filtered/HC_eemd/HIPPO/',extractBefore(HC(i).name,'.')]);
+    for ii = 1:length(HIPPO)
+        z(HIPPO(ii),:) = HCimg(HIPPO(ii),:); 
+        Y = z(HIPPO(ii),:);
+        n = num2str(HIPPO(ii));
+        [allmode] = eemd(Y, 0.1, 10000, 0);
+        xlswrite([fnameHC,extractBefore(HC(i).name,'.'),'\',extractBefore(HC(i).name,'.'),'_v',n],allmode);
+        nImf = length(allmode(:,1));
+        subplot(nImf+1,1,1)
+        plot(Y)
+        title([extractBefore(HC(i).name,'.'),'-v',n]);
+        ylabel('signal')
+        subplot(nImf+1,1,2)
+        plot(allmode(1,:))
+        ylabel('IMF1')
+        subplot(nImf+1,1,3)
+        plot(allmode(2,:))
+        ylabel('IMF2')
+        subplot(nImf+1,1,4)
+        plot(allmode(3,:))
+        ylabel('IMF3')
+        subplot(nImf+1,1,5)
+        plot(allmode(4,:))
+        ylabel('IMF4')
+        subplot(nImf+1,1,6)
+        plot(allmode(5,:))
+        ylabel('IMF5')
+        subplot(nImf+1,1,7)
+        plot(allmode(6,:))
+        ylabel('IMF6')
+        subplot(nImf+1,1,8)
+        plot(allmode(7,:))
+        ylabel('IMF7')
+
+        saveas(gcf,[fnameHC,extractBefore(HC(i).name,'.'),'\',extractBefore(HC(i).name,'.'),'_v',n],'m');
+
+    end
+end
