@@ -24,13 +24,13 @@ instructors:
     urlaff: https://criugm.qc.ca/
     twitter: complexbrains
 
-  - name: Natasha Clarke
-    gh: clarkenj
-    email: natashajayne@googlemail.com
-    website: https://psychinthecity.wordpress.com/
-    affiliation: Centre de Recherche de l'Institut Universitaire de Gériatrie de Montréal
-    urlaff: https://criugm.qc.ca/
-    twitter: psychinthecity_
+  - name: Daniel Ridani
+    gh: danirid
+    email: daniel.ridani@polymtl.ca
+    website:
+    affiliation: École Polytechnique de Montréal
+    urlaff:
+    twitter:
 
   - name: Hao-Ting Wang
     gh: htwangtw
