@@ -4,7 +4,7 @@
 ####################################################
 
 
-agenda_title: <u>2023</u> Schedule
+agenda_title: <u>2024</u> Schedule
 agenda_subtitle:
 linktosession:
 linktoschedule:
@@ -14,11 +14,11 @@ schedule:
 - week: Week 1
   title: "Discovering the tools"
   days:
-  - date: 2023-05-08 #monday
+  - date: 2024-05-08 #monday
     sessions:
     - title: Opening Ceremony
-      dateStart: 2023-05-08T10:00:00-04:00
-      dateEnd:   2023-05-08T11:00:00-04:00
+      dateStart: 2024-05-08T10:00:00-04:00
+      dateEnd:   2024-05-08T11:00:00-04:00
       linktosession:
       topic: 3 # 1 = computer science, 2 = neuroscience, 3 - both
       description: Introduction to brainhack school and the learning modules of week 1.
@@ -28,8 +28,8 @@ schedule:
         - Brainhack School Organizers
     
     - title: Free hacking
-      dateStart: 2023-05-08T11:00:00-04:00
-      dateEnd:   2023-05-08T12:00:00-04:00
+      dateStart: 2024-05-08T11:00:00-04:00
+      dateEnd:   2024-05-08T12:00:00-04:00
       linktosession:
       topic: 3 # 1 = computer science, 2 = neuroscience, 3 - both, 4 = random
       description:
@@ -38,8 +38,8 @@ schedule:
         - John Doe
 
     - title: "Lunch"
-      dateStart:  2023-05-08T12:00:00-04:00
-      dateEnd:    2023-05-08T13:00:00-04:00
+      dateStart:  2024-05-08T12:00:00-04:00
+      dateEnd:    2024-05-08T13:00:00-04:00
       linktosession:
 
       description: "Don't forget to take a break!"
@@ -49,8 +49,8 @@ schedule:
         - John Doe
 
     - title: Free hacking
-      dateStart: 2023-05-08T13:00:00-04:00
-      dateEnd:   2023-05-08T14:00:00-04:00
+      dateStart: 2024-05-08T13:00:00-04:00
+      dateEnd:   2024-05-08T14:00:00-04:00
       linktosession:
       topic: 3 # 1 = computer science, 2 = neuroscience, 3 - both, 4 = random
       description:
@@ -59,8 +59,8 @@ schedule:
         - John Doe
 
     - title: Questions and exercises
-      dateStart: 2023-05-08T14:00:00-04:00
-      dateEnd:   2023-05-08T15:00:00-04:00
+      dateStart: 2024-05-08T14:00:00-04:00
+      dateEnd:   2024-05-08T15:00:00-04:00
       linktosession:
       topic: 3 # 1 = computer science, 2 = neuroscience, 3 - both, 4 = random
       description:
@@ -69,8 +69,8 @@ schedule:
         - John Doe
 
     - title: Free hacking
-      dateStart: 2023-05-08T15:00:00-04:00
-      dateEnd:   2023-05-08T17:00:00-04:00
+      dateStart: 2024-05-08T15:00:00-04:00
+      dateEnd:   2024-05-08T17:00:00-04:00
       linktosession:
       topic: 3 # 1 = computer science, 2 = neuroscience, 3 - both, 4 = random
       description:
@@ -78,12 +78,12 @@ schedule:
         - Jane Doe
         - John Doe
 
-  - date: 2023-05-09 # Tuesday
+  - date: 2024-05-09 # Tuesday
     sessions:
 
     - title: Free hacking
-      dateStart: 2023-05-09T09:00:00-04:00
-      dateEnd:   2023-05-09T10:00:00-04:00
+      dateStart: 2024-05-09T09:00:00-04:00
+      dateEnd:   2024-05-09T10:00:00-04:00
       linktosession:
       topic: 3 # 1 = computer science, 2 = neuroscience, 3 - both, 4 = random
       description:
@@ -92,8 +92,8 @@ schedule:
         - John Doe
 
     - title: Questions and exercises
-      dateStart: 2023-05-09T10:00:00-04:00
-      dateEnd:   2023-05-09T11:00:00-04:00
+      dateStart: 2024-05-09T10:00:00-04:00
+      dateEnd:   2024-05-09T11:00:00-04:00
       linktosession:
       topic: 3 # 1 = computer science, 2 = neuroscience, 3 - both
       description: Time for asking questions on the modules, and validate solutions to exercises.
@@ -104,8 +104,8 @@ schedule:
         - John Doe
 
     - title: Free hacking
-      dateStart: 2023-05-09T11:00:00-04:00
-      dateEnd:   2023-05-09T12:00:00-04:00
+      dateStart: 2024-05-09T11:00:00-04:00
+      dateEnd:   2024-05-09T12:00:00-04:00
       linktosession:
       topic: 3 # 1 = computer science, 2 = neuroscience, 3 - both, 4 = random
       description:
@@ -114,8 +114,8 @@ schedule:
         - John Doe
 
     - title: "Lunch"
-      dateStart:  2023-05-09T12:00:00-04:00
-      dateEnd:    2023-05-09T13:00:00-04:00
+      dateStart:  2024-05-09T12:00:00-04:00
+      dateEnd:    2024-05-09T13:00:00-04:00
       linktosession:
 
       description: "Don't forget to take a break!"
@@ -125,8 +125,8 @@ schedule:
         - John Doe
 
     - title: Free hacking 
-      dateStart: 2023-05-09T13:00:00-04:00
-      dateEnd:   2023-05-09T14:00:00-04:00
+      dateStart: 2024-05-09T13:00:00-04:00
+      dateEnd:   2024-05-09T14:00:00-04:00
       linktosession:
       topic: 3 # 1 = computer science, 2 = neuroscience, 3 - both, 4 = random
       description:
@@ -135,8 +135,8 @@ schedule:
         - John Doe
 
     - title: Questions and exercises
-      dateStart: 2023-05-09T14:00:00-04:00
-      dateEnd:   2023-05-09T15:00:00-04:00
+      dateStart: 2024-05-09T14:00:00-04:00
+      dateEnd:   2024-05-09T15:00:00-04:00
       linktosession:
       topic: 3 # 1 = computer science, 2 = neuroscience, 3 - both, 4 = random
       description:
@@ -145,8 +145,8 @@ schedule:
         - John Doe
 
     - title: Free hacking 
-      dateStart: 2023-05-09T15:00:00-04:00
-      dateEnd:   2023-05-09T17:00:00-04:00
+      dateStart: 2024-05-09T15:00:00-04:00
+      dateEnd:   2024-05-09T17:00:00-04:00
       linktosession:
       topic: 3 # 1 = computer science, 2 = neuroscience, 3 - both, 4 = random
       description:
@@ -155,11 +155,11 @@ schedule:
         - John Doe
 
 
-  - date: 2023-05-10 # Wednesday
+  - date: 2024-05-10 # Wednesday
     sessions:
     - title: Free hacking
-      dateStart: 2023-05-10T09:00:00-04:00
-      dateEnd:   2023-05-10T10:00:00-04:00
+      dateStart: 2024-05-10T09:00:00-04:00
+      dateEnd:   2024-05-10T10:00:00-04:00
       linktosession:
       topic: 3 # 1 = computer science, 2 = neuroscience, 3 - both, 4 = random
       description:
@@ -168,8 +168,8 @@ schedule:
         - John Doe
 
     - title: Questions and exercises
-      dateStart: 2023-05-10T10:00:00-04:00
-      dateEnd:   2023-05-10T11:00:00-04:00
+      dateStart: 2024-05-10T10:00:00-04:00
+      dateEnd:   2024-05-10T11:00:00-04:00
       linktosession:
       topic: 3 # 1 = computer science, 2 = neuroscience, 3 - both
       description: Time for asking questions on the modules, and validate solutions to exercises.
@@ -180,8 +180,8 @@ schedule:
         - John Doe
 
     - title: Free hacking
-      dateStart: 2023-05-10T11:00:00-04:00
-      dateEnd:   2023-05-10T12:00:00-04:00
+      dateStart: 2024-05-10T11:00:00-04:00
+      dateEnd:   2024-05-10T12:00:00-04:00
       linktosession:
       topic: 3 # 1 = computer science, 2 = neuroscience, 3 - both, 4 = random
       description:
@@ -190,8 +190,8 @@ schedule:
         - John Doe
 
     - title: "Lunch"
-      dateStart:  2023-05-10T12:00:00-04:00
-      dateEnd:    2023-05-10T13:00:00-04:00
+      dateStart:  2024-05-10T12:00:00-04:00
+      dateEnd:    2024-05-10T13:00:00-04:00
       linktosession:
 
       description: "Don't forget to take a break!"
@@ -201,8 +201,8 @@ schedule:
         - John Doe
 
     - title: Free hacking 
-      dateStart: 2023-05-10T13:00:00-04:00
-      dateEnd:   2023-05-10T14:00:00-04:00
+      dateStart: 2024-05-10T13:00:00-04:00
+      dateEnd:   2024-05-10T14:00:00-04:00
       linktosession:
       topic: 3 # 1 = computer science, 2 = neuroscience, 3 - both, 4 = random
       description:
@@ -211,8 +211,8 @@ schedule:
         - John Doe
 
     - title: Questions and exercises
-      dateStart: 2023-05-10T14:00:00-04:00
-      dateEnd:   2023-05-10T15:00:00-04:00
+      dateStart: 2024-05-10T14:00:00-04:00
+      dateEnd:   2024-05-10T15:00:00-04:00
       linktosession:
       topic: 3 # 1 = computer science, 2 = neuroscience, 3 - both, 4 = random
       description:
@@ -221,8 +221,8 @@ schedule:
         - John Doe
 
     - title: Free hacking 
-      dateStart: 2023-05-10T15:00:00-04:00
-      dateEnd:   2023-05-10T17:00:00-04:00
+      dateStart: 2024-05-10T15:00:00-04:00
+      dateEnd:   2024-05-10T17:00:00-04:00
       linktosession:
       topic: 3 # 1 = computer science, 2 = neuroscience, 3 - both, 4 = random
       description:
@@ -230,11 +230,11 @@ schedule:
         - Jane Doe
         - John Doe
 
-  - date: 2023-05-11 # Thursday
+  - date: 2024-05-11 # Thursday
     sessions:
     - title: Free hacking
-      dateStart: 2023-05-11T09:00:00-04:00
-      dateEnd:   2023-05-11T10:00:00-04:00
+      dateStart: 2024-05-11T09:00:00-04:00
+      dateEnd:   2024-05-11T10:00:00-04:00
       linktosession:
       topic: 3 # 1 = computer science, 2 = neuroscience, 3 - both, 4 = random
       description:
@@ -243,8 +243,8 @@ schedule:
         - John Doe
 
     - title: Questions and exercises
-      dateStart: 2023-05-11T10:00:00-04:00
-      dateEnd:   2023-05-11T11:00:00-04:00
+      dateStart: 2024-05-11T10:00:00-04:00
+      dateEnd:   2024-05-11T11:00:00-04:00
       linktosession:
       topic: 3 # 1 = computer science, 2 = neuroscience, 3 - both
       description: Time for asking questions on the modules, and validate solutions to exercises.
@@ -255,8 +255,8 @@ schedule:
         - John Doe
 
     - title: Free hacking
-      dateStart: 2023-05-11T11:00:00-04:00
-      dateEnd:   2023-05-11T12:00:00-04:00
+      dateStart: 2024-05-11T11:00:00-04:00
+      dateEnd:   2024-05-11T12:00:00-04:00
       linktosession:
       topic: 3 # 1 = computer science, 2 = neuroscience, 3 - both, 4 = random
       description:
@@ -265,8 +265,8 @@ schedule:
         - John Doe
 
     - title: "Lunch"
-      dateStart:  2023-05-11T12:00:00-04:00
-      dateEnd:    2023-05-11T13:00:00-04:00
+      dateStart:  2024-05-11T12:00:00-04:00
+      dateEnd:    2024-05-11T13:00:00-04:00
       linktosession:
 
       description: "Don't forget to take a break!"
@@ -276,8 +276,8 @@ schedule:
         - John Doe
 
     - title: Free hacking 
-      dateStart: 2023-05-11T13:00:00-04:00
-      dateEnd:   2023-05-11T14:00:00-04:00
+      dateStart: 2024-05-11T13:00:00-04:00
+      dateEnd:   2024-05-11T14:00:00-04:00
       linktosession:
       topic: 3 # 1 = computer science, 2 = neuroscience, 3 - both, 4 = random
       description:
@@ -286,8 +286,8 @@ schedule:
         - John Doe
 
     - title: Questions and exercises
-      dateStart: 2023-05-11T14:00:00-04:00
-      dateEnd:   2023-05-11T16:00:00-04:00
+      dateStart: 2024-05-11T14:00:00-04:00
+      dateEnd:   2024-05-11T16:00:00-04:00
       linktosession:
       topic: 3 # 1 = computer science, 2 = neuroscience, 3 - both, 4 = random
       description:
@@ -296,8 +296,8 @@ schedule:
         - John Doe
 
     - title: Free hacking 
-      dateStart: 2023-05-11T15:00:00-04:00
-      dateEnd:   2023-05-11T17:00:00-04:00
+      dateStart: 2024-05-11T15:00:00-04:00
+      dateEnd:   2024-05-11T17:00:00-04:00
       linktosession:
       topic: 3 # 1 = computer science, 2 = neuroscience, 3 - both, 4 = random
       description:
@@ -306,12 +306,12 @@ schedule:
         - John Doe
 
 
-  - date: 2023-05-12 # Friday
+  - date: 2024-05-12 # Friday
     sessions:
 
     - title: Free hacking
-      dateStart: 2023-05-12T09:00:00-04:00
-      dateEnd:   2023-05-12T10:00:00-04:00
+      dateStart: 2024-05-12T09:00:00-04:00
+      dateEnd:   2024-05-12T10:00:00-04:00
       linktosession:
       topic: 3 # 1 = computer science, 2 = neuroscience, 3 - both, 4 = random
       description:
@@ -320,8 +320,8 @@ schedule:
         - John Doe
 
     - title: Questions and exercises
-      dateStart: 2023-05-12T10:00:00-04:00
-      dateEnd:   2023-05-12T11:00:00-04:00
+      dateStart: 2024-05-12T10:00:00-04:00
+      dateEnd:   2024-05-12T11:00:00-04:00
       linktosession:
       topic: 3 # 1 = computer science, 2 = neuroscience, 3 - both
       description: Time for asking questions on the modules, and validate solutions to exercises.
@@ -332,8 +332,8 @@ schedule:
         - John Doe
 
     - title: Free hacking
-      dateStart: 2023-05-12T11:00:00-04:00
-      dateEnd:   2023-05-12T12:00:00-04:00
+      dateStart: 2024-05-12T11:00:00-04:00
+      dateEnd:   2024-05-12T12:00:00-04:00
       linktosession:
       topic: 3 # 1 = computer science, 2 = neuroscience, 3 - both, 4 = random
       description:
@@ -342,8 +342,8 @@ schedule:
         - John Doe
 
     - title: "Lunch"
-      dateStart:  2023-05-12T12:00:00-04:00
-      dateEnd:    2023-05-12T13:00:00-04:00
+      dateStart:  2024-05-12T12:00:00-04:00
+      dateEnd:    2024-05-12T13:00:00-04:00
       linktosession:
       description: "Don't forget to take a break!"
       topic: 4 # 1 = computer science, 2 = neuroscience, 3 - both, 4 = random
@@ -352,8 +352,8 @@ schedule:
         - John Doe
 
     - title: Free hacking 
-      dateStart: 2023-05-12T13:00:00-04:00
-      dateEnd:   2023-05-12T14:00:00-04:00
+      dateStart: 2024-05-12T13:00:00-04:00
+      dateEnd:   2024-05-12T14:00:00-04:00
       linktosession:
       topic: 3 # 1 = computer science, 2 = neuroscience, 3 - both, 4 = random
       description:
@@ -362,8 +362,8 @@ schedule:
         - John Doe
 
     - title: Questions and exercises
-      dateStart: 2023-05-12T14:00:00-04:00
-      dateEnd:   2023-05-12T15:00:00-04:00
+      dateStart: 2024-05-12T14:00:00-04:00
+      dateEnd:   2024-05-12T15:00:00-04:00
       linktosession:
       topic: 3 # 1 = computer science, 2 = neuroscience, 3 - both, 4 = random
       description:
@@ -373,8 +373,8 @@ schedule:
 
 
     - title: Free hacking 
-      dateStart: 2023-05-12T15:00:00-04:00
-      dateEnd:   2023-05-12T17:00:00-04:00
+      dateStart: 2024-05-12T15:00:00-04:00
+      dateEnd:   2024-05-12T17:00:00-04:00
       linktosession:
       topic: 3 # 1 = computer science, 2 = neuroscience, 3 - both, 4 = random
       description:
@@ -385,11 +385,11 @@ schedule:
 - week: Week 2
   title: "Time to think about your project"
   days:
-  - date: 2023-05-15 # Monday
+  - date: 2024-05-15 # Monday
     sessions:
     - title: Free hacking
-      dateStart:  2023-05-15T09:00:00-04:00
-      dateEnd:    2023-05-15T10:00:00-04:00
+      dateStart:  2024-05-15T09:00:00-04:00
+      dateEnd:    2024-05-15T10:00:00-04:00
       linktosession:
       topic: 3 # 1 = computer science, 2 = neuroscience, 3 - both, 4 = random
       description:
@@ -398,8 +398,8 @@ schedule:
         - John Doe
 
     - title: Introduction to Week 2
-      dateStart:  2023-05-15T10:00:00-04:00
-      dateEnd:    2023-05-15T11:00:00-04:00
+      dateStart:  2024-05-15T10:00:00-04:00
+      dateEnd:    2024-05-15T11:00:00-04:00
       linktosession:
       topic: 3 # 1 = computer science, 2 = neuroscience, 3 - both, 4 = random
       description:
@@ -409,8 +409,8 @@ schedule:
         - Pierre Bellec
 
     - title: Free hacking
-      dateStart:  2023-05-15T11:00:00-04:00
-      dateEnd:    2023-05-15T12:00:00-04:00
+      dateStart:  2024-05-15T11:00:00-04:00
+      dateEnd:    2024-05-15T12:00:00-04:00
       linktosession:
       topic: 3 # 1 = computer science, 2 = neuroscience, 3 - both, 4 = random
       description:
@@ -419,8 +419,8 @@ schedule:
         - John Doe
 
     - title: "Lunch"
-      dateStart:  2023-05-15T12:00:00-04:00
-      dateEnd:    2023-05-15T13:00:00-04:00
+      dateStart:  2024-05-15T12:00:00-04:00
+      dateEnd:    2024-05-15T13:00:00-04:00
       linktosession:
       description: "Don't forget to take a break!"
       topic: 4 # 1 = computer science, 2 = neuroscience, 3 - both, 4 = random
@@ -429,8 +429,8 @@ schedule:
         - John Doe
 
     - title: Free hacking
-      dateStart:  2023-05-15T13:00:00-04:00
-      dateEnd:    2023-05-15T14:00:00-04:00
+      dateStart:  2024-05-15T13:00:00-04:00
+      dateEnd:    2024-05-15T14:00:00-04:00
       linktosession:
       description: Meeting with peers and instructors to discuss your project
       topic: 1 # 1 = computer science, 2 = neuroscience, 3 - both, 4 = random
@@ -439,8 +439,8 @@ schedule:
         - John Doe
 
     - title: Project clinic
-      dateStart:  2023-05-15T14:00:00-04:00
-      dateEnd:    2023-05-15T15:00:00-04:00
+      dateStart:  2024-05-15T14:00:00-04:00
+      dateEnd:    2024-05-15T15:00:00-04:00
       linktosession:
       topic: 3 # 1 = computer science, 2 = neuroscience, 3 - both, 4 = random
       instructors:
@@ -448,8 +448,8 @@ schedule:
         - John Doe
 
     - title: Free hacking
-      dateStart:  2023-05-15T15:00:00-04:00
-      dateEnd:    2023-05-15T17:00:00-04:00
+      dateStart:  2024-05-15T15:00:00-04:00
+      dateEnd:    2024-05-15T17:00:00-04:00
       linktosession:
       description: Meeting with peers and instructors to discuss your project
       topic: 1 # 1 = computer science, 2 = neuroscience, 3 - both, 4 = random
@@ -458,12 +458,12 @@ schedule:
         - John Doe
 
 
-  - date: 2023-05-16 # Tuesday
+  - date: 2024-05-16 # Tuesday
     sessions:
 
     - title: Free hacking
-      dateStart:  2023-05-16T09:00:00-04:00
-      dateEnd:    2023-05-16T10:00:00-04:00
+      dateStart:  2024-05-16T09:00:00-04:00
+      dateEnd:    2024-05-16T10:00:00-04:00
       linktosession:
       topic: 3 # 1 = computer science, 2 = neuroscience, 3 - both, 4 = random
       description:
@@ -472,8 +472,8 @@ schedule:
         - John Doe
 
     - title: Questions and exercises
-      dateStart:  2023-05-16T10:00:00-04:00
-      dateEnd:    2023-05-16T11:00:00-04:00
+      dateStart:  2024-05-16T10:00:00-04:00
+      dateEnd:    2024-05-16T11:00:00-04:00
       linktosession:
       topic: 3 # 1 = computer science, 2 = neuroscience, 3 - both, 4 = random
       description: Time for asking questions on the modules, and validate solutions to exercises.
@@ -484,8 +484,8 @@ schedule:
         - John Doe
 
     - title: Free hacking
-      dateStart:  2023-05-16T10:00:00-04:00
-      dateEnd:    2023-05-16T12:00:00-04:00
+      dateStart:  2024-05-16T10:00:00-04:00
+      dateEnd:    2024-05-16T12:00:00-04:00
       linktosession:
       topic: 3 # 1 = computer science, 2 = neuroscience, 3 - both, 4 = random
       description:
@@ -494,8 +494,8 @@ schedule:
         - John Doe
 
     - title: "Lunch"
-      dateStart:  2023-05-16T12:00:00-04:00
-      dateEnd:    2023-05-16T13:00:00-04:00
+      dateStart:  2024-05-16T12:00:00-04:00
+      dateEnd:    2024-05-16T13:00:00-04:00
       linktosession:
       description: "Don't forget to take a break!"
       topic: 4 # 1 = computer science, 2 = neuroscience, 3 - both, 4 = random
@@ -504,8 +504,8 @@ schedule:
         - John Doe
 
     - title: Free hacking
-      dateStart:  2023-05-16T13:00:00-04:00
-      dateEnd:    2023-05-16T14:00:00-04:00
+      dateStart:  2024-05-16T13:00:00-04:00
+      dateEnd:    2024-05-16T14:00:00-04:00
       linktosession:
       topic: 3 # 1 = computer science, 2 = neuroscience, 3 - both, 4 = random
       instructors:
@@ -513,8 +513,8 @@ schedule:
         - John Doe
 
     - title: Project clinic
-      dateStart:  2023-05-16T14:00:00-04:00
-      dateEnd:    2023-05-16T15:00:00-04:00
+      dateStart:  2024-05-16T14:00:00-04:00
+      dateEnd:    2024-05-16T15:00:00-04:00
       linktosession:
       description: Meeting with peers and instructors to discuss your project
       topic: 1 # 1 = computer science, 2 = neuroscience, 3 - both, 4 = random
@@ -523,20 +523,20 @@ schedule:
         - John Doe
 
     - title: Free hacking
-      dateStart:  2023-05-16T15:00:00-04:00
-      dateEnd:    2023-05-16T17:00:00-04:00
+      dateStart:  2024-05-16T15:00:00-04:00
+      dateEnd:    2024-05-16T17:00:00-04:00
       linktosession:
       topic: 3 # 1 = computer science, 2 = neuroscience, 3 - both, 4 = random
       instructors:
         - Jane Doe
         - John Doe
 
-  - date: 2023-05-17 # Wednesday
+  - date: 2024-05-17 # Wednesday
     sessions:
 
     - title: Free hacking
-      dateStart:  2023-05-17T09:00:00-04:00
-      dateEnd:    2023-05-17T10:00:00-04:00
+      dateStart:  2024-05-17T09:00:00-04:00
+      dateEnd:    2024-05-17T10:00:00-04:00
       linktosession:
       topic: 3 # 1 = computer science, 2 = neuroscience, 3 - both, 4 = random
       description:
@@ -545,8 +545,8 @@ schedule:
         - John Doe 
     
     - title: Guest Speaker - Dylan Roskams-Edris 
-      dateStart:  2023-05-17T10:00:00-04:00
-      dateEnd:    2023-05-17T11:00:00-04:00
+      dateStart:  2024-05-17T10:00:00-04:00
+      dateEnd:    2024-05-17T11:00:00-04:00
       linktosession:
       topic: 3 # 1 = computer science, 2 = neuroscience, 3 - both, 4 = random
       description: Do the Science You Wish to See in the World
@@ -557,8 +557,8 @@ schedule:
         - John Doe
 
     - title: Free hacking
-      dateStart:  2023-05-17T11:00:00-04:00
-      dateEnd:    2023-05-17T12:00:00-04:00
+      dateStart:  2024-05-17T11:00:00-04:00
+      dateEnd:    2024-05-17T12:00:00-04:00
       linktosession:
       topic: 3 # 1 = computer science, 2 = neuroscience, 3 - both, 4 = random
       description:
@@ -567,8 +567,8 @@ schedule:
         - John Doe
 
     - title: "Lunch"
-      dateStart:  2023-05-17T12:00:00-04:00
-      dateEnd:    2023-05-17T13:00:00-04:00
+      dateStart:  2024-05-17T12:00:00-04:00
+      dateEnd:    2024-05-17T13:00:00-04:00
       linktosession:
       description: "Don't forget to take a break!"
       topic: 4 # 1 = computer science, 2 = neuroscience, 3 - both, 4 = random
@@ -577,8 +577,8 @@ schedule:
         - John Doe
 
     - title: Free hacking
-      dateStart:  2023-05-17T13:00:00-04:00
-      dateEnd:    2023-05-17T14:00:00-04:00
+      dateStart:  2024-05-17T13:00:00-04:00
+      dateEnd:    2024-05-17T14:00:00-04:00
       linktosession:
       topic: 3 # 1 = computer science, 2 = neuroscience, 3 - both, 4 = random
       instructors:
@@ -587,8 +587,8 @@ schedule:
 
 
     - title: Project clinic
-      dateStart:  2023-05-17T14:00:00-04:00
-      dateEnd:    2023-05-17T15:00:00-04:00
+      dateStart:  2024-05-17T14:00:00-04:00
+      dateEnd:    2024-05-17T15:00:00-04:00
       linktosession:
       description: Meeting with peers and instructors to discuss your project
       topic: 1 # 1 = computer science, 2 = neuroscience, 3 - both, 4 = random
@@ -597,20 +597,20 @@ schedule:
         - John Doe
 
     - title: Free hacking
-      dateStart:  2023-05-17T15:00:00-04:00
-      dateEnd:    2023-05-17T17:00:00-04:00
+      dateStart:  2024-05-17T15:00:00-04:00
+      dateEnd:    2024-05-17T17:00:00-04:00
       linktosession:
       topic: 3 # 1 = computer science, 2 = neuroscience, 3 - both, 4 = random
       instructors:
         - Jane Doe
         - John Doe
 
-  - date: 2023-05-18 # Thursday
+  - date: 2024-05-18 # Thursday
     sessions:
 
     - title: Free hacking
-      dateStart:  2023-05-18T09:00:00-04:00
-      dateEnd:    2023-05-18T10:00:00-04:00
+      dateStart:  2024-05-18T09:00:00-04:00
+      dateEnd:    2024-05-18T10:00:00-04:00
       linktosession:
       topic: 3 # 1 = computer science, 2 = neuroscience, 3 - both, 4 = random
       description:
@@ -619,8 +619,8 @@ schedule:
         - John Doe
 
     - title: Tutorial - Francois Paugam
-      dateStart:  2023-05-18T10:00:00-04:00
-      dateEnd:    2023-05-18T11:00:00-04:00
+      dateStart:  2024-05-18T10:00:00-04:00
+      dateEnd:    2024-05-18T11:00:00-04:00
       linktosession:
       topic: 3 # 1 = computer science, 2 = neuroscience, 3 - both, 4 = random
       description: Debugging and Error Messages in Python
@@ -631,8 +631,8 @@ schedule:
         - John Doe
 
     - title: Free hacking
-      dateStart:  2023-05-18T11:00:00-04:00
-      dateEnd:    2023-05-18T12:00:00-04:00
+      dateStart:  2024-05-18T11:00:00-04:00
+      dateEnd:    2024-05-18T12:00:00-04:00
       linktosession:
       topic: 3 # 1 = computer science, 2 = neuroscience, 3 - both, 4 = random
       description:
@@ -641,8 +641,8 @@ schedule:
         - John Doe
 
     - title: "Lunch"
-      dateStart:  2023-05-18T12:00:00-04:00
-      dateEnd:    2023-05-18T13:00:00-04:00
+      dateStart:  2024-05-18T12:00:00-04:00
+      dateEnd:    2024-05-18T13:00:00-04:00
       linktosession:
       description: "Don't forget to take a break!"
       topic: 4 # 1 = computer science, 2 = neuroscience, 3 - both, 4 = random
@@ -651,8 +651,8 @@ schedule:
         - John Doe
 
     - title: Free hacking
-      dateStart:  2023-05-18T13:00:00-04:00
-      dateEnd:    2023-05-18T14:00:00-04:00
+      dateStart:  2024-05-18T13:00:00-04:00
+      dateEnd:    2024-05-18T14:00:00-04:00
       linktosession:
       topic: 3 # 1 = computer science, 2 = neuroscience, 3 - both, 4 = random
       description:
@@ -661,8 +661,8 @@ schedule:
         - John Doe
 
     - title: Project clinic
-      dateStart:  2023-05-18T14:00:00-04:00
-      dateEnd:    2023-05-18T15:00:00-04:00
+      dateStart:  2024-05-18T14:00:00-04:00
+      dateEnd:    2024-05-18T15:00:00-04:00
       linktosession:
       description: Meeting with peers and instructors to discuss your project
       topic: 1 # 1 = computer science, 2 = neuroscience, 3 - both, 4 = random
@@ -671,8 +671,8 @@ schedule:
         - John Doe
 
     - title: Free hacking
-      dateStart:  2023-05-18T15:00:00-04:00
-      dateEnd:    2023-05-18T17:00:00-04:00
+      dateStart:  2024-05-18T15:00:00-04:00
+      dateEnd:    2024-05-18T17:00:00-04:00
       linktosession:
       topic: 3 # 1 = computer science, 2 = neuroscience, 3 - both, 4 = random
       instructors:
@@ -680,8 +680,8 @@ schedule:
         - John Doe
 
     - title: Social (optional)
-      dateStart:  2023-05-18T17:00:00-04:00
-      dateEnd:    2023-05-18T19:00:00-04:00
+      dateStart:  2024-05-18T17:00:00-04:00
+      dateEnd:    2024-05-18T19:00:00-04:00
       description: TBD
       linktosession:
       topic: 3 # 1 = computer science, 2 = neuroscience, 3 - both, 4 = random
@@ -689,11 +689,11 @@ schedule:
         - Jane Doe
         - John Doe
 
-  - date: 2023-05-19 # Friday
+  - date: 2024-05-19 # Friday
     sessions:
     - title: Free hacking
-      dateStart:  2023-05-19T09:00:00-04:00
-      dateEnd:    2023-05-19T10:00:00-04:00
+      dateStart:  2024-05-19T09:00:00-04:00
+      dateEnd:    2024-05-19T10:00:00-04:00
       linktosession:
       topic: 3 # 1 = computer science, 2 = neuroscience, 3 - both, 4 = random
       description:
@@ -702,8 +702,8 @@ schedule:
         - John Doe
     
     - title: Project clinic
-      dateStart:  2023-05-19T10:00:00-04:00
-      dateEnd:    2023-05-19T11:00:00-04:00
+      dateStart:  2024-05-19T10:00:00-04:00
+      dateEnd:    2024-05-19T11:00:00-04:00
       linktosession:
       topic: 3 # 1 = computer science, 2 = neuroscience, 3 - both, 4 = random
       description: Meeting with peers and instructors to discuss your project
@@ -716,8 +716,8 @@ schedule:
         - John Doe
 
     - title: Free hacking
-      dateStart:  2023-05-19T11:00:00-04:00
-      dateEnd:    2023-05-19T12:00:00-04:00
+      dateStart:  2024-05-19T11:00:00-04:00
+      dateEnd:    2024-05-19T12:00:00-04:00
       linktosession:
       topic: 3 # 1 = computer science, 2 = neuroscience, 3 - both, 4 = random
       description:
@@ -726,8 +726,8 @@ schedule:
         - John Doe
 
     - title: "Lunch"
-      dateStart:  2023-05-19T12:00:00-04:00
-      dateEnd:    2023-05-19T13:00:00-04:00
+      dateStart:  2024-05-19T12:00:00-04:00
+      dateEnd:    2024-05-19T13:00:00-04:00
       linktosession:
       description: "Don't forget to take a break!"
       topic: 4 # 1 = computer science, 2 = neuroscience, 3 - both, 4 = random
@@ -736,8 +736,8 @@ schedule:
         - John Doe
 
     - title: Free hacking
-      dateStart:  2023-05-19T13:00:00-04:00
-      dateEnd:    2023-05-19T14:00:00-04:00
+      dateStart:  2024-05-19T13:00:00-04:00
+      dateEnd:    2024-05-19T14:00:00-04:00
       linktosession:
       topic: 3 # 1 = computer science, 2 = neuroscience, 3 - both, 4 = random
       description:
@@ -747,8 +747,8 @@ schedule:
 
 
     - title: Project Pitches
-      dateStart:  2023-05-19T14:00:00-04:00
-      dateEnd:    2023-05-19T17:00:00-04:00
+      dateStart:  2024-05-19T14:00:00-04:00
+      dateEnd:    2024-05-19T17:00:00-04:00
       linktosession:
       description: Presentation of projects. Please do not forget by now you should have been created your project repository under https://github.com/brainhack-school2023/ organization and project issue at https://github.com/brainhack-school2023/brainhack_school_projects. For more instruction please visit Student Guideline https://school-brainhack.readthedocs.io/en/latest/STUDENTS.html
       topic: 1 # 1 = computer science, 2 = neuroscience, 3 - both, 4 = random
@@ -764,11 +764,11 @@ schedule:
   ################################
   ###########  MONDAY ############
   ################################
-  - date: 2023-05-22 # Monday
+  - date: 2024-05-22 # Monday
     sessions:
     - title: No Brainhack school
-      dateStart:  2023-05-22T09:00:00-04:00
-      dateEnd:    2023-05-22T17:00:00-04:00
+      dateStart:  2024-05-22T09:00:00-04:00
+      dateEnd:    2024-05-22T17:00:00-04:00
       linktosession:
       topic: 3 # 1 = computer science, 2 = neuroscience, 3 - both, 4 = random
       description: Enjoy your Friday! Because summer is not just for hacking.
@@ -777,12 +777,12 @@ schedule:
       materials: ""
       video: ""
       
-  - date: 2023-05-23 # Tuesday
+  - date: 2024-05-23 # Tuesday
     sessions:
 
     - title: Free hacking
-      dateStart:  2023-05-23T09:00:00-04:00
-      dateEnd:    2023-05-23T10:00:00-04:00
+      dateStart:  2024-05-23T09:00:00-04:00
+      dateEnd:    2024-05-23T10:00:00-04:00
       linktosession:
       topic: 3 # 1 = computer science, 2 = neuroscience, 3 - both, 4 = random
       description:
@@ -791,8 +791,8 @@ schedule:
         - John Doe
 
     - title: Questions and exercises
-      dateStart:  2023-05-23T10:00:00-04:00
-      dateEnd:    2023-05-23T11:00:00-04:00
+      dateStart:  2024-05-23T10:00:00-04:00
+      dateEnd:    2024-05-23T11:00:00-04:00
       linktosession:
       topic: 3 # 1 = computer science, 2 = neuroscience, 3 - both, 4 = random
       description: Time for asking questions on the modules, and validate solutions to exercises.
@@ -803,8 +803,8 @@ schedule:
         - John Doe
 
     - title: Free hacking
-      dateStart:  2023-05-23T11:00:00-04:00
-      dateEnd:    2023-05-23T12:00:00-04:00
+      dateStart:  2024-05-23T11:00:00-04:00
+      dateEnd:    2024-05-23T12:00:00-04:00
       linktosession:
       topic: 3 # 1 = computer science, 2 = neuroscience, 3 - both, 4 = random
       description:
@@ -813,8 +813,8 @@ schedule:
         - John Doe
 
     - title: "Lunch"
-      dateStart:  2023-05-23T12:00:00-04:00
-      dateEnd:    2023-05-23T13:00:00-04:00
+      dateStart:  2024-05-23T12:00:00-04:00
+      dateEnd:    2024-05-23T13:00:00-04:00
       linktosession:
       description: "Don't forget to take a break!"
       topic: 4 # 1 = computer science, 2 = neuroscience, 3 - both, 4 = random
@@ -823,8 +823,8 @@ schedule:
         - John Doe
 
     - title: Free hacking
-      dateStart:  2023-05-23T13:00:00-04:00
-      dateEnd:    2023-05-23T14:00:00-04:00
+      dateStart:  2024-05-23T13:00:00-04:00
+      dateEnd:    2024-05-23T14:00:00-04:00
       linktosession:
       topic: 3 # 1 = computer science, 2 = neuroscience, 3 - both, 4 = random
       description:
@@ -833,8 +833,8 @@ schedule:
         - John Doe
 
     - title: Project clinic
-      dateStart:  2023-05-23T14:00:00-04:00
-      dateEnd:    2023-05-23T15:00:00-04:00
+      dateStart:  2024-05-23T14:00:00-04:00
+      dateEnd:    2024-05-23T15:00:00-04:00
       linktosession:
       description: Meeting with peers and instructors to discuss your project
       topic: 1 # 1 = computer science, 2 = neuroscience, 3 - both, 4 = random
@@ -843,20 +843,20 @@ schedule:
         - John Doe
 
     - title: Free hacking
-      dateStart:  2023-05-23T15:00:00-04:00
-      dateEnd:    2023-05-23T17:00:00-04:00
+      dateStart:  2024-05-23T15:00:00-04:00
+      dateEnd:    2024-05-23T17:00:00-04:00
       linktosession:
       topic: 3 # 1 = computer science, 2 = neuroscience, 3 - both, 4 = random
       instructors:
         - Jane Doe
         - John Doe
 
-  - date: 2023-05-24 # Wednesday
+  - date: 2024-05-24 # Wednesday
     sessions:
 
     - title: Happy Project Review Hour!
-      dateStart:  2023-05-24T09:00:00-04:00
-      dateEnd:    2023-05-24T10:00:00-04:00
+      dateStart:  2024-05-24T09:00:00-04:00
+      dateEnd:    2024-05-24T10:00:00-04:00
       linktosession:
       topic: 3 # 1 = computer science, 2 = neuroscience, 3 - both, 4 = random
       description: Please visit the project issues from your peers at the repository https://github.com/brainhack-school2023/brainhack_school_projects/issues to learn about your peers' projects.
@@ -866,8 +866,8 @@ schedule:
 
 
     - title: Panel - Industry and Academia Synergy Discussions
-      dateStart:  2023-05-24T10:00:00-04:00
-      dateEnd:    2023-05-24T11:00:00-04:00
+      dateStart:  2024-05-24T10:00:00-04:00
+      dateEnd:    2024-05-24T11:00:00-04:00
       linktosession:
       topic: 3 # 1 = computer science, 2 = neuroscience, 3 - both, 4 = random
       description: The panelists will be among the researchers who either migrated between academia and industry, or have an academic career with industrial collaborations, and will share their experiences and advices on the challenges and opportunities the either path contains. 
@@ -878,8 +878,8 @@ schedule:
         - John Doe
 
     - title: Free hacking
-      dateStart:  2023-05-24T11:00:00-04:00
-      dateEnd:    2023-05-24T12:00:00-04:00
+      dateStart:  2024-05-24T11:00:00-04:00
+      dateEnd:    2024-05-24T12:00:00-04:00
       linktosession:
       topic: 3 # 1 = computer science, 2 = neuroscience, 3 - both, 4 = random
       description:
@@ -888,8 +888,8 @@ schedule:
         - John Doe
 
     - title: "Lunch"
-      dateStart:  2023-05-24T12:00:00-04:00
-      dateEnd:    2023-05-24T13:00:00-04:00
+      dateStart:  2024-05-24T12:00:00-04:00
+      dateEnd:    2024-05-24T13:00:00-04:00
       linktosession:
       description: "Don't forget to take a break!"
       topic: 4 # 1 = computer science, 2 = neuroscience, 3 - both, 4 = random
@@ -898,8 +898,8 @@ schedule:
         - John Doe
 
     - title: Free hacking
-      dateStart:  2023-05-24T13:00:00-04:00
-      dateEnd:    2023-05-24T14:00:00-04:00
+      dateStart:  2024-05-24T13:00:00-04:00
+      dateEnd:    2024-05-24T14:00:00-04:00
       linktosession:
       topic: 3 # 1 = computer science, 2 = neuroscience, 3 - both, 4 = random
       description:
@@ -908,8 +908,8 @@ schedule:
         - John Doe
 
     - title: Project clinic
-      dateStart:  2023-05-24T14:00:00-04:00
-      dateEnd:    2023-05-24T15:00:00-04:00
+      dateStart:  2024-05-24T14:00:00-04:00
+      dateEnd:    2024-05-24T15:00:00-04:00
       linktosession:
       description: Meeting with peers and instructors to discuss your project
       topic: 1 # 1 = computer science, 2 = neuroscience, 3 - both, 4 = random
@@ -918,20 +918,20 @@ schedule:
         - John Doe
 
     - title: Free hacking
-      dateStart:  2023-05-24T15:00:00-04:00
-      dateEnd:    2023-05-24T17:00:00-04:00
+      dateStart:  2024-05-24T15:00:00-04:00
+      dateEnd:    2024-05-24T17:00:00-04:00
       linktosession:
       topic: 3 # 1 = computer science, 2 = neuroscience, 3 - both, 4 = random
       instructors:
         - Jane Doe
         - John Doe
 
-  - date: 2023-05-25 # Thursday
+  - date: 2024-05-25 # Thursday
     sessions:
 
     - title: Free hacking
-      dateStart:  2023-05-25T09:00:00-04:00
-      dateEnd:    2023-05-25T10:00:00-04:00
+      dateStart:  2024-05-25T09:00:00-04:00
+      dateEnd:    2024-05-25T10:00:00-04:00
       linktosession:
       topic: 3 # 1 = computer science, 2 = neuroscience, 3 - both, 4 = random
       description:
@@ -940,8 +940,8 @@ schedule:
         - John Doe
 
     - title: Questions and exercises
-      dateStart:  2023-05-25T10:00:00-04:00
-      dateEnd:    2023-05-25T11:00:00-04:00
+      dateStart:  2024-05-25T10:00:00-04:00
+      dateEnd:    2024-05-25T11:00:00-04:00
       linktosession:
       topic: 3 # 1 = computer science, 2 = neuroscience, 3 - both, 4 = random
       description:
@@ -952,8 +952,8 @@ schedule:
         - John Doe
 
     - title: Free hacking
-      dateStart:  2023-05-25T11:00:00-04:00
-      dateEnd:    2023-05-25T12:00:00-04:00
+      dateStart:  2024-05-25T11:00:00-04:00
+      dateEnd:    2024-05-25T12:00:00-04:00
       linktosession:
       topic: 3 # 1 = computer science, 2 = neuroscience, 3 - both, 4 = random
       description:
@@ -962,8 +962,8 @@ schedule:
         - John Doe
 
     - title: "Lunch"
-      dateStart:  2023-05-25T12:00:00-04:00
-      dateEnd:    2023-05-25T13:00:00-04:00
+      dateStart:  2024-05-25T12:00:00-04:00
+      dateEnd:    2024-05-25T13:00:00-04:00
       linktosession:
       description: "Don't forget to take a break!"
       topic: 4 # 1 = computer science, 2 = neuroscience, 3 - both, 4 = random
@@ -972,8 +972,8 @@ schedule:
         - John Doe
 
     - title: Free hacking
-      dateStart:  2023-05-25T13:00:00-04:00
-      dateEnd:    2023-05-25T14:00:00-04:00
+      dateStart:  2024-05-25T13:00:00-04:00
+      dateEnd:    2024-05-25T14:00:00-04:00
       linktosession:
       topic: 3 # 1 = computer science, 2 = neuroscience, 3 - both, 4 = random
       description:
@@ -983,8 +983,8 @@ schedule:
 
 
     - title: Project clinic
-      dateStart:  2023-05-25T14:00:00-04:00
-      dateEnd:    2023-05-25T15:00:00-04:00
+      dateStart:  2024-05-25T14:00:00-04:00
+      dateEnd:    2024-05-25T15:00:00-04:00
       linktosession:
       description: Meeting with peers and instructors to discuss your project
       topic: 1 # 1 = computer science, 2 = neuroscience, 3 - both, 4 = random
@@ -993,19 +993,19 @@ schedule:
         - John Doe
 
     - title: Free hacking
-      dateStart:  2023-05-25T15:00:00-04:00
-      dateEnd:    2023-05-25T17:00:00-04:00
+      dateStart:  2024-05-25T15:00:00-04:00
+      dateEnd:    2024-05-25T17:00:00-04:00
       linktosession:
       topic: 3 # 1 = computer science, 2 = neuroscience, 3 - both, 4 = random
       instructors:
         - Jane Doe
         - John Doe
 
-  - date: 2023-05-26 # Friday
+  - date: 2024-05-26 # Friday
     sessions:
     - title: Free hacking
-      dateStart:  2023-05-26T09:00:00-04:00
-      dateEnd:    2023-05-26T10:00:00-04:00
+      dateStart:  2024-05-26T09:00:00-04:00
+      dateEnd:    2024-05-26T10:00:00-04:00
       linktosession:
       topic: 3 # 1 = computer science, 2 = neuroscience, 3 - both, 4 = random
       description:
@@ -1014,8 +1014,8 @@ schedule:
         - John Doe
 
     - title: Project clinic
-      dateStart:  2023-05-26T10:00:00-04:00
-      dateEnd:    2023-05-26T11:00:00-04:00
+      dateStart:  2024-05-26T10:00:00-04:00
+      dateEnd:    2024-05-26T11:00:00-04:00
       linktosession:
       topic: 3 # 1 = computer science, 2 = neuroscience, 3 - both, 4 = random
       description: Meeting with peers and instructors to discuss your project 
@@ -1025,8 +1025,8 @@ schedule:
         - Pierre Bellec
 
     - title: Free hacking
-      dateStart:  2023-05-26T11:00:00-04:00
-      dateEnd:    2023-05-26T12:00:00-04:00
+      dateStart:  2024-05-26T11:00:00-04:00
+      dateEnd:    2024-05-26T12:00:00-04:00
       linktosession:
       topic: 3 # 1 = computer science, 2 = neuroscience, 3 - both, 4 = random
       description:
@@ -1035,8 +1035,8 @@ schedule:
         - John Doe
 
     - title: "Lunch"
-      dateStart:  2023-05-26T12:00:00-04:00
-      dateEnd:    2023-05-26T13:00:00-04:00
+      dateStart:  2024-05-26T12:00:00-04:00
+      dateEnd:    2024-05-26T13:00:00-04:00
       linktosession:
       description: "Don't forget to take a break!"
       topic: 4 # 1 = computer science, 2 = neuroscience, 3 - both, 4 = random
@@ -1045,8 +1045,8 @@ schedule:
         - John Doe
 
     - title: Free hacking
-      dateStart:  2023-05-26T13:00:00-04:00
-      dateEnd:    2023-05-26T14:00:00-04:00
+      dateStart:  2024-05-26T13:00:00-04:00
+      dateEnd:    2024-05-26T14:00:00-04:00
       linktosession:
       topic: 3 # 1 = computer science, 2 = neuroscience, 3 - both, 4 = random
       description:
@@ -1054,8 +1054,8 @@ schedule:
         - Jane Doe
         - John Doe
     - title: Project clinic
-      dateStart:  2023-05-26T14:00:00-04:00
-      dateEnd:    2023-05-26T15:00:00-04:00
+      dateStart:  2024-05-26T14:00:00-04:00
+      dateEnd:    2024-05-26T15:00:00-04:00
       linktosession:
       description: Meeting with peers and instructors to discuss your project
       topic: 1 # 1 = computer science, 2 = neuroscience, 3 - both, 4 = random
@@ -1064,8 +1064,8 @@ schedule:
         - John Doe
 
     - title: Free hacking
-      dateStart:  2023-05-26T15:00:00-04:00
-      dateEnd:    2023-05-26T17:00:00-04:00
+      dateStart:  2024-05-26T15:00:00-04:00
+      dateEnd:    2024-05-26T17:00:00-04:00
       linktosession:
       topic: 3 # 1 = computer science, 2 = neuroscience, 3 - both, 4 = random
       instructors:
@@ -1077,12 +1077,12 @@ schedule:
 - week: Week 4
   title: "Project wrap-up and communication"
   days:
-  - date: 2023-05-29 # Monday
+  - date: 2024-05-29 # Monday
     sessions:
 
     - title: Introduction to Week 4
-      dateStart:  2023-05-29T09:00:00-04:00
-      dateEnd:    2023-05-29T10:00:00-04:00
+      dateStart:  2024-05-29T09:00:00-04:00
+      dateEnd:    2024-05-29T10:00:00-04:00
       linktosession:
       topic: 3 # 1 = computer science, 2 = neuroscience, 3 - both, 4 = random
       description: A review of goals, delivrables and schedule for the week
@@ -1092,8 +1092,8 @@ schedule:
         - Pierre Bellec
 
     - title: Project clinic
-      dateStart:  2023-05-29T10:00:00-04:00
-      dateEnd:    2023-05-29T11:00:00-04:00
+      dateStart:  2024-05-29T10:00:00-04:00
+      dateEnd:    2024-05-29T11:00:00-04:00
       linktosession:
       topic: 3 # 1 = computer science, 2 = neuroscience, 3 - both, 4 = random
       description:
@@ -1102,8 +1102,8 @@ schedule:
         - John Doe
 
     - title: Free hacking
-      dateStart:  2023-05-29T11:00:00-04:00
-      dateEnd:    2023-05-29T12:00:00-04:00
+      dateStart:  2024-05-29T11:00:00-04:00
+      dateEnd:    2024-05-29T12:00:00-04:00
       linktosession:
       topic: 3 # 1 = computer science, 2 = neuroscience, 3 - both, 4 = random
       description:
@@ -1112,8 +1112,8 @@ schedule:
         - John Doe
 
     - title: "Lunch"
-      dateStart:  2023-05-29T12:00:00-04:00
-      dateEnd:    2023-05-29T13:00:00-04:00
+      dateStart:  2024-05-29T12:00:00-04:00
+      dateEnd:    2024-05-29T13:00:00-04:00
       linktosession:
       description: "Don't forget to take a break!"
       topic: 4 # 1 = computer science, 2 = neuroscience, 3 - both, 4 = random
@@ -1123,8 +1123,8 @@ schedule:
 
 
     - title: Free hacking
-      dateStart:  2023-05-29T13:00:00-04:00
-      dateEnd:    2023-05-29T14:00:00-04:00
+      dateStart:  2024-05-29T13:00:00-04:00
+      dateEnd:    2024-05-29T14:00:00-04:00
       linktosession:
       topic: 3 # 1 = computer science, 2 = neuroscience, 3 - both, 4 = random
       instructors:
@@ -1132,8 +1132,8 @@ schedule:
         - John Doe
 
     - title: Project clinic
-      dateStart:  2023-05-29T14:00:00-04:00
-      dateEnd:    2023-05-29T15:00:00-04:00
+      dateStart:  2024-05-29T14:00:00-04:00
+      dateEnd:    2024-05-29T15:00:00-04:00
       linktosession:
       description: Meeting with peers and instructors to discuss your project
       topic: 1 # 1 = computer science, 2 = neuroscience, 3 - both, 4 = random
@@ -1142,19 +1142,19 @@ schedule:
         - John Doe
 
     - title: Free hacking
-      dateStart:  2023-05-29T15:00:00-04:00
-      dateEnd:    2023-05-29T17:00:00-04:00
+      dateStart:  2024-05-29T15:00:00-04:00
+      dateEnd:    2024-05-29T17:00:00-04:00
       linktosession:
       topic: 3 # 1 = computer science, 2 = neuroscience, 3 - both, 4 = random
       instructors:
         - Jane Doe
         - John Doe
 
-  - date: 2023-05-30 # Tuesday
+  - date: 2024-05-30 # Tuesday
     sessions:
     - title: Free hacking
-      dateStart:  2023-05-30T09:00:00-04:00
-      dateEnd:    2023-05-30T10:00:00-04:00
+      dateStart:  2024-05-30T09:00:00-04:00
+      dateEnd:    2024-05-30T10:00:00-04:00
       linktosession:
       topic: 3 # 1 = computer science, 2 = neuroscience, 3 - both, 4 = random
       materials: ""
@@ -1164,8 +1164,8 @@ schedule:
         - John Doe
 
     - title: Project Clinic
-      dateStart:  2023-05-30T10:00:00-04:00
-      dateEnd:    2023-05-30T11:00:00-04:00
+      dateStart:  2024-05-30T10:00:00-04:00
+      dateEnd:    2024-05-30T11:00:00-04:00
       linktosession:
       topic: 3 # 1 = computer science, 2 = neuroscience, 3 - both, 4 = random
       description:
@@ -1174,8 +1174,8 @@ schedule:
         - John Doe
 
     - title: Free hacking
-      dateStart:  2023-05-30T11:00:00-04:00
-      dateEnd:    2023-05-30T12:00:00-04:00
+      dateStart:  2024-05-30T11:00:00-04:00
+      dateEnd:    2024-05-30T12:00:00-04:00
       linktosession:
       topic: 3 # 1 = computer science, 2 = neuroscience, 3 - both, 4 = random
       materials: ""
@@ -1185,8 +1185,8 @@ schedule:
         - John Doe
 
     - title: "Lunch"
-      dateStart:  2023-05-30T12:00:00-04:00
-      dateEnd:    2023-05-30T13:00:00-04:00
+      dateStart:  2024-05-30T12:00:00-04:00
+      dateEnd:    2024-05-30T13:00:00-04:00
       linktosession:
       description: "Don't forget to take a break!"
       topic: 4 # 1 = computer science, 2 = neuroscience, 3 - both, 4 = random
@@ -1195,8 +1195,8 @@ schedule:
         - John Doe
 
     - title: Free hacking
-      dateStart:  2023-05-30T13:00:00-04:00
-      dateEnd:    2023-05-30T14:00:00-04:00
+      dateStart:  2024-05-30T13:00:00-04:00
+      dateEnd:    2024-05-30T14:00:00-04:00
       linktosession:
       topic: 3 # 1 = computer science, 2 = neuroscience, 3 - both, 4 = random
       materials: ""
@@ -1207,8 +1207,8 @@ schedule:
 
 
     - title: Project clinic
-      dateStart:  2023-05-30T14:00:00-04:00
-      dateEnd:    2023-05-30T15:00:00-04:00
+      dateStart:  2024-05-30T14:00:00-04:00
+      dateEnd:    2024-05-30T15:00:00-04:00
       linktosession:
       description: Meeting with peers and instructors to discuss your project
       topic: 1 # 1 = computer science, 2 = neuroscience, 3 - both, 4 = random
@@ -1217,21 +1217,21 @@ schedule:
         - John Doe
 
     - title: Free hacking
-      dateStart:  2023-05-30T15:00:00-04:00
-      dateEnd:    2023-05-30T17:00:00-04:00
+      dateStart:  2024-05-30T15:00:00-04:00
+      dateEnd:    2024-05-30T17:00:00-04:00
       linktosession:
       topic: 3 # 1 = computer science, 2 = neuroscience, 3 - both, 4 = random
       instructors:
         - Jane Doe
         - John Doe
 
-  - date: 2023-05-31 # Wednesday
+  - date: 2024-05-31 # Wednesday
     sessions:
 
     
     - title: Free Hacking
-      dateStart:  2023-05-31T09:00:00-04:00
-      dateEnd:    2023-05-31T10:00:00-04:00
+      dateStart:  2024-05-31T09:00:00-04:00
+      dateEnd:    2024-05-31T10:00:00-04:00
       linktosession:
       topic: 3 # 1 = computer science, 2 = neuroscience, 3 - both, 4 = random
       materials: ""
@@ -1241,8 +1241,8 @@ schedule:
         - John Doe
 
     - title: Project Clinic
-      dateStart:  2023-05-31T10:00:00-04:00
-      dateEnd:    2023-05-31T11:00:00-04:00
+      dateStart:  2024-05-31T10:00:00-04:00
+      dateEnd:    2024-05-31T11:00:00-04:00
       linktosession:
       topic: 3 # 1 = computer science, 2 = neuroscience, 3 - both, 4 = random
       description:
@@ -1251,8 +1251,8 @@ schedule:
         - John Doe
 
     - title: Free hacking
-      dateStart:  2023-05-31T11:00:00-04:00
-      dateEnd:    2023-05-31T12:00:00-04:00
+      dateStart:  2024-05-31T11:00:00-04:00
+      dateEnd:    2024-05-31T12:00:00-04:00
       linktosession:
       topic: 3 # 1 = computer science, 2 = neuroscience, 3 - both, 4 = random
       description:
@@ -1261,8 +1261,8 @@ schedule:
         - John Doe
 
     - title: "Lunch"
-      dateStart:  2023-05-31T12:00:00-04:00
-      dateEnd:    2023-05-31T13:00:00-04:00
+      dateStart:  2024-05-31T12:00:00-04:00
+      dateEnd:    2024-05-31T13:00:00-04:00
       linktosession:
       description: "Don't forget to take a break!"
       topic: 4 # 1 = computer science, 2 = neuroscience, 3 - both, 4 = random
@@ -1272,8 +1272,8 @@ schedule:
 
 
     - title: Free hacking
-      dateStart:  2023-05-31T13:00:00-04:00
-      dateEnd:    2023-05-31T14:00:00-04:00
+      dateStart:  2024-05-31T13:00:00-04:00
+      dateEnd:    2024-05-31T14:00:00-04:00
       linktosession:
       topic: 3 # 1 = computer science, 2 = neuroscience, 3 - both, 4 = random
       description:
@@ -1282,8 +1282,8 @@ schedule:
         - John Doe
 
     - title: Project clinic
-      dateStart:  2023-05-31T14:00:00-04:00
-      dateEnd:    2023-05-31T15:00:00-04:00
+      dateStart:  2024-05-31T14:00:00-04:00
+      dateEnd:    2024-05-31T15:00:00-04:00
       linktosession:
       description: Meeting with peers and instructors to discuss your project
       topic: 1 # 1 = computer science, 2 = neuroscience, 3 - both, 4 = random
@@ -1292,8 +1292,8 @@ schedule:
         - John Doe
 
     - title: Free hacking
-      dateStart:  2023-05-31T15:00:00-04:00
-      dateEnd:    2023-05-31T17:00:00-04:00
+      dateStart:  2024-05-31T15:00:00-04:00
+      dateEnd:    2024-05-31T17:00:00-04:00
       linktosession:
       description: Time to get it done!
       topic: 3 # 1 = computer science, 2 = neuroscience, 3 - both, 4 = random
@@ -1301,11 +1301,11 @@ schedule:
         - Jane Doe
         - John Doe
 
-  - date: 2023-06-01 # Thursday
+  - date: 2024-06-01 # Thursday
     sessions:
     - title: Free Hacking
-      dateStart:  2023-06-01T09:00:00-04:00
-      dateEnd:    2023-06-01T10:00:00-04:00
+      dateStart:  2024-06-01T09:00:00-04:00
+      dateEnd:    2024-06-01T10:00:00-04:00
       linktosession:
       topic: 3 # 1 = computer science, 2 = neuroscience, 3 - both, 4 = random
       materials: ""
@@ -1315,8 +1315,8 @@ schedule:
         - John Doe
 
     - title: Project Clinic
-      dateStart:  2023-06-01T10:00:00-04:00
-      dateEnd:    2023-06-01T11:00:00-04:00
+      dateStart:  2024-06-01T10:00:00-04:00
+      dateEnd:    2024-06-01T11:00:00-04:00
       linktosession:
       topic: 3 # 1 = computer science, 2 = neuroscience, 3 - both, 4 = random
       materials: ""
@@ -1326,8 +1326,8 @@ schedule:
         - John Doe
 
     - title: Free hacking
-      dateStart:  2023-06-01T11:00:00-04:00
-      dateEnd:    2023-06-01T12:00:00-04:00
+      dateStart:  2024-06-01T11:00:00-04:00
+      dateEnd:    2024-06-01T12:00:00-04:00
       linktosession:
       topic: 3 # 1 = computer science, 2 = neuroscience, 3 - both, 4 = random
       description:
@@ -1336,8 +1336,8 @@ schedule:
         - John Doe
 
     - title: "Lunch"
-      dateStart:  2023-06-01T12:00:00-04:00
-      dateEnd:    2023-06-01T13:00:00-04:00
+      dateStart:  2024-06-01T12:00:00-04:00
+      dateEnd:    2024-06-01T13:00:00-04:00
       linktosession:
       description: "Don't forget to take a break!"
       topic: 4 # 1 = computer science, 2 = neuroscience, 3 - both, 4 = random
@@ -1347,8 +1347,8 @@ schedule:
 
 
     - title: Free Hacking
-      dateStart:  2023-06-01T13:00:00-04:00
-      dateEnd:    2023-06-01T14:00:00-04:00
+      dateStart:  2024-06-01T13:00:00-04:00
+      dateEnd:    2024-06-01T14:00:00-04:00
       linktosession:
       topic: 3 # 1 = computer science, 2 = neuroscience, 3 - both, 4 = random
       materials: ""
@@ -1358,8 +1358,8 @@ schedule:
         - John Doe
 
     - title: Project clinic
-      dateStart:  2023-06-01T14:00:00-04:00
-      dateEnd:    2023-06-01T15:00:00-04:00
+      dateStart:  2024-06-01T14:00:00-04:00
+      dateEnd:    2024-06-01T15:00:00-04:00
       linktosession:
       description: Meeting with peers and instructors to discuss your project
       topic: 1 # 1 = computer science, 2 = neuroscience, 3 - both, 4 = random
@@ -1368,8 +1368,8 @@ schedule:
         - John Doe
 
     - title: Free hacking
-      dateStart:  2023-06-01T15:00:00-04:00
-      dateEnd:    2023-06-01T17:00:00-04:00
+      dateStart:  2024-06-01T15:00:00-04:00
+      dateEnd:    2024-06-01T17:00:00-04:00
       linktosession:
       description: Time to get it done!
       topic: 3 # 1 = computer science, 2 = neuroscience, 3 - both, 4 = random
@@ -1377,11 +1377,11 @@ schedule:
         - Jane Doe
         - John Doe
 
-  - date: 2023-06-02 # Friday
+  - date: 2024-06-02 # Friday
     sessions:
     - title: Final project presentations
-      dateStart:  2023-06-02T10:00:00-04:00
-      dateEnd:    2023-06-02T17:00:00-04:00
+      dateStart:  2024-06-02T10:00:00-04:00
+      dateEnd:    2024-06-02T17:00:00-04:00
       linktosession:
       topic: 3 # 1 = computer science, 2 = neuroscience, 3 - both, 4 = random
       materials: ""
