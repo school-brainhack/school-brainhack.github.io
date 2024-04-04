@@ -19,29 +19,7 @@ type = "locations"
   img = "locations/polytechnique.jpeg"
   imgalttext = "Polytechnique, Montreal, Canada"
   name = "Polytechnique Montréal, Montréal, Canada"                                             
-  description = """Le cours est organisé par le laboratoire Neuropoly du département de génie électrique de l'école Polytechnique Montréal, sous la supervision du Pr Eva Alonso Ortiz. Les participant.e.s devront avoir accès à un ordinateur, internet, et s'inscrire à un certain nombre d'outils de travail collaboratif en ligne tels que Discord et Github. L'école se déroulera du lundi au vendredi pendant 4 semaines et sera ouverte tous les jours de 9h à 17h. Il y aura une pause pour le dîner de 12h à 13h.
-"""
-
-
-[[locations]]
-  img = "locations/taiwan.png"
-  imgalttext = "NTU/ICNNCU"
-  name = "National Taiwan University (NTU) & The Institute of Cognitive Neuroscience at the National Central University (ICNNCU), Taipei, Taiwan"                                               
-  description = """Le cours est organisé par une équipe basée à la Graduate Institute of Linguistics et à la Graduate Institute of Brain and Mind Sciences de l'Université Nationale de Taiwan (NTU) et l'Institut des Neurosciences Cognitives de la National Central University (NCU). Le cours se donnera au local 302, au 3e étage du pavillon Le-Xui à la NTU, Taipei, et au local S5-602-1 du pavillon de Science numéro 4 à la NCU, Taoyuan. Les participant.e.s devront avoir accès à un ordinateur, internet, et s'inscrire à un certain nombre d'outils de travail collaboratif en ligne tels que Discord et Github. Du 20 février au 7 mai, les étudiant.e.s devront complété.e.s les modules en ligne. Les auxiliaires d'enseignement locaux seront disponibles pour répondre aux questions concernant le contenu des modules et les projets. L'horaire sera flexible et adapté au rythme de chacun, selon la disponibilité des étudiant.e.s et des auxiliaires d'enseignement. Entre les 8 mai et le 4 juin, il y aura des interactions hebdomadaires, durant lesquelles les étudiant.e.s et les auxilaires d'enseignement sont encouragé.e.s à discuter des modules et des projets pendant environ 3 heures par jour. La dernière semaine sera consacrée à la soumission formelle des pages web des projets et des présentations.
-"""
-
-[[locations]]
-  img = "locations/uruguay.png"
-  imgalttext = "Universidad de la Republica"
-  name = "Universidad de la Republica, Montevideo, Uruguay"                                                  
-  description = """Le cours est organisé par une équipe du Center for Basic Research in Psychology (CIBPsi) de l'École de Psychologie, et CICADA, un centre interdisciplinaire pour les sciences des données et de l'apprentissage manchine, Tristán Narvaja 1674, Montevideo 11200, Uruguay.
-"""
-
-[[locations]]
-  img = "locations/paris.png"
-  imgalttext = "Université de Paris Cité"
-  name = "Université de Paris Cité, Paris, France"                                         
-  description = """Le cours est organisé par une équipe basée au Centre Neuroscience Intégrative et Cognition de l'Université de Paris Cité et CNRS, sous la supervision de Daniel Margulies. Le cours se déroulera à la salle Wilkins, 2e étage à l'Université de Paris Cité, 45 rue des St Peres, 75006 Paris. Les participant.e.s devront avoir accès à un ordinateur, internet (via l'université ou via eduoram), et s'inscrire à un certain nombre d'outils de travail collaboratif en ligne tels que Discord et Github. L'école aura lieu du lundi au vendredi pendant 4 semaines et sera ouverte tous les jours de 9h à 17h, incluant 1 heure de dîner.
+  description = """Brainhack School est offert sous forme de cours crédité à Polytechnique (GBM6953EE). Le cours est organisé par le laboratoire Neuropoly du département de génie électrique de l'école Polytechnique Montréal, sous la supervision du Pr Eva Alonso Ortiz. Les participant.e.s devront avoir accès à un ordinateur, internet, et s'inscrire à un certain nombre d'outils de travail collaboratif en ligne tels que Discord et Github. L'école se déroulera du lundi au vendredi pendant 4 semaines et sera ouverte tous les jours de 9h à 17h. Il y aura une pause pour le dîner de 12h à 13h.
 """
 
 [[locations]]
@@ -52,17 +30,17 @@ type = "locations"
 """
 
 [[locations]]
-  img = "locations/mcgill.png"
-  imgalttext = "McGill"
-  name = "McGill, Montréal, Canada"                                              
-  description = """Le cours QLS 612 se déroulera sur une semaine, du 1er mai au 5 et sera diffusé en ligne. Les étudiant.e.s de l'Université McGill, UdeM, Concordia et Polytechnique peuvent s'inscrire pour obtenir des crédits de cours via le système inter-universitaire. Les étudiant.e.s qui s'inscrivent pour des crédits de cours devront assister au cours et leur présence devra être approuvée par un.e instructeur.rice. L'emplacement du cours sera déterminé prochainement.
-"""
-
-[[locations]]
   img = "locations/marburg.png"
   imgalttext = "Marburg"
   name = "Open Science Initiative Marburg (OSIUM), Marburg, Allemagne"                                              
-  description = """Le cours est organisé par l'Open Science Initiative Marburg (OSIUM). Seuls les modules en ligne seront proposés, et répartis sur 4 semaines, car nous ne pouvons pas offrir de crédits et en raison de l'horaire de cours des étudiant.e.s. Les auxiliaires d'enseignement suivront les modules de formation avec les étudiant.e.s en ligne, puisque les étudiant.e.s sont réparti.e.s dans différentes villes.
+  description = """La Brainhack School de Marburg de cette année est organisée par l'Université Philipps de Marburg, en coopération avec l'Open Science Initiative Marburg (OSIUM) et le pôle de recherche « The Adaptive Mind » (TAM). Nous ciblons les étudiants de nos programmes de Master en Neurosciences (cours crédité) mais accueillons également les étudiants de toute autre matière connexe. Nous sommes actuellement encore en processus d'organisation, mais nous prévoyons que le Marburg Hub démarrera début juin, fournissant tous les modules mis à disposition par l'équipe et les instructeurs de la Brainhack School. Contrairement à l'année dernière, nous espérons pouvoir organiser l'école sous forme d'événement en personne et fournir un soutien au travail de projet (le lieu sera à l'Université Philipps de Marburg).
+"""
+
+[[locations]]
+  img = "locations/vanderbilt.png"
+  imgalttext = "Université Vanderbilt"
+  name = "Université Vanderbilt"  
+  description = """C'est la première fois que nous accueillerons la BH School. Compte tenu de notre manque d'expertise et des frais généraux potentiels liés à la planification de l'école, nous prévoyons de limiter l'école à 1 ou 2 élèves cette année.
 """
 
 +++
