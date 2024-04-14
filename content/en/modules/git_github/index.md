@@ -47,8 +47,8 @@ All her tutorial notes are available [here](https://emdupre.github.io/git-course
 The video of her presentation is available below:
 <iframe width="560" height="315" src="https://www.youtube.com/embed/fBgxmpk9C4I" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-## ATTENTION! 
-For the last lecture of the Introduction to Git and GitHub module ([Pull Requests](https://emdupre.github.io/git-course/06-pull-requests/)) please use [this repo](https://github.com/brainhack-school2022/more-papers) under Brainhack School 2022 Github organization to complete the tutorial instead of the one indicated in the tutorial (due to it is no longer in use.). Thank you! 
+## ATTENTION!
+For the last lecture of the Introduction to Git and GitHub module ([Pull Requests](https://emdupre.github.io/git-course/06-pull-requests/)) please use [this repo](https://github.com/brainhack-school2022/more-papers) under Brainhack School 2022 Github organization to complete the tutorial instead of the one indicated in the tutorial (due to it is no longer in use.). Thank you!
 
 Github authentication methods have changed! Please find the [latest documentation](https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/about-authentication-to-github).
 
@@ -59,8 +59,8 @@ This is a 10 minutes walk through of basic git concepts for people who wants a r
 
 ## Exercise
 
- * send a request at the "Using Git and Github" module post at the modules channels of Discord server by typing "@<user-handle-of-your-TA> please add my <github-user-name>" to the github organization." This will alert your local TA(s) to add you to the [school-brainhack](https://github.com/brainhack-school2023/) organization. 
- * create a new repository within the [school-brainhack](https://github.com/brainhack-school2023/) organization following the naming convention `<last_name>_project`. Don't worry, you will be able to change this name later, and possibly merge the content in another repository if you decide to team up with other people.
+ * send a request at the "Using Git and Github" module post at the modules channels of Discord server by typing "@<user-handle-of-your-TA> please add my <github-user-name>" to the github organization." This will alert your local TA(s) to add you to the [school-brainhack](https://github.com/brainhack-school2024/) organization.
+ * create a new repository within the [school-brainhack](https://github.com/brainhack-school2024/) organization following the naming convention `<last_name>_project`. Don't worry, you will be able to change this name later, and possibly merge the content in another repository if you decide to team up with other people.
  * initialize your repo with a README and a LICENSE.
  * Create an issue for adding a short bio.
  * Using the command line, clone the repository locally to your computer.
@@ -84,7 +84,7 @@ This is a 10 minutes walk through of basic git concepts for people who wants a r
 
 ## More resources
 
-[Here](https://learngitbranching.js.org/) is an interactive page to learn Git and visually observe how the branching works under version control. 
+[Here](https://learngitbranching.js.org/) is an interactive page to learn Git and visually observe how the branching works under version control.
 
 For more detailed instructions please check [GitHub's resources](https://docs.github.com/en)
 
@@ -97,5 +97,3 @@ For common Mistakes and Experiences with using Git and Github: [dangitgit.com](h
 If you are curious to learn more advanced capabilities for git, you can check this tutorial "Effective use of git" by Ankur Sinha organized for the [INCF/OCNS software working group](https://ocns.github.io/SoftwareWG/2021/06/09/software-wg-tutorials-at-cns-2021-online-bash-git-and-python.html).
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/CRCtRilX3NA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-
