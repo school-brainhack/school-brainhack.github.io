@@ -7,7 +7,7 @@ github_repo = "https://github.com/school-brainhack/school-brainhack.github.io/bl
 
 # Project template
 
-The project template was added in the [BHS gallery](https://school-brainhack.github.io/project/). You can also help improve the template by posting an issue on the [template repo](https://github.com/school-brainhack/project_template). Project repositories are hosted in the Brainhack school 2023[github organization](https://github.com/school-brainhack).
+The project template was added in the [BHS gallery](https://school-brainhack.github.io/project/). You can also help improve the template by posting an issue on the [template repo](https://github.com/school-brainhack/project_template). Project repositories are hosted in the Brainhack school 2024 [github organization](https://github.com/school-brainhack).
 
 For your project pitch from the week-2 onwards please follow this simple template [here](https://github.com/school-brainhack/project_template) to bring your ideas together. You can either use a Google slides or Jupyter noteook to create your slides.
 

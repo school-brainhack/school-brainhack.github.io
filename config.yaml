@@ -97,7 +97,7 @@ languages:
       contact_form_ajax: false
       about_us: >-
         <p>Fundamentals and project in neural data science.</p>
-      copyright: 'Copyright (c) 2023, BrainHack School; all rights reserved.'
+      copyright: 'Copyright (c) 2024, BrainHack School; all rights reserved.'
       date_format: 'January 2, 2006'
       logo: img/logo_brainhack.png
       logo_small: img/logo-small.png
@@ -220,7 +220,7 @@ languages:
       contact_form_ajax: false
       about_us: >-
         <p>Apprentissage basé projet en sciences des données neuronales.</p>
-      copyright: 'Copyright (c) 2023, BrainHack School; all rights reserved.'
+      copyright: 'Copyright (c) 2024, BrainHack School; all rights reserved.'
       date_format: 'January 2, 2006'
       logo: img/logo_brainhack.png
       logo_small: img/logo-small.png
