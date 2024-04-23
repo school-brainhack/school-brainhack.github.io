@@ -56,13 +56,6 @@ instructors:
     urlaff:
     twitter:
 
-  - name: Ayesha Rashidi
-    gh: ArshiaRa
-    email: ayesha.rashidi@mail.utoronto.ca
-    website:
-    affiliation: University of Toronto
-    urlaff:
-    twitter:
 
   - name: Erin Dickie
     gh: edickie
@@ -80,10 +73,11 @@ instructors:
     urlaff:
     twitter:
 
-  - name: Mina Rose
-    gh: Minarose
-    email: minaroseismail@gmail.com
+
+  - name: Kristen Li
+    gh: Kristen-Li
+    email: kristen.li@sickkids.ca
     website:
-    affiliation:
+    affiliation: Sick Kids
     urlaff:
     twitter:
