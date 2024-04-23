@@ -5,7 +5,7 @@
 # collection names should be equal to github username, if not, add github: false tag
 # img should be taken directly from GitHub, if no username, simply add it into img/instructors
 # content can be added as markdown.
-title: Instructors
+title: Équipe mondiale
 
 instructors:
   - name: Pierre Bellec

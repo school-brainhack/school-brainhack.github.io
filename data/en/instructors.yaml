@@ -5,7 +5,7 @@
 # collection names should be equal to github username, if not, add github: false tag
 # img should be taken directly from GitHub, if no username, simply add it into img/instructors
 # content can be added as markdown.
-title: Instructors
+title: Global team
 
 instructors:
   - name: Pierre Bellec
@@ -24,13 +24,13 @@ instructors:
     urlaff: https://criugm.qc.ca/
     twitter: complexbrains
 
-  - name: Natasha Clarke
-    gh: clarkenj
-    email: natashajayne@googlemail.com
-    website: https://psychinthecity.wordpress.com/
-    affiliation: Centre de Recherche de l'Institut Universitaire de Gériatrie de Montréal
-    urlaff: https://criugm.qc.ca/
-    twitter: psychinthecity_
+  - name: Daniel Ridani
+    gh: danirid
+    email: daniel.ridani@polymtl.ca
+    website:
+    affiliation: École Polytechnique de Montréal
+    urlaff:
+    twitter:
 
   - name: Hao-Ting Wang
     gh: htwangtw
@@ -39,3 +39,45 @@ instructors:
     affiliation: Centre de Recherche de l'Institut Universitaire de Gériatrie de Montréal
     urlaff: https://criugm.qc.ca/
     twitter: HaoTingW713
+
+  - name: Eva Alonso Ortiz
+    gh: evaalonsoortiz
+    email: eva.alonso-ortiz@polymtl.ca
+    website:
+    affiliation: École Polytechnique de Montréal
+    urlaff:
+    twitter:
+
+  - name: Benjamin De Leener
+    gh: benjamindeleener
+    email: benjamin.de-leener@polymtl.ca
+    website:
+    affiliation: École Polytechnique de Montréal
+    urlaff:
+    twitter:
+
+
+  - name: Erin Dickie
+    gh: edickie
+    email: erin.w.dickie@gmail.com
+    website:
+    affiliation: University of Toronto
+    urlaff:
+    twitter:
+
+  - name: Ju-Chi Yu
+    gh: juchiyu
+    email: ju-chi.yu@camh.ca
+    website:
+    affiliation: University of Toronto
+    urlaff:
+    twitter:
+
+
+  - name: Kristen Li
+    gh: Kristen-Li
+    email: kristen.li@sickkids.ca
+    website:
+    affiliation: Sick Kids
+    urlaff:
+    twitter:
