@@ -42,10 +42,10 @@ instructors:
 
   - name: Eva Alonso Ortiz
     gh: evaalonsoortiz
-    email: eva.alonso-ortiz@polymtl.ca 
-    website: 
+    email: eva.alonso-ortiz@polymtl.ca
+    website:
     affiliation: École Polytechnique de Montréal
-    urlaff: 
+    urlaff:
     twitter:
 
   - name: Benjamin De Leener
@@ -56,65 +56,33 @@ instructors:
     urlaff:
     twitter:
 
-  - name: Anna Matsulevits
-    gh: 
-    email: 
-    website:
-    affiliation: 
-    urlaff:
-    twitter:
-
   - name: Ayesha Rashidi
-    gh: 
-    email:
+    gh: ArshiaRa
+    email: ayesha.rashidi@mail.utoronto.ca
     website:
-    affiliation:
-    urlaff:
-    twitter:
-
-  - name: Chris Foulon
-    gh:
-    email:
-    website:
-    affiliation:
+    affiliation: University of Toronto
     urlaff:
     twitter:
 
   - name: Erin Dickie
-    gh:
-    email:
+    gh: edickie
+    email: erin.w.dickie@gmail.com
     website:
-    affiliation:
+    affiliation: University of Toronto
     urlaff:
     twitter:
 
   - name: Ju-Chi Yu
-    gh:
-    email:
-    website:
-    affiliation:
-    urlaff:
-    twitter:
-
-  - name: Marcela Ovando
-    gh:
-    email:
+    gh: juchiyu
+    email: ju-chi.yu@camh.ca
     website:
     affiliation:
     urlaff:
     twitter:
 
   - name: Mina Rose
-    gh:
-    email:
-    website:
-    affiliation:
-    urlaff:
-    twitter:
-
-  - name: Muneeba Nasir
-    gh:
-    email:
+    gh: Minarose
+    email: minaroseismail@gmail.com
     website:
     affiliation:
     urlaff:
