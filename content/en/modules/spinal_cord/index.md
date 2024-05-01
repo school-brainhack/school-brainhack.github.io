@@ -17,7 +17,6 @@ tags: [spinal cord, spinal cord toolbox]
 # Summarize your project in < ~75 words. This description will appear at the top of your page and on the list page with other projects..
 
 summary: "This tutorial introduces basics of spinal cord MRI data analysis using the Spinal Cord Toolbox. 
-The Spinal Cord Toolbox is a comprehensive and open-source software dedicated to the processing of spinal cord MRI data. 
 The tutorial will cover the installation of the Spinal Cord Toolbox, the processing of spinal cord MRI data, and the visualization of the results."
 
 # If you want to add a cover image (listpage and image in the right), add it to your directory and indicate the name
