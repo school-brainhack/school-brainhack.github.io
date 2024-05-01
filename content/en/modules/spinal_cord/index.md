@@ -60,7 +60,7 @@ The slides are available [here](https://docs.google.com/presentation/d/1t40Fd0fS
  * Watch the selected chapters of the Spinal Cord Toolbox Course.
  * Install the Spinal Cord Toolbox on your local machine.
  * Download the sample data as described in the `2. Installation` chapter.
- * Do the segmentation of the spinal cord using two methods (e.g., `sct_deepseg_sc`, `sct_propseg`, `sct_deepseg`) and compare the results.
+ * Do the segmentation of the spinal cord using two methods (e.g., `sct_deepseg_sc`, `sct_propseg`, `sct_deepseg`) and compare the results. TIP: to visualize the results, you can use viewer of your choice (e.g., `fsleyes`, `itk-snap`) or python (`nibabel` and `matplotlib`).
  * Perform the vertebral labeling.
  * Compute cross-sectional area (CSA) of the spinal cord at the C2-C3 levels.
  * Do the registration of the T2w image to the template.
