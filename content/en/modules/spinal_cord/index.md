@@ -47,11 +47,11 @@ The workshop is available on YouTube:
 
 For the purpose of this module, we will focus on the following chapters of the workshop:
 
- * 18:39 2. Installation
- * 31:37 3. Segmentation
- * 47:35 4. Vertebral labeling
- * 1:07:30 5. Shape-based analysis
- * 1:31:03 6. Registration to template (only up to 1:48:00)
+ * 18:39 `2. Installation`
+ * 31:37 `3. Segmentation`
+ * 47:35 `4. Vertebral labeling`
+ * 1:07:30 `5. Shape-based analysis`
+ * 1:31:03 `6. Registration to template` (only up to 1:48:00)
 
 The slides are available [here](https://docs.google.com/presentation/d/1t40Fd0fS0SwWR5FU_GWKEvHkB9d96LVddLQW6L3QAx0/edit?usp=sharing).
 
