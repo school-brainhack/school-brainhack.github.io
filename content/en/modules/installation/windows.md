@@ -15,16 +15,16 @@ Windows Subsystem for Linux (WSL) will install a Linux distribution (it is Ubunt
 2. Type `wsl --install` into the Powershell and then press `Enter`.
    ![win02](win02.png)
    - You should see the messages about installing WSL, please wait and follow next step.
-   - If WSL help text prompted and no installing takes place, you might already have WSL installed. Check if you have `Ubuntu` in your applications. Or, try `wsl --install -d Ubuntu` to install another Linux distribution. 
+   - If WSL help text prompted and no installing takes place, you might already have WSL installed. Check if you have `Ubuntu` in your applications. Or, try `wsl --install -d Ubuntu` to install another Linux distribution.
 
-3. A meesage will prompt to ask you to reboot the computer. 
+3. A meesage will prompt to ask you to reboot the computer.
    ![win03](win03.png)
 4. Once your computer has rebooted, a Ubuntu window will pop up. If no window popped up, search for and open Ubuntu from your applications. If you cannot find Ubuntu, try step 2 again.
 5. It will show the message about installing Ubuntu, you will then be prompted to `Enter new UNIX username`. You can use any combination of alphanumeric characters here for your username, but a good choice is `<first_initial><last_name>` (e.g., `jsmith` for John Smith). You will then be prompted to enter a new password. (Choose something easy to remember as you will find yourself using it frequently.)
    ![win04](win04.png)
 6. You will see the message to inform you that the installation is successful, and you can now close the window.
    ![win05](win05.png)
-7. The final step is to check if we missed anything. Please search for powershell and run as administrator again. Then type `wsl -l -v` and press enter. Please make sure you have Ubuntu in the list, and the version is 2. 
+7. The final step is to check if we missed anything. Please search for powershell and run as administrator again. Then type `wsl -l -v` and press enter. Please make sure you have Ubuntu in the list, and the version is 2.
    ![win06](win06.png)
    - If the version is not 2, please type `wsl --set-version Ubuntu 2` to update the WSL to version 2. This is necessary for installing Docker on WSL.
 8. Finally, in the same powershell window, type `wsl --update`. Hopefully, there is no updates. Then, we can move on to the next step.
@@ -35,8 +35,8 @@ If you have questions during the installation procedure those resources may have
 ### Windows Terminal
 Microsoft have [Windows Terminal](https://aka.ms/terminal) that will provide better functionality for command-line interface. This application is now built-in on Windows 11. We will demostrate how to open terminal for WSL (it is Ubuntu by default).
 
-1. Click [here]((https://aka.ms/terminal)) and download. Then, you can search and open **Windows Terminal** in your applications.
-2. By default, it will open a PowerShell for Windows system. For this course, we will use bash terminal on WSL. You can click the down arrow and select Ubuntu to open the terminal. 
+1. Click [here](https://aka.ms/terminal) and download. Then, you can search and open **Windows Terminal** in your applications.
+2. By default, it will open a PowerShell for Windows system. For this course, we will use bash terminal on WSL. You can click the down arrow and select Ubuntu to open the terminal.
    ![win07](win07.png)
    - If you would like to open Ubuntu terminal by default, you can change the default profile in Settings.
 
@@ -62,7 +62,7 @@ You already have it, now that you’ve installed the WSL!
 1. Let's try to open VScode on Windows system and install necessary extensions. Search and open VScode on your Windows application.
 2. Press `Ctrl+Shift+P` in the new window that opens and type "Extensions: Install extensions" into the search bar that appears at the top of the screen.
    - Select the appropriate entry from the dropdown menu that appears (there should be four entries; simply select the one that reads "Extensions: Install extensions").
-3. A new panel should appear on the left-hand side of the screen with a search bar. 
+3. A new panel should appear on the left-hand side of the screen with a search bar.
    - Search for each of the following extensions and press `Install` for the first entry that appears. (The author listed for all of these extensions should be "Microsoft".)
      - Python (n.b., you will need to reload VSCode after installing this)
      - Docker
