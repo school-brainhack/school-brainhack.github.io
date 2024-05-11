@@ -33,7 +33,7 @@ The prerequisites to take this module are:
  * the [installation](/modules/installation) module.
    - Windows: Ubuntu application (Windows Linux Subsystem)
    - Mac/Linux: Terminal
- * the [introduction to the terminal](/modules/terminal) module.
+ * the [introduction to the terminal](/modules/introduction_to_terminal) module.
 
 Contact Jan Valosek if you have questions on this module, or if you want to check that you completed successfully all the exercises.
 
