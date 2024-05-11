@@ -39,7 +39,7 @@ Contact Jan Valosek if you have questions on this module, or if you want to chec
 
 ## Resources
 
-The main resource for this module is the 2023 Spinal Cord Toolbox Course given by prof Julien Cohen-Adad and his team from [NeuroPoly lab](https://neuro.polymtl.ca).
+The main resource for this module is the 2023 Spinal Cord Toolbox Course given by Prof. Julien Cohen-Adad and his team at [NeuroPoly lab](https://neuro.polymtl.ca).
 
 The workshop is available on YouTube:
 <iframe width="560" height="315" src="https://www.youtube.com/watch?v=hTbJo8GO5IU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
