@@ -135,7 +135,7 @@ languages:
         link_text: "Check out the 2020 lectures and projects"
       clients:
         enable: true
-        title: Partner institutions
+        title: Sponsors
         subtitle: ''
       recent_posts:
         enable: false
@@ -252,7 +252,7 @@ languages:
         link_text: Consultez les projets et vidéos de 2020
       clients:
         enable: true
-        title: Institutions partenaires
+        title: Sponsors
         subtitle: ''
       recent_posts:
         enable: false
