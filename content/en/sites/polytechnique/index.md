@@ -14,7 +14,7 @@ website: http://neuro.polymtl.ca/
 
 # Summarize your site in < ~75 words. This description will appear at the top of your page and on the list page with other sites..
 
-summary: "The brainhack school site at École Polytechnique is a credited course (...)."
+summary: "Brainhack School is offered as a for-credit course at Polytechnique (GBM6953EE). The course is organized by the Neuropoly lab of the electrical engineering department at Polytechnique Montreal, under the supervision of Pr Eva Alonso Ortiz."
 
 # If you want to add a cover image (listpage and image in the right), add it to your directory and indicate the name
 # below with the extension.
@@ -37,7 +37,7 @@ Participants will need access to a computer, internet and to register to a numbe
 TBA
 
 ## Schedule
-The school will run from Monday to Friday for four weeks (except for May 20th, which is a holiday). Details TBA.
+The school will run from Monday to Friday for four weeks (except for May 20th, which is a holiday), and will be opened every day from 9 am to 5 pm, with a one hour break for lunch.
 
 ## Grades
 TBA.

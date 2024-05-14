@@ -1,5 +1,5 @@
 baseurl: 'https://school-brainhack.github.io'
-title: 'BHS'
+title: 'Brainhack school'
 theme: hugo-universal-theme
 defaultContentLanguage: en
 defaultContentLanguageInSubdir: FALSE

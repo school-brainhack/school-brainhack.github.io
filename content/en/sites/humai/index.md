@@ -25,7 +25,7 @@ image: "humai.png"
 TBA
 
 ## Location
-TBA
+Humai is a pioneering independent organization in the field of artificial intelligence (AI) and data science in Latin America. Founded in 2020, it is committed to specialized and accessible education, technological development and research for social welfare. With more than 1000 students in 2023 and a remarkable growth in its community and communication outreach, Humai is positioned as a benchmark in AI in the region.
 
 ## Expertise
 TBA

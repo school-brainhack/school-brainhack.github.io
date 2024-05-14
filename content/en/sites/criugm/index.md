@@ -7,7 +7,7 @@ date: "2024-05-10" # Date you first upload your project.
 title: "Université de Montréal (Psychology), Montréal, Québec, Canada"
 
 # List the names of the collaborators within the [ ]. If alone, simple put your name within []
-names: [Pierre Lune Bellec, Venkatesh Subramani, Marie-Ève Picard]
+names: [Pierre Lune Bellec, Venkatesh Subramani, Marie-Ève Picard, Marie St-Laurent]
 
 # If you are working on a project that has website, indicate the full url including "https://" below or leave it empty.
 website: https://criugm.qc.ca
