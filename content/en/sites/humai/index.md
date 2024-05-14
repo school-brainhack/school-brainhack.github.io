@@ -7,10 +7,10 @@ date: "2024-05-10" # Date you first upload your project.
 title: "Humai, Buenos Aires, Argentina"
 
 # List the names of the collaborators within the [ ]. If alone, simple put your name within []
-names: [TBD]
+names: [Matias Grinberg, Sophie Mizrahi]
 
 # If you are working on a project that has website, indicate the full url including "https://" below or leave it empty.
-website: https://criugm.qc.ca
+website: https://humai.com.ar/
 
 # Summarize your site in < ~75 words. This description will appear at the top of your page and on the list page with other sites..
 
@@ -25,7 +25,7 @@ image: "humai.png"
 TBA
 
 ## Location
-Humai is a pioneering independent organization in the field of artificial intelligence (AI) and data science in Latin America. Founded in 2020, it is committed to specialized and accessible education, technological development and research for social welfare. With more than 1000 students in 2023 and a remarkable growth in its community and communication outreach, Humai is positioned as a benchmark in AI in the region.
+Humai, Ciudad Autónoma de Buenos Aires, Argentina. Humai is a pioneering independent organization in the field of artificial intelligence (AI) and data science in Latin America. Founded in 2020, it is committed to specialized and accessible education, technological development and research for social welfare. With more than 1000 students in 2023 and a remarkable growth in its community and communication outreach, Humai is positioned as a benchmark in AI in the region.
 
 ## Expertise
 TBA
