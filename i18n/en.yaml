@@ -52,8 +52,14 @@
 - id: SidebarSubModules
   translation: "This is the list of training modules for Brainhack School."
 
+- id: SidebarSubSites
+  translation: "This is the list of sites for Brainhack School."
+
 - id: discover
   translation: "Discover this project"
+
+- id: discover
+  translation: "Discover Sites"
 
 - id: discoverModules
   translation: "Discover this module"

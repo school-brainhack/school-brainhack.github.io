@@ -1,4 +1,4 @@
 ---
-title: List of training modules
+title: Training modules
 subtitle:    
 ---

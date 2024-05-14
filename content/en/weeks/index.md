@@ -28,7 +28,7 @@ type = "weeks"
  * What is python, and examples of data analyses what I can do with it.
  * How should I visualize and define features for machine learning in neuroimaging?
 
-Short exercises need to be completed at the end of each tutorial. Completing all required tutorials in weeks 1 to 3 counts for 10% of the final grade."""
+Short exercises need to be completed at the end of each tutorial. """
 
 [[week]]
   week = "**Week 2**"
@@ -47,7 +47,7 @@ Short exercises need to be completed at the end of each tutorial. Completing all
  * What objectives do you want to achieve with the project? e.g. find differences in connectivity between two groups, replicate a multimodal brain parcellation, etc.
  * What will be the outcome(s) of your project? a short proceedings paper, a new public dataset, a new feature in a toolbox, etc.
 
- Each project will be presented orally and in writing, with rounds of feedback, and revised by the end of week 2. This project description will count for 20% of the final grade.
+ Each project will be presented orally and in writing, with rounds of feedback, and revised by the end of week 2.
 
  There will still be time to work on training modules as well. You will be required to complete 3 out of the following modules:
   * [Introduction to deep learning](/modules/deep_learning_intro)
@@ -95,5 +95,5 @@ Short exercises need to be completed at the end of each tutorial. Completing all
   buttonurl = ""
   buttondescr = ""
   description = """
-  During week 4, participants will concentrate on finalizing project results and producing deliverables. The daily structure will be similar to week 3. Participants will have to produce a written deliverable for their project, which will be published on this website. These deliverables will have to be submitted by June 9th (one week after the end of the school), and will count for 30% of the final grade. At the end of week 4, participants will make a short oral presentation on their project, which will count for 30% of the final grade. Finally, there will be a participation grade for the full 4 weeks, which will count for 10% of the final grade."""
+  During week 4, participants will concentrate on finalizing project results and producing deliverables. The daily structure will be similar to week 3. Participants will have to produce a written deliverable for their project, which will be published on this website. These deliverables will have to be submitted one week after the end of the school. At the end of week 4, participants will make a short oral presentation on their project. """
 +++
