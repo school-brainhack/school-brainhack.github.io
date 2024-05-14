@@ -1,5 +1,5 @@
 baseurl: 'https://school-brainhack.github.io'
-title: 'BrainHack School'
+title: 'Brainhack school'
 theme: hugo-universal-theme
 defaultContentLanguage: en
 defaultContentLanguageInSubdir: FALSE
@@ -25,42 +25,38 @@ languages:
           name: Home
           url: /
           weight: 1
-        - identifier: Schedule
-          name: Schedule
-          url: /schedule/
-          weight: 2
         - identifier: Projects
           name: Projects
           url: /project/
-          weight: 3
+          weight: 2
         - identifier: Weeks
           name: Weeks
           url: /weeks/
+          weight: 3
+        - identifier: Sites
+          name: Sites
+          url: /sites/
           weight: 4
-        - identifier: Locations
-          name: Locations
-          url: /locations/
-          weight: 5
         - identifier: Register
           name: Register
           url: /register/
-          weight: 6
+          weight: 5
         - parent: documents
           name: Getting started
           url: /guide/
-          weight: 7
+          weight: 6
         - parent: documents
           name: Project guide
           url: /project_guide/
-          weight: 8
+          weight: 7
         - parent: documents
           name: Code of Conduct
           url: /coc/
-          weight: 9
+          weight: 8
         - identifier: Modules
           name: Modules
           url: /modules/
-          weight: 10
+          weight: 9
 
       topbar:
         - weight: 1
@@ -89,7 +85,7 @@ languages:
         - blog
       defaultDescription: Brainhack School
       facebook_site: ''
-      twitter_site: BrainhackMTL
+      twitter_site: ''
       default_sharing_image: img/brainhackSchool.jpg
       googleMapsApiKey:
       style: green
@@ -139,7 +135,7 @@ languages:
         link_text: "Check out the 2020 lectures and projects"
       clients:
         enable: true
-        title: Partner institutions
+        title: Sponsors
         subtitle: ''
       recent_posts:
         enable: false
@@ -166,17 +162,13 @@ languages:
           name: Accueil
           url: /
           weight: 1
-        - identifier: Schedule
-          name: Schedule
-          url: /schedule/
-          weight: 2
         - identifier: Weeks
           name: Weeks
           url: /weeks/
           weight: 4
-        - identifier: Locations
-          name: Locations
-          url: /locations/
+        - identifier: Sites
+          name: Sites
+          url: /sites/
           weight: 5
         - identifier: Register
           name: Register
@@ -260,7 +252,7 @@ languages:
         link_text: Consultez les projets et vidéos de 2020
       clients:
         enable: true
-        title: Institutions partenaires
+        title: Sponsors
         subtitle: ''
       recent_posts:
         enable: false
