@@ -25,16 +25,16 @@ image: "polytechnique.jpeg"
 This site will be active from May 21st to June 14th, although the final project reports will be accepted until June 21st.
 
 ## Location
-TBA
+2500 Chem. de Polytechnique, Montréal, QC H3T 1J4
 
 ## Expertise
-TBA
+spinal chord imaging, magnetic resonance imaging, magnetic resonance physics, quantitative imaging
 
 ## Prerequisites
 Participants will need access to a computer, internet and to register to a number of online collaborative tools, such as discord and github. The installation of the necessary software will be covered during week 1.
 
 ## Registration
-TBA
+Brainhack School is offered as a for-credit course at Polytechnique (GBM6953EE). Students need to register through Polytechnique services, and also complete the online form on this website.
 
 ## Schedule
 The school will run from Monday to Friday for four weeks (except for May 20th, which is a holiday), and will be opened every day from 9 am to 5 pm, with a one hour break for lunch.

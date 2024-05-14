@@ -58,8 +58,8 @@
 - id: discover
   translation: "Discover this project"
 
-- id: discover
-  translation: "Discover Sites"
+- id: discoverSites
+  translation: "Discover this site"
 
 - id: discoverModules
   translation: "Discover this module"
