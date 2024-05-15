@@ -60,6 +60,7 @@ Short exercises need to be completed at the end of each tutorial. """
   * [Working with MNE-Python and EEG-BIDS](/modules/mne_python)
   * [Neuroimaging data and file structures in Python](/modules/nibabel)
   * [Introduction to dMRI](/modules/dmri_intro)
+  * [Introduction to spinal cord MRI analysis](/modules/spinal_cord) 
  """
 
 [[week]]
