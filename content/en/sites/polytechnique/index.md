@@ -45,7 +45,7 @@ The course load requires working full day every day (9:30am-4:45pm), with a 1-ho
 
 Course work is expected to be carried out in-person. For exceptional cases involving conflicting course schedules, conference attendence, etc., please contact Pr Eva Alonso Ortiz to discuss your situation. If in-person attendence is not possible, online engagement on discord is expected.  
 
-<iframe src="https://calendar.google.com/calendar/u/0?cid=NmIwNzM3MTMwMmMyZmI2MDBmM2RlMDdmMjUzOWQyYzhkNmEyNTkxNDhmOTA3Zjc1MDdiZjRjYTZiOWVmMmE4ZUBncm91cC5jYWxlbmRhci5nb29nbGUuY29t" style="border:solid 1px #777" width="800" height="600" frameborder="0" scrolling="no"></iframe>
+<iframe src="https://calendar.google.com/calendar/embed?height=600&wkst=1&ctz=America%2FToronto&bgcolor=%23ffffff&mode=WEEK&src=NmIwNzM3MTMwMmMyZmI2MDBmM2RlMDdmMjUzOWQyYzhkNmEyNTkxNDhmOTA3Zjc1MDdiZjRjYTZiOWVmMmE4ZUBncm91cC5jYWxlbmRhci5nb29nbGUuY29t&color=%23F6BF26" style="border:solid 1px #777" width="800" height="600" frameborder="0" scrolling="no"></iframe>
 
 ## Grades
 The evaluations for the course are detailed on Polytechnique's moodle platform. In summary, the evaluations for the course are as follows:
