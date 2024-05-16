@@ -25,10 +25,10 @@ image: "polytechnique.jpeg"
 This site will be active from May 21st to June 14th, although the final project reports will be accepted until June 21st.
 
 ## Location
-2500 Chem. de Polytechnique, Montréal, QC H3T 1J4
+This course is orgnized by the [Neuropoly](https://neuro.polymtl.ca/) team at Polytechnique Montreal, under the supervision of Pr Eva Alonso Ortiz. The course will take place in room M-2110, in the Lassonde Lavillion, 2500 Chem. de Polytechnique, Montréal, QC H3T 1J4. 
 
 ## Expertise
-spinal chord imaging, magnetic resonance imaging, magnetic resonance physics, quantitative imaging
+This site has expertise in magnetic resonance imaging, magnetic resonance physics, quantitative imaging, spinal cord imaging, and medical physics. 
 
 ## Prerequisites
 Participants will need access to a computer, internet and to register to a number of online collaborative tools, such as discord and github. The installation of the necessary software will be covered during week 1.
@@ -36,8 +36,22 @@ Participants will need access to a computer, internet and to register to a numbe
 ## Registration
 Brainhack School is offered as a for-credit course at Polytechnique (GBM6953EE). Students need to register through Polytechnique services, and also complete the online form on this website.
 
+Students from other universities such as McGill and Concordia are also welcome to register. They can generally get the course credited in their program (as an optional course). They will need to register for the course through the "bureau de coopération inter-universitaire".
+
 ## Schedule
-The school will run from Monday to Friday for four weeks (except for May 20th, which is a holiday), and will be opened every day from 9 am to 5 pm, with a one hour break for lunch.
+The school will run from Monday to Friday for four weeks (except for May 20th, which is a holiday). 
+
+The course load requires working full day every day (9:30am-4:45pm), with a 1-hour lunch break (12pm-1pm). A brief 5-10 minute introduction to the week's acativities will be given at the start of each week, and two 1-hr TA blocks will be offered each day. 
+
+Course work is expected to be carried out in-person. For exceptional cases involving conflicting course schedules, conference attendence, etc., please contact Pr Eva Alonso Ortiz to discuss your situation. If in-person attendence is not possible, online engagement on discord is expected.  
+
+<iframe src="https://calendar.google.com/calendar/u/0?cid=NmIwNzM3MTMwMmMyZmI2MDBmM2RlMDdmMjUzOWQyYzhkNmEyNTkxNDhmOTA3Zjc1MDdiZjRjYTZiOWVmMmE4ZUBncm91cC5jYWxlbmRhci5nb29nbGUuY29t" style="border:solid 1px #777" width="800" height="600" frameborder="0" scrolling="no"></iframe>
 
 ## Grades
-TBA.
+The evaluations for the course are detailed on Polytechnique's moodle platform. In summary, the evaluations for the course are as follows:
+
+Completing all required tutorials in weeks 1 to 3 counts for 10% of the final grade.
+The project description counts for 20% of the final grade.
+The final report, due a week after the end of the school, counts for 30% of the final grade.
+The final oral presentation counts for 30% of the final grade.
+Participation to the course counts for 10% of the final grade (2.5% per week).
