@@ -29,8 +29,8 @@ The school will be rotating across five locations to give students a sense of th
 
 + Week 1: PGCRL SickKids - 686 Bay St., Toronto, ON M5G 0A4
 + Week 2: OBI - 4th floor, 1 Richmond St W.SciNet Classroom
-+ Week 3 (Monday): SciNet - 11th floor 661 University Avenue, Toronto, ON M5G 1M1
-+ Week 3: TMU - 8th floor, 1270 Atrium on Bay, 20 Dundas Street West (access through the elevators next to MUJI's entrance inside AoB)
++ Week 3 (Mon.): SciNet - 11th floor 661 University Avenue, Toronto, ON M5G 1M1
++ Week 3 (Thur. & Fri.): TMU - 8th floor, 1270 Atrium on Bay, 20 Dundas Street West (access through the elevators next to MUJI's entrance inside AoB)
 + Week 4: KCNI/CAMH: 12th Floor, 250 College Street (College and Spadina), Toronto ON - M5T 1R8
 
 ## Expertise
