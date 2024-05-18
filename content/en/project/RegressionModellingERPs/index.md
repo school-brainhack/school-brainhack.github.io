@@ -17,6 +17,11 @@ tags: [eeg/erp, python, regression, javascript]
 # Summarize your project in < ~75 words. This description will appear at the top of your page and on the list page with other projects..
 
 summary: "Emotion perception is contextualized. However, how emotional context modulates word processing is unclear. We regression-fitted raw EEG data to test for emotional valence effects. The results revealed a widespread effect of context valnece, as well as a plausibility N400 waveform, well replicating the past ERP literature. Moreover, as we plan on conducting a subsequent experiment to follow up on the findings the present study has revealed, this project also includes the code for constructing experimental stimuli."
+
+# If you want to add a cover image (listpage and image in the right), add it to your directory and indicate the name
+# below with the extension.
+image: "rerp_coef.png"
+
 ---
 <!-- This is an html comment and this won't appear in the rendered page. You are now editing the "content" area, the core of your description. Everything that you can do in markdown is allowed below. We added a couple of comments to guide your through documenting your progress. -->
 
@@ -28,7 +33,7 @@ Emotion perception is contextualized. However, how emotional context modulates w
 ## Tools
 This project has implemented the following programming languages and brain imaging techniques:
 - EEG/ERP
-- Python 
+- Python
 - Matlab
 - JavaScript
 
@@ -41,7 +46,7 @@ This project has implemented the following programming languages and brain imagi
 - Multiple Jupyter Notenooks (.ipynb), which also have the results clearly illustrated with nice data visualization
 - Python scripts (.py)
 - A Google Apps Script (.gs)
-  
+
 [Find in the `amanda_rerp_ols_package` folder under `rERP_2023` a mini pip-installable Python package I uploaded onto PyPI. Not only is it an extension of the MNE built-in `mne.stats.linear_regression` method, but I also wrapped **my calculated-by-hand solution matrix into a user-defined class** (a Python named tuple, actually) as the return object.](https://github.com/amandalin047/Amanda_BrainHack_2023/tree/master/rERP_2023/amanda_rerp_ols_package)
 
 # Results
@@ -52,7 +57,7 @@ This project has implemented the following programming languages and brain imagi
     + Two sessions in April with Prof. Kara Federmeier from the University of Illinois Urbana-Champaign pointed me towards a new direction, namely to group the regression coefficients into spatiotemperal ROIs, which largely reduced the number of multiple comparisons for which I needed to correct.
     + The class attributes and methods in the program were substantially modified and revised soon after to improve run-time efficiency due to issues related to automatically dying Jupyter kernels in WSL2.
     + The EEG Toolbox under Matlab differs from MNE-Python in many respects. Having been initially trained in Matlab, I aspire to create Python functions with which Matlab users will feel more familiar, such as bin descriptor text files and the moving-window peak-to-peak method for artifact detection. To this aim, other EEG-related Python notebooks/scripts included in this repository were subsequently developed in late April through May.
-    + It was an incredible honor — considering that I started off more theory-oriented than applicational — to have the opportunity to give a four-hour workshop on MNE-Python to several of my lab mates with self-written scripts. 
+    + It was an incredible honor — considering that I started off more theory-oriented than applicational — to have the opportunity to give a four-hour workshop on MNE-Python to several of my lab mates with self-written scripts.
 
 - **Stimuli Construction**
     + I started developing the Python code for compiling ratings Excel sheets roughly around March.
@@ -73,7 +78,7 @@ This project has implemented the following programming languages and brain imagi
 <p>&nbsp</p><img src="https://github.com/amandalin047/Amanda_BrainHack_2023/blob/master/inline_img/rerp_coef.png" alt="rERP Coefficients" width="700" height="700">
 
 - **Stimui Construction**
-    + A great learning oppurtunity as we've come to realize which response collection methods are more efficient (and less tedious). 
+    + A great learning oppurtunity as we've come to realize which response collection methods are more efficient (and less tedious).
     + A nice, albeit still under construction, pipeline for collecting and sorting ratings responses.
 
 ## Conclusion and Acknowledgements
