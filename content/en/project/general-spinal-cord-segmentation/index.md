@@ -84,7 +84,7 @@ Test datasets (outside training distribution):
 
 ### Deliverables
 
-* A Github repository with codes and scripts to reproduce training and testing `github.com/brainhack-school2023/bouchard_project`.
+* A [Github repository](https://github.com/brainhack-school2023/bouchard_project) with codes and scripts to reproduce training and testing.
 * A [jupyter notebook](https://github.com/brainhack-school2023/bouchard_project/blob/main/results/results_analysis.ipynb) of the analysis codes and visualizations for comparing the results.
 * Documentation. This README file and the README in `docs/`.
 * Model checkpoints for the nnUnet models trained on all 4 datasets (right now available on /duke for Neuropoly members).
