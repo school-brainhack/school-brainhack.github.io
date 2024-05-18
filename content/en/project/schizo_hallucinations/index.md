@@ -19,7 +19,7 @@ tags: [Schizophrenia, fMRI, Auditory Hallucination, Functional Connectivity]
 
 summary: "This project focuses on examining if there are differences in the functional connectivity in schizophrenia with and without auditory hallucinations as well as healthy controls during speech perception. 
 The data (OpenNeuro) (https://openneuro.org/datasets/ds004302/versions/1.0.1). 
-71 participants were divided into 3 groups, Schizophrenia patients a)**with** auditory hallucination (AVH+), b)**without** auditory hallucination (AVH-) and Healthy Controls (HC)
+71 participants were divided into 3 groups, Schizophrenia patients a) **with** auditory hallucination (AVH+), b) **without** auditory hallucination (AVH-) and Healthy Controls (HC)
 They did a speech perception task when they were in a fMRI scanner.
 Our aim was to learn preprocessing and analysis of fMRI data and getting familiar with machine learning."
 
