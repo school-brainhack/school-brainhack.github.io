@@ -27,7 +27,7 @@ image: "./Brain.jpg"
 ---
 
 
-## Brain Decoding Strategy overall view point
+## Brain Decoding, overall perspective
 The following provides some details about the Brain Decoding. First the raw data (including, per Voxel FMRI signal, connectome, ...) is preprocessed to a latent space (beta scores, Enc./Dec. and ...), providing a meaningful representation of the input data. Then based on the application including image generation, task classification; the latent space could be cast to the output. 
 ![Link Name](./overall.png) 
 
