@@ -62,7 +62,7 @@ Attention-Deficit/Hyperactivity Disorder, or ADHD, is characterized by inattenti
 
    <img src="Estructural%20MRI%20sin%20atlas.png" alt="ATLAS" width="450" height="508">
 
-<p align="center">
+<p align="left">
   <img src="GIF%20BOLD.gif" alt="GIF de ejemplo" width="400" height="auto">
 </p>
 
@@ -203,7 +203,7 @@ The identified ROIs and their connectivity patterns could be further studied to 
 
 Finally, we would like to express our gratitude to our teaching assistants from Humai, Buenos Aires, who have supported us from day one and generously shared their diverse expertise in neuroscience and computer science.
 
-<img src="ffca62e3-ac11-4409-a444-0210ef44e80a" alt="HUMAI LOGO" width="200" height="200">
+<img src="HUMAI LOGO.png" alt="HUMAI LOGO" width="200" height="200">
 
 ## Feel free to contact us :D
 
