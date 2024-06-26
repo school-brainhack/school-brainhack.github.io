@@ -22,8 +22,6 @@ summary: "We used the ADHD-200 Sample dataset to implement various machine learn
 image: "fotor-ai-20240613194347.jpg"
 ---
 
-<img src="fotor-ai-20240613194347.jpg" alt="Cover Image" width="500"/>
-
 
 <!-- This is an html comment and this won't appear in the rendered page. You are now editing the "content" area, the core of your description. Everything that you can do in markdown is allowed below. We added a couple of comments to guide your through documenting your progress. -->
 
