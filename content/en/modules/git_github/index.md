@@ -76,9 +76,10 @@ This is a 10 minutes walk through of basic git concepts for people who wants a r
  * Using the command line, commit this change to your local repository. Make sure you registered your github user name and email address, so the commit is accurately credited to you when you push it on github.
  * Using the command line, push the branch and your changes to the github repository.
  * Using the github interface, open a new pull request with your changes. Use a descriptive name for the pull request, e.g. `iss1 - add bio`.
+ * Using the github interface, link the issue to the pull request. Use a proper [linking keyword](https://docs.github.com/en/issues/tracking-your-work-with-issues/linking-a-pull-request-to-an-issue#linking-a-pull-request-to-an-issue-using-a-keyword), e.g. `closes #1`.
  * Using the github interface, request a review of your changes by your local TA (by choosing their github handle among the listed ones).
  * Once your local TA has approved the review, merge the pull request to the `main` branch.
- * Close the issue.
+ * Check that the issue was closed automatically when the pull request was merged.
  * Follow up with your local TA(s) to validate you completed the exercises correctly.
  * :tada: :tada: :tada: you completed this training module! :tada: :tada: :tada:
 
