@@ -47,7 +47,7 @@
   translation: "Filter by keywords"
 
 - id: SidebarSub
-  translation: "This is the project gallery from 2020-23. Find out how to create your project page using the [example template.](/en/project/template). All project repositories are part of the BHS [github organization](https://github.com/school-brainhack)."
+  translation: "This is the project gallery from past editions."
 
 - id: SidebarSubModules
   translation: "This is the list of training modules for Brainhack School."
