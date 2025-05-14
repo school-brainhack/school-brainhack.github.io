@@ -1,9 +1,0 @@
-weight: 4
-title: "Apprentisssage machine"
-description: >
-  <ul class="list-style-none">
-    <li>Fouille de données</li>
-    <li>Classification</li>
-    <li>Prédiction</li>
-  </ul>
-image: "img/carousel/ml.png"

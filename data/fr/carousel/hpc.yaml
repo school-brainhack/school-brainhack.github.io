@@ -1,8 +1,0 @@
-weight: 1
-title: "Calcul à haute performance"
-description: >
-  <ul class="list-style-none">
-    <li>Calcul distribué</li>
-    <li>Mégadonnées</li>
-  </ul>
-image: "img/carousel/fig_hpc.png"
