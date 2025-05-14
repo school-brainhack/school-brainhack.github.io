@@ -41,10 +41,14 @@ languages:
           name: Register
           url: /register/
           weight: 5
+        - identifier: Modules
+          name: Modules
+          url: /modules/
+          weight: 6
         - parent: documents
           name: Getting started
           url: /guide/
-          weight: 6
+          weight: 7
         - parent: documents
           name: Project guide
           url: /project_guide/
@@ -52,11 +56,32 @@ languages:
         - parent: documents
           name: Code of Conduct
           url: /coc/
-          weight: 8
-        - identifier: Modules
-          name: Modules
-          url: /modules/
-          weight: 9
+          weight: 7
+        - parent: documents
+          name: Dev Docs
+          url: https://school-brainhack.readthedocs.io
+        - parent: past
+          name: 2024
+          url: https://2024-school-brainhack.github.io/
+        - parent: past
+          name: 2022
+          url: https://2022-school-brainhack.github.io/
+        - parent: past
+          name: 2021
+          url: https://psy6983.brainhackmtl.org/
+        - parent: past
+          name: 2020
+          url: https://school2020.brainhackmtl.org/
+        - parent: past
+          name: 2019
+          url: https://brainhackmtl.github.io/school2019/
+        - parent: past
+          name: 2018
+          url: https://brainhackmtl.github.io/school2018/
+
+
+
+
 
       topbar:
         - weight: 1
