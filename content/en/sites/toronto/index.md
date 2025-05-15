@@ -44,7 +44,7 @@ The registration is closed.
 ## Schedule
 The school will run hybrid over the 4-week run, where in-person recommended days at our host sites will be opened from 9 am to 5 pm, with a one-hour break for lunch. We will also add remote days where students can return to their responsibilities outside Brainhack School.
 
-<iframe src="https://calendar.google.com/calendar/embed?src=b1b006c0e44ff313a3c535074b7c6f79fa7683a09336777bc0e48b5d909b0e7f%40group.calendar.google.com&ctz=America%2FToronto" style="border: 0" width="800" height="600" frameborder="0" scrolling="no"></iframe>
+<iframe src="https://calendar.google.com/calendar/u/0?cid=ODRlODM1NDFiNDRkMGM1ZWVkNjU2NDdlYzVhZDVkNzQ1YTI3NzMwY2U0YzhhMDlkMjMxNTBiY2JiYWVhMGQwZEBncm91cC5jYWxlbmRhci5nb29nbGUuY29t" style="border: 0" width="800" height="600" frameborder="0" scrolling="no"></iframe>
 
 ## Grades
 This summer school is credited by the Institute of Medical Sciences (IMS) at the University of Toronto (UofT) for UofT students. Other participants will receive a certificate for their learning. Your project can also be shown on the main website as a record of your progress. The requirements for finishing the course are as follows:
