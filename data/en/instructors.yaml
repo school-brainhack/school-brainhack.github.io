@@ -11,38 +11,41 @@ instructors:
   - name: Lune Bellec
     gh: pbellec
     email: lune.bellec@criugm.qc.ca
-    website:
+    website: https://github.com/pbellec
     affiliation: University of Montreal
     urlaff: https://umontreal.ca
 
   - name: Eva Alonso Ortiz
     gh: evaalonsoortiz
     email: eva.alonso-ortiz@polymtl.ca
-    website:
+    website: https://neuro.polymtl.ca/team/faculty/eva-alonso-ortiz.html
     affiliation: École Polytechnique de Montréal
-    urlaff:
-    twitter:
+    urlaff: https://www.polymtl.ca/
 
   - name: Erin Dickie
     gh: edickie
     email: erin.w.dickie@gmail.com
-    website:
+    website: https://psychiatry.utoronto.ca/faculty/erin-dickie
     affiliation: University of Toronto
-    urlaff:
-    twitter:
+    urlaff: https://www.utoronto.ca/
 
   - name: Ju-Chi Yu
     gh: juchiyu
     email: ju-chi.yu@camh.ca
-    website:
+    website: https://www.juchiyu.com/
     affiliation: University of Toronto
-    urlaff:
-    twitter:
+    urlaff: https://www.utoronto.ca/
 
+  - name: Kristen Li
+    gh: Kristen-Li
+    email: kristen.li@sickkids.ca
+    website: https://www.linkedin.com/in/kristen-e-li/?originalSubdomain=ca
+    affiliation: Sick Kids
+    urlaff: https://www.sickkids.ca/
+    
   - name: Joshua Goh
     gh: goshuajoh
     email: joshuagoh@ntu.edu.tw
     website: http://www.psy.ntu.edu.tw/index.php/people/faculty/jointappointment-faculty/701-joshua-o-goh
     affiliation: National Taiwan University
     urlaff: http://www.psy.ntu.edu.tw
-    twitter:

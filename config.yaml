@@ -169,7 +169,7 @@ languages:
         subtitle: A selection of projects from our students
       topbar:
         enable: true
-        text: "**:computer: :brain: Contact <school.brainhack@gmail.com> for questions! :brain: :computer:**: "
+        text: "**:computer: :brain: Contact <school.brainhack@gmail.com> for questions! :brain: :computer:**"
 
 Permalinks:
   blog: '/blog/:year/:month/:day/:filename/'
