@@ -14,7 +14,7 @@ website:
 
 # Summarize your site in < ~75 words. This description will appear at the top of your page and on the list page with other sites..
 
-summary: "The BrainHack Toronto School is co-hosted by four sites!"
+summary: "The BrainHack Toronto School is co-hosted by five sites, sponsored by the Ontario Brain Institute and the University of Toronto!"
 
 # If you want to add a cover image (listpage and image in the right), add it to your directory and indicate the name
 # below with the extension.
