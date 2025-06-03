@@ -45,4 +45,4 @@ Our site focuses on functional magnetic resonance imaging, functional imaging wi
 Participants will need access to a computer, internet and to register to a number of online collaborative tools, such as discord and github. The installation of the necessary software is covered in the week 1 module.
 
 ## Registration
-NTU students can register via the [NTU course registration website](https://nol.ntu.edu.tw/nol/coursesearch/index.php). NCU students can register via the [NCU course registration website](https://ncueeclass.ncu.edu.tw/). Auditing students are welcome, but TAs will prioritize registered students.
+Registration this year is closed.
