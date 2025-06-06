@@ -44,8 +44,16 @@ instructors:
     urlaff: https://www.sickkids.ca/
     
   - name: Joshua Goh
-    gh: joshuagoh
+    gh: joshuagohos
     email: joshuagoh@ntu.edu.tw
     website: https://gibms.mc.ntu.edu.tw/bmlab/people/joshua-goh
     affiliation: National Taiwan University
     urlaff: https://www.ntu.edu.tw/english/
+
+  - name: Annabel Chen
+    gh: 
+    email: annabelchen@ntu.edu.sg 
+    website: https://dr.ntu.edu.sg/entities/person/Chen-Shen-Hsing-Annabel
+    affiliation: Nanyang Technological University
+    urlaff: https://www.ntu.edu.sg/
+  
