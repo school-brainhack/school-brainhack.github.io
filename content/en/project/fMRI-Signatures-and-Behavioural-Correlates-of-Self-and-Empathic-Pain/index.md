@@ -91,30 +91,32 @@ Finally, to test potential associations between functional connectivity with lon
 Various cortical and subcortical regions were activated during the self-pain and empathic-pain tasks, including brain regions in the frontal, parietal, temporal and occipital lobes. The empathic-pain condition was characterized by decreased activation of the frontal medial cortex and increased activation of the posterior division of the inferior temporal gyrus, middle temporal gyrus, superior temporal gyrus and temporal fusiform gyrus. On the other hand, the self-pain condition was characterized by decreased activation of the cuneal cortex, middle frontal gyrus, middle temporal gyrus, and increased activation of the supracalcarine cortex. 
 
 #### Finding 2: Interaction between baseline loneliness and condition predicts activation in the ACC during self pain but not empathic pain task
-
+![image](https://github.com/user-attachments/assets/8d3c9dfe-ec74-48ef-8547-63be3dd46ee9)
 Upon examining whether baseline loneliness and social connectedness predicted brain activation during the empathic and self-pain tasks, a MANOVA revealed a significant interaction between baseline loneliness and activation of the ACC in the self-pain condition (p = .03). Specifically, participants in the LKM meditation group showed a significant decrease in ACC activation at higher baseline loneliness scores.
 
 ### Functional Connectivity 
 
-# Finding #1
+### Finding #1
 
-# Finding #2: Functional connections are associated with social connectedness but not loneliness 
-
+### Finding #2: Functional connections are associated with social connectedness but not loneliness 
+<img width="674" alt="image" src="https://github.com/user-attachments/assets/5c2cc0f6-efe6-4065-9ae4-efabbba81917" />
 Several functional connectivity pairs containing our rois of interest (cingulate cortex and/or insula) were negatively associated with social connectedness in both self and empathic pain tasks. Notably, these significant associations do not pass FDR correction. In contrast, our functional connectivity pairs of interest were not significantly associated with loneliness. It appears that our rois of interest, these being the cingulate cortex and/or insula, that are typically implicated in empathic pain tasks, are also functionally connected with other regions of interest and are associated with social connectedness. This highlights that functional connectivity with our rois of interest that underlie empathic pain also appears to underlie behaviour such as social connectedness. 
 
-
-
-### Results
-
-
-##### Other projects
-Here are other good examples of repositories:
-- [Learning to manipulate biosignals with python](https://github.com/mtl-brainhack-school-2019/franclespinas-biosignals) by François Lespinasse
-- [Run multivariate anaylysis to relate behavioral and electropyhysiological data](https://github.com/mtl-brainhack-school-2019/PLS_PV_Behaviour)
-- [PET pipeline automation and structural MRI exploration](https://github.com/mtl-brainhack-school-2019/rwickens-sMRI-PET) by Rebekah Wickens
-- [Working with PSG [EEG] data from Parkinson's patients](https://github.com/mtl-brainhack-school-2019/Soraya-sleep-data-in-PD-patients) by Cryomatrix
-- [Exploring Brain Functional Activation in Adolescents Who Attempted Suicide](https://github.com/mtl-brainhack-school-2019/Anthony-Gifuni-repo) by Anthony Gifuni
-
 ## Conclusion and acknowledgement
+- The results of our analyses support that activation in the ACC and IC was higher in the self-experienced pain condition compared to the empathic pain condition. ​
+- In the LKM group, higher loneliness was associated with lower ACC activation. This effect was not observed in the PMR group.​
+- Functional connectivity did not significantly differ between self-experienced pain and empathic pain conditions​
+- Functional connectivity in ROI pairs of interest (cingulate cortex and insula) was associated with social connectedness in both self and empathic runs, but these associations do not survive FDR correction
 
-
+## References
+References
+1. 	Cao Y, Zhang J, He X, et al. Empathic pain: Exploring the multidimensional impacts of biological and social aspects in pain. Neuropharmacology 2024;258(110091):110091.
+2. 	Decety J, Smith KE, Norman GJ. Halpern A social neuroscience perspective on clinical empathy. J Halpern A social neuroscience perspective on clinical empathy World Psychiatr 2014;13:233–7.
+3. 	Hein G, Silani G, Preuschoff K, Batson CD, Singer T. Neural responses to ingroup and outgroup members’ suffering predict individual differences in costly helping. Neuron 2010;68(1):149–60.
+4. 	Jauniaux J, Khatibi A, Rainville P, Jackson PL. A meta-analysis of neuroimaging studies on pain empathy: investigating the role of visual information and observers’ perspective. Soc Cogn Affect Neurosci 2019;14(8):789–813.
+5.	Lee, R. M., Draper, M., & Lee, S. (2001). Social connectedness, dysfunctional interpersonal behaviors, and psychological distress: Testing a mediator model. Journal of Counseling Psychology, 48(3), 310–318. https://doi.org/10.1037/0022-0167.48.3.310
+6. 	Russell, D , Peplau, L. A.. & Ferguson, M. L. (1978). Developing a measure of loneliness. Journal of Personality Assessment, 42, 290-294.
+7. 	Tremblay MPB, Meugnot A, Jackson PL. The neural signature of empathy for physical pain … not quite there yet! In: Social and Interpersonal Dynamics in Pain. Cham: Springer; 2018.
+8. 	Zaki J, Wager TD, Singer T, Keysers C, Gazzola V. The anatomy of suffering: Understanding the relationship between nociceptive and empathic pain. Trends Cogn Sci 2016;20(4):249–59.
+9. 	Zhang M-M, Chen T. Empathic pain: Underlying neural mechanism. Neuroscientist 2025;31(3):296–307.
+10. Zhang M, Wu YE, Jiang M, Hong W. Cortical regulation of helping behaviour towards others in pain. Nature 2024;626(7997):136–44.
