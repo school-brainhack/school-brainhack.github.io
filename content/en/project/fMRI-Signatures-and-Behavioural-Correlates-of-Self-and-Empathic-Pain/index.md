@@ -37,6 +37,12 @@ Meta-analytic neuroimaging data suggest that multiple brain regions are implicat
 
 Herein, this project aimed to apply analytical methods using Python to investigate neural activation and functional connectivity in the IC, ACC and related brain regions in adults completing an fMRI and empathic pain task paradigm.
 
+### Main Objectives 
+
+- Produce a neuroimaging workflow from region-specific activation analyses of pre-processed data, functional connectivity analyses, and data visualization
+- Produce a GitHub Repository to enable reproducibility of our analyses.
+
+
 ### Tools
 
 - Software 
