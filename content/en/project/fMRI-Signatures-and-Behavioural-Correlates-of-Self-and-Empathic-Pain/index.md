@@ -19,7 +19,7 @@ tags: [self pain, empathic pain, task activation, functional connectivity]
 
 # Summarize your project in < ~75 words. This description will appear at the top of your page and on the list page with other projects..
 
-summary: "This project examined neural activation and functional connectivity during self-experienced and empathic pain using an open-source fMRI dataset. Analyses focused on several regions of interest, including the anterior cingulate and insular cortices, exploring links to loneliness and social connectedness. Results showed greater activation during the self pain task compared to the empathic pain task, with loneliness predicting decreased ACC activation in the meditation group. No significant differences in connectivity between conditions were found, though some associations with social connectedness emerged. The workflow and results are available in a reproducible GitHub repository."
+summary: "This project examined neural activation and functional connectivity during self-experienced and empathic pain using an open-source fMRI dataset. Analyses focused on several regions of interest, including the anterior cingulate (ACC) and insular (IC) cortices, exploring links to loneliness and social connectedness. Results showed greater activation during self-experienced pain compared to empathic pain, with loneliness predicting ACC activation in the meditation group. No significant differences in connectivity between conditions were found, though some associations with social connectedness emerged. The workflow and results are available in a reproducible GitHub repository."
 
 # If you want to add a cover image (listpage and image in the right), add it to your directory and indicate the name
 # below with the extension.
