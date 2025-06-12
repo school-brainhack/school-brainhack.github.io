@@ -84,11 +84,24 @@ Finally, to test potential associations between functional connectivity with lon
 
 ## Results
 
-### Progress overview
+### Task Activation
 
+# Finding 1: Many regions are activated during self pain and empathic pain tasks
+![image](https://github.com/user-attachments/assets/cca0d379-6452-470a-b761-782a978682ee)
 
+Various cortical and subcortical regions were activated during the self-pain and empathic-pain tasks, including brain regions in the frontal, parietal, temporal and occipital lobes. The empathic-pain condition was characterized by decreased activation of the frontal medial cortex and increased activation of the posterior division of the inferior temporal gyrus, middle temporal gyrus, superior temporal gyrus and temporal fusiform gyrus. On the other hand, the self-pain condition was characterized by decreased activation of the cuneal cortex, middle frontal gyrus, middle temporal gyrus, and increased activation of the supracalcarine cortex. 
 
-### Tools I learned during this project
+# Finding 2: 
+Upon examining whether baseline loneliness and social connectedness predicted brain activation during the empathic and self-pain tasks, a MANOVA revealed a significant interaction between baseline loneliness and activation of the ACC in the self-pain condition (p = .03). Specifically, participants in the LKM meditation group showed a significant decrease in ACC activation at higher baseline loneliness scores.
+
+### Functional Connectivity 
+
+# Finding #1
+
+# Finding #2: Functional connections are associated with social connectedness but not loneliness 
+
+Several functional connectivity pairs containing our rois of interest (cingulate cortex and/or insula) were negatively associated with social connectedness in both self and empathic pain tasks. Notably, these significant associations do not pass FDR correction. In contrast, our functional connectivity pairs of interest were not significantly associated with loneliness. It appears that our rois of interest, these being the cingulate cortex and/or insula, that are typically implicated in empathic pain tasks, are also functionally connected with other regions of interest and are associated with social connectedness. This highlights that functional connectivity with our rois of interest that underlie empathic pain also appears to underlie behaviour such as social connectedness. 
+
 
 
 ### Results
