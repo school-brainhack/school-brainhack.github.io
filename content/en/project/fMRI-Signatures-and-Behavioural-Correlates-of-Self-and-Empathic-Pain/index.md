@@ -124,6 +124,12 @@ Several functional connectivity pairs containing our rois of interest (cingulate
 
 ### PLS-C Analysis
 The first two PLS components captured the majority of the covariance between neural connectivity (Fig 5). There did not seem to be significant differences between participants in the LKM group and those in the PMR group in the first two PLS components, consistent with previous functional connectivity analyses. However, the timing of fMRI collection (before or after the task) seemed to be the major contributor to the separation on the first PLS component (Fig 6). Using a correlation test, we examined whether either PLS component was associated with loneliness or social connectedness and found no significant correlation. These findings suggest that while the two interventions might have changed functional connectivities, they did not significantly affect loneliness or trait empathy of the participants.
+<p align="center">
+  <img width="800" alt="image" src="https://github.com/user-attachments/assets/c4f56392-690a-4530-ac3c-7339dc93786a"/>
+  <img width="327" alt="image" src="https://github.com/user-attachments/assets/0c73fb3e-c817-4873-9e5d-6b27e8a7a981"/>
+  <br>
+  <em>Figure 5. Explained variance in functional connectivity by the top 5 PLS components.</em>
+</p>
 
 
 ## Conclusion and acknowledgement
