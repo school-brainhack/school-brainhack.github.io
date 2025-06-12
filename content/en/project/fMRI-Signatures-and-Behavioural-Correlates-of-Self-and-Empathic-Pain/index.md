@@ -123,7 +123,8 @@ Several functional connectivity pairs containing our rois of interest (cingulate
 </p>
 
 ### PLS-C Analysis
-The first two PLS components captured the majority of the covariance between neural connectivity (Fig 2). There did not seem to be significant differences between participants practicing loving-kindness meditation (LKM) and those practicing active control in the first two PLS components, consistent with previous functional connectivity analyses. However, the timing of fMRI collection (before or after the task) seemed to be the major contributor to the separation on the first PLS component (Fig 3). Using a correlation test, we examined whether either PLS component was associated with loneliness or social connectedness and found no significant correlation. These findings suggest that while the two interventions might have changed functional connectivities, they did not significantly affect loneliness or trait empathy of the participants.
+The first two PLS components captured the majority of the covariance between neural connectivity (Fig 5). There did not seem to be significant differences between participants in the LKM group and those in the PMR group in the first two PLS components, consistent with previous functional connectivity analyses. However, the timing of fMRI collection (before or after the task) seemed to be the major contributor to the separation on the first PLS component (Fig 6). Using a correlation test, we examined whether either PLS component was associated with loneliness or social connectedness and found no significant correlation. These findings suggest that while the two interventions might have changed functional connectivities, they did not significantly affect loneliness or trait empathy of the participants.
+
 
 ## Conclusion and acknowledgement
 - The results of our analyses support that activation in the ACC and IC was higher in the self-experienced pain condition compared to the empathic pain condition. ​
