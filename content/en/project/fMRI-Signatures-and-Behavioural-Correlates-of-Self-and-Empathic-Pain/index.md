@@ -129,7 +129,11 @@ The first two PLS components captured the majority of the covariance between neu
   <br>
   <em>Figure 5. Explained variance in functional connectivity by the top 5 PLS components.</em>
 </p>
-
+<p align="center">
+  <img width="800" alt="image" src=""/>
+  <br>
+  <em>Figure 6. Projection of functional connectivity onto the first two PLS components.</em>
+</p>
 
 ## Conclusion and acknowledgement
 - The results of our analyses support that activation in the ACC and IC was higher in the self-experienced pain condition compared to the empathic pain condition. ​
