@@ -91,7 +91,7 @@ Various cortical and subcortical regions were activated during the self-pain and
 <p align="center">
   <img alt="image" src="https://github.com/user-attachments/assets/25b19703-fd27-478f-bc0f-0b5a00c58445"/>
   <br>
-  <em>Figure 1. Heatmap .</em>
+  <em>Figure 1. Heatmap displaying activation by region for self and empathic pain tasks.</em>
 </p>
 
 #### Finding #2: Interaction between baseline loneliness and condition predicts activation in the ACC during self pain task
