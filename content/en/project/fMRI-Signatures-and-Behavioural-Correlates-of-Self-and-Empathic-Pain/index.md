@@ -79,9 +79,12 @@ We were also interested in investigating whether functional connectivity is asso
 
 Finally, to test potential associations between functional connectivity with loneliness or social connectedness, statistical analyses were performed via linear regression models. Functional connectivity of specific roi pairs (i.e., those containing insula or cingulate cortex), and covariates including age, sex, and condition were included as predictors, while our dependent/predicted variables included loneliness or social connectedness. 
 
+### Partial Least Square - Covariance (PLS-C) Analysis 
+To examine changes in functional connectivity between the two conditions in an unsupervised manner, we performed PLS-C analysis on the correlation matrix between all 69 parcellated regions.
+
 ## Results
 
-### Task Activation
+### Task Activation Analysis
 
 #### Finding #1: Many regions are activated during self pain and empathic pain tasks
 Various cortical and subcortical regions were activated during the self-pain and empathic-pain tasks, including brain regions in the frontal, parietal, temporal and occipital lobes. The empathic-pain condition was characterized by decreased activation of the frontal medial cortex and increased activation of the posterior division of the inferior temporal gyrus, middle temporal gyrus, superior temporal gyrus and temporal fusiform gyrus. On the other hand, the self-pain condition was characterized by decreased activation of the cuneal cortex, middle frontal gyrus, middle temporal gyrus, and increased activation of the supracalcarine cortex.
@@ -99,7 +102,7 @@ Upon examining whether baseline loneliness and social connectedness predicted br
   <em>Figure 2. Interaction plot visualizing the relationship between baseline loneliness scores and activation in the ACC during self pain task.</em>
 </p>
 
-### Functional Connectivity 
+### Functional Connectivity Analysis
 
 #### Finding #1: No difference in functional connectivity between self and empathic pain tasks
 Contrary to our hypothesis, we did not observe any statistically significant differences in connectivity between the self and empathic pain conditions at the edge level, even before correcting for multiple comparisons.
@@ -118,6 +121,9 @@ Several functional connectivity pairs containing our rois of interest (cingulate
   <br>
   <em>Figure 4. Significant functional connections between roi pairs of interest and self pain (left) and empathic pain (right) tasks.</em>
 </p>
+
+### PLS-C Analysis
+The first two PLS components captured the majority of the covariance between neural connectivity (Fig 2). There did not seem to be significant differences between participants practicing loving-kindness meditation (LKM) and those practicing active control in the first two PLS components, consistent with previous functional connectivity analyses. However, the timing of fMRI collection (before or after the task) seemed to be the major contributor to the separation on the first PLS component (Fig 3). Using a correlation test, we examined whether either PLS component was associated with loneliness or social connectedness and found no significant correlation. These findings suggest that while the two interventions might have changed functional connectivities, they did not significantly affect loneliness or trait empathy of the participants.
 
 ## Conclusion and acknowledgement
 - The results of our analyses support that activation in the ACC and IC was higher in the self-experienced pain condition compared to the empathic pain condition. ​
