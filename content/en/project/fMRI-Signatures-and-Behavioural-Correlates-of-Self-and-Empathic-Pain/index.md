@@ -39,7 +39,7 @@ Herein, this project aimed to apply analytical methods using Python to investiga
 
 ### Main Objectives 
 
-1. Produce a neuroimaging workflow from region-specific activation analyses of pre-processed data, functional connectivity analyses, and data visualization.
+1. Produce a neuroimaging workflow for task activation analyses, functional connectivity analyses, and data visualization.
 2. Produce a GitHub Repository to enable reproducibility of our analyses.
 
 
@@ -64,10 +64,7 @@ All participants completed the empathic pain task during an fMRI scan in order t
 
 ### Deliverables
 
-- GitHub Repository
-- Dataset
-- R Markdown Files
-- Analysis workflow and pipeline
+- [GitHub repository](https://github.com/brainhack-school2025/Empathic_Pain)
 
 ## Methods
 
