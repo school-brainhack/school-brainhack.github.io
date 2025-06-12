@@ -69,6 +69,19 @@ All participants completed an empathic pain task during an fMRI scan in order to
 - R Markdown Files
 - Analysis workflow and pipeline
 
+## Methods
+
+### Task Activation Analysis
+To examine brain regions activated during the empathic pain task, fMRI data was fitted to a first-level general linear model using Nilearn’s FirstLevelModel to compute z-maps for each task contrast. A statistical threshold (z > 3.1) was applied, and significant clusters were identified and labeled using Nilearn’s get_cluster_table and the Harvard-Oxford atlas, respectively. Further, a Multivariate Analysis of Variance (MANOVA) was used to examine whether baseline loneliness and social connectedness scores predicted activation of brain regions implicated in empathic and self-experienced pain, specifically the anterior cingulate cortex (ACC), insular cortex and superior temporal gyrus, following the meditation intervention. The UCLA Loneliness Scale (Russel et al., 1978) and Social Connectedness Scale (Lee et al., 2001) were used to measure loneliness and social connectedness at baseline. 
+
+### Functional Connectivity Analysis
+We aimed to compare functional connectivity between self-experienced and empathic pain conditions. First, we applied the masker to all files using the Harvard-Oxford brain atlas, which provides good parcellation of subcortical regions. Next, we generated one connectivity matrix (based on Pearson’s correlation) per condition for each subject. We then computed a network-blocked mean connectivity matrix for each condition for visualization purposes.
+To compare connectivity between the two conditions at the edge level, we performed paired t-tests with FDR correction.
+
+We were also interested in investigating whether functional connectivity is associated with loneliness or social connectedness. To investigate this possible association, we used our participants’ previously obtained individual functional connectivity matrices, where each participant had two matrices: one for run 1 (self) and run 2 (other/empathic pain). Then, we categorized participants’ functional connectivity matrices by run type (i.e., 1 vs 2). As well, we were interested in only functional connectivity/roi-to-roi pairs that had either the insula/insular cortex or the cingulate cortex/gyrus as one of the rois in a pair. 
+
+Finally, to test potential associations between functional connectivity with loneliness or social connectedness, statistical analyses were performed via linear regression models. Functional connectivity of specific roi pairs (i.e., those containing insula or cingulate cortex), and covariates including age, sex, and condition were included as predictors, while our dependent/predicted variables included loneliness or social connectedness. 
+
 ## Results
 
 ### Progress overview
