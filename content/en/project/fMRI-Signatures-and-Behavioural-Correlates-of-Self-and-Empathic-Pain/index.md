@@ -91,10 +91,13 @@ Various cortical and subcortical regions were activated during the self-pain and
 
 ![image](https://github.com/user-attachments/assets/25b19703-fd27-478f-bc0f-0b5a00c58445)
 
-#### Finding #2: Interaction between baseline loneliness and condition predicts activation in the ACC during self pain but not empathic pain task
-Upon examining whether baseline loneliness and social connectedness predicted brain activation during the empathic and self-pain tasks, a MANOVA revealed a significant interaction between baseline loneliness and activation of the ACC in the self-pain condition (p = .03). Specifically, participants in the LKM meditation group showed a significant decrease in ACC activation at higher baseline loneliness scores.
-
-![image](https://github.com/user-attachments/assets/8d3c9dfe-ec74-48ef-8547-63be3dd46ee9)
+#### Finding #2: Interaction between baseline loneliness and condition predicts activation in the ACC during self pain task
+Upon examining whether baseline loneliness and social connectedness predicted brain activation during the empathic and self-pain tasks, a MANOVA revealed a significant interaction between baseline loneliness and activation of the ACC in the self-pain condition (p = .03). Specifically, participants in the LKM meditation group showed a significant decrease in ACC activation at higher baseline loneliness scores. There was no signficant interaction between 
+<p align="center">
+  <img width="400" alt="image" src="https://github.com/user-attachments/assets/8d3c9dfe-ec74-48ef-8547-63be3dd46ee9"/>
+  <br>
+  <em>Figure 2. Relationship between baseline loneliness scores and activation in the ACC during self pain task.</em>
+</p>
 
 ### Functional Connectivity 
 
@@ -104,7 +107,7 @@ Contrary to our hypothesis, we did not observe any statistically significant dif
   <img width="360" alt="image" src="https://github.com/user-attachments/assets/28d8c043-e9f2-4794-8c80-ddf94db1c3b6"/>
   <img width="360" alt="image" src="https://github.com/user-attachments/assets/4a89e6c1-49a0-43dd-8c92-ad698b663bef"/>
   <br>
-  <em>Figure 3. Functional connectivity in self pain (left) and empathic pain (right) tasks.</em>
+  <em>Figure 3. Functional connectivity matrices for self pain (left) and empathic pain (right) tasks.</em>
 </p>
 
 #### Finding #2: Functional connections are associated with social connectedness but not loneliness
