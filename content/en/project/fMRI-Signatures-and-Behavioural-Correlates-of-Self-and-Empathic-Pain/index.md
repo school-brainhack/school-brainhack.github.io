@@ -88,15 +88,18 @@ Finally, to test potential associations between functional connectivity with lon
 
 #### Finding #1: Many regions are activated during self pain and empathic pain tasks
 Various cortical and subcortical regions were activated during the self-pain and empathic-pain tasks, including brain regions in the frontal, parietal, temporal and occipital lobes. The empathic-pain condition was characterized by decreased activation of the frontal medial cortex and increased activation of the posterior division of the inferior temporal gyrus, middle temporal gyrus, superior temporal gyrus and temporal fusiform gyrus. On the other hand, the self-pain condition was characterized by decreased activation of the cuneal cortex, middle frontal gyrus, middle temporal gyrus, and increased activation of the supracalcarine cortex.
-
-![image](https://github.com/user-attachments/assets/25b19703-fd27-478f-bc0f-0b5a00c58445)
+<p align="center">
+  <img alt="image" src="https://github.com/user-attachments/assets/25b19703-fd27-478f-bc0f-0b5a00c58445"/>
+  <br>
+  <em>Figure 1. Heatmap .</em>
+</p>
 
 #### Finding #2: Interaction between baseline loneliness and condition predicts activation in the ACC during self pain task
 Upon examining whether baseline loneliness and social connectedness predicted brain activation during the empathic and self-pain tasks, a MANOVA revealed a significant interaction between baseline loneliness and activation of the ACC in the self-pain condition (p = .03). Specifically, participants in the LKM meditation group showed a significant decrease in ACC activation at higher baseline loneliness scores. There was no signficant interaction between 
 <p align="center">
   <img width="800" alt="image" src="https://github.com/user-attachments/assets/8d3c9dfe-ec74-48ef-8547-63be3dd46ee9"/>
   <br>
-  <em>Figure 2. Relationship between baseline loneliness scores and activation in the ACC during self pain task.</em>
+  <em>Figure 2. Interaction plot visualizing the relationship between baseline loneliness scores and activation in the ACC during self pain task.</em>
 </p>
 
 ### Functional Connectivity 
