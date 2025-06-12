@@ -98,7 +98,14 @@ Upon examining whether baseline loneliness and social connectedness predicted br
 
 ### Functional Connectivity 
 
-#### Finding #1
+#### Finding #1: No difference in functional connectivity between self and empathic pain tasks
+Contrary to our hypothesis, we did not observe any statistically significant differences in connectivity between the self and empathic pain conditions at the edge level, even before correcting for multiple comparisons.
+<p align="center">
+  <img width="360" alt="image" src="https://github.com/user-attachments/assets/28d8c043-e9f2-4794-8c80-ddf94db1c3b6"/>
+  <img width="360" alt="image" src="https://github.com/user-attachments/assets/4a89e6c1-49a0-43dd-8c92-ad698b663bef"/>
+  <br>
+  <em>Figure 3. No significant difference in functional connectivity between self pain (left) and empathic pain (right) tasks.</em>
+</p>
 
 #### Finding #2: Functional connections are associated with social connectedness but not loneliness
 Several functional connectivity pairs containing our rois of interest (cingulate cortex and/or insula) were negatively associated with social connectedness in both self and empathic pain tasks. Notably, these significant associations do not pass FDR correction. In contrast, our functional connectivity pairs of interest were not significantly associated with loneliness. It appears that our rois of interest, these being the cingulate cortex and/or insula, that are typically implicated in empathic pain tasks, are also functionally connected with other regions of interest and are associated with social connectedness. This highlights that functional connectivity with our rois of interest that underlie empathic pain also appears to underlie behaviour such as social connectedness.
