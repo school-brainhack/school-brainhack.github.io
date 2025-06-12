@@ -104,7 +104,7 @@ Contrary to our hypothesis, we did not observe any statistically significant dif
   <img width="360" alt="image" src="https://github.com/user-attachments/assets/28d8c043-e9f2-4794-8c80-ddf94db1c3b6"/>
   <img width="360" alt="image" src="https://github.com/user-attachments/assets/4a89e6c1-49a0-43dd-8c92-ad698b663bef"/>
   <br>
-  <em>Figure 3. No significant difference in functional connectivity between self pain (left) and empathic pain (right) tasks.</em>
+  <em>Figure 3. Functional connectivity in self pain (left) and empathic pain (right) tasks.</em>
 </p>
 
 #### Finding #2: Functional connections are associated with social connectedness but not loneliness
