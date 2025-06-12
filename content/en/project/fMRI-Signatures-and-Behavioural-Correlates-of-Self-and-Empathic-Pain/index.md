@@ -96,9 +96,9 @@ Upon examining whether baseline loneliness and social connectedness predicted br
 
 ### Functional Connectivity 
 
-### Finding #1
+#### Finding #1
 
-### Finding #2: Functional connections are associated with social connectedness but not loneliness 
+#### Finding #2: Functional connections are associated with social connectedness but not loneliness 
 <img width="327" alt="image" src="https://github.com/user-attachments/assets/d6069386-f962-4ad6-837b-86df586d4208" />
 <img width="327" alt="image" src="https://github.com/user-attachments/assets/0c73fb3e-c817-4873-9e5d-6b27e8a7a981" />
 
