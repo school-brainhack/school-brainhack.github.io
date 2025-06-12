@@ -58,11 +58,16 @@ Herein, this project aimed to apply analytical methods using Python to investiga
 
 ### Data
 
+This project investigated an Open Source dataset obtained from OpenNeuro [https://openneuro.org/datasets/ds006243/versions/1.0.3]. The dataset consists of fMRI data collected from 54 participants trained in one of two meditation modalities: Loving Kindness Meditation (LKM) (n = 25) and Progressive Muscle Relaxation (PMR) (n = 29). The empathic pain task paradigm consisted of two counterbalanced runs, Experience (Self) and Observe (Other) conductions, each containing 30 trials of 24 seconds in duration, with a total of 720 seconds for a single run. Each run (i.e., 30 trials) included 15 trials involving anticipation of fear and 15 trials involving pain experience). An audio cue was used to indicate whether the participant or study partner would receive a pressure pain stimulus. The pressure pain stimulus is transmitted through a tube to a piston secured on the participants’ thumbnail. 
 
+All participants completed an empathic pain task during an fMRI scan in order to examine neural responses to self-pain test condition (i.e., pain stimulus of the participant’s hand) and empathic pain (i.e., observing someone else receive the pain stimulus). MRI data was collected at the Center for Functional and Molecular Imaging at Georgetown University using a 3T Siemens TIM Trio scanner. High-resolution structural images were acquired using a T1-weighted MP-RAGE sequence (1 mm isotropic voxels), and functional images were collected using a T2*-weighted EPI sequence (3 mm isotropic voxels, TR = 2,500 ms, TE = 30 ms).
 
 ### Deliverables
 
-
+- GitHub Repository
+- Dataset
+- R Markdown Files
+- Analysis workflow and pipeline
 
 ## Results
 
