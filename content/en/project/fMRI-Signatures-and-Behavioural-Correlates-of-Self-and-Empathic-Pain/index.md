@@ -105,6 +105,7 @@ Several functional connectivity pairs containing our rois of interest (cingulate
 <p align="center">
   <img width="327" alt="image" src="https://github.com/user-attachments/assets/d6069386-f962-4ad6-837b-86df586d4208"/>
   <img width="327" alt="image" src="https://github.com/user-attachments/assets/0c73fb3e-c817-4873-9e5d-6b27e8a7a981"/>
+  <br>
   <em>Figure 1. Description of the image.</em>
 </p>
 
