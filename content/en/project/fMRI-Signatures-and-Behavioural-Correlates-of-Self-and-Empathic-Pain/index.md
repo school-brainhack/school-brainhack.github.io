@@ -31,7 +31,7 @@ image: "bhs2020.png"
 
 ### Background
 
-Empathy is conceptualized as an individual’s ability to perceive, understand and respond appropriately to someone else’s experience.<sup>1,2</sup> In addition, empathic pain is commonly defined as an individual’s perception and emotional response to another person’s suffering or painful situation.1 The cognitive component of empathy and empathic pain includes perspective taking and maintaining distinction between the self and others.3 Taken together, it is proposed that disparate neural mechanisms subserve the cognitive processes that comprise empathy and empathic pain.<sup>3,4</sup>
+Empathy is conceptualized as an individual’s ability to perceive, understand and respond appropriately to someone else’s experience.<sup>1,2</sup> In addition, empathic pain is commonly defined as an individual’s perception and emotional response to another person’s suffering or painful situation.<sup>1</sup> The cognitive component of empathy and empathic pain includes perspective taking and maintaining distinction between the self and others.<sup>3</sup> Taken together, it is proposed that disparate neural mechanisms subserve the cognitive processes that comprise empathy and empathic pain.<sup>3,4</sup>
 
 Meta-analytic neuroimaging data suggest that multiple brain regions are implicated in empathic pain, including but not limited to the insula cortex (IC), anterior cingulate cortex (ACC), mid-cingulate cortex (MCC), and nucleus accumbens (NAc).<sup>3,5</sup> It is postulated that the IC and ACC are critical regions of interest (ROI) in the processing of emotional states and motivation.<sup>6</sup> In addition, it has been observed that functional connectivity between the MCC and IC is increased during pain perception in others.<sup>7</sup> Furthermore, the NAc has been implicated in the prediction of empathic-pain related behaviours (e.g., actions to help an individual in pain).<sup>8</sup> However, the underlying neural circuitry and networks that subserve empathic pain remain insufficiently characterized. Moreover, it is not known how sociodemographic, clinical and/or behavioural factors (e.g., loneliness or social connectedness) may mediate or moderate neural mechanisms that subserve empathic pain. 
 
@@ -39,7 +39,16 @@ Herein, this project aimed to apply analytical methods using Python to investiga
 
 ### Tools
 
-
+- Software 
+  - Python packages: Nilearn Library
+  - MS Visual Studio Code
+  - R and RStudio
+- Code and Project Management
+  - Git and GitHub
+  - Scripts
+  - Jupyter Notebook
+- Computing Environment
+  - Local Laptops
 
 ### Data
 
