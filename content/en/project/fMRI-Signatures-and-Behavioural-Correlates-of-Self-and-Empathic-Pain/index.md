@@ -109,7 +109,6 @@ Several functional connectivity pairs containing our rois of interest (cingulate
 - Functional connectivity in ROI pairs of interest (cingulate cortex and insula) was associated with social connectedness in both self and empathic runs, but these associations do not survive FDR correction
 
 ## References
-References
 1. 	Cao Y, Zhang J, He X, et al. Empathic pain: Exploring the multidimensional impacts of biological and social aspects in pain. Neuropharmacology 2024;258(110091):110091.
 2. 	Decety J, Smith KE, Norman GJ. Halpern A social neuroscience perspective on clinical empathy. J Halpern A social neuroscience perspective on clinical empathy World Psychiatr 2014;13:233–7.
 3. 	Hein G, Silani G, Preuschoff K, Batson CD, Singer T. Neural responses to ingroup and outgroup members’ suffering predict individual differences in costly helping. Neuron 2010;68(1):149–60.
