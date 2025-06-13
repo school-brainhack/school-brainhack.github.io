@@ -130,7 +130,7 @@ The first two PLS components captured the majority of the covariance between neu
   <em>Figure 5. Explained variance in functional connectivity by the top 5 PLS components.</em>
 </p>
 <p align="center">
-  <img width="800" alt="image" src=""/>
+  <img width="800" alt="image" src="https://github.com/user-attachments/assets/f36b87c3-090f-4243-8263-08cc45979fb3)"/>
   <br>
   <em>Figure 6. Projection of functional connectivity onto the first two PLS components.</em>
 </p>
