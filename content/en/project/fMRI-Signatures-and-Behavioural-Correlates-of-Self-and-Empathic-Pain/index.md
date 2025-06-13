@@ -135,11 +135,14 @@ The first two PLS components captured the majority of the covariance between neu
   <em>Figure 6. Projection of functional connectivity onto the first two PLS components.</em>
 </p>
 
-## Conclusion and acknowledgement
+## Conclusion
 - The results of our analyses support that activation in the ACC and IC was higher in the self-experienced pain condition compared to the empathic pain condition. ​
 - In the LKM group, higher loneliness was associated with lower ACC activation. This effect was not observed in the PMR group.​
 - Functional connectivity did not significantly differ between self-experienced pain and empathic pain conditions​.
 - Functional connectivity in ROI pairs of interest (cingulate cortex and insula) was associated with social connectedness in both self and empathic runs, but these associations did not survive FDR correction.
+
+## Acknowledgements
+Thank you Brain Hack School 2025 team for all the help!
 
 ## References
 1. 	Cao Y, Zhang J, He X, et al. Empathic pain: Exploring the multidimensional impacts of biological and social aspects in pain. Neuropharmacology 2024;258(110091):110091.
