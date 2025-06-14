@@ -15,7 +15,7 @@ tags: [inference, learning trajectories, python, fmri]
 
 
 summary: "This project aims to examine how the brain supports these two types of inference—active and passive—during the process of posterior belief integration. I appled trial-by-trial analysis to track participants’ learning trajectories over time. "
-
+---
 
 ## Project definition
 
