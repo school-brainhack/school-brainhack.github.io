@@ -1,13 +1,13 @@
 ---
 type: "project"
-date: "2025-06-15"
+date: "2025-06-14"
 title: "Exploring Emotional Modulation of the P300 in EEG Data"
 
-names: [Fabiana Ojeda]
+names: [Fabiana Ojeda 歐瑩忻]
 
 github_repo: https://github.com/faojeda/p300-eeg-brainhack2025
 
-website:
+slides: https://drive.google.com/file/d/1mXoa-OyEHx_O3uHKW4EWqyjux8VKKN_g/view?usp=drive_link
 
 tags: [eeg, erp, mne, brainhack]
 
