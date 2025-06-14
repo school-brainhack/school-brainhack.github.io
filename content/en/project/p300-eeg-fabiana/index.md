@@ -13,7 +13,7 @@ tags: [eeg, erp, mne, brainhack]
 
 summary: "This project explores how deviant auditory tones in a cross-modal oddball paradigm elicit a stronger P300 component using EEG data from the MNE sample dataset. The analysis focuses on ERP comparison and difference waves, setting the stage for future investigations on emotional modulation of P300."
 
-image: "thumbnail.png"
+image: "project/img/thumbnail.png"
 ---
 
 ## Project definition
@@ -45,14 +45,14 @@ The project uses the [MNE sample dataset](https://mne.tools/stable/overview/data
 
 ### Event Summary
 
-| Event | Description                     | Count  |
-|-------|---------------------------------|--------|
-| 1     | Auditory left                   | 72     |
-| 2     | Auditory right                  | 73     |
-| 3     | Visual right                    | 73     |
-| 4     | Visual left                     | 71     |
-| 5     | Auditory deviant                | 15     |
-| 32    | Button press/Task related       | 16     |
+| Event | Description               | Count |
+|-------|---------------------------|--------|
+| 1     | Auditory left             | 72     |
+| 2     | Auditory right (standard) | 73     |
+| 3     | Visual right              | 73     |
+| 4     | Visual left               | 71     |
+| 5     | Auditory deviant (rare)   | 15     |
+| 32    | Button press              | 16     |
 
 For this project, I focused on event 2 (auditory standard) and event 5 (auditory deviant) because they align with the auditory oddball paradigm known to elicit the P300.
 
@@ -60,13 +60,13 @@ For this project, I focused on event 2 (auditory standard) and event 5 (auditory
 
 The deviant tone produced a larger positive deflection around 300 ms, consistent with the P300 component. This supports attentional engagement triggered by unexpected stimuli.
 
-![ERP comparison](figures/erp_comparison.png)
+![ERP comparison](/project/img/erp_comparison.png)
 
 ### Difference Wave
 
 Subtracting standard from deviant responses revealed a clear P300 difference peaking at ~300 ms.
 
-![Difference wave](figures/difference_wave.png)
+![Difference wave](/project/img/difference_wave.png)
 
 ## Conclusion and Acknowledgements
 
