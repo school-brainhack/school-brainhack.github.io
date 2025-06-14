@@ -1,11 +1,3 @@
-For brainhack school TW-SG 2025
-
-__bhfunc2025.py__ includes some functions are used in other code
-
-__projectVisualizeTest.ipynb__ is the main processing steps I work on extracting the activities and images from preprocessed fMRI images
-
-The exported csv files are plotted to bar graphs in __resultplotting.ipynb__
-
 ---
 type: "project" 
 
@@ -21,10 +13,19 @@ tags: [auditory, fmri]
 
 summary: "The project focused on extracting activities from functional images in a previous study about neural representation of melody-transposition. Using parcellated brain atlas as a mask, the BOLD signals underwent univariate analysis to look for effects in error detection or music-like stimulus-related brain regions/"
 
+image: "![cover_HYC_presentation_slides](image.png)"
 ---
 <!-- This is an html comment and this won't appear in the rendered page. You are now editing the "content" area, the core of your description. Everything that you can do in markdown is allowed below. We added a couple of comments to guide your through documenting your progress. -->
 
 ## Project definition
+
+For brainhack school TW-SG 2025
+
+__bhfunc2025.py__ includes some functions are used in other code
+
+__projectVisualizeTest.ipynb__ is the main processing steps I work on extracting the activities and images from preprocessed fMRI images
+
+The exported csv files are plotted to bar graphs in __resultplotting.ipynb__
 
 ### Background
 
@@ -45,7 +46,6 @@ Will not be provided when the project is uploaded.
 
 ### Deliverables
 
-At the end of this project, we will have:
  - comparison of activity in a set of parcellated brain regions
 
 ## Results
@@ -79,5 +79,3 @@ Expected effect are seen in one run of one subject but the other doesn't seem ob
 ## Conclusion and acknowledgement
 
 We can see the brain activity in different regions vary a lot in different individuals, even in identical test runs. More data needs analysis for a further, more general conclusion. 
-
-(You can also make submit your project to neurolibre https://neurolibre.org/. It is a preprint server for interactive data analyses. It is tailored for publishing interactive neuroscience notebooks that can seamlessly integrate data, text, code and figures.The submission instructions can be found here https://docs.neurolibre.org/en/latest/index.html and the jupyter book docs there https://jupyterbook.org/intro.html.)
