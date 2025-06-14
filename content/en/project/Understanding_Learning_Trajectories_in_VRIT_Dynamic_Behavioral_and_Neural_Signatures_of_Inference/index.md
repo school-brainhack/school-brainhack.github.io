@@ -1,18 +1,12 @@
 ---
-type: "project" 
-date: "2025-06-14" 
-title: "Understanding Learning Trajectories in VRIT:Dynamic Behavioral and Neural Signatures of Inference"
-
-names: [Tzu-Yun Kung]
-
-github_repo: [https://github.com/PSY6983-2021/project_template](https://github.com/TYK0903/Tzu-Yun_Kung_project.git)
-
-
+type: "project"
+date: "2025-06-14"
+title: "Understanding Learning Trajectories in VRIT: Dynamic Behavioral and Neural Signatures of Inference"
+names: ["Tzu-Yun Kung"]
+github_repo: "https://github.com/TYK0903/Tzu-Yun_Kung_project"
 tags: [inference, learning trajectories, python, fmri]
-
-
-summary: "This project aims to examine how the brain supports these two types of inference—active and passive—during the process of posterior belief integration. I applied trial-by-trial analysis to track participants’ learning trajectories over time. "
-
+image: "cover.png"
+summary: "This project aims to examine how the brain supports two types of inference—active and passive—during the process of posterior belief integration. I applied trial-by-trial analysis to track participants’ learning trajectories over time."
 ---
 
 ## Project definition
