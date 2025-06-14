@@ -46,13 +46,13 @@ The dataset I used in this project is from Brain and Mind Lab, Taiwan. https://g
 ## Results
 
 ### Progress overview
-#### 1. Use Python to organize the data.
-#### 2. Use Python to analyze and visualize the behavioral data.
-#### 3. Write scripts to create batches of brain image preprocessing.
-#### 4. Organize the onset time and durations by Python.
-#### 5. Create contrast files.
-#### 6. I used Python to troubleshoot issues by analyzing beta values.
-#### 7. I created visualized brain images using Python.
+ * 1. Use Python to organize the data.
+ * 2. Use Python to analyze and visualize the behavioral data.
+ * 3. Write scripts to create batches of brain image preprocessing.
+ * 4. Organize the onset time and durations by Python.
+ * 5. Create contrast files.
+ * 6. I used Python to troubleshoot issues by analyzing beta values.
+ * 7. I created visualized brain images using Python.
 
 ### Tools I learned during this project
  * Python, to organize data, analyze and visualize behavior and brain data.
