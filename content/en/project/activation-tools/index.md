@@ -82,7 +82,9 @@ The steps include:
 
 #### Example activation map
 The image below shows a z-map when we apply the contrast rep1 > rep3. Therefore, here, we see regions that are more active during the first presentation of the word list stimuli compared to the activity during the third presentation of the word lists. We also chose to look at specific coordinates based on the clusters table.
+
 ![z-map](activation-map.png)
+
 These results remain exploratory and should be interpreted with caution as they are based on a single participant across nine runs and have not been corrected for multiple comparisons. In addition, the images have not been properly preprocessed. These preliminary results seem to align with the hypothesis that there would be more activation during rep1 than rep3 in regions involved in memory encoding, such as the Prefrontal Cortex, perhaps because the participant is generating memory strategies to memorize the words. When the list is presented for the third time, the subject may be more familiar with the word list, and therefore less effort is required to encode the information at that point.
 An interactive visualization of this map is available in my repo. 
 
@@ -96,7 +98,7 @@ In line with best practices in open-science, we used the following tools:
 
 * Jupyter Notebook with narratives: The narratives provide context, which helps others follow along exactly what we did and to detect potential errors in my code or approach. This allows for full transparency and minimizes the "black box" science.
 
-* BIDS format: Though we did not directly work to organize the files in BIDS format, I became familiar with this structure, which I now see as being very important for standardization, compatibility with other tools and collaborators, transparency and reusability.(https://github.com/brainhack-school2025/Ruddy_project).
+* BIDS format: Though we did not directly work to organize the files in BIDS format, I became familiar with this structure, which I now see as being very important for standardization, compatibility with other tools and collaborators, transparency and reusability.
 
 ## Conclusion
 Due to only using a limited amount of data from one subject that was not fully preprocessed, the results of this project are not significant in terms of scientific advancement. However, completing this project over the intensive course of four weeks was a great first learning opportunity and exposure to these tools. I look forward to continuing to build on my skills acquired during Brainhack School and apply them to my own projects.
