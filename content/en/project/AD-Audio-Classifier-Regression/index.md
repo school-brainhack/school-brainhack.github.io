@@ -85,7 +85,7 @@ Our project demonstrated that acoustic features are critical for classifying Alz
 
 #### Regression
 
-![Link Name](./R2Results.jpg)
+![Link Name](./R2Results.png)
 
 - **Best model**: SVM with R² of 0.32, MSE of 25.76, MAE of 3.82, and RMSE of 5.07.
 - **Key features**: Proportion of adverbs and nouns, text similarity score.
