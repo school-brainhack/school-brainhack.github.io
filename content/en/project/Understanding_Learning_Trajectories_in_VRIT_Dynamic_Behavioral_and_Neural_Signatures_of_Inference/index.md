@@ -4,7 +4,7 @@
 ---
 type: "project" 
 date: "2025-06-14" 
-title: "Understanding Learning Trajectories in VRIT:Dynamic Behavioral and Neural Signatures of Inference"
+title: "Understanding Learning Trajectories in VRIT:Dynamic Behavioral and Neural Signatures of Inference"
 
 names: [Tzu-Yun Kung]
 
