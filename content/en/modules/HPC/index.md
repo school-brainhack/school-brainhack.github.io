@@ -46,6 +46,13 @@ For example, the documentation website for the clusters is no longer https://doc
 
 :warning: :warning: If you reside outside of Canada and don't have access to a local HPC you can apply to access [Brainhack Cloud](https://brainhack.org/brainhack_cloud/). Some detailed steps for connecting to their cloud are available on this [GitHub repository](https://github.com/brainhack-school2022/dimitrijevic_project/blob/main/BrainHackCloud_steps/get_connected.md). Subsequently anytime the lecture material below refers to location-specific inputs you will have to adjust your inputs accordingly (e.g. the ssh connection).
 
+### Alliance Canada account
+
+If you are following BrainHack School through a canadian institution, please follow the instructions below to create an account on Alliance Canada. Otherwise, see the :warning: warning above.
+
+To create an Alliance Canada account, you will need a sponsor, likely your PI. If your PI does not already have an account on Alliance Canada, please contact your local TA(s). Otherwise, you will have to follow [this link](https://ccdb.alliancecan.ca/security/login) and click on *Register*. You will then have to fill a form. To make sure you are selecting the proper user role, please check out [this documentation](https://alliancecan.ca/en/services/advanced-research-computing/account-management/user-roles-access-resources-and-services-federation). You will also need to specify your sponsor's account number. Once submitted, you will have to wait for your sponsor to accept your form.
+
+
 ## Resources
 This module was presented by [Félix-Antoine Fortin](https://github.com/cmd-ntrf) during the QLSC 612 course in 2020.
 

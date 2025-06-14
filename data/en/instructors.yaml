@@ -8,76 +8,52 @@
 title: Global team
 
 instructors:
-  - name: Pierre Bellec
-    gh: pbellec
-    email: pierre-louis.bellec@umontreal.ca
-    website:
+  - name: Lune Bellec
+    gh: lunebellec
+    email: lune.bellec@umontreal.ca
+    website: https://github.com/lunebellec
     affiliation: University of Montreal
     urlaff: https://umontreal.ca
-    twitter: pierre_bellec
-
-  - name: Isil Bilgin
-    gh: complexbrains
-    email: bilginlab@gmail.com
-    website: https://github.com/complexbrains
-    affiliation: Centre de Recherche de l'Institut Universitaire de Gériatrie de Montréal
-    urlaff: https://criugm.qc.ca/
-    twitter: complexbrains
-
-  - name: Daniel Ridani
-    gh: danirid
-    email: daniel.ridani@polymtl.ca
-    website:
-    affiliation: École Polytechnique de Montréal
-    urlaff:
-    twitter:
-
-  - name: Hao-Ting Wang
-    gh: htwangtw
-    email: htwangtw@gmail.com
-    website: https://wanghaoting.com/
-    affiliation: Centre de Recherche de l'Institut Universitaire de Gériatrie de Montréal
-    urlaff: https://criugm.qc.ca/
-    twitter: HaoTingW713
 
   - name: Eva Alonso Ortiz
     gh: evaalonsoortiz
     email: eva.alonso-ortiz@polymtl.ca
-    website:
+    website: https://neuro.polymtl.ca/team/faculty/eva-alonso-ortiz.html
     affiliation: École Polytechnique de Montréal
-    urlaff:
-    twitter:
-
-  - name: Benjamin De Leener
-    gh: benjamindeleener
-    email: benjamin.de-leener@polymtl.ca
-    website:
-    affiliation: École Polytechnique de Montréal
-    urlaff:
-    twitter:
-
+    urlaff: https://www.polymtl.ca/
 
   - name: Erin Dickie
     gh: edickie
     email: erin.w.dickie@gmail.com
-    website:
+    website: https://psychiatry.utoronto.ca/faculty/erin-dickie
     affiliation: University of Toronto
-    urlaff:
-    twitter:
+    urlaff: https://www.utoronto.ca/
 
   - name: Ju-Chi Yu
     gh: juchiyu
     email: ju-chi.yu@camh.ca
-    website:
+    website: https://www.juchiyu.com/
     affiliation: University of Toronto
-    urlaff:
-    twitter:
-
+    urlaff: https://www.utoronto.ca/
 
   - name: Kristen Li
     gh: Kristen-Li
     email: kristen.li@sickkids.ca
-    website:
+    website: https://www.linkedin.com/in/kristen-e-li/?originalSubdomain=ca
     affiliation: Sick Kids
-    urlaff:
-    twitter:
+    urlaff: https://www.sickkids.ca/
+    
+  - name: Joshua Goh
+    gh: joshuagohos
+    email: joshuagoh@ntu.edu.tw
+    website: https://gibms.mc.ntu.edu.tw/bmlab/people/joshua-goh
+    affiliation: National Taiwan University
+    urlaff: https://www.ntu.edu.tw/english/
+
+  - name: Annabel Chen
+    gh: ClinicalBrainLab
+    email: annabelchen@ntu.edu.sg 
+    website: https://dr.ntu.edu.sg/entities/person/Chen-Shen-Hsing-Annabel
+    affiliation: Nanyang Technological University
+    urlaff: https://www.ntu.edu.sg/
+  

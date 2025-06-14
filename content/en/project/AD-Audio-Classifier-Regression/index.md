@@ -22,8 +22,7 @@ summary: "Our project aims to identify acoustic and semantic markers from the sp
 
 # If you want to add a cover image (listpage and image in the right), add it to your directory and indicate the name
 # below with the extension.
-
-![Link Name](./AcousticVsSemantic.png)
+image: "AcousticVsSemantic.png"
 ---
 <!-- This is an html comment and this won't appear in the rendered page. You are now editing the "content" area, the core of your description. Everything that you can do in markdown is allowed below. We added a couple of comments to guide your through documenting your progress. -->
 
@@ -38,8 +37,6 @@ Inspired by the need for scalable and cost-effective diagnostic methods for Alzh
 1. **Extract acoustic and semantic markers from patient speech** to detect the presence of Alzheimer's.
 2. **Estimate MMSE scores** based on voice characteristics and semantic indicators from conversations.
 3. **Corroborate cognitive decline** using the most relevant linguistic features.
-
-![Link Name](./Interspeech2021.png)
 
 ### Tools
 
