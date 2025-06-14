@@ -1,6 +1,3 @@
-# Tzu-Yun_Kung_project
-
-
 ---
 type: "project" 
 date: "2025-06-14" 
