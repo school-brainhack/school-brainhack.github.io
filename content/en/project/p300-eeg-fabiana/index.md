@@ -13,7 +13,7 @@ tags: [eeg, erp, mne, brainhack]
 
 summary: "This project explores how deviant auditory tones in a cross-modal oddball paradigm elicit a stronger P300 component using EEG data from the MNE sample dataset. The analysis focuses on ERP comparison and difference waves, setting the stage for future investigations on emotional modulation of P300."
 
-image: "project/img/thumbnail.png"
+image: "thumbnail.png"
 ---
 
 ## Project definition
@@ -60,13 +60,13 @@ For this project, I focused on event 2 (auditory standard) and event 5 (auditory
 
 The deviant tone produced a larger positive deflection around 300 ms, consistent with the P300 component. This supports attentional engagement triggered by unexpected stimuli.
 
-![ERP comparison](/project/img/erp_comparison.png)
+![ERP comparison](erp_comparison.png)
 
 ### Difference Wave
 
 Subtracting standard from deviant responses revealed a clear P300 difference peaking at ~300 ms.
 
-![Difference wave](/project/img/difference_wave.png)
+![Difference wave](difference_wave.png)
 
 ## Conclusion and Acknowledgements
 
