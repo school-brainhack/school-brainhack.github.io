@@ -1,9 +1,0 @@
-weight: 4
-title: "Machine learning"
-description: >
-  <ul class="list-style-none">
-    <li>Data mining</li>
-    <li>Classification</li>
-    <li>Prediction</li>
-  </ul>
-image: "img/carousel/ml.png"
