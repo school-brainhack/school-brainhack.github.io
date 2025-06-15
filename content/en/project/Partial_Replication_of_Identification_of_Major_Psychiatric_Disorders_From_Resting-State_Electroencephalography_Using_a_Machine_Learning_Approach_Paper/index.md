@@ -33,8 +33,6 @@ summary: "This project aims to investigate correlates of alcohol and behavioural
 
 Behavioural addiction is defined as “Disorders due to addictive behaviours are recognizable and clinically significant syndromes associated with distress or interference with personal functions that develop as a result of repetitive rewarding behaviours other than the use of dependence-producing substances.” (ICD-11). Due to being a result of the internal reward system rather than a psychoactive substance as in substance addiction, it is hard to perform a quantitative investigation on this condition. I felt that neuroimaging would help in this regard, as it will allow for analysis of brain activity to find similarities (if any) between behavioural addictions and substance addictions which will allow for better understanding of these disorders.
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/PTYs_JFKsHI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
 ### Tools
 
 The "project template" project will rely on the following technologies:
