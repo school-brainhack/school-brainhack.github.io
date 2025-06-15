@@ -23,7 +23,7 @@ summary: "This project examines how language-related brain regions connect with 
 
 # If you want to add a cover image (listpage and image in the right), add it to your directory and indicate the name
 # below with the extension.
-image: ""
+image: "cover.png"
 ---
 <!-- This is an html comment and this won't appear in the rendered page. You are now editing the "content" area, the core of your description. Everything that you can do in markdown is allowed below. We added a couple of comments to guide your through documenting your progress. -->
 
@@ -93,9 +93,9 @@ To define language-related regions of interest (ROIs), I first conducted subject
 For the resting-state network (RSN) masks, I used the Yeo 7-network atlas as a reference. Since the RSN masks and the ROI/resting-state data had different affine matrices, I resampled the RSN masks to ensure proper alignment before extracting time series.
 
 **ROI 1**
-![ROI 1](roi1_plot.png)
+![ROI 1](figures/roi1_plot.png)
 **ROI 2**
-![ROI 2](roi2_plot.png)
+![ROI 2](figures/roi2_plot.png)
 
 
 #### Deliverable 2: Time Series Extraction from ROIs and RSNs
@@ -103,26 +103,26 @@ For the resting-state network (RSN) masks, I used the Yeo 7-network atlas as a r
 I concatenated the four resting-state runs into a single 4D image file for each participant. Then, I extracted time series from the combined resting-state fMRI data using both the task-defined ROI masks and the resampled RSN masks. The extracted time series were z-scored and saved separately for each participant and each mask type. These time series served as the basis for subsequent functional connectivity analysis.
 
 **Time Series Extracted from ROI**
-![timeseriesroi1](sub-01_roi_ts_plot.png)
-![timeseriesroi2](sub-02_roi_ts_plot.png)
-![timeseriesroi3](sub-03_roi_ts_plot.png)
-![timeseriesroi4](sub-04_roi_ts_plot.png)
-![timeseriesroi5](sub-05_roi_ts_plot.png)
-![timeseriesroi6](sub-06_roi_ts_plot.png)
+![timeseriesroi1](figures/sub-01_roi_ts_plot.png)
+![timeseriesroi2](figures/sub-02_roi_ts_plot.png)
+![timeseriesroi3](figures/sub-03_roi_ts_plot.png)
+![timeseriesroi4](figures/sub-04_roi_ts_plot.png)
+![timeseriesroi5](figures/sub-05_roi_ts_plot.png)
+![timeseriesroi6](figures/sub-06_roi_ts_plot.png)
 
 **Time Series Extracted from RSN**
-![timeseriesrsn1](sub-01_rsn_ts_plot.png)
-![timeseriesrsn2](sub-02_rsn_ts_plot.png)
-![timeseriesrsn3](sub-03_rsn_ts_plot.png)
-![timeseriesrsn4](sub-04_rsn_ts_plot.png)
-![timeseriesrsn5](sub-05_rsn_ts_plot.png)
-![timeseriesrsn6](sub-06_rsn_ts_plot.png)
+![timeseriesrsn1](figures/sub-01_rsn_ts_plot.png)
+![timeseriesrsn2](figures/sub-02_rsn_ts_plot.png)
+![timeseriesrsn3](figures/sub-03_rsn_ts_plot.png)
+![timeseriesrsn4](figures/sub-04_rsn_ts_plot.png)
+![timeseriesrsn5](figures/sub-05_rsn_ts_plot.png)
+![timeseriesrsn6](figures/sub-06_rsn_ts_plot.png)
 
 During the process, I encountered a data quality issue with sub-05. By visualizing the time series from each run individually, I identified that run 1 showed abnormal signal patterns and exhibited abnormally low standard deviation. As a result, run 1 was excluded from the concatenation and omitted from all downstream analyses for sub-05.
 
 **sub-05 Reconcatenated Time Series (Excluding Run 1)**
-![timeseriesroi5exr1](sub-05_rsn_clean_ts_plot.png)
-![timeseriesrsn5exr1](sub-05_rsn_clean_ts_plot.png)
+![timeseriesroi5exr1](figures/sub-05_rsn_clean_ts_plot.png)
+![timeseriesrsn5exr1](figures/sub-05_rsn_clean_ts_plot.png)
 
 
 #### Deliverable 3: ROI–RSN Functional Connectivity Analysis
@@ -130,8 +130,8 @@ During the process, I encountered a data quality issue with sub-05. By visualizi
 Based on the time series extracted in the previous step, I computed Pearson correlation coefficients between each ROI and the three resting-state networks (DMN, FPN, and SN) for every participant. The results were organized into individual functional connectivity matrices. I then visualized these matrices to examine the distribution of connectivity strength across networks, the coupling patterns between specific ROIs and RSNs, and the variability across participants.
 
 **ROI–RSN functional connectivity correlation**
-![boxplot](roi_rsn_correlation_boxplot.png)
-![barchart](roi_rsn_correlation_barchart.png)
+![boxplot](figures/roi_rsn_correlation_boxplot.png)
+![barchart](figures/roi_rsn_correlation_barchart.png)
 
 
 #### Deliverable 4: Effects of ROI × RSN on Connectivity Strength
