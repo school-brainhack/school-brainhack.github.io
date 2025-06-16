@@ -61,10 +61,6 @@ The Midnight Scan Club dataset (Gordon *et al.*, Precision Functional
 Mapping of Individual Human Brains, *Neuron* 2017; OpenNeuro
 [ds000224](https://openneuro.org/datasets/ds000224/versions/1.0.4)).
 
-### Deliverables
-
-Presentation, R & CONN files.
-
 ## Results
 
 ### Progress overview
@@ -83,22 +79,6 @@ Midnight Scan participants.
 -   **MATLAB** running code and troubleshooting.
 -   **CONN toolbox** for fMRI data preprocessing and functional
     connectivity analysis.
-
-### Results
-
-#### Deliverable 1: report presentation 
-
-File name: *Truc Nguyen (Curt NTU TW D11B49004)\_BrainHack final
-presentation.pdf*
-
-#### Deliverable 2: R files to calculate dispersion 
-
-File name: *curt_MSC_brainhack.R* and *MSC_test.xlsx* (Sheet 3)
-
-#### Deliverable 3: CONN files 
-
-File name: *conn_curt_project_01_to_04.mat* and
-*CONN_methods_2025_06_10.html*
 
 ## Conclusion and acknowledgement
 
