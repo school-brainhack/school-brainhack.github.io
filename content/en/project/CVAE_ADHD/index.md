@@ -1,10 +1,18 @@
-# Contrastive Variational Autoencoder for ADHD-200 Brain MRI Analysis
-
-This repository contains the code and resources for a deep learning project applying **Contrastive Variational Autoencoders (CVAEs)** to structural MRI data from the [ADHD-200 dataset](http://fcon_1000.projects.nitrc.org/indi/adhd200/). Inspired by [Aglinskas et al. (2022)](https://doi.org/10.1126/science.abm2461), the project aims to disentangle ADHD-specific neuroanatomical variations from shared population-level features, enabling interpretable modeling of heterogeneity in ADHD.
-
+---
+type: "project" # DON'T TOUCH THIS ! :)
+date: "2025-06-13" # Date you first upload your project.
+title: "CVAE-based ADHD neuroimaging analysis"
+names: [Cian-Ya Lan, Jia-Ling Sun]
+github_repo: https://github.com/Cleo-Lan-school/BHS_2025-project
+website:
+tags: [adhd, mri, cvae, iq]
+summary: "This project applies a contrastive variational autoencoder (CVAE) to Burner-preprocessed MRI data from the ADHD-200 dataset to disentangle ADHD-specific brain features from shared anatomical variation. We explore latent representations using RSA and clustering to better understand neuroanatomical heterogeneity in ADHD."
+image: ""
 ---
 
-## 🧠 Project Goals
+## Project definition
+
+### Background
 
 - Reconstruct 3D brain MRIs using CVAEs.
 - Disentangle "salient" ADHD-related features from "background" features common to both ADHD and typically developing children.
@@ -12,81 +20,76 @@ This repository contains the code and resources for a deep learning project appl
   - **Silhouette Analysis**
   - **Representational Similarity Analysis (RSA)**
 
----
+### Tools
 
-## 📂 Project Structure
+This project used:
+- Python (NumPy, Pandas, SciPy, Scikit-learn, Matplotlib, Seaborn)
+- Keras (TensorFlow backend) for deep learning
+- UMAP for latent space visualization
+- Representational Similarity Analysis (RSA) using Kendall’s tau
+- Silhouette analysis for latent space separability
+- GitHub for version control
 
-| File / Folder                      | Description |
-|-----------------------------------|-------------|
-| `Train-CVAE-ADHD200.ipynb`     | Notebook for training CVAE, extracting features, and running RSA/silhouette analyses |
-| `helper_funcs.py`                 | Utility functions for training, visualization, silhouette scoring, and RSA |
-| `make_models2.py`                 | Defines CVAE and VAE architectures using Keras |
-| `VBM_subjects_matched.csv`        | Subject IDs aligned with Burner-preprocessed MRI data |
+### Data
 
----
+This project used the publicly available [ADHD-200 dataset](http://fcon_1000.projects.nitrc.org/indi/adhd200/), specifically the **Burner-preprocessed version**:
+- Structural MRI data processed via voxel-based morphometry (VBM)
+- Normalized 3D gray matter volumes (64×64×64)
+- Accompanied by phenotypic variables: age, sex, diagnosis, subtype, medication, IQ, etc.
 
-## 📦 Dataset & Preprocessing
+### Deliverables
 
-We used the **Burner Pipeline** version of the ADHD-200 dataset, a VBM-based preprocessing approach:
-👉 https://www.nitrc.org/plugins/mwiki/index.php?title=neurobureau:BurnerPipeline
+At the end of the project, we produced:
+- A working CVAE framework for modeling neuroanatomical variation
+- Visualizations of latent features and synthetic brain reconstructions
+- RSA and clustering results relating brain features to clinical data
+- Well-documented code and reproducible analysis notebooks
 
-- Data is voxel-based morphometry (VBM) gray matter maps.
-- Normalized and segmented into 3D volumes of shape 64×64×64.
+## Results
 
----
+### Progress overview
 
-## ⚙️ Getting Started
+We trained a CVAE model with two latent components:
+- `s` (salient features): ADHD-specific anatomical variation
+- `z` (background features): common/shared variation
 
-### Prerequisites
-- python=3.8
-- numpy=1.21.0
-- umap-learn=0.5.1
-- pandas=1.1.5
-- seaborn=0.11.0
-- matplotlib=3.3.4
-- scikit-learn=0.24.2
-- ipykernel
-- jupyter
-- tqdm
-- scipy=1.6.2
+We evaluated the model using:
+- **Silhouette scores** for latent clustering
+- **RSA** to correlate latent dimensions with phenotypic variables
+- **GMM clustering and BIC** to test for discrete vs. continuous subtype structure
 
----
+### Tools I learned during this project
 
-## 🧪 Method Overview
+- Contrastive representation learning in generative models
+- Implementation of CVAEs in Keras
+- Preprocessing and working with VBM MRI data
+- Representational Similarity Analysis
+- Model interpretability techniques for brain data
 
-### Contrastive Variational Autoencoder (CVAE)
-The CVAE is trained on ADHD and control subjects to learn:
-- `z`: background features (common/shared)
-- `s`: salient features (ADHD-specific)
+### Results
 
-### Representational Similarity Analysis (RSA)
-Latent representations are compared with clinical variables such as age, diagnosis, and IQ using Kendall’s tau-based similarity matrices.
+#### Deliverable 1: CVAE analysis
 
-### Silhouette Analysis
-Measures how well subjects group in the latent space based on clinical labels (e.g., diagnosis, sex, age groups).
+- Salient features (`s`) were significantly correlated with:
+  - **ADHD Index**
+  - **Inattentive and Hyperactive/Impulsive scores**
+  - **Medication status** and **age**
 
----
+- Shared features (`z`) were more related to:
+  - **IQ**, **gender**, and **scan site**
 
-## 🔍 Key Findings
+#### Deliverable 2: Clustering analysis
 
-- **Salient (ADHD-specific)** features correlate more strongly with diagnosis and behavior-related variables.
-- **ADHD features** correlate more with **ADHD Index**, **Inattentive score**, **Hyper/Impulsive score**, **Medication Status**, and **Age**.
-  - **Significant correlations** were observed with **Medication Status** and **Age**.
-- **Shared (background)** features correlate more with **Full IQ**, **Gender**, and **Scan Site**.
-  - **Significant correlation** was observed with **Gender**.
-- ADHD anatomical variation may be better described along **continuous dimensions** rather than discrete clusters, aligning with dimensional models of psychiatric disorders.
+- Gaussian Mixture Models (GMM) with Bayesian Information Criterion (BIC) showed:
+  - **Lowest BIC at 1 cluster**, suggesting **continuous heterogeneity**
+  - Results align with dimensional models of psychiatric disorders
 
----
+#### Deliverable 3: Code and notebook
 
-## 📝 Citation
+- Full training pipeline in `Train-CVAE-ADHD200.ipynb`
+- Visualization and RSA in helper scripts
+- Readme documentation and reproducibility checklist included
 
-If you use this code or adapt this framework, please cite:
+## Conclusion and acknowledgement
 
-Aglinskas, A., Hartshorne, J. K., & Anzellotti, S. (2022). *Contrastive machine learning reveals the structure of neuroanatomical variation within autism*. Science, 376(6595), 1070–1074. https://doi.org/10.1126/science.abm2461
-
----
-
-## 👩‍💻 Authors
-
-Cian-Ya Lan and Jia-Ling Sun  
-National Taiwan University
+This project demonstrates the potential of contrastive deep generative models like CVAEs to disentangle disorder-specific neuroanatomical features from shared variation. Our findings suggest ADHD may be better described along a spectrum rather than discrete subtypes. We thank the Brainhack School instructors and the open neuroimaging community for providing tools and data that made this project possible.
