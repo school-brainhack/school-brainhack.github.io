@@ -36,12 +36,15 @@ The prerequisites to take this module are:
 If you have any questions regarding the module content please ask them in the relevant module channel on the school Discord server. If you do not have access to the server and would like to join, please send us an email at school [dot] brainhack [at] gmail [dot] com.
 
 ## Resources
-This module was presented by [Christopher J. Markiewicz](https://effigies.github.io/) during the QLSC 612 course in 2020.
 
+This module was originally presented by [Christopher J. Markiewicz](https://effigies.github.io/) during the QLSC 612 course in 2020.
+
+An updated version of the slides by [Hao-Ting Wang](https://wanghaoting.com/) is [here](https://wanghaoting.com/bids-ecosystem) and presented at Brainhack School Montreal 2025.
+
+The video of the previous version of the presentation by [Christopher J. Markiewicz](https://effigies.github.io/)  is available below:
+<iframe width="560" height="315" src="https://www.youtube.com/embed/ceB3Nne-MDo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 The slides are available [here](https://effigies.github.io/bids-ecosystem).
 
-The video of his presentation is available below:
-<iframe width="560" height="315" src="https://www.youtube.com/embed/ceB3Nne-MDo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ## Exercise
  * Download a few subjects (n=3) from the dataset [DS000228](https://openneuro.org/datasets/ds000228/versions/1.1.0) on openneuro. Hint: the dataset is available with datalad from this [git](https://github.com/OpenNeuroDatasets/ds000228) repository.
