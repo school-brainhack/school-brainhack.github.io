@@ -5,6 +5,7 @@ title: "Brainbeats: Classifying Music Genre with fMRI Connectivity"
 github_repo: https://github.com/x2583319/Chen_project_2025
 tags: [fmri, music, connectivity, classification]
 summary: "Can we predict music genres based on fMRI connectivity patterns alone? This project explores a single-subject decoding approach using ROI-to-ROI correlation matrices and machine learning classifiers on OpenNeuro dataset ds003720."
+image: "cover.png"
 ---
 
 ## Project definition
