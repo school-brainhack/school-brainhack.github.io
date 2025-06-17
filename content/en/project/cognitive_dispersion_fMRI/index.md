@@ -9,7 +9,7 @@ website:
 # List +- 4 keywords that best describe your project within []. Note that the project summary also involves a number of key words. Those are listed on top of the [github repository](https://github.com/PSY6983-2021/project_template), click `manage topics`.
 tags: [neuropsychology, fMRI, cognitive dispersion, default mode network]
 summary: "This mini-project for the 2025 Brainhack School is part of my PhD dissertation on Late-Life Cognitive Heterogeneity, where I examine the neural correlates of cognitive dispersion -- a measure of within-individual variability -- using neuropsychological and fMRI data from the Midnight Scan Club dataset (OpenNeuro ds000224)."
-image: "project_cover.pdf"
+image: "project_cover_20250617.jpg"
 
 ---
 
