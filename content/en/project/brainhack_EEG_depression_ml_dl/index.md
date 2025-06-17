@@ -18,7 +18,7 @@ tags: [EEG, depression, svm, eegnet]
 
 summary: "This project was conducted as part of Brainhack School 2025. It aimed to classify major depressive disorder (MDD) using temporal-domain EEG features (i.e., band power), applying both machine learning (SVM) and deep learning (EEGNet) models."
 
-image: ""
+image: "cover img.png"
 
 ---
 
