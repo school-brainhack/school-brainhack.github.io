@@ -31,13 +31,13 @@ image: "cover.png"
 
 ### Background
 
-This study was inspired by the potential to use various machine learning techniques to improve predictive performance of resting-state functional connectivity on various performances measures. Specifically for this project, 7021 features were utilised in an attempt to predict the cognition composite scores of children aged 9 - 10 years old. Participants were recruited as part of a larger multi-site study called the Adolescent Brain Cognitive Development (ABCD) study. This study aims to use the data obtained during the baseline assessment inconjunction with various regularized regression methods and predictive models in an attempt to better predict general cognition. The project consists of various steps such as 1) data consolidation and cleaning, 2) subsampling of data, 3) Training the model and 4)Results presentation.
+This study was inspired by the potential to use various machine learning techniques to improve predictive performance of resting-state functional connectivity on various performances measures. Specifically for this project, 7021 features were utilised in an attempt to predict the cognition composite scores of children aged 9 - 10 years old. Participants were recruited as part of a larger multi-site study called the Adolescent Brain Cognitive Development (ABCD) study. This study aims to use the data obtained during the baseline assessment inconjunction with various regularized regression methods and predictive models in an attempt to better predict general cognition. The project consists of various steps such as 1) data consolidation and cleaning, 2) subsampling of data, 3) training the model and 4)results presentation.
 
 ### Tools
 
 The "project template" project will rely on the following technologies:
  * Markdown, to structure the text.
- * Rstudio, for data cleaning, consolidation and visualization
+ * Rstudio, for data cleaning, consolidation and visualization.
  * Python (various packages) for model training, testing and visualization.
  * Adding the project to the website relies on github, through pull requests.
 
