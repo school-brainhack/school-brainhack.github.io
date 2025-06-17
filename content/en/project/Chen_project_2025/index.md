@@ -2,6 +2,7 @@
 type: "project"
 date: "2025-06-12"
 title: "Brainbeats: Classifying Music Genre with fMRI Connectivity"
+names: [Chelsea Xuan Chen]
 github_repo: https://github.com/x2583319/Chen_project_2025
 tags: [fmri, music, connectivity, classification]
 summary: "Can we predict music genres based on fMRI connectivity patterns alone? This project explores a single-subject decoding approach using ROI-to-ROI correlation matrices and machine learning classifiers on OpenNeuro dataset ds003720."
@@ -81,6 +82,15 @@ This project used:
 
 - Schaefer 100-ROI brain parcellation plotted to validate resampling and mask quality
 - Average correlation matrix showed strong within-region signals (clean diagonals)
+
+#### Schaefer Atlas
+![Schaefer Atlas](schaefer.png)
+
+#### ROI Correlation Matrix
+![ROI Correlation](roi_correlation.png)
+
+#### PCA Confmax
+![PCA Confmax](pca_confmax.png)
 
 ---
 
