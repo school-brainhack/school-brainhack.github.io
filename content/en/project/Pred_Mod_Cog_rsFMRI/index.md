@@ -1,6 +1,6 @@
 ---
 type: "project" # DON'T TOUCH THIS ! :)
-date: "16-June-2025" # Date you first upload your project.
+date: "2025-06-16" # Date you first upload your project.
 # Title of your project (we like creative title)
 title: Predicting general cognition from resting-state functional brain connectivity
 
