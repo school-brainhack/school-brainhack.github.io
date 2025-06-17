@@ -9,7 +9,7 @@ tags: [ML, EEG, odor, brainhack]
 
 summary: "The human sense of smell plays a crucial role in emotional experience. Previous research has shown that EEG can distinguish between pleasant and unpleasant odors at an individual level (Kroupi et al.,2014), but the consistency of these preferences across individuals remain open questions. OPPD dataset: www.epfl.ch/labs/mmspg/downloads/page-119131-en-html"
 
-image: brain-scent.png
+image: brain_scent.png
 ---
 
 ## Project definition
