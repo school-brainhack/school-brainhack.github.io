@@ -1,8 +1,8 @@
 ---
 type: "project" # DON'T TOUCH THIS ! :)
-date: "2020-05-16" # Date you first upload your project.
+date: "2025-06-18" # Date you first upload your project.
 # Title of your project (we like creative title)
-title: Images10K Compendium
+title: "Images10K Compendium"
 
 # List the names of the collaborators within the [ ]. If alone, simple put your name within []
 names: [Sara Barbu, Lune Bellec]
