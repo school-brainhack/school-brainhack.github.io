@@ -83,6 +83,8 @@ Types of plots: barplots for frequencies, barplots for proportions, hexbins and 
 Describing the dataset in terms of length of scenes and segments and average number of maxima within scenes in episodes can guide further analysis on the transcripts and emotions by analysing the relation between these modalities.
 
 example of a plot:
+
+
 ![plot example](my_plot.png)
 
 ## Results
