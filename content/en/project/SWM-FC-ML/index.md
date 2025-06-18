@@ -76,7 +76,7 @@ At the end of this project, I have:
 ![BrainAllDiff](BrainAllDiff.png)
 These images show mean functional connectivity across frontoparietal regions of the brain. Blue color indicate higher functional connectivity for Control than ADHD patients. Red color indicates higher functional connectivity for ADHD patients than control group.
  	
-	image: "signdifferencesinfrontoparietalconnec.png"
+![signdifferencesinfrontoparietalconnec](signdifferencesinfrontoparietalconnec.png)
         image: "BrainSignDiff.png"
 These images show significant differences between ADHD and control group across frontoparietall regions of the brain before FDR correction.
 
