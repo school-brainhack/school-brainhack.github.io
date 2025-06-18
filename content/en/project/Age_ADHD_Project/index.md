@@ -19,7 +19,7 @@ tags: [adhd, eeg, age, brainhack]
 
 # Summarize your project in < ~75 words. This description will appear at the top of your page and on the list page with other projects..
 
-summary: "Each project repository should have a markdown file explaining the background and objectives of the project, as well as a summary of the results, and links to the different deliverables of the project. Project reports are incorporated in the BHS [website](https://school.brainhackmtl.org/project)."
+summary: "In this project we use EEG patterns to predict treatment responses for individuals with ADHD across different age groups. Project reports are incorporated in the BHS [website](https://school.brainhackmtl.org/project)."
 
 # If you want to add a cover image (listpage and image in the right), add it to your directory and indicate the name
 # below with the extension.
@@ -48,7 +48,7 @@ The "project template" project will rely on the following technologies:
    
 ### Data
 
-The data used in this project can be downloaded from https://brainclinics.com/resources/tdbrain-dataset/introduction/downloads upon creation of a BrainClinics account. The database was originally published by Van Dijk 2022 in Scientific Data. The dataset has since been reanalyzed in several publications. At this link, metadata, raw EEG data, and preprocessing pipeline was provided.
+The data used in this project can be downloaded from https://brainclinics.com/resources/tdbrain-dataset/introduction/downloads upon creation of a BrainClinics account. The TDBrain database is an extensive clinical EEG dataset (n=1274) with 19 electrodes collected over two decades from participants ranging age 5 to 89 years old. The database is publicly available and was originally published by Van Dijk 2022 in Scientific Data. The dataset has since been reanalyzed in several publications. At this link, metadata, raw EEG data, and preprocessing pipeline for artifact identification was provided. The raw EEG data was recording from resting state periods (2 minutes of eyes closed followed by 2 minutes of eyes open). The ADHD cohort (n=274) included a sub-cohort with treatment responses of neurofeeback treatment.
 
 ### Deliverables
 
