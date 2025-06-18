@@ -1,3 +1,4 @@
+---
 type: "project" # DON'T TOUCH THIS ! :)
 date: "2025-06-11" # Date you first upload your project.
 title: "Dynamic Functional Connectivity of the Default Mode Network in ADHD"
