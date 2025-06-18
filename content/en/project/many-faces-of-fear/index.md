@@ -83,7 +83,7 @@ See the [Jupyter book](https://shwnmnl.github.io/neurofear) for a deeper interpr
 Here's an interactive version that includes all runs. 
 
 <div style="position: relative; width: 100%; padding-top: 56.25%;">
-  <iframe src="fearmap_view.html"
+  <iframe src="/html/fearmap_view.html"
           style="position: absolute; top: 0; left: 0; width: 100%; height: 75%; border: none;">
   </iframe>
 </div>
@@ -102,7 +102,7 @@ The Superior Frontal Gyrus (SFG) shows the strongest (but small in absolute term
 
 Here's an interactive plot to compare the fear RDM to different brain ROI RDMs.
 
-<iframe src="rdm_slider_plot.html" width="100%" height="600px" frameborder="0"></iframe>
+<iframe src="/html/rdm_slider_plot.html" width="100%" height="600px" frameborder="0"></iframe>
 
 ## Conclusion
 
