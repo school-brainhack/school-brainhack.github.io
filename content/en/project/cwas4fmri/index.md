@@ -98,7 +98,7 @@ During Brain Hack School 2025, I developed a functional and pip-installable Pyth
 ### Results
 
 #### Deliverable 1: BIDS workfow implementation 
-This pipeline was created to follow the BIDS-App workflow as proposed by [Gorgolewski et al., 2017.]((https://doi.org/10.1371/journal.pcbi.1005209))
+This pipeline was created to follow the BIDS-App workflow as proposed by [Gorgolewski et al., 2017](https://doi.org/10.1371/journal.pcbi.1005209) for group level anlaysis.
 
 <img title="Workflow of the pipeline" alt="Alt text" src="workflow.png">
 
