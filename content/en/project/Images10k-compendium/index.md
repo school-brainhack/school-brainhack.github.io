@@ -8,7 +8,7 @@ title: "Images10K Compendium"
 names: [Sara Barbu, Lune Bellec]
 
 # Your project GitHub repository URL
-github_repo: https://github.com/SaraBarbu/Barbu-Images10K
+github_repo: https://github.com/brainhack-school2025/Barbu-Images10K
 
 # If you are working on a project that has website, indicate the full url including "https://" below or leave it empty.
 website: https://sarabarbu.github.io/Images10k-compendium/ 
