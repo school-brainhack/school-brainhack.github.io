@@ -86,7 +86,7 @@ No significant difference between ADHD and Control group across these areas afte
 Even though I could not find significant difference for practice I would like to continue to investigate my second part of the project.
 I used machine learning methods to classify participants as ADHD or control. I used k-fold cross validation (k=5) to test my model.
 The cross validation accuracy across folds can be seen in following graph.
-	image: "KFold_ML.png"
+![KFold_ML](KFold_ML.png)
 
 ## Conclusion and acknowledgement
 
