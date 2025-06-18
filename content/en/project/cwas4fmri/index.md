@@ -54,10 +54,10 @@ This project uses the following tools and standards to ensure reproducibility, o
 - **Git & GitHub**: 
    - *Public repo*: Enables version control and promotes open-source, collaborative development of the library.
    - *GitHub Actions*: Implements automated testing and continuous integration to maintain code quality during development (Git Actions).
-- **BIDS Ecosystem**: Ensures compatibility with the BIDS standard, following the workflow of a BIDS App ([4](https://doi.org/10.1371/journal.pcbi.1005209)).
+- **BIDS Ecosystem**: Ensures compatibility with the BIDS standard, following the workflow of a BIDS App <sup>[4](https://doi.org/10.1371/journal.pcbi.1005209)</sup>.
     - For this package, we followed the [BEP-017 proposal](https://bids.neuroimaging.io/extensions/beps/bep_017.html)
 - **Python Packaging with uv**: Distributes the tool as an installable open-source Python library for easy integration and reuse.
-- Interactive documentation : Provides runnable examples directly on the website for users to test and explore.
+- Interactive documentation : Provides documentation and examples on the website.
    - **Jupyter Notebooks**
    - **Plots with Plotly**
    - **Website with MyST**
@@ -70,28 +70,28 @@ Local tests have been made base on [Giga-connectome outputs](https://giga-connec
 
 ### Deliverables
 
-1. Python scripts following the BIDS workflow
+1. Python scripts following the BIDS-App workflow
 2. A python package ready to be used available on [GitHub](https://github.com/brainhack-school2025/elkhantour_project)
-3. A public [GitHub repository]((https://github.com/brainhack-school2025/elkhantour_project)) with integration test
+3. A public [GitHub repository](https://github.com/brainhack-school2025/elkhantour_project) with integration test
 4. A [website](https://brainhack-school2025.github.io/elkhantour_project/) with interactive plots
 
 ## Results
 
 ### Progress overview
 
-During Brain Hack School 2025, I developed a functional and pip-installable Python package. I also set up a website with all the documentation you need to run the CWAS pipeline. This first version of the Python package is open to feedback and collaboration.
+During Brain Hack School 2025, I developed a functional and pip-installable Python package. I also set up a website with all the documentation you need to run the CWAS pipeline. This first version of the Python package is now open to feedback and collaboration.
 
 ### Tools I learned during this project
 
-- **Python scripts** : All original scripts were refactored into modular Python files. Jupyter Notebooks were removed to encourage reproducibility. Scripts are now organized by topic and function to improve readability and maintainability.
+- **Python scripts** : All original scripts were refactored into modular Python files. Scripts are now organized by topic and function to improve readability and maintainability.
 
-- **Git, GitHub & Testing with pytest** : This project introduced me to advanced GitHub features, including GitHub Actions for continuous integration. I learned to use `pytest` to write and integrate tests that ensure the pipeline remains functional after updates. I focused on building integration tests and generating toy datasets to support testing workflows.
+- **Git, GitHub & Testing with pytest** : This project introduced me to advanced GitHub features, including GitHub Actions for continuous integration. I learned to use `pytest` to write and integrate tests that ensure the pipeline remains functional after updates. 
 
-- **Python Packaging with uv** : I discovered `uv` during one of the BHS2025 modules in Montreal, and used it to build this package. Using uv allowed for a fast and efficient setup, simplifying dependency management and distribution.
+- **Python Packaging with uv** : I discovered `uv` during one of the BHS2025 modules in Montreal, and used it to build this package.
 
 - **BIDS Ecosystem** : This project helped me to understand the importance of the BIDS ecosystem and all the related BIDS-App. I discovered BIDS extension proposals (BEPs) such as those for derived data like connectivity matrices.
 
-- **Website with MyST** : I used MyST Markdown to build and publish a clean, structured documentation website. MyST made it easy to include interactive figures.
+- **Website with MyST** : I used MyST Markdown to build and publish a clean, structured documentation website.
 
 - **Plots with Plotly** : To create interactive visualizations, particularly for complex connectivity maps involving many brain regions.
 
@@ -155,7 +155,7 @@ To visualize the interactive figure, please see: https://brainhack-school2025.gi
 This project aims to:
 1. Promote __collaborative science__ through:
 - A public GitHub repository open to contributions
-- Continuous integration with GitHub Actions, which automatically run on new pull requests from external users
+- Continuous integration with GitHub Actions, which automatically run on new pull requests
 2. Ensure __reproductible pipeline and results__ by:
 - Providing a Python package that can be run with just three command-line commands
 - Following the BIDS standard for input organization, aligning with community efforts to standardize neuroimaging workflows
