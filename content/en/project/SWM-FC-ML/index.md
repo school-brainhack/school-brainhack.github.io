@@ -80,7 +80,7 @@ These images show mean functional connectivity across frontoparietal regions of 
 ![BrainSignDiff](BrainSignDiff.png)
 These images show significant differences between ADHD and control group across frontoparietall regions of the brain before FDR correction.
 
-	image: "FDRCorrected.png"
+![FDRCorrected](FDRCorrected.png)
 No significant difference between ADHD and Control group across these areas after FDR correction.
 
 Even though I could not find significant difference for practice I would like to continue to investigate my second part of the project.
