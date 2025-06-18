@@ -19,7 +19,7 @@ tags: [images, visualization, markdown, jupyter]
 
 # Summarize your project in < ~75 words. This description will appear at the top of your page and on the list page with other projects..
 
-summary: "A web-based tool for exploring visual datasets across real-world categories using carousels, tables, and interactive views.""
+summary: "A web-based tool for exploring visual datasets across real-world categories using carousels, tables, and interactive views."
 
 # If you want to add a cover image (listpage and image in the right), add it to your directory and indicate the name
 # below with the extension.
