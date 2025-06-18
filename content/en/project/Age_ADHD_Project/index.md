@@ -41,32 +41,34 @@ A promising development in EEG research is the use of artificial intelligence (A
 ### Tools
 
 The "project template" project will rely on the following technologies:
- * Markdown, to structure the text.
- * The Hugo website framework which is used by the BHS website. This makes it possible to easily add the markdown project description to the website.
- * Adding the project to the website relies on github, through pull requests.
-
+ * Python programming for signal processing and statistics: numpy, scipy, FOOOF
+ * R for implementing regression and Random Forest algorithms and visualization: caret, randomForest, ggplot2
+ * Jupyter notebooks + local laptops for teamwork collaboration, handling data and metadata
+ * Github for project management, collaboration and pull requests.
+   
 ### Data
 
-Ultimately, the project template will be used by all BHS participants. Data on the different projects will be aggregareted on the [following page](https://school.brainhackmtl.org/project). This will serve as an additional example gallery in the years to come for future brainhack school students. Many reports from [BHS 2019](https://github.com/mtl-brainhack-school-2019) already used this template.
+The data used in this project can be downloaded from https://brainclinics.com/resources/tdbrain-dataset/introduction/downloads upon creation of a BrainClinics account. The database was originally published by Van Dijk 2022 in Scientific Data. The dataset has since been reanalyzed in several publications. At this link, metadata, raw EEG data, and preprocessing pipeline was provided.
 
 ### Deliverables
 
-At the end of this project, we will have:
- - The current markdown document, completed and revised.
- - A gallery of the student projects at Brainhack 2020.
- - Instructions on the website about how to submit a pull request to the [brainhack school website](https://github.com/BrainhackMTL/school) in order to add the project description to the website.
-
+At the end of this project, we have:
+ - Workflows in Python
+ - Workflow in R
+ - Individual reports
+   
 ## Results
 
 ### Progress overview
 
-The project was swiftly initiated by P Bellec, based on the existing template created in 2019 by Tristan Glatard and improved by different students. It was really not that hard. Community feedback is expected to lead to rapid further improvements of this first version.
+The project was created by Ingrid Campbell and Amanda/TianYi Liu during Brainhack school 2025. This is the first version.
 
 ### Tools I learned during this project
 
  * **Meta-project** P Bellec learned how to do a meta project for the first time, which is developping a framework while using it at the same time. It felt really weird, but somehow quite fun as well.
  * **Github workflow-** The successful use of this template approach will demonstrate that it is possible to incorporate dozens of students presentation on a website collaboratively over a few weeks.
  * **Project content** Through the project reports generated using the template, it is possible to learn about what exactly the brainhack school students are working on.
+ * **Github collaboration** 
 
 ### Results
 
