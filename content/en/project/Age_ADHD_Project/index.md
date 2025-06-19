@@ -65,9 +65,10 @@ The project was created by Ingrid Campbell and Amanda/TianYi Liu during Brainhac
 
 ### Tools I learned during this project
 
- * **Meta-project** P Bellec learned how to do a meta project for the first time, which is developping a framework while using it at the same time. It felt really weird, but somehow quite fun as well.
- * **Github workflow-** The successful use of this template approach will demonstrate that it is possible to incorporate dozens of students presentation on a website collaboratively over a few weeks.
- * **Project content** Through the project reports generated using the template, it is possible to learn about what exactly the brainhack school students are working on.
+ * **Clinical EEG preprocessing and signal processing** Using signal processing techniques such as artifact detection and removal, epoching, power band feature extraction (of 2019 features from electrodes Fp1, Fp2, F3, F4, Fz, Cz, C3, C4), along with FOOOF, and data cleaning to handle missing data.
+ * **Meta data extrapolation** The meta data included demographics (age, gender, education), NEO-FFI personality data, behavioural measures, and treatment responses to ADHD and neurofeedback.
+ * **Feature selection** Using bootstrap validation to find the optimal number of features and top features to discriminate between age in participants with ADHD. Using random forest classifier
+ * **Age-dependent analysis** age group stratification then pattern visualization. Examining age and EEG correlations as well as random forest classification model performance.
  * **Github collaboration** 
 
 ### Results
@@ -80,7 +81,7 @@ You are currently reading the report template! I will let you judge whether it i
 
 There is not yet a project gallery, as BHS 2020 is the first edition that will incorporate it on the website. You can still check out the [2019 BHS github organization](https://github.com/mtl-brainhack-school-2019)
 
-##### ECG pupilometry pipeline by Marce Kauffmann
+##### EEG pupilometry pipeline by Marce Kauffmann
 
 The repository of this project can be found [here](https://github.com/mtl-brainhack-school-2019/ecg_pupillometry_pipeline_kaufmann). The objective was to create a processing pipeline for ECG and pupillometry data. The motivation behind this task is that Marcel's lab (MIST Lab @ Polytechnique Montreal) was conducting a Human-Robot-Interaction user study. The repo features:
  * a [video introduction](http://www.youtube.com/watch/8ZVCNeX42_A) to the project.
