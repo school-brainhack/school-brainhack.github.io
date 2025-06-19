@@ -33,7 +33,7 @@ image: "Normative brain age.png"
 We are a group of MSc students from the Institute of Medical Science at the University of Toronto, conducting our thesis research in collaboration with the Centre for Addiction and Mental Health (CAMH). Although our individual projects examine diverse aspects of mental health through various methodologies, we share a strong collective interest in advancing research in this field.
 
 #### Project background
-Normative brain age modelling is a technique that uses structural MRI (sMRI) data to estimate an individual’s brain age by comparing it to a normative reference group. The difference between predicted brain age and chronological age—known as the Brain Age Gap Estimate (BrainAGE),can provide insights into atypical brain aging or neurodegenerative risk. A number of open-access BrainAGE calculators have been developed, but they often differ in required input features, preprocessing steps, and anatomical atlases, making them difficult to use without specialized technical knowledge. This lack of standardization and unclear input requirements pose barriers to accessibility and reproducibility across studies.
+Normative brain age modelling is a technique that uses structural MRI (sMRI) data to estimate an individual’s brain age by comparing it to a normative reference group. The difference between predicted brain age and chronological age, known as the Brain Age Gap Estimate (BrainAGE),can provide insights into atypical brain aging or neurodegenerative risk. A number of open-access BrainAGE calculators have been developed, but they often differ in required input features, preprocessing steps, and anatomical atlases, making them difficult to use without specialized technical knowledge. This lack of standardization and unclear input requirements pose barriers to accessibility and reproducibility across studies.
 
 ### Tools
 
@@ -57,15 +57,12 @@ Our main deliverable is a publicly accessible GitHub repository housing all RMar
 
 ### Progress overview
 
-The final presentation of this project was delivered on May 30, 2025. All deliverables were addressed, and those that were successfully completed can be found on this repository.
-
-#### Challenges
-While key deliverables have been completed, some scripts still contain errors related to column matching and output formatting. These issues will require further debugging and refinement.
+The final presentation of this project was delivered on May 30, 2025. All planned deliverables were completed and are available in the project’s GitHub repository. All scripts have been tested with the HBN dataset and are running successfully. Initial issues related to column matching and output formatting have been resolved.
 
 ### Tools we learned during this project
 
 * Git & GitHub: Collaborating on RMarkdown scripts and resolving issues highlighted the critical role of Git. We gained hands-on experience using Git for version control and GitHub for team collaboration, particularly in troubleshooting and merging code.
-* Bash/Terminal: We developed proficiency in fundamental command-line operations (e.g., cd, ls, mkdir) for navigating directories, managing files, and organizing project outputs—skills essential for handling data and executing scripts efficiently.
+* Bash/Terminal: We developed proficiency in fundamental command-line operations (e.g., cd, ls, mkdir) for navigating directories, managing files, and organizing project outputs, which are skills essential for handling data and executing scripts efficiently.
 * R Programming: SFor some team members, this project was their first opportunity to use R extensively. It enabled us to learn and build skills in data wrangling, scripting, and applying R for more complex data manipulation and analysis within the project’s scope.
 
 ### Results
