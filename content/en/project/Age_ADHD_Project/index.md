@@ -73,13 +73,17 @@ The project was created by Ingrid Campbell and Amanda/TianYi Liu during Brainhac
 
 ### Results
 
-#### Deliverable 1: report template
+#### Deliverable 1: Develop age-dependent models to predict treatment responses across different age groups
 
-You are currently reading the report template! I will let you judge whether it is useful or not. If you think there is something that could be improved, please do not hesitate to open an issue [here](https://github.com/brainhack-school2020/project_template/issues) and let us know.
+To assess the age-specificity of EEG-based treatment response, we analyzed how age correlates with key EEG biomarkers and compared the relationships between ADHD treatment responders and non-responders. We found that older individuals (age range 36-55) with ADHD are significantly more likely to respond to neurofeedback treatment, responders (n=50) and non-responders (n=1). Youngest individuals (age range 6-17) had 14 responders and 40 non-responders. Middle aged individuals (age range 17-36) had 4 responders and 48 non-responders.
 
-#### Deliverable 2: project gallery
+#### Deliverable 2: Determine whether responders show distinct EEG signatures at different developmental stages
 
-There is not yet a project gallery, as BHS 2020 is the first edition that will incorporate it on the website. You can still check out the [2019 BHS github organization](https://github.com/mtl-brainhack-school-2019)
+By processing EEG data and machine learning models to identify the EEG signature of neurofeedback response across age development, we found that xyz showed distinct EEG signatures at a ___ developmental stage than older.
+
+#### Deliverable 3: project gallery
+
+There is a project gallery, apart of the BHS 2025 github and website. You can still check out the [2025 BHS github age_eeg_pattern](https://github.com/brainhack-school2025/age_eeg_pattern)
 
 ##### EEG pupilometry pipeline by Marce Kauffmann
 
