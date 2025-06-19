@@ -30,3 +30,13 @@ image: "_d_sub1_fmri_3d_isosurface.png"
 ## Project definition
 
 
+
+## Resources
+
+* [Project Proposal](https://docs.google.com/presentation/d/1vGJHJPePtFjPrpy33KGu-CJJTDCXfbNzGQ0N2v960NI/edit?slide=id.p#slide=id.p)
+* [Project Presentation](https://docs.google.com/presentation/d/1PdP6MeMdH7ZJHP-cQqaxqgrOz72qfQjf-hrqjtZ3Q7o/edit?usp=sharing)
+* [GitHub repository](https://github.com/brainhack-school2025/leclei_project)
+* [Reproduction steps](https://github.com/brainhack-school2025/leclei_project/blob/main/README.md#reproduction-steps)
+* [Analysis notebook](https://github.com/brainhack-school2025/leclei_project/blob/main/notebook.ipynb)
+* [Resulting figures](https://github.com/brainhack-school2025/leclei_project/tree/main/visuals)
+
