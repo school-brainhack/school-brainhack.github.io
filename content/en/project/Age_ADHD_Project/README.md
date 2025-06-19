@@ -1,4 +1,3 @@
-
 ---
 type: "project" # DON'T TOUCH THIS ! :)
 date: "2025-06-20" # Date you first upload your project.
