@@ -29,7 +29,27 @@ image: "_d_sub1_fmri_3d_isosurface.png"
 
 ## Project definition
 
+## Tools
 
+### Development
+- Visual Studio Code
+- Python
+- Jupyter notebooks
+- Git/GitHub
+
+### Containerization
+- Docker
+- Dev Containers
+- Docker Hub
+
+### Plotting
+- Matplotlib
+- Bokeh
+- Plotly
+
+### Neuroimaging
+- Nilearn
+- Nibabel
 
 ## Resources
 
