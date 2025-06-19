@@ -53,7 +53,8 @@ The dataset used is the **Pitt Corpus from DementiaBank**, employed in the ADReS
 - Metadata such as age, gender, condition, and MMSE scores.
 - Audios are from interviews of patients describig the "Cookie Theft Picture"
 
-image: "CookeTheftEnhance.png"
+![Link Name](./CookeTheftEnhance.png)
+
 ### Deliverables
 
 At the end of this project, we will have:
@@ -77,14 +78,14 @@ Our project demonstrated that acoustic features are critical for classifying Alz
 
 #### Classification
 
-image: "ClassifierResults.png"
+![Link Name](./ClassifierResults.png)
 
 - **Best model**: Logistic Regression with 79% accuracy.
 - **Key features**: Duration and number of pauses, MFCC, and spectral flux.
 
 #### Regression
 
-image: "R2Results.png"
+![Link Name](./R2Results.png)
 
 - **Best model**: SVM with R² of 0.32, MSE of 25.76, MAE of 3.82, and RMSE of 5.07.
 - **Key features**: Proportion of adverbs and nouns, text similarity score.
