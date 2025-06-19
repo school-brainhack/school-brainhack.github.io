@@ -1,6 +1,6 @@
 ---
 type: "project" # DON'T TOUCH THIS ! :)
-date: "2025-06-20" # Date you first upload your project.
+date: "2025-06-19" # Date you first upload your project.
 # Title of your project (we like creative title)
 title: "Age-Dependent EEG patterns for Predicting Treatment Response in ADHD"
 
