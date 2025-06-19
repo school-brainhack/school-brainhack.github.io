@@ -100,10 +100,10 @@ I explored 3 of the 5 annotations dataset and made a website with them. The webs
 Notes:
 - Some of the notebooks in my "analyses friends annotations" github contain more content then presented on the website.Some notebooks were also left out for now. They were left out because of narrative reasons and fit in the article (website).
 - As of 2025/06/18 there is some missing half-episode, notably episode that were cut in 4 parts. 
+
 ### Tools I learned during this project
 
  * **Tools listed above** I learned a lot during this past month and it thought me debugging. Myst gave me a hard time in the beginning but I figured it out eventually,
-
 
 
 ## Conclusion and acknowledgement
