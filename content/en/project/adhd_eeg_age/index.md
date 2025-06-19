@@ -19,7 +19,7 @@ tags: [adhd, eeg, age, prediction]
 
 # Summarize your project in < ~75 words. This description will appear at the top of your page and on the list page with other projects..
 
-summary: "This project investigates whether there are age-dependent EEG patterns for individuals with ADHD and whether these patterns can predict neurofeedback treatment response. Using the ADHD samples from TDBrain database (n=204), we developed a random forest model to characterize age-related EEG biomarkers and assess treatment prediction across different age groups. Our model achieved AUC=0.865, identifying key EEG signatures including theta-beta ratios and frontal low-frequency patterns that vary with age and treatment response.""
+summary: "This project investigates whether there are age-dependent EEG patterns for individuals with ADHD and whether these patterns can predict neurofeedback treatment response. Using the ADHD samples from TDBrain database (n=204), we developed a random forest model to characterize age-related EEG biomarkers and assess treatment prediction across different age groups. Our model achieved AUC=0.865, identifying key EEG signatures including theta-beta ratios and frontal low-frequency patterns that vary with age and treatment response."
 
 # If you want to add a cover image (listpage and image in the right), add it to your directory and indicate the name
 # below with the extension.
