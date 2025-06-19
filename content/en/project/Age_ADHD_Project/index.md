@@ -79,24 +79,20 @@ To assess the age-specificity of EEG-based treatment response, we analyzed how a
 
 #### Deliverable 2: Determine whether responders show distinct EEG signatures at different developmental stages
 
-By processing EEG data and machine learning models to identify the EEG signature of neurofeedback response across age development, we found that xyz showed distinct EEG signatures at a ___ developmental stage than older. The random forest model using bootstrapping validation had a strong predictive accuracy performance with AUC of 0.865 of discriminating between responders and non-responders. Interestingly, the random forest classifier identified age was one of the top most important features, along with delta frequency band at the frontal lobe electrodes, where patients with ADHD typically generate an abundance of low-frequency delta or theta brain waves.
+By processing EEG data and machine learning models to identify the EEG signature of neurofeedback response across age development, we found that central delta relative power, central-paretal center frequency, and age were among the top EEG features that showed distinct EEG signatures between developmental stages. The random forest model using bootstrapping validation had a strong predictive accuracy performance with AUC of 0.865 of discriminating between responders and non-responders. Interestingly, the random forest classifier identified age was one of the top-most important features, along with delta frequency band at the frontal lobe electrodes, where patients with ADHD typically generate an abundance of low-frequency delta or theta brain waves.
 
 #### Deliverable 3: project gallery
 
 There is a project gallery, apart of the BHS 2025 github and website. You can still check out the repository [2025 BHS github age_eeg_pattern](https://github.com/brainhack-school2025/age_eeg_pattern)
 
-The repository of this project can be found [here](https://github.com/mtl-brainhack-school-2019/ecg_pupillometry_pipeline_kaufmann). The objective was to create a processing pipeline for ECG and pupillometry data. The motivation behind this task is that Marcel's lab (MIST Lab @ Polytechnique Montreal) was conducting a Human-Robot-Interaction user study. The repo features:
- * a [video introduction](http://www.youtube.com/watch/8ZVCNeX42_A) to the project.
- * a presentation [made in a jupyter notebook](https://github.com/mtl-brainhack-school-2019/ecg_pupillometry_pipeline_kaufmann/blob/master/BrainHackPresentation.ipynb) on the results of the project.
+The repository of this project can be found [here](https://github.com/mtl-brainhack-school-2019/ecg_pupillometry_pipeline_kaufmann). The objective was to create a processing pipeline for EEG data. The motivation behind this task was to learn how to process EEG signals, develop AI tools to analyze and apply to a neurodevelopmental disorder. The repo features:
+ * analysis_code: for preprocessing data loading, data cleaning and EEG feature extraction, merging the meta data demographics with the EEG features, a preprocessing notebook for statistical analysis and creating age-grouped dataframes and running analyses, including the pipeline for running the random forest model, bootstrap validation and age-stratified analyses.
  * Notebooks for all analyses.
  * Detailed requirements files, making it easy for others to replicate the environment of the notebook.
- * An overview of the results in the markdown document.
+ * An overview of the results in the markdown document along with a report by Ingrid Campbell at https://github.com/school-brainhack/Age_ADHD_Project
 
-#### Deliverable 3: Instructions
 
- To be made available soon.
-
-## Conclusion and acknowledgement
+## Conclusion and Acknowledgement
 
 As the brain matures, brain frequencies measured by EEG are found to decrease, which is supported by literature[2](https://www.sciencedirect.com/science/article/abs/pii/S0167876008007459). Our results align with this as age was a topmost optimal feature: theta and delta bands are represented in the most important features that are age correlated.
 The dataset and preprocessing code can be found at the [Brainclinics Foundation](https://brainclinics.com/resources/tdbrain-dataset/introduction/downloads). The training modules for this project were provided by the [Brainhack School](https://school-brainhack.github.io/modules/).
