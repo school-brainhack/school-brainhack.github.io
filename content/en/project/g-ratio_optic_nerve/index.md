@@ -100,7 +100,87 @@ A supplementary critical part of the project was the analysis of a maximum proba
 * Jupyter Notebooks for data visualization and statistical metrics extraction
 
 ## Results
-Segmentation overlap metrics showed moderate agreement between manual segmentations with Dice coefficients of 0.4961 ± 0.1703 and 0.3958 ± 0.1234 for subjects 1 and 2, respectively. Mean g-ratio values ranged between 0.6 and 0.8 across the optic nerve ROIs. Registration involved rigid and affine steps to align DWI and MP2RAGE images, with a secondary rigid ROI-based correction to address initial misalignment. The maximum probability optic nerve atlas label was excluded due to low similarity with manual segmentations (Dice 15–20%).
+The first step of the pipeline was to register both MRI modalities to compute segmentation overlap. An initial misalignment was observed between the segmentations from the different modalities. To address this, a secondary region-of-interest (ROI) based registration was applied, improving alignment accuracy. The figure below illustrates this correction: red represents the MP2RAGE segmentation, green shows the initial DWI segmentation alignment, and blue depicts the DWI segmentation after ROI-based correction.
 
+![Segmentation Alignment](results/segmentation_alignment.png)
+
+Additionally, outlying values were identified near the edges of both manual segmentations. To ensure plausible values along the optic nerve, Regions of Interest (ROIs) were defined, as illustrated in the example figure below. 
+
+![Segmentation Alignment](results/optic_nerve_roi.png)
+
+### Segmentation Overlap Metrics Summary (whole optic nerve)
+Segmentation overlap metrics showed moderate agreement between manual segmentations with Dice coefficients of 0.4961 ± 0.1703 and 0.3958 ± 0.1234 for subjects 1 and 2, respectively.
+| Metric                          | Subject 1           | Subject 2           |
+|--------------------------------|---------------------|---------------------|
+| Number of slices analyzed       | 32                  | 22                  |
+| Dice coefficient (mean ± std)   | 0.4961 ± 0.1703     | 0.3958 ± 0.1234     |
+| Average overlapping voxels/slice| 20.8                | 19.0                |
+| T1 values inside overlap (mean ± std, s) | 0.99 ± 0.13        | 0.99 ± 0.17        |
+| FA values inside overlap (mean ± std) | 0.5886 ± 0.1408     | 0.4370 ± 0.1013     |
+| Mean MTVF (mean ± std)          | 0.2736 ± 0.0278     | 0.2751 ± 0.0338     |
+| Mean MVF (mean ± std)           | 0.1368 ± 0.0139     | 0.1375 ± 0.0169     |
+| Mean FVF (mean ± std)           | 0.3486 ± 0.1594     | 0.2154 ± 0.0680     |
+| Mean g-ratio (mean ± std)       | 0.7329 ± 0.1019     | 0.5781 ± 0.1614     |
+
+### Results – MVF, FVF & g-Ratio
+Plausibles results were obtained for regions of interest (ROIs) in the optic nerve, with calculated g-ratio values ranging between 0.6 and 0.8 for each subject. The calculated mean for each coronal slice includes both the right and the left optic nerves. 
+#### Subject 1
+
+![Subject 1 metrics](results/subject1_metrics.png)
+
+#### Subject 2
+
+![Subject 1 metrics](results/subject2_metrics.png)
 
 ## Conclusion and Acknowledgement
+### Can we visualize the g-ratio value along the optic nerve?
+Yes. Using the developed pipeline, we successfully mapped and visualized the g-ratio values along the optic nerve in a reproducible and non-invasive manner. This provides meaningful insight into myelin integrity and fiber composition in differents subjects.
+
+### Tools that I learned during this project
+* Python for data processing, scripting, and analysing
+* Jupyter Notebooks to organize and run interactive data workflows
+* ANTS (Advanced Normalization Tools) for medical image registration and transformation
+* Git and GitHub for version control and project collaboration
+* BIDS for standardization of the data structure
+
+### Encountered issues
+#### Atlas max probability optic nerve label
+The [max probability optic nerve label](data/derivatives/templates) was initialy used to assess whether manual segmentation was truly necessary, or if this atlas-based label could serve as an automated segmentation alternative. Howerver, the Dice coefficient between the overlapping regions of both manual segmentations and the maximum probability atlas label ranged only from 15% to 20%. Given this low similarity, the maximum probability label was excluded from further analysis.
+
+#### Registration issue
+As previously stated, two registrations issues were encountered. The first was related to the small size (~4-5 voxels wide) and the natural curvature of the optic nerve. Non-affine or elastic registrations tended to deform the optic nerve and create hole in the transformed manual segmentation masks. The second issue involved the alignment of the two manual segmentations: a single rigid registration resulted in an approximate one-slice offset. However, applying a second rigid registration using ROIs was able to correct this initial misalignment.
+
+#### MTVF vs MVF
+Initialy, it was assumed that myelin constitutes nearly 100% of the macromolecular content in white mater like the optic nerve. This assumption led to an overestimation of the Myelin Volume Fraction (MVF) by Macromolecular Tissue Volume Fraction (MTVF), resulting in non-plausible results such as more myelin than fiber. An litterature search revealed that myelin accounts for only 50% of the macromolecular content in white matter. With this correction, plausible values of g-ratio were acheived. 
+
+### Acknowledgement
+I would like to thank Nikola Stikov and Agah Karakuzu for their mentorship and expertise, as well as Bas Roker and Ameen Qadi from the Rokers Vision Laboratory in NYU Abu Dhabi. Special thanks also to Eva Alonso Ortiz and Sebastian Rios, the professor and teaching assistant of the course, for their guidance and support.  
+
+## References
+Ausmed. (2025, 01). How Does Multiple Sclerosis Affect the Body? | Ausmed. https://www.ausmed.com/learn/articles/multiple-sclerosis-nursing-care
+  
+Barranco Hernandez, J., Luyken, A., Kebiri, H., Stachs, P., Macias Gordaliza, P., Esteban, O., Aleman Gomez, Y., Sznitman, R., Stachs, O., Langner, S., Franceschiello, B., & Bach Cuadra, M. (2024). Eye-Opening Advances: Automated 3D Segmentation, Key Biomarkers Extraction, and the First Large-Scale MRI Eye Atlas. https://doi.org/10.1101/2024.08.15.608051
+  
+Brainhack School. (n.d.). Training modules. Retrieved June 19, 2025, from https://school-brainhack.github.io/modules/
+  
+Duval, T., Stikov, N., & Cohen-Adad, J. (2017). Modeling white matter microstructure. Functional Neurology, 31(4), 217–228. https://doi.org/10.11138/FNeur/2016.31.4.217
+
+Mezer, A., Yeatman, J. D., Stikov, N., Kay, K. N., Cho, N.-J., Dougherty, R. F., Perry, M. L., Parvizi, J., Hua, L. H., Butts-Pauly, K., & Wandell, B. A. (2013). Quantifying the local tissue volume and composition in individual brains with magnetic resonance imaging. Nature Medicine, 19(12), 1667–1672. https://doi.org/10.1038/nm.3390
+
+MS Canada. (2025, February 7). Prevalence and incidence of MS in Canada and around the world | MS Canada. https://mscanada.ca/ms-research/latest-research/prevalence-and-incidence-of-ms-in-canada-and-around-the-world
+
+MS Trust. (2024, 11). McDonald criteria | MS Trust. https://mstrust.org.uk/a-z/mcdonald-criteria
+
+Naghizadeh, Y. (2025). Naghizadeh_project. https://github.com/brainhack-school2025/Naghizadeh_project
+
+NeuroLibre. (n.d.). Retrieved June 19, 2025, from https://neurolibre.org
+
+qMRLab. (n.d.). Home | qMRLab. Retrieved June 19, 2025, from https://qmrlab.org/
+
+Rokers Vision Laboratory. (n.d.). Retrieved June 19, 2025, from https://sites.nyuad.nyu.edu/rokersvisionlaboratory/
+
+State University of New York College of Optometry. (2019, December 11). Scientists Discover the Origin of Brain Mapping Diversity for Eye Dominance [Video]. SciTechDaily. https://scitechdaily.com/scientists-discover-the-origin-of-brain-mapping-diversity-for-eye-dominance-video/
+
+Stikov, N., Campbell, J. S. W., Stroh, T., Lavelée, M., Frey, S., Novek, J., Nuara, S., Ho, M.-K., Bedell, B. J., Dougherty, R. F., Leppert, I. R., Boudreau, M., Narayanan, S., Duval, T., Cohen-Adad, J., Picard, P.-A., Gasecka, A., Côté, D., & Pike, G. B. (2015). In vivo histology of the myelin g-ratio with magnetic resonance imaging. NeuroImage, 118, 397–405. https://doi.org/10.1016/j.neuroimage.2015.05.023
+
+Stikov, N., Perry, L. M., Mezer, A., Rykhlevskaia, E., Wandell, B. A., Pauly, J. M., & Dougherty, R. F. (2011). Bound pool fractions complement diffusion measures to describe white matter micro and macrostructure. NeuroImage, 54(2), 1112–1121. https://doi.org/10.1016/j.neuroimage.2010.08.068
