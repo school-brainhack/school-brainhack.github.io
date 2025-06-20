@@ -19,7 +19,7 @@ tags: [MRI,Brain Tumor Detection,Faster R-CNN]
 
 # Summarize your project in < ~75 words. This description will appear at the top of your page and on the list page with other projects..
 
-summary: "This project presents a deep learning-based pipeline for detecting brain tumors in MRI scans using a customized Faster R-CNN architecture. Project reports are incorporated in the BHS (https://psy6983.brainhackmtl.org/project)."
+summary: "This project presents a deep learning-based pipeline for detecting brain tumors in MRI scans using a customized Faster R-CNN architecture. Project reports are incorporated in the BHS (https://school-brainhack.github.io/project/)."
 
 # If you want to add a cover image (listpage and image in the right), add it to your directory and indicate the name
 # below with the extension.
@@ -149,6 +149,13 @@ You can find jupyter notebooks of this project at my [github repository](https:/
 #### Deliverable 4: Results
 
 The proposed two-stage detection framework—based on Faster R-CNN with a False Positive Reduction (FPR) module—demonstrates improved performance in detecting brain tumors from 2D MRI slices. As illustrated in the sample detection images, the FPR model significantly reduces incorrect predictions while preserving true tumor regions.
+
+You can reproduce the same results using the trained models and the test dataset provided below:
+
+- 🔗 [Download Trained RPN Model](https://drive.google.com/file/d/1iPqb3YTeNqzJoRugJ3dnoX12j--7fUQL/view?usp=drive_link)
+- 🔗 [Download Trained FPR Model](https://drive.google.com/file/d/17LWiKsqqY1yS7Lt-3-oSTMNOY6rwHXpk/view?usp=drive_link)
+- 🔗 [Download Test Dataset](https://drive.google.com/file/d/17f-cPiNp7siLVVqyHkzZ8FMdZYfvR_yn/view?usp=drive_link)
+
 ![Results1](Result1.png)
 ![Results2](Results2.png)
 ![Results3](Results3.png)
