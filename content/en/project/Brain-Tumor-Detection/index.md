@@ -19,7 +19,7 @@ tags: [MRI,Brain Tumor Detection,Faster R-CNN]
 
 # Summarize your project in < ~75 words. This description will appear at the top of your page and on the list page with other projects..
 
-summary: "This project presents a deep learning-based pipeline for detecting brain tumors in MRI scans using a customized Faster R-CNN architecture. Project reports are incorporated in the BHS (https://school-brainhack.github.io/project/)."
+summary: "This project presents a deep learning-based pipeline for detecting brain tumors in MRI scans using a customized Faster R-CNN architecture."
 
 # If you want to add a cover image (listpage and image in the right), add it to your directory and indicate the name
 # below with the extension.
@@ -28,28 +28,14 @@ image: "brain_Tumor_image.jpg"
 <!-- This is an html comment and this won't appear in the rendered page. You are now editing the "content" area, the core of your description. Everything that you can do in markdown is allowed below. We added a couple of comments to guide your through documenting your progress. -->
 ---
 
-<a href="https://github.com/Amirzamani4096">
-   <img src="https://avatars.githubusercontent.com/u/84202242?v=4" width="100px;" alt=""/>
-   <br /><sub><b>Yadollah (Amir) Zamanidoost.</b></sub>
-</a>
-
-I'm Yadollah (Amir) Zamanidoost, a PhD student in Computer Engineering at Polytechnique Montréal. My research focuses on early-stage lung cancer detection using deep learning techniques on CT scan images. I’m passionate about applying AI in healthcare and excited to expand my skills in neural data science. I joined Brainhack School to learn new tools, collaborate with others, and explore how open science practices can support impactful research.
-
----
-# Brian Tumor Detection in MRI Using Faster R-CNN
-
 
 ## Project definition
 
-The goal of this project is to develop an automated and accurate brain tumor detection system using deep learning techniques. Leveraging the power of Faster R-CNN, the model detects tumors in MRI images by learning spatial features and distinguishing abnormal regions from healthy tissue. This tool is designed to assist radiologists by reducing diagnostic time and minimizing false positives.
 
 ### Background
 Brain tumors are among the most challenging medical conditions to detect and treat. Accurate identification of tumor regions in MRI scans is crucial for diagnosis, surgical planning, and treatment monitoring. Traditional methods rely heavily on expert interpretation, which can be time-consuming and prone to inter-observer variability. Deep learning approaches, especially object detection frameworks like Faster R-CNN, offer a promising alternative by automating tumor localization and classification. In this project, we enhance the classical Faster R-CNN pipeline with a false positive reduction (FPR) stage to improve robustness and reliability.
 ![Framework Overview](overall_framework.png)
 
-### Objective
-
-The main objective of this project is to accurately detect brain tumors in MRI scans using the Faster R-CNN object detection framework. By leveraging deep convolutional neural networks, this project aims to enhance early diagnosis and assist medical professionals in identifying tumor regions with high precision.
 
 ### Tools
 
@@ -75,7 +61,7 @@ This project uses publicly available datasets containing 2D T1-weighted contrast
 
 All images were preprocessed and annotated for object detection tasks by converting segmentation masks into bounding box labels.
 
-### Deliverables
+### Project Deliverables
 
 At the end of this project, the following materials will be available:
 
@@ -91,6 +77,7 @@ At the end of this project, the following materials will be available:
 ### Progress Overview
 
 The Faster R-CNN model demonstrates strong localization capability in detecting brain tumors from MRI scans, even with limited annotated data for training. Our custom RPN training and false positive reduction significantly improved precision without sacrificing recall.
+![Results1](Result1.png)
 
 ### Tools I Learned During This Project
 
@@ -112,57 +99,35 @@ Throughout this project, I gained hands-on experience with several essential too
 
 - **Jupyter Notebooks** – for training, evaluation, and presenting visual results step-by-step
 
-### Results
 
-#### Deliverable 1: Introduction Slides
- You can find the introduction slides of this project [here](Zamanidoost_final_Presentation.pdf)
+### Deliverables
+- Developed a two-stage Faster R-CNN + FPR framework for brain tumor detection.
 
-#### Deliverable 2: Jupyter Notebooks
-You can find jupyter notebooks of this project at my [github repository](https://github.com/brainhack-school2025/Zamanidoost_project)
+- Trained and evaluated models using publicly available MRI data.
 
-#### Deliverable 3: Instructions
-   
-1. **Install Required Libraries**  
-   Before running the notebooks, install all required libraries [`requirements.txt`](requirements.txt)
+- Provided Jupyter notebooks for data prep, model training, inference, and evaluation.
 
-2. **Data Acquisition & Tumor Size Analysis**  
-   Refer to [`Data_Acquisition.ipynb`](Data_Acquisition.ipynb) for organizing the datasets and analyzing tumor size.
+- Shared trained models and test dataset via Google Drive for reproducibility.
 
-3. **Preparing Data for Training and Testing**  
-   Use [`Create_Input_Data.ipynb`](Create_Input_Data.ipynb) to generate structured datasets for the RPN model.
+- Created a slide presentation summarizing the project and results.
 
-4. **Region Proposal Network (RPN) - Training**  
-   Train the RPN model using [`RPN_Training_Model.ipynb`](RPN_Training_Model.ipynb), which extracts candidate regions.
+### Future work
 
-5. **RPN Inference and Evaluation**  
-   Use [`RPN_Test_Results.ipynb`](RPN_Test_Results.ipynb) to evaluate the performance of the RPN model.
+Optimizing the anchor shape using metaheuristic algorithms
 
-6. **FPR Dataset Creation**  
-   Generate patches for false positive reduction training using [`patches.ipynb`](patches.ipynb).
-
-7. **False Positive Reduction (FPR) Model - Training**  
-   Train the FPR classification model using [`FPR_Training_model.ipynb`](FPR_Training_model.ipynb) to refine RPN outputs.
-
-8. **Final Inference and Results**  
-   Run [`RPN_FPR_Test_Results.ipynb`](RPN_FPR_Test_Results.ipynb) to obtain and visualize the final tumor detection results after combining RPN and FPR outputs.
-
-#### Deliverable 4: Results
-
-The proposed two-stage detection framework—based on Faster R-CNN with a False Positive Reduction (FPR) module—demonstrates improved performance in detecting brain tumors from 2D MRI slices. As illustrated in the sample detection images, the FPR model significantly reduces incorrect predictions while preserving true tumor regions.
-
-You can reproduce the same results using the trained models and the test dataset provided below:
-
-- 🔗 [Download Trained RPN Model](https://drive.google.com/file/d/1iPqb3YTeNqzJoRugJ3dnoX12j--7fUQL/view?usp=drive_link)
-- 🔗 [Download Trained FPR Model](https://drive.google.com/file/d/17LWiKsqqY1yS7Lt-3-oSTMNOY6rwHXpk/view?usp=drive_link)
-- 🔗 [Download Test Dataset](https://drive.google.com/file/d/17f-cPiNp7siLVVqyHkzZ8FMdZYfvR_yn/view?usp=drive_link)
-
-![Results1](Result1.png)
-![Results2](Results2.png)
-![Results3](Results3.png)
 
 ## Conclusion and acknowledgement
 
 This project presents a two-stage deep learning pipeline for accurate brain tumor detection in MRI images, combining the Faster R-CNN architecture with a False Positive Reduction (FPR) model. Through fine-tuning and evaluation on open-access datasets, the system achieves promising detection performance, with enhanced precision and reduced false positives.
 
 Many thanks to the BrainHack School Professor ([Dr. Eva Alonso Ortiz](https://neuro.polymtl.ca/team/faculty/eva-alonso-ortiz.html)), TA (Sebastian Rios), instructors, and fellow participants for their support, feedback, and inspiration throughout this project.
+
+## References
+[1] Brain Tumor Segmentation Dataset (Kaggle version). https://www.kaggle.com/datasets/navoneel/brain-mri-images-for-brain-tumor-detection
+[2] Cheng, J. (2017). Brain Tumor Dataset. Figshare. https://figshare.com/articles/dataset/brain_tumor_dataset/1512427
+[3] Bhanothu Y, Kamalakannan A, Rajamanickam G. Detection and classification of brain tumor in MRI images using deep convolutional network. In2020 6th international conference on advanced computing and communication systems (ICACCS) 2020 Mar 6 (pp. 248-252). IEEE.
+[4] Ezhilarasi R, Varalakshmi P. Tumor detection in the brain using faster R-CNN. In2018 2nd International Conference on, 2018 2nd International Conference on 2018 Aug 30 (pp. 388-392). IEEE.
+[5] Zamanidoost Y, Alami-Chentoufi N, Ould-Bachir T, Martel S. Efficient Region Proposal Extraction of Small Lung Nodules Using Enhanced VGG16 Network Model. In2023 IEEE 36th International Symposium on Computer-Based Medical Systems (CBMS) 2023 Jun 22 (pp. 483-488). IEEE.
+
+
 
