@@ -45,7 +45,7 @@ The goal of this project is to develop an automated and accurate brain tumor det
 
 ### Background
 Brain tumors are among the most challenging medical conditions to detect and treat. Accurate identification of tumor regions in MRI scans is crucial for diagnosis, surgical planning, and treatment monitoring. Traditional methods rely heavily on expert interpretation, which can be time-consuming and prone to inter-observer variability. Deep learning approaches, especially object detection frameworks like Faster R-CNN, offer a promising alternative by automating tumor localization and classification. In this project, we enhance the classical Faster R-CNN pipeline with a false positive reduction (FPR) stage to improve robustness and reliability.
-![Framework Overview](Images/overall_framework.png)
+![Framework Overview](overall_framework.png)
 
 ### Objective
 
@@ -115,10 +115,10 @@ Throughout this project, I gained hands-on experience with several essential too
 ### Results
 
 #### Deliverable 1: Introduction Slides
- You can find the introduction slides of this project [here](Slides/Zamanidoost_final_Presentation.pdf)
+ You can find the introduction slides of this project [here](Zamanidoost_final_Presentation.pdf)
 
 #### Deliverable 2: Jupyter Notebooks
-You can find jupyter notebooks of this project at my [github repository](https://github.com/Amirzamani4096/Zamanidoost_project)
+You can find jupyter notebooks of this project at my [github repository](https://github.com/brainhack-school2025/Zamanidoost_project)
 
 #### Deliverable 3: Instructions
    
@@ -126,32 +126,32 @@ You can find jupyter notebooks of this project at my [github repository](https:/
    Before running the notebooks, install all required libraries [`requirements.txt`](requirements.txt)
 
 2. **Data Acquisition & Tumor Size Analysis**  
-   Refer to [`Data_Acquisition.ipynb`](Data/Data_Acquisition.ipynb) for organizing the datasets and analyzing tumor size.
+   Refer to [`Data_Acquisition.ipynb`](Data_Acquisition.ipynb) for organizing the datasets and analyzing tumor size.
 
 3. **Preparing Data for Training and Testing**  
-   Use [`Create_Input_Data.ipynb`](Data/Create_Input_Data.ipynb) to generate structured datasets for the RPN model.
+   Use [`Create_Input_Data.ipynb`](Create_Input_Data.ipynb) to generate structured datasets for the RPN model.
 
 4. **Region Proposal Network (RPN) - Training**  
-   Train the RPN model using [`RPN_Training_Model.ipynb`](RPN_model/RPN_Training_Model.ipynb), which extracts candidate regions.
+   Train the RPN model using [`RPN_Training_Model.ipynb`](RPN_Training_Model.ipynb), which extracts candidate regions.
 
 5. **RPN Inference and Evaluation**  
-   Use [`RPN_Test_Results.ipynb`](Results/RPN_Test_Results.ipynb) to evaluate the performance of the RPN model.
+   Use [`RPN_Test_Results.ipynb`](RPN_Test_Results.ipynb) to evaluate the performance of the RPN model.
 
 6. **FPR Dataset Creation**  
-   Generate patches for false positive reduction training using [`patches.ipynb`](FPR_model/patches.ipynb).
+   Generate patches for false positive reduction training using [`patches.ipynb`](patches.ipynb).
 
 7. **False Positive Reduction (FPR) Model - Training**  
-   Train the FPR classification model using [`FPR_Training_model.ipynb`](FPR_model/FPR_Training_model.ipynb) to refine RPN outputs.
+   Train the FPR classification model using [`FPR_Training_model.ipynb`](FPR_Training_model.ipynb) to refine RPN outputs.
 
 8. **Final Inference and Results**  
-   Run [`RPN_FPR_Test_Results.ipynb`](Results/RPN_FPR_Test_Results.ipynb) to obtain and visualize the final tumor detection results after combining RPN and FPR outputs.
+   Run [`RPN_FPR_Test_Results.ipynb`](RPN_FPR_Test_Results.ipynb) to obtain and visualize the final tumor detection results after combining RPN and FPR outputs.
 
 #### Deliverable 4: Results
 
 The proposed two-stage detection framework—based on Faster R-CNN with a False Positive Reduction (FPR) module—demonstrates improved performance in detecting brain tumors from 2D MRI slices. As illustrated in the sample detection images, the FPR model significantly reduces incorrect predictions while preserving true tumor regions.
-![Results1](Results/Result1.png)
-![Results2](Results/Results2.png)
-![Results3](Results/Results3.png)
+![Results1](Result1.png)
+![Results2](Results2.png)
+![Results3](Results3.png)
 
 ## Conclusion and acknowledgement
 
