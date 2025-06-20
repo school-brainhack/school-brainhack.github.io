@@ -124,9 +124,13 @@ Many thanks to the BrainHack School Professor ([Dr. Eva Alonso Ortiz](https://ne
 
 ## References
 [1] Brain Tumor Segmentation Dataset (Kaggle version). https://www.kaggle.com/datasets/navoneel/brain-mri-images-for-brain-tumor-detection
+
 [2] Cheng, J. (2017). Brain Tumor Dataset. Figshare. https://figshare.com/articles/dataset/brain_tumor_dataset/1512427
+
 [3] Bhanothu Y, Kamalakannan A, Rajamanickam G. Detection and classification of brain tumor in MRI images using deep convolutional network. In2020 6th international conference on advanced computing and communication systems (ICACCS) 2020 Mar 6 (pp. 248-252). IEEE.
+
 [4] Ezhilarasi R, Varalakshmi P. Tumor detection in the brain using faster R-CNN. In2018 2nd International Conference on, 2018 2nd International Conference on 2018 Aug 30 (pp. 388-392). IEEE.
+
 [5] Zamanidoost Y, Alami-Chentoufi N, Ould-Bachir T, Martel S. Efficient Region Proposal Extraction of Small Lung Nodules Using Enhanced VGG16 Network Model. In2023 IEEE 36th International Symposium on Computer-Based Medical Systems (CBMS) 2023 Jun 22 (pp. 483-488). IEEE.
 
 
