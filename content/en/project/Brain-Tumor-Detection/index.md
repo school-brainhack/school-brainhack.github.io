@@ -8,7 +8,7 @@ title: "Brian Tumor Detection in MRI Using Faster R-CNN"
 names: [Yadollah (Amir) Zamanidoost]
 
 # Your project GitHub repository URL
-github_repo: https://github.com/Amirzamani4096/Zamanidoost_project
+github_repo: https://github.com/brainhack-school2025/Zamanidoost_project
 
 # If you are working on a project that has website, indicate the full url including "https://" below or leave it empty.
 website:
