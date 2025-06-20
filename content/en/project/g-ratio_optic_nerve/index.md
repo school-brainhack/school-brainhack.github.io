@@ -102,11 +102,11 @@ A supplementary critical part of the project was the analysis of a maximum proba
 ## Results
 The first step of the pipeline was to register both MRI modalities to compute segmentation overlap. An initial misalignment was observed between the segmentations from the different modalities. To address this, a secondary region-of-interest (ROI) based registration was applied, improving alignment accuracy. The figure below illustrates this correction: red represents the MP2RAGE segmentation, green shows the initial DWI segmentation alignment, and blue depicts the DWI segmentation after ROI-based correction.
 
-![Segmentation Alignment](results/segmentation_alignment.png)
+![Segmentation Alignment](segmentation_alignment.png)
 
 Additionally, outlying values were identified near the edges of both manual segmentations. To ensure plausible values along the optic nerve, Regions of Interest (ROIs) were defined, as illustrated in the example figure below. 
 
-![Segmentation Alignment](results/optic_nerve_roi.png)
+![Segmentation Alignment](optic_nerve_roi.png)
 
 ### Segmentation Overlap Metrics Summary (whole optic nerve)
 Segmentation overlap metrics showed moderate agreement between manual segmentations with Dice coefficients of 0.4961 ± 0.1703 and 0.3958 ± 0.1234 for subjects 1 and 2, respectively.
@@ -126,11 +126,11 @@ Segmentation overlap metrics showed moderate agreement between manual segmentati
 Plausibles results were obtained for regions of interest (ROIs) in the optic nerve, with calculated g-ratio values ranging between 0.6 and 0.8 for each subject. The calculated mean for each coronal slice includes both the right and the left optic nerves. 
 #### Subject 1
 
-![Subject 1 metrics](results/subject1_metrics.png)
+![Subject 1 metrics](subject1_metrics.png)
 
 #### Subject 2
 
-![Subject 1 metrics](results/subject2_metrics.png)
+![Subject 1 metrics](subject2_metrics.png)
 
 ## Conclusion and Acknowledgement
 ### Can we visualize the g-ratio value along the optic nerve?
@@ -145,7 +145,7 @@ Yes. Using the developed pipeline, we successfully mapped and visualized the g-r
 
 ### Encountered issues
 #### Atlas max probability optic nerve label
-The [max probability optic nerve label](data/derivatives/templates) was initialy used to assess whether manual segmentation was truly necessary, or if this atlas-based label could serve as an automated segmentation alternative. Howerver, the Dice coefficient between the overlapping regions of both manual segmentations and the maximum probability atlas label ranged only from 15% to 20%. Given this low similarity, the maximum probability label was excluded from further analysis.
+The max probability optic nerve label was initialy used to assess whether manual segmentation was truly necessary, or if this atlas-based label could serve as an automated segmentation alternative. Howerver, the Dice coefficient between the overlapping regions of both manual segmentations and the maximum probability atlas label ranged only from 15% to 20%. Given this low similarity, the maximum probability label was excluded from further analysis.
 
 #### Registration issue
 As previously stated, two registrations issues were encountered. The first was related to the small size (~4-5 voxels wide) and the natural curvature of the optic nerve. Non-affine or elastic registrations tended to deform the optic nerve and create hole in the transformed manual segmentation masks. The second issue involved the alignment of the two manual segmentations: a single rigid registration resulted in an approximate one-slice offset. However, applying a second rigid registration using ROIs was able to correct this initial misalignment.
