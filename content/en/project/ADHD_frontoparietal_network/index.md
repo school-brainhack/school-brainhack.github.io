@@ -5,7 +5,7 @@ date: "2025-06-15" # Date you first upload your project.
 title: "Analysing Variability in Frontoparietal Activity in Children with and without ADHD"
 
 # Name of the collaborator
-name: [Hu Ding Xuan]
+names: [Hu Ding Xuan]
 
 # Your project GitHub repository URL
 github_repo: https://github.com/nauxgnid/hu_project
