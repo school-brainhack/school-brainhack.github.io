@@ -13,6 +13,8 @@ github_repo: https://github.com/nauxgnid/hu_project
 # If you are working on a project that has website, indicate the full url including "https://" below or leave it empty.
 website:
 
+image: "sub-8150_run-02_rdlpfc_seed_map.png"
+
 # List +- 4 keywords that best describe your project within []. Note that the project summary also involves a number of key words. Those are listed on top of the [github repository](https://github.com/PSY6983-2021/project_template), click `manage topics`.
 # Please only lowercase letters
 tags: [adhd, fmri, connectivity, differences]
