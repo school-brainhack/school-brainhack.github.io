@@ -19,7 +19,7 @@ tags: [project, github, website, friends]
 
 # Summarize your project in < ~75 words. This description will appear at the top of your page and on the list page with other projects..
 
-summary: "The main goal of this brainhack project and the website is to do basic statistical analyses to the friends annotations data and to present the results in the form of visualisations. These analyses will provide better context and information about the stimuli on different levels of analyse. Here is the github for the [website](https://github.com/cleode5a7/friends_compendium)."
+summary: "The main goal of this brainhack project and the website is to do basic statistical analyses to the friends annotations data and to present the results in the form of visualisations. These analyses will provide better context and information about the stimuli on different levels of analyses. Here is the github for the [website](https://github.com/cleode5a7/friends_compendium)."
 
 # If you want to add a cover image (listpage and image in the right), add it to your directory and indicate the name
 # below with the extension.
@@ -89,7 +89,9 @@ example of a plot:
 
 ## Results
 Check out my [website](https://cleode5a7.github.io/friends_compendium/) for the results of my analyses
+
 Package: available on my project's github
+
 Notebooks: Go to website or my website's github for the clean notebooks. For additional plots and extras, go see my notebooks on my project's github.
 
 ### Progress overview
@@ -98,18 +100,11 @@ I explored 3 of the 5 annotations dataset and made a website with them. The webs
 Notes:
 - Some of the notebooks in my "analyses friends annotations" github contain more content then presented on the website.Some notebooks were also left out for now. They were left out because of narrative reasons and fit in the article (website).
 - As of 2025/06/18 there is some missing half-episode, notably episode that were cut in 4 parts. 
+
 ### Tools I learned during this project
 
  * **Tools listed above** I learned a lot during this past month and it thought me debugging. Myst gave me a hard time in the beginning but I figured it out eventually,
 
-
-##### Other projects
-Here are other good examples of repositories:
-- [Learning to manipulate biosignals with python](https://github.com/mtl-brainhack-school-2019/franclespinas-biosignals) by François Lespinasse
-- [Run multivariate anaylysis to relate behavioral and electropyhysiological data](https://github.com/mtl-brainhack-school-2019/PLS_PV_Behaviour)
-- [PET pipeline automation and structural MRI exploration](https://github.com/mtl-brainhack-school-2019/rwickens-sMRI-PET) by Rebekah Wickens
-- [Working with PSG [EEG] data from Parkinson's patients](https://github.com/mtl-brainhack-school-2019/Soraya-sleep-data-in-PD-patients) by Cryomatrix
-- [Exploring Brain Functional Activation in Adolescents Who Attempted Suicide](https://github.com/mtl-brainhack-school-2019/Anthony-Gifuni-repo) by Anthony Gifuni
 
 ## Conclusion and acknowledgement
 
