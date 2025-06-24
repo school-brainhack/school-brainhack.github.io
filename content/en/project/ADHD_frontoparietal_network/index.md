@@ -23,6 +23,7 @@ tags: [adhd, fmri, connectivity, differences]
 
 summary: "This study examines dorsolateral prefrontal cortex (dlPFC) and posterior parietal cortex (PPC) connectivity and dlPFC BOLD time series in ADHD versus typically developing (TD) children during the cued stop-signal task (CSST) using fMRI data from OpenNeuro ds005899. It is hypothesised that stronger dlPFC-PPC connectivity will be found in the ADHD group."
 
+image: "content/en/project/ADHD_frontoparietal_network/rdlpfc_timeseries_run-01.png"
 ---
 <!-- This is an html comment and this won't appear in the rendered page. You are now editing the "content" area, the core of your description. Everything that you can do in markdown is allowed below. We added a couple of comments to guide your through documenting your progress. -->
 
