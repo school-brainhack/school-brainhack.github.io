@@ -2,5 +2,8 @@
 /resources/
 .hugo_build.lock
 
+# vim users bewark
+*.swp
+
 #DS_Store
 .DS_Store
