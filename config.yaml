@@ -111,7 +111,6 @@ languages:
       defaultDescription: Brainhack School
       facebook_site: ''
       twitter_site: ''
-      default_sharing_image: img/brainhackSchool.jpg
       googleMapsApiKey:
       style: green
       email:
@@ -188,4 +187,6 @@ markup:
 
 disqusShortname: ''
 googleAnalytics: ''
-paginate: 10
+pagination:
+  pagerSize: 10
+
