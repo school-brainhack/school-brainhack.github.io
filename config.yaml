@@ -61,6 +61,9 @@ languages:
           name: Dev Docs
           url: https://school-brainhack.readthedocs.io
         - parent: past
+          name: 2025
+          url: https://2025-school-brainhack.github.io/
+        - parent: past
           name: 2024
           url: https://2024-school-brainhack.github.io/
         - parent: past
@@ -118,7 +121,7 @@ languages:
       contact_form_ajax: false
       about_us: >-
         <p>Fundamentals and project in neural data science.</p>
-      copyright: 'Copyright (c) 2025, BrainHack School; all rights reserved.'
+      copyright: 'Copyright (c) 2026, BrainHack School; all rights reserved.'
       date_format: 'January 2, 2006'
       logo: img/logo_brainhack_2025.png
       logo_small: img/logo-small_2025.png

@@ -250,6 +250,7 @@ No manual deployment steps needed — merge to `main` and the site updates withi
 
 | Year | URL |
 |---|---|
+| 2025 | https://2025-school-brainhack.github.io/ |
 | 2024 | https://2024-school-brainhack.github.io/ |
 | 2022 | https://2022-school-brainhack.github.io/ |
 | 2021 | https://psy6983.brainhackmtl.org/ |

@@ -34,23 +34,29 @@
 
           <div class="row">
 
-            {{ if eq .imgside "left" }}
-            <div class="col-sm-5">
-              {{ if .buttonurl }}<a href="{{ .buttonurl }}">{{end}}<img class="thumbnail img-responsive" width="100%" src="{{ (printf "img/%s" .img) | absURL }}" alt="{{ .imgalttext }}"> {{if .buttonurl}} </a> {{end}}
-                      </div>
-                        <div class="col-sm-7">
-                          {{ with .description }}{{ . | markdownify | emojify }}{{ end }}
-                          {{ with .buttonurl }}<a href="{{ . }}" class="btn btn-menu btn-outline-primary">{{end}}{{ with .buttondescr }}{{ . | markdownify | emojify }}{{end}} {{if .buttonurl}}<i class="fa fa-angle-right" alt="right arrow" aria-hidden="true"></i></a>{{end}}
-                        </div>
-                        {{ end }}
-                        {{ if eq .imgside "right" }}
-                        <div class="col-sm-7">
-                          {{ with .description }}{{ . | markdownify | emojify }}{{ end }}
-                        </div>
-                        <div class="col-sm-5">
-                          {{ if .buttonurl }}<a href="{{ .buttonurl }}">{{end}}<img class="thumbnail img-responsive" width="100%" src="{{ (printf "img/%s" .img) | absURL }}" alt="{{ .imgalttext }}"> {{if .buttonurl}} </a> {{end}}
-                        </div>
-                        {{ end }}
+            {{ if .img }}
+              {{ if eq .imgside "left" }}
+              <div class="col-sm-5">
+                {{ if .buttonurl }}<a href="{{ .buttonurl }}">{{end}}<img class="thumbnail img-responsive" width="100%" src="{{ (printf "img/%s" .img) | absURL }}" alt="{{ .imgalttext }}">{{if .buttonurl}}</a>{{end}}
+              </div>
+              <div class="col-sm-7">
+                {{ with .description }}{{ . | markdownify | emojify }}{{ end }}
+                {{ with .buttonurl }}<a href="{{ . }}" class="btn btn-menu btn-outline-primary">{{end}}{{ with .buttondescr }}{{ . | markdownify | emojify }}{{end}}{{if .buttonurl}}<i class="fa fa-angle-right" alt="right arrow" aria-hidden="true"></i></a>{{end}}
+              </div>
+              {{ else }}
+              <div class="col-sm-7">
+                {{ with .description }}{{ . | markdownify | emojify }}{{ end }}
+              </div>
+              <div class="col-sm-5">
+                {{ if .buttonurl }}<a href="{{ .buttonurl }}">{{end}}<img class="thumbnail img-responsive" width="100%" src="{{ (printf "img/%s" .img) | absURL }}" alt="{{ .imgalttext }}">{{if .buttonurl}}</a>{{end}}
+              </div>
+              {{ end }}
+            {{ else }}
+            <div class="col-sm-12">
+              {{ with .description }}{{ . | markdownify | emojify }}{{ end }}
+              {{ with .buttonurl }}<a href="{{ . }}" class="btn btn-menu btn-outline-primary">{{end}}{{ with .buttondescr }}{{ . | markdownify | emojify }}{{end}}{{if .buttonurl}}<i class="fa fa-angle-right" alt="right arrow" aria-hidden="true"></i></a>{{end}}
+            </div>
+            {{ end }}
                       </div>
                       {{ end }}
 
