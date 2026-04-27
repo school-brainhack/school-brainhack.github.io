@@ -22,10 +22,10 @@ image: "polytechnique.jpeg"
 ---
 
 ## Dates
-This site will be active from May 19th to June 13th, although the final project reports will be accepted until June 20th.
+This site will be active from May 19th to June 12th, although the final project reports will be accepted until June 19th.
 
 ## Location
-This course is orgnized by the [Neuropoly](https://neuro.polymtl.ca/) team at Polytechnique Montreal, under the supervision of Pr Eva Alonso Ortiz. The course will take place in room M-2110, in the Lassonde Lavillion, 2500 Chem. de Polytechnique, Montréal, QC H3T 1J4. 
+This course is orgnized by the [Neuropoly](https://neuro.polymtl.ca/) team at Polytechnique Montreal, under the supervision of Pr Eva Alonso Ortiz. The course will take place in room A-621, in the Main Lavillion, 2500 Chem. de Polytechnique, Montréal, QC H3T 1J4. 
 
 ## Expertise
 This site has expertise in magnetic resonance imaging, magnetic resonance physics, quantitative imaging, spinal cord imaging, and medical physics. 
@@ -39,7 +39,7 @@ Brainhack School is offered as a for-credit course at Polytechnique (GBM6332E). 
 Students from other universities such as McGill and Concordia are also welcome to register. They can generally get the course credited in their program (as an optional course). They will need to register for the course through the "bureau de coopération inter-universitaire".
 
 ## Schedule
-The school will run from Monday to Friday for four weeks (except for May 19th, which is a holiday). 
+The school will run from Monday to Friday for four weeks (except for May 18th, which is a holiday). 
 
 The course load requires working full day every day (9:30am-4:45pm), with a 1-hour lunch break (12pm-1pm). A brief 5-10 minute introduction to the week's acativities will be given at the start of each week, and two 1-hr TA blocks will be offered each day. 
 
