@@ -26,7 +26,7 @@ image: "git_github.png"
 
 ## Information
 
-The estimated time to complete this training module is 4h.
+The estimated time to complete this training module is 2h.
 
 The prerequisites to take this module are:
  * the [installation](/modules/installation) module.
@@ -34,67 +34,59 @@ The prerequisites to take this module are:
 
 If you have any questions regarding the module content please ask them in the relevant module channel on the school Discord server. If you do not have access to the server and would like to join, please send us an email at school.brainhack@gmail.com.
 
-## Resources
+## Module material
 
-This module was written by [Elizabeth Dupre](https://elizabeth-dupre.com/#/) and Jenny Tou.
+This module uses material created by Software Carpentry; specifically, their [git Novice](https://swcarpentry.github.io/git-novice/) lesson.
+While the full Software Carpentry lesson material covers a half-day of content, we only cover a subset of the episodes here.
+Specifically, we cover:
 
-Jenny Tou wrote the git concept module. She initially presented her workshops at Brigham and Women's Hospital in 2019. The video found here is a shortern version of the original presentation. Please contact Jenny for the complete presentation materials.
+1. Automated Version Control
+2. Setting Up Git
+3. Creating a Repository
+4. Tracking Changes
+7. Remotes in GitHub
+8. Collaborating
 
-[Elizabeth Dupre](https://elizabeth-dupre.com/#/) presented her material during the QLSC 612 course in 2020, with content adapted from the software carpentries by [Elizabeth Dupre](https://elizabeth-dupre.com/#/).
-
-All her tutorial notes are available [here](https://emdupre.github.io/git-course/).
-
-The video of her presentation is available below:
+A video of [Elizabeth DuPre](https://elizabeth-dupre.com/#/) presenting related material is available below:
 <iframe width="560" height="315" src="https://www.youtube.com/embed/fBgxmpk9C4I" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-## ATTENTION!
-For the last lecture of the Introduction to Git and GitHub module ([Pull Requests](https://emdupre.github.io/git-course/06-pull-requests/)) please use [this repo](https://github.com/brainhack-school2022/more-papers) under Brainhack School 2022 Github organization to complete the tutorial instead of the one indicated in the tutorial (due to it is no longer in use.). Thank you!
+## Additional resources
 
-Github authentication methods have changed! Please find the [latest documentation](https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/about-authentication-to-github).
+For students who are interested in learning more about git and GitHub, we highly recommend reviewing the full Software Carpentry lesson.
+Software Carpentry is also actively developing an [intermediate level git and GitHub lesson](https://carpentries-incubator.github.io/byte-sized-rse-git-intermediate/), for anyone hoping to dive deeper into git and GitHub practices.
 
-## Git Concept
-This is a 10 minutes walk through of basic git concepts for people who wants a refresher!
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/epFXYvPCrKU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ## Exercise
 
- * send a request at the "Using Git and Github" module post at the modules channels of Discord server by typing "@<user-handle-of-your-TA> please add my <github-user-name>" to the github organization." This will alert your local TA(s) to add you to the [school-brainhack](https://github.com/brainhack-school2024/) organization.
+ * send a request at the "Using Git and Github" module post at the modules channels of Discord server by typing "@<user-handle-of-your-TA> please add my <github-user-name>" to the github organization." This will alert your local TA(s) to add you to the [school-brainhack](https://github.com/brainhack-school2026/) organization.
  * create a new repository within the [school-brainhack](https://github.com/brainhack-school2024/) organization following the naming convention `<last_name>_project`. Don't worry, you will be able to change this name later, and possibly merge the content in another repository if you decide to team up with other people.
  * initialize your repo with a README and a LICENSE.
  * Create an issue for adding a short bio.
  * Using the command line, clone the repository locally to your computer.
- * Create a branch named after the issue, e.g. `iss1`.
  * Add a short bio to the README, including a picture of your github avatar. You can adapt the following snippet
  ```
- <a href="https://github.com/pbellec">
-    <img src="https://avatars.githubusercontent.com/u/1670887?v=4?s=100" width="100px;" alt=""/>
-    <br /><sub><b>Pierre bellec</b></sub>
- </a>
+<a href="https://github.com/lunebellec">
+   <img src="https://avatars.githubusercontent.com/u/1670887?v=4?s=100" width="100px;" alt=""/>
+   <br /><sub><b>Lune Bellec</b></sub>
+</a>
  ```
- This is a bit of html, which gets rendered in markdown documents. You will need to click on your profile picture to figure out what to replace `1670887` with the ID of your profile picture. Don't forget to replace `pbellec` by your github handle.
+ This is a bit of html, which gets rendered in markdown documents. You will need to click on your profile picture to figure out what to replace `1670887` with the ID of your profile picture. Don't forget to replace `lunebellec` by your github handle.
  * Using the command line, commit this change to your local repository. Make sure you registered your github user name and email address, so the commit is accurately credited to you when you push it on github.
- * Using the command line, push the branch and your changes to the github repository.
- * Using the github interface, open a new pull request with your changes. Use a descriptive name for the pull request, e.g. `iss1 - add bio`.
- * Using the github interface, link the issue to the pull request. Use a proper [linking keyword](https://docs.github.com/en/issues/tracking-your-work-with-issues/linking-a-pull-request-to-an-issue#linking-a-pull-request-to-an-issue-using-a-keyword), e.g. `closes #1`.
- * Using the github interface, request a review of your changes by your local TA (by choosing their github handle among the listed ones).
- * Once your local TA has approved the review, merge the pull request to the `main` branch.
- * Check that the issue was closed automatically when the pull request was merged.
+ * Using the command line, push your changes to the github repository.
+ * Using the github interface, mention your new commit in the existing issue.
+ * Using the github interface, tag your local TA (by choosing their github handle among the listed ones) in the existing issue.
  * Follow up with your local TA(s) to validate you completed the exercises correctly.
  * :tada: :tada: :tada: you completed this training module! :tada: :tada: :tada:
 
-## More resources
+## Even more resources
 
-[Here](https://learngitbranching.js.org/) is an interactive page to learn Git and visually observe how the branching works under version control.
+* For more detailed instructions please check [GitHub's resources](https://docs.github.com/en)
+* [The Turing Way](https://the-turing-way.netlify.app/collaboration/github-novice.html) discusses using for using GitHub for open research.
+* For common Mistakes and Experiences with using Git and Github: [dangitgit.com](https://dangitgit.com/)
+* Jenny Tou wrote a git concept module and initially presented her workshops at Brigham and Women's Hospital in 2019. The video found here is a shortern version of the original presentation ; please contact Jenny for the complete presentation materials.
+<iframe width="560" height="315" src="https://www.youtube.com/embed/epFXYvPCrKU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-For more detailed instructions please check [GitHub's resources](https://docs.github.com/en)
-
-Please also check [The Turing Way's guideline](https://the-turing-way.netlify.app/collaboration/github-novice.html) or [Mozilla GitHub documentation](https://mozilla.github.io/open-leadership-training-series/articles/get-your-project-online/introducing-github-for-collaborative-work-and-version-control/) for using GitHub for open research.
-
-For common Mistakes and Experiences with using Git and Github: [dangitgit.com](https://dangitgit.com/)
-
-
-
-If you are curious to learn more advanced capabilities for git, you can check this tutorial "Effective use of git" by Ankur Sinha organized for the [INCF/OCNS software working group](https://ocns.github.io/SoftwareWG/2021/06/09/software-wg-tutorials-at-cns-2021-online-bash-git-and-python.html).
-
+* If you are curious to learn more advanced capabilities for git, you can check this tutorial "Effective use of git" by Ankur Sinha organized for the [INCF/OCNS software working group](https://ocns.github.io/SoftwareWG/2021/06/09/software-wg-tutorials-at-cns-2021-online-bash-git-and-python.html).
 <iframe width="560" height="315" src="https://www.youtube.com/embed/CRCtRilX3NA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+* [Here](https://learngitbranching.js.org/) is an interactive page to learn Git and visually observe how the branching works under version control.
