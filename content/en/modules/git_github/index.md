@@ -59,7 +59,7 @@ Software Carpentry is also actively developing an [intermediate level git and Gi
 ## Exercise
 
  * send a request at the "Using Git and Github" module post at the modules channels of Discord server by typing "@<user-handle-of-your-TA> please add my <github-user-name>" to the github organization." This will alert your local TA(s) to add you to the [school-brainhack](https://github.com/brainhack-school2026/) organization.
- * create a new repository within the [school-brainhack](https://github.com/brainhack-school2024/) organization following the naming convention `<last_name>_project`. Don't worry, you will be able to change this name later, and possibly merge the content in another repository if you decide to team up with other people.
+ * create a new repository within the [school-brainhack](https://github.com/brainhack-school2026/) organization following the naming convention `<last_name>_project`. Don't worry, you will be able to change this name later, and possibly merge the content in another repository if you decide to team up with other people.
  * initialize your repo with a README and a LICENSE.
  * Create an issue for adding a short bio.
  * Using the command line, clone the repository locally to your computer.
