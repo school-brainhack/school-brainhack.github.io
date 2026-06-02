@@ -40,7 +40,7 @@ to the server and would like to join, please send us an email at school [dot] br
 This module is built around one Jupyter notebook and one set of exercises, all available in the [module repository](https://github.com/school-brainhack/module_python_visualization).
 
 ## Original lecture
-This module was presented by Jacob Vogel during the QLSC 612 course in 2020, and the associated notebook is available [here](https://github.com/neurodatascience/course-materials-2020/blob/master/lectures/14-may/01-data-visualization/python_visualization_for_data.ipynb). (Note: if you did the BIDS module, the dataset to download is the same - ds000228! A few functions now throw warnings, you can ignore these, or fix them if you like.)
+This module was first presented by Jacob Vogel during the QLSC 612 course in 2020, and the associated notebook is available [here](https://github.com/neurodatascience/course-materials-2020/blob/master/lectures/14-may/01-data-visualization/python_visualization_for_data.ipynb). (Note: if you did the BIDS module, the dataset to download is the same - ds000228! A few functions now throw warnings, you can ignore these, or fix them if you like.)
 
 The video of the presentation is available below (1h09):
 <iframe width="560" height="315" src="https://www.youtube.com/embed/lJyFWTT7sCY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
