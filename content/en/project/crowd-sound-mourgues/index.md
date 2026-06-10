@@ -15,7 +15,7 @@ summary: "An interactive and reproducible framework for organizing, visualizing,
 ### Background
 This project focuses on the organization, visualization, and exploration of crowd sound stimuli. Crowd vocalizations are widely used to investigate emotion perception, multisensory integration, and social behavior, but current crowd-audio stimuli are often custom-made, difficult to reproduce, poorly standardized, and limited in experimental control.
 
-The objective of this project is to develop an interactive and reproducible framework for exploring crowd sounds through parameter-based organization, audio visualization, and structured metadata. The system aims to support the comparison and analysis of auditory stimuli using spectrograms, waveforms, and acoustic parameter displays.
+The objective of this project is to develop an interactive and reproducible framework for exploring crowd sounds through automated feature extraction, dimensionality reduction, and statistical comparison between stimulus groups.
 
 The project organizes sounds according to several perceptual and acoustic dimensions, including temporal, dynamic, vocal, spectral, and spatial parameters. This framework is intended to facilitate the creation, organization, and reuse of auditory stimuli in experimental research contexts.
 
