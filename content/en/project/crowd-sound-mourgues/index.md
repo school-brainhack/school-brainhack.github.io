@@ -34,8 +34,8 @@ This project relied on numerous tools such as:
 
 ### Data
 The dataset includes 52 crowd sound stimuli (~1.5s each), divided into two groups:
-- **Group A** — 26 sounds
-- **Group J** — 26 sounds
+- **Group A** - 26 sounds
+- **Group J** - 26 sounds
 
 Features extracted per sound using librosa:
 - total duration
