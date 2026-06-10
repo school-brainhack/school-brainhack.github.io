@@ -47,8 +47,8 @@ Features extracted per sound using librosa:
 ### Project deliverables
 At the end of this project, these files will be made available:
 - Reproducible feature extraction pipeline with JSON outputs per sound
-- Static visualization notebook — boxplots, PCA, K-Means
-- Interactive exploration notebook — UMAP, waveform, spectrogram, audio playback, statistical comparison
+- Static visualization notebook - boxplots, PCA, K-Means
+- Interactive exploration notebook - UMAP, waveform, spectrogram, audio playback, statistical comparison
 - Jupyter Book site deployed on GitHub Pages
 - Structured GitHub repository (MIT license, v1.0.0)
 - Binder environment for fully reproducible execution
@@ -70,30 +70,30 @@ At the end of this project, these files will be made available:
 
 *Each point represents one sound, colored by group (A vs J). PCA and UMAP reduce the 13 MFCC coefficients to 2 dimensions for visualization.*
 
-##### Figure 3. Statistical comparison — Group A vs Group J
+##### Figure 3. Statistical comparison - Group A vs Group J
 
 ![Boxplots](interactive_boxplots.png)
 
 *Boxplots of acoustic features by group. F0 (p=0.0001***) and spectral centroid (p=0.047*) show significant differences between groups.*
 
 ### Tools I learned during this project
-- **librosa** — audio signal processing and feature extraction
-- **UMAP & PCA** — dimensionality reduction on 13 MFCC coefficients → 2D
-- **Mann-Whitney U tests** — non-parametric statistical comparison between groups
-- **Plotly & ipywidgets** — interactive visualizations with on-click audio playback
-- **GitHub Actions** — automated deployment of Jupyter Book to GitHub Pages
+- **librosa** - audio signal processing and feature extraction
+- **UMAP & PCA** - dimensionality reduction on 13 MFCC coefficients → 2D
+- **Mann-Whitney U tests** - non-parametric statistical comparison between groups
+- **Plotly & ipywidgets** - interactive visualizations with on-click audio playback
+- **GitHub Actions** - automated deployment of Jupyter Book to GitHub Pages
 
-- **MyST Markdown** — structured scientific web publishing
+- **MyST Markdown** - structured scientific web publishing
 
 ### Deliverables
 The results of my project was mostly:
 1. Reproducible audio feature extraction pipeline (`01_extraction.ipynb`) with JSON outputs per sound
-2. Static visualization notebook (`02_visualization.ipynb`) — boxplots, PCA, K-Means clustering
+2. Static visualization notebook (`02_visualization.ipynb`) - boxplots, PCA, K-Means clustering
 3. Interactive exploration notebooks:
-   - `03a_dimensionality_reduction.ipynb` — PCA, UMAP, t-SNE
-   - `03b_individual_sound.ipynb` — waveform, spectrogram, audio playback
-   - `03c_feature_comparison.ipynb` — feature scatter plots, click to listen
-   - `03d_statistical_comparaison.ipynb` — boxplots, Mann-Whitney tests
+   - `03a_dimensionality_reduction.ipynb` - PCA, UMAP, t-SNE
+   - `03b_individual_sound.ipynb` - waveform, spectrogram, audio playback
+   - `03c_feature_comparison.ipynb` - feature scatter plots, click to listen
+   - `03d_statistical_comparaison.ipynb` - boxplots, Mann-Whitney tests
 4. Jupyter Book site deployed on GitHub Pages with Binder integration
 5. Structured GitHub repository with README (MIT license, v1.0.0)
 
