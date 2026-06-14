@@ -5,7 +5,7 @@ date: "2026-06-14" # Date you first upload your project.
 title: "When the null is the finding: sgACC functional connectivity in Alzheimer's disease"
 
 # List the names of the collaborators within the [ ]. If alone, simple put your name within []
-names: [Zaki Ul Haq, Michael Cheng, Jino Lim, Lyanne Zhang]
+names: [Zaki Ul Haq, Michael Cheng, Jino Lim, Lyanne Zhang, Gabriella Abdi, Rehan Rehman]
 
 # Your project GitHub repository URL
 github_repo: https://github.com/JinoTyped/alzheimers-fc-brainhack
