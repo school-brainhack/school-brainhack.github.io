@@ -1,6 +1,6 @@
 ---
 type: "project" 
-date: "2026-06-12" # Date you first uploaded your project.
+date: "2026-06-12" # D
 # Title of your project (we like creative titles)
 title: "Classifying Autism Spectrum Disorder Using Functional Brain Connectivity"
 
@@ -10,13 +10,13 @@ names: [Issac Liu, Arshdeep]
 # Your project GitHub repository URL
 github_repo: https://github.com/brainhack-school2026/ASD_Classification
 
-# If you are working on a project that has a website, indicate the full url including "https://" below or leave it empty.
+
 website:
 
 # List +- 4 keywords that best describe your project within []. Please only lowercase letters.
 tags: [asd, fmri, functional connectivity, machine learning, abide]
 
-# Summarize your project in < ~75 words. This description will appear at the top of your page and on the list page with other projects.
+# Summarize your project i
 summary: "This project uses resting-state fMRI data from the ABIDE dataset to classify individuals with Autism Spectrum Disorder (ASD) from typically developing (TD) controls using functional brain connectivity features and machine learning classifiers. Three classifiers (Ridge, SVC, MLP) were trained on correlation-based connectivity matrices derived from 116 brain regions, achieving up to 64% accuracy, validated with permutation testing."
 
 # If you want to add a cover image (listpage and image on the right), add it to your directory and indicate the name below with the extension.
