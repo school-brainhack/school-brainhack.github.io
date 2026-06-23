@@ -1,0 +1,131 @@
+---
+type: project
+date: 2026-06-26
+title: Classifying Autism Spectrum Disorder Using Functional Brain Connectivity
+names:
+  - Issac Liu
+  - Arshdeep
+github_repo: https://github.com/brainhack-school2026/ASD_Classification
+tags:
+  - ASD
+  - fMRI
+  - functional connectivity
+  - machine learning
+  - ABIDE
+summary: >
+  This project uses resting-state fMRI data from the ABIDE dataset to classify
+  individuals with Autism Spectrum Disorder (ASD) from typically developing (TD)
+  controls using functional brain connectivity features and machine learning classifiers.
+image: fmri-autism.jpg
+---
+
+## Project definition
+
+### Background
+
+Autism Spectrum Disorder (ASD) is a neurodevelopmental condition associated with
+differences in how brain regions communicate with each other. Neuroimaging
+studies have reported that individuals with ASD show atypical functional and
+structural connectivity compared to typically developing (TD) individuals.
+
+In this project, we use resting-state functional MRI (rs-fMRI) data from the
+Autism Brain Imaging Data Exchange (ABIDE) to test whether whole-brain
+functional connectivity patterns can distinguish ASD from TD participants using
+supervised machine learning.
+
+![Illustration of fMRI autism connectivity](fmri-autism.jpg)
+
+### Tools
+
+We used the following tools and libraries:
+
+- Python (Jupyter Notebook) for all analysis
+- Nilearn to fetch ABIDE data and compute functional connectivity
+- Scikit-learn for machine learning models and evaluation
+- NumPy and Pandas for data handling
+- Matplotlib and Seaborn for visualisation
+- Git and GitHub for version control and collaboration
+
+### Data
+
+We used the preprocessed ABIDE dataset (PCP CPAC pipeline), accessed through
+`nilearn.datasets.fetch_abide_pcp` with the following settings:
+
+- **Subjects:** 752 participants (346 ASD, 406 TD)
+- **Age range:** 6-25 years
+- **Sites:** 20 acquisition sites worldwide
+- **Atlas:** AAL atlas with 116 regions of interest (ROIs)
+- **Input features:** Resting-state time series for each ROI per subject
+
+From these time series, we computed functional connectivity as the Pearson
+correlation between every pair of ROIs, yielding a 116x116 correlation matrix
+per subject, resulting in 6,670 unique connectivity features per subject.
+
+### Deliverables
+
+Our main deliverables are:
+
+- A reproducible Jupyter notebook: `ABIDE_classification.ipynb`
+- A functional connectivity feature matrix of shape (752, 6670)
+- Trained classifiers (SVC, Ridge Classifier, MLP) and their evaluation metrics
+- Visualisations of connectivity matrices and model performance
+- This project report integrated into the BrainHack School website
+
+## Results
+
+### Progress overview
+
+We implemented an end-to-end pipeline:
+
+1. **Subject selection:** Loaded 752 subjects (ages 6-25) from ABIDE
+2. **Data fetching:** Used Nilearn to download preprocessed ABIDE data
+3. **Feature construction:** Computed correlation-based functional connectivity, resulting in a (752, 6670) feature matrix
+4. **Train-test split:** 80/20 stratified split
+5. **Model training:** Trained SVC, Ridge Classifier, and MLP
+6. **Evaluation:** Accuracy, F1-score, confusion matrices, and permutation testing
+
+### Tools and skills learned
+
+During this project we learned:
+
+- How to work with large, multi-site neuroimaging datasets (ABIDE) using Nilearn
+- How to compute and interpret functional connectivity matrices from rs-fMRI
+- How to build and evaluate machine learning pipelines in scikit-learn
+- How to use permutation testing to assess statistical significance
+- Good practices for open and reproducible science with Git and GitHub
+
+### Classifier performance
+
+| Classifier       | Accuracy | Notes                                |
+|------------------|----------|--------------------------------------|
+| Ridge Classifier | ~64%     | Best performer; optimal alpha = 1000 |
+| SVC              | ~60%     | Standard RBF SVC                     |
+| MLP              | ~56%     | Single hidden layer (300 neurons)    |
+
+All models were validated with permutation testing (100 permutations),
+confirming results were statistically significant (p < 0.01).
+
+### Interpretation
+
+These results suggest that whole-brain functional connectivity patterns contain
+information that partly distinguishes ASD from TD individuals. The moderate
+accuracy (~64%) reflects challenges including high dimensionality, multi-site
+variability, and the heterogeneity of ASD as a spectrum condition.
+
+## Conclusion and acknowledgement
+
+This project demonstrates a fully reproducible pipeline using open neuroimaging
+data (ABIDE), functional connectivity features, and machine learning to classify
+ASD vs TD participants. Our best model (Ridge Classifier, alpha=1000) achieved
+around 64% accuracy, supporting the idea that ASD is associated with altered
+brain connectivity.
+
+### Limitations and future directions
+
+- **High dimensionality:** Feature selection or PCA could improve performance
+- **Multi-site variability:** Site effects are not explicitly harmonised
+- **ASD heterogeneity:** Subtype information was not used
+- **Model simplicity:** More advanced methods could be explored
+
+We thank the ABIDE consortium for making this dataset available, and the
+BrainHack School organisers and mentors for their guidance and support.
