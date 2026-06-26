@@ -1,8 +1,0 @@
-nibabel
-jupytext
-notebook
-rise
-nilearn
-matplotlib
-transforms3d
-pytest

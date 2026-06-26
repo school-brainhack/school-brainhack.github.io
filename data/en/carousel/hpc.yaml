@@ -1,8 +1,0 @@
-weight: 1
-title: "High performance computing"
-description: >
-  <ul class="list-style-none">
-    <li>Distributed computing</li>
-    <li>Big data</li>
-  </ul>
-image: "img/carousel/fig_hpc.png"
