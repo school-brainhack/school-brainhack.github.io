@@ -196,3 +196,5 @@ Jardri, R., Pouchet, A., Pins, D., & Thomas, P. (2011). Cortical activations dur
 Shinn, A. K., Baker, J. T., Cohen, B. M., & Öngür, D. (2013). Functional connectivity of left Heschl’s gyrus in vulnerability to auditory hallucinations in schizophrenia. Schizophrenia Research, 143(2–3), 260–268.
 
 Soler-Vidal, J., Fuentes-Claramonte, P., Salgado-Pineda, P., Ramiro, N., García-León, M. Á., Torres, M. L., Arévalo, A., Guerrero-Pedraza, A., Munuera, J., Sarró, S., Salvador, R., Hinzen, W., McKenna, P., & Pomarol-Clotet, E. (2022). Brain correlates of speech perception in schizophrenia patients with and without auditory hallucinations. PLOS ONE, 17(12).
+
+Cover image courtesy of the National Cancer Institute.
