@@ -1,6 +1,6 @@
 ---
 type: "project" # DON'T TOUCH THIS ! :)
-Date: "2026-06-26" # Date you first upload your project.
+date: "2026-06-26" # Date you first upload your project.
 # Title of your project (we like creative title)
 title: "Can brain structure and Thyroid Stimulating Hormone levels predict cognitive performance? Prediction models and SHAP-based variable contribution analyses?"
 
@@ -15,11 +15,11 @@ website:
 
 # List +- 4 keywords that best describe your project within []. Note that the project summary also involves a number of key words. Those are listed on top of the [github repository](https://github.com/brainhack-school2023/JDaoust_project.git), click `manage topics`.
 # Please only lowercase letters
-tags: [cognition, thyroid, sex, sMRI]
+tags: [cognition, thyroid, sex, smri]
 
 # Summarize your project in < ~75 words. This description will appear at the top of your page and on the list page with other projects..
 
-summary: "Thyroid hormone levels potentially impacts cortical structures and cognitive performance. This project aims to investigate if TSH levels and cortical structure can predict cognitive performance for executive function, attention, and working memory using Elastic Net Regression ."
+summary: "Thyroid hormone levels potentially impact cortical structures and cognitive performance. This project aims to investigate if TSH levels and cortical structure can predict cognitive performance for executive function, attention, and working memory using Elastic Net Regression."
 
 # If you want to add a cover image (listpage and image in the right), add it to your directory and indicate the name
 # below with the extension.
@@ -32,7 +32,7 @@ image: "project_image.png"
 
 Cognitive impairment is a leading cause for loss of functional independence in old age and often precedes cognitive disorders such as Alzheimer’s Disease (AD). Dementia is predicted to increase to 152.8 million cases by 2050 (1). However, more research is needed to identify modifiable factors to decrease risk of cognitive decline and dementia (2). 
 
-Thyroid hormones have an established role in the development and the maturation of the brain through neurogenesis, synaptogenesis, and myelination (3). However, the impact and the role of thyroid hormones on the adult brain is more unclear. There are conflicting findings of the impact of thyroid dysregulation on cognitive impairment (4). An association was found between the thyroid function and the cortical architecture in functional areas of the brain linked to neurodegeneration (5), suggesting a mechanistic link. In addition, thyroid function is known to modulate mood, and result in certain psychiatric conditions such as depression and bipolar disorder (6). Comorbid depression and sub-threshold hypothyroidism comorbidity was shown to result in reduced gray matter volume in the middle front gyrus and lower executive function performance (7). The middle front gyrus is also associated with working memory and attention, suggesting that these cognitive subdomains may also be impacted. Together, these suggest that thyroid function may modulate function in multiple cognitive domains through more than one pathway. 
+Thyroid hormones have an established role in the development and the maturation of the brain through neurogenesis, synaptogenesis, and myelination (3). However, the impact and the role of thyroid hormones on the adult brain is more unclear. There are conflicting findings of the impact of thyroid dysregulation on cognitive impairment (4). An association was found between the thyroid function and the cortical architecture in functional areas of the brain linked to neurodegeneration (5), suggesting a mechanistic link. In addition, thyroid function is known to modulate mood, and result in certain psychiatric conditions such as depression and bipolar disorder (6). Comorbid depression and sub-threshold hypothyroidism comorbidity was shown to result in reduced gray matter volume in the middle frontal gyrus and lower executive function performance (7). The middle frontal gyrus is also associated with working memory and attention, suggesting that these cognitive subdomains may also be impacted. Together, these suggest that thyroid function may modulate function in multiple cognitive domains through more than one pathway. 
 
 Thus, this research project seeks to answer the following questions:
 
@@ -108,7 +108,7 @@ Outcomes:
 
 (3) List Sorting Working Memory Task Score
 
-Predictors: log(TSH), sex, 68 CT residuals after adjusting for age and ISV, 68 SA residuals after adjusting for age and ISV
+Predictors: log(TSH), sex, 68 CT residuals after adjusting for age and ICV, 68 SA residuals after adjusting for age and ICV
 
 <br>
 
@@ -128,11 +128,11 @@ Outcome: Sex
 
 &emsp; **Model 3.3 (residualized and without log(TSH)**
 
-&emsp; Predictors: age, CT and SA residualized for age and CV
+&emsp; Predictors: age, CT and SA residualized for age and ICV
 
 &emsp; **Model 3.4 (residualized with log(TSH)**
 
-&emsp; Predictors: log(TSH), age, CT and SA residualized for age and CV
+&emsp; Predictors: log(TSH), age, CT and SA residualized for age and ICV
 
 
 ---
@@ -144,7 +144,7 @@ Across the cognition outcomes, neither elastic-net model showed meaningful held-
 
 SHAP outputs were generated to inspect variable contributions, but they should be interpreted cautiously because overall prediction performance was weak. Across the cognition models, log(TSH) showed no meaningful SHAP contribution. In the original working-memory model, age was the strongest SHAP contributor and ICV also contributed, but this result should be interpreted cautiously because the held-out prediction was very weak and convergence warnings occurred during fitting.
 
-For the rest cognition models, the highest SHAP values were mainly assigned to cortical thickness and surface-area features, including residualized CT/SA features in Mod2.
+For the rest of the cognition models, the highest SHAP values were mainly assigned to cortical thickness and surface-area features, including residualized CT/SA features in Mod2.
 
 ### Model 1 Performance Metrics
 
@@ -155,7 +155,7 @@ For the rest cognition models, the highest SHAP values were mainly assigned to c
 |EF_COMP | -0.003 | 0.813 | 0.679 |
 
 <br>
-<img width="1224" height="388" alt="image" src="https://github.com/user-attachments/assets/752591f2-ca2c-42d4-9e5a-7c96ec00a78a" />
+<img width="1224" height="388" alt="Model 1 performance" src="model1_performance.png" />
 
 ### Model 2 Performance Metrics
 
@@ -166,7 +166,7 @@ For the rest cognition models, the highest SHAP values were mainly assigned to c
 |EF_COMP | -0.015 | 0.818 | 0.682 |
 
 <br>
-<img width="1224" height="388" alt="image" src="https://github.com/user-attachments/assets/145afb36-56f6-41a3-a4a8-5903cca8df13" />
+<img width="1224" height="388" alt="Model 2 performance" src="model2_performance.png" />
 <br>
 
 Please see the full results in: [The performance metrics for the main models predicting cognitive performance for both the original and residualized](https://github.com/brainhack-school2026/TSH-predict-CogPerformance/blob/main/03_results/cognition/results.md)
@@ -180,7 +180,7 @@ Please see the full results in: [The performance metrics for the main models pre
 |Residualized | 0.535 | 0.518 | 0.507 |
 |Residualized + TSH | 0.536  |  0.523 | 0.510  |
 <br>
-<img width="448" height="540" alt="image" src="https://github.com/user-attachments/assets/79ba4d8d-be8f-4728-9787-f7e4453557f2" />
+<img width="448" height="540" alt="Model 3 ROC" src="model3_roc.png" />
 <br>
 
 Please see the full results in:  [The performance metrics for the sex predictive model](https://github.com/brainhack-school2026/TSH-predict-CogPerformance/blob/main/03_results/sex_classification_exercise/results.md)
@@ -198,7 +198,7 @@ In the original, non-residualized sex-classification models, ICV was the stronge
 In the residualized models, the highest SHAP values were assigned to age/ICV-residualized cortical thickness and surface-area features. However, these models performed close to chance, so the SHAP rankings should be interpreted cautiously. 
 
 
-## Discusssion
+## Discussion
 The main predictive models did not reliably predict cognitive performance. Across all outcomes, held-out R² values were near zero or negative, indicating no improvement over a baseline mean-prediction model. This suggests that the combination of TSH, age, sex, ICV, and cortical thickness/surface area did not provide meaningful predictive information for cognition in this dataset using elastic net regression.
 
 SHAP analyses were used to explore feature contributions, but given the weak model performance, these results should be interpreted as descriptive only. No variable, including log(TSH), showed a consistent or meaningful contribution to prediction across cognitive models. Variability in cortical feature importance likely reflects model instability under low signal conditions.
@@ -213,14 +213,13 @@ Overall, the results suggest that the lack of predictive performance in cognitiv
 ## References
 1) Nichols, E. et al. Estimation of the global prevalence of dementia in 2019 and forecasted prevalence in 2050: an analysis for the Global Burden of Disease Study 2019. Lancet Public Health 7, e105–e125 (2022).
 
-2) Rasmussen, J. & Langerman, H. <p>Alzheimer’s Disease – Why We Need Early Diagnosis</p>. Degener. Neurol. Neuromuscul. Dis. Volume 9, 123–130 (2019).
-Bernal J. Thyroid Hormones in Brain Development and Function. [Updated 2025 Sep 29]. In: Feingold KR, Adler RA, Ahmed SF, et al., editors. Endotext [Internet]. South Dartmouth (MA): MDText.com, Inc.; 2000-. Available from: https://www.ncbi.nlm.nih.gov/books/NBK285549/
+2) Rasmussen, J. & Langerman, H. Alzheimer’s Disease – Why We Need Early Diagnosis. Degener. Neurol. Neuromuscul. Dis. Volume 9, 123–130 (2019).
 
-3) Eslami-Amirabadi, M., & Sajjadi, S. A. (2021). The relation between thyroid dysregulation and impaired cognition/behaviour: An integrative review. Journal of neuroendocrinology, 33(3), e12948. https://doi.org/10.1111/jne.12948
+3) Bernal J. Thyroid Hormones in Brain Development and Function. [Updated 2025 Sep 29]. In: Feingold KR, Adler RA, Ahmed SF, et al., editors. Endotext [Internet]. South Dartmouth (MA): MDText.com, Inc.; 2000-. Available from: https://www.ncbi.nlm.nih.gov/books/NBK285549/
 
-4) Wu X, Liu H, Cui L, Mo M, Li C. Genetically determined thyroid function and cerebral cortex structure: A Mendelian randomization study. Adv Clin Exp Med. 2025 Nov;34(11):1863-1879. doi: 10.17219/acem/199321. PMID: 40699126.
+4) Eslami-Amirabadi, M., & Sajjadi, S. A. (2021). The relation between thyroid dysregulation and impaired cognition/behaviour: An integrative review. Journal of neuroendocrinology, 33(3), e12948. https://doi.org/10.1111/jne.12948
 
-5) Hendrick V, Altshuler L, Whybrow P. Psychoneuroendocrinology of mood disorders. The hypothalamic-pituitary-thyroid axis. Psychiatr Clin North Am. 1998 Jun;21(2):277-92. doi: 10.1016/s0193-953x(05)70005-8. PMID: 9670226.
+5) Wu X, Liu H, Cui L, Mo M, Li C. Genetically determined thyroid function and cerebral cortex structure: A Mendelian randomization study. Adv Clin Exp Med. 2025 Nov;34(11):1863-1879. doi: 10.17219/acem/199321. PMID: 40699126.
 
 6) Hendrick V, Altshuler L, Whybrow P. Psychoneuroendocrinology of mood disorders. The hypothalamic-pituitary-thyroid axis. Psychiatr Clin North Am. 1998 Jun;21(2):277-92. doi: 10.1016/s0193-953x(05)70005-8. PMID: 9670226.
 
