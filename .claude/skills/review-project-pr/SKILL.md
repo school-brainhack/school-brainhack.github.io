@@ -1,85 +1,66 @@
 ---
 name: review-project-pr
-description: [TODO: Complete and informative explanation of what the skill does and when to use it. Include WHEN to use this skill - specific scenarios, file types, or tasks that trigger it.]
+description: This skill should be used when the user asks to review a Brainhack School pull request by number (e.g., "/review-project-pr 437" or "review PR 437"). It checks that the PR builds with Hugo, that images are not too heavy, that no stray files (notebooks, data) were added, that the frontmatter date is credible, that links work, and that the content has no typos or leftover garbage. It produces a review report in chat plus a local hugo serve link to inspect the rendered project page. Local-only — it never posts to GitHub.
 ---
 
-# Review Project Pr
+# Review a Brainhack School project PR
 
-## Overview
+Review a student-project PR against the site's conventions and produce a report the user can copy into PR feedback. Everything stays local: never comment on the PR, never push, never modify the main working tree.
 
-[TODO: 1-2 sentences explaining what this skill enables]
+## Environment facts
 
-## Structuring This Skill
+- Main repo: `/home/pbellec/git/school-brainhack.github.io` (remote `origin` = the upstream `school-brainhack` repo).
+- Use the pinned Hugo at `~/git/brainhack-pr-review/bin/hugo` (extended 0.128.0, same version as CI; `run_checks.sh` auto-downloads it). Do NOT use `/usr/bin/hugo` (0.92, too old) or `/snap/bin/hugo` (0.164, rejects a duplicate YAML key in `config.yaml` that CI tolerates).
+- Worktrees do not contain the theme submodule; always pass `--themesDir /home/pbellec/git/school-brainhack.github.io/themes` to hugo.
 
-[TODO: Choose the structure that best fits this skill's purpose. Common patterns:
+## Workflow
 
-**1. Workflow-Based** (best for sequential processes)
-- Works well when there are clear step-by-step procedures
-- Example: DOCX skill with "Workflow Decision Tree" → "Reading" → "Creating" → "Editing"
-- Structure: ## Overview → ## Workflow Decision Tree → ## Step 1 → ## Step 2...
+### 1. Fetch the PR into an isolated worktree
 
-**2. Task-Based** (best for tool collections)
-- Works well when the skill offers different operations/capabilities
-- Example: PDF skill with "Quick Start" → "Merge PDFs" → "Split PDFs" → "Extract Text"
-- Structure: ## Overview → ## Quick Start → ## Task Category 1 → ## Task Category 2...
+```bash
+bash .claude/skills/review-project-pr/scripts/setup_pr_worktree.sh <PR#>
+```
 
-**3. Reference/Guidelines** (best for standards or specifications)
-- Works well for brand guidelines, coding standards, or requirements
-- Example: Brand styling with "Brand Guidelines" → "Colors" → "Typography" → "Features"
-- Structure: ## Overview → ## Guidelines → ## Specifications → ## Usage...
+This creates `~/git/brainhack-pr-review/pr-<n>` and prints the files changed vs `origin/main`. Also grab metadata:
 
-**4. Capabilities-Based** (best for integrated systems)
-- Works well when the skill provides multiple interrelated features
-- Example: Product Management with "Core Capabilities" → numbered capability list
-- Structure: ## Overview → ## Core Capabilities → ### 1. Feature → ### 2. Feature...
+```bash
+gh pr view <PR#> --json title,author,createdAt,body,url
+```
 
-Patterns can be mixed and matched as needed. Most skills combine patterns (e.g., start with task-based, add workflow for complex operations).
+### 2. Run the mechanical checks
 
-Delete this entire "Structuring This Skill" section when done - it's just guidance.]
+```bash
+bash .claude/skills/review-project-pr/scripts/run_checks.sh ~/git/brainhack-pr-review/pr-<n>
+```
 
-## [TODO: Replace with the first main section based on chosen structure]
+This prints `[BUILD]`, `[IMAGES]`, `[STRAY]`, and `[LINKS]` sections with PASS/WARN/FAIL lines. Interpret them; downgrade link FAILs to WARN when the site is known to block bots.
 
-[TODO: Add content here. See examples in existing skills:
-- Code samples for technical skills
-- Decision trees for complex workflows
-- Concrete examples with realistic user requests
-- References to scripts/templates/references as needed]
+### 3. Qualitative review
 
-## Resources
+Read `references/checklist.md` for the full rubric, then read the PR's `index.md` in the worktree and check:
 
-This skill includes example resource directories that demonstrate how to organize different types of bundled resources:
+- **Date credibility**: frontmatter `date:` vs the PR's `createdAt` and the current school edition.
+- **Frontmatter conventions**: `type: "project"`, lowercase tags, ~75-word summary, `image:` file exists, hyphenated slug.
+- **Internal links/images**: relative references in `index.md` resolve, and the built page under `<worktree>/public/project/<slug>/` contains them.
+- **Typos**: genuine misspellings/grammar errors with locations — not style nits.
+- **Garbage**: leftover template text, duplicated blocks, broken shortcodes, merge-conflict markers, secrets, unrelated content.
 
-### scripts/
-Executable code (Python/Bash/etc.) that can be run directly to perform specific operations.
+### 4. Serve the preview
 
-**Examples from other skills:**
-- PDF skill: `fill_fillable_fields.py`, `extract_form_field_info.py` - utilities for PDF manipulation
-- DOCX skill: `document.py`, `utilities.py` - Python modules for document processing
+Kill any previous preview, then start hugo serve in the background on port 1414 (1313 is left free for the user's own serve):
 
-**Appropriate for:** Python scripts, shell scripts, or any executable code that performs automation, data processing, or specific operations.
+```bash
+pkill -f "hugo serve.*1414" 2>/dev/null
+cd ~/git/brainhack-pr-review/pr-<n> && ~/git/brainhack-pr-review/bin/hugo serve --port 1414 --bind 127.0.0.1 \
+  --themesDir /home/pbellec/git/school-brainhack.github.io/themes
+```
 
-**Note:** Scripts may be executed without loading into context, but can still be read by Claude for patching or environment adjustments.
+Run it with `run_in_background: true`. Determine the slug's rendered URL path (Hugo lowercases it) and include `http://localhost:1414/project/<slug>/` in the report.
 
-### references/
-Documentation and reference material intended to be loaded into context to inform Claude's process and thinking.
+### 5. Report
 
-**Examples from other skills:**
-- Product management: `communication.md`, `context_building.md` - detailed workflow guides
-- BigQuery: API reference documentation and query examples
-- Finance: Schema documentation, company policies
+Use the report template at the end of `references/checklist.md`: lead with an overall verdict (✅ / ⚠️ / ❌), then a summary table, then findings written so they can be copy-pasted as PR feedback, then the preview link.
 
-**Appropriate for:** In-depth documentation, API references, database schemas, comprehensive guides, or any detailed information that Claude should reference while working.
+## Cleanup
 
-### assets/
-Files not intended to be loaded into context, but rather used within the output Claude produces.
-
-**Examples from other skills:**
-- Brand styling: PowerPoint template files (.pptx), logo files
-- Frontend builder: HTML/React boilerplate project directories
-- Typography: Font files (.ttf, .woff2)
-
-**Appropriate for:** Templates, boilerplate code, document templates, images, icons, fonts, or any files meant to be copied or used in the final output.
-
----
-
-**Any unneeded directories can be deleted.** Not every skill requires all three types of resources.
+Reviewing the same PR again refreshes the same worktree automatically. To clean up manually: `git worktree remove --force ~/git/brainhack-pr-review/pr-<n>` from the main repo.
