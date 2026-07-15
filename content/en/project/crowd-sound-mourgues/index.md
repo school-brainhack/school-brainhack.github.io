@@ -7,6 +7,7 @@ github_repo: https://github.com/brainhack-school2026/Mourgues_Project
 website: https://brainhack-school2026.github.io/Mourgues_Project/
 tags: [audio, visualization, acoustics, jupyter, python]
 summary: "An interactive and reproducible framework for organizing, visualizing, and acoustically analyzing crowd sound stimuli. Features include automated feature extraction, dimensionality reduction (PCA, UMAP), statistical group comparison, and interactive audio exploration with waveform and spectrogram visualization."
+image: "project_image.png"
 
 ---
 
@@ -86,7 +87,7 @@ At the end of this project, these files will be made available:
 - **MyST Markdown** - structured scientific web publishing
 
 ### Deliverables
-The results of my project was mostly:
+The results of my project were mostly:
 1. Reproducible audio feature extraction pipeline (`01_extraction.ipynb`) with JSON outputs per sound
 2. Static visualization notebook (`02_visualization.ipynb`) - boxplots, PCA, K-Means clustering
 3. Interactive exploration notebooks:
