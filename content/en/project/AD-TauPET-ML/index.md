@@ -15,11 +15,11 @@ website:
 
 # List +- 4 keywords that best describe your project within []. Note that the project summary also involves a number of key words. Those are listed on top of the [github repository](https://github.com/PSY6983-2021/project_template), click `manage topics`.
 # Please only lowercase letters
-tags: [alzheimer, data analysis, machine learning, prediction, pet]
+tags: [alzheimer, data-analysis, machine-learning, prediction, pet]
 
 # Summarize your project in < ~75 words. This description will appear at the top of your page and on the list page with other projects..
 
-summary: "This project is a complete and reproducible ML pipeline using data from the **Alzheimer's Disease Neuroimaging Initiative (ADNI)** to: Predict tau PET SUVR as a continuous outcome, predict tau positivity as a binary outcome (classify participants as tau-positive or tau-negative), and identify which predictors drive model performance using SHAP explainability"
+summary: "This project is a complete and reproducible ML pipeline using data from the Alzheimer's Disease Neuroimaging Initiative (ADNI) to: Predict tau PET SUVR as a continuous outcome, predict tau positivity as a binary outcome (classify participants as tau-positive or tau-negative), and identify which predictors drive model performance using SHAP explainability"
 
 # If you want to add a cover image (listpage and image in the right), add it to your directory and indicate the name
 # below with the extension.
