@@ -5,7 +5,7 @@ type: "modules" # DON'T TOUCH THIS ! :)
 title: "Software testing and continuous integration"
 
 # Your project GitHub repository URL
-github_repo: "https://github.com/gkiar/intro2testing"
+github_repo: "https://github.com/school-brainhack/testing_CI_module"
 
 # If you are working on a project that has website, indicate the full url including "https://" below or leave it empty.
 website:
@@ -32,11 +32,15 @@ The prerequisites to take this module are:
  * the [Using git and github](/modules/git_github) module.
  * the [A brief introduction to the bash shell](/modules/introduction_to_terminal) module.
 
-It is highly recommended to also have done the [python script](/modules/python_scripts) module, but that's not strictly necessary.
+It is highly recommended to also have done the [python script](/modules/python_scripts) module and the [packaging](/modules/packaging) module, but that's not strictly necessary for completing the exercise.
 
 If you have any questions regarding the module content please ask them in the relevant module channel on the school Discord server. If you do not have access to the server and would like to join, please send us an email at school [dot] brainhack [at] gmail [dot] com.
 
 ## Resources
+
+The new slides presented by [Hao-Ting Wang](https://wanghaoting.com/) is [here](https://wanghaoting.com/testing-and-ci/#1) and presented at Brainhack School Montreal 2025.
+
+The previous content is as followed:
 The [slides](https://drive.google.com/file/d/1M3nr4D0-cPCjHjL23vk-BXth2TqHshtj/view?usp=sharing) are adapted from the original QLSC 612 course in 2020 by [Greg Kiar](https://twitter.com/g_kiar)
 
 The video of the presentation is available below:
@@ -46,11 +50,9 @@ The video of the presentation is available below:
 ## Exercise
 
  * Fork [this repo](https://github.com/school-brainhack/testing_CI_module) for the hands on part.
- * Watch the video, and follow along the hands on material. You will implement the unit tests and the github action to execute the unit test.
+ * Follow along the hands on material. You will implement the unit tests and the github action to execute the unit test and integration test.
  * Follow up with your local TA(s) to validate you completed the exercises correctly.
  * :tada: :tada: :tada: you completed this training module! :tada: :tada: :tada:
-
- **Bonus and addendum** : During the first part of the video I said we would implement unit tests, an integration test and an installation test. I forgot about the integration test during the hands on so I leave it to you as a bonus exercise, which corresponds to writing a test for the main function, since it integrates the other three functions. For the installation test, this one comes for free with the github action, as the action runs in a virtual machine and has to re-install the dependencies each time. 
 
 ## More resources
 
